@@ -1,0 +1,135 @@
+{
+  "business": "Jobsite Intelligence (working name, Asterfield Group)",
+  "reviewed": false,
+  "note": "Draft rules for the second business. Same schema as ASI's ops/rules.json (Validator_Rules.json in the brainstorm pack), so ASI's validator can be pointed at it; whether scripts/asi_ops.py takes a rules path is unverified (that script is in the Austin-Signage repo). Sender aliases are placeholders until the user picks them. The tracker wins over this file once one exists.",
+  "senders": {
+    "Austin": {
+      "from": "sites@asterfieldgroup.com",
+      "display": "Austin Jobsite Intelligence"
+    },
+    "Houston": {
+      "from": "sites-houston@asterfieldgroup.com",
+      "display": "Houston Jobsite Intelligence"
+    },
+    "DFW": {
+      "from": "sites-dfw@asterfieldgroup.com",
+      "display": "DFW Jobsite Intelligence"
+    },
+    "San Antonio": {
+      "from": "sites-sa@asterfieldgroup.com",
+      "display": "San Antonio Jobsite Intelligence"
+    }
+  },
+  "signature_template": "{display}\nAsterfield Group\n{from}",
+  "standard_price_line": "The sample costs nothing; after it, our 30-day pilot is a one-time $500 for 15–20 verified projects, with no subscription.",
+  "price_rules": {
+    "S1": {
+      "exact": "standard_price_line"
+    },
+    "E1": {
+      "all_of": [
+        "$500",
+        "no subscription"
+      ]
+    }
+  },
+  "thread_required_stages": [
+    "S2",
+    "S5",
+    "E1",
+    "E2",
+    "E3"
+  ],
+  "attachment_required_stages": [
+    "E1"
+  ],
+  "banned_phrases": [
+    "construction started",
+    "construction has started",
+    "construction began",
+    "construction has begun",
+    "construction is underway",
+    "work is underway",
+    "work has begun",
+    "under construction",
+    "broke ground",
+    "broken ground",
+    "groundbreaking",
+    "site is active",
+    "mobilized",
+    "clearing has begun",
+    "tceq approved",
+    "approved the project",
+    "permitted the project",
+    "no hauler",
+    "no vendor",
+    "vendor has not been",
+    "hasn't chosen",
+    "has not chosen",
+    "not yet selected",
+    "unselected",
+    "accepting quotes",
+    "taking bids",
+    "open for bid",
+    "needs a dumpster",
+    "needs dumpsters",
+    "needs portable",
+    "will need",
+    "on behalf of",
+    "referred by",
+    "we represent",
+    "working with the",
+    "out of compliance",
+    "violation",
+    "required to use",
+    "exclusive",
+    "before anyone else",
+    "first to know",
+    "guaranteed",
+    "acres",
+    "homeowners",
+    "homebuyers",
+    "residents",
+    "your own project",
+    "your own job",
+    "quick call",
+    "hop on a call",
+    "jump on a call",
+    "schedule a call",
+    "set up a call",
+    "give you a call",
+    "phone call"
+  ],
+  "banned_addresses": [],
+  "refund_word": "refund",
+  "refund_allowed": {
+    "note": "No refund exceptions in this business.",
+    "emails": [],
+    "domains": [],
+    "companies": []
+  },
+  "max_s1_per_day": 20,
+  "max_total_per_day": 60,
+  "pace_note": "Shares the 60-a-day mailbox cap with ASI until the user decides otherwise (tracker rule: no new sending domains until the first paying client). The test batch is 20 S1s.",
+  "status_rules": {
+    "S1": ["Not contacted"],
+    "S2": ["S1 sent"],
+    "S5": ["S1 sent"],
+    "E1": ["Replied"],
+    "E2": ["Replied"],
+    "E3": ["Replied"]
+  },
+  "short_sequence": {
+    "from_s1_date": "2026-10-14",
+    "stages": ["S1", "S2", "S5"],
+    "note": "Same short sequence as ASI batches from Oct 12: S1, S2 (+2 business days), S5 (+13)."
+  },
+  "cross_business_conflict": {
+    "note": "Before any draft: check the company against ASI's master list, trade list and do_not_contact.csv (one company, one sequence across both businesses), and check the site's address and RN against ASI hook packets and samples."
+  },
+  "footer": {
+    "stages": ["S1", "S2", "S5"],
+    "text": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+    "address": ""
+  }
+}
