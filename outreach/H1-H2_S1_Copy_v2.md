@@ -5,7 +5,7 @@ Written October 14, 2026 from `docs/Outreach_Copy_v2.md` (S1, Tier B). Same 19 h
 
 **Not ready to send:** the `[MAILING ADDRESS]` footer line is still pending from the user and must be added under the opt-out line in every body before drafting. Two rows are excluded and marked SKIP (ops, Oct 14). Subject lines use the ops tool's `- Subject:` format; the A/B arm is on the `- Subject arm:` line under it. Before drafting: re-open each site's source URL, confirm the hauler's site still lists the services named, run the ASI conflict check, and run `check_copy.py`.
 
-## 1. H1: City Waste LP
+## 1. H1: City Waste LP (SKIP: S1 sent Oct 14 with the v1 text, see ops/queue/JI-H1-S1-sent-v1.json)
 - To: sales@city-waste.com (A)
 - Subject: Central Office Annex
 - Subject arm: A

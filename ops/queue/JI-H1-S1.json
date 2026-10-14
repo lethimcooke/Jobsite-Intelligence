@@ -5,27 +5,17 @@
   "source": "outreach/H1-H2_S1_Copy_v2.md",
   "section": null,
   "title_prefix": "H1",
-  "source_sha256": "0cdf0da55eeaf0d1bc79cead2ffb21e20e0f776afc9a5264f591f27f4eeb9115",
+  "source_sha256": "97bb7e6728f70c26bb2aaf182d7312a7e6d5a86bd47fa41c849a2dc009971ab7",
   "packet": null,
-  "created_at": "2026-10-14T18:49:45+00:00",
+  "created_at": "2026-10-14T18:52:36+00:00",
   "records": [
     {
       "id": "JI-H1-S1-01",
       "seq": 1,
       "batch": "JI-H1",
-      "company": "City Waste LP",
-      "city": "Houston",
-      "stage": "S1",
-      "from": "sites@asterfieldgroup.com",
-      "to": "sales@city-waste.com",
-      "subject": "Central Office Annex",
-      "body": "Hi City Waste team,\n\nTCEQ's Central Registry lists a construction stormwater authorization (TXR154490) dated September 24 for Central Office Annex at 1617 Lauder Rd, Houston in Harris County. The operator on file is Nupi Americas Inc.\n\nIt's about 7 miles from your Houston yard, and an industrial job like this is the kind your roll-off containers serve; that's our read, not the filing.\n\nWe're a research service with no tie to the project. The sample costs nothing; after it, our 30-day pilot is a one-time $500 for 15–20 verified projects, with no subscription.\n\nWant five sites like this near your yard, free?\n\nHouston Jobsite Intelligence\nAsterfield Group\nsites@asterfieldgroup.com",
-      "reply_to_message_id": null,
-      "attachments": [],
-      "hook_type": "",
-      "status": "queued",
-      "draft": null,
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "company": "City Waste LP (SKIP: S1 sent Oct 14 with the v1 text, see ops/queue/JI-H1-S1-sent-v1.json)",
+      "status": "skipped",
+      "skip_reason": "City Waste LP (SKIP: S1 sent Oct 14 with the v1 text, see ops/queue/JI-H1-S1-sent-v1.json)"
     },
     {
       "id": "JI-H1-S1-02",

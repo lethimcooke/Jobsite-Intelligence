@@ -35,23 +35,26 @@ draft and `JI/` labels. Labels (created Oct 14): `JI/Send manually` (Label_6), `
 
 | Batch | Metro | Copy file | Rows | Status |
 |---|---|---|---|---|
-| JI-H1 | Houston | outreach/H1-H2_S1_Copy_v2.md (H1) | 10 (Red Dog Dumpsters SKIP, 9 queued) | Requeued Oct 14 from copy v2 (user: send v2 through the tool; subjects reformatted to `- Subject:` with the A/B arm on `- Subject arm:`). Planned for Oct 15: all 9. Validate PASS for 2026-10-15. Not drafted: waiting for the DRY_RUN pass, LIVE go-ahead and the mailing address |
-| JI-H2 | Houston | outreach/H1-H2_S1_Copy_v2.md (H2) | 9 (Waste Falcon SKIP, 8 queued) | Same. Planned for Oct 15: 6 (Astro, Moffitt, OP Enterprises, Jet, Sustainable Disposal Bins, Z Sites); deferred to Oct 16: Hercules, Essential Waste |
+| JI-H1 | Houston | outreach/H1-H2_S1_Copy_v2.md (H1) | 10: City Waste sent Oct 14 (v1 text), Red Dog SKIP, 8 queued | Validate PASS for 2026-10-15; planned Oct 15: all 8. Not drafted: waiting for the DRY_RUN pass, LIVE go-ahead and the mailing address |
+| JI-H2 | Houston | outreach/H1-H2_S1_Copy_v2.md (H2) | 9: Waste Falcon SKIP, 8 queued | Validate PASS for 2026-10-15; planned Oct 15: 7; deferred to Oct 16: Essential Waste Solutions |
 
 ## Plan
 
-- **Oct 15 (first send):** 15 S1s (JI-H1 all 9, JI-H2 first 6), Jobsite's full daily share. **Oct 16:** the 2 deferred S1s, then S2s start Oct 17 (S1 + 2 business days).
+- **Oct 15:** 15 S1s (JI-H1 8, JI-H2 7), Jobsite's full daily share. **Oct 16:** Essential Waste Solutions S1, plus City Waste S2 (copy still to be written; threaded on its Oct 14 S1). S2s for Oct 15 S1s are due Oct 17.
 - The A/B subject arm is in the copy file per row; log it with each send in `outreach_results.csv` notes.
 
 ## Send log
 
 | Date | Batch | Stage | Sent | Evidence | Notes |
 |---|---|---|---|---|---|
+| 2026-10-14 13:32 CT | JI-H1 | S1 | 1: City Waste LP (sales@city-waste.com) | Sent 1a13bb05fcc96d4f, thread 1a13ba7b4a2819dd; `ops/evidence/2026-10-14_JI-H1.json`; queue `ops/queue/JI-H1-S1-sent-v1.json` | Sent by mistake: an ASI test manifest made while the sender was LIVE. Approved v1 text, from sites@ as Houston Jobsite Intelligence, without the mailing-address line (still pending). Kit v2 adds `dry_run_only` to every manifest so tests can't send. S2 due Oct 16. |
 
 ## Engaged prospects
 
 | Company | First reply | Last touch | Next touch | Notes |
 |---|---|---|---|---|
+
+- **Tests:** any test manifest is made with `ji_ops.py manifest ... --dry-run-only`; the sender only sends from manifests marked `"dry_run_only": false`.
 
 ## Manifest drafts (the only ones Jobsite may delete)
 

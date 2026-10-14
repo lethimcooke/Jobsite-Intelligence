@@ -119,6 +119,9 @@ class SharedMailbox(Base):
         self.assertIn("blocked.com", m["dnc_domains"])
         subject, _ = ops.manifest_draft(m)
         self.assertTrue(subject.startswith("ASI-MANIFEST v1 2026-10-15 "))   # the shared sender's format
+        self.assertIs(m["dry_run_only"], False)
+        test = ops.build_manifest([("q", {"records": [r]})], RULES, self.d, "2026-10-15", dry_run_only=True)
+        self.assertIs(test["dry_run_only"], True)   # a test manifest is only checked, never sent
 
     def test_manifest_refuses_engaged_and_unrecorded(self):
         r = {**self.row, "status": "drafted", "draft": None}

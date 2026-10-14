@@ -306,6 +306,11 @@ function unionDnc_(manifests) {
   return { dnc_emails: emails, dnc_domains: domains };
 }
 
+/** True when this run may only check and log the manifest's emails: DRY_RUN, or a test manifest. */
+function checkOnly_(mode, man) {
+  return mode === 'DRY_RUN' || man.dry_run_only !== false;
+}
+
 function inWindow_(date, tz, fmt) {
   var dow = Number(fmt(date, tz, 'u'));          // 1 = Monday ... 7 = Sunday
   var hour = Number(fmt(date, tz, 'H'));
@@ -385,7 +390,13 @@ function runSender() {
         log_(mode, 'SKIP', e, reasons.join('; '), '');
         continue;
       }
-      if (mode === 'DRY_RUN') { log_(mode, 'WOULD SEND', e, '', ''); continue; }
+      // A manifest sends only if it says dry_run_only: false; a test manifest never sends, whatever MODE
+      // says (Oct 14: a LIVE run sent the City Waste test email).
+      if (checkOnly_(mode, man)) {
+        log_(mode, 'WOULD SEND', e, mode === 'DRY_RUN' ? '' : 'test manifest (not marked dry_run_only: false); not sent', '');
+        if (mode !== 'DRY_RUN') { state[e.outreach_id] = 'dry_run_only'; props.setProperty(key, JSON.stringify(state)); }
+        continue;
+      }
       if ((props.getProperty('MODE') || '') !== mode) return;          // kill switch flipped mid-run
       if (sends > 0) Utilities.sleep(CFG.GAP_MS[0] + Math.floor(Math.random() * (CFG.GAP_MS[1] - CFG.GAP_MS[0])));
       state[e.outreach_id] = 'sending';                                   // never retried blindly
@@ -526,6 +537,6 @@ if (typeof module !== 'undefined' && module.exports) {
     CFG: CFG, collapse_: collapse_, parseAddresses_: parseAddresses_, aliasInSignature_: aliasInSignature_, htmlToText_: htmlToText_,
     decodeManifest_: decodeManifest_, checkEntry_: checkEntry_, splitMime_: splitMime_, asciiBytes_: asciiBytes_,
     getHeader_: getHeader_, rawBytes_: rawBytes_, replaceFromHeader_: replaceFromHeader_, rewriteForTest_: rewriteForTest_, inWindow_: inWindow_,
-    orderEntries_: orderEntries_, sharedCaps_: sharedCaps_, unionDnc_: unionDnc_
+    orderEntries_: orderEntries_, sharedCaps_: sharedCaps_, unionDnc_: unionDnc_, checkOnly_: checkOnly_
   };
 }

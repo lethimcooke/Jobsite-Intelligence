@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Jobsite Intelligence outreach operations (copy of Austin-Signage scripts/asi_ops.py at 93386a3; the ASI repo owns the code, resync from there, change only via the user).
+"""Jobsite Intelligence outreach operations (copy of Austin-Signage scripts/asi_ops.py at 01d7453; the ASI repo owns the code, resync from there, change only via the user).
 
 Outreach operations: approved copy -> validated draft queue -> Gmail drafts -> evidence-backed logging.
 
@@ -608,7 +608,7 @@ def collapse(text):
     return re.sub(r"\s+", " ", text or "").strip()
 
 
-def build_manifest(queues, rules, data_dir, send_date, other=None):
+def build_manifest(queues, rules, data_dir, send_date, other=None, dry_run_only=False):
     """List every drafted cold email (S1-S5) the sender may send on send_date. Each record is
     re-validated; any error refuses the whole manifest. Engaged emails (E1-E3) are never listed."""
     lists, dnc = load_lists(data_dir, rules), load_dnc(data_dir)
@@ -660,6 +660,8 @@ def build_manifest(queues, rules, data_dir, send_date, other=None):
     return {
         "version": 1, "send_date": send_date, "created_at": now_iso(),
         "business": rules.get("business", ""),
+        # A test manifest: the sender checks and logs it but never sends from it, in any mode.
+        "dry_run_only": bool(dry_run_only),
         # max_total is the mailbox's total across both businesses; share is this business's part of it.
         "max_total": rules.get("max_total_per_day", 60), "max_s1": rules["max_s1_per_day"],
         "share": daily_share(rules),
@@ -873,6 +875,8 @@ def main(argv=None):
     mf = sp.add_parser("manifest", help="list the day's drafted S1-S5 emails for the Gmail sender")
     mf.add_argument("queues", nargs="+"); mf.add_argument("--send-date", required=True)
     mf.add_argument("--out", required=True)
+    mf.add_argument("--dry-run-only", action="store_true",
+                    help="test manifest: the sender only checks and logs it, even when MODE is LIVE")
     a = ap.parse_args(argv)
     rules = load_rules(a.rules)
     other = None
@@ -882,7 +886,8 @@ def main(argv=None):
     if a.cmd == "manifest":
         if os.path.exists(a.out):
             raise OpsError(f"{a.out} exists")
-        m = build_manifest([(p, read_json(p)) for p in a.queues], rules, a.data_dir, a.send_date, other)
+        m = build_manifest([(p, read_json(p)) for p in a.queues], rules, a.data_dir, a.send_date, other,
+                           a.dry_run_only)
         subject, body = manifest_draft(m)
         write_json_atomic(a.out, {"subject": subject, "manifest": m})
         counts = {}
