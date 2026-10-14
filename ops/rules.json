@@ -1,23 +1,11 @@
 {
   "business": "Jobsite Intelligence (working name, Asterfield Group)",
   "reviewed": false,
-  "note": "Draft rules for the second business. Same schema as ASI's ops/rules.json (Validator_Rules.json in the brainstorm pack), so ASI's validator can be pointed at it; whether scripts/asi_ops.py takes a rules path is unverified (that script is in the Austin-Signage repo). Sender (user, Oct 14): every metro sends from sites@asterfieldgroup.com with its own display name, \"[City] Jobsite Intelligence\". The tracker wins over this file once one exists.",
+  "note": "Draft rules for the second business. Same schema as ASI's ops/rules.json (Validator_Rules.json in the brainstorm pack), so ASI's validator can be pointed at it; whether scripts/asi_ops.py takes a rules path is unverified (that script is in the Austin-Signage repo). Sender (user, Oct 14): every metro sends from sites@asterfieldgroup.com with its own display name, \"[City] Jobsite Intelligence\". The tracker wins over this file once one exists. Senders trimmed to Houston only (user, Oct 14) because the ASI Sender manifest maps one display name per address; add other cities when they launch.",
   "senders": {
-    "Austin": {
-      "from": "sites@asterfieldgroup.com",
-      "display": "Austin Jobsite Intelligence"
-    },
     "Houston": {
       "from": "sites@asterfieldgroup.com",
       "display": "Houston Jobsite Intelligence"
-    },
-    "DFW": {
-      "from": "sites@asterfieldgroup.com",
-      "display": "DFW Jobsite Intelligence"
-    },
-    "San Antonio": {
-      "from": "sites@asterfieldgroup.com",
-      "display": "San Antonio Jobsite Intelligence"
     }
   },
   "signature_template": "{display}\nAsterfield Group\n{from}",
