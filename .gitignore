@@ -3,3 +3,4 @@ __pycache__/
 data/backups/
 __pycache__/
 *.tmp
+jobsite-report/node_modules/

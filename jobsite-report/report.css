@@ -1,0 +1,304 @@
+/* Austin Signage Intelligence — report system
+   Built on the Asterfield Group site design tokens (ink / paper / signal-red,
+   Instrument Sans, Field Bracket, portfolio-row rhythm). See report-data.json
+   for content; this file only carries layout and typography.
+
+   Design brief for this version: five pages maximum, mostly light pages,
+   generous white space, facts over prose. Body text stays at 10pt (13.3px)
+   or larger throughout. */
+
+@font-face{
+  font-family:'Instrument Sans';
+  font-style:normal;
+  font-weight:400;
+  src:url('assets/fonts/instrument-sans-regular.woff2') format('woff2');
+  font-display:swap;
+}
+@font-face{
+  font-family:'Instrument Sans';
+  font-style:normal;
+  font-weight:500;
+  src:url('assets/fonts/instrument-sans-medium.woff2') format('woff2');
+  font-display:swap;
+}
+@font-face{
+  font-family:'Instrument Sans';
+  font-style:normal;
+  font-weight:600;
+  src:url('assets/fonts/instrument-sans-semibold.woff2') format('woff2');
+  font-display:swap;
+}
+@font-face{
+  font-family:'Instrument Sans';
+  font-style:normal;
+  font-weight:700;
+  src:url('assets/fonts/instrument-sans-bold.woff2') format('woff2');
+  font-display:swap;
+}
+
+:root{
+  --ink:#101010;
+  --paper:#F6F5F2;
+  --white:#fff;
+  --grey:#6E6E6B;
+  --line:rgba(16,16,16,0.13);
+  --signal:#FF3B1F;
+  --page-w:8.5in;
+  --page-h:11in;
+  --margin:0.62in;
+}
+
+*{box-sizing:border-box;}
+html,body{margin:0;padding:0;}
+body{
+  font-family:'Instrument Sans',sans-serif;
+  background:#d8d8d5;
+  color:var(--ink);
+  -webkit-font-smoothing:antialiased;
+  print-color-adjust:exact;
+  -webkit-print-color-adjust:exact;
+  /* Every weight used in this report (400/500/600/700) has a real local
+     Instrument Sans file — never let the browser fake a missing weight
+     by bolding/slanting the nearest available one. */
+  font-synthesis:none;
+  -webkit-font-synthesis:none;
+}
+img,svg{max-width:100%;display:block;}
+a{color:inherit;text-decoration:none;}
+.wm{font-weight:700;letter-spacing:-0.02em;}
+
+/* ============ PAGE SHELL ============ */
+.page{
+  width:var(--page-w);
+  min-height:var(--page-h);
+  margin:0 auto 28px;
+  background:var(--paper);
+  position:relative;
+  overflow:hidden;
+  display:flex;
+  flex-direction:column;
+}
+.page-pad{
+  padding:var(--margin);
+  flex:1;
+  display:flex;
+  flex-direction:column;
+}
+
+/* running header/footer, consistent numbering */
+.doc-header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  font-size:9.5px;
+  letter-spacing:0.06em;
+  text-transform:uppercase;
+  color:var(--grey);
+  padding-bottom:14px;
+  margin-bottom:20px;
+  border-bottom:1px solid var(--line);
+}
+.doc-header .logo-mark{display:flex;align-items:center;gap:7px;}
+.doc-header .logo-mark svg{width:13px;height:13px;}
+.doc-header .logo-mark span{font-size:12px;font-weight:700;letter-spacing:-0.01em;color:var(--ink);text-transform:none;}
+
+.doc-footer{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  font-size:8.5px;
+  letter-spacing:0.04em;
+  color:var(--grey);
+  padding-top:12px;
+  margin-top:auto;
+  border-top:1px solid var(--line);
+}
+.doc-footer span:first-child{flex:1 1 auto;padding-right:16px;}
+.doc-footer span:last-child{flex:none;}
+
+/* eyebrow label, shared with site */
+.eyebrow{
+  font-size:10.5px;
+  letter-spacing:0.12em;
+  text-transform:uppercase;
+  color:var(--grey);
+  display:flex;
+  align-items:center;
+  gap:8px;
+}
+.eyebrow svg{width:12px;height:12px;flex:none;}
+
+.signal{color:var(--signal);}
+.grey{color:var(--grey);}
+
+/* ============ PAGE 1 — COVER + AT-A-GLANCE ============ */
+.cover-body{padding:8px 0 22px;border-bottom:1px solid var(--line);margin-bottom:22px;}
+.cover-body h1{
+  font-size:30px;
+  font-weight:700;
+  letter-spacing:-0.02em;
+  line-height:1.12;
+  margin:14px 0 12px;
+  max-width:6.4in;
+}
+.cover-body p.lede{
+  font-size:14px;
+  color:#333;
+  line-height:1.5;
+  max-width:5.6in;
+  margin:0 0 20px;
+}
+.cover-stats{
+  display:flex;
+  gap:0;
+}
+.cover-stats .stat{
+  padding:0 22px;
+  border-left:1px solid var(--line);
+  text-align:left;
+}
+.cover-stats .stat:first-child{padding-left:0;border-left:none;}
+.cover-stats .stat b{display:block;font-size:13px;font-weight:600;}
+.cover-stats .stat span{font-size:8.5px;letter-spacing:0.08em;text-transform:uppercase;color:var(--grey);}
+
+.glance-block{flex:1;display:flex;flex-direction:column;}
+.glance-head,.glance-row{
+  display:grid;
+  grid-template-columns:0.3fr 2.3fr 1.05fr 1.15fr 0.9fr 1.35fr;
+  gap:14px;
+  align-items:start;
+}
+.glance-head{
+  font-size:9px;
+  letter-spacing:0.1em;
+  text-transform:uppercase;
+  color:var(--grey);
+  padding-bottom:10px;
+  border-bottom:1px solid var(--line);
+}
+.glance-row{
+  padding:15px 0;
+  border-bottom:1px solid var(--line);
+  font-size:13px;
+}
+/* Cell styles apply to data rows only, so every header label keeps the
+   same small grey uppercase style set on .glance-head. */
+.glance-row .g-num{color:var(--grey);font-variant-numeric:tabular-nums;}
+.glance-row .g-name{font-weight:700;letter-spacing:-0.005em;line-height:1.3;}
+.glance-row .g-name .g-addr{display:block;font-size:11px;font-weight:400;color:var(--grey);margin-top:2px;}
+.glance-row .g-filed{color:#333;line-height:1.35;}
+.glance-row .g-filed-label{display:block;font-size:9px;letter-spacing:0.06em;text-transform:uppercase;color:var(--grey);margin-bottom:2px;}
+.glance-row .g-value{color:#333;}
+.glance-row .g-record{color:var(--grey);font-size:12px;line-height:1.35;}
+
+.tag-pill{
+  display:inline-block;
+  min-width:118px;
+  font-size:9.5px;
+  font-weight:700;
+  letter-spacing:0.04em;
+  padding:4px 9px;
+  border-radius:2px;
+  border:1px solid;
+  text-align:center;
+  white-space:nowrap;
+}
+.tag-full{color:var(--signal);border-color:var(--signal);}
+.tag-install{color:var(--grey);border-color:var(--line);}
+
+/* ============ PROJECT PAGES ============ */
+.proj-page-body{flex:1;display:flex;flex-direction:column;gap:0;}
+.proj-divider{border:none;border-top:1px solid var(--line);margin:22px 0;}
+.proj-card{display:flex;flex-direction:column;}
+.proj-head{
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  gap:12px;
+  margin-bottom:4px;
+}
+.proj-title{display:flex;align-items:baseline;gap:10px;}
+.proj-title .proj-num{font-size:12px;color:var(--grey);font-variant-numeric:tabular-nums;}
+.proj-title h2{font-size:21px;font-weight:700;letter-spacing:-0.015em;margin:0;}
+.proj-address{font-size:12.5px;color:var(--grey);margin:0 0 14px;}
+
+.proj-facts{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:0.25in;
+  padding:12px 0;
+  border-top:1px solid var(--line);
+  border-bottom:1px solid var(--line);
+  margin-bottom:14px;
+}
+.fact-label{
+  font-size:9px;
+  letter-spacing:0.1em;
+  text-transform:uppercase;
+  color:var(--grey);
+  margin-bottom:4px;
+}
+.proj-facts .fact-value{font-size:13px;font-weight:600;line-height:1.3;}
+.proj-facts .fact-value a{border-bottom:1px solid var(--line);}
+
+.proj-lines{display:flex;flex-direction:column;}
+.pl-row{
+  display:flex;
+  gap:10px;
+  padding:6px 0;
+  font-size:13px;
+  line-height:1.45;
+}
+.pl-label{flex:0 0 2in;font-weight:700;color:var(--ink);}
+.pl-value{flex:1;color:#2a2a2a;}
+
+/* ============ FINAL PAGE — PILOT OFFER ============ */
+.pilot-page{text-align:center;}
+.pilot-page .doc-header{justify-content:space-between;}
+.pilot-body{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:0 0.3in;}
+.pilot-page .eyebrow{justify-content:center;margin-bottom:18px;}
+.pilot-page h1{
+  font-size:34px;
+  font-weight:700;
+  letter-spacing:-0.02em;
+  line-height:1.1;
+  margin:0 0 34px;
+}
+
+.pilot-deliverables{
+  display:flex;
+  flex-direction:column;
+  gap:14px;
+  text-align:left;
+  max-width:4.9in;
+  margin:0 auto 38px;
+}
+.pilot-deliverables .item{
+  font-size:14px;
+  color:#222;
+  display:flex;
+  gap:11px;
+  align-items:baseline;
+  line-height:1.5;
+}
+.pilot-deliverables .item .mark{color:var(--signal);font-weight:700;flex:none;}
+
+.pilot-disclosure{
+  font-size:11px;
+  color:var(--grey);
+  line-height:1.5;
+  max-width:4.4in;
+  margin:0 0 24px;
+}
+
+.cta-primary{
+  display:inline-block;
+  background:var(--ink);
+  color:var(--white);
+  font-size:13px;
+  font-weight:600;
+  padding:15px 28px;
+}
+
+/* ============ PRINT-SAFE UTILITIES ============ */
+.avoid-break{break-inside:avoid;page-break-inside:avoid;}

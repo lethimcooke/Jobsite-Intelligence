@@ -146,5 +146,16 @@ class Logging(Base):
         self.assertEqual(q["records"][0]["status"], "sent_confirmed")
 
 
+class LinkThreads(Base):
+    def test_s2_replies_to_the_logged_s1(self):
+        write_csv(os.path.join(self.d, ops.LEDGER), ops.LEDGER_FIELDS, [
+            {**{k: "" for k in ops.LEDGER_FIELDS}, "outreach_id": "JI-H1-S1-01", "kind": "gmail_sent",
+             "evidence_id": "1a13bb05fcc96d4f", "thread_id": "1a13ba7b4a2819dd", "to": "sales@city-waste.com",
+             "sent_at": "2026-10-14T18:32:56+00:00"}])
+        q = {"records": [{**self.row, "id": "JI-H1-S2-01", "stage": "S2", "subject": "Re: Central Office Annex, 1617 Lauder Rd"}]}
+        ops.link_threads(q, self.d, RULES)
+        self.assertEqual(q["records"][0]["reply_to_message_id"], "1a13bb05fcc96d4f")
+
+
 if __name__ == "__main__":
     unittest.main()

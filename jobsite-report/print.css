@@ -1,0 +1,34 @@
+/* Print-only rules — used both for @media print in-browser and for the
+   automated PDF export. Keeps letter-portrait pagination exact: one .page
+   element per printed sheet, no browser chrome, backgrounds intact. */
+
+@page{
+  size:Letter portrait;
+  margin:0;
+}
+
+@media print{
+  html,body{
+    background:var(--paper) !important;
+    print-color-adjust:exact;
+    -webkit-print-color-adjust:exact;
+  }
+  .page{
+    width:8.5in;
+    height:11in;
+    min-height:0;
+    margin:0;
+    box-shadow:none;
+    break-after:page;
+    page-break-after:always;
+    overflow:hidden;
+  }
+  .page:last-child{
+    break-after:auto;
+    page-break-after:auto;
+  }
+  .avoid-break{
+    break-inside:avoid;
+    page-break-inside:avoid;
+  }
+}

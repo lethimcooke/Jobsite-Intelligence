@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jobsite Intelligence Sample Report, Asterfield Group</title>
+<meta name="description" content="New construction sites from state stormwater records, matched to a hauler's service area, with a practical contact path. Prepared by Asterfield Group.">
+<meta name="author" content="Asterfield Group">
+<link rel="stylesheet" href="report.css">
+<link rel="stylesheet" href="print.css" media="print">
+<style>
+  /* Screen-only preview chrome — never affects print output */
+  @media screen{
+    body{padding:32px 0;}
+    .page{box-shadow:0 1px 3px rgba(0,0,0,0.12), 0 20px 40px rgba(0,0,0,0.08);}
+  }
+  #load-error{
+    display:none;
+    max-width:640px;
+    margin:80px auto;
+    padding:24px 28px;
+    background:#fff;
+    border-left:3px solid #FF3B1F;
+    font-family:'Instrument Sans',sans-serif;
+    font-size:14px;
+    line-height:1.6;
+  }
+</style>
+</head>
+<body>
+<div id="report-root" role="document" aria-label="Jobsite Intelligence Sample Report"></div>
+<div id="load-error">
+  <strong>report-data.json could not be loaded.</strong>
+  <p>Browsers block <code>fetch()</code> against local files opened with <code>file://</code>. Serve this folder over HTTP instead — for example:</p>
+  <pre>npm run preview</pre>
+  <p>then open the printed URL. The automated export (<code>npm run export</code>) does not need a server; it injects the data directly.</p>
+</div>
+
+<script src="render-report.js"></script>
+<script>
+  (function () {
+    fetch('report-data.json')
+      .then(function (res) {
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        return res.json();
+      })
+      .then(function (data) {
+        window.renderReport(data);
+      })
+      .catch(function (err) {
+        // The automated export injects data directly via renderReport()
+        // before this fetch settles — if that already succeeded, the
+        // fetch failure below (expected under file://) is not a real error.
+        var root = document.getElementById('report-root');
+        if (root && root.getAttribute('data-render-complete') === 'true') return;
+        document.getElementById('load-error').style.display = 'block';
+        console.error('Failed to load report-data.json:', err);
+      });
+  })();
+</script>
+</body>
+</html>

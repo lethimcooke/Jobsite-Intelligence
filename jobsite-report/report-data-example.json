@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "documentTitle": "Houston Jobsite Intelligence, EXAMPLE sample report (not for sending), Asterfield Group",
+    "pdfAuthor": "Asterfield Group",
+    "pdfSubject": "Format example for Jobsite Intelligence samples.",
+    "pdfKeywords": "Houston, TCEQ, construction stormwater, roll-off, portable toilets, Asterfield Group"
+  },
+  "brand": {
+    "wordmark": "Asterfield",
+    "companyLine": "ASTERFIELD GROUP"
+  },
+  "report": {
+    "eyebrow": "HOUSTON JOBSITE INTELLIGENCE",
+    "city": "Houston",
+    "reportShortLabel": "EXAMPLE, NOT FOR SENDING",
+    "headline": "Five new Houston-area construction sites within reach of your yard.",
+    "supportingCopy": "EXAMPLE FORMAT. Replace with the hauler's name and its own five sites. Each site comes from a TCEQ construction stormwater record, read for hauling scope and a real contact.",
+    "reportIdentifier": "EXAMPLE SAMPLE REPORT, NOT FOR SENDING",
+    "preparedFor": "Prepared for [hauler name]",
+    "territory": "Harris, Fort Bend and Brazoria County",
+    "projectCountLabel": "5 Sites",
+    "preparedDate": "Prepared October 14, 2026",
+    "footerLine": "EXAMPLE / Public-record intelligence / Verify before outreach",
+    "contactEmail": "sites@asterfieldgroup.com",
+    "scopeLabel": "Likely hauling work (our read)"
+  },
+  "projects": [
+    {
+      "number": "01",
+      "name": "Central Office Annex",
+      "tag": "Roll-off",
+      "address": "1617 Lauder Rd, Houston, TX",
+      "area": "North Houston, Harris County",
+      "dateLabel": "Authorized",
+      "filedStart": "Sep 24, 2026",
+      "valueLabel": "From your yard",
+      "value": "[x] mi (our read)",
+      "recordLabel": "TCEQ TXR154490",
+      "recordUrl": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN102271178&program_code=STORM",
+      "whatsFiled": "Construction stormwater authorization for an industrial site, operator on file Nupi Americas Inc. The record lists no project value or finish date.",
+      "likelyScope": "Roll-off containers for construction debris on an industrial site; our read from the site type, not the filing.",
+      "whoDecides": "Operator on file is Nupi Americas Inc, a routing contact, not confirmed as the hauling decision-maker. No hauler is named in the record, which is not the same as no hauler chosen.",
+      "contactLine": "Operator on file: Nupi Americas Inc (business name from the TCEQ record)",
+      "firstStep": "Call the operator's main office and ask who books site services for this job."
+    },
+    {
+      "number": "02",
+      "name": "Rockefeller Axis 290",
+      "tag": "Roll-off + portable toilets",
+      "address": "6995 Brittmoore Rd, Houston, TX",
+      "area": "Northwest Houston, Harris County",
+      "dateLabel": "Authorized",
+      "filedStart": "Sep 29, 2026",
+      "valueLabel": "From your yard",
+      "value": "[x] mi (our read)",
+      "recordLabel": "TCEQ TXR1577ZO",
+      "recordUrl": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112538277&program_code=STORM",
+      "whatsFiled": "Construction stormwater authorization for a commercial and industrial site, operator on file Burton Construction Co.",
+      "likelyScope": "Roll-off containers plus portable toilets and hand-wash stations for a general contractor's crew; our read.",
+      "whoDecides": "Operator on file is Burton Construction Co, a routing contact, not confirmed as the hauling decision-maker. No hauler is named in the record, which is not the same as no hauler chosen.",
+      "contactLine": "Operator on file: Burton Construction Co (business name from the TCEQ record)",
+      "firstStep": "Call the operator's main office and ask who books site services for this job."
+    },
+    {
+      "number": "03",
+      "name": "Project Wildcat",
+      "tag": "Roll-off",
+      "address": "222 Holmes Rd, Houston, TX",
+      "area": "South Houston, Harris County",
+      "dateLabel": "Authorized",
+      "filedStart": "Oct 1, 2026",
+      "valueLabel": "From your yard",
+      "value": "[x] mi (our read)",
+      "recordLabel": "TCEQ TXR1563ZP",
+      "recordUrl": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112539986&program_code=STORM",
+      "whatsFiled": "Construction stormwater authorization for a commercial and industrial site, operator on file FCL Builders Texas LLC.",
+      "likelyScope": "Roll-off containers for construction and packaging debris on a commercial build; our read from the site type.",
+      "whoDecides": "Operator on file is FCL Builders Texas LLC, a routing contact, not confirmed as the hauling decision-maker. No hauler is named in the record, which is not the same as no hauler chosen.",
+      "contactLine": "Operator on file: FCL Builders Texas LLC (business name from the TCEQ record)",
+      "firstStep": "Call the operator's main office and ask who books site services for this job."
+    },
+    {
+      "number": "04",
+      "name": "Teadit North America Manufacturing Facility",
+      "tag": "Roll-off + portable toilets",
+      "address": "10545 Red Bluff Rd, Pasadena, TX",
+      "area": "Pasadena, Harris County",
+      "dateLabel": "Authorized",
+      "filedStart": "Sep 23, 2026",
+      "valueLabel": "From your yard",
+      "value": "[x] mi (our read)",
+      "recordLabel": "TCEQ TXR1518ZN",
+      "recordUrl": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN106881923&program_code=STORM",
+      "whatsFiled": "Construction stormwater authorization for a manufacturing facility, operator on file FCL Builders Texas LLC.",
+      "likelyScope": "Roll-off containers and portable toilets for a manufacturing build-out with a general contractor on file; our read.",
+      "whoDecides": "Operator on file is FCL Builders Texas LLC, a routing contact, not confirmed as the hauling decision-maker. No hauler is named in the record, which is not the same as no hauler chosen.",
+      "contactLine": "Operator on file: FCL Builders Texas LLC (business name from the TCEQ record)",
+      "firstStep": "Call the operator's main office and ask who books site services for this job."
+    },
+    {
+      "number": "05",
+      "name": "TNMP Alvin Construction Center",
+      "tag": "Portable toilets",
+      "address": "1157 Fox Meadow Dr, Alvin, TX",
+      "area": "Alvin, Brazoria County",
+      "dateLabel": "Authorized",
+      "filedStart": "Oct 1, 2026",
+      "valueLabel": "From your yard",
+      "value": "[x] mi (our read)",
+      "recordLabel": "TCEQ TXR1569ZP",
+      "recordUrl": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112540117&program_code=STORM",
+      "whatsFiled": "Construction stormwater authorization for a utility construction center, operator on file Texas-New Mexico Power Company.",
+      "likelyScope": "Portable toilets and hand-wash stations for a utility crew site, with roll-offs if building debris is involved; our read.",
+      "whoDecides": "Operator on file is Texas-New Mexico Power Company, a routing contact, not confirmed as the hauling decision-maker. No hauler is named in the record, which is not the same as no hauler chosen.",
+      "contactLine": "Operator on file: TNMP (business name from the TCEQ record)",
+      "firstStep": "Call the operator's main office and ask who books site services for this job."
+    }
+  ],
+  "pilot": {
+    "eyebrow": "ABOUT THIS SAMPLE",
+    "headline": "How this list was built.",
+    "bullets": [
+      "Five sites pulled from TCEQ construction stormwater records, each with its own authorization number.",
+      "Distances and hauling scope are our read of the public record, not confirmation that work has started or that a hauler is unselected.",
+      "No individual names; every contact is a business name on file."
+    ],
+    "disclosure": "A stormwater authorization shows a site is permitted for construction; it does not say who hauls for it.",
+    "contactEmail": "sites@asterfieldgroup.com",
+    "contactLine": "Prepared by Asterfield Group."
+  }
+}

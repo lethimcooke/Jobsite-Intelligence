@@ -39,13 +39,20 @@ Short prompt to start a day: **"Run the ops/README.md daily loop for <batch file
    - Record every reply, opt-out ("no thanks", "remove", "stop") and bounce in the tracker and list
      before anything else. A reply sets list status `Replied <date> (...)`, which blocks cold follow-ups.
      An opt-out also goes in `data/do_not_contact.csv`. Engaged replies (E1-E3) are drafted for the user,
-     labeled `JI/Send manually`; the user sets the From alias to sites@ and sends them.
+     labeled `JI/Send manually`; the user sets the From alias to sites@ and sends them. **E1 (sample):**
+     build that hauler's own sample the same day in `jobsite-report/` (5 TCEQ sites in its service area,
+     picked for its services; its S1 site can be #1; follow `jobsite-report/README.md`), export the PDF,
+     draft the E1 in the hauler's thread, and tell the user to attach the PDF and set From to sites@.
+     Every hand-off says this (Oct 14: an ASI engaged email went out from operations@).
    - List due follow-ups from `data/send_ledger.csv` (S2 at S1 + 2 business days, S5 at S1 + 13).
 2. **Queue.** For each approved copy file due today:
    `python3 scripts/ji_ops.py convert outreach/<file>.md --batch JI-<B> --city Houston --stage <S1|S2|S5> --title-prefix <B> --out ops/queue/JI-<B>-<stage>.json`
    Bodies are copied verbatim, in file order; an opt-out line at the end of a body becomes the footer
-   (appears once). Batch IDs always start `JI-`. For follow-ups, put each thread's latest message ID in
-   `reply_to_message_id`.
+   (appears once). Batch IDs always start `JI-`. Follow-ups (S2, S5): right after convert, run
+   `python3 scripts/ji_ops.py link-threads ops/queue/<Q>.json`, which fills each record's
+   `reply_to_message_id` from the ledger (the latest send to that recipient). Fill each record's
+   `hook_type` with the site type (industrial, commercial, construction) so `scripts/outreach_stats.py`
+   can group results by it.
 3. **Plan.** `python3 scripts/ji_ops.py plan ops/queue/<today's queues>.json --send-date YYYY-MM-DD --apply`
    picks today's 15: first emails first, then follow-ups oldest first. The rest are `deferred`.
 4. **Validate.** `python3 scripts/ji_ops.py validate ops/queue/<Q>.json --send-date YYYY-MM-DD` must print

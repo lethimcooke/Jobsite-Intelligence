@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Jobsite Intelligence outreach operations (copy of Austin-Signage scripts/asi_ops.py at 01d7453; the ASI repo owns the code, resync from there, change only via the user).
+"""Jobsite Intelligence outreach operations (copy of Austin-Signage scripts/asi_ops.py at 16f6e92; the ASI repo owns the code, resync from there, change only via the user).
 
 Outreach operations: approved copy -> validated draft queue -> Gmail drafts -> evidence-backed logging.
 
@@ -23,6 +23,7 @@ Commands (run from the repo root):
   log QUEUE EVIDENCE.json [--apply]
         Dry run by default. --apply backs up the CSVs, then writes the ledger, list status and results.
   status QUEUE          One line per record.
+  link-threads QUEUE    Follow-ups: set reply_to_message_id to the latest send to that recipient (ledger).
   manifest QUEUE... --send-date D --out ops/manifests/D.json
         List the day's drafted S1-S5 emails (re-validated) for the Gmail sender (ops/sender/);
         prints the subject and base64 body of the manifest draft to create in Gmail.
@@ -512,6 +513,32 @@ def convert(source, batch, city, stage, rules, packet=None, section=None, title_
 
 # ---------- drafts ----------
 
+def link_threads(queue, data_dir, rules):
+    """Fill each follow-up's reply_to_message_id with the latest message we sent that recipient
+    (from the ledger). If they have written back since, the sender sees a newer message in the
+    thread and skips the draft; list status also blocks cold follow-ups to anyone who replied."""
+    sent = {}
+    for r in ledger_rows(data_dir):
+        if r["kind"] == "gmail_sent" and r["evidence_id"]:
+            to = r["to"].strip().lower()
+            if to not in sent or r["sent_at"] > sent[to]["sent_at"]:
+                sent[to] = r
+    report = []
+    for rec in sorted(queue["records"], key=lambda r: r["seq"]):
+        if rec.get("stage") not in rules.get("thread_required_stages", []) or rec.get("status") in ("skipped", "sent_confirmed"):
+            continue
+        if rec.get("draft"):
+            report.append(f"{rec['id']}: already drafted; left as is")
+            continue
+        last = sent.get(rec["to"].strip().lower())
+        if not last:
+            report.append(f"{rec['id']}: no logged send to {rec['to']}; find the thread in Gmail and set it by hand")
+            continue
+        rec["reply_to_message_id"] = last["evidence_id"]
+        report.append(f"{rec['id']}: reply to {last['evidence_id']} ({last['outreach_id']}, {last['sent_at'][:10]}, thread {last['thread_id']})")
+    return report
+
+
 def payload(rec):
     body = rec["body"] + ("\n\n" + rec["footer"] if rec.get("footer") else "")
     return {"to": [rec["to"]], "subject": rec["subject"], "body": body,
@@ -867,6 +894,8 @@ def main(argv=None):
     lg = sp.add_parser("log"); lg.add_argument("queue"); lg.add_argument("evidence")
     lg.add_argument("--apply", action="store_true"); lg.add_argument("--accept-alias-mismatch", nargs="*", default=[])
     st = sp.add_parser("status"); st.add_argument("queue")
+    lt = sp.add_parser("link-threads", help="set each follow-up's reply_to_message_id from the ledger (latest send)")
+    lt.add_argument("queue")
     pl = sp.add_parser("plan", help="pick today's sends across queues (first touches first, then oldest follow-ups) within the daily caps")
     pl.add_argument("queues", nargs="+"); pl.add_argument("--send-date", required=True)
     pl.add_argument("--apply", action="store_true", help="write queued/deferred status back to the queue files")
@@ -960,6 +989,10 @@ def main(argv=None):
             b = apply_log(q, plan, a.data_dir, a.queue)
             write_json_atomic(a.queue, q)
             print(f"backups: {os.path.relpath(b, ROOT)}" if b else "nothing to write")
+        return 0
+    if a.cmd == "link-threads":
+        print("\n".join(link_threads(q, a.data_dir, rules)))
+        write_json_atomic(a.queue, q)
         return 0
     if a.cmd == "status":
         for r in sorted(q["records"], key=lambda r: r["seq"]):

@@ -22,6 +22,11 @@ Started October 14, 2026. The source of truth for standing rules, sends and enga
 - **Copy:** `docs/Outreach_Copy_v2.md`. No em dashes, no individuals named, no calls offered, every claim
   cites the TCEQ record, our read is labeled. Never say construction started, a hauler or vendor is
   unselected, or work is open for bid.
+- **Payment:** Stripe Payment Link by default; Stripe invoice if the buyer asks; first list within a week of
+  payment. Product "Jobsite Intelligence 30-day pilot, $500" in the same Asterfield Stripe account as ASI,
+  kept separate so revenue splits by business. **Link: PENDING (user to create).** Send it only after a
+  hauler says yes to the E3, never in S1 or E1.
+- **Sample report:** `jobsite-report/`, one per hauler, built the same day as a "send it" reply.
 - **Opt-out footer** on every cold email; opt-outs honored the same day and added to `data/do_not_contact.csv`.
 - **Mailing address (user, Oct 14): skipped.** The user decided to send without a postal address line in the
   footer (CAN-SPAM requires one in commercial email; risk accepted by the user). `ops/rules.json`
@@ -52,7 +57,12 @@ draft and `JI/` labels. Labels (created Oct 14): `JI/Send manually` (Label_6), `
 
 ## Engaged prospects
 
-| Company | First reply | Last touch | Next touch | Notes |
+One row per prospect who replies. Cadence: E1 (sample attached) the same day as the reply; E2 at sample + 2
+business days; E3 (pilot offer) after useful feedback or at sample + 5 business days. Any reply freezes the
+silent sequence and sets list status to "Replied (...)". Every E-stage hand-off reminds the user: attach the
+PDF, set From to sites@ (Oct 14: an ASI engaged email went out from operations@).
+
+| Company | Batch | Latest event (date, time CT, their words) | Status | Required next action |
 |---|---|---|---|---|
 
 - **Tests:** any test manifest is made with `ji_ops.py manifest ... --dry-run-only`; the sender only sends from manifests marked `"dry_run_only": false`.
