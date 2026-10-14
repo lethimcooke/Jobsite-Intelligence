@@ -21,6 +21,7 @@ runs the same engine. This file is a map; the files below win over anything summ
   started, a vendor is unselected, or work is open for bid.
 - One company, one sequence across both businesses: check ASI's lists and do-not-contact file
   before any draft, and keep sites in ASI packets or samples out of this business.
-- The mailbox cap (60 a day, 20 first emails) is shared with ASI until the user says otherwise.
+- The mailbox total (60 sends a day) is shared with ASI. First emails always go first; follow-ups
+  wait. There is no separate first-email cap (user, Oct 14).
 
 Scratch output (pulled CSVs) goes to the session scratchpad or `data/`, never next to scripts.

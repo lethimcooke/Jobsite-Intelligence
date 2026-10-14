@@ -108,9 +108,9 @@
     "domains": [],
     "companies": []
   },
-  "max_s1_per_day": 20,
+  "max_s1_per_day": 60,
   "max_total_per_day": 60,
-  "pace_note": "Shares the 60-a-day mailbox cap with ASI until the user decides otherwise (tracker rule: no new sending domains until the first paying client). The test batch is 20 S1s.",
+  "pace_note": "User, Oct 14: there is no separate first-email cap. First emails (S1) always go first; follow-ups fill whatever room is left and slide to the next day when the 60-a-day total is reached. The 60-a-day total is shared with ASI's mailbox.",
   "status_rules": {
     "S1": [
       "Not contacted"

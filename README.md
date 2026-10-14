@@ -53,6 +53,8 @@ gives a fleet size, a yard address and an email.
 ## Phase 0: decisions
 
 **Made (user, October 14, 2026):**
+- Pace: no separate first-email cap. First emails always go first; follow-ups wait when the shared
+  60-a-day mailbox total is full.
 - Name: "[City] Jobsite Intelligence", sent from `sites@asterfieldgroup.com` for every metro.
 - First metro: **Houston** (84 new sites and 70 fitting haulers in three weeks, vs Austin's 56 and 40).
 - Launch: start slowly with the 20-email test.
@@ -62,8 +64,7 @@ gives a fleet size, a yard address and an email.
    email (a PO box or virtual mailbox works). ASI's footer is missing it too.
 2. **The `sites@` alias.** Add it in Google Workspace (Admin console, the user, Alternate email)
    and as a "Send mail as" address in Gmail, like `fieldwork@`.
-3. **The S1 cap.** ASI's tracker sets 20 first emails a day as both target and floor, from the same
-   mailbox. The test's 10 a day only fits if ASI sends 10 on those two days, or the cap is raised.
+
 
 ## Phase 1: build the first test batch (about 2 working days)
 
