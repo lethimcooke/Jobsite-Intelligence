@@ -1,7 +1,18 @@
 {
-  "business": "Jobsite Intelligence (working name, Asterfield Group)",
-  "reviewed": false,
-  "note": "Draft rules for the second business. Same schema as ASI's ops/rules.json (Validator_Rules.json in the brainstorm pack), so ASI's validator can be pointed at it; whether scripts/asi_ops.py takes a rules path is unverified (that script is in the Austin-Signage repo). Sender (user, Oct 14): every metro sends from sites@asterfieldgroup.com with its own display name, \"[City] Jobsite Intelligence\". The tracker wins over this file once one exists. Senders trimmed to Houston only (user, Oct 14) because the ASI Sender manifest maps one display name per address; add other cities when they launch.",
+  "business": "Jobsite Intelligence",
+  "reviewed": true,
+  "note": "Rules for Jobsite Intelligence, same schema as ASI's ops/rules.json, read by scripts/ji_ops.py. Sender (user, Oct 14): every metro sends from sites@asterfieldgroup.com with its own display name, \"[City] Jobsite Intelligence\"; Houston only for now because a manifest maps one display name per address. The tracker wins over this file.",
+  "lists": {
+    "files": [
+      "hauler_list_houston.csv"
+    ],
+    "glob": "",
+    "primary": "email",
+    "alternates": [
+      "site_emails"
+    ],
+    "city": "metro"
+  },
   "senders": {
     "Houston": {
       "from": "sites@asterfieldgroup.com",
@@ -88,7 +99,9 @@
     "give you a call",
     "phone call"
   ],
-  "banned_addresses": [],
+  "banned_addresses": [
+    "team@claimcascade.com"
+  ],
   "refund_word": "refund",
   "refund_allowed": {
     "note": "No refund exceptions in this business.",
@@ -98,6 +111,8 @@
   },
   "max_s1_per_day": 60,
   "max_total_per_day": 60,
+  "daily_share": 15,
+  "share_note": "User, Oct 14: the operations@ mailbox sends at most 60 a day across both businesses; ASI plans to 45 and Jobsite to 15. The ASI Sender enforces the 60 and each share; first emails go first.",
   "pace_note": "User, Oct 14: there is no separate first-email cap. First emails (S1) always go first; follow-ups fill whatever room is left and slide to the next day when the 60-a-day total is reached. The 60-a-day total is shared with ASI's mailbox.",
   "status_rules": {
     "S1": [
@@ -128,9 +143,7 @@
     ],
     "note": "Same short sequence as ASI batches from Oct 12: S1, S2 (+2 business days), S5 (+13)."
   },
-  "cross_business_conflict": {
-    "note": "Before any draft: check the company against ASI's master list, trade list and do_not_contact.csv (one company, one sequence across both businesses), and check the site's address and RN against ASI hook packets and samples."
-  },
+  "cross_business_note": "User, Oct 14: one company, one business. Jobsite and ASI keep separate repos and sessions, so the ASI Sender enforces this at send time: every manifest's do-not-contact applies to every email, and a first email is refused if anyone at that domain (not personal mail) has ever written to us or been emailed from any alias. Before drafting, also check the site's address and RN against ASI hook packets and samples if the user shares them.",
   "footer": {
     "stages": [
       "S1",
@@ -139,5 +152,12 @@
     ],
     "text": "If this isn't useful, reply \"no thanks\" and I won't email again.",
     "address": ""
-  }
+  },
+  "reviewed_on": "2026-10-14",
+  "reviewed_against": [
+    "Jobsite_Intelligence_Outreach_Tracker.md (standing rules)",
+    "README.md decisions (user, Oct 14)",
+    "docs/Outreach_Copy_v2.md",
+    "data/hauler_list_houston.csv"
+  ]
 }

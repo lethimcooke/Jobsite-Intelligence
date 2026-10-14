@@ -112,7 +112,7 @@ sites@asterfieldgroup.com
 If this isn't useful, reply "no thanks" and I won't email again.
 ```
 
-## 6. H1: Red Dog Dumpsters LLC
+## 6. H1: Red Dog Dumpsters LLC (SKIP: excluded Oct 14, email domain is a Nashville company)
 - To: info@reddogdumpsters.com (A)
 - Subject: Project Wildcat, 222 Holmes Rd
 - Site record: https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112539986&program_code=STORM
@@ -398,7 +398,7 @@ sites@asterfieldgroup.com
 If this isn't useful, reply "no thanks" and I won't email again.
 ```
 
-## 19. H2: Waste Falcon LLC
+## 19. H2: Waste Falcon LLC (SKIP: excluded Oct 14, serves Bryan-College Station)
 - To: nick@wastefalcon.com (B-dir)
 - Subject: Infrastructure Services, 711 Rankin Rd
 - Site record: https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN101903235&program_code=STORM
