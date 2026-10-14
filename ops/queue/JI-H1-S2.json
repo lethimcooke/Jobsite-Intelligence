@@ -1,0 +1,31 @@
+{
+  "batch": "JI-H1",
+  "city": "Houston",
+  "stage": "S2",
+  "source": "outreach/JI-H1_S2_Copy.md",
+  "section": null,
+  "title_prefix": "H1",
+  "source_sha256": "cfbd5bc4f92635caf8b63dd6ab526858afd2640903a792d4d5f95ebfa63c658f",
+  "packet": null,
+  "created_at": "2026-10-14T23:15:16+00:00",
+  "records": [
+    {
+      "id": "JI-H1-S2-01",
+      "seq": 1,
+      "batch": "JI-H1",
+      "company": "City Waste LP",
+      "city": "Houston",
+      "stage": "S2",
+      "from": "sites@asterfieldgroup.com",
+      "to": "sales@city-waste.com",
+      "subject": "Re: Central Office Annex, 1617 Lauder Rd",
+      "body": "Hi City Waste team,\n\nOne more on Central Office Annex: the operator on file for that stormwater authorization is Nupi Americas Inc, so its main office line is the place to ask who arranges site services there; that's our read, not the filing. Each site in the sample lists that line and the TCEQ record link, so you can check it yourself.\n\nWant the five sites near your yard?\n\nHouston Jobsite Intelligence\nAsterfield Group\nsites@asterfieldgroup.com",
+      "reply_to_message_id": "1a13bb05fcc96d4f",
+      "attachments": [],
+      "hook_type": "industrial",
+      "status": "queued",
+      "draft": null,
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+    }
+  ]
+}

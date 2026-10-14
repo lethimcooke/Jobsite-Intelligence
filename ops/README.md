@@ -45,6 +45,9 @@ Short prompt to start a day: **"Run the ops/README.md daily loop for <batch file
      draft the E1 in the hauler's thread, and tell the user to attach the PDF and set From to sites@.
      Every hand-off says this (Oct 14: an ASI engaged email went out from operations@).
    - List due follow-ups from `data/send_ledger.csv` (S2 at S1 + 2 business days, S5 at S1 + 13).
+1b. **New packets.** Before any copy is written for a new packet, run
+   `python3 scripts/check_packet.py <packet.csv or copy.md>`; it must print `0 flags` (do-not-contact,
+   list status, duplicate domain, excluded). Drop or replace flagged rows; never edit lists to clear a flag.
 2. **Queue.** For each approved copy file due today:
    `python3 scripts/ji_ops.py convert outreach/<file>.md --batch JI-<B> --city Houston --stage <S1|S2|S5> --title-prefix <B> --out ops/queue/JI-<B>-<stage>.json`
    Bodies are copied verbatim, in file order; an opt-out line at the end of a body becomes the footer
