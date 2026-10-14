@@ -1,0 +1,331 @@
+{
+  "archive": "JI_Ops_Kit_v3.zip",
+  "archive_sha256": "410ca4376e5e4bd17f15f3cb4326bdb70107ff828825027de6d19ef9d28749d6",
+  "date": "2026-10-14",
+  "entries": [
+    {
+      "path": "ops/sender/README.md",
+      "kit_sha256": "3fa995eaa1082a301b25d156526fbd61284131a995f42e5d928224f54fbee941",
+      "installed_sha256": "3fa995eaa1082a301b25d156526fbd61284131a995f42e5d928224f54fbee941",
+      "status": "exact match"
+    },
+    {
+      "path": "ops/sender/Code.gs",
+      "kit_sha256": "4edc0d520cdfbff5f979e5a2ffa4b026ae3924e69fb6047fcdec2f109c3b2e11",
+      "installed_sha256": "4edc0d520cdfbff5f979e5a2ffa4b026ae3924e69fb6047fcdec2f109c3b2e11",
+      "status": "exact match"
+    },
+    {
+      "path": "ops/README.md",
+      "kit_sha256": "c7c20e20f95434f63f0f374b0d8f4b2c3646c0559ffeb2d6515b70499ddd1729",
+      "installed_sha256": "6638bf4d4ae8735d9c244c5b5e9eeca17aac32200ce33c1286068ac58da765fc",
+      "status": "newer installed version preserved"
+    },
+    {
+      "path": "ops/queue/.gitkeep",
+      "kit_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "installed_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "exact match"
+    },
+    {
+      "path": "ops/rules.json",
+      "kit_sha256": "4badcce4959e2a9311bb94c587f95a694b37e13a4cb7da25249737cb3eeca69d",
+      "installed_sha256": "006df9be5df8eb17e6a31ce9463e7ef2b3ee09d0e0eab96049428121ecb4cdc6",
+      "status": "newer installed version preserved"
+    },
+    {
+      "path": "ops/manifests/.gitkeep",
+      "kit_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "installed_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "exact match"
+    },
+    {
+      "path": "ops/evidence/2026-10-14_JI-H1.json",
+      "kit_sha256": "c7118b7c64637ab4d0a353b3c1a3cd531c89ae335b914de3fc7344dccd72f2da",
+      "installed_sha256": "c7118b7c64637ab4d0a353b3c1a3cd531c89ae335b914de3fc7344dccd72f2da",
+      "status": "exact match"
+    },
+    {
+      "path": "ops/evidence/.gitkeep",
+      "kit_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "installed_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "exact match"
+    },
+    {
+      "path": "scripts/cloud_setup.sh",
+      "kit_sha256": "22d0854738beaf0e89b6561a6585df593b5de666b924af787a22fa1fd3fe0338",
+      "installed_sha256": "22d0854738beaf0e89b6561a6585df593b5de666b924af787a22fa1fd3fe0338",
+      "status": "exact match"
+    },
+    {
+      "path": "scripts/fill_form.cjs",
+      "kit_sha256": "760d645a176f2d2a484f7db5ba99d4a88e10f50985ce213021b8b57aedc0cc1c",
+      "installed_sha256": "760d645a176f2d2a484f7db5ba99d4a88e10f50985ce213021b8b57aedc0cc1c",
+      "status": "exact match"
+    },
+    {
+      "path": "scripts/ji_ops.py",
+      "kit_sha256": "a01974a5a819b9dc1500b18438b90841a1ade268ff4c408483c5f71345ab10a4",
+      "installed_sha256": "a01974a5a819b9dc1500b18438b90841a1ade268ff4c408483c5f71345ab10a4",
+      "status": "exact match"
+    },
+    {
+      "path": "scripts/outreach_stats.py",
+      "kit_sha256": "70530c1ecbc3231ef8192c1dcae09745f7b5f40e6f11480944f00389c90dfa10",
+      "installed_sha256": "a5cfb1f04771bca382b4ac80912c167c4aef7bf954bea7235a55feaed7975211",
+      "status": "newer installed version preserved"
+    },
+    {
+      "path": "tests/test_ji_ops.py",
+      "kit_sha256": "4473c2140453ddb24f9bdc0f7fb11157d43fe2690a392bf52f9a03b5ab250453",
+      "installed_sha256": "4473c2140453ddb24f9bdc0f7fb11157d43fe2690a392bf52f9a03b5ab250453",
+      "status": "exact match"
+    },
+    {
+      "path": "data/outreach_results.csv",
+      "kit_sha256": "cd03af46c1f32d8b2ff7a37f8207e387fe63f4f1be35debaa7a62ad8ea00f899",
+      "installed_sha256": "b9c7e34d82050ca82a73db480f9d3cd41fda8b6aac9888ba3466743858485afe",
+      "status": "newer installed version preserved"
+    },
+    {
+      "path": "data/do_not_contact.csv",
+      "kit_sha256": "f87a8e51951b427ba3f75a7689242afc41fd04e7591e66031529ef2517cdafa2",
+      "installed_sha256": "f87a8e51951b427ba3f75a7689242afc41fd04e7591e66031529ef2517cdafa2",
+      "status": "exact match"
+    },
+    {
+      "path": "PROMPT_v3_parity.md",
+      "kit_sha256": "d673797861e59d1183a877cc1dbcb7e1b45f0ef5b5a368c643adac41e72200ef",
+      "installed_sha256": "d673797861e59d1183a877cc1dbcb7e1b45f0ef5b5a368c643adac41e72200ef",
+      "status": "exact match"
+    },
+    {
+      "path": "KIT_README.md",
+      "kit_sha256": "3f006060f46d164c347dea82b6d6288af632af2920fdb43cc173f738dbc84426",
+      "installed_sha256": "3f006060f46d164c347dea82b6d6288af632af2920fdb43cc173f738dbc84426",
+      "status": "exact match"
+    },
+    {
+      "path": ".gitignore.add",
+      "kit_sha256": "00459568b2386b7ddc8c98beeb833768ffbeeef5febd371b3add1812486338ca",
+      "status": "merged into .gitignore"
+    },
+    {
+      "path": "jobsite-report/report-data-example.json",
+      "kit_sha256": "fd651b49477c4acae22fa123406b5b06cc355f452f7f6e9c3bb1e6f4afc48349",
+      "installed_sha256": "fd651b49477c4acae22fa123406b5b06cc355f452f7f6e9c3bb1e6f4afc48349",
+      "status": "exact match"
+    },
+    {
+      "path": "jobsite-report/print.css",
+      "kit_sha256": "707850af229daabe1fc72417ea260a01b020526c9219bbea5d3def2156e5d620",
+      "installed_sha256": "707850af229daabe1fc72417ea260a01b020526c9219bbea5d3def2156e5d620",
+      "status": "exact match"
+    },
+    {
+      "path": "jobsite-report/export.js",
+      "kit_sha256": "c32487adfec3dc16db0b6e5f809d04e93cef5aed59ceb35a9dc2a9b38cb48639",
+      "installed_sha256": "c32487adfec3dc16db0b6e5f809d04e93cef5aed59ceb35a9dc2a9b38cb48639",
+      "status": "exact match"
+    },
+    {
+      "path": "jobsite-report/assets/field-bracket.svg",
+      "kit_sha256": "082cceb53d9aca3db9e4cf5cd7d467db17228e5bf1bf75ec47eb383ecf53f8d1",
+      "installed_sha256": "082cceb53d9aca3db9e4cf5cd7d467db17228e5bf1bf75ec47eb383ecf53f8d1",
+      "status": "exact match"
+    },
+    {
+      "path": "jobsite-report/assets/fonts/instrument-sans-medium.woff2",
+      "kit_sha256": "cc1b0a57dff1880029b1384318d79d3505468e44432bbd63dad24a1f770ceee4",
+      "installed_sha256": "cc1b0a57dff1880029b1384318d79d3505468e44432bbd63dad24a1f770ceee4",
+      "status": "exact match"
+    },
+    {
+      "path": "jobsite-report/assets/fonts/instrument-sans-semibold.woff2",
+      "kit_sha256": "5925a3a611a85156520c2490b9b2b41eb4b3a5524cc3a34db316bbd8c12605c5",
+      "installed_sha256": "5925a3a611a85156520c2490b9b2b41eb4b3a5524cc3a34db316bbd8c12605c5",
+      "status": "exact match"
+    },
+    {
+      "path": "jobsite-report/assets/fonts/instrument-sans-bold.woff2",
+      "kit_sha256": "c56cc4fb3175307d31cb862f4e672ca4814d9db57f9c3d8712063d0da3e38d17",
+      "installed_sha256": "c56cc4fb3175307d31cb862f4e672ca4814d9db57f9c3d8712063d0da3e38d17",
+      "status": "exact match"
+    },
+    {
+      "path": "jobsite-report/assets/fonts/instrument-sans-regular.woff2",
+      "kit_sha256": "d6dbc055b53ebd140b9a2b1339d60e5fbce54870031406e9ae5e446db9469161",
+      "installed_sha256": "d6dbc055b53ebd140b9a2b1339d60e5fbce54870031406e9ae5e446db9469161",
+      "status": "exact match"
+    },
+    {
+      "path": "jobsite-report/exports/EXAMPLE_jobsite_sample.pdf",
+      "kit_sha256": "520d7db72c073c5708c95eae5bc09b907cf322578b07b5b8ab0e129293af4a67",
+      "installed_sha256": "520d7db72c073c5708c95eae5bc09b907cf322578b07b5b8ab0e129293af4a67",
+      "status": "exact match"
+    },
+    {
+      "path": "jobsite-report/README.md",
+      "kit_sha256": "c83fd69dd57af79d9ab9c519bdf4ebd406534ea5cf75762b3587043564ce884b",
+      "installed_sha256": "0dde29f5534dd1afcc162c59eb94151acb5f52373472e46df4d43ea3d6c96ddf",
+      "status": "newer installed version preserved"
+    },
+    {
+      "path": "jobsite-report/index.html",
+      "kit_sha256": "8890562bfa71f146ef32902e85e2a23273261c62ebcd4f8c89f42c81ea4ccf39",
+      "installed_sha256": "8890562bfa71f146ef32902e85e2a23273261c62ebcd4f8c89f42c81ea4ccf39",
+      "status": "exact match"
+    },
+    {
+      "path": "jobsite-report/package-lock.json",
+      "kit_sha256": "f8cf00b63ea34749235ec7b367bd38c5daf5350c7043429475d9e064d6862d60",
+      "installed_sha256": "f8cf00b63ea34749235ec7b367bd38c5daf5350c7043429475d9e064d6862d60",
+      "status": "exact match"
+    },
+    {
+      "path": "jobsite-report/package.json",
+      "kit_sha256": "f3ca5ff27c2f786d7fbf5c6d0d562f02fa7ff66862ca219a4c67263274652012",
+      "installed_sha256": "f3ca5ff27c2f786d7fbf5c6d0d562f02fa7ff66862ca219a4c67263274652012",
+      "status": "exact match"
+    },
+    {
+      "path": "jobsite-report/render-report.js",
+      "kit_sha256": "00d1a533d4230055e7e82295b2835e797868cf244b7232363bad2a1fe6db43b1",
+      "installed_sha256": "00d1a533d4230055e7e82295b2835e797868cf244b7232363bad2a1fe6db43b1",
+      "status": "exact match"
+    },
+    {
+      "path": "jobsite-report/report.css",
+      "kit_sha256": "dc99e90956f4e076863db297aa84d4485cc253557589b45da4bd9f97ace61a44",
+      "installed_sha256": "dc99e90956f4e076863db297aa84d4485cc253557589b45da4bd9f97ace61a44",
+      "status": "exact match"
+    },
+    {
+      "path": "docs/reference_from_ASI/ASI_AGENTS.md",
+      "kit_sha256": "c05511f0e2234d0947a84aac08c25fbdaa0282c3f51f7eb366db557050115980",
+      "installed_sha256": "c05511f0e2234d0947a84aac08c25fbdaa0282c3f51f7eb366db557050115980",
+      "status": "exact match"
+    },
+    {
+      "path": ".claude/skills/claude-automation-recommender/references/plugins-reference.md",
+      "kit_sha256": "6570ff4c853253b3f15fb62e5d540cbf0ce3371936437791dde8fb53b7d444f3",
+      "installed_sha256": "6570ff4c853253b3f15fb62e5d540cbf0ce3371936437791dde8fb53b7d444f3",
+      "status": "exact match"
+    },
+    {
+      "path": ".claude/skills/claude-automation-recommender/references/hooks-patterns.md",
+      "kit_sha256": "7b6e91b53aa0f1ed471fd66e177de17a88c1d6620ce95f5c8e8cdfebd20d939e",
+      "installed_sha256": "7b6e91b53aa0f1ed471fd66e177de17a88c1d6620ce95f5c8e8cdfebd20d939e",
+      "status": "exact match"
+    },
+    {
+      "path": ".claude/skills/claude-automation-recommender/references/skills-reference.md",
+      "kit_sha256": "b4b57d953526a07146d5757ca5332034b9b4b4eeba839e4bb08111398c94556f",
+      "installed_sha256": "b4b57d953526a07146d5757ca5332034b9b4b4eeba839e4bb08111398c94556f",
+      "status": "exact match"
+    },
+    {
+      "path": ".claude/skills/claude-automation-recommender/references/subagent-templates.md",
+      "kit_sha256": "7f9a107d8619ff96fea07d5a17da31b269cec0ee343e5a9ff643c0d6cb4ba944",
+      "installed_sha256": "7f9a107d8619ff96fea07d5a17da31b269cec0ee343e5a9ff643c0d6cb4ba944",
+      "status": "exact match"
+    },
+    {
+      "path": ".claude/skills/claude-automation-recommender/references/mcp-servers.md",
+      "kit_sha256": "0f62bf84869d7e982e5dc15ebc789bb4734175b7d7b824051548c615ba79aa97",
+      "installed_sha256": "0f62bf84869d7e982e5dc15ebc789bb4734175b7d7b824051548c615ba79aa97",
+      "status": "exact match"
+    },
+    {
+      "path": ".claude/skills/claude-automation-recommender/SKILL.md",
+      "kit_sha256": "441c57e26f0931b64dd085deaad9213c4e3efea27d916dd7443cd33c7e338227",
+      "installed_sha256": "441c57e26f0931b64dd085deaad9213c4e3efea27d916dd7443cd33c7e338227",
+      "status": "exact match"
+    },
+    {
+      "path": ".claude/skills/claude-automation-recommender/LICENSE",
+      "kit_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "installed_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "status": "exact match"
+    },
+    {
+      "path": ".claude/skills/agent-reach/references/search.md",
+      "kit_sha256": "23bfc54a3b85847ac7c1e12d6dbb0913d6fa3bb89a706d79e2b36396a8a8ef5d",
+      "installed_sha256": "23bfc54a3b85847ac7c1e12d6dbb0913d6fa3bb89a706d79e2b36396a8a8ef5d",
+      "status": "exact match"
+    },
+    {
+      "path": ".claude/skills/agent-reach/references/dev.md",
+      "kit_sha256": "f6f91107557eacf1d28a023d597eb5a61353a8a6ede286c3c0a4888d274df9fe",
+      "installed_sha256": "f6f91107557eacf1d28a023d597eb5a61353a8a6ede286c3c0a4888d274df9fe",
+      "status": "exact match"
+    },
+    {
+      "path": ".claude/skills/agent-reach/references/career.md",
+      "kit_sha256": "ade444ac499e55f02c84bd663253a28cebc1eefc7f56c7248dc6792841fbe53e",
+      "installed_sha256": "ade444ac499e55f02c84bd663253a28cebc1eefc7f56c7248dc6792841fbe53e",
+      "status": "exact match"
+    },
+    {
+      "path": ".claude/skills/agent-reach/references/web.md",
+      "kit_sha256": "b238fc897975a693d7bb262600ca2ea69cd13a4892e870d346dbe375c880b303",
+      "installed_sha256": "b238fc897975a693d7bb262600ca2ea69cd13a4892e870d346dbe375c880b303",
+      "status": "exact match"
+    },
+    {
+      "path": ".claude/skills/agent-reach/references/video.md",
+      "kit_sha256": "167ce732382c664eea63b884685dc085caa27cd69820138f7eeb91b0162efac8",
+      "installed_sha256": "167ce732382c664eea63b884685dc085caa27cd69820138f7eeb91b0162efac8",
+      "status": "exact match"
+    },
+    {
+      "path": ".claude/skills/agent-reach/references/finance.md",
+      "kit_sha256": "c0cf89af1119d81890f6797ff9e8154a00ee08c17141e7d18c1b09658a916551",
+      "installed_sha256": "c0cf89af1119d81890f6797ff9e8154a00ee08c17141e7d18c1b09658a916551",
+      "status": "exact match"
+    },
+    {
+      "path": ".claude/skills/agent-reach/references/social.md",
+      "kit_sha256": "e2e6451eb931effd4f63ea407fbb109bea1e98de34bd703c52753ad0cc7025b3",
+      "installed_sha256": "e2e6451eb931effd4f63ea407fbb109bea1e98de34bd703c52753ad0cc7025b3",
+      "status": "exact match"
+    },
+    {
+      "path": ".claude/skills/agent-reach/SKILL.md",
+      "kit_sha256": "44e2c12bc824f428f6df3474cf48115d179c337d7880aad8f5f63d5f64cb6b36",
+      "installed_sha256": "44e2c12bc824f428f6df3474cf48115d179c337d7880aad8f5f63d5f64cb6b36",
+      "status": "exact match"
+    },
+    {
+      "path": ".claude/skills/agent-reach/LICENSE",
+      "kit_sha256": "e94c131ac1c2f78cfd8f7e69da354c0ff58e4e54071697703d56856c036de402",
+      "installed_sha256": "e94c131ac1c2f78cfd8f7e69da354c0ff58e4e54071697703d56856c036de402",
+      "status": "exact match"
+    },
+    {
+      "path": ".claude/skills/PROVENANCE.md",
+      "kit_sha256": "50f1788dc058b38a121d5ce85c567f2df29add844692651d27b80577a177b5c7",
+      "installed_sha256": "50f1788dc058b38a121d5ce85c567f2df29add844692651d27b80577a177b5c7",
+      "status": "exact match"
+    },
+    {
+      "path": ".claude/settings.json",
+      "kit_sha256": "f19d9fbfca13c4846092cf3ddb098597d229ad1a46a292295268d32e554492ff",
+      "installed_sha256": "f19d9fbfca13c4846092cf3ddb098597d229ad1a46a292295268d32e554492ff",
+      "status": "exact match"
+    }
+  ],
+  "checks": {
+    "kit_test_suite": "22 passed",
+    "full_test_suite": "31 passed",
+    "example_export": "5 pages; all 5 project line budgets passed; temporary EXAMPLE_check.pdf deleted per KIT_README.md",
+    "claude_fixes": "cross-business sender rule, sample instructions, screenshot approval rule and cloud setup note present",
+    "asi_owned_files": "exact kit matches, unchanged",
+    "remaining_external_steps": [
+      "Gmail access for inbox checks, drafts, labels and manifest",
+      "User approval of review copy",
+      "User-created Stripe Payment Link before first E3",
+      "Jobsite-specific cloud setup publication"
+    ]
+  }
+}

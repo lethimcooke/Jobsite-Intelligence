@@ -81,8 +81,9 @@ PDF, set From to sites@ (Oct 14: an ASI engaged email went out from operations@)
 
 ## Operations readiness review (October 14)
 
-- Correct v3 ZIP is still required: the upload is JI_Codex_Prospector_Kit.zip, with no KIT_README.md,
-  v3 operations payload or v3 fix list. Existing live files were tested; exact kit parity is unverified.
+- Correct JI_Ops_Kit_v3.zip received and compared with installed files. Runtime components,
+  report assets, skills and ASI-owned files match exactly. Kit instructions are installed;
+  newer rules, documented workflow and recorded results are preserved. Audit: ops/handoff/Kit_v3_Install_Audit.json.
 - Example PDF exported successfully, five pages. It is an EXAMPLE, never a hauler sample.
 - City Waste S2: existing approved file retained; linked to sent message 1a13bb05fcc96d4f in thread
   1a13ba7b4a2819dd, planned for October 16 and validate PASS. Draft payload is in

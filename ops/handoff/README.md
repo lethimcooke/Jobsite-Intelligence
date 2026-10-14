@@ -1,10 +1,15 @@
 # Operations hand-off, October 14, 2026
 
-The baseline live repository is c803cfa. The attached JI_Codex_Prospector_Kit.zip is not the
-requested JI_Ops_Kit_v3.zip. It contains neither KIT_README.md nor the v3 operations install
-payload. Exact v3 installation and fix-list parity remain unverified. These changes use
-existing live files and the user's explicit operational instructions, which override the
-prospector-only role for this task. ASI-owned ji_ops.py and ops/sender/Code.gs are unchanged.
+The baseline live repository is c803cfa. The correct JI_Ops_Kit_v3.zip was received and
+KIT_README.md was read. Its runtime scripts, sample renderer/assets, tests, sender copy,
+cloud setup, form tool and skills already match the installed files byte for byte. Kit
+instructions and the original parity prompt are now included at the repository root.
+.gitignore.add was merged into .gitignore. Newer rules, operating instructions, statistics
+adaptations and City Waste's recorded result were preserved rather than overwritten by
+older kit copies. Full comparison and hashes: ops/handoff/Kit_v3_Install_Audit.json.
+
+The user's explicit operational instructions override the prospector-only role for this
+task. ASI-owned ji_ops.py and ops/sender/Code.gs are unchanged and match the supplied kit.
 
 ## Ready now
 
@@ -54,7 +59,8 @@ prospector-only role for this task. ASI-owned ji_ops.py and ops/sender/Code.gs a
    No fresh Jobsite environment or saved Jobsite setup publication is verified.
 8. No contact forms were filled or submitted. Only haulers without email qualify; fill and
    screenshot first, obtain approval for that specific screenshot, then submit and save confirmation.
-   KIT_README.md is missing, so its exact additional approval rules remain unverified.
+   KIT_README.md confirms this screenshot approval rule, CAPTCHA/no-solicitation handling,
+   and confirmation evidence requirement.
 9. AGENTS.md already exists and no new prospector was launched. Codex prospecting uses codex/*
    branches and review PRs; check_packet.py is a reviewer gate on new packets, not a way to approve
    historical packets or follow-ups to already-contacted companies.
