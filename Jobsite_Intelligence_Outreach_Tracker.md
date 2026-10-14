@@ -24,8 +24,9 @@ Started October 14, 2026. The source of truth for standing rules, sends and enga
   unselected, or work is open for bid.
 - **Payment:** Stripe Payment Link by default; Stripe invoice if the buyer asks; first list within a week of
   payment. Product "Jobsite Intelligence 30-day pilot, $500" in the same Asterfield Stripe account as ASI,
-  kept separate so revenue splits by business. **Link: PENDING (user to create).** Send it only after a
+  kept separate so revenue splits by business. **Link: PENDING; the user creates it when either business (ASI or Jobsite) secures its first pilot payment (user, Oct 14).** Send it only after a
   hauler says yes to the E3, never in S1 or E1.
+- **Prospecting (user, Oct 14):** Codex prospects (see `AGENTS.md`) to save Claude Code usage; Claude reviews its PRs with `check_packet.py` before merging.
 - **Sample report:** `jobsite-report/`, one per hauler, built the same day as a "send it" reply.
 - **Opt-out footer** on every cold email; opt-outs honored the same day and added to `data/do_not_contact.csv`.
 - **Mailing address (user, Oct 14): skipped.** The user decided to send without a postal address line in the
