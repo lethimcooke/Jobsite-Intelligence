@@ -3,11 +3,12 @@ Written October 14, 2026 from `docs/Outreach_Copy_v2.md` (S1, Tier B). Same 19 h
 
 **Subject A/B test:** rows alternate A (`[Site name]`, plus the street when the name is under 10 characters) and B (`Job site [N] miles from your yard`), skipping HOLD rows, so each send day carries both arms. Log the arm with the send.
 
-**Not ready to send:** the `[MAILING ADDRESS]` footer line is still pending from the user and must be added under the opt-out line in every body before drafting. Two rows are on HOLD (see the row notes). Before drafting: re-open each site's source URL, confirm the hauler's site still lists the services named, run the ASI conflict check, and run `check_copy.py`.
+**Not ready to send:** the `[MAILING ADDRESS]` footer line is still pending from the user and must be added under the opt-out line in every body before drafting. Two rows are excluded and marked SKIP (ops, Oct 14). Subject lines use the ops tool's `- Subject:` format; the A/B arm is on the `- Subject arm:` line under it. Before drafting: re-open each site's source URL, confirm the hauler's site still lists the services named, run the ASI conflict check, and run `check_copy.py`.
 
 ## 1. H1: City Waste LP
 - To: sales@city-waste.com (A)
-- Subject (A): Central Office Annex
+- Subject: Central Office Annex
+- Subject arm: A
 - Site record: https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN102271178&program_code=STORM
 - Hauler publishes: roll-off, commercial, compactors
 
@@ -31,7 +32,8 @@ If this isn't useful, reply "no thanks" and I won't email again.
 
 ## 2. H1: Rapid Waste Solutions of Texas LLC
 - To: info@rapidwastesolutions.com (A)
-- Subject (B): Job site 11 miles from your yard
+- Subject: Job site 11 miles from your yard
+- Subject arm: B
 - Site record: https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN100705680&program_code=STORM
 - Hauler publishes: roll-off, construction, commercial, portable toilets, restroom trailers, hand-wash, demolition, compactors, residential, 20-yd, 30-yd, 40-yd
 
@@ -55,7 +57,8 @@ If this isn't useful, reply "no thanks" and I won't email again.
 
 ## 3. H1: Buiza Waste
 - To: customerservice@buizawaste.com (A)
-- Subject (A): Fifth Third Bank Shops at Katy
+- Subject: Fifth Third Bank Shops at Katy
+- Subject arm: A
 - Site record: https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112540703&program_code=STORM
 - Hauler publishes: roll-off, construction, commercial, demolition, residential
 
@@ -79,7 +82,8 @@ If this isn't useful, reply "no thanks" and I won't email again.
 
 ## 4. H1: Texan Waste Services Inc
 - To: sales@texanwasteservices.com (A)
-- Subject (B): Job site 4 miles from your yard
+- Subject: Job site 4 miles from your yard
+- Subject arm: B
 - Site record: https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112538277&program_code=STORM
 - Hauler publishes: roll-off, construction, commercial, demolition, compactors, 20-yd, 30-yd, 40-yd
 
@@ -103,7 +107,8 @@ If this isn't useful, reply "no thanks" and I won't email again.
 
 ## 5. H1: Waste Shrink LLC
 - To: info@wasteshrink.com (A)
-- Subject (A): BMC, 7355 West Rd
+- Subject: BMC, 7355 West Rd
+- Subject arm: A
 - Site record: https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN106116676&program_code=STORM
 - Hauler publishes: roll-off, construction, commercial
 
@@ -125,7 +130,7 @@ sites@asterfieldgroup.com
 If this isn't useful, reply "no thanks" and I won't email again.
 ```
 
-## 6. H1: Red Dog Dumpsters LLC (HOLD)
+## 6. H1: Red Dog Dumpsters LLC (SKIP: excluded Oct 14, email domain is a Nashville company)
 - To: info@reddogdumpsters.com (A)
 - Subject (none): Project Wildcat
 - Site record: https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112539986&program_code=STORM
@@ -152,7 +157,8 @@ If this isn't useful, reply "no thanks" and I won't email again.
 
 ## 7. H1: Baker Waste Services LLC
 - To: dbaker@bwsdumpsters.com (A)
-- Subject (B): Job site 6 miles from your yard
+- Subject: Job site 6 miles from your yard
+- Subject arm: B
 - Site record: https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN110638913&program_code=STORM
 - Hauler publishes: roll-off, construction, commercial, residential, 30-yd, 40-yd
 
@@ -176,7 +182,8 @@ If this isn't useful, reply "no thanks" and I won't email again.
 
 ## 8. H1: Texas Modern Waste LLC
 - To: robby@texasmodernwaste.com (A)
-- Subject (A): Teadit North America Inc-Manufacturing Facility
+- Subject: Teadit North America Inc-Manufacturing Facility
+- Subject arm: A
 - Site record: https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN106881923&program_code=STORM
 - Hauler publishes: roll-off, construction, commercial, demolition, residential, 20-yd, 30-yd, 40-yd
 
@@ -200,7 +207,8 @@ If this isn't useful, reply "no thanks" and I won't email again.
 
 ## 9. H1: Security Waste LLC
 - To: admin@ofssolidwaste.com (A)
-- Subject (B): Job site 18 miles from your yard
+- Subject: Job site 18 miles from your yard
+- Subject arm: B
 - Site record: https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112546411&program_code=STORM
 - Hauler publishes: roll-off, commercial, residential, 20-yd, 30-yd, 40-yd
 
@@ -224,7 +232,8 @@ If this isn't useful, reply "no thanks" and I won't email again.
 
 ## 10. H1: EZ Waste Inc
 - To: bgonzalez@ezwasteinc.com (B-dir)
-- Subject (A): Infrastructure Services
+- Subject: Infrastructure Services
+- Subject arm: A
 - Site record: https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN101903235&program_code=STORM
 - Hauler publishes: roll-off, construction, commercial, demolition, residential, 10-yd, 20-yd, 30-yd, 40-yd
 
@@ -248,7 +257,8 @@ If this isn't useful, reply "no thanks" and I won't email again.
 
 ## 11. H2: Astro Waste Inc
 - To: info@astrowaste.com (B-dir)
-- Subject (B): Job site a mile from your yard
+- Subject: Job site a mile from your yard
+- Subject arm: B
 - Site record: https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112538277&program_code=STORM
 - Hauler publishes: roll-off, construction, commercial
 
@@ -272,7 +282,8 @@ If this isn't useful, reply "no thanks" and I won't email again.
 
 ## 12. H2: Moffitt Site Services LLC
 - To: carlk@moffittservices.com (B-dir)
-- Subject (A): Hoelscher Weatherstrip Manufacturing
+- Subject: Hoelscher Weatherstrip Manufacturing
+- Subject arm: A
 - Site record: https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN110638913&program_code=STORM
 - Hauler publishes: roll-off, construction, commercial, portable toilets, hand-wash, demolition, residential
 
@@ -296,7 +307,8 @@ If this isn't useful, reply "no thanks" and I won't email again.
 
 ## 13. H2: OP Enterprises Waste Services
 - To: services@opewasteservices.com (B-dir)
-- Subject (B): Job site 4 miles from your yard
+- Subject: Job site 4 miles from your yard
+- Subject arm: B
 - Site record: https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112546411&program_code=STORM
 - Hauler publishes: roll-off, construction, commercial, portable toilets, restroom trailers, hand-wash, residential
 - Recheck by hand: the hauler's website blocked our reader on Oct 14, so its services weren't reconfirmed.
@@ -321,7 +333,8 @@ If this isn't useful, reply "no thanks" and I won't email again.
 
 ## 14. H2: Jet Waste Services LP
 - To: slencina@jetwaste.com (B-dir)
-- Subject (A): BMC, 7355 West Rd
+- Subject: BMC, 7355 West Rd
+- Subject arm: A
 - Site record: https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN106116676&program_code=STORM
 - Hauler publishes: roll-off, commercial, residential
 
@@ -345,7 +358,8 @@ If this isn't useful, reply "no thanks" and I won't email again.
 
 ## 15. H2: Sustainable Disposal Bins LLC
 - To: customersupport@sustainablebins.com (B-dir)
-- Subject (B): Job site 15 miles from your yard
+- Subject: Job site 15 miles from your yard
+- Subject arm: B
 - Site record: https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112540117&program_code=STORM
 - Hauler publishes: roll-off, construction, commercial, demolition, residential, 10-yd, 20-yd, 30-yd, 40-yd
 
@@ -369,7 +383,8 @@ If this isn't useful, reply "no thanks" and I won't email again.
 
 ## 16. H2: Z Sites
 - To: bryan.k@zsites.com (B-dir)
-- Subject (A): BJ Services Tomball
+- Subject: BJ Services Tomball
+- Subject arm: A
 - Site record: https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN100705680&program_code=STORM
 - Hauler publishes: roll-off, construction, commercial, portable toilets, residential, 40-yd
 
@@ -393,7 +408,8 @@ If this isn't useful, reply "no thanks" and I won't email again.
 
 ## 17. H2: Hercules Dumpster Rentals LLC
 - To: office@herculeswaste.com (B-dir)
-- Subject (B): Job site 11 miles from your yard
+- Subject: Job site 11 miles from your yard
+- Subject arm: B
 - Site record: https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN106881923&program_code=STORM
 - Hauler publishes: roll-off, construction, demolition, 10-yd, 15-yd, 20-yd, 30-yd, 40-yd
 - Recheck by hand: the hauler's website blocked our reader on Oct 14, so its services weren't reconfirmed.
@@ -418,7 +434,8 @@ If this isn't useful, reply "no thanks" and I won't email again.
 
 ## 18. H2: Essential Waste Solutions LLC
 - To: luisg@essential-waste.com (B-dir)
-- Subject (A): Fifth Third Bank Shops at Katy
+- Subject: Fifth Third Bank Shops at Katy
+- Subject arm: A
 - Site record: https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112540703&program_code=STORM
 - Hauler publishes: roll-off, construction, commercial, demolition, residential, 20-yd, 30-yd, 40-yd
 
@@ -440,7 +457,7 @@ sites@asterfieldgroup.com
 If this isn't useful, reply "no thanks" and I won't email again.
 ```
 
-## 19. H2: Waste Falcon LLC (HOLD)
+## 19. H2: Waste Falcon LLC (SKIP: excluded Oct 14, serves Bryan-College Station)
 - To: nick@wastefalcon.com (B-dir)
 - Subject (none): Infrastructure Services
 - Site record: https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN101903235&program_code=STORM

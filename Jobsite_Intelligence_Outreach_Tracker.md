@@ -35,8 +35,13 @@ draft and `JI/` labels. Labels (created Oct 14): `JI/Send manually` (Label_6), `
 
 | Batch | Metro | Copy file | Rows | Status |
 |---|---|---|---|---|
-| JI-H1 | Houston | outreach/H1-H2_S1_Copy.md (H1) | 10 (Red Dog Dumpsters SKIP, 9 queued) | Queued Oct 14; sites and services re-checked; validate PASS (provisional date). Not drafted: waiting for the send date, DRY_RUN pass, LIVE go-ahead and the mailing address |
-| JI-H2 | Houston | outreach/H1-H2_S1_Copy.md (H2) | 9 (Waste Falcon SKIP, 8 queued) | Same as JI-H1 |
+| JI-H1 | Houston | outreach/H1-H2_S1_Copy_v2.md (H1) | 10 (Red Dog Dumpsters SKIP, 9 queued) | Requeued Oct 14 from copy v2 (user: send v2 through the tool; subjects reformatted to `- Subject:` with the A/B arm on `- Subject arm:`). Planned for Oct 15: all 9. Validate PASS for 2026-10-15. Not drafted: waiting for the DRY_RUN pass, LIVE go-ahead and the mailing address |
+| JI-H2 | Houston | outreach/H1-H2_S1_Copy_v2.md (H2) | 9 (Waste Falcon SKIP, 8 queued) | Same. Planned for Oct 15: 6 (Astro, Moffitt, OP Enterprises, Jet, Sustainable Disposal Bins, Z Sites); deferred to Oct 16: Hercules, Essential Waste |
+
+## Plan
+
+- **Oct 15 (first send):** 15 S1s (JI-H1 all 9, JI-H2 first 6), Jobsite's full daily share. **Oct 16:** the 2 deferred S1s, then S2s start Oct 17 (S1 + 2 business days).
+- The A/B subject arm is in the copy file per row; log it with each send in `outreach_results.csv` notes.
 
 ## Send log
 
