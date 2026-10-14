@@ -48,7 +48,7 @@ gives a fleet size, a yard address and an email.
 - Removed by hand: DC Ex Dumpsters (FMCSA email on an unrelated aviation domain), LM Waste
   Solutions (email on a scrap-metal yard's site), Redbox+ (national franchise). Control Waste
   Services is a fit but its yard address didn't geocode; add it by hand if a 20th is wanted.
-- Not drafted and not sent. The three open items above come first.
+- Not drafted and not sent. The two open items below come first.
 
 ## Phase 0: decisions
 
