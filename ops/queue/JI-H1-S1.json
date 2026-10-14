@@ -31,8 +31,14 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "",
-      "status": "queued",
-      "draft": null,
+      "status": "drafted",
+      "draft": {
+        "draft_id": "r-4963431805299430796",
+        "message_id": "1a13c799bc659ae5",
+        "thread_id": "1a13c799bc659ae5",
+        "payload_sha256": "3b17f38fb3ebe1b8dff6e3e2feab763ed33f5be30cac9460ed4ea1be760f68f8",
+        "created_at": "2026-10-14T22:12:48+00:00"
+      },
       "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
     },
     {
@@ -49,8 +55,14 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "",
-      "status": "queued",
-      "draft": null,
+      "status": "drafted",
+      "draft": {
+        "draft_id": "r6717789684772501076",
+        "message_id": "1a13c7a23f9183b7",
+        "thread_id": "1a13c7a23f9183b7",
+        "payload_sha256": "2176d4ec1f0604dfb35fc949b25b0a6089c663884f7df1a12b4d1fc141678479",
+        "created_at": "2026-10-14T22:13:26+00:00"
+      },
       "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
     },
     {
@@ -67,8 +79,14 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "",
-      "status": "queued",
-      "draft": null,
+      "status": "drafted",
+      "draft": {
+        "draft_id": "r-1916083158985913894",
+        "message_id": "1a13c7a24a66897f",
+        "thread_id": "1a13c7a24a66897f",
+        "payload_sha256": "6f9e904aab2f1d98ee0bbf76b3979d83c95803a8d478b4f4c0907540d30cde27",
+        "created_at": "2026-10-14T22:13:26+00:00"
+      },
       "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
     },
     {
@@ -85,8 +103,14 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "",
-      "status": "queued",
-      "draft": null,
+      "status": "drafted",
+      "draft": {
+        "draft_id": "r-8503878058829934845",
+        "message_id": "1a13c7a26cda424b",
+        "thread_id": "1a13c7a26cda424b",
+        "payload_sha256": "35260b7047027e3f7c29927745b6d94ec6ef974758b3263748918a5322a02f2b",
+        "created_at": "2026-10-14T22:13:26+00:00"
+      },
       "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
     },
     {
@@ -111,8 +135,14 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "",
-      "status": "queued",
-      "draft": null,
+      "status": "drafted",
+      "draft": {
+        "draft_id": "r-7163068936510505551",
+        "message_id": "1a13c7a6c7cfa012",
+        "thread_id": "1a13c7a6c7cfa012",
+        "payload_sha256": "737d3d98210a3323bb7dd23323b7f81e642df60d2d42d01e8efc1ee50217a0d1",
+        "created_at": "2026-10-14T22:13:45+00:00"
+      },
       "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
     },
     {
@@ -129,8 +159,14 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "",
-      "status": "queued",
-      "draft": null,
+      "status": "drafted",
+      "draft": {
+        "draft_id": "r7612195581704275919",
+        "message_id": "1a13c7a7036e0b15",
+        "thread_id": "1a13c7a7036e0b15",
+        "payload_sha256": "3d101073b59fdcf58925607a8f14984eae7a527023fab706cabeeb7f5e8b04c9",
+        "created_at": "2026-10-14T22:13:45+00:00"
+      },
       "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
     },
     {
@@ -147,8 +183,14 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "",
-      "status": "queued",
-      "draft": null,
+      "status": "drafted",
+      "draft": {
+        "draft_id": "r-8320293312860055295",
+        "message_id": "1a13c7a7293f6b6d",
+        "thread_id": "1a13c7a7293f6b6d",
+        "payload_sha256": "0b5a653bcbdf4f8652b28c763c9fc3968a48a3f9ae7776ab818a24a48536a960",
+        "created_at": "2026-10-14T22:13:45+00:00"
+      },
       "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
     },
     {
@@ -165,8 +207,14 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "",
-      "status": "queued",
-      "draft": null,
+      "status": "drafted",
+      "draft": {
+        "draft_id": "r8857946793854374874",
+        "message_id": "1a13c7a7423b9b6c",
+        "thread_id": "1a13c7a7423b9b6c",
+        "payload_sha256": "2920b2c9ace1b3fe9e2307ec8a28d9f1e33789aa6f3a57e51ab03761f541232c",
+        "created_at": "2026-10-14T22:13:45+00:00"
+      },
       "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
     }
   ]

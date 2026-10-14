@@ -23,8 +23,9 @@ Started October 14, 2026. The source of truth for standing rules, sends and enga
   cites the TCEQ record, our read is labeled. Never say construction started, a hauler or vendor is
   unselected, or work is open for bid.
 - **Opt-out footer** on every cold email; opt-outs honored the same day and added to `data/do_not_contact.csv`.
-- **Mailing address (OPEN, blocks LIVE):** CAN-SPAM requires a physical postal address in commercial email.
-  `ops/rules.json` `footer.address` is empty until the user gives it.
+- **Mailing address (user, Oct 14): skipped.** The user decided to send without a postal address line in the
+  footer (CAN-SPAM requires one in commercial email; risk accepted by the user). `ops/rules.json`
+  `footer.address` stays empty until the user gives an address.
 
 ## Gmail lane
 
@@ -35,7 +36,7 @@ draft and `JI/` labels. Labels (created Oct 14): `JI/Send manually` (Label_6), `
 
 | Batch | Metro | Copy file | Rows | Status |
 |---|---|---|---|---|
-| JI-H1 | Houston | outreach/H1-H2_S1_Copy_v2.md (H1) | 10: City Waste sent Oct 14 (v1 text), Red Dog SKIP, 8 queued | Validate PASS for 2026-10-15; planned Oct 15: all 8. Not drafted: waiting for the DRY_RUN pass, LIVE go-ahead and the mailing address |
+| JI-H1 | Houston | outreach/H1-H2_S1_Copy_v2.md (H1) | 10: City Waste sent Oct 14 (v1 text), Red Dog SKIP, 8 queued | Validate PASS for 2026-10-15; planned Oct 15: all 8. Drafting Oct 14 evening (ASI ops: no DRY_RUN needed; sender LIVE) |
 | JI-H2 | Houston | outreach/H1-H2_S1_Copy_v2.md (H2) | 9: Waste Falcon SKIP, 8 queued | Validate PASS for 2026-10-15; planned Oct 15: 7; deferred to Oct 16: Essential Waste Solutions |
 
 ## Plan
