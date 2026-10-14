@@ -1,0 +1,4 @@
+#1 CITY WASTE LP <sales@city-waste.com>: list status is 'S1 sent 2026-10-14 (sites@)'
+#6 RED DOG DUMPSTERS LLC <info@reddogdumpsters.com>: on the excluded list
+#19 WASTE FALCON LLC <nick@wastefalcon.com>: on the excluded list
+3 flags (19 rows checked)

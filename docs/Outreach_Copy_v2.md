@@ -241,7 +241,7 @@ Asterfield Group
 sites@asterfieldgroup.com
 ```
 
-## E2: no answer after the sample (business day +3 after E1, same thread)
+## E2: no answer after the sample (business day +2 after E1, same thread)
 
 ```
 Hi [Company] team,
@@ -255,12 +255,13 @@ Asterfield Group
 sites@asterfieldgroup.com
 ```
 
-## E3: the pilot offer (after a positive answer to E1 or E2)
+## E3: the pilot offer (after useful feedback or sample +5 business days, same thread)
 
 ```
 Hi [Company] team,
 
-Since [#n / the site you named] looked worth a call, here's how to get more like it.
+[After useful feedback: Since #n looked worth a call, here's how to get more like it.]
+[At sample +5 business days without feedback: If sites like the sample fit your work, here's the pilot option.]
 
 For the next 30 days we send 15–20 verified construction sites in your area over four weekly lists, filtered to your [containers or services]. Each one comes with the TCEQ record, the operator's main office line, and our read of the jobsite needs.
 

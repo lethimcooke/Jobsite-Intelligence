@@ -36,3 +36,18 @@ The free five-site sample a hauler gets in E1 when it says "send it". Adapted fr
 - A site already used in an S1 hook to that hauler may be #1 (it's the job they asked about); don't
   give the same site to two competing haulers in the same week.
 - `report-data-example.json` is a format example with placeholder distances. Never send it.
+
+## Verified cloud export (October 14)
+
+If the default npm cache is read-only or the image has no compatible Playwright browser,
+use a writable cache and Playwright's pinned browser download. Run from `jobsite-report/`:
+
+```sh
+npm ci --cache /tmp/ji-npm-cache --no-audit --no-fund
+PLAYWRIGHT_BROWSERS_PATH=/tmp/ji-browser-cache npx playwright install chromium
+PLAYWRIGHT_BROWSERS_PATH=/tmp/ji-browser-cache node export.js report-data-example.json EXAMPLE_v3_verification.pdf
+```
+
+This produced five pages and passed every card's line budget. The EXAMPLE is a validation
+artifact only. For a real sample, replace the example data using the steps above, then attach
+the hauler-specific PDF and set From to sites@asterfieldgroup.com in the engaged thread.

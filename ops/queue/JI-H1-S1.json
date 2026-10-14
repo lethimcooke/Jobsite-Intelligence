@@ -30,7 +30,7 @@
       "body": "Hi Rapid Waste Solutions of Texas team,\n\nTCEQ's Central Registry lists a construction stormwater authorization (TXR1573ZR) dated October 8 for BJ Services Tomball at 11211 FM 2920 Rd, Tomball in Harris County. The operator on file is ICI Construction Inc.\n\nIt's about 11 miles from your Hockley yard, and an industrial job like this is the kind your 20- to 40-yard roll-offs and portable toilets serve; that's our read, not the filing.\n\nWe're a research service with no tie to the project. The sample costs nothing; after it, our 30-day pilot is a one-time $500 for 15–20 verified projects, with no subscription.\n\nWant five sites like this near your yard, free?\n\nHouston Jobsite Intelligence\nAsterfield Group\nsites@asterfieldgroup.com",
       "reply_to_message_id": null,
       "attachments": [],
-      "hook_type": "industrial; subject B",
+      "hook_type": "industrial",
       "status": "drafted",
       "draft": {
         "draft_id": "r-4963431805299430796",
@@ -39,7 +39,9 @@
         "payload_sha256": "3b17f38fb3ebe1b8dff6e3e2feab763ed33f5be30cac9460ed4ea1be760f68f8",
         "created_at": "2026-10-14T22:12:48+00:00"
       },
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "hook_notes": "subject B",
+      "subject_arm": "B"
     },
     {
       "id": "JI-H1-S1-03",
@@ -54,7 +56,7 @@
       "body": "Hi Buiza Waste team,\n\nTCEQ's Central Registry lists a construction stormwater authorization (TXR1591ZP) dated October 2 for Fifth Third Bank Shops at Katy at 1720 Spring Green Blvd, Katy in Fort Bend County. The operator on file is The Fifth Third Bank.\n\nIt's about 10 miles from your Richmond yard, and a commercial job like this is the kind your roll-off containers serve; that's our read, not the filing.\n\nWe're a research service with no tie to the project. The sample costs nothing; after it, our 30-day pilot is a one-time $500 for 15–20 verified projects, with no subscription.\n\nWant five sites like this near your yard, free?\n\nHouston Jobsite Intelligence\nAsterfield Group\nsites@asterfieldgroup.com",
       "reply_to_message_id": null,
       "attachments": [],
-      "hook_type": "commercial; subject A",
+      "hook_type": "commercial",
       "status": "drafted",
       "draft": {
         "draft_id": "r6717789684772501076",
@@ -63,7 +65,9 @@
         "payload_sha256": "2176d4ec1f0604dfb35fc949b25b0a6089c663884f7df1a12b4d1fc141678479",
         "created_at": "2026-10-14T22:13:26+00:00"
       },
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "hook_notes": "subject A",
+      "subject_arm": "A"
     },
     {
       "id": "JI-H1-S1-04",
@@ -78,7 +82,7 @@
       "body": "Hi Texan Waste Services team,\n\nTCEQ's Central Registry lists a construction stormwater authorization (TXR1577ZO) dated September 29 for Rockefeller Axis 290 at 6995 Brittmoore Rd, Houston in Harris County. The operator on file is Burton Construction Co.\n\nIt's about 4 miles from your Houston yard, and an industrial job like this is the kind your 20- to 40-yard roll-offs serve; that's our read, not the filing.\n\nWe're a research service with no tie to the project. The sample costs nothing; after it, our 30-day pilot is a one-time $500 for 15–20 verified projects, with no subscription.\n\nWant five sites like this near your yard, free?\n\nHouston Jobsite Intelligence\nAsterfield Group\nsites@asterfieldgroup.com",
       "reply_to_message_id": null,
       "attachments": [],
-      "hook_type": "industrial; subject B",
+      "hook_type": "industrial",
       "status": "drafted",
       "draft": {
         "draft_id": "r-1916083158985913894",
@@ -87,7 +91,9 @@
         "payload_sha256": "6f9e904aab2f1d98ee0bbf76b3979d83c95803a8d478b4f4c0907540d30cde27",
         "created_at": "2026-10-14T22:13:26+00:00"
       },
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "hook_notes": "subject B",
+      "subject_arm": "B"
     },
     {
       "id": "JI-H1-S1-05",
@@ -102,7 +108,7 @@
       "body": "Hi Waste Shrink team,\n\nTCEQ's Central Registry lists a construction stormwater authorization (TXR15RS92) dated October 2 for BMC at 7355 West Rd, Houston in Harris County. The operator on file is BFS Group LLC.\n\nIt's about 6 miles from your Houston yard, and an industrial job like this is the kind your roll-off containers serve; that's our read, not the filing.\n\nWe're a research service with no tie to the project. The sample costs nothing; after it, our 30-day pilot is a one-time $500 for 15–20 verified projects, with no subscription.\n\nWant five sites like this near your yard, free?\n\nHouston Jobsite Intelligence\nAsterfield Group\nsites@asterfieldgroup.com",
       "reply_to_message_id": null,
       "attachments": [],
-      "hook_type": "industrial; subject A",
+      "hook_type": "industrial",
       "status": "drafted",
       "draft": {
         "draft_id": "r-8503878058829934845",
@@ -111,7 +117,9 @@
         "payload_sha256": "35260b7047027e3f7c29927745b6d94ec6ef974758b3263748918a5322a02f2b",
         "created_at": "2026-10-14T22:13:26+00:00"
       },
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "hook_notes": "subject A",
+      "subject_arm": "A"
     },
     {
       "id": "JI-H1-S1-06",
@@ -134,7 +142,7 @@
       "body": "Hi Baker Waste Services team,\n\nTCEQ's Central Registry lists a construction stormwater authorization (TXR1523XC) dated September 24 for Hoelscher Weatherstrip Manufacturing at 2400 S Persimmon St, Tomball in Harris County. The operator on file is Hoelscher Weatherstrip Manufacturing Co Inc.\n\nIt's about 6 miles from your Spring yard, and an industrial job like this is the kind your 30- to 40-yard roll-offs serve; that's our read, not the filing.\n\nWe're a research service with no tie to the project. The sample costs nothing; after it, our 30-day pilot is a one-time $500 for 15–20 verified projects, with no subscription.\n\nWant five sites like this near your yard, free?\n\nHouston Jobsite Intelligence\nAsterfield Group\nsites@asterfieldgroup.com",
       "reply_to_message_id": null,
       "attachments": [],
-      "hook_type": "industrial; subject B",
+      "hook_type": "industrial",
       "status": "drafted",
       "draft": {
         "draft_id": "r-7163068936510505551",
@@ -143,7 +151,9 @@
         "payload_sha256": "737d3d98210a3323bb7dd23323b7f81e642df60d2d42d01e8efc1ee50217a0d1",
         "created_at": "2026-10-14T22:13:45+00:00"
       },
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "hook_notes": "subject B",
+      "subject_arm": "B"
     },
     {
       "id": "JI-H1-S1-08",
@@ -158,7 +168,7 @@
       "body": "Hi Texas Modern Waste team,\n\nTCEQ's Central Registry lists a construction stormwater authorization (TXR1518ZN) dated September 23 for Teadit North America Inc-Manufacturing Facility at 10545 Red Bluff Rd, Pasadena in Harris County. The operator on file is FCL Builders Texas LLC.\n\nIt's about 19 miles from your Baytown yard, and an industrial job like this is the kind your 20- to 40-yard roll-offs serve; that's our read, not the filing.\n\nWe're a research service with no tie to the project. The sample costs nothing; after it, our 30-day pilot is a one-time $500 for 15–20 verified projects, with no subscription.\n\nWant five sites like this near your yard, free?\n\nHouston Jobsite Intelligence\nAsterfield Group\nsites@asterfieldgroup.com",
       "reply_to_message_id": null,
       "attachments": [],
-      "hook_type": "industrial; subject A",
+      "hook_type": "industrial",
       "status": "drafted",
       "draft": {
         "draft_id": "r7612195581704275919",
@@ -167,7 +177,9 @@
         "payload_sha256": "3d101073b59fdcf58925607a8f14984eae7a527023fab706cabeeb7f5e8b04c9",
         "created_at": "2026-10-14T22:13:45+00:00"
       },
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "hook_notes": "subject A",
+      "subject_arm": "A"
     },
     {
       "id": "JI-H1-S1-09",
@@ -182,7 +194,7 @@
       "body": "Hi Security Waste team,\n\nTCEQ's Central Registry lists a construction stormwater authorization (TXR1515ZS) dated October 12 for HLSR 288 at 9950 South Fwy, Houston in Harris County. The operator on file is Clay Development & Construction Inc.\n\nIt's about 18 miles from your Channelview yard, and a construction job like this is the kind your 20- to 40-yard roll-offs serve; that's our read, not the filing.\n\nWe're a research service with no tie to the project. The sample costs nothing; after it, our 30-day pilot is a one-time $500 for 15–20 verified projects, with no subscription.\n\nWant five sites like this near your yard, free?\n\nHouston Jobsite Intelligence\nAsterfield Group\nsites@asterfieldgroup.com",
       "reply_to_message_id": null,
       "attachments": [],
-      "hook_type": "construction; subject B",
+      "hook_type": "construction",
       "status": "drafted",
       "draft": {
         "draft_id": "r-8320293312860055295",
@@ -191,7 +203,9 @@
         "payload_sha256": "0b5a653bcbdf4f8652b28c763c9fc3968a48a3f9ae7776ab818a24a48536a960",
         "created_at": "2026-10-14T22:13:45+00:00"
       },
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "hook_notes": "subject B",
+      "subject_arm": "B"
     },
     {
       "id": "JI-H1-S1-10",
@@ -206,7 +220,7 @@
       "body": "Hi EZ Waste team,\n\nTCEQ's Central Registry lists a construction stormwater authorization (TXR1512ZQ) dated October 5 for Infrastructure Services at 711 Rankin Rd, Houston in Harris County. The operator on file is Cannon Construction Company Inc.\n\nIt's about 15 miles from your Houston yard, and a construction job like this is the kind your 10- to 40-yard roll-offs serve; that's our read, not the filing.\n\nWe're a research service with no tie to the project. The sample costs nothing; after it, our 30-day pilot is a one-time $500 for 15–20 verified projects, with no subscription.\n\nWant five sites like this near your yard, free?\n\nHouston Jobsite Intelligence\nAsterfield Group\nsites@asterfieldgroup.com",
       "reply_to_message_id": null,
       "attachments": [],
-      "hook_type": "construction; subject A",
+      "hook_type": "construction",
       "status": "drafted",
       "draft": {
         "draft_id": "r8857946793854374874",
@@ -215,7 +229,9 @@
         "payload_sha256": "2920b2c9ace1b3fe9e2307ec8a28d9f1e33789aa6f3a57e51ab03761f541232c",
         "created_at": "2026-10-14T22:13:45+00:00"
       },
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "hook_notes": "subject A",
+      "subject_arm": "A"
     }
   ]
 }

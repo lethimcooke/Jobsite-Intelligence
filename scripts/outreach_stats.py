@@ -30,6 +30,10 @@ def table(rows, key, title):
 
 def main():
     rows = list(csv.DictReader(open(PATH, newline="")))
+    # Historical records kept subject-arm or copy-version notes in this field.
+    # Group by site type while preserving the evidence CSV unchanged.
+    for row in rows:
+        row["hook_type"] = row.get("hook_type", "").split(";", 1)[0].strip() or "unknown"
     delivered = [r for r in rows if r["outcome"] != "bounced"]
     eng = [r for r in rows if r["outcome"] in ENGAGED]
     paid = [r for r in rows if r["outcome"] == "paid"]
