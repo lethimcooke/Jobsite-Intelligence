@@ -1,22 +1,22 @@
 {
   "business": "Jobsite Intelligence (working name, Asterfield Group)",
   "reviewed": false,
-  "note": "Draft rules for the second business. Same schema as ASI's ops/rules.json (Validator_Rules.json in the brainstorm pack), so ASI's validator can be pointed at it; whether scripts/asi_ops.py takes a rules path is unverified (that script is in the Austin-Signage repo). Sender aliases are placeholders until the user picks them. The tracker wins over this file once one exists.",
+  "note": "Draft rules for the second business. Same schema as ASI's ops/rules.json (Validator_Rules.json in the brainstorm pack), so ASI's validator can be pointed at it; whether scripts/asi_ops.py takes a rules path is unverified (that script is in the Austin-Signage repo). Sender (user, Oct 14): every metro sends from sites@asterfieldgroup.com with its own display name, \"[City] Jobsite Intelligence\". The tracker wins over this file once one exists.",
   "senders": {
     "Austin": {
       "from": "sites@asterfieldgroup.com",
       "display": "Austin Jobsite Intelligence"
     },
     "Houston": {
-      "from": "sites-houston@asterfieldgroup.com",
+      "from": "sites@asterfieldgroup.com",
       "display": "Houston Jobsite Intelligence"
     },
     "DFW": {
-      "from": "sites-dfw@asterfieldgroup.com",
+      "from": "sites@asterfieldgroup.com",
       "display": "DFW Jobsite Intelligence"
     },
     "San Antonio": {
-      "from": "sites-sa@asterfieldgroup.com",
+      "from": "sites@asterfieldgroup.com",
       "display": "San Antonio Jobsite Intelligence"
     }
   },
@@ -112,23 +112,43 @@
   "max_total_per_day": 60,
   "pace_note": "Shares the 60-a-day mailbox cap with ASI until the user decides otherwise (tracker rule: no new sending domains until the first paying client). The test batch is 20 S1s.",
   "status_rules": {
-    "S1": ["Not contacted"],
-    "S2": ["S1 sent"],
-    "S5": ["S1 sent"],
-    "E1": ["Replied"],
-    "E2": ["Replied"],
-    "E3": ["Replied"]
+    "S1": [
+      "Not contacted"
+    ],
+    "S2": [
+      "S1 sent"
+    ],
+    "S5": [
+      "S1 sent"
+    ],
+    "E1": [
+      "Replied"
+    ],
+    "E2": [
+      "Replied"
+    ],
+    "E3": [
+      "Replied"
+    ]
   },
   "short_sequence": {
     "from_s1_date": "2026-10-14",
-    "stages": ["S1", "S2", "S5"],
+    "stages": [
+      "S1",
+      "S2",
+      "S5"
+    ],
     "note": "Same short sequence as ASI batches from Oct 12: S1, S2 (+2 business days), S5 (+13)."
   },
   "cross_business_conflict": {
     "note": "Before any draft: check the company against ASI's master list, trade list and do_not_contact.csv (one company, one sequence across both businesses), and check the site's address and RN against ASI hook packets and samples."
   },
   "footer": {
-    "stages": ["S1", "S2", "S5"],
+    "stages": [
+      "S1",
+      "S2",
+      "S5"
+    ],
     "text": "If this isn't useful, reply \"no thanks\" and I won't email again.",
     "address": ""
   }

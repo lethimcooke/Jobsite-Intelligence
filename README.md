@@ -14,31 +14,56 @@ Why this idea: `docs/Business_Selection_Research.md`
 |---|---|---|
 | `scripts/pull_noi_sites.py` | Pulls new TXR15 construction sites for a metro from TCEQ's Central Registry (daily, free), one row per site, drops individual-owned operators, flags person-like site names, ranks by project type (our read) | Tested live Oct 14: Austin 37 sites / 14 days, Houston 57 |
 | `scripts/pull_haulers.py` | Starting hauler list from Comptroller sales-tax permits (NAICS 562111, 562119, 562991), skipping governments, individuals and nationals | Tested live Oct 14: Austin 134 candidates, 40 with fitting names |
-| `scripts/metros.py` | County lists and Comptroller county codes for Austin, Houston, DFW, San Antonio | Codes checked against outlet cities |
-| `ops/rules.json` | Validator rules in ASI's schema: senders, signature, exact price line, footer, banned claims for this market | Draft; aliases are placeholders |
+| `scripts/metros.py` | County lists, Comptroller county codes and FMCSA county FIPS for Austin, Houston, DFW, San Antonio | Codes checked against live rows |
+| `scripts/enrich_haulers.py` | FMCSA refuse carriers in the metro, joined to each hauler's own website: services, areas, published emails, grade | Tested live Oct 14: Houston 273 candidates, 22 fits |
+| `scripts/build_packet.py` | Geocodes sites and yards (US Census), pairs each hauler with the nearest usable site, one site per batch | Tested live Oct 14 |
+| `scripts/write_s1.py`, `scripts/check_copy.py` | S1 drafts from a packet; pre-check against `ops/rules.json` | Tested Oct 14: 19 bodies PASS |
+| `ops/rules.json` | Validator rules in ASI's schema: senders, signature, exact price line, footer, banned claims for this market | Sender set to `sites@` |
 | `docs/Outreach_Copy_v1.md` | S1, S2, S5, E1, E3 adapted from ASI's copy v2 | Draft; passes its own banned-phrase check |
 
-Run from this folder (Python 3, standard library only):
+Run from the repo root (Python 3, standard library only). Scratch output goes to the session
+scratchpad; lists and packets that are used for sending are committed under `data/` and `outreach/`.
 ```
-python3 scripts/pull_noi_sites.py --metro Austin --days 14 --out sites_austin.csv
-python3 scripts/pull_haulers.py  --metro Austin --out haulers_austin.csv
+python3 scripts/pull_noi_sites.py  --metro Houston --days 21 --out <scratch>/sites.csv
+python3 scripts/enrich_haulers.py  --metro Houston --out data/hauler_list_houston.csv
+python3 scripts/build_packet.py    --sites <scratch>/sites.csv --haulers data/hauler_list_houston.csv \
+    --batch-prefix H --count 20 --out-csv data/packet_H1-H2.csv --out-md outreach/H1-H2_Hook_Packet.md \
+    [--allow-rn <reviewed flagged sites>] [--skip-rn <sites>] [--skip-company <haulers>]
+python3 scripts/write_s1.py        --packet data/packet_H1-H2.csv --metro Houston --out outreach/H1-H2_S1_Copy.md \
+    --site-type RN=industrial ... --name "Recased=Correct" ...
+python3 scripts/check_copy.py      outreach/H1-H2_S1_Copy.md --metro Houston --stage S1 --dnc <ASI do_not_contact.csv>
 ```
-Write outputs to the session scratchpad or `data/`, not next to the scripts.
+`pull_haulers.py` (Comptroller sales-tax list) is kept as a cross-check; `enrich_haulers.py`
+(FMCSA refuse carriers plus each hauler's own website) is the main prospect source, because it
+gives a fleet size, a yard address and an email.
 
-## Phase 0: decisions only you can make (before anything is sent)
+## Current state (October 14, 2026)
 
-1. **Go or wait.** The tracker's checkpoint says revisit ASI's offer if its first 10 samples
-   bring no sale. Decide whether this test runs now or after ASI's first payment.
-2. **Name and sender.** Brand name (working: "[Metro] Jobsite Intelligence") and alias
-   (placeholder `sites@asterfieldgroup.com`). It needs to be added as an alias in Google
-   Workspace like `fieldwork@`.
-3. **Volume.** The test shares ASI's mailbox cap (60 a day total, 20 first emails), unless you
-   lift the "no new sending domains until the first paying client" rule. Recommended: share the
-   cap, 20 test S1s in total.
-4. **Metro.** Austin first (same alias pattern, same city-match rule). Houston has more
-   commercial sites (28 of 57 in the last two weeks vs Austin's 10 of 37), so it's the
-   alternative if Austin's hauler list runs thin.
-5. **Mailing address** for the footer, the same open item as ASI.
+- `outreach/H1-H2_Hook_Packet.md` and `outreach/H1-H2_S1_Copy.md`: **19 Houston haulers**, each
+  paired with the nearest commercial or industrial site (1 to 19 miles, our read), split into
+  H1 (10) and H2 (9). Copy passes `check_copy.py`; no hauler is in ASI's lists or do-not-contact
+  file, and no site is in an ASI packet, sample or named-project file.
+- Email grades: 9 A (published on the hauler's own site), 10 B-dir (filed with FMCSA on the
+  hauler's own domain).
+- Removed by hand: DC Ex Dumpsters (FMCSA email on an unrelated aviation domain), LM Waste
+  Solutions (email on a scrap-metal yard's site), Redbox+ (national franchise). Control Waste
+  Services is a fit but its yard address didn't geocode; add it by hand if a 20th is wanted.
+- Not drafted and not sent. The three open items above come first.
+
+## Phase 0: decisions
+
+**Made (user, October 14, 2026):**
+- Name: "[City] Jobsite Intelligence", sent from `sites@asterfieldgroup.com` for every metro.
+- First metro: **Houston** (84 new sites and 70 fitting haulers in three weeks, vs Austin's 56 and 40).
+- Launch: start slowly with the 20-email test.
+
+**Still open, and they block sending:**
+1. **Mailing address for the footer.** CAN-SPAM requires a physical postal address in commercial
+   email (a PO box or virtual mailbox works). ASI's footer is missing it too.
+2. **The `sites@` alias.** Add it in Google Workspace (Admin console, the user, Alternate email)
+   and as a "Send mail as" address in Gmail, like `fieldwork@`.
+3. **The S1 cap.** ASI's tracker sets 20 first emails a day as both target and floor, from the same
+   mailbox. The test's 10 a day only fits if ASI sends 10 on those two days, or the cap is raised.
 
 ## Phase 1: build the first test batch (about 2 working days)
 

@@ -2,7 +2,8 @@
 
 TCEQ Central Registry files use county names. The Comptroller sales-tax file uses
 three-digit county codes (alphabetical county number), checked against outlet cities
-on 2026-10-14.
+on 2026-10-14. FMCSA uses county FIPS codes (`fips`); Harris 201 was checked against
+live FMCSA rows.
 """
 
 # The five regional TCEQ Central Registry files on data.texas.gov. A county can
@@ -18,14 +19,18 @@ TCEQ_FILES = {
 METROS = {
     "Austin": {
         "counties": {"TRAVIS": "227", "WILLIAMSON": "246", "HAYS": "105", "BASTROP": "011", "CALDWELL": "028"},
+        "fips": ["453", "491", "209", "021", "055"],
     },
     "Houston": {
         "counties": {"HARRIS": "101", "FORT BEND": "079", "MONTGOMERY": "170", "BRAZORIA": "020", "GALVESTON": "084"},
+        "fips": ["201", "157", "339", "039", "167"],
     },
     "DFW": {
         "counties": {"DALLAS": "057", "TARRANT": "220", "COLLIN": "043", "DENTON": "061"},
+        "fips": ["113", "439", "085", "121"],
     },
     "San Antonio": {
         "counties": {"BEXAR": "015", "COMAL": "046", "GUADALUPE": "094"},
+        "fips": ["029", "091", "187"],
     },
 }
