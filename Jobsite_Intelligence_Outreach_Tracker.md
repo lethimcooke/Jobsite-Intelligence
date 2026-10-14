@@ -36,8 +36,8 @@ draft and `JI/` labels. Labels (created Oct 14): `JI/Send manually` (Label_6), `
 
 | Batch | Metro | Copy file | Rows | Status |
 |---|---|---|---|---|
-| JI-H1 | Houston | outreach/H1-H2_S1_Copy_v2.md (H1) | 10: City Waste sent Oct 14 (v1 text), Red Dog SKIP, 8 queued | Validate PASS for 2026-10-15; planned Oct 15: all 8. Drafting Oct 14 evening (ASI ops: no DRY_RUN needed; sender LIVE) |
-| JI-H2 | Houston | outreach/H1-H2_S1_Copy_v2.md (H2) | 9: Waste Falcon SKIP, 8 queued | Validate PASS for 2026-10-15; planned Oct 15: 7; deferred to Oct 16: Essential Waste Solutions |
+| JI-H1 | Houston | outreach/H1-H2_S1_Copy_v2.md (H1) | 10: City Waste sent Oct 14 (v1 text), Red Dog SKIP, 8 queued | Validate PASS for 2026-10-15; planned Oct 15: all 8. 8 drafted Oct 14, listed in the Oct 15 manifest |
+| JI-H2 | Houston | outreach/H1-H2_S1_Copy_v2.md (H2) | 9: Waste Falcon SKIP, 8 queued | Validate PASS for 2026-10-15; planned Oct 15: 7; 7 drafted Oct 14, listed in the Oct 15 manifest; deferred to Oct 16: Essential Waste Solutions |
 
 ## Plan
 
@@ -61,6 +61,7 @@ draft and `JI/` labels. Labels (created Oct 14): `JI/Send manually` (Label_6), `
 
 | Send date | Draft ID | Subject |
 |---|---|---|
+| 2026-10-15 | r8605933855582475111 (message 1a13c9cb6e281e74, labeled JI/Do not send) | ASI-MANIFEST v1 2026-10-15 fae0d3b38062bfa462ea73fae93e63c9ab1535ebdfbe029993916ddadbe2162b (15 S1s, dry_run_only false; user approved Oct 14) |
 
 ## Excluded
 
