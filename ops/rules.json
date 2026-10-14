@@ -159,5 +159,23 @@
     "README.md decisions (user, Oct 14)",
     "docs/Outreach_Copy_v2.md",
     "data/hauler_list_houston.csv"
-  ]
+  ],
+  "engaged_cadence": {
+    "E1": "same day as reply",
+    "E2_business_days_after_sample": 2,
+    "E3_business_days_after_sample": 5,
+    "E3_earlier_trigger": "useful feedback",
+    "reply_freezes_silent_sequence": true,
+    "handoff": "Attach the hauler PDF and set From to sites@asterfieldgroup.com; label JI/Send manually."
+  },
+  "payment": {
+    "product": "Jobsite Intelligence 30-day pilot",
+    "amount_usd": 500,
+    "default": "Stripe Payment Link",
+    "alternative": "Stripe invoice if the buyer asks",
+    "payment_link": null,
+    "required_before": "first E3; the user creates it when either business secures its first pilot payment (user, Oct 14)",
+    "share_only_after": "hauler says yes to the E3",
+    "first_list": "within a week of payment"
+  }
 }

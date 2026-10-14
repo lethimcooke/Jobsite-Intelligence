@@ -47,7 +47,7 @@ draft and `JI/` labels. Labels (created Oct 14): `JI/Send manually` (Label_6), `
 
 ## Plan
 
-- **Oct 15:** 15 S1s (JI-H1 8, JI-H2 7), Jobsite's full daily share. **Oct 16:** Essential Waste Solutions S1 plus City Waste S2 (`outreach/JI-H1_S2_Copy.md`, queue `ops/queue/JI-H1-S2.json`, linked to thread 1a13ba7b4a2819dd; validate PASS for Oct 16). Drafts and the Oct 16 manifest are made on Oct 15 (a manifest goes stale after 36 hours). S2s for Oct 15 S1s are due Oct 17.
+- **Oct 15:** 15 S1s (JI-H1 8, JI-H2 7), Jobsite's full daily share. **Oct 16:** Essential Waste Solutions S1 plus City Waste S2 (`outreach/JI-H1_S2_Copy.md`, queue `ops/queue/JI-H1-S2.json`, linked to thread 1a13ba7b4a2819dd; validate PASS for Oct 16). Drafts and the Oct 16 manifest are made on Oct 15 (a manifest goes stale after 36 hours). S2s for confirmed Oct 15 S1s are due Oct 19 (+2 business days; Oct 17 is a Saturday). Essential Waste Solutions, if sent Oct 16, reaches S2 on Oct 20. S5 (+13 business days): Nov 2, 3, 4 for S1s sent Oct 14, 15, 16.
 - The A/B subject arm is in the copy file per row; log it with each send in `outreach_results.csv` notes.
 
 ## Send log
@@ -67,6 +67,8 @@ PDF, set From to sites@ (Oct 14: an ASI engaged email went out from operations@)
 |---|---|---|---|---|
 
 - **Tests:** any test manifest is made with `ji_ops.py manifest ... --dry-run-only`; the sender only sends from manifests marked `"dry_run_only": false`.
+
+- **Follow-up copy (Oct 14):** H1/H2 S2 and S5 drafts for review are in `outreach/review/` (17 accounts per stage; converted queues in `ops/review/queues/`, outside the live queues). Pending the user's approval; City Waste's live S2 stays `outreach/JI-H1_S2_Copy.md`.
 
 ## Manifest drafts (the only ones Jobsite may delete)
 

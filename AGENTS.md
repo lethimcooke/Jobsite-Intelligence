@@ -31,24 +31,38 @@ You must never:
   own business domain. Free-mail only: mark `needs email pass`. No email at all: give the contact
   form URL and say so.
 
-## Current priority (Oct 14)
+## Current priority (Oct 14): find new Houston haulers by public research
 
-Houston is the only live metro (the sender is "Houston Jobsite Intelligence"). Of 273 Houston
-FMCSA candidates, only 22 passed the fit check with an email and 19 are already used, so:
+Projects are not the bottleneck: TCEQ adds about 745 construction sites a month statewide and
+Houston had 84 usable ones in three weeks. Buyers are. Of 273 Houston FMCSA candidates only 22 were
+usable and 19 are already in sequence. Target: **at least 60 new fit Houston haulers** (four weeks
+of first emails at 15 a day), delivered in packets of about 15.
 
-1. **Houston second pass.** In `data/hauler_list_houston.csv`, recheck the rows with `fit` False
-   that have an email (about 56) and the rows with no email (about 195). A row becomes fit only
-   when the hauler's own site or listing says roll-off dumpsters or portable toilets for
-   construction or commercial customers in the Houston area. Find emails on the hauler's own site.
-   Record what you found in `notes`; set `fit` and `email`/`email_confidence` only from evidence.
-2. **New Houston haulers** missed by FMCSA (portable toilet companies often aren't carriers):
-   Comptroller sales-tax permits (NAICS 562111, 562119, 562991) in the Houston counties.
-3. Only when the user says so: DFW or San Antonio (`enrich_haulers.py --metro DFW`).
+Research sources, in order. Every row cites where it came from (`notes`: source URL or record ID):
+1. **Public directories and registries** for roll-off dumpster and portable toilet companies in
+   Harris, Fort Bend, Montgomery, Brazoria and Galveston counties: city hauler permit or
+   registration lists (check whether City of Houston and the suburbs publish permitted commercial
+   solid waste haulers), Comptroller sales-tax permits (NAICS 562111, 562119, 562991 on
+   data.texas.gov), Portable Sanitation Association International member directory, chamber of
+   commerce and BBB business listings, and plain web search ("roll off dumpster rental Katy",
+   "portable toilet rental Conroe", one search per suburb).
+2. **The hauler's own website**: confirm it rents roll-offs or portable toilets to contractors or
+   commercial customers, its service area includes the Houston area, and find its published email.
+3. **Recheck the existing list**: rows in `data/hauler_list_houston.csv` with `fit` False (about 56
+   with an email, about 195 without), using the same website check.
+
+Skip: national haulers and franchises (WM, Republic, WCA, GFL, Waste Connections, Budget Dumpster,
+United Site Services and similar), brokers and lead-gen sites that don't own containers, junk
+removal only, residential-only, and anyone already in `data/packet_H1-H2.csv`.
+
+Only when the user says so: DFW or San Antonio (`enrich_haulers.py --metro DFW`).
 
 ## Quality bar
 
 - Prospects: an independent, owner-run hauler (no national haulers, franchises, or fleets over
-  60 power units) with a real website or registry listing, whose yard is in the metro.
+  60 power units) with a real website or registry listing, whose yard or service area is in the metro.
+  New rows need at least: company, email (graded), website, yard or service-area city, services
+  (roll-off, portable toilets, both), source.
 - Sites: priority 1-2 TXR15 sites (commercial, industrial, institutional, amenity, multifamily)
   with a street address, authorized recently. A site is used once per batch.
 - Never name individuals, including in site names (skip sites named for a person). Never claim

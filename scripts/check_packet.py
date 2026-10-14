@@ -19,6 +19,7 @@ import json
 import os
 import re
 import sys
+from urllib.parse import urlsplit
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FREE_MAIL = re.compile(r"^(gmail|yahoo|ymail|hotmail|outlook|aol|att|comcast|icloud|live|msn|sbcglobal)\.", re.I)
@@ -39,7 +40,7 @@ def read_packet(path):
     rows = []
     if path.endswith(".csv"):
         for r in csv.DictReader(open(path, encoding="utf-8")):
-            rows.append({"company": r.get("company", ""), "email": (r.get("email") or "").strip().lower()})
+            rows.append({**r, "email": (r.get("email") or "").strip().lower()})
         return rows
     text = open(path, encoding="utf-8").read()
     for sec in re.split(r"(?m)^## ", text)[1:]:
@@ -54,63 +55,93 @@ def read_packet(path):
     return rows
 
 
+def identities(row):
+    keys = set()
+    for field in ("company", "legal_name"):
+        if norm(row.get(field, "")):
+            keys.add(("company", norm(row[field])))
+    for field in ("email", "site_emails"):
+        for email in re.findall(r"[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}", row.get(field, "").lower()):
+            keys.add(("email", email))
+            host = domain(email)
+            if host and not FREE_MAIL.match(host):
+                keys.add(("domain", host.removeprefix("www.")))
+    for field in ("domain", "website", "website_url"):
+        value = row.get(field, "").strip().lower()
+        if value:
+            host = urlsplit(value if "://" in value else "https://" + value).hostname
+            if host:
+                keys.add(("domain", host.removeprefix("www.")))
+    return keys
+
+
+def csv_rows(path):
+    if not os.path.exists(path):
+        return []
+    with open(path, encoding="utf-8-sig", newline="") as handle:
+        return list(csv.DictReader(handle))
+
+
+def check(packet, root=ROOT):
+    with open(os.path.join(root, "ops", "rules.json"), encoding="utf-8") as handle:
+        rules = json.load(handle)
+    blocked = {}
+    for row in csv_rows(os.path.join(root, "data", "do_not_contact.csv")):
+        for key in identities(row):
+            blocked[key] = "on do_not_contact.csv"
+    for filename in rules.get("lists", {}).get("files", []):
+        for row in csv_rows(os.path.join(root, "data", filename)):
+            status = row.get("outreach_status", "").strip()
+            if status != "Not contacted":
+                for key in identities(row):
+                    blocked.setdefault(key, f"list status is '{status or 'missing'}'")
+    tracker = os.path.join(root, "Jobsite_Intelligence_Outreach_Tracker.md")
+    if os.path.exists(tracker):
+        with open(tracker, encoding="utf-8") as handle:
+            section = handle.read().split("## Excluded", 1)
+        if len(section) == 2:
+            section = re.split(r"(?m)^## ", section[1])[0]
+            for match in re.finditer(r"(?m)^- (.+?)(?: \(|:|$)", section):
+                blocked[("company", norm(match.group(1)))] = "on the tracker's Excluded list"
+    for filename in ("master_prospect_exclusions.csv", "prospect_exclusions.csv", "excluded.csv"):
+        for row in csv_rows(os.path.join(root, "data", filename)):
+            for key in identities(row):
+                blocked[key] = "on the excluded list"
+    # Carry company exclusions through known aliases and domains from the lists.
+    for filename in rules.get("lists", {}).get("files", []):
+        for row in csv_rows(os.path.join(root, "data", filename)):
+            keys = identities(row)
+            if any("Excluded" in blocked.get(key, "") or "excluded" in blocked.get(key, "") for key in keys):
+                for key in keys:
+                    blocked[key] = "on the excluded list"
+    flags, seen_domains = [], {}
+    if not packet:
+        return ["No prospect rows parsed; packet was not checked"]
+    for index, row in enumerate(packet, 1):
+        label = f"#{index} {row.get('company', '')} <{row.get('email', '')}>"
+        keys = identities(row)
+        if not norm(row.get("company", "")):
+            flags.append(f"{label}: missing company")
+        for reason in sorted({blocked[key] for key in keys if key in blocked}):
+            flags.append(f"{label}: {reason}")
+        for host in sorted(value for kind, value in keys if kind == "domain"):
+            if host in seen_domains:
+                flags.append(f"{label}: same domain as #{seen_domains[host]}")
+            else:
+                seen_domains[host] = index
+    return flags
+
+
 def main():
     if len(sys.argv) != 2:
         sys.exit(__doc__)
-    rules = json.load(open(os.path.join(ROOT, "ops", "rules.json")))
     packet = read_packet(sys.argv[1])
-
-    dnc_text = ""
-    dnc_path = os.path.join(ROOT, "data", "do_not_contact.csv")
-    if os.path.exists(dnc_path):
-        dnc_text = open(dnc_path, encoding="utf-8").read().lower()
-
-    status = {}
-    for f in rules.get("lists", {}).get("files", []):
-        p = os.path.join(ROOT, "data", f)
-        if not os.path.exists(p):
-            continue
-        for r in csv.DictReader(open(p, encoding="utf-8")):
-            st = (r.get("outreach_status") or "").strip()
-            for key in (r.get("email", "").lower(), norm(r.get("company", "")), norm(r.get("legal_name", ""))):
-                if key:
-                    status[key] = st
-
-    excluded = set()
-    tracker = os.path.join(ROOT, "Jobsite_Intelligence_Outreach_Tracker.md")
-    if os.path.exists(tracker):
-        part = open(tracker, encoding="utf-8").read().split("## Excluded", 1)
-        if len(part) == 2:
-            for m in re.finditer(r"(?m)^- (.+?) \(", part[1]):
-                excluded.add(norm(m.group(1)))
-
-    flags = []
-    seen_domains = {}
-    for i, r in enumerate(packet, 1):
-        label = f"#{i} {r['company']} <{r['email']}>"
-        dom = domain(r["email"])
-        if r["email"] and r["email"] in dnc_text:
-            flags.append(f"{label}: email is on do_not_contact.csv")
-        elif dom and not FREE_MAIL.match(dom) and dom in dnc_text:
-            flags.append(f"{label}: domain {dom} is on do_not_contact.csv")
-        if norm(r["company"]) and norm(r["company"]).lower() in dnc_text:
-            flags.append(f"{label}: company is on do_not_contact.csv")
-        st = status.get(r["email"]) or status.get(norm(r["company"]))
-        if st and st != "Not contacted":
-            flags.append(f"{label}: list status is '{st}'")
-        if dom and not FREE_MAIL.match(dom):
-            if dom in seen_domains:
-                flags.append(f"{label}: same domain as #{seen_domains[dom]}")
-            else:
-                seen_domains[dom] = i
-        if norm(r["company"]) in excluded:
-            flags.append(f"{label}: on the tracker's Excluded list")
-
-    for f in flags:
-        print(f)
+    flags = check(packet)
+    for flag in flags:
+        print(flag)
     print(f"{len(flags)} flags ({len(packet)} rows checked)")
-    sys.exit(1 if flags else 0)
+    return 1 if flags else 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
