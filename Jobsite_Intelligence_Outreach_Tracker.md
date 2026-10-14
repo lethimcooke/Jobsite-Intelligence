@@ -24,7 +24,7 @@ Started October 14, 2026. The source of truth for standing rules, sends and enga
   unselected, or work is open for bid.
 - **Payment:** Stripe Payment Link by default; Stripe invoice if the buyer asks; first list within a week of
   payment. Product "Jobsite Intelligence 30-day pilot, $500" in the same Asterfield Stripe account as ASI,
-  kept separate so revenue splits by business. **Link: PENDING; the user creates it when either business (ASI or Jobsite) secures its first pilot payment (user, Oct 14).** Send it only after a
+  kept separate so revenue splits by business. **Link: PENDING; the user creates it before the first E3 (current instruction, Oct 14).** Send it only after a
   hauler says yes to the E3, never in S1 or E1.
 - **Prospecting (user, Oct 14):** Codex prospects (see `AGENTS.md`) to save Claude Code usage; Claude reviews its PRs with `check_packet.py` before merging.
 - **Sample report:** `jobsite-report/`, one per hauler, built the same day as a "send it" reply.
@@ -47,7 +47,7 @@ draft and `JI/` labels. Labels (created Oct 14): `JI/Send manually` (Label_6), `
 
 ## Plan
 
-- **Oct 15:** 15 S1s (JI-H1 8, JI-H2 7), Jobsite's full daily share. **Oct 16:** Essential Waste Solutions S1 plus City Waste S2 (`outreach/JI-H1_S2_Copy.md`, queue `ops/queue/JI-H1-S2.json`, linked to thread 1a13ba7b4a2819dd; validate PASS for Oct 16). Drafts and the Oct 16 manifest are made on Oct 15 (a manifest goes stale after 36 hours). S2s for Oct 15 S1s are due Oct 17.
+- **Oct 15:** 15 S1s (JI-H1 8, JI-H2 7), Jobsite's full daily share. **Oct 16:** Essential Waste Solutions S1 plus City Waste S2 (`outreach/JI-H1_S2_Copy.md`, queue `ops/queue/JI-H1-S2.json`, linked to thread 1a13ba7b4a2819dd; validate PASS for Oct 16). Drafts and the Oct 16 manifest are made on Oct 15 (a manifest goes stale after 36 hours). S2s for confirmed Oct 15 S1s are due Oct 19 (+2 business days); Oct 17 is Saturday. Essential Waste Solutions, if sent Oct 16, reaches S2 on Oct 20.
 - The A/B subject arm is in the copy file per row; log it with each send in `outreach_results.csv` notes.
 
 ## Send log
@@ -78,3 +78,22 @@ PDF, set From to sites@ (Oct 14: an ASI engaged email went out from operations@)
 
 - Red Dog Dumpsters LLC (Oct 14): email domain is a Nashville, TN company; doesn't match the Houston FMCSA yard.
 - Waste Falcon LLC (Oct 14): serves Bryan-College Station; Cypress address is a mailbox suite.
+
+## Operations readiness review (October 14)
+
+- Correct JI_Ops_Kit_v3.zip received and compared with installed files. Runtime components,
+  report assets, skills and ASI-owned files match exactly. Kit instructions are installed;
+  newer rules, documented workflow and recorded results are preserved. Audit: ops/handoff/Kit_v3_Install_Audit.json.
+- Example PDF exported successfully, five pages. It is an EXAMPLE, never a hauler sample.
+- City Waste S2: existing approved file retained; linked to sent message 1a13bb05fcc96d4f in thread
+  1a13ba7b4a2819dd, planned for October 16 and validate PASS. Draft payload is in
+  ops/handoff/City_Waste_S2_Draft_Payload.json. Gmail draft and manifest are not created here.
+- H1/H2 S2/S5 review files are in outreach/review/; 34 sections, 17 accounts at each stage.
+  These are pending approval. Converted queues are in ops/review/queues/, outside live queue
+  globs. Do not use those queues together with live queues: City Waste's record is included
+  for copy review and has the same outreach ID as the existing live S2 queue.
+- No mailbox tools are available in this session. New replies, opt-outs, delivery and bounces
+  have not been checked. No new engaged row or list status is inferred from missing evidence.
+- S5 dates, only if the corresponding S1 is confirmed: October 14 -> November 2;
+  October 15 -> November 3; October 16 -> November 4. These use weekdays, excluding weekends.
+- Every engaged hand-off: attach the hauler's PDF and set From to sites@asterfieldgroup.com.

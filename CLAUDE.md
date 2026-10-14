@@ -49,3 +49,23 @@ Skills live in the repo under `.claude/skills/` (agent-reach, claude-automation-
 `.claude/skills/PROVENANCE.md`). CLI tools come from `scripts/cloud_setup.sh`, pasted into the Jobsite
 environment's Setup script field. If `agent-reach` or `mcporter` is missing, the setup script didn't run:
 tell the user rather than installing ad hoc.
+
+## Operations hand-off checks (October 14)
+
+- E1: build the hauler-specific five-site PDF and draft in its thread the same day as its reply.
+  Label JI/Send manually. Every hand-off: attach the PDF and set From to sites@asterfieldgroup.com.
+  Never send the EXAMPLE PDF. Gmail creates drafts from operations@ by default.
+- Engaged tracking: one row per prospect, with Company, Batch, Latest event (date, time CT,
+  their words), Status and Required next action. Any reply freezes the cold sequence and sets
+  the list status to Replied (...). E2 is sample +2 business days; E3 follows useful feedback
+  or sample +5 business days. Do not imply positive feedback when none was received.
+- Payment: Stripe Payment Link by default; Stripe invoice if requested; first list within a
+  week of payment. Separate Jobsite Intelligence 30-day pilot, $500 product in Asterfield's
+  Stripe account. Obtain the user-created link before the first E3; share it only after the
+  buyer says yes to the E3, never in S1 or E1.
+- S2 and S5 need approved batch copy with exact Re: S1 subjects, then convert, link-threads,
+  plan, validate, draft and manifest. A prepared review file is not approved copy. No thread
+  IDs or send evidence may be invented. Only generate a live manifest for actual Gmail drafts.
+- Calendar: October 17, 2026 is Saturday. An October 15 S1 reaches +2 business days on
+  October 19; an October 16 S1 reaches it on October 20. Use actual sent dates from the ledger.
+- scripts/ji_ops.py and ops/sender/Code.gs remain ASI-owned and unchanged here.
