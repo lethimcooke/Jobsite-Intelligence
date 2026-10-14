@@ -20,6 +20,7 @@ Why this idea: `docs/Business_Selection_Research.md`
 | `scripts/write_s1.py`, `scripts/check_copy.py` | S1 drafts from a packet; pre-check against `ops/rules.json` | Tested Oct 14: 19 bodies PASS |
 | `ops/rules.json` | Validator rules in ASI's schema: senders, signature, exact price line, footer, banned claims for this market | Sender set to `sites@` |
 | `docs/Outreach_Copy_v1.md` | S1, S2, S5, E1, E3 adapted from ASI's copy v2 | Draft; passes its own banned-phrase check |
+| `docs/Outreach_Copy_v2.md`, `outreach/H1-H2_S1_Copy_v2.md` | Copy v2 (research, sources, S1–S5, E1–E3, objection replies, one subject A/B test) and the 19 Houston S1s rewritten on it | Oct 14: 19 bodies PASS; Red Dog and Waste Falcon on HOLD (website doesn't match the FMCSA yard); mailing address still pending |
 
 Run from the repo root (Python 3, standard library only). Scratch output goes to the session
 scratchpad; lists and packets that are used for sending are committed under `data/` and `outreach/`.

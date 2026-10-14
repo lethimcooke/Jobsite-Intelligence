@@ -9,7 +9,7 @@ runs the same engine. This file is a map; the files below win over anything summ
 
 - `README.md`: launch plan, open decisions, test and go/no-go rule.
 - `ops/rules.json`: validator rules (senders, signature, exact price line, footer, banned claims).
-- `docs/Outreach_Copy_v1.md`: copy formulas (S1, S2, S5, E1, E3).
+- `docs/Outreach_Copy_v2.md`: copy formulas (S1, S2, S5, E1, E2, E3, objection replies); replaces v1.
 - `docs/Business_Selection_Research.md`: why this business was picked, with sources.
 - `scripts/pull_noi_sites.py`, `scripts/pull_haulers.py`: site and prospect pulls (stdlib Python).
 
