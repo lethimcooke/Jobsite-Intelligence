@@ -31,7 +31,7 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "industrial; subject B",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r-4963431805299430796",
         "message_id": "1a13c799bc659ae5",
@@ -55,7 +55,7 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "commercial; subject A",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r6717789684772501076",
         "message_id": "1a13c7a23f9183b7",
@@ -79,7 +79,7 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "industrial; subject B",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r-1916083158985913894",
         "message_id": "1a13c7a24a66897f",
@@ -103,7 +103,7 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "industrial; subject A",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r-8503878058829934845",
         "message_id": "1a13c7a26cda424b",
@@ -135,7 +135,7 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "industrial; subject B",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r-7163068936510505551",
         "message_id": "1a13c7a6c7cfa012",
@@ -159,7 +159,7 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "industrial; subject A",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r7612195581704275919",
         "message_id": "1a13c7a7036e0b15",
@@ -183,7 +183,7 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "construction; subject B",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r-8320293312860055295",
         "message_id": "1a13c7a7293f6b6d",
@@ -207,7 +207,7 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "construction; subject A",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r8857946793854374874",
         "message_id": "1a13c7a7423b9b6c",

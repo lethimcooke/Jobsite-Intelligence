@@ -56,6 +56,7 @@ draft and `JI/` labels. Labels (created Oct 14): `JI/Send manually` (Label_6), `
 | Date | Batch | Stage | Sent | Evidence | Notes |
 |---|---|---|---|---|---|
 | 2026-10-14 13:32 CT | JI-H1 | S1 | 1: City Waste LP (sales@city-waste.com) | Sent 1a13bb05fcc96d4f, thread 1a13ba7b4a2819dd; `ops/evidence/2026-10-14_JI-H1.json`; queue `ops/queue/JI-H1-S1-sent-v1.json` | Sent by mistake: an ASI test manifest made while the sender was LIVE. Approved v1 text, from sites@ as Houston Jobsite Intelligence, without the mailing-address line (still pending). Kit v2 adds `dry_run_only` to every manifest so tests can't send. S2 due Oct 16. |
+| 2026-10-15 08:04-09:14 CT | JI-H1 (8), JI-H2 (7) | S1 | 15 (all in the Oct 15 manifest) | `ops/evidence/2026-10-15_JI-H1-S1.json`, `ops/evidence/2026-10-15_JI-H2-S1.json`; ledger and results appended | From sites@; no bounces or replies as of 10:48 CT. S2 due Mon Oct 19 (+2 business days). |
 
 ## Engaged prospects
 
