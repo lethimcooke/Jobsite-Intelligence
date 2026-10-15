@@ -23,7 +23,7 @@
       "reply_to_message_id": "1a13bb05fcc96d4f",
       "attachments": [],
       "hook_type": "industrial",
-      "status": "queued",
+      "status": "deferred",
       "draft": null,
       "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
     }

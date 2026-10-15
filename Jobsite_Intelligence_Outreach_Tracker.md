@@ -44,11 +44,13 @@ draft and `JI/` labels. Labels (created Oct 14): `JI/Send manually` (Label_6), `
 |---|---|---|---|---|
 | JI-H1 | Houston | outreach/H1-H2_S1_Copy_v2.md (H1) | 10: City Waste sent Oct 14 (v1 text), Red Dog SKIP, 8 queued | Validate PASS for 2026-10-15; planned Oct 15: all 8. 8 drafted Oct 14, listed in the Oct 15 manifest |
 | JI-H2 | Houston | outreach/H1-H2_S1_Copy_v2.md (H2) | 9: Waste Falcon SKIP, 8 queued | Validate PASS for 2026-10-15; planned Oct 15: 7; 7 drafted Oct 14, listed in the Oct 15 manifest; deferred to Oct 16: Essential Waste Solutions |
+| JI-H3 | Houston | `outreach/H3_S1_Copy.md` (approved by the user Oct 15) | 15 | Validate PASS for 2026-10-16; planned Oct 16: 14 (drafted Oct 15, in the Oct 16 manifest); deferred: Trash Hauling Fast (#15) |
 | JI-H3 to JI-H6 | Houston | prospects only: `outreach/H3_Hook_Packet.md` to `H6` (Codex, PR 2, merged Oct 15) | 60 (15 each): 52 new companies, 8 requalified list rows | Reviewed: `check_packet.py` 0 flags each. S1 copy not written yet. Notes for copy: no yard addresses, so distances are from a service city (never "from your yard", so subject arm B can't be used as written); 20 sites shared across the 60 (each once per batch); 27 free-mail addresses published on the hauler's own site; Instant Solutions marked review before copy (mailbox matches an inactive carrier record); Dennis Williams & Co: greet as the business (DW Companies), never by a person's name. |
 
 ## Plan
 
 - **Oct 15:** 15 S1s (JI-H1 8, JI-H2 7), Jobsite's full daily share. **Oct 16:** Essential Waste Solutions S1 plus City Waste S2 (`outreach/JI-H1_S2_Copy.md`, queue `ops/queue/JI-H1-S2.json`, linked to thread 1a13ba7b4a2819dd; validate PASS for Oct 16). Drafts and the Oct 16 manifest are made on Oct 15 (a manifest goes stale after 36 hours). S2s for confirmed Oct 15 S1s are due Oct 19 (+2 business days; Oct 17 is a Saturday). Essential Waste Solutions, if sent Oct 16, reaches S2 on Oct 20. S5 (+13 business days): Nov 2, 3, 4 for S1s sent Oct 14, 15, 16.
+- **Oct 16 (planned Oct 15):** 15 S1s: Essential Waste Solutions (JI-H2) plus H3 #1-14. City Waste S2 deferred to Mon Oct 19 (first emails first). **Oct 19:** H3 #15 and City Waste S2, then the Oct 15 batch's S2s as the share allows.
 - The A/B subject arm is in the copy file per row; log it with each send in `outreach_results.csv` notes.
 
 ## Send log

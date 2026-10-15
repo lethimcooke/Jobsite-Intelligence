@@ -1,6 +1,6 @@
 # H3: S1 copy (Houston)
 
-Written October 15, 2026 from `docs/Outreach_Copy_v2.md` (S1, Tier B), from `data/packet_H3.csv` (Codex research, PR 2). Pending the user's approval.
+Written October 15, 2026 from `docs/Outreach_Copy_v2.md` (S1, Tier B), from `data/packet_H3.csv` (Codex research, PR 2). Approved by the user Oct 15, morning ("Approve h3").
 
 Differences from H1-H2, because these haulers have no published yard: the distance is from a city the hauler lists as a service area ("one of the areas you serve"), never "your yard"; every subject is arm A (site name); the TCEQ date is the record date on file, worded as such. Filed facts (authorization, date, site, address, county, operator) are from the TCEQ record, recased for reading. Job type and fit are our read.
 

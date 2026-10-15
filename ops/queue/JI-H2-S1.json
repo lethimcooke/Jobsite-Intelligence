@@ -191,8 +191,14 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "commercial; subject A",
-      "status": "deferred",
-      "draft": null,
+      "status": "drafted",
+      "draft": {
+        "draft_id": "r-4435992401835772587",
+        "message_id": "1a140ea4d7a5a637",
+        "thread_id": "1a140ea4d7a5a637",
+        "payload_sha256": "9db7f73f9e48b8c5d2d0b1fd295a522bfcfc1faf8eea110b135a3a8da2f98959",
+        "created_at": "2026-10-15T18:54:43+00:00"
+      },
       "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
     },
     {
