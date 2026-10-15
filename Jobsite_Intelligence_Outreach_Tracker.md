@@ -44,6 +44,7 @@ draft and `JI/` labels. Labels (created Oct 14): `JI/Send manually` (Label_6), `
 |---|---|---|---|---|
 | JI-H1 | Houston | outreach/H1-H2_S1_Copy_v2.md (H1) | 10: City Waste sent Oct 14 (v1 text), Red Dog SKIP, 8 queued | Validate PASS for 2026-10-15; planned Oct 15: all 8. 8 drafted Oct 14, listed in the Oct 15 manifest |
 | JI-H2 | Houston | outreach/H1-H2_S1_Copy_v2.md (H2) | 9: Waste Falcon SKIP, 8 queued | Validate PASS for 2026-10-15; planned Oct 15: 7; 7 drafted Oct 14, listed in the Oct 15 manifest; deferred to Oct 16: Essential Waste Solutions |
+| JI-H3 to JI-H6 | Houston | prospects only: `outreach/H3_Hook_Packet.md` to `H6` (Codex, PR 2, merged Oct 15) | 60 (15 each): 52 new companies, 8 requalified list rows | Reviewed: `check_packet.py` 0 flags each. S1 copy not written yet. Notes for copy: no yard addresses, so distances are from a service city (never "from your yard", so subject arm B can't be used as written); 20 sites shared across the 60 (each once per batch); 27 free-mail addresses published on the hauler's own site; Instant Solutions marked review before copy (mailbox matches an inactive carrier record); Dennis Williams & Co: greet as the business (DW Companies), never by a person's name. |
 
 ## Plan
 
