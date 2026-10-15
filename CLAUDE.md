@@ -38,8 +38,9 @@ runs the same engine. This file is a map; the files below win over anything summ
 - Contact forms (Option A): `scripts/fill_form.cjs` fills and screenshots; submit only after the user
   approves that form's filled screenshot in chat. CAPTCHA and no-solicitation forms stay manual. Log a
   form only with a confirmation screenshot. Only for haulers with no email.
-- The mailbox total (60 sends a day) is shared with ASI; Jobsite's share is 15. First emails always
-  go first; follow-ups wait. There is no separate first-email cap (user, Oct 14).
+- The mailbox total (60 sends a day) is shared with ASI; Jobsite's share is 15, with at most 5 new first
+  emails a day (user, Oct 15). First emails go first; follow-ups fill the rest, oldest first. The total
+  ramps weekly only when the bounce gate holds and the user confirms (tracker, "Ramp").
 
 Scratch output (pulled CSVs) goes to the session scratchpad or `data/`, never next to scripts.
 

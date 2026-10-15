@@ -106,7 +106,8 @@ class SharedMailbox(Base):
     def test_plan_stops_at_jobsite_share(self):
         q = {"records": [{**self.row, "id": f"JI-H1-S1-{i:02d}", "seq": i, "to": f"s{i}@example.com"} for i in range(19)]}
         picked, deferred = ops.plan_day([("q", q)], RULES, self.d, "2026-10-15")
-        self.assertEqual((len(picked), len(deferred)), (15, 4))
+        cap = min(RULES["daily_share"], RULES["max_s1_per_day"])
+        self.assertEqual((len(picked), len(deferred)), (cap, 19 - cap))
 
     def test_manifest_for_the_sender(self):
         r = {**self.row, "status": "drafted"}

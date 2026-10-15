@@ -13,9 +13,27 @@ Started October 14, 2026. The source of truth for standing rules, sends and enga
 - **Sending (Oct 14):** the ASI Sender (Apps Script in the user's Gmail, owned by the Austin-Signage repo)
   sends only S1, S2 and S5 drafts listed in that day's validated manifest. Engaged replies (E1-E3) are
   drafted for the user, labeled `JI/Send manually`, and sent by the user from sites@.
-- **Pace (Oct 14):** the operations@ mailbox sends at most 60 a day across both businesses; Jobsite's share
-  is 15, ASI's 45. First emails always go before follow-ups; follow-ups wait a day when the share is full.
-  No separate first-email cap.
+- **Pace (user, Oct 15; replaces Oct 14's "no separate first-email cap"):** the operations@ mailbox sends at
+  most 60 a day across both businesses; Jobsite's share is 15, ASI's 45. Each first email brings two
+  follow-ups, so Jobsite adds at most **5 new first emails a day** (ASI 15). First emails still go first;
+  follow-ups fill the rest, oldest first; the rest wait a day. Oct 16 is unchanged (15 first emails already on
+  the manifest); the cap starts Mon Oct 19, which is follow-ups only. From Tue Oct 20: 5 first emails, then
+  follow-ups.
+- **Ramp (user, Oct 15, option 1):** the shared total rises about 10 a week, only if the previous 5 sending
+  days had hard bounces under 2% of sends, no spam complaint or block notice, and no sender auto-pause:
+
+  | From | Mailbox total | Jobsite share | Jobsite first emails |
+  |---|---|---|---|
+  | Oct 19 | 60 | 15 | 5 |
+  | Oct 26 | 70 | 18 | 6 |
+  | Nov 2 | 80 | 20 | 6 |
+  | Nov 9 | 90 | 23 | 7 |
+  | Nov 16 | 100 | 25 | 8 |
+
+  On each step day change `max_total_per_day`, `daily_share` and `max_s1_per_day` in `ops/rules.json`
+  together, and only after the user confirms the gate held. ASI changes its total the same day (the sender
+  uses the lowest total across the day's manifests; if the two disagree, the lower wins). Jobsite reports its
+  bounce count every Friday.
 - **Sequence:** S1, S2 (+2 business days), S5 (+13). Any reply freezes the cold sequence.
 - **One company, one business:** a company emailed by ASI is never cold-emailed by Jobsite, and the reverse.
   The sender enforces it at send time; a skip for that reason means drop the company here.
@@ -50,7 +68,7 @@ draft and `JI/` labels. Labels (created Oct 14): `JI/Send manually` (Label_6), `
 ## Plan
 
 - **Oct 15:** 15 S1s (JI-H1 8, JI-H2 7), Jobsite's full daily share. **Oct 16:** Essential Waste Solutions S1 plus City Waste S2 (`outreach/JI-H1_S2_Copy.md`, queue `ops/queue/JI-H1-S2.json`, linked to thread 1a13ba7b4a2819dd; validate PASS for Oct 16). Drafts and the Oct 16 manifest are made on Oct 15 (a manifest goes stale after 36 hours). S2s for confirmed Oct 15 S1s are due Oct 19 (+2 business days; Oct 17 is a Saturday). Essential Waste Solutions, if sent Oct 16, reaches S2 on Oct 20. S5 (+13 business days): Nov 2, 3, 4 for S1s sent Oct 14, 15, 16.
-- **Oct 16 (planned Oct 15):** 15 S1s: Essential Waste Solutions (JI-H2) plus H3 #1-14. City Waste S2 deferred to Mon Oct 19 (first emails first). **Oct 19:** H3 #15 and City Waste S2, then the Oct 15 batch's S2s as the share allows.
+- **Oct 16 (planned Oct 15):** 15 S1s: Essential Waste Solutions (JI-H2) plus H3 #1-14 (unchanged by the Oct 15 cap). **Mon Oct 19: follow-ups only** (user, Oct 15): the 15 S2s for the Oct 15 batch plus City Waste's S2 = 16 due; the oldest 15 go Monday, the last waits for Tuesday. **From Tue Oct 20:** 5 new first emails a day (H3 #15 Trash Hauling Fast first), then follow-ups oldest first.
 - The A/B subject arm is in the copy file per row; log it with each send in `outreach_results.csv` notes.
 
 ## Send log
@@ -78,8 +96,10 @@ PDF, set From to sites@ (Oct 14: an ASI engaged email went out from operations@)
 
 | Send date | Draft ID | Subject |
 |---|---|---|
-| 2026-10-15 | r8605933855582475111 (message 1a13c9cb6e281e74, labeled JI/Do not send) | ASI-MANIFEST v1 2026-10-15 fae0d3b38062bfa462ea73fae93e63c9ab1535ebdfbe029993916ddadbe2162b (15 S1s, dry_run_only false; user approved Oct 14) |
+| 2026-10-15 | r8605933855582475111 (message 1a13c9cb6e281e74, labeled JI/Do not send) | ASI-MANIFEST v1 2026-10-15 fae0d3b38062bfa462ea73fae93e63c9ab1535ebdfbe029993916ddadbe2162b (15 S1s, dry_run_only false; user approved Oct 14). **Deleted Oct 15 after its sends were logged (spent).** |
 | 2026-10-16 | r8637948838471712868 (message 1a140ec80a072bdb, labeled JI/Do not send) | ASI-MANIFEST v1 2026-10-16 8885a25f89db96723edd19ca568f5473fb481175ba801d6fcc94ebe48356fce3 (15 S1s: Essential Waste + H3 #1-14, dry_run_only false; user approved Oct 15) |
+
+- **Oct 15 cap note:** `validate` on the Oct 16 queues now reports the new 5-first-email cap; the Oct 16 manifest was built and approved before the cap and sends unchanged (ASI ops, item 2). Don't rebuild it.
 
 ## Excluded
 

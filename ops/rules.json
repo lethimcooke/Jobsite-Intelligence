@@ -109,11 +109,11 @@
     "domains": [],
     "companies": []
   },
-  "max_s1_per_day": 60,
+  "max_s1_per_day": 5,
   "max_total_per_day": 60,
   "daily_share": 15,
   "share_note": "User, Oct 14: the operations@ mailbox sends at most 60 a day across both businesses; ASI plans to 45 and Jobsite to 15. The ASI Sender enforces the 60 and each share; first emails go first.",
-  "pace_note": "User, Oct 14: there is no separate first-email cap. First emails (S1) always go first; follow-ups fill whatever room is left and slide to the next day when the 60-a-day total is reached. The 60-a-day total is shared with ASI's mailbox.",
+  "pace_note": "User, Oct 15: each first email brings two follow-ups (S1, S2, S5), so a business adds about a third of its daily share in new first emails. Jobsite: at most 5 new first emails a day (share 15); ASI: 15 of 45. First emails still go first; follow-ups fill the rest, oldest first; the rest wait a day. Replaces the Oct 14 'no separate first-email cap'. The 60-a-day total is shared with ASI's mailbox.",
   "status_rules": {
     "S1": [
       "Not contacted"
@@ -177,5 +177,47 @@
     "required_before": "first E3; the user creates it when either business secures its first pilot payment (user, Oct 14)",
     "share_only_after": "hauler says yes to the E3",
     "first_list": "within a week of payment"
+  },
+  "ramp": {
+    "note": "User, Oct 15 (option 1): the shared mailbox total rises about 10 a week, only if the previous 5 sending days had hard bounces under 2% of sends, no spam complaint or block notice, and no sender auto-pause. On each step day change max_total_per_day, daily_share and max_s1_per_day together, only after the user confirms the gate held. ASI changes its total the same day; the sender uses the lowest total across the day's manifests. Jobsite reports its bounce count each Friday.",
+    "gate": {
+      "hard_bounce_rate_below": 0.02,
+      "window_sending_days": 5,
+      "spam_complaints": 0,
+      "block_notices": 0,
+      "sender_auto_pause": 0
+    },
+    "steps": [
+      {
+        "from": "2026-10-19",
+        "max_total_per_day": 60,
+        "daily_share": 15,
+        "max_s1_per_day": 5
+      },
+      {
+        "from": "2026-10-26",
+        "max_total_per_day": 70,
+        "daily_share": 18,
+        "max_s1_per_day": 6
+      },
+      {
+        "from": "2026-11-02",
+        "max_total_per_day": 80,
+        "daily_share": 20,
+        "max_s1_per_day": 6
+      },
+      {
+        "from": "2026-11-09",
+        "max_total_per_day": 90,
+        "daily_share": 23,
+        "max_s1_per_day": 7
+      },
+      {
+        "from": "2026-11-16",
+        "max_total_per_day": 100,
+        "daily_share": 25,
+        "max_s1_per_day": 8
+      }
+    ]
   }
 }
