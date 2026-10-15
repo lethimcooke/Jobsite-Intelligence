@@ -1,0 +1,1325 @@
+{
+  "method": "Repo build_packet.py on scratch inputs with cached public Census/ArcGIS geography and screened service-area constraints; no script changes",
+  "pairs": [
+    {
+      "batch": "H3",
+      "company": "Wilson Rolloff Rentals",
+      "reference_city": "Conroe",
+      "reference_point": [
+        30.328717,
+        -95.4846
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN112531579",
+      "authorization": "TXR1574ZL",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-09-17",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        30.310945002369,
+        -95.559507935444
+      ],
+      "service_city_miles_our_read": 5,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112531579&program_code=STORM"
+    },
+    {
+      "batch": "H3",
+      "company": "Forge Waste Solutions",
+      "reference_city": "Katy",
+      "reference_point": [
+        29.790915,
+        -95.840711
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN112540703",
+      "authorization": "TXR1591ZP",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-10-02",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        29.763617384092,
+        -95.841905046041
+      ],
+      "service_city_miles_our_read": 2,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112540703&program_code=STORM"
+    },
+    {
+      "batch": "H3",
+      "company": "Brazoria County Septic Service",
+      "reference_city": "Freeport",
+      "reference_point": [
+        28.943296,
+        -95.35607
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN112540117",
+      "authorization": "TXR1569ZP",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-10-01",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        29.45834077552,
+        -95.235422561038
+      ],
+      "service_city_miles_our_read": 36,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112540117&program_code=STORM"
+    },
+    {
+      "batch": "H3",
+      "company": "Buck Waste",
+      "reference_city": "Crosby",
+      "reference_point": [
+        29.915154,
+        -95.057681
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN112534128",
+      "authorization": "TXR1586ZM",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-09-22",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        29.80428516704,
+        -94.986212687096
+      ],
+      "service_city_miles_our_read": 9,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112534128&program_code=STORM"
+    },
+    {
+      "batch": "H3",
+      "company": "Rollin Dirty Dumpsters",
+      "reference_city": "New Caney",
+      "reference_point": [
+        30.154438,
+        -95.211759
+      ],
+      "reference_point_source": "ArcGIS public Texas locality point, New Caney, Texas",
+      "site_rn": "RN112545470",
+      "authorization": "TXR1579ZR",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-10-09",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        30.068317789568,
+        -95.235550954593
+      ],
+      "service_city_miles_our_read": 6,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112545470&program_code=STORM"
+    },
+    {
+      "batch": "H3",
+      "company": "Dumpster in the Rough",
+      "reference_city": "Humble",
+      "reference_point": [
+        29.988207,
+        -95.264356
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN112542048",
+      "authorization": "TXR1545ZQ",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-10-05",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        30.058951581385,
+        -95.187297606952
+      ],
+      "service_city_miles_our_read": 7,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112542048&program_code=STORM"
+    },
+    {
+      "batch": "H3",
+      "company": "GSS Dumpsters",
+      "reference_city": "Houston",
+      "reference_point": [
+        29.785743,
+        -95.388806
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN110198587",
+      "authorization": "TXR1587ZR",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-10-09",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        29.780444372343,
+        -95.540255063931
+      ],
+      "service_city_miles_our_read": 9,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN110198587&program_code=STORM"
+    },
+    {
+      "batch": "H3",
+      "company": "Dennis Williams & Co",
+      "reference_city": "Houston",
+      "reference_point": [
+        29.785743,
+        -95.388806
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN112539986",
+      "authorization": "TXR1563ZP",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-10-01",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        29.655009396501,
+        -95.438593390254
+      ],
+      "service_city_miles_our_read": 10,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112539986&program_code=STORM"
+    },
+    {
+      "batch": "H3",
+      "company": "American Sanitation Services",
+      "reference_city": "Houston",
+      "reference_point": [
+        29.785743,
+        -95.388806
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN112546411",
+      "authorization": "TXR1515ZS",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-10-12",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        29.64445126923,
+        -95.387947124423
+      ],
+      "service_city_miles_our_read": 10,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112546411&program_code=STORM"
+    },
+    {
+      "batch": "H3",
+      "company": "Tanks A Lot",
+      "reference_city": "Conroe",
+      "reference_point": [
+        30.328717,
+        -95.4846
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN100705680",
+      "authorization": "TXR1573ZR",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-10-08",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        30.099613491139,
+        -95.599606662182
+      ],
+      "service_city_miles_our_read": 17,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN100705680&program_code=STORM"
+    },
+    {
+      "batch": "H3",
+      "company": "Grand Slam Dumpster Rentals",
+      "reference_city": "Katy",
+      "reference_point": [
+        29.790915,
+        -95.840711
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN112538277",
+      "authorization": "TXR1577ZO",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-09-29",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        29.873519444526,
+        -95.569336746099
+      ],
+      "service_city_miles_our_read": 17,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112538277&program_code=STORM"
+    },
+    {
+      "batch": "H3",
+      "company": "Dump Today",
+      "reference_city": "Conroe",
+      "reference_point": [
+        30.328717,
+        -95.4846
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN104661624",
+      "authorization": "TXR1554ZO",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-09-28",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        30.072391089086,
+        -95.513640174416
+      ],
+      "service_city_miles_our_read": 18,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN104661624&program_code=STORM"
+    },
+    {
+      "batch": "H3",
+      "company": "Mr. Niceday's Luxury Trailers",
+      "reference_city": "Houston",
+      "reference_point": [
+        29.785743,
+        -95.388806
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN101903235",
+      "authorization": "TXR1512ZQ",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-10-05",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        29.96603197114,
+        -95.403484313442
+      ],
+      "service_city_miles_our_read": 12,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN101903235&program_code=STORM"
+    },
+    {
+      "batch": "H3",
+      "company": "RNC Developers",
+      "reference_city": "Houston",
+      "reference_point": [
+        29.785743,
+        -95.388806
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN100556943",
+      "authorization": "TXR1547ZM",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-09-21",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        29.605257306049,
+        -95.627291203083
+      ],
+      "service_city_miles_our_read": 19,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN100556943&program_code=STORM"
+    },
+    {
+      "batch": "H3",
+      "company": "Trash Hauling Fast",
+      "reference_city": "Houston",
+      "reference_point": [
+        29.785743,
+        -95.388806
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN112542162",
+      "authorization": "TXR1554ZQ",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-10-05",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        29.634774416621,
+        -95.108197704689
+      ],
+      "service_city_miles_our_read": 20,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112542162&program_code=STORM"
+    },
+    {
+      "batch": "H4",
+      "company": "Jon's Junk Removal LLC",
+      "reference_city": "Montgomery",
+      "reference_point": [
+        30.390385,
+        -95.698168
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN112531579",
+      "authorization": "TXR1574ZL",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-09-17",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        30.310945002369,
+        -95.559507935444
+      ],
+      "service_city_miles_our_read": 10,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112531579&program_code=STORM"
+    },
+    {
+      "batch": "H4",
+      "company": "Renegade Roll-Offs LLC",
+      "reference_city": "Katy",
+      "reference_point": [
+        29.790915,
+        -95.840711
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN112540703",
+      "authorization": "TXR1591ZP",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-10-02",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        29.763617384092,
+        -95.841905046041
+      ],
+      "service_city_miles_our_read": 2,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112540703&program_code=STORM"
+    },
+    {
+      "batch": "H4",
+      "company": "TEXAS ROLL OFF",
+      "reference_city": "La Marque",
+      "reference_point": [
+        29.369797,
+        -94.99419
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN112540117",
+      "authorization": "TXR1569ZP",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-10-01",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        29.45834077552,
+        -95.235422561038
+      ],
+      "service_city_miles_our_read": 16,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112540117&program_code=STORM"
+    },
+    {
+      "batch": "H4",
+      "company": "Long Boy Rentals LLC",
+      "reference_city": "Baytown",
+      "reference_point": [
+        29.76478,
+        -94.967457
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN112534128",
+      "authorization": "TXR1586ZM",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-09-22",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        29.80428516704,
+        -94.986212687096
+      ],
+      "service_city_miles_our_read": 3,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112534128&program_code=STORM"
+    },
+    {
+      "batch": "H4",
+      "company": "Texas Rolloff Dumpster Rentals",
+      "reference_city": "Conroe",
+      "reference_point": [
+        30.328717,
+        -95.4846
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN104661624",
+      "authorization": "TXR1554ZO",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-09-28",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        30.072391089086,
+        -95.513640174416
+      ],
+      "service_city_miles_our_read": 18,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN104661624&program_code=STORM"
+    },
+    {
+      "batch": "H4",
+      "company": "Action Roll-Offs",
+      "reference_city": "Houston",
+      "reference_point": [
+        29.785743,
+        -95.388806
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN110198587",
+      "authorization": "TXR1587ZR",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-10-09",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        29.780444372343,
+        -95.540255063931
+      ],
+      "service_city_miles_our_read": 9,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN110198587&program_code=STORM"
+    },
+    {
+      "batch": "H4",
+      "company": "Driveway Dumpster Rental",
+      "reference_city": "Waller",
+      "reference_point": [
+        30.072394,
+        -95.931551
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN100705680",
+      "authorization": "TXR1573ZR",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-10-08",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        30.099613491139,
+        -95.599606662182
+      ],
+      "service_city_miles_our_read": 20,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN100705680&program_code=STORM"
+    },
+    {
+      "batch": "H4",
+      "company": "PEM Dumpster Rentals",
+      "reference_city": "Baytown",
+      "reference_point": [
+        29.76478,
+        -94.967457
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN112542162",
+      "authorization": "TXR1554ZQ",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-10-05",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        29.634774416621,
+        -95.108197704689
+      ],
+      "service_city_miles_our_read": 12,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112542162&program_code=STORM"
+    },
+    {
+      "batch": "H4",
+      "company": "Come and Take It Dumpsters",
+      "reference_city": "Houston",
+      "reference_point": [
+        29.785743,
+        -95.388806
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN112539986",
+      "authorization": "TXR1563ZP",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-10-01",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        29.655009396501,
+        -95.438593390254
+      ],
+      "service_city_miles_our_read": 10,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112539986&program_code=STORM"
+    },
+    {
+      "batch": "H4",
+      "company": "Junk It Mobile Dumpsters",
+      "reference_city": "Houston",
+      "reference_point": [
+        29.785743,
+        -95.388806
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN112546411",
+      "authorization": "TXR1515ZS",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-10-12",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        29.64445126923,
+        -95.387947124423
+      ],
+      "service_city_miles_our_read": 10,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112546411&program_code=STORM"
+    },
+    {
+      "batch": "H4",
+      "company": "In-Laws Dumpsters",
+      "reference_city": "Houston",
+      "reference_point": [
+        29.785743,
+        -95.388806
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN112538277",
+      "authorization": "TXR1577ZO",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-09-29",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        29.873519444526,
+        -95.569336746099
+      ],
+      "service_city_miles_our_read": 12,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112538277&program_code=STORM"
+    },
+    {
+      "batch": "H4",
+      "company": "TOP WASTE SOLUTIONS",
+      "reference_city": "Houston",
+      "reference_point": [
+        29.785743,
+        -95.388806
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN101903235",
+      "authorization": "TXR1512ZQ",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-10-05",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        29.96603197114,
+        -95.403484313442
+      ],
+      "service_city_miles_our_read": 12,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN101903235&program_code=STORM"
+    },
+    {
+      "batch": "H4",
+      "company": "Quickwaste Services",
+      "reference_city": "Houston",
+      "reference_point": [
+        29.785743,
+        -95.388806
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN100556943",
+      "authorization": "TXR1547ZM",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-09-21",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        29.605257306049,
+        -95.627291203083
+      ],
+      "service_city_miles_our_read": 19,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN100556943&program_code=STORM"
+    },
+    {
+      "batch": "H4",
+      "company": "Houston Rolling Restrooms",
+      "reference_city": "Houston",
+      "reference_point": [
+        29.785743,
+        -95.388806
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN112545470",
+      "authorization": "TXR1579ZR",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-10-09",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        30.068317789568,
+        -95.235550954593
+      ],
+      "service_city_miles_our_read": 22,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112545470&program_code=STORM"
+    },
+    {
+      "batch": "H4",
+      "company": "Humpty Dumpsters LLC",
+      "reference_city": "Sugar Land",
+      "reference_point": [
+        29.592764,
+        -95.633801
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN100623164",
+      "authorization": "TXR1523ZM",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-09-18",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        29.537873142184,
+        -95.758184043578
+      ],
+      "service_city_miles_our_read": 8,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN100623164&program_code=STORM"
+    },
+    {
+      "batch": "H5",
+      "company": "YOUR DUMPSTER BUDDY RENTALS LLC",
+      "reference_city": "Montgomery",
+      "reference_point": [
+        30.390385,
+        -95.698168
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN112531579",
+      "authorization": "TXR1574ZL",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-09-17",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        30.310945002369,
+        -95.559507935444
+      ],
+      "service_city_miles_our_read": 10,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112531579&program_code=STORM"
+    },
+    {
+      "batch": "H5",
+      "company": "Precision Dumpsters LLC",
+      "reference_city": "Katy",
+      "reference_point": [
+        29.790915,
+        -95.840711
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN112540703",
+      "authorization": "TXR1591ZP",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-10-02",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        29.763617384092,
+        -95.841905046041
+      ],
+      "service_city_miles_our_read": 2,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112540703&program_code=STORM"
+    },
+    {
+      "batch": "H5",
+      "company": "Shepherd's Dumpsters",
+      "reference_city": "Dickinson",
+      "reference_point": [
+        29.451717,
+        -95.056238
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN112533377",
+      "authorization": "TXR1552ZM",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-09-21",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        29.503450677499,
+        -95.148496560356
+      ],
+      "service_city_miles_our_read": 7,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112533377&program_code=STORM"
+    },
+    {
+      "batch": "H5",
+      "company": "No-Bull Waste Solutions",
+      "reference_city": "Mont Belvieu",
+      "reference_point": [
+        29.849964,
+        -94.874713
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN112534128",
+      "authorization": "TXR1586ZM",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-09-22",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        29.80428516704,
+        -94.986212687096
+      ],
+      "service_city_miles_our_read": 7,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112534128&program_code=STORM"
+    },
+    {
+      "batch": "H5",
+      "company": "M&E Dumpsters",
+      "reference_city": "Conroe",
+      "reference_point": [
+        30.328717,
+        -95.4846
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN104661624",
+      "authorization": "TXR1554ZO",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-09-28",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        30.072391089086,
+        -95.513640174416
+      ],
+      "service_city_miles_our_read": 18,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN104661624&program_code=STORM"
+    },
+    {
+      "batch": "H5",
+      "company": "Haul Off Texas",
+      "reference_city": "Rosenberg",
+      "reference_point": [
+        29.549987,
+        -95.821381
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN100623164",
+      "authorization": "TXR1523ZM",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-09-18",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        29.537873142184,
+        -95.758184043578
+      ],
+      "service_city_miles_our_read": 4,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN100623164&program_code=STORM"
+    },
+    {
+      "batch": "H5",
+      "company": "Onsite Outhouse",
+      "reference_city": "Houston",
+      "reference_point": [
+        29.785743,
+        -95.388806
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN110198587",
+      "authorization": "TXR1587ZR",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-10-09",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        29.780444372343,
+        -95.540255063931
+      ],
+      "service_city_miles_our_read": 9,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN110198587&program_code=STORM"
+    },
+    {
+      "batch": "H5",
+      "company": "Vargas Dumpster Services LLC",
+      "reference_city": "Houston",
+      "reference_point": [
+        29.785743,
+        -95.388806
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN112539986",
+      "authorization": "TXR1563ZP",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-10-01",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        29.655009396501,
+        -95.438593390254
+      ],
+      "service_city_miles_our_read": 10,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112539986&program_code=STORM"
+    },
+    {
+      "batch": "H5",
+      "company": "TRS Dumpsters",
+      "reference_city": "Rosenberg",
+      "reference_point": [
+        29.549987,
+        -95.821381
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN100556943",
+      "authorization": "TXR1547ZM",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-09-21",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        29.605257306049,
+        -95.627291203083
+      ],
+      "service_city_miles_our_read": 12,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN100556943&program_code=STORM"
+    },
+    {
+      "batch": "H5",
+      "company": "AJ Foyt Roll Offs LLC",
+      "reference_city": "Hockley",
+      "reference_point": [
+        30.026536,
+        -95.843597
+      ],
+      "reference_point_source": "ArcGIS public Texas locality point, Hockley, Texas",
+      "site_rn": "RN110638913",
+      "authorization": "TXR1523XC",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-09-24",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        30.071593987156,
+        -95.593557090927
+      ],
+      "service_city_miles_our_read": 15,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN110638913&program_code=STORM"
+    },
+    {
+      "batch": "H5",
+      "company": "PARADA WASTE LLC",
+      "reference_city": "Houston",
+      "reference_point": [
+        29.785743,
+        -95.388806
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN112546411",
+      "authorization": "TXR1515ZS",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-10-12",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        29.64445126923,
+        -95.387947124423
+      ],
+      "service_city_miles_our_read": 10,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112546411&program_code=STORM"
+    },
+    {
+      "batch": "H5",
+      "company": "NATION WASTE INC",
+      "reference_city": "Houston",
+      "reference_point": [
+        29.785743,
+        -95.388806
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN112538277",
+      "authorization": "TXR1577ZO",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-09-29",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        29.873519444526,
+        -95.569336746099
+      ],
+      "service_city_miles_our_read": 12,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112538277&program_code=STORM"
+    },
+    {
+      "batch": "H5",
+      "company": "Toss and Haul Dumpsters",
+      "reference_city": "Houston",
+      "reference_point": [
+        29.785743,
+        -95.388806
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN112542162",
+      "authorization": "TXR1554ZQ",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-10-05",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        29.634774416621,
+        -95.108197704689
+      ],
+      "service_city_miles_our_read": 20,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112542162&program_code=STORM"
+    },
+    {
+      "batch": "H5",
+      "company": "Instant Solutions",
+      "reference_city": "Sugar Land",
+      "reference_point": [
+        29.592764,
+        -95.633801
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN112540117",
+      "authorization": "TXR1569ZP",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-10-01",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        29.45834077552,
+        -95.235422561038
+      ],
+      "service_city_miles_our_read": 26,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112540117&program_code=STORM"
+    },
+    {
+      "batch": "H5",
+      "company": "TAKE1 DUMPSTER RENTAL LLC",
+      "reference_city": "Houston",
+      "reference_point": [
+        29.785743,
+        -95.388806
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN101903235",
+      "authorization": "TXR1512ZQ",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-10-05",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        29.96603197114,
+        -95.403484313442
+      ],
+      "service_city_miles_our_read": 12,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN101903235&program_code=STORM"
+    },
+    {
+      "batch": "H6",
+      "company": "Harvey's Disposal Service",
+      "reference_city": "Montgomery",
+      "reference_point": [
+        30.390385,
+        -95.698168
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN112531579",
+      "authorization": "TXR1574ZL",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-09-17",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        30.310945002369,
+        -95.559507935444
+      ],
+      "service_city_miles_our_read": 10,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112531579&program_code=STORM"
+    },
+    {
+      "batch": "H6",
+      "company": "Union Dumpster & Rentals",
+      "reference_city": "Katy",
+      "reference_point": [
+        29.790915,
+        -95.840711
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN112540703",
+      "authorization": "TXR1591ZP",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-10-02",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        29.763617384092,
+        -95.841905046041
+      ],
+      "service_city_miles_our_read": 2,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112540703&program_code=STORM"
+    },
+    {
+      "batch": "H6",
+      "company": "Clean Space Dumpsters",
+      "reference_city": "League City",
+      "reference_point": [
+        29.490064,
+        -95.109093
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN112533377",
+      "authorization": "TXR1552ZM",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-09-21",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        29.503450677499,
+        -95.148496560356
+      ],
+      "service_city_miles_our_read": 3,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112533377&program_code=STORM"
+    },
+    {
+      "batch": "H6",
+      "company": "Q-LINE SITE SERVICES, LLC",
+      "reference_city": "Baytown",
+      "reference_point": [
+        29.76478,
+        -94.967457
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN112534128",
+      "authorization": "TXR1586ZM",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-09-22",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        29.80428516704,
+        -94.986212687096
+      ],
+      "service_city_miles_our_read": 3,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112534128&program_code=STORM"
+    },
+    {
+      "batch": "H6",
+      "company": "A&W Dumpster Rentals",
+      "reference_city": "Conroe",
+      "reference_point": [
+        30.328717,
+        -95.4846
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN100705680",
+      "authorization": "TXR1573ZR",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-10-08",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        30.099613491139,
+        -95.599606662182
+      ],
+      "service_city_miles_our_read": 17,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN100705680&program_code=STORM"
+    },
+    {
+      "batch": "H6",
+      "company": "Midway Environmental",
+      "reference_city": "Cypress",
+      "reference_point": [
+        29.9733345,
+        -95.6873322
+      ],
+      "reference_point_source": "ArcGIS public Texas locality point, Cypress, Texas",
+      "site_rn": "RN110638913",
+      "authorization": "TXR1523XC",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-09-24",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        30.071593987156,
+        -95.593557090927
+      ],
+      "service_city_miles_our_read": 9,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN110638913&program_code=STORM"
+    },
+    {
+      "batch": "H6",
+      "company": "Big Orange Bins",
+      "reference_city": "Cypress",
+      "reference_point": [
+        29.9733345,
+        -95.6873322
+      ],
+      "reference_point_source": "ArcGIS public Texas locality point, Cypress, Texas",
+      "site_rn": "RN112538277",
+      "authorization": "TXR1577ZO",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-09-29",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        29.873519444526,
+        -95.569336746099
+      ],
+      "service_city_miles_our_read": 10,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112538277&program_code=STORM"
+    },
+    {
+      "batch": "H6",
+      "company": "The Outhouse Boys",
+      "reference_city": "Waller",
+      "reference_point": [
+        30.072394,
+        -95.931551
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN104661624",
+      "authorization": "TXR1554ZO",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-09-28",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        30.072391089086,
+        -95.513640174416
+      ],
+      "service_city_miles_our_read": 25,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN104661624&program_code=STORM"
+    },
+    {
+      "batch": "H6",
+      "company": "Dolly's Dumpsters of Houston",
+      "reference_city": "Houston",
+      "reference_point": [
+        29.785743,
+        -95.388806
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN110198587",
+      "authorization": "TXR1587ZR",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-10-09",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        29.780444372343,
+        -95.540255063931
+      ],
+      "service_city_miles_our_read": 9,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN110198587&program_code=STORM"
+    },
+    {
+      "batch": "H6",
+      "company": "Bin Dumped",
+      "reference_city": "Houston",
+      "reference_point": [
+        29.785743,
+        -95.388806
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN112539986",
+      "authorization": "TXR1563ZP",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-10-01",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        29.655009396501,
+        -95.438593390254
+      ],
+      "service_city_miles_our_read": 10,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112539986&program_code=STORM"
+    },
+    {
+      "batch": "H6",
+      "company": "Aztec Rental Services",
+      "reference_city": "Houston",
+      "reference_point": [
+        29.785743,
+        -95.388806
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN112546411",
+      "authorization": "TXR1515ZS",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-10-12",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        29.64445126923,
+        -95.387947124423
+      ],
+      "service_city_miles_our_read": 10,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112546411&program_code=STORM"
+    },
+    {
+      "batch": "H6",
+      "company": "R&L Dumpsters",
+      "reference_city": "Houston",
+      "reference_point": [
+        29.785743,
+        -95.388806
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN101903235",
+      "authorization": "TXR1512ZQ",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-10-05",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        29.96603197114,
+        -95.403484313442
+      ],
+      "service_city_miles_our_read": 12,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN101903235&program_code=STORM"
+    },
+    {
+      "batch": "H6",
+      "company": "BEST DUMPSTER SERVICE",
+      "reference_city": "Pasadena",
+      "reference_point": [
+        29.654996,
+        -95.151055
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN112542162",
+      "authorization": "TXR1554ZQ",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-10-05",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        29.634774416621,
+        -95.108197704689
+      ],
+      "service_city_miles_our_read": 3,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112542162&program_code=STORM"
+    },
+    {
+      "batch": "H6",
+      "company": "LJP Hauling",
+      "reference_city": "Houston",
+      "reference_point": [
+        29.785743,
+        -95.388806
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN100556943",
+      "authorization": "TXR1547ZM",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-09-21",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        29.605257306049,
+        -95.627291203083
+      ],
+      "service_city_miles_our_read": 19,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN100556943&program_code=STORM"
+    },
+    {
+      "batch": "H6",
+      "company": "The Dumpster Guys",
+      "reference_city": "Cleveland",
+      "reference_point": [
+        30.338215,
+        -95.090283
+      ],
+      "reference_point_source": "US Census 2025 Texas Gazetteer internal place point",
+      "site_rn": "RN112542063",
+      "authorization": "TXR1546ZQ",
+      "authorization_status": "ACTIVE",
+      "record_date": "2026-10-05",
+      "record_date_field": "affil_begin_dt",
+      "site_point": [
+        30.060225808514,
+        -95.158989960472
+      ],
+      "service_city_miles_our_read": 20,
+      "yard_miles": null,
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112542063&program_code=STORM"
+    }
+  ]
+}

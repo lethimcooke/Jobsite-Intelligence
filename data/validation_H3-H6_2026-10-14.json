@@ -1,0 +1,59 @@
+{
+  "baseline_commit": "f693a68",
+  "baseline_rows": 273,
+  "new_rows": 52,
+  "rechecked_rows": 8,
+  "final_rows": 325,
+  "packet_rows": 60,
+  "packet_checks": [
+    {
+      "file": "data/packet_H3.csv",
+      "output": "0 flags (15 rows checked)"
+    },
+    {
+      "file": "outreach/H3_Hook_Packet.md",
+      "output": "0 flags (15 rows checked)"
+    },
+    {
+      "file": "data/packet_H4.csv",
+      "output": "0 flags (15 rows checked)"
+    },
+    {
+      "file": "outreach/H4_Hook_Packet.md",
+      "output": "0 flags (15 rows checked)"
+    },
+    {
+      "file": "data/packet_H5.csv",
+      "output": "0 flags (15 rows checked)"
+    },
+    {
+      "file": "outreach/H5_Hook_Packet.md",
+      "output": "0 flags (15 rows checked)"
+    },
+    {
+      "file": "data/packet_H6.csv",
+      "output": "0 flags (15 rows checked)"
+    },
+    {
+      "file": "outreach/H6_Hook_Packet.md",
+      "output": "0 flags (15 rows checked)"
+    }
+  ],
+  "combined_packet_check": "0 flags (60 rows checked)",
+  "existing_status_changes": 0,
+  "protected_file_changes": 0,
+  "new_row_identity_conflicts": 0,
+  "cross_business_snapshot_hits": 0,
+  "packet_project_uniqueness": "15 distinct records per batch; reuse across different batches allowed",
+  "authorization_status": "Every selected authorization matched an ACTIVE public source row with the exact record date",
+  "distance_claim": "No yard miles claimed; service-city reference miles only",
+  "not_verified": [
+    "Mailbox deliverability",
+    "27 free-mail-only accounts need an email pass",
+    "Current operating carrier for explicitly flagged accounts",
+    "Operating yards and driving distances",
+    "Full ownership/fleet audit where not established by public records",
+    "Exact delivery coverage beyond published regions",
+    "Current Gmail engagement or pending sends, no mailbox access used"
+  ]
+}
