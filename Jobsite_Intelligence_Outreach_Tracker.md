@@ -69,6 +69,7 @@ draft and `JI/` labels. Labels (created Oct 14): `JI/Send manually` (Label_6), `
 
 - **Oct 15:** 15 S1s (JI-H1 8, JI-H2 7), Jobsite's full daily share. **Oct 16:** Essential Waste Solutions S1 plus City Waste S2 (`outreach/JI-H1_S2_Copy.md`, queue `ops/queue/JI-H1-S2.json`, linked to thread 1a13ba7b4a2819dd; validate PASS for Oct 16). Drafts and the Oct 16 manifest are made on Oct 15 (a manifest goes stale after 36 hours). S2s for confirmed Oct 15 S1s are due Oct 19 (+2 business days; Oct 17 is a Saturday). Essential Waste Solutions, if sent Oct 16, reaches S2 on Oct 20. S5 (+13 business days): Nov 2, 3, 4 for S1s sent Oct 14, 15, 16.
 - **Oct 16 (planned Oct 15):** 15 S1s: Essential Waste Solutions (JI-H2) plus H3 #1-14 (unchanged by the Oct 15 cap). **Mon Oct 19: follow-ups only** (user, Oct 15): the 15 S2s for the Oct 15 batch plus City Waste's S2 = 16 due; the oldest 15 go Monday, the last waits for Tuesday. **From Tue Oct 20:** 5 new first emails a day (H3 #15 Trash Hauling Fast first), then follow-ups oldest first.
+- **S2 copy (user, Oct 16, "approve"):** `outreach/JI-H1_S2_Copy_b.md` (H1 #2-10) and `outreach/JI-H2_S2_Copy.md` (H2 #11-18); S5 files stay in `outreach/review/`. **Mon Oct 19 drafted Oct 16:** 15 S2s (City Waste plus 14 of the Oct 15 batch), each threaded to its S1; deferred: Hercules (Oct 20), Essential Waste (due Oct 20). Manifest `ops/manifests/2026-10-19.json` built; **its Gmail draft must be created Sun evening or Mon before 8 AM CT** (a manifest goes stale after 36 hours), after a reply check, with the user's OK.
 - The A/B subject arm is in the copy file per row; log it with each send in `outreach_results.csv` notes.
 
 ## Send log
@@ -77,6 +78,7 @@ draft and `JI/` labels. Labels (created Oct 14): `JI/Send manually` (Label_6), `
 |---|---|---|---|---|---|
 | 2026-10-14 13:32 CT | JI-H1 | S1 | 1: City Waste LP (sales@city-waste.com) | Sent 1a13bb05fcc96d4f, thread 1a13ba7b4a2819dd; `ops/evidence/2026-10-14_JI-H1.json`; queue `ops/queue/JI-H1-S1-sent-v1.json` | Sent by mistake: an ASI test manifest made while the sender was LIVE. Approved v1 text, from sites@ as Houston Jobsite Intelligence, without the mailing-address line (still pending). Kit v2 adds `dry_run_only` to every manifest so tests can't send. S2 due Oct 16. |
 | 2026-10-15 08:04-09:14 CT | JI-H1 (8), JI-H2 (7) | S1 | 15 (all in the Oct 15 manifest) | `ops/evidence/2026-10-15_JI-H1-S1.json`, `ops/evidence/2026-10-15_JI-H2-S1.json`; ledger and results appended | From sites@; no bounces or replies as of 10:48 CT. S2 due Mon Oct 19 (+2 business days). |
+| 2026-10-16 08:02-08:32 CT | JI-H2 (1), JI-H3 (12 so far) | S1 | 13 of 15 logged (Essential Waste; H3 #1-12); Mr. Niceday's and RNC Developers still sending | `ops/evidence/2026-10-16_JI-H2-S1_a.json`, `ops/evidence/2026-10-16_JI-H3-S1_a.json` (Dump Today logged in the next pass) | No bounces or replies. Friday gate report: 31 sent Oct 14-16, 0 hard bounces, 0 complaints or blocks, no sender pause. |
 
 ## Engaged prospects
 

@@ -191,7 +191,7 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "commercial; subject A",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r-4435992401835772587",
         "message_id": "1a140ea4d7a5a637",
