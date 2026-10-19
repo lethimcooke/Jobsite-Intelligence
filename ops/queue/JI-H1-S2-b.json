@@ -23,7 +23,7 @@
       "reply_to_message_id": "1a13fa9f1df4c3d5",
       "attachments": [],
       "hook_type": "",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r-3786447917517491214",
         "message_id": "1a144ea9fe415c77",
@@ -47,7 +47,7 @@
       "reply_to_message_id": "1a13fab70d506a68",
       "attachments": [],
       "hook_type": "",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r-4599155230708599943",
         "message_id": "1a144eaa59bfdaea",
@@ -71,7 +71,7 @@
       "reply_to_message_id": "1a13fb2c70794924",
       "attachments": [],
       "hook_type": "",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r6176190307407748535",
         "message_id": "1a144eaa8cc7e24c",
@@ -95,7 +95,7 @@
       "reply_to_message_id": "1a13fb49a554dd55",
       "attachments": [],
       "hook_type": "",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r-2128289753550971182",
         "message_id": "1a144eaab582bd52",
@@ -119,7 +119,7 @@
       "reply_to_message_id": "1a13fbba7fc42824",
       "attachments": [],
       "hook_type": "",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r-7525176487655492927",
         "message_id": "1a144eaae4b8e31b",
@@ -143,7 +143,7 @@
       "reply_to_message_id": "1a13fbd988c451fe",
       "attachments": [],
       "hook_type": "",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r5369450087781133868",
         "message_id": "1a144eab13e03bfb",
