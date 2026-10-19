@@ -1,0 +1,20 @@
+[
+  {
+    "outreach_id": "JI-H1-S2-09",
+    "kind": "gmail_sent",
+    "evidence_id": "1a15570505ac880e",
+    "thread_id": "1a13c7a7293f6b6d",
+    "sent_at": "2026-10-19T18:33:06+00:00",
+    "from": "sites@asterfieldgroup.com",
+    "to": "admin@ofssolidwaste.com"
+  },
+  {
+    "outreach_id": "JI-H1-S2-10",
+    "kind": "gmail_sent",
+    "evidence_id": "1a155720bcad95c4",
+    "thread_id": "1a13c7a7423b9b6c",
+    "sent_at": "2026-10-19T18:34:59+00:00",
+    "from": "sites@asterfieldgroup.com",
+    "to": "bgonzalez@ezwasteinc.com"
+  }
+]

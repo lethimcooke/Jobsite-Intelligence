@@ -1,0 +1,56 @@
+[
+  {
+    "outreach_id": "JI-H2-S2-11",
+    "kind": "gmail_sent",
+    "evidence_id": "1a155797e51f30f2",
+    "thread_id": "1a13c7ab9aa1f7b9",
+    "sent_at": "2026-10-19T18:43:07+00:00",
+    "from": "sites@asterfieldgroup.com",
+    "to": "info@astrowaste.com"
+  },
+  {
+    "outreach_id": "JI-H2-S2-12",
+    "kind": "gmail_sent",
+    "evidence_id": "1a1557b3224f9736",
+    "thread_id": "1a13c7aba1dbebf3",
+    "sent_at": "2026-10-19T18:44:59+00:00",
+    "from": "sites@asterfieldgroup.com",
+    "to": "carlk@moffittservices.com"
+  },
+  {
+    "outreach_id": "JI-H2-S2-13",
+    "kind": "gmail_sent",
+    "evidence_id": "1a15582979d67a6d",
+    "thread_id": "1a13c7abd3e1dce6",
+    "sent_at": "2026-10-19T18:53:04+00:00",
+    "from": "sites@asterfieldgroup.com",
+    "to": "services@opewasteservices.com"
+  },
+  {
+    "outreach_id": "JI-H2-S2-14",
+    "kind": "gmail_sent",
+    "evidence_id": "1a15584844eff929",
+    "thread_id": "1a13c7ac17dde318",
+    "sent_at": "2026-10-19T18:55:10+00:00",
+    "from": "sites@asterfieldgroup.com",
+    "to": "slencina@jetwaste.com"
+  },
+  {
+    "outreach_id": "JI-H2-S2-15",
+    "kind": "gmail_sent",
+    "evidence_id": "1a1558c1d3e27642",
+    "thread_id": "1a13c7afb0357eb2",
+    "sent_at": "2026-10-19T19:03:28+00:00",
+    "from": "sites@asterfieldgroup.com",
+    "to": "customersupport@sustainablebins.com"
+  },
+  {
+    "outreach_id": "JI-H2-S2-16",
+    "kind": "gmail_sent",
+    "evidence_id": "1a1558dc317b058f",
+    "thread_id": "1a13c7afcad9dc6b",
+    "sent_at": "2026-10-19T19:05:16+00:00",
+    "from": "sites@asterfieldgroup.com",
+    "to": "bryan.k@zsites.com"
+  }
+]
