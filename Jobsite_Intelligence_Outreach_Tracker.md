@@ -100,11 +100,12 @@ PDF, set From to sites@ (Oct 14: an ASI engaged email went out from operations@)
 |---|---|---|
 | 2026-10-15 | r8605933855582475111 (message 1a13c9cb6e281e74, labeled JI/Do not send) | ASI-MANIFEST v1 2026-10-15 fae0d3b38062bfa462ea73fae93e63c9ab1535ebdfbe029993916ddadbe2162b (15 S1s, dry_run_only false; user approved Oct 14). **Deleted Oct 15 after its sends were logged (spent).** |
 | 2026-10-16 | r8637948838471712868 (message 1a140ec80a072bdb, labeled JI/Do not send) | ASI-MANIFEST v1 2026-10-16 8885a25f89db96723edd19ca568f5473fb481175ba801d6fcc94ebe48356fce3 (15 S1s: Essential Waste + H3 #1-14, dry_run_only false; user approved Oct 15). **Deleted Oct 19 after its sends were logged (spent).** |
+| 2026-10-19 | r-5077443539634189182 (message 1a1553aba09d33eb, labeled JI/Do not send) | ASI-MANIFEST v1 2026-10-19 e79e7fc66e8ccf34ace513693b046858b038f3e6e61dcd84e4b477b85981f2be (15 S2s, dry_run_only false; user approved Oct 19, created 12:35 CT) |
 
 - **Oct 15 cap note:** `validate` on the Oct 16 queues now reports the new 5-first-email cap; the Oct 16 manifest was built and approved before the cap and sends unchanged (ASI ops, item 2). Don't rebuild it.
 
 - **Delivery watch (Oct 19):** support@dumpsterintherough.com (H3 #6, sent Oct 16): Gmail delay notices Oct 17 and Oct 18, still retrying; not a hard bounce yet. If it fails, add it to do-not-contact and count it in the Friday gate report.
-- **Oct 19 manifest:** none was put in Gmail over the weekend, so nothing sent Monday morning. Rebuilt Oct 19 10:08 CT (`ops/manifests/2026-10-19.json`, 15 S2s, validate PASS); waiting for the user's OK to create its Gmail draft.
+- **Oct 19 manifest:** none was put in Gmail over the weekend, so nothing sent Monday morning. Rebuilt Oct 19 10:08 CT (`ops/manifests/2026-10-19.json`, 15 S2s, validate PASS); user approved 12:33 CT; Gmail draft created and labeled.
 
 ## Excluded
 
