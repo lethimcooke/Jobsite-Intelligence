@@ -78,7 +78,7 @@ draft and `JI/` labels. Labels (created Oct 14): `JI/Send manually` (Label_6), `
 |---|---|---|---|---|---|
 | 2026-10-14 13:32 CT | JI-H1 | S1 | 1: City Waste LP (sales@city-waste.com) | Sent 1a13bb05fcc96d4f, thread 1a13ba7b4a2819dd; `ops/evidence/2026-10-14_JI-H1.json`; queue `ops/queue/JI-H1-S1-sent-v1.json` | Sent by mistake: an ASI test manifest made while the sender was LIVE. Approved v1 text, from sites@ as Houston Jobsite Intelligence, without the mailing-address line (still pending). Kit v2 adds `dry_run_only` to every manifest so tests can't send. S2 due Oct 16. |
 | 2026-10-15 08:04-09:14 CT | JI-H1 (8), JI-H2 (7) | S1 | 15 (all in the Oct 15 manifest) | `ops/evidence/2026-10-15_JI-H1-S1.json`, `ops/evidence/2026-10-15_JI-H2-S1.json`; ledger and results appended | From sites@; no bounces or replies as of 10:48 CT. S2 due Mon Oct 19 (+2 business days). |
-| 2026-10-16 08:02-08:32 CT | JI-H2 (1), JI-H3 (11 logged) | S1 | 12 of 15 logged (Essential Waste; H3 #1-11); Dump Today sent 08:32, Mr. Niceday's and RNC Developers still sending | `ops/evidence/2026-10-16_JI-H2-S1_a.json`, `ops/evidence/2026-10-16_JI-H3-S1_a.json` (Dump Today logged in the next pass) | No bounces or replies. Friday gate report: 31 sent Oct 14-16, 0 hard bounces, 0 complaints or blocks, no sender pause. |
+| 2026-10-16 08:02-08:32 CT | JI-H2 (1), JI-H3 (14) | S1 | 15 of 15 logged (Essential Waste; H3 #1-14; last three logged Oct 19 from `ops/evidence/2026-10-16_JI-H3-S1_b.json`) | `ops/evidence/2026-10-16_JI-H2-S1_a.json`, `ops/evidence/2026-10-16_JI-H3-S1_a.json` (Dump Today logged in the next pass) | No bounces or replies. Friday gate report: 31 sent Oct 14-16, 0 hard bounces, 0 complaints or blocks, no sender pause. |
 
 ## Engaged prospects
 
@@ -99,9 +99,12 @@ PDF, set From to sites@ (Oct 14: an ASI engaged email went out from operations@)
 | Send date | Draft ID | Subject |
 |---|---|---|
 | 2026-10-15 | r8605933855582475111 (message 1a13c9cb6e281e74, labeled JI/Do not send) | ASI-MANIFEST v1 2026-10-15 fae0d3b38062bfa462ea73fae93e63c9ab1535ebdfbe029993916ddadbe2162b (15 S1s, dry_run_only false; user approved Oct 14). **Deleted Oct 15 after its sends were logged (spent).** |
-| 2026-10-16 | r8637948838471712868 (message 1a140ec80a072bdb, labeled JI/Do not send) | ASI-MANIFEST v1 2026-10-16 8885a25f89db96723edd19ca568f5473fb481175ba801d6fcc94ebe48356fce3 (15 S1s: Essential Waste + H3 #1-14, dry_run_only false; user approved Oct 15) |
+| 2026-10-16 | r8637948838471712868 (message 1a140ec80a072bdb, labeled JI/Do not send) | ASI-MANIFEST v1 2026-10-16 8885a25f89db96723edd19ca568f5473fb481175ba801d6fcc94ebe48356fce3 (15 S1s: Essential Waste + H3 #1-14, dry_run_only false; user approved Oct 15). **Deleted Oct 19 after its sends were logged (spent).** |
 
 - **Oct 15 cap note:** `validate` on the Oct 16 queues now reports the new 5-first-email cap; the Oct 16 manifest was built and approved before the cap and sends unchanged (ASI ops, item 2). Don't rebuild it.
+
+- **Delivery watch (Oct 19):** support@dumpsterintherough.com (H3 #6, sent Oct 16): Gmail delay notices Oct 17 and Oct 18, still retrying; not a hard bounce yet. If it fails, add it to do-not-contact and count it in the Friday gate report.
+- **Oct 19 manifest:** none was put in Gmail over the weekend, so nothing sent Monday morning. Rebuilt Oct 19 10:08 CT (`ops/manifests/2026-10-19.json`, 15 S2s, validate PASS); waiting for the user's OK to create its Gmail draft.
 
 ## Excluded
 

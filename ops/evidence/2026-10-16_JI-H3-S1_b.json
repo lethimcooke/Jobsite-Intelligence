@@ -1,0 +1,29 @@
+[
+  {
+    "outreach_id": "JI-H3-S1-12",
+    "kind": "gmail_sent",
+    "evidence_id": "1a144ea578ad46c6",
+    "thread_id": "1a140ea76fd2fe34",
+    "sent_at": "2026-10-16T13:32:50+00:00",
+    "from": "sites@asterfieldgroup.com",
+    "to": "info@dump-today.com"
+  },
+  {
+    "outreach_id": "JI-H3-S1-13",
+    "kind": "gmail_sent",
+    "evidence_id": "1a144eb674aa5b0c",
+    "thread_id": "1a140ea7f99dda10",
+    "sent_at": "2026-10-16T13:34:00+00:00",
+    "from": "sites@asterfieldgroup.com",
+    "to": "contact@nicedaytrailers.com"
+  },
+  {
+    "outreach_id": "JI-H3-S1-14",
+    "kind": "gmail_sent",
+    "evidence_id": "1a144ec43f7b64d7",
+    "thread_id": "1a140ea80f302800",
+    "sent_at": "2026-10-16T13:34:56+00:00",
+    "from": "sites@asterfieldgroup.com",
+    "to": "chavezsis2018@gmail.com"
+  }
+]
