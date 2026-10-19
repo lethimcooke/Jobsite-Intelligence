@@ -1,0 +1,109 @@
+{
+  "batch": "JI-H4",
+  "city": "Houston",
+  "stage": "S1",
+  "source": "outreach/H4_S1_Copy.md",
+  "section": null,
+  "title_prefix": "H4",
+  "source_sha256": "b1e1ea5716f3635b50b618cc020793e1af9b03647606df1f0a2c894ea0b8646e",
+  "packet": null,
+  "created_at": "2026-10-19T17:36:44+00:00",
+  "records": [
+    {
+      "id": "JI-H4-S1-01",
+      "seq": 1,
+      "batch": "JI-H4",
+      "company": "Jon's Junk Removal LLC",
+      "city": "Houston",
+      "stage": "S1",
+      "from": "sites@asterfieldgroup.com",
+      "to": "junkremoval19@gmail.com",
+      "subject": "Ridgelake Cove Clearing and Grubbing",
+      "body": "Hi Jon's Junk Removal team,\n\nTCEQ's Central Registry lists a construction stormwater authorization (TXR1574ZL) with a record date of September 17 for Ridgelake Cove Clearing and Grubbing at 8864 Catamaran Way, Montgomery in Montgomery County. The operator on file is Randy Roan Construction Inc.\n\nIt's about 10 miles from Montgomery, one of the areas you serve, and a site-clearing job like this is the kind your roll-off containers serve; that's our read, not the filing.\n\nWe're a research service with no tie to the project. The sample costs nothing; after it, our 30-day pilot is a one-time $500 for 15–20 verified projects, with no subscription.\n\nWant five sites like this in your service area, free?\n\nHouston Jobsite Intelligence\nAsterfield Group\nsites@asterfieldgroup.com",
+      "reply_to_message_id": null,
+      "attachments": [],
+      "hook_type": "site clearing; subject A; no yard",
+      "status": "drafted",
+      "draft": {
+        "draft_id": "r500768850339369532",
+        "message_id": "1a1553e1414fe2c1",
+        "thread_id": "1a1553e1414fe2c1",
+        "payload_sha256": "2b0751b007e0cfe0b6bbbec97e6760a4cc3e8295e3d7a21db118ea1cc5eb604c",
+        "created_at": "2026-10-19T17:38:31+00:00"
+      },
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+    },
+    {
+      "id": "JI-H4-S1-02",
+      "seq": 2,
+      "batch": "JI-H4",
+      "company": "Renegade Roll-Offs LLC",
+      "city": "Houston",
+      "stage": "S1",
+      "from": "sites@asterfieldgroup.com",
+      "to": "renegaderolloffsllc@gmail.com",
+      "subject": "Fifth Third Bank Shops at Katy",
+      "body": "Hi Renegade Roll-Offs team,\n\nTCEQ's Central Registry lists a construction stormwater authorization (TXR1591ZP) with a record date of October 2 for Fifth Third Bank Shops at Katy at 1720 Spring Green Blvd, Katy in Fort Bend County. The operator on file is The Fifth Third Bank.\n\nIt's about 2 miles from Katy, one of the areas you serve, and a commercial job like this is the kind your 15- to 20-yard roll-offs serve; that's our read, not the filing.\n\nWe're a research service with no tie to the project. The sample costs nothing; after it, our 30-day pilot is a one-time $500 for 15–20 verified projects, with no subscription.\n\nWant five sites like this in your service area, free?\n\nHouston Jobsite Intelligence\nAsterfield Group\nsites@asterfieldgroup.com",
+      "reply_to_message_id": null,
+      "attachments": [],
+      "hook_type": "commercial; subject A; no yard",
+      "status": "drafted",
+      "draft": {
+        "draft_id": "r-4753259562338332632",
+        "message_id": "1a1553e17087ea94",
+        "thread_id": "1a1553e17087ea94",
+        "payload_sha256": "192e373ed7918739a7148fbe171f5bf4e910504508daf0a1a591b09ac25a5a79",
+        "created_at": "2026-10-19T17:38:32+00:00"
+      },
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+    },
+    {
+      "id": "JI-H4-S1-03",
+      "seq": 3,
+      "batch": "JI-H4",
+      "company": "TEXAS ROLL OFF",
+      "city": "Houston",
+      "stage": "S1",
+      "from": "sites@asterfieldgroup.com",
+      "to": "goyardexcellence@gmail.com",
+      "subject": "TNMP Alvin Construction Center",
+      "body": "Hi Texas Roll Off team,\n\nTCEQ's Central Registry lists a construction stormwater authorization (TXR1569ZP) with a record date of October 1 for TNMP Alvin Construction Center at 1157 Fox Meadow Dr, Alvin in Brazoria County. The operator on file is Texas-New Mexico Power Company.\n\nIt's about 16 miles from La Marque, one of the areas you serve, and an industrial job like this is the kind your 20- to 40-yard roll-offs serve; that's our read, not the filing.\n\nWe're a research service with no tie to the project. The sample costs nothing; after it, our 30-day pilot is a one-time $500 for 15–20 verified projects, with no subscription.\n\nWant five sites like this in your service area, free?\n\nHouston Jobsite Intelligence\nAsterfield Group\nsites@asterfieldgroup.com",
+      "reply_to_message_id": null,
+      "attachments": [],
+      "hook_type": "industrial; subject A; no yard",
+      "status": "drafted",
+      "draft": {
+        "draft_id": "r3116009565338720038",
+        "message_id": "1a1553e183a6100b",
+        "thread_id": "1a1553e183a6100b",
+        "payload_sha256": "7818abc3fb704c09a93238cf42d84b943c4460a7cd7eb0b7a01dabadfd5432bc",
+        "created_at": "2026-10-19T17:38:32+00:00"
+      },
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+    },
+    {
+      "id": "JI-H4-S1-04",
+      "seq": 4,
+      "batch": "JI-H4",
+      "company": "Long Boy Rentals LLC",
+      "city": "Houston",
+      "stage": "S1",
+      "from": "sites@asterfieldgroup.com",
+      "to": "castillo2287@hotmail.com",
+      "subject": "Rooms To Go, Baytown",
+      "body": "Hi Long Boy Rentals team,\n\nTCEQ's Central Registry lists a construction stormwater authorization (TXR1586ZM) with a record date of September 22 for Rooms To Go - Baytown at 4815 East Fwy, Baytown in Harris County. The operator on file is Helker & Crawford Constructors LP.\n\nIt's about 3 miles from Baytown, one of the areas you serve, and a commercial job like this is the kind your 15- to 30-yard roll-offs serve; that's our read, not the filing.\n\nWe're a research service with no tie to the project. The sample costs nothing; after it, our 30-day pilot is a one-time $500 for 15–20 verified projects, with no subscription.\n\nWant five sites like this in your service area, free?\n\nHouston Jobsite Intelligence\nAsterfield Group\nsites@asterfieldgroup.com",
+      "reply_to_message_id": null,
+      "attachments": [],
+      "hook_type": "commercial; subject A; no yard",
+      "status": "drafted",
+      "draft": {
+        "draft_id": "r3126850611357136568",
+        "message_id": "1a1553e1b212256c",
+        "thread_id": "1a1553e1b212256c",
+        "payload_sha256": "a7904a8394d037516e7c94c301e946b5b684dae3aa6177896e3055e7e22d9738",
+        "created_at": "2026-10-19T17:38:32+00:00"
+      },
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+    }
+  ]
+}

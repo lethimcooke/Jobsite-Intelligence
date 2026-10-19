@@ -107,6 +107,10 @@ PDF, set From to sites@ (Oct 14: an ASI engaged email went out from operations@)
 - **Delivery watch (Oct 19):** support@dumpsterintherough.com (H3 #6, sent Oct 16): Gmail delay notices Oct 17 and Oct 18, still retrying; not a hard bounce yet. If it fails, add it to do-not-contact and count it in the Friday gate report.
 - **Oct 19 manifest:** none was put in Gmail over the weekend, so nothing sent Monday morning. Rebuilt Oct 19 10:08 CT (`ops/manifests/2026-10-19.json`, 15 S2s, validate PASS); user approved 12:33 CT; Gmail draft created and labeled.
 
+- **Bounce (Oct 19):** support@dumpsterintherough.com (H3 #6) hard-bounced 10:31 CT after two delay notices; logged from `ops/evidence/2026-10-19_JI-H3-S1_bounce.json`, added to `data/do_not_contact.csv`, its S2 skipped. Gate count so far: 1 hard bounce in 46 sends (2.2%, just over the 2% line; report Friday).
+- **H4 S1 (user, Oct 19, "approve H4"):** queued; Tue Oct 20 has H3 #15 plus H4 #1-4 (5 first emails) and the Hercules and Essential Waste S2s, all drafted. H4 #5-15 wait in `ops/queue/JI-H4-S1-hold.json` because ji_ops `validate` counts deferred S1s toward the day's cap (ASI-owned code; fix requested from ASI). Each day, move that day's 5 into a live queue before planning.
+- **H3 S2 copy:** `outreach/JI-H3_S2_Copy.md` (13 haulers, #6 skipped), pending the user's approval; due Oct 20.
+
 ## Excluded
 
 - Red Dog Dumpsters LLC (Oct 14): email domain is a Nashville, TN company; doesn't match the Houston FMCSA yard.
