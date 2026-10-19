@@ -1,6 +1,6 @@
 # JI-H3 S2 copy (Houston)
 
-Written Oct 19 from `docs/Outreach_Copy_v2.md` (S2, business day +2, same thread) for the 14 H3 haulers whose S1 went out Oct 16. Pending the user's approval. Same wording as the approved H1/H2 S2s, except the close says "in your service area" (these haulers have no published yard). The operator name is as filed, recased for reading; who arranges site services is our read.
+Written Oct 19 from `docs/Outreach_Copy_v2.md` (S2, business day +2, same thread) for the 14 H3 haulers whose S1 went out Oct 16. Approved by the user Oct 19 ("approve H3 S2"). Same wording as the approved H1/H2 S2s, except the close says "in your service area" (these haulers have no published yard). The operator name is as filed, recased for reading; who arranges site services is our read.
 
 ## 1. H3: Wilson Rolloff Rentals
 - To: wilsonrolloffrentals@gmail.com
