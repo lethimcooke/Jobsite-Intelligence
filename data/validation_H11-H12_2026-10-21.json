@@ -1,0 +1,30 @@
+{
+  "data/packet_H11.csv": {
+    "returncode": 0,
+    "output": "0 flags (9 rows checked)"
+  },
+  "data/packet_H12.csv": {
+    "returncode": 0,
+    "output": "0 flags (4 rows checked)"
+  },
+  "outreach/H11_Hook_Packet.md": {
+    "returncode": 0,
+    "output": "0 flags (9 rows checked)"
+  },
+  "outreach/H12_Hook_Packet.md": {
+    "returncode": 0,
+    "output": "0 flags (4 rows checked)"
+  },
+  "tests": {
+    "returncode": 0,
+    "output": "...............................\n----------------------------------------------------------------------\nRan 31 tests in 0.017s\n\nOK\n"
+  },
+  "preservation": {
+    "all_349_existing_Houston_rows_byte_preserved": true,
+    "H5_H6_packets_unchanged": true,
+    "DNC_ledger_results_tracker_unchanged": true,
+    "new_Houston_rows": 4,
+    "new_DFW_rows": 7,
+    "new_RNs_and_authorizations_unique_and_absent_from_prior_packets": true
+  }
+}

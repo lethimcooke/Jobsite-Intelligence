@@ -1,0 +1,1600 @@
+{
+  "ajfoyt-rolloffs.com": {
+    "url": "https://dns.google/resolve?name=ajfoyt-rolloffs.com&type=MX",
+    "fetched_at": "2026-10-21T15:04:46.469448+00:00",
+    "response": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "ajfoyt-rolloffs.com.",
+          "type": 15
+        }
+      ],
+      "Answer": [
+        {
+          "name": "ajfoyt-rolloffs.com.",
+          "type": 15,
+          "TTL": 21600,
+          "data": "30 mx30.antispam.mailspamprotection.com."
+        },
+        {
+          "name": "ajfoyt-rolloffs.com.",
+          "type": 15,
+          "TTL": 21600,
+          "data": "10 mx10.antispam.mailspamprotection.com."
+        },
+        {
+          "name": "ajfoyt-rolloffs.com.",
+          "type": 15,
+          "TTL": 21600,
+          "data": "20 mx20.antispam.mailspamprotection.com."
+        }
+      ],
+      "Comment": "Response from 75.2.77.104."
+    },
+    "mx": [
+      "30 mx30.antispam.mailspamprotection.com.",
+      "10 mx10.antispam.mailspamprotection.com.",
+      "20 mx20.antispam.mailspamprotection.com."
+    ],
+    "valid": true
+  },
+  "amcanservices.com": {
+    "url": "https://dns.google/resolve?name=amcanservices.com&type=MX",
+    "fetched_at": "2026-10-21T15:20:07.051982+00:00",
+    "response": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "amcanservices.com.",
+          "type": 15
+        }
+      ],
+      "Answer": [
+        {
+          "name": "amcanservices.com.",
+          "type": 15,
+          "TTL": 14400,
+          "data": "5 ALT2.ASPMX.L.GOOGLE.com."
+        },
+        {
+          "name": "amcanservices.com.",
+          "type": 15,
+          "TTL": 14400,
+          "data": "10 ALT3.ASPMX.L.GOOGLE.com."
+        },
+        {
+          "name": "amcanservices.com.",
+          "type": 15,
+          "TTL": 14400,
+          "data": "5 ALT1.ASPMX.L.GOOGLE.com."
+        },
+        {
+          "name": "amcanservices.com.",
+          "type": 15,
+          "TTL": 14400,
+          "data": "10 ALT4.ASPMX.L.GOOGLE.com."
+        },
+        {
+          "name": "amcanservices.com.",
+          "type": 15,
+          "TTL": 14400,
+          "data": "1 ASPMX.L.GOOGLE.com."
+        }
+      ],
+      "Comment": "Response from 99.83.188.187."
+    },
+    "mx": [
+      "5 ALT2.ASPMX.L.GOOGLE.com.",
+      "10 ALT3.ASPMX.L.GOOGLE.com.",
+      "5 ALT1.ASPMX.L.GOOGLE.com.",
+      "10 ALT4.ASPMX.L.GOOGLE.com.",
+      "1 ASPMX.L.GOOGLE.com."
+    ],
+    "valid": true
+  },
+  "aqua-zyme.com": {
+    "url": "https://dns.google/resolve?name=aqua-zyme.com&type=MX",
+    "fetched_at": "2026-10-21T15:04:54.795480+00:00",
+    "response": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "aqua-zyme.com.",
+          "type": 15
+        }
+      ],
+      "Answer": [
+        {
+          "name": "aqua-zyme.com.",
+          "type": 15,
+          "TTL": 3600,
+          "data": "0 aquazyme-com01b.mail.protection.outlook.com."
+        }
+      ],
+      "Comment": "Response from 216.239.32.101."
+    },
+    "mx": [
+      "0 aquazyme-com01b.mail.protection.outlook.com."
+    ],
+    "valid": true
+  },
+  "awdumpsters.com": {
+    "url": "https://dns.google/resolve?name=awdumpsters.com&type=MX",
+    "fetched_at": "2026-10-21T15:04:49.662252+00:00",
+    "response": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "awdumpsters.com.",
+          "type": 15
+        }
+      ],
+      "Answer": [
+        {
+          "name": "awdumpsters.com.",
+          "type": 15,
+          "TTL": 3600,
+          "data": "5 alt2.aspmx.l.google.com."
+        },
+        {
+          "name": "awdumpsters.com.",
+          "type": 15,
+          "TTL": 3600,
+          "data": "10 alt4.aspmx.l.google.com."
+        },
+        {
+          "name": "awdumpsters.com.",
+          "type": 15,
+          "TTL": 3600,
+          "data": "10 alt3.aspmx.l.google.com."
+        },
+        {
+          "name": "awdumpsters.com.",
+          "type": 15,
+          "TTL": 3600,
+          "data": "1 aspmx.l.google.com."
+        },
+        {
+          "name": "awdumpsters.com.",
+          "type": 15,
+          "TTL": 3600,
+          "data": "5 alt1.aspmx.l.google.com."
+        }
+      ],
+      "Comment": "Response from 97.74.103.4."
+    },
+    "mx": [
+      "5 alt2.aspmx.l.google.com.",
+      "10 alt4.aspmx.l.google.com.",
+      "10 alt3.aspmx.l.google.com.",
+      "1 aspmx.l.google.com.",
+      "5 alt1.aspmx.l.google.com."
+    ],
+    "valid": true
+  },
+  "aztecrentalservices.com": {
+    "url": "https://dns.google/resolve?name=aztecrentalservices.com&type=MX",
+    "fetched_at": "2026-10-21T15:04:49.931220+00:00",
+    "response": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "aztecrentalservices.com.",
+          "type": 15
+        }
+      ],
+      "Answer": [
+        {
+          "name": "aztecrentalservices.com.",
+          "type": 15,
+          "TTL": 3600,
+          "data": "0 aztecrentalservices-com.mail.protection.outlook.com."
+        }
+      ],
+      "Comment": "Response from 172.64.34.63."
+    },
+    "mx": [
+      "0 aztecrentalservices-com.mail.protection.outlook.com."
+    ],
+    "valid": true
+  },
+  "bdumpster.com": {
+    "url": "https://dns.google/resolve?name=bdumpster.com&type=MX",
+    "fetched_at": "2026-10-21T15:04:52.281724+00:00",
+    "response": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "bdumpster.com.",
+          "type": 15
+        }
+      ],
+      "Answer": [
+        {
+          "name": "bdumpster.com.",
+          "type": 15,
+          "TTL": 3600,
+          "data": "0 bdumpster-com.mail.protection.outlook.com."
+        }
+      ],
+      "Comment": "Response from 97.74.104.5."
+    },
+    "mx": [
+      "0 bdumpster-com.mail.protection.outlook.com."
+    ],
+    "valid": true
+  },
+  "bindumped.com": {
+    "url": "https://dns.google/resolve?name=bindumped.com&type=MX",
+    "fetched_at": "2026-10-21T15:04:50.648843+00:00",
+    "response": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "bindumped.com.",
+          "type": 15
+        }
+      ],
+      "Answer": [
+        {
+          "name": "bindumped.com.",
+          "type": 15,
+          "TTL": 3600,
+          "data": "10 aspmx.l.google.com."
+        },
+        {
+          "name": "bindumped.com.",
+          "type": 15,
+          "TTL": 3600,
+          "data": "20 alt1.aspmx.l.google.com."
+        },
+        {
+          "name": "bindumped.com.",
+          "type": 15,
+          "TTL": 3600,
+          "data": "50 aspmx3.googlemail.com."
+        },
+        {
+          "name": "bindumped.com.",
+          "type": 15,
+          "TTL": 3600,
+          "data": "30 alt2.aspmx.l.google.com."
+        },
+        {
+          "name": "bindumped.com.",
+          "type": 15,
+          "TTL": 3600,
+          "data": "40 aspmx2.googlemail.com."
+        }
+      ],
+      "Comment": "Response from 97.74.100.1."
+    },
+    "mx": [
+      "10 aspmx.l.google.com.",
+      "20 alt1.aspmx.l.google.com.",
+      "50 aspmx3.googlemail.com.",
+      "30 alt2.aspmx.l.google.com.",
+      "40 aspmx2.googlemail.com."
+    ],
+    "valid": true
+  },
+  "bluestardumpsters.com": {
+    "url": "https://dns.google/resolve?name=bluestardumpsters.com&type=MX",
+    "fetched_at": "2026-10-21T15:23:49.527708+00:00",
+    "response": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "bluestardumpsters.com.",
+          "type": 15
+        }
+      ],
+      "Answer": [
+        {
+          "name": "bluestardumpsters.com.",
+          "type": 15,
+          "TTL": 3600,
+          "data": "0 bluestardumpsters-com.mail.protection.outlook.com."
+        }
+      ],
+      "Comment": "Response from 97.74.105.16."
+    },
+    "mx": [
+      "0 bluestardumpsters-com.mail.protection.outlook.com."
+    ],
+    "valid": true
+  },
+  "discountdumpstersdfw.com": {
+    "url": "https://dns.google/resolve?name=discountdumpstersdfw.com&type=MX",
+    "fetched_at": "2026-10-21T15:23:45.584476+00:00",
+    "response": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "discountdumpstersdfw.com.",
+          "type": 15
+        }
+      ],
+      "Answer": [
+        {
+          "name": "discountdumpstersdfw.com.",
+          "type": 15,
+          "TTL": 3600,
+          "data": "0 discountdumpstersdfw-com.mail.protection.outlook.com."
+        }
+      ],
+      "Comment": "Response from 173.201.71.44."
+    },
+    "mx": [
+      "0 discountdumpstersdfw-com.mail.protection.outlook.com."
+    ],
+    "valid": true
+  },
+  "dollysdumpstershouston.com": {
+    "url": "https://dns.google/resolve?name=dollysdumpstershouston.com&type=MX",
+    "fetched_at": "2026-10-21T15:04:49.349747+00:00",
+    "response": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "dollysdumpstershouston.com.",
+          "type": 15
+        }
+      ],
+      "Answer": [
+        {
+          "name": "dollysdumpstershouston.com.",
+          "type": 15,
+          "TTL": 21600,
+          "data": "20 mx20.antispam.mailspamprotection.com."
+        },
+        {
+          "name": "dollysdumpstershouston.com.",
+          "type": 15,
+          "TTL": 21600,
+          "data": "30 mx30.antispam.mailspamprotection.com."
+        },
+        {
+          "name": "dollysdumpstershouston.com.",
+          "type": 15,
+          "TTL": 21600,
+          "data": "10 mx10.antispam.mailspamprotection.com."
+        }
+      ],
+      "Comment": "Response from 99.83.229.113."
+    },
+    "mx": [
+      "20 mx20.antispam.mailspamprotection.com.",
+      "30 mx30.antispam.mailspamprotection.com.",
+      "10 mx10.antispam.mailspamprotection.com."
+    ],
+    "valid": true
+  },
+  "fusionwaste.com": {
+    "url": "https://dns.google/resolve?name=fusionwaste.com&type=MX",
+    "fetched_at": "2026-10-21T15:23:48.796873+00:00",
+    "response": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "fusionwaste.com.",
+          "type": 15
+        }
+      ],
+      "Answer": [
+        {
+          "name": "fusionwaste.com.",
+          "type": 15,
+          "TTL": 526,
+          "data": "0 fusionwaste-com.mail.protection.outlook.com."
+        }
+      ]
+    },
+    "mx": [
+      "0 fusionwaste-com.mail.protection.outlook.com."
+    ],
+    "valid": true
+  },
+  "gmail.com": {
+    "url": "https://dns.google/resolve?name=gmail.com&type=MX",
+    "fetched_at": "2026-10-21T15:04:45.729116+00:00",
+    "response": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "gmail.com.",
+          "type": 15
+        }
+      ],
+      "Answer": [
+        {
+          "name": "gmail.com.",
+          "type": 15,
+          "TTL": 661,
+          "data": "10 alt1.gmail-smtp-in.l.google.com."
+        },
+        {
+          "name": "gmail.com.",
+          "type": 15,
+          "TTL": 661,
+          "data": "20 alt2.gmail-smtp-in.l.google.com."
+        },
+        {
+          "name": "gmail.com.",
+          "type": 15,
+          "TTL": 661,
+          "data": "5 gmail-smtp-in.l.google.com."
+        },
+        {
+          "name": "gmail.com.",
+          "type": 15,
+          "TTL": 661,
+          "data": "30 alt3.gmail-smtp-in.l.google.com."
+        },
+        {
+          "name": "gmail.com.",
+          "type": 15,
+          "TTL": 661,
+          "data": "40 alt4.gmail-smtp-in.l.google.com."
+        }
+      ]
+    },
+    "mx": [
+      "10 alt1.gmail-smtp-in.l.google.com.",
+      "20 alt2.gmail-smtp-in.l.google.com.",
+      "5 gmail-smtp-in.l.google.com.",
+      "30 alt3.gmail-smtp-in.l.google.com.",
+      "40 alt4.gmail-smtp-in.l.google.com."
+    ],
+    "valid": true
+  },
+  "hartwasteremoval.com": {
+    "url": "https://dns.google/resolve?name=hartwasteremoval.com&type=MX",
+    "fetched_at": "2026-10-21T15:23:49.417708+00:00",
+    "response": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "hartwasteremoval.com.",
+          "type": 15
+        }
+      ],
+      "Answer": [
+        {
+          "name": "hartwasteremoval.com.",
+          "type": 15,
+          "TTL": 3600,
+          "data": "0 hartwasteremoval-com.mail.protection.outlook.com."
+        }
+      ],
+      "Comment": "Response from 173.201.74.7."
+    },
+    "mx": [
+      "0 hartwasteremoval-com.mail.protection.outlook.com."
+    ],
+    "valid": true
+  },
+  "haulofftexas.com": {
+    "url": "https://dns.google/resolve?name=haulofftexas.com&type=MX",
+    "fetched_at": "2026-10-21T15:04:45.424340+00:00",
+    "response": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "haulofftexas.com.",
+          "type": 15
+        }
+      ],
+      "Answer": [
+        {
+          "name": "haulofftexas.com.",
+          "type": 15,
+          "TTL": 3600,
+          "data": "0 haulofftexas-com.mail.protection.outlook.com."
+        }
+      ],
+      "Comment": "Response from 173.201.73.26."
+    },
+    "mx": [
+      "0 haulofftexas-com.mail.protection.outlook.com."
+    ],
+    "valid": true
+  },
+  "houstonportapottyrentals.com": {
+    "url": "https://dns.google/resolve?name=houstonportapottyrentals.com&type=MX",
+    "fetched_at": "2026-10-21T15:20:11.465720+00:00",
+    "response": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "houstonportapottyrentals.com.",
+          "type": 15
+        }
+      ],
+      "Authority": [
+        {
+          "name": "houstonportapottyrentals.com.",
+          "type": 6,
+          "TTL": 1800,
+          "data": "gina.ns.cloudflare.com. dns.cloudflare.com. 2413943739 10000 2400 604800 1800"
+        }
+      ],
+      "Comment": "Response from 172.64.32.117."
+    },
+    "mx": [],
+    "valid": false
+  },
+  "icloud.com": {
+    "url": "https://dns.google/resolve?name=icloud.com&type=MX",
+    "fetched_at": "2026-10-21T15:20:03.818786+00:00",
+    "response": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "icloud.com.",
+          "type": 15
+        }
+      ],
+      "Answer": [
+        {
+          "name": "icloud.com.",
+          "type": 15,
+          "TTL": 1620,
+          "data": "10 mx01.mail.icloud.com."
+        },
+        {
+          "name": "icloud.com.",
+          "type": 15,
+          "TTL": 1620,
+          "data": "10 mx02.mail.icloud.com."
+        }
+      ]
+    },
+    "mx": [
+      "10 mx01.mail.icloud.com.",
+      "10 mx02.mail.icloud.com."
+    ],
+    "valid": true
+  },
+  "khtoilets.com": {
+    "url": "https://dns.google/resolve?name=khtoilets.com&type=MX",
+    "fetched_at": "2026-10-21T15:20:03.795820+00:00",
+    "response": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "khtoilets.com.",
+          "type": 15
+        }
+      ],
+      "Answer": [
+        {
+          "name": "khtoilets.com.",
+          "type": 15,
+          "TTL": 3600,
+          "data": "5 west.smtp.mx.exch092.serverdata.net."
+        },
+        {
+          "name": "khtoilets.com.",
+          "type": 15,
+          "TTL": 3600,
+          "data": "10 east.smtp.mx.exch092.serverdata.net."
+        }
+      ],
+      "Comment": "Response from 97.74.103.44."
+    },
+    "mx": [
+      "5 west.smtp.mx.exch092.serverdata.net.",
+      "10 east.smtp.mx.exch092.serverdata.net."
+    ],
+    "valid": true
+  },
+  "luxtrailerrentals.com": {
+    "url": "https://dns.google/resolve?name=luxtrailerrentals.com&type=MX",
+    "fetched_at": "2026-10-21T15:20:09.834869+00:00",
+    "response": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "luxtrailerrentals.com.",
+          "type": 15
+        }
+      ],
+      "Answer": [
+        {
+          "name": "luxtrailerrentals.com.",
+          "type": 15,
+          "TTL": 3600,
+          "data": "1 smtp.google.com."
+        }
+      ],
+      "Comment": "Response from 216.239.38.108."
+    },
+    "mx": [
+      "1 smtp.google.com."
+    ],
+    "valid": true
+  },
+  "medumpsterstx.com": {
+    "url": "https://dns.google/resolve?name=medumpsterstx.com&type=MX",
+    "fetched_at": "2026-10-21T15:04:45.702381+00:00",
+    "response": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "medumpsterstx.com.",
+          "type": 15
+        }
+      ],
+      "Answer": [
+        {
+          "name": "medumpsterstx.com.",
+          "type": 15,
+          "TTL": 21600,
+          "data": "10 mx10.antispam.mailspamprotection.com."
+        },
+        {
+          "name": "medumpsterstx.com.",
+          "type": 15,
+          "TTL": 21600,
+          "data": "20 mx20.antispam.mailspamprotection.com."
+        },
+        {
+          "name": "medumpsterstx.com.",
+          "type": 15,
+          "TTL": 21600,
+          "data": "30 mx30.antispam.mailspamprotection.com."
+        }
+      ],
+      "Comment": "Response from 75.2.77.104."
+    },
+    "mx": [
+      "10 mx10.antispam.mailspamprotection.com.",
+      "20 mx20.antispam.mailspamprotection.com.",
+      "30 mx30.antispam.mailspamprotection.com."
+    ],
+    "valid": true
+  },
+  "mwedumpsters.com": {
+    "url": "https://dns.google/resolve?name=mwedumpsters.com&type=MX",
+    "fetched_at": "2026-10-21T15:04:50.474367+00:00",
+    "response": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "mwedumpsters.com.",
+          "type": 15
+        }
+      ],
+      "Answer": [
+        {
+          "name": "mwedumpsters.com.",
+          "type": 15,
+          "TTL": 3600,
+          "data": "0 mwedumpsters-com.mail.protection.outlook.com."
+        }
+      ],
+      "Comment": "Response from 173.201.69.2."
+    },
+    "mx": [
+      "0 mwedumpsters-com.mail.protection.outlook.com."
+    ],
+    "valid": true
+  },
+  "nationwaste.us": {
+    "url": "https://dns.google/resolve?name=nationwaste.us&type=MX",
+    "fetched_at": "2026-10-21T15:04:48.523565+00:00",
+    "response": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "nationwaste.us.",
+          "type": 15
+        }
+      ],
+      "Answer": [
+        {
+          "name": "nationwaste.us.",
+          "type": 15,
+          "TTL": 3600,
+          "data": "0 nationwaste-us.mail.protection.outlook.com."
+        }
+      ],
+      "Comment": "Response from 192.185.225.236."
+    },
+    "mx": [
+      "0 nationwaste-us.mail.protection.outlook.com."
+    ],
+    "valid": true
+  },
+  "nicedaytrailers.com": {
+    "url": "https://dns.google/resolve?name=nicedaytrailers.com&type=MX",
+    "fetched_at": "2026-10-21T15:20:06.164941+00:00",
+    "response": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "nicedaytrailers.com.",
+          "type": 15
+        }
+      ],
+      "Answer": [
+        {
+          "name": "nicedaytrailers.com.",
+          "type": 15,
+          "TTL": 3600,
+          "data": "1 smtp.google.com."
+        }
+      ],
+      "Comment": "Response from 75.2.77.104."
+    },
+    "mx": [
+      "1 smtp.google.com."
+    ],
+    "valid": true
+  },
+  "onsiteouthouse.com": {
+    "url": "https://dns.google/resolve?name=onsiteouthouse.com&type=MX",
+    "fetched_at": "2026-10-21T15:04:46.765668+00:00",
+    "response": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "onsiteouthouse.com.",
+          "type": 15
+        }
+      ],
+      "Answer": [
+        {
+          "name": "onsiteouthouse.com.",
+          "type": 15,
+          "TTL": 14400,
+          "data": "5 alt1.aspmx.l.google.com."
+        },
+        {
+          "name": "onsiteouthouse.com.",
+          "type": 15,
+          "TTL": 14400,
+          "data": "1 aspmx.l.google.com."
+        },
+        {
+          "name": "onsiteouthouse.com.",
+          "type": 15,
+          "TTL": 14400,
+          "data": "5 alt2.aspmx.l.google.com."
+        },
+        {
+          "name": "onsiteouthouse.com.",
+          "type": 15,
+          "TTL": 14400,
+          "data": "10 alt3.aspmx.l.google.com."
+        },
+        {
+          "name": "onsiteouthouse.com.",
+          "type": 15,
+          "TTL": 14400,
+          "data": "10 alt4.aspmx.l.google.com."
+        }
+      ],
+      "Comment": "Response from 216.239.38.109."
+    },
+    "mx": [
+      "5 alt1.aspmx.l.google.com.",
+      "1 aspmx.l.google.com.",
+      "5 alt2.aspmx.l.google.com.",
+      "10 alt3.aspmx.l.google.com.",
+      "10 alt4.aspmx.l.google.com."
+    ],
+    "valid": true
+  },
+  "outhouseboys.com": {
+    "url": "https://dns.google/resolve?name=outhouseboys.com&type=MX",
+    "fetched_at": "2026-10-21T15:04:49.040570+00:00",
+    "response": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "outhouseboys.com.",
+          "type": 15
+        }
+      ],
+      "Answer": [
+        {
+          "name": "outhouseboys.com.",
+          "type": 15,
+          "TTL": 3600,
+          "data": "0 mx3-usg2.ppe-hosted.com."
+        },
+        {
+          "name": "outhouseboys.com.",
+          "type": 15,
+          "TTL": 3600,
+          "data": "0 mx1-usg2.ppe-hosted.com."
+        },
+        {
+          "name": "outhouseboys.com.",
+          "type": 15,
+          "TTL": 3600,
+          "data": "0 mx2-usg2.ppe-hosted.com."
+        }
+      ],
+      "Comment": "Response from 97.74.104.25."
+    },
+    "mx": [
+      "0 mx3-usg2.ppe-hosted.com.",
+      "0 mx1-usg2.ppe-hosted.com.",
+      "0 mx2-usg2.ppe-hosted.com."
+    ],
+    "valid": true
+  },
+  "pprestrooms.com": {
+    "url": "https://dns.google/resolve?name=pprestrooms.com&type=MX",
+    "fetched_at": "2026-10-21T15:20:04.089089+00:00",
+    "response": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": true,
+      "CD": false,
+      "Question": [
+        {
+          "name": "pprestrooms.com.",
+          "type": 15
+        }
+      ],
+      "Answer": [
+        {
+          "name": "pprestrooms.com.",
+          "type": 15,
+          "TTL": 14400,
+          "data": "10 mxb.mailgun.org."
+        },
+        {
+          "name": "pprestrooms.com.",
+          "type": 15,
+          "TTL": 14400,
+          "data": "10 mxa.mailgun.org."
+        }
+      ],
+      "Comment": "Response from 216.239.38.108."
+    },
+    "mx": [
+      "10 mxb.mailgun.org.",
+      "10 mxa.mailgun.org."
+    ],
+    "valid": true
+  },
+  "precisiondumpstersllc.com": {
+    "url": "https://dns.google/resolve?name=precisiondumpstersllc.com&type=MX",
+    "fetched_at": "2026-10-21T15:04:46.747661+00:00",
+    "response": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "precisiondumpstersllc.com.",
+          "type": 15
+        }
+      ],
+      "Answer": [
+        {
+          "name": "precisiondumpstersllc.com.",
+          "type": 15,
+          "TTL": 300,
+          "data": "87 route1.mx.cloudflare.net."
+        },
+        {
+          "name": "precisiondumpstersllc.com.",
+          "type": 15,
+          "TTL": 300,
+          "data": "25 route3.mx.cloudflare.net."
+        },
+        {
+          "name": "precisiondumpstersllc.com.",
+          "type": 15,
+          "TTL": 300,
+          "data": "8 route2.mx.cloudflare.net."
+        }
+      ],
+      "Comment": "Response from 108.162.195.129."
+    },
+    "mx": [
+      "87 route1.mx.cloudflare.net.",
+      "25 route3.mx.cloudflare.net.",
+      "8 route2.mx.cloudflare.net."
+    ],
+    "valid": true
+  },
+  "qlinesiteservices.com": {
+    "url": "https://dns.google/resolve?name=qlinesiteservices.com&type=MX",
+    "fetched_at": "2026-10-21T15:04:51.520445+00:00",
+    "response": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "qlinesiteservices.com.",
+          "type": 15
+        }
+      ],
+      "Answer": [
+        {
+          "name": "qlinesiteservices.com.",
+          "type": 15,
+          "TTL": 3600,
+          "data": "50 alt4.aspmx.l.google.com."
+        },
+        {
+          "name": "qlinesiteservices.com.",
+          "type": 15,
+          "TTL": 3600,
+          "data": "10 aspmx.l.google.com."
+        },
+        {
+          "name": "qlinesiteservices.com.",
+          "type": 15,
+          "TTL": 3600,
+          "data": "40 alt3.aspmx.l.google.com."
+        },
+        {
+          "name": "qlinesiteservices.com.",
+          "type": 15,
+          "TTL": 3600,
+          "data": "30 alt2.aspmx.l.google.com."
+        },
+        {
+          "name": "qlinesiteservices.com.",
+          "type": 15,
+          "TTL": 3600,
+          "data": "20 alt1.aspmx.l.google.com."
+        }
+      ],
+      "Comment": "Response from 216.239.32.100."
+    },
+    "mx": [
+      "50 alt4.aspmx.l.google.com.",
+      "10 aspmx.l.google.com.",
+      "40 alt3.aspmx.l.google.com.",
+      "30 alt2.aspmx.l.google.com.",
+      "20 alt1.aspmx.l.google.com."
+    ],
+    "valid": true
+  },
+  "rackrolloff.com": {
+    "url": "https://dns.google/resolve?name=rackrolloff.com&type=MX",
+    "fetched_at": "2026-10-21T15:04:51.738050+00:00",
+    "response": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "rackrolloff.com.",
+          "type": 15
+        }
+      ],
+      "Answer": [
+        {
+          "name": "rackrolloff.com.",
+          "type": 15,
+          "TTL": 1800,
+          "data": "10 mx-biz.mail.am0.yahoodns.net."
+        }
+      ],
+      "Comment": "Response from 172.64.53.21."
+    },
+    "mx": [
+      "10 mx-biz.mail.am0.yahoodns.net."
+    ],
+    "valid": true
+  },
+  "redclouddisposal.com": {
+    "url": "https://dns.google/resolve?name=redclouddisposal.com&type=MX",
+    "fetched_at": "2026-10-21T15:24:19.743890+00:00",
+    "response": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": true,
+      "CD": false,
+      "Question": [
+        {
+          "name": "redclouddisposal.com.",
+          "type": 15
+        }
+      ],
+      "Answer": [
+        {
+          "name": "redclouddisposal.com.",
+          "type": 15,
+          "TTL": 300,
+          "data": "10 alt4.aspmx.l.google.com."
+        },
+        {
+          "name": "redclouddisposal.com.",
+          "type": 15,
+          "TTL": 300,
+          "data": "10 alt3.aspmx.l.google.com."
+        },
+        {
+          "name": "redclouddisposal.com.",
+          "type": 15,
+          "TTL": 300,
+          "data": "5 alt1.aspmx.l.google.com."
+        },
+        {
+          "name": "redclouddisposal.com.",
+          "type": 15,
+          "TTL": 300,
+          "data": "5 alt2.aspmx.l.google.com."
+        },
+        {
+          "name": "redclouddisposal.com.",
+          "type": 15,
+          "TTL": 300,
+          "data": "1 aspmx.l.google.com."
+        }
+      ],
+      "Comment": "Response from 172.64.32.208."
+    },
+    "mx": [
+      "10 alt4.aspmx.l.google.com.",
+      "10 alt3.aspmx.l.google.com.",
+      "5 alt1.aspmx.l.google.com.",
+      "5 alt2.aspmx.l.google.com.",
+      "1 aspmx.l.google.com."
+    ],
+    "valid": true
+  },
+  "redriverrolloffs.com": {
+    "url": "https://dns.google/resolve?name=redriverrolloffs.com&type=MX",
+    "fetched_at": "2026-10-21T15:24:19.906791+00:00",
+    "response": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "redriverrolloffs.com.",
+          "type": 15
+        }
+      ],
+      "Answer": [
+        {
+          "name": "redriverrolloffs.com.",
+          "type": 15,
+          "TTL": 3600,
+          "data": "0 redriverrolloffs-com.mail.protection.outlook.com."
+        }
+      ],
+      "Comment": "Response from 97.74.108.49."
+    },
+    "mx": [
+      "0 redriverrolloffs-com.mail.protection.outlook.com."
+    ],
+    "valid": true
+  },
+  "rldumpsters.com": {
+    "url": "https://dns.google/resolve?name=rldumpsters.com&type=MX",
+    "fetched_at": "2026-10-21T15:04:49.901553+00:00",
+    "response": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "rldumpsters.com.",
+          "type": 15
+        }
+      ],
+      "Answer": [
+        {
+          "name": "rldumpsters.com.",
+          "type": 15,
+          "TTL": 1800,
+          "data": "10 mx2.privateemail.com."
+        },
+        {
+          "name": "rldumpsters.com.",
+          "type": 15,
+          "TTL": 1800,
+          "data": "10 mx1.privateemail.com."
+        }
+      ],
+      "Comment": "Response from 173.201.69.22."
+    },
+    "mx": [
+      "10 mx2.privateemail.com.",
+      "10 mx1.privateemail.com."
+    ],
+    "valid": true
+  },
+  "shepboyswaste.com": {
+    "url": "https://dns.google/resolve?name=shepboyswaste.com&type=MX",
+    "fetched_at": "2026-10-21T15:20:03.786359+00:00",
+    "response": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "shepboyswaste.com.",
+          "type": 15
+        }
+      ],
+      "Answer": [
+        {
+          "name": "shepboyswaste.com.",
+          "type": 15,
+          "TTL": 3600,
+          "data": "10 mx1-us1.ppe-hosted.com."
+        },
+        {
+          "name": "shepboyswaste.com.",
+          "type": 15,
+          "TTL": 3600,
+          "data": "20 mx2-us1.ppe-hosted.com."
+        }
+      ],
+      "Comment": "Response from 97.74.103.44."
+    },
+    "mx": [
+      "10 mx1-us1.ppe-hosted.com.",
+      "20 mx2-us1.ppe-hosted.com."
+    ],
+    "valid": true
+  },
+  "smoothmv.com": {
+    "url": "https://dns.google/resolve?name=smoothmv.com&type=MX",
+    "fetched_at": "2026-10-21T15:04:54.117305+00:00",
+    "response": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "smoothmv.com.",
+          "type": 15
+        }
+      ],
+      "Answer": [
+        {
+          "name": "smoothmv.com.",
+          "type": 15,
+          "TTL": 3600,
+          "data": "5 mx2-us1.ppe-hosted.com."
+        },
+        {
+          "name": "smoothmv.com.",
+          "type": 15,
+          "TTL": 3600,
+          "data": "0 mx1-us1.ppe-hosted.com."
+        }
+      ],
+      "Comment": "Response from 97.74.104.25."
+    },
+    "mx": [
+      "5 mx2-us1.ppe-hosted.com.",
+      "0 mx1-us1.ppe-hosted.com."
+    ],
+    "valid": true
+  },
+  "tdggc.com": {
+    "url": "https://dns.google/resolve?name=tdggc.com&type=MX",
+    "fetched_at": "2026-10-21T15:04:51.629750+00:00",
+    "response": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "tdggc.com.",
+          "type": 15
+        }
+      ],
+      "Answer": [
+        {
+          "name": "tdggc.com.",
+          "type": 15,
+          "TTL": 3600,
+          "data": "30 mx.powweb.com."
+        }
+      ],
+      "Comment": "Response from 173.201.74.27."
+    },
+    "mx": [
+      "30 mx.powweb.com."
+    ],
+    "valid": true
+  },
+  "texasgulfrecycling.com": {
+    "url": "https://dns.google/resolve?name=texasgulfrecycling.com&type=MX",
+    "fetched_at": "2026-10-21T15:04:53.603736+00:00",
+    "response": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "texasgulfrecycling.com.",
+          "type": 15
+        }
+      ],
+      "Answer": [
+        {
+          "name": "texasgulfrecycling.com.",
+          "type": 15,
+          "TTL": 300,
+          "data": "0 texasgulfrecycling-com.mail.protection.outlook.com."
+        }
+      ],
+      "Comment": "Response from 108.162.194.78."
+    },
+    "mx": [
+      "0 texasgulfrecycling-com.mail.protection.outlook.com."
+    ],
+    "valid": true
+  },
+  "thetexasloo.com": {
+    "url": "https://dns.google/resolve?name=thetexasloo.com&type=MX",
+    "fetched_at": "2026-10-21T15:06:19.197270+00:00",
+    "response": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "thetexasloo.com.",
+          "type": 15
+        }
+      ],
+      "Answer": [
+        {
+          "name": "thetexasloo.com.",
+          "type": 15,
+          "TTL": 3600,
+          "data": "10 aspmx.l.google.com."
+        },
+        {
+          "name": "thetexasloo.com.",
+          "type": 15,
+          "TTL": 3600,
+          "data": "30 aspmx3.googlemail.com."
+        },
+        {
+          "name": "thetexasloo.com.",
+          "type": 15,
+          "TTL": 3600,
+          "data": "30 aspmx2.googlemail.com."
+        },
+        {
+          "name": "thetexasloo.com.",
+          "type": 15,
+          "TTL": 3600,
+          "data": "20 alt1.aspmx.l.google.com."
+        },
+        {
+          "name": "thetexasloo.com.",
+          "type": 15,
+          "TTL": 3600,
+          "data": "20 alt2.aspmx.l.google.com."
+        }
+      ],
+      "Comment": "Response from 173.201.74.27."
+    },
+    "mx": [
+      "10 aspmx.l.google.com.",
+      "30 aspmx3.googlemail.com.",
+      "30 aspmx2.googlemail.com.",
+      "20 alt1.aspmx.l.google.com.",
+      "20 alt2.aspmx.l.google.com."
+    ],
+    "valid": true
+  },
+  "throneranger.com": {
+    "url": "https://dns.google/resolve?name=throneranger.com&type=MX",
+    "fetched_at": "2026-10-21T15:06:20.609576+00:00",
+    "response": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "throneranger.com.",
+          "type": 15
+        }
+      ],
+      "Answer": [
+        {
+          "name": "throneranger.com.",
+          "type": 15,
+          "TTL": 3600,
+          "data": "10 mail.throneranger.com."
+        }
+      ],
+      "Comment": "Response from 209.250.2.66."
+    },
+    "mx": [
+      "10 mail.throneranger.com."
+    ],
+    "valid": true
+  },
+  "trsdumpsters.com": {
+    "url": "https://dns.google/resolve?name=trsdumpsters.com&type=MX",
+    "fetched_at": "2026-10-21T15:04:46.435865+00:00",
+    "response": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "trsdumpsters.com.",
+          "type": 15
+        }
+      ],
+      "Answer": [
+        {
+          "name": "trsdumpsters.com.",
+          "type": 15,
+          "TTL": 745,
+          "data": "1 aspmx.l.google.com."
+        },
+        {
+          "name": "trsdumpsters.com.",
+          "type": 15,
+          "TTL": 745,
+          "data": "5 alt2.aspmx.l.google.com."
+        },
+        {
+          "name": "trsdumpsters.com.",
+          "type": 15,
+          "TTL": 745,
+          "data": "5 alt1.aspmx.l.google.com."
+        },
+        {
+          "name": "trsdumpsters.com.",
+          "type": 15,
+          "TTL": 745,
+          "data": "10 alt4.aspmx.l.google.com."
+        },
+        {
+          "name": "trsdumpsters.com.",
+          "type": 15,
+          "TTL": 745,
+          "data": "10 alt3.aspmx.l.google.com."
+        }
+      ]
+    },
+    "mx": [
+      "1 aspmx.l.google.com.",
+      "5 alt2.aspmx.l.google.com.",
+      "5 alt1.aspmx.l.google.com.",
+      "10 alt4.aspmx.l.google.com.",
+      "10 alt3.aspmx.l.google.com."
+    ],
+    "valid": true
+  },
+  "wastesolutionsusa.com": {
+    "url": "https://dns.google/resolve?name=wastesolutionsusa.com&type=MX",
+    "fetched_at": "2026-10-21T15:27:49.929020+00:00",
+    "response": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "wastesolutionsusa.com.",
+          "type": 15
+        }
+      ],
+      "Answer": [
+        {
+          "name": "wastesolutionsusa.com.",
+          "type": 15,
+          "TTL": 3600,
+          "data": "0 wastesolutionsusa-com.mail.protection.outlook.com."
+        }
+      ],
+      "Comment": "Response from 97.74.109.10."
+    },
+    "mx": [
+      "0 wastesolutionsusa-com.mail.protection.outlook.com."
+    ],
+    "valid": true
+  },
+  "weonit.net": {
+    "url": "https://dns.google/resolve?name=weonit.net&type=MX",
+    "fetched_at": "2026-10-21T15:23:45.464833+00:00",
+    "response": {
+      "Status": 0,
+      "TC": false,
+      "RD": true,
+      "RA": true,
+      "AD": false,
+      "CD": false,
+      "Question": [
+        {
+          "name": "weonit.net.",
+          "type": 15
+        }
+      ],
+      "Answer": [
+        {
+          "name": "weonit.net.",
+          "type": 15,
+          "TTL": 300,
+          "data": "0 smtp.google.com."
+        }
+      ],
+      "Comment": "Response from 173.245.58.156."
+    },
+    "mx": [
+      "0 smtp.google.com."
+    ],
+    "valid": true
+  }
+}

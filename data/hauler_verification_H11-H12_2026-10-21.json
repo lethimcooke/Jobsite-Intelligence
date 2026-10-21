@@ -1,0 +1,1100 @@
+[
+  {
+    "batch": "H11",
+    "company": "Houston Luxury Restrooms LLC",
+    "email": "houstonluxuryrestrooms@gmail.com",
+    "website_domain": "houstonluxuryrestrooms.com",
+    "own_email_source": "https://houstonluxuryrestrooms.com/services/",
+    "own_email_fetched_at": "2026-10-21T15:04:50.479422+00:00",
+    "mx": {
+      "url": "https://dns.google/resolve?name=gmail.com&type=MX",
+      "fetched_at": "2026-10-21T15:04:45.729116+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "gmail.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "10 alt1.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "20 alt2.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "5 gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "30 alt3.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "40 alt4.gmail-smtp-in.l.google.com."
+          }
+        ]
+      },
+      "mx": [
+        "10 alt1.gmail-smtp-in.l.google.com.",
+        "20 alt2.gmail-smtp-in.l.google.com.",
+        "5 gmail-smtp-in.l.google.com.",
+        "30 alt3.gmail-smtp-in.l.google.com.",
+        "40 alt4.gmail-smtp-in.l.google.com."
+      ],
+      "valid": true
+    },
+    "site": {
+      "priority": "1",
+      "project_type_our_read": "commercial / industrial / institutional",
+      "date_on_file": "2026-10-20",
+      "site_name": "CLS HEALTH WEBSTER",
+      "street_address": "1000 W MEDICAL CENTER BLVD",
+      "city": "WEBSTER",
+      "county": "HARRIS",
+      "location_description": "",
+      "tceq_authorizations": "TXR1530ZU",
+      "regulated_entity_rn": "RN112551445",
+      "operators_on_file": "A & M CONTRACTORS INC",
+      "operator_types": "CORPORATION",
+      "industry_filed": "",
+      "flags": "site name may be a person's name: review before use",
+      "source_url": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112551445&program_code=STORM",
+      "checked_on": "2026-10-21",
+      "live_url": "https://data.texas.gov/resource/tzyg-j7q4.json?%24where=ref_num_txt%3D%27RN112551445%27+AND+program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29&%24limit=1000",
+      "live_fetched_at": "2026-10-21T15:16:01.512489+00:00",
+      "selected_authorization": "TXR1530ZU",
+      "selected_operator": "A & M CONTRACTORS INC",
+      "selected_record_date": "2026-10-20",
+      "original_priority": "1",
+      "reference_address": "1000 W MEDICAL CENTER BLVD, WEBSTER, TX",
+      "review_notes": "Retain the filed TCEQ street address; business/property name, not a named individual. Exact delivery access is unverified.",
+      "supplemental_source_url": ""
+    },
+    "note": "Existing verified reserve; no existing master row changed. Fleet size and private ownership not independently re-audited this round.",
+    "phone_identity_screen": [],
+    "carrier_source_url": "",
+    "carrier_summary": []
+  },
+  {
+    "batch": "H11",
+    "company": "J.A.C. Dumpsters & Services LLC",
+    "email": "j.a.c.dumpstersandservices@gmail.com",
+    "website_domain": "jacdumpsters.com",
+    "own_email_source": "https://www.jacdumpsters.com/contact-jac-dumpsters-services-baytown-junk-removal-dumpsters",
+    "own_email_fetched_at": "2026-10-21T15:04:50.651188+00:00",
+    "mx": {
+      "url": "https://dns.google/resolve?name=gmail.com&type=MX",
+      "fetched_at": "2026-10-21T15:04:45.729116+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "gmail.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "10 alt1.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "20 alt2.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "5 gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "30 alt3.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "40 alt4.gmail-smtp-in.l.google.com."
+          }
+        ]
+      },
+      "mx": [
+        "10 alt1.gmail-smtp-in.l.google.com.",
+        "20 alt2.gmail-smtp-in.l.google.com.",
+        "5 gmail-smtp-in.l.google.com.",
+        "30 alt3.gmail-smtp-in.l.google.com.",
+        "40 alt4.gmail-smtp-in.l.google.com."
+      ],
+      "valid": true
+    },
+    "site": {
+      "priority": "1",
+      "project_type_our_read": "commercial / industrial / institutional",
+      "date_on_file": "2026-10-08",
+      "site_name": "COUNTY LINE INDUSTRIAL PARK",
+      "street_address": "14600A HATCHERVILLE RD",
+      "city": "BAYTOWN",
+      "county": "LIBERTY",
+      "location_description": "",
+      "tceq_authorizations": "TXR1551ZR",
+      "regulated_entity_rn": "RN112113576",
+      "operators_on_file": "CHOCTAW CONSTRUCTION SERVICES LLC",
+      "operator_types": "CORPORATION",
+      "industry_filed": "Support Activities for Rail Transportation",
+      "flags": "",
+      "source_url": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112113576&program_code=STORM",
+      "checked_on": "2026-10-21",
+      "live_url": "https://data.texas.gov/resource/tzyg-j7q4.json?%24where=ref_num_txt%3D%27RN112113576%27+AND+program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29&%24limit=1000",
+      "live_fetched_at": "2026-10-21T15:29:54.294156+00:00",
+      "selected_authorization": "TXR1551ZR",
+      "selected_operator": "CHOCTAW CONSTRUCTION SERVICES LLC",
+      "selected_record_date": "2026-10-08",
+      "original_priority": "4",
+      "reference_address": "14600A HATCHERVILLE RD, BAYTOWN, TX",
+      "review_notes": "Manually reviewed priority 1 industrial rail/transloading property. The automatic utility classification was triggered by LINE in the park name. Facility own page confirms the same 14600 Hatcherville Rd, Baytown location; TCEQ 14600A address retained. Not treated as a standalone utility project.",
+      "supplemental_source_url": "https://www.clrail.com/county-line-industrial-park"
+    },
+    "note": "Existing verified reserve; no existing master row changed. Fleet size and private ownership not independently re-audited this round.",
+    "phone_identity_screen": [],
+    "carrier_source_url": "",
+    "carrier_summary": []
+  },
+  {
+    "batch": "H11",
+    "company": "RackRolloff LLC",
+    "email": "info@rackrolloff.com",
+    "website_domain": "rackrolloff.com",
+    "own_email_source": "https://www.rackrolloff.com/contact.html",
+    "own_email_fetched_at": "2026-10-21T15:04:50.989791+00:00",
+    "mx": {
+      "url": "https://dns.google/resolve?name=rackrolloff.com&type=MX",
+      "fetched_at": "2026-10-21T15:04:51.738050+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "rackrolloff.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "rackrolloff.com.",
+            "type": 15,
+            "TTL": 1800,
+            "data": "10 mx-biz.mail.am0.yahoodns.net."
+          }
+        ],
+        "Comment": "Response from 172.64.53.21."
+      },
+      "mx": [
+        "10 mx-biz.mail.am0.yahoodns.net."
+      ],
+      "valid": true
+    },
+    "site": {
+      "priority": "1",
+      "project_type_our_read": "commercial / industrial / institutional",
+      "date_on_file": "2026-10-13",
+      "site_name": "TACO BELL - CONROE",
+      "street_address": "",
+      "city": "",
+      "county": "MONTGOMERY",
+      "location_description": "SITE IS LOCATED APPROXIMATELY 0.10 MILES SOUTHWEST OF THE INTERSECTION OF SH 105 AND LOOP 336.",
+      "tceq_authorizations": "TXR1570ZS",
+      "regulated_entity_rn": "RN112547518",
+      "operators_on_file": "EBCO GENERAL CONTRACTOR LTD",
+      "operator_types": "PARTNERSHIP",
+      "industry_filed": "",
+      "flags": "",
+      "source_url": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112547518&program_code=STORM",
+      "checked_on": "2026-10-21",
+      "live_url": "https://data.texas.gov/resource/tzyg-j7q4.json?%24where=ref_num_txt%3D%27RN112547518%27+AND+program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29&%24limit=1000",
+      "live_fetched_at": "2026-10-21T15:16:03.672422+00:00",
+      "selected_authorization": "TXR1570ZS",
+      "selected_operator": "EBCO GENERAL CONTRACTOR LTD",
+      "selected_record_date": "2026-10-13",
+      "original_priority": "1",
+      "reference_address": "3620 N Loop 336 E, Conroe, TX 77301",
+      "review_notes": "Supplemental exact Conroe Taco Bell filing gives 3620 N Loop 336 E, consistent with TCEQ location southwest of SH 105/Loop 336. TCEQ street field is blank; supplemental address is not a filed TCEQ street value.",
+      "supplemental_source_url": "https://www.tdlr.texas.gov/TABS/Search/Print/TABS2026026123"
+    },
+    "note": "Existing verified reserve; no existing master row changed. Fleet size and private ownership not independently re-audited this round.",
+    "phone_identity_screen": [],
+    "carrier_source_url": "",
+    "carrier_summary": []
+  },
+  {
+    "batch": "H11",
+    "company": "Smooth Move Services LLC",
+    "email": "sales@smoothmv.com",
+    "website_domain": "smoothmoveservices.com",
+    "own_email_source": "https://smoothmoveservices.com/",
+    "own_email_fetched_at": "2026-10-21T15:04:51.408197+00:00",
+    "mx": {
+      "url": "https://dns.google/resolve?name=smoothmv.com&type=MX",
+      "fetched_at": "2026-10-21T15:04:54.117305+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "smoothmv.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "smoothmv.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "5 mx2-us1.ppe-hosted.com."
+          },
+          {
+            "name": "smoothmv.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "0 mx1-us1.ppe-hosted.com."
+          }
+        ],
+        "Comment": "Response from 97.74.104.25."
+      },
+      "mx": [
+        "5 mx2-us1.ppe-hosted.com.",
+        "0 mx1-us1.ppe-hosted.com."
+      ],
+      "valid": true
+    },
+    "site": {
+      "priority": "1",
+      "project_type_our_read": "commercial / industrial / institutional",
+      "date_on_file": "2026-10-20",
+      "site_name": "HUFFMAN II",
+      "street_address": "2032 HUFFMAN EASTGATE RD",
+      "city": "HUFFMAN",
+      "county": "HARRIS",
+      "location_description": "",
+      "tceq_authorizations": "TXR1542VS",
+      "regulated_entity_rn": "RN112276316",
+      "operators_on_file": "TXLA MANAGEMENT GROUP LLC",
+      "operator_types": "CORPORATION",
+      "industry_filed": "",
+      "flags": "site name may be a person's name: review before use",
+      "source_url": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112276316&program_code=STORM",
+      "checked_on": "2026-10-21",
+      "live_url": "https://data.texas.gov/resource/tzyg-j7q4.json?%24where=ref_num_txt%3D%27RN112276316%27+AND+program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29&%24limit=1000",
+      "live_fetched_at": "2026-10-21T15:16:01.597119+00:00",
+      "selected_authorization": "TXR1542VS",
+      "selected_operator": "TXLA MANAGEMENT GROUP LLC",
+      "selected_record_date": "2026-10-20",
+      "original_priority": "1",
+      "reference_address": "2032 HUFFMAN EASTGATE RD, HUFFMAN, TX",
+      "review_notes": "Exact same 2032 Huffman Eastgate Rd filing describes a 30,000 sq ft metal office/warehouse. This is a business property, not an individual. Retain TCEQ street address; TABS dates are not used as TCEQ authorization dates.",
+      "supplemental_source_url": "https://www.tdlr.texas.gov/TABS/Search/Print/TABS2026004771"
+    },
+    "note": "Existing verified reserve; no existing master row changed. Fleet size and private ownership not independently re-audited this round.",
+    "phone_identity_screen": [],
+    "carrier_source_url": "",
+    "carrier_summary": []
+  },
+  {
+    "batch": "H11",
+    "company": "Texas Gulf Recycling / Texas Waste Control",
+    "email": "info@texasgulfrecycling.com",
+    "website_domain": "texaswastecontrol.com",
+    "own_email_source": "https://texaswastecontrol.com/contact/",
+    "own_email_fetched_at": "2026-10-21T15:04:51.522211+00:00",
+    "mx": {
+      "url": "https://dns.google/resolve?name=texasgulfrecycling.com&type=MX",
+      "fetched_at": "2026-10-21T15:04:53.603736+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "texasgulfrecycling.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "texasgulfrecycling.com.",
+            "type": 15,
+            "TTL": 300,
+            "data": "0 texasgulfrecycling-com.mail.protection.outlook.com."
+          }
+        ],
+        "Comment": "Response from 108.162.194.78."
+      },
+      "mx": [
+        "0 texasgulfrecycling-com.mail.protection.outlook.com."
+      ],
+      "valid": true
+    },
+    "site": {
+      "priority": "1",
+      "project_type_our_read": "commercial / industrial / institutional",
+      "date_on_file": "2026-10-20",
+      "site_name": "HTEAO TX-656 - ROSENBERG",
+      "street_address": "6415 READING RD",
+      "city": "ROSENBERG",
+      "county": "FORT BEND",
+      "location_description": "",
+      "tceq_authorizations": "TXR1538ZU",
+      "regulated_entity_rn": "RN112551775",
+      "operators_on_file": "DALLAS COMMERCIAL BUILDERS LLC",
+      "operator_types": "CORPORATION",
+      "industry_filed": "",
+      "flags": "",
+      "source_url": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112551775&program_code=STORM",
+      "checked_on": "2026-10-21",
+      "live_url": "https://data.texas.gov/resource/tzyg-j7q4.json?%24where=ref_num_txt%3D%27RN112551775%27+AND+program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29&%24limit=1000",
+      "live_fetched_at": "2026-10-21T15:15:57.709696+00:00",
+      "selected_authorization": "TXR1538ZU",
+      "selected_operator": "DALLAS COMMERCIAL BUILDERS LLC",
+      "selected_record_date": "2026-10-20",
+      "original_priority": "1",
+      "reference_address": "6415 READING RD, ROSENBERG, TX",
+      "review_notes": "Retain the filed TCEQ street address; business/property name, not a named individual. Exact delivery access is unverified.",
+      "supplemental_source_url": ""
+    },
+    "note": "Existing verified reserve; no existing master row changed. Fleet size and private ownership not independently re-audited this round.",
+    "phone_identity_screen": [],
+    "carrier_source_url": "",
+    "carrier_summary": []
+  },
+  {
+    "batch": "H11",
+    "company": "The Texas Loo LLC",
+    "email": "wendy@thetexasloo.com",
+    "website_domain": "thetexasloo.com",
+    "own_email_source": "https://thetexasloo.com/contact-us/",
+    "own_email_fetched_at": "2026-10-21T15:06:18.090636+00:00",
+    "mx": {
+      "url": "https://dns.google/resolve?name=thetexasloo.com&type=MX",
+      "fetched_at": "2026-10-21T15:06:19.197270+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "thetexasloo.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "thetexasloo.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "10 aspmx.l.google.com."
+          },
+          {
+            "name": "thetexasloo.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "30 aspmx3.googlemail.com."
+          },
+          {
+            "name": "thetexasloo.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "30 aspmx2.googlemail.com."
+          },
+          {
+            "name": "thetexasloo.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "20 alt1.aspmx.l.google.com."
+          },
+          {
+            "name": "thetexasloo.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "20 alt2.aspmx.l.google.com."
+          }
+        ],
+        "Comment": "Response from 173.201.74.27."
+      },
+      "mx": [
+        "10 aspmx.l.google.com.",
+        "30 aspmx3.googlemail.com.",
+        "30 aspmx2.googlemail.com.",
+        "20 alt1.aspmx.l.google.com.",
+        "20 alt2.aspmx.l.google.com."
+      ],
+      "valid": true
+    },
+    "site": {
+      "priority": "1",
+      "project_type_our_read": "amenity / recreation",
+      "date_on_file": "2026-09-30",
+      "site_name": "BRIDGELAND CREEKLAND VILLAGE 21 AMENITY",
+      "street_address": "",
+      "city": "",
+      "county": "HARRIS",
+      "location_description": "SOUTHWEST CORNER OF STARGAZING TRAIL AND ANGELINA RIVER DRIVE",
+      "tceq_authorizations": "TXR1532ZP",
+      "regulated_entity_rn": "RN112539523",
+      "operators_on_file": "DALTON SKINNER INC",
+      "operator_types": "CORPORATION",
+      "industry_filed": "",
+      "flags": "",
+      "source_url": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112539523&program_code=STORM",
+      "checked_on": "2026-10-21",
+      "live_url": "https://data.texas.gov/resource/tzyg-j7q4.json?%24where=ref_num_txt%3D%27RN112539523%27+AND+program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29&%24limit=1000",
+      "live_fetched_at": "2026-10-21T15:16:05.269365+00:00",
+      "selected_authorization": "TXR1532ZP",
+      "selected_operator": "DALTON SKINNER INC",
+      "selected_record_date": "2026-09-30",
+      "original_priority": "1",
+      "reference_address": "Stargazing Trail & Angelina River Drive, Harris County, TX",
+      "review_notes": "Exact street intersection from the TCEQ location description. No numbered postal address or entrance verified. The TABS amenity record has a suite/office address, so it is deliberately not substituted. Amenity site, not the surrounding subdivision.",
+      "supplemental_source_url": ""
+    },
+    "note": "Existing verified reserve; no existing master row changed. Fleet size and private ownership not independently re-audited this round.",
+    "phone_identity_screen": [],
+    "carrier_source_url": "",
+    "carrier_summary": []
+  },
+  {
+    "batch": "H11",
+    "company": "Throne Ranger",
+    "email": "info@throneranger.com",
+    "website_domain": "throneranger.com",
+    "own_email_source": "https://throneranger.com/contact-us/",
+    "own_email_fetched_at": "2026-10-21T15:06:18.093510+00:00",
+    "mx": {
+      "url": "https://dns.google/resolve?name=throneranger.com&type=MX",
+      "fetched_at": "2026-10-21T15:06:20.609576+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "throneranger.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "throneranger.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "10 mail.throneranger.com."
+          }
+        ],
+        "Comment": "Response from 209.250.2.66."
+      },
+      "mx": [
+        "10 mail.throneranger.com."
+      ],
+      "valid": true
+    },
+    "site": {
+      "priority": "2",
+      "project_type_our_read": "multifamily",
+      "date_on_file": "2026-09-21",
+      "site_name": "THE VIC AT SUNTERRA",
+      "street_address": "7229 BARTLETT ST",
+      "city": "KATY",
+      "county": "WALLER",
+      "location_description": "",
+      "tceq_authorizations": "TXR1558ZM",
+      "regulated_entity_rn": "RN112533484",
+      "operators_on_file": "WESTCHASE CONSTRUCTION LTD",
+      "operator_types": "CORPORATION",
+      "industry_filed": "",
+      "flags": "",
+      "source_url": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112533484&program_code=STORM",
+      "checked_on": "2026-10-21",
+      "live_url": "https://data.texas.gov/resource/tzyg-j7q4.json?%24where=ref_num_txt%3D%27RN112533484%27+AND+program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29&%24limit=1000",
+      "live_fetched_at": "2026-10-21T15:16:07.377057+00:00",
+      "selected_authorization": "TXR1558ZM",
+      "selected_operator": "WESTCHASE CONSTRUCTION LTD",
+      "selected_record_date": "2026-09-21",
+      "original_priority": "1",
+      "reference_address": "7229 BARTLETT ST, KATY, TX",
+      "review_notes": "Manually reviewed priority 2 multifamily. Same unique project name in TABS describes four three-story apartment buildings. TABS uses 245 Bartlett Road; retain TCEQ 7229 Bartlett St and flag the address discrepancy. Original project phase and exact entrance unverified.",
+      "supplemental_source_url": "https://www.tdlr.texas.gov/TABS/Search/Print/TABS2024004995"
+    },
+    "note": "Existing verified reserve; no existing master row changed. Fleet size and private ownership not independently re-audited this round. Own-site equipment delivery/servicing is published, but construction-site service is not confirmed. Match is exploratory, not an approved construction prospect.",
+    "phone_identity_screen": [],
+    "carrier_source_url": "",
+    "carrier_summary": []
+  },
+  {
+    "batch": "H11",
+    "company": "Turbo Rolloff",
+    "email": "turborolloff@gmail.com",
+    "website_domain": "turborolloff.com",
+    "own_email_source": "https://www.turborolloff.com/",
+    "own_email_fetched_at": "2026-10-21T15:06:18.090950+00:00",
+    "mx": {
+      "url": "https://dns.google/resolve?name=gmail.com&type=MX",
+      "fetched_at": "2026-10-21T15:04:45.729116+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "gmail.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "10 alt1.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "20 alt2.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "5 gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "30 alt3.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "40 alt4.gmail-smtp-in.l.google.com."
+          }
+        ]
+      },
+      "mx": [
+        "10 alt1.gmail-smtp-in.l.google.com.",
+        "20 alt2.gmail-smtp-in.l.google.com.",
+        "5 gmail-smtp-in.l.google.com.",
+        "30 alt3.gmail-smtp-in.l.google.com.",
+        "40 alt4.gmail-smtp-in.l.google.com."
+      ],
+      "valid": true
+    },
+    "site": {
+      "priority": "1",
+      "project_type_our_read": "commercial / industrial / institutional",
+      "date_on_file": "2026-10-20",
+      "site_name": "LATITUDE GALVESTON BAY",
+      "street_address": "5100 EMMETT F LOWRY EXPY",
+      "city": "TEXAS CITY",
+      "county": "GALVESTON",
+      "location_description": "",
+      "tceq_authorizations": "TXR1554ZU",
+      "regulated_entity_rn": "RN112552054",
+      "operators_on_file": "CARLSON MCCLAIN CONSTRUCTION COMPANY LLC",
+      "operator_types": "CORPORATION",
+      "industry_filed": "Site Preparation Contractors",
+      "flags": "site name may be a person's name: review before use",
+      "source_url": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112552054&program_code=STORM",
+      "checked_on": "2026-10-21",
+      "live_url": "https://data.texas.gov/resource/tzyg-j7q4.json?%24where=ref_num_txt%3D%27RN112552054%27+AND+program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29&%24limit=1000",
+      "live_fetched_at": "2026-10-21T15:15:57.678355+00:00",
+      "selected_authorization": "TXR1554ZU",
+      "selected_operator": "CARLSON MCCLAIN CONSTRUCTION COMPANY LLC",
+      "selected_record_date": "2026-10-20",
+      "original_priority": "1",
+      "reference_address": "5100 EMMETT F LOWRY EXPY, TEXAS CITY, TX",
+      "review_notes": "Retain the filed TCEQ street address; business/property name, not a named individual. Exact delivery access is unverified.",
+      "supplemental_source_url": ""
+    },
+    "note": "Existing verified reserve; no existing master row changed. Fleet size and private ownership not independently re-audited this round.",
+    "phone_identity_screen": [],
+    "carrier_source_url": "",
+    "carrier_summary": []
+  },
+  {
+    "batch": "H11",
+    "company": "786 Dumpsters & Junk Removal",
+    "email": "786dumpsters@gmail.com",
+    "website_domain": "786dumpsters.com",
+    "own_email_source": "https://786dumpsters.com/contact/",
+    "own_email_fetched_at": "2026-10-21T15:06:18.094829+00:00",
+    "mx": {
+      "url": "https://dns.google/resolve?name=gmail.com&type=MX",
+      "fetched_at": "2026-10-21T15:04:45.729116+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "gmail.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "10 alt1.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "20 alt2.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "5 gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "30 alt3.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "40 alt4.gmail-smtp-in.l.google.com."
+          }
+        ]
+      },
+      "mx": [
+        "10 alt1.gmail-smtp-in.l.google.com.",
+        "20 alt2.gmail-smtp-in.l.google.com.",
+        "5 gmail-smtp-in.l.google.com.",
+        "30 alt3.gmail-smtp-in.l.google.com.",
+        "40 alt4.gmail-smtp-in.l.google.com."
+      ],
+      "valid": true
+    },
+    "site": {
+      "priority": "1",
+      "project_type_our_read": "commercial / industrial / institutional",
+      "date_on_file": "2026-09-24",
+      "site_name": "SAMS CLUB 9753",
+      "street_address": "",
+      "city": "",
+      "county": "FORT BEND",
+      "location_description": "NORTHEAST CORNER OF FM 762 & US HWY 59",
+      "tceq_authorizations": "TXR1574ZN",
+      "regulated_entity_rn": "RN112536149",
+      "operators_on_file": "SAMS REAL ESTATE BUSINESS TRUST",
+      "operator_types": "OTHER",
+      "industry_filed": "",
+      "flags": "",
+      "source_url": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112536149&program_code=STORM",
+      "checked_on": "2026-10-21",
+      "live_url": "https://data.texas.gov/resource/tzyg-j7q4.json?%24where=ref_num_txt%3D%27RN112536149%27+AND+program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29&%24limit=1000",
+      "live_fetched_at": "2026-10-21T15:16:06.263873+00:00",
+      "selected_authorization": "TXR1574ZN",
+      "selected_operator": "SAMS REAL ESTATE BUSINESS TRUST",
+      "selected_record_date": "2026-09-24",
+      "original_priority": "1",
+      "reference_address": "FM 762 & Manford Blvd, Richmond, TX",
+      "review_notes": "Exact Sam's Club 9753 CLUB filing uses the intersection FM 762 & Manford Blvd as its Location Address, consistent with TCEQ NE FM 762/US 59. Intersection reference only, no numbered postal address or exact parcel/entrance verified. TCEQ street field is blank.",
+      "supplemental_source_url": "https://www.tdlr.texas.gov/TABS/Search/Print/TABS2026025747"
+    },
+    "note": "Existing verified reserve; no existing master row changed. Fleet size and private ownership not independently re-audited this round.",
+    "phone_identity_screen": [],
+    "carrier_source_url": "",
+    "carrier_summary": []
+  },
+  {
+    "batch": "H12",
+    "company": "Shep Boys Waste Management LLC",
+    "email": "info@shepboyswaste.com",
+    "website_domain": "shepboyswaste.com",
+    "own_email_source": "https://shepboyswaste.com/",
+    "own_email_fetched_at": "2026-10-21T15:15:46.209231+00:00",
+    "mx": {
+      "url": "https://dns.google/resolve?name=shepboyswaste.com&type=MX",
+      "fetched_at": "2026-10-21T15:20:03.786359+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "shepboyswaste.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "shepboyswaste.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "10 mx1-us1.ppe-hosted.com."
+          },
+          {
+            "name": "shepboyswaste.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "20 mx2-us1.ppe-hosted.com."
+          }
+        ],
+        "Comment": "Response from 97.74.103.44."
+      },
+      "mx": [
+        "10 mx1-us1.ppe-hosted.com.",
+        "20 mx2-us1.ppe-hosted.com."
+      ],
+      "valid": true
+    },
+    "site": {
+      "priority": "1",
+      "project_type_our_read": "commercial / industrial / institutional",
+      "date_on_file": "2026-09-30",
+      "site_name": "KATY FIELDS BUSINESS PARK",
+      "street_address": "4343 SCHLIPF RD",
+      "city": "KATY",
+      "county": "WALLER",
+      "location_description": "",
+      "tceq_authorizations": "TXR1591YV",
+      "regulated_entity_rn": "RN112489778",
+      "operators_on_file": "4343 SCHLIPF LLC",
+      "operator_types": "CORPORATION",
+      "industry_filed": "",
+      "flags": "",
+      "source_url": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112489778&program_code=STORM",
+      "checked_on": "2026-10-21",
+      "live_url": "https://data.texas.gov/resource/tzyg-j7q4.json?%24where=ref_num_txt%3D%27RN112489778%27+AND+program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29&%24limit=1000",
+      "live_fetched_at": "2026-10-21T15:16:06.958748+00:00",
+      "selected_authorization": "TXR1591YV",
+      "selected_operator": "4343 SCHLIPF LLC",
+      "selected_record_date": "2026-09-30",
+      "original_priority": "1",
+      "reference_address": "4343 SCHLIPF RD, KATY, TX",
+      "review_notes": "Retain the filed TCEQ street address; business/property name, not a named individual. Exact delivery access is unverified.",
+      "supplemental_source_url": ""
+    },
+    "note": "Own-site local services and operator presentation checked. Private beneficial ownership, current fleet total and exact delivery territory are not independently audited. A 1-power-unit carrier record shares a published phone but is a trucking DBA; identity is not exact, so fleet size remains unverified rather than assigned as 1.",
+    "phone_identity_screen": [],
+    "carrier_source_url": "https://data.transportation.gov/resource/az4n-8mr2.json?%24where=phone+in+%28%272253378358%27%2C%272812135527%27%2C%272817585990%27%2C%272817585999%27%2C%277132493835%27%2C%277135438371%27%29+OR+lower%28email_address%29+like+%27%25%40shepboyswaste.com%27&%24limit=1000",
+    "carrier_summary": [
+      {
+        "dot_number": "2474569",
+        "dba_name": "SHEP BOYS TRUCKING CO",
+        "power_units": "1",
+        "status_code": "A",
+        "mcs150_date": "20140210"
+      }
+    ]
+  },
+  {
+    "batch": "H12",
+    "company": "K & H Portable Toilets Inc.",
+    "email": "info@khtoilets.com",
+    "website_domain": "khtoilets.com",
+    "own_email_source": "https://www.khtoilets.com/",
+    "own_email_fetched_at": "2026-10-21T15:15:43.176224+00:00",
+    "mx": {
+      "url": "https://dns.google/resolve?name=khtoilets.com&type=MX",
+      "fetched_at": "2026-10-21T15:20:03.795820+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "khtoilets.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "khtoilets.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "5 west.smtp.mx.exch092.serverdata.net."
+          },
+          {
+            "name": "khtoilets.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "10 east.smtp.mx.exch092.serverdata.net."
+          }
+        ],
+        "Comment": "Response from 97.74.103.44."
+      },
+      "mx": [
+        "5 west.smtp.mx.exch092.serverdata.net.",
+        "10 east.smtp.mx.exch092.serverdata.net."
+      ],
+      "valid": true
+    },
+    "site": {
+      "priority": "1",
+      "project_type_our_read": "commercial / industrial / institutional",
+      "date_on_file": "2026-09-30",
+      "site_name": "WALLER COMMERCE CENTER",
+      "street_address": "41310 OLD HOUSTON HWY",
+      "city": "WALLER",
+      "county": "WALLER",
+      "location_description": "",
+      "tceq_authorizations": "TXR1531ZP",
+      "regulated_entity_rn": "RN112539515",
+      "operators_on_file": "URBAN CONSTRUCTION SOUTHWEST INC",
+      "operator_types": "CORPORATION",
+      "industry_filed": "",
+      "flags": "",
+      "source_url": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112539515&program_code=STORM",
+      "checked_on": "2026-10-21",
+      "live_url": "https://data.texas.gov/resource/tzyg-j7q4.json?%24where=ref_num_txt%3D%27RN112539515%27+AND+program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29&%24limit=1000",
+      "live_fetched_at": "2026-10-21T15:16:06.772742+00:00",
+      "selected_authorization": "TXR1531ZP",
+      "selected_operator": "URBAN CONSTRUCTION SOUTHWEST INC",
+      "selected_record_date": "2026-09-30",
+      "original_priority": "1",
+      "reference_address": "41310 OLD HOUSTON HWY, WALLER, TX",
+      "review_notes": "Retain the filed TCEQ street address; business/property name, not a named individual. Exact delivery access is unverified.",
+      "supplemental_source_url": ""
+    },
+    "note": "Own-site local services and operator presentation checked. Private beneficial ownership, current fleet total and exact delivery territory are not independently audited. Brenham base, included for portable sanitation with explicit Waller service. FMCSA currently files 3 power units; a filing is not a fleet audit.",
+    "phone_identity_screen": [],
+    "carrier_source_url": "https://data.transportation.gov/resource/az4n-8mr2.json?%24where=phone+in+%28%279798360552%27%2C%279798360595%27%29+OR+lower%28email_address%29+like+%27%25%40khtoilets.com%27&%24limit=1000",
+    "carrier_summary": [
+      {
+        "dot_number": "1984612",
+        "dba_name": null,
+        "power_units": "3",
+        "status_code": "A",
+        "mcs150_date": "20100115"
+      }
+    ]
+  },
+  {
+    "batch": "H12",
+    "company": "Prestige Portable Restrooms LLC",
+    "email": "info@pprestrooms.com",
+    "website_domain": "prestigeportablerestrooms.com",
+    "own_email_source": "https://www.prestigeportablerestrooms.com/contact",
+    "own_email_fetched_at": "2026-10-21T15:17:42.737826+00:00",
+    "mx": {
+      "url": "https://dns.google/resolve?name=pprestrooms.com&type=MX",
+      "fetched_at": "2026-10-21T15:20:04.089089+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": true,
+        "CD": false,
+        "Question": [
+          {
+            "name": "pprestrooms.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "pprestrooms.com.",
+            "type": 15,
+            "TTL": 14400,
+            "data": "10 mxb.mailgun.org."
+          },
+          {
+            "name": "pprestrooms.com.",
+            "type": 15,
+            "TTL": 14400,
+            "data": "10 mxa.mailgun.org."
+          }
+        ],
+        "Comment": "Response from 216.239.38.108."
+      },
+      "mx": [
+        "10 mxb.mailgun.org.",
+        "10 mxa.mailgun.org."
+      ],
+      "valid": true
+    },
+    "site": {
+      "priority": "1",
+      "project_type_our_read": "commercial / industrial / institutional",
+      "date_on_file": "2026-09-29",
+      "site_name": "7 BREW KATY",
+      "street_address": "953 TEXAS HERITAGE PKWY",
+      "city": "KATY",
+      "county": "WALLER",
+      "location_description": "",
+      "tceq_authorizations": "TXR1580ZO",
+      "regulated_entity_rn": "RN112538301",
+      "operators_on_file": "COOLEY CONSTRUCTION LLC",
+      "operator_types": "CORPORATION",
+      "industry_filed": "",
+      "flags": "",
+      "source_url": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112538301&program_code=STORM",
+      "checked_on": "2026-10-21",
+      "live_url": "https://data.texas.gov/resource/tzyg-j7q4.json?%24where=ref_num_txt%3D%27RN112538301%27+AND+program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29&%24limit=1000",
+      "live_fetched_at": "2026-10-21T15:16:06.998149+00:00",
+      "selected_authorization": "TXR1580ZO",
+      "selected_operator": "COOLEY CONSTRUCTION LLC",
+      "selected_record_date": "2026-09-29",
+      "original_priority": "1",
+      "reference_address": "953 TEXAS HERITAGE PKWY, KATY, TX",
+      "review_notes": "Retain the filed TCEQ street address; business/property name, not a named individual. Exact delivery access is unverified.",
+      "supplemental_source_url": ""
+    },
+    "note": "Own-site local services and operator presentation checked. Private beneficial ownership, current fleet total and exact delivery territory are not independently audited. Own-site contact page publishes info@pprestrooms.com, a different domain from the website. MX points to Mailgun; inbound routing and mailbox acceptance are not verified. Construction-site work is explicitly published, but Katy delivery must be confirmed.",
+    "phone_identity_screen": [],
+    "carrier_source_url": "https://data.transportation.gov/resource/az4n-8mr2.json?%24where=phone+in+%28%278667737876%27%29+OR+lower%28email_address%29+like+%27%25%40prestigeportablerestrooms.com%27&%24limit=1000",
+    "carrier_summary": []
+  },
+  {
+    "batch": "H12",
+    "company": "Waste Solutions USA LLC",
+    "email": "cindy@wastesolutionsusa.com",
+    "website_domain": "wastesolutionsusa.com",
+    "own_email_source": "https://www.wastesolutionsusa.com/",
+    "own_email_fetched_at": "2026-10-21T15:24:48.813150+00:00",
+    "mx": {
+      "url": "https://dns.google/resolve?name=wastesolutionsusa.com&type=MX",
+      "fetched_at": "2026-10-21T15:27:49.929020+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "wastesolutionsusa.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "wastesolutionsusa.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "0 wastesolutionsusa-com.mail.protection.outlook.com."
+          }
+        ],
+        "Comment": "Response from 97.74.109.10."
+      },
+      "mx": [
+        "0 wastesolutionsusa-com.mail.protection.outlook.com."
+      ],
+      "valid": true
+    },
+    "site": {
+      "priority": "1",
+      "project_type_our_read": "commercial / industrial / institutional",
+      "date_on_file": "2026-09-29",
+      "site_name": "ORIZON INDUSTRIES",
+      "street_address": "7007 FM 362 RD",
+      "city": "BROOKSHIRE",
+      "county": "WALLER",
+      "location_description": "",
+      "tceq_authorizations": "TXR1561ZO",
+      "regulated_entity_rn": "RN106157357",
+      "operators_on_file": "TELLEPSEN BUILDERS LP",
+      "operator_types": "PARTNERSHIP",
+      "industry_filed": "",
+      "flags": "site name may be a person's name: review before use",
+      "source_url": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN106157357&program_code=STORM",
+      "checked_on": "2026-10-21",
+      "live_url": "https://data.texas.gov/resource/tzyg-j7q4.json?%24where=ref_num_txt%3D%27RN106157357%27+AND+program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29&%24limit=1000",
+      "live_fetched_at": "2026-10-21T15:16:07.028863+00:00",
+      "selected_authorization": "TXR1561ZO",
+      "selected_operator": "TELLEPSEN BUILDERS LP",
+      "selected_record_date": "2026-09-29",
+      "original_priority": "1",
+      "reference_address": "7007 FM 362 RD, BROOKSHIRE, TX",
+      "review_notes": "Retain the filed TCEQ street address; business/property name, not a named individual. Exact delivery access is unverified.",
+      "supplemental_source_url": ""
+    },
+    "note": "Own-site local services and operator presentation checked. Private beneficial ownership, current fleet total and exact delivery territory are not independently audited. Comptroller Hempstead outlet and exact FMCSA identity corroborate Waller County base. Own site explicitly lists Brookshire, Hempstead, Houston and Katy.",
+    "phone_identity_screen": [],
+    "carrier_source_url": "https://data.transportation.gov/resource/az4n-8mr2.json?%24where=phone+in+%28%278328087247%27%29+OR+lower%28email_address%29+like+%27%25%40wastesolutionsusa.com%27&%24limit=1000",
+    "carrier_summary": [
+      {
+        "dot_number": "3283179",
+        "dba_name": null,
+        "power_units": "2",
+        "status_code": "A",
+        "mcs150_date": "20220327"
+      }
+    ]
+  }
+]
