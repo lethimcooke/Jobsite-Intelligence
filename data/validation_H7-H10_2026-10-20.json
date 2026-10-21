@@ -1,0 +1,49 @@
+{
+  "base_commit": "26d9df2",
+  "branch": "codex/houston-haulers-2",
+  "original_rows": 325,
+  "appended_rows": 24,
+  "total_rows": 349,
+  "original_rows_all_fields_and_raw_bytes_unchanged": true,
+  "existing_outreach_status_changes": 0,
+  "packet_counts": {
+    "H7": {
+      "rows": 4,
+      "business_domain": 4,
+      "free_mail": 0
+    },
+    "H8": {
+      "rows": 4,
+      "business_domain": 4,
+      "free_mail": 0
+    },
+    "H9": {
+      "rows": 3,
+      "business_domain": 2,
+      "free_mail": 1
+    },
+    "H10": {
+      "rows": 3,
+      "business_domain": 1,
+      "free_mail": 2
+    }
+  },
+  "packet_check_results": {
+    "H7": "0 flags (4 rows checked)",
+    "H8": "0 flags (4 rows checked)",
+    "H9": "0 flags (3 rows checked)",
+    "H10": "0 flags (3 rows checked)"
+  },
+  "reserve_check": "0 flags (10 rows checked)",
+  "unittest": "31 tests passed",
+  "cross_batch_email_domain_and_alias_screen": "passed, free-mail matched on full address",
+  "site_rn_and_authorization_unique_and_not_previously_used": true,
+  "selected_own_page_email_and_non_null_mx_evidence": "passed for all 24",
+  "blank_city_mileage_due_to_unavailable_street_geocode": 3,
+  "target_shortfall": {
+    "packet_rows": 46,
+    "verified_contact_rows": 36
+  },
+  "master_before_sha256": "bb2d8bc509457bc5cbb577993ac3379e001d703aaf71b590d1af7a4aa4008583",
+  "master_after_sha256": "9c645aa278406b898d5d92fc10abe47082b96c0713943701b55d15a0cd8b6e6e"
+}
