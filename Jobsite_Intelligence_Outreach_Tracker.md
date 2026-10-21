@@ -113,6 +113,8 @@ PDF, set From to sites@ (Oct 14: an ASI engaged email went out from operations@)
 - **H4 S1 (user, Oct 19, "approve H4"):** queued; Tue Oct 20 has H3 #15 plus H4 #1-4 (5 first emails) and the Hercules and Essential Waste S2s, all drafted. H4 #5-15 wait in `ops/queue/JI-H4-S1-hold.json` because ji_ops `validate` counts deferred S1s toward the day's cap (ASI-owned code; fix requested from ASI). Each day, move that day's 5 into a live queue before planning.
 - **H3 S2 copy:** `outreach/JI-H3_S2_Copy.md` (13 haulers, #6 skipped), pending the user's approval; due Oct 20.
 
+- **Oct 20: nothing sent (checked 7:18 PM CT).** The Oct 20 manifest (r2025179972168776424) and all 15 drafts were in place, but the Sent folder shows no sends from sites@ or from any ASI alias all day, while ASI's own Oct 20 manifest was also in place. The ASI Sender appears not to have run; reported to the user to check with ASI operations (trigger, Sender Log, auto-pause). Tuesday's 15 move to Wed Oct 21 once the sender is confirmed working: the same drafts validate for Oct 21 and a fresh 15-email manifest builds; it needs the user's OK to go into Gmail. Wednesday's planned items (H3 S2 #10-14, H4 #5-9) shift a day.
+
 ## Excluded
 
 - Red Dog Dumpsters LLC (Oct 14): email domain is a Nashville, TN company; doesn't match the Houston FMCSA yard.
