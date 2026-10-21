@@ -177,9 +177,10 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "construction; subject A; no yard",
-      "status": "deferred",
+      "status": "skipped",
       "draft": null,
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "skip_reason": "Oct 21 recheck: address not visible on pemdumpsters.com (page renders empty), Codex had flagged the inactive carrier record and two mailbox spellings; skipped to avoid a bounce"
     },
     {
       "id": "JI-H4-S1-09",

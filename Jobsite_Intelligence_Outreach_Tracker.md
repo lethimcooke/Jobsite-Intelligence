@@ -120,6 +120,9 @@ PDF, set From to sites@ (Oct 14: an ASI engaged email went out from operations@)
 - **Bounce rule (ASI ops, Oct 21):** 3 bounces in 24 hours from either business pauses both. Until a mailbox-verification service exists: keep first emails low (5), recheck that each first-email address still appears on the hauler's live site before it goes on a manifest, and drop anything that has bounced. Oct 20 recheck: Trash Hauling Fast, Jon's Junk Removal, Renegade Roll-Offs, Texas Roll Off and Long Boy Rentals all still publish their address (direct page fetch, Cloudflare-decoded).
 - **Next send: Thu Oct 22** (a manifest only sends on its own date and goes stale after 36 hours, so it is built Wed Oct 21 afternoon): the same 15 drafted for Oct 20 (5 S1: H3 #15, H4 #1-4; 10 S2), validate PASS for Oct 22. Items planned for Oct 21 (H3 S2 #10-14, H4 #5-9) move to Fri Oct 23.
 
+- **Fri Oct 23 prep (Oct 21):** Friday's first emails are H4 #5-7, 9 and 10 (Texas Rolloff Dumpster Rentals, Action Roll-Offs, Driveway Dumpster Rental, Come and Take It, Junk It Mobile Dumpsters); all five addresses rechecked on the live sites, MX present. PEM Dumpster Rentals (H4 #8) skipped: its page renders empty, so the address can't be confirmed. Follow-ups: H3 S2 #10-14. Friday is planned, drafted and put on a manifest Thursday afternoon after Thursday's sends are logged (planning earlier would carry Thursday's unsent drafts).
+- **Pace (user, Oct 21):** from Mon Oct 26, first emails are 15 a day for ASI and 5 for Jobsite (unchanged for us).
+
 ## Excluded
 
 - Red Dog Dumpsters LLC (Oct 14): email domain is a Nashville, TN company; doesn't match the Houston FMCSA yard.
