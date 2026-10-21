@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Jobsite Intelligence outreach operations (copy of Austin-Signage scripts/asi_ops.py at 16f6e92; the ASI repo owns the code, resync from there, change only via the user).
+"""Jobsite Intelligence outreach operations (copy of Austin-Signage scripts/asi_ops.py at f34e343; the ASI repo owns the code, resync from there, change only via the user).
 
 Outreach operations: approved copy -> validated draft queue -> Gmail drafts -> evidence-backed logging.
 
@@ -378,10 +378,20 @@ def plan_day(queues, rules, data_dir, send_date, other=None):
         if r["stage"] == "S1" and r["kind"] == "gmail_sent":
             to = r["to"].strip().lower()
             s1_dates[to] = min(s1_dates.get(to, r["sent_at"][:10]), r["sent_at"][:10])
+    # Drafts already planned for this date (in any of the queues) use up today's budget first (Jobsite, Oct 21:
+    # plan picked 13 S2s on top of 7 already drafted for the day).
+    for _, q in queues:
+        for r in q["records"]:
+            if r.get("status") == "drafted" and r.get("planned_for") == send_date:
+                budget -= 1
+                s1_budget -= r["stage"] == "S1"
     cands = []
     for qi, (path, q) in enumerate(queues):
         for r in q["records"]:
-            if r.get("status") in ("queued", "deferred") and not r.get("draft"):
+            # Candidates: queued or deferred records (a deferred one may keep its draft), and drafts planned for
+            # another day that never sent (carried over; re-planned here, draft kept).
+            carried = r.get("status") == "drafted" and r.get("planned_for") != send_date
+            if r.get("status") in ("queued", "deferred") or carried:
                 first = r["stage"] == "S1"
                 # No S1 in the ledger means the S1 predates the ledger (before Oct 7), so it is oldest.
                 age = s1_dates.get(r["to"].lower(), "0000") if not first else ""
@@ -396,7 +406,11 @@ def plan_day(queues, rules, data_dir, send_date, other=None):
         else:
             ok = budget > 0
         budget -= ok
-        r["status"] = "queued" if ok else "deferred"
+        if ok:
+            r["planned_for"] = send_date
+            r["status"] = "drafted" if r.get("draft") else "queued"
+        else:
+            r["status"] = "deferred"
         (picked if ok else deferred).append(r)
     return picked, deferred
 
@@ -428,14 +442,19 @@ def validate_queue(queue, rules, data_dir, send_date=None, run_dup_check=True, o
         errs += [f"{tag}: {e}" for e in check_record(rec, rules, lists, dnc, s1_dates, other)]
     if send_date:
         already = sum(1 for r in sent_on(data_dir, send_date) if r["stage"] == "S1")   # this business's share
-        planned = sum(1 for r in queue["records"] if r.get("stage") == "S1" and r.get("status") not in ("skipped", "sent_confirmed"))
+        # Only what is planned for this date counts: not deferred records, not drafts planned for another day
+        # (Jobsite, Oct 21: 4 planned + 11 deferred failed "15 planned > 5").
+        def for_today(r):
+            return (r.get("status") in ("queued", "drafted")
+                    and r.get("planned_for") in (None, send_date))
+        planned = sum(1 for r in queue["records"] if r.get("stage") == "S1" and for_today(r))
         s1_cap = min(rules["max_s1_per_day"], daily_share(rules))
         if already + planned > s1_cap:
             errs.append(f"S1 cap: {already} already logged on {send_date} + {planned} planned > {s1_cap}")
         cap = rules.get("max_total_per_day") and daily_share(rules)
         if cap:
             done = len(sent_on(data_dir, send_date))
-            todo = sum(1 for r in queue["records"] if r.get("status") not in ("skipped", "sent_confirmed", "deferred"))
+            todo = sum(1 for r in queue["records"] if for_today(r))
             if done + todo > cap:
                 errs.append(f"daily cap: {done} already sent on {send_date} + {todo} planned > {cap} (run plan)")
     packet = queue.get("packet")
@@ -644,6 +663,10 @@ def build_manifest(queues, rules, data_dir, send_date, other=None, dry_run_only=
     for _, q in queues:
         for r in q["records"]:
             if r.get("status") != "drafted" or r["stage"] not in SEND_STAGES:
+                continue
+            # A draft planned for another day is left out (Jobsite, Oct 19: a 21-email manifest picked up
+            # yesterday's unlogged drafts). Re-plan it for this date to carry it over. Unplanned legacy drafts stay in.
+            if r.get("planned_for") not in (None, send_date):
                 continue
             tag = r["id"]
             errs += [f"{tag}: {e}" for e in check_record(r, rules, lists, dnc, s1_dates, other)]

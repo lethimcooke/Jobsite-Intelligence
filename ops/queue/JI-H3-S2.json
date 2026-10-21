@@ -31,7 +31,8 @@
         "payload_sha256": "02490c808e0befd8c1448ef1788f03031aa21b978e17bd16346676fa116f7791",
         "created_at": "2026-10-19T17:41:02+00:00"
       },
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "planned_for": "2026-10-22"
     },
     {
       "id": "JI-H3-S2-02",
@@ -55,7 +56,8 @@
         "payload_sha256": "d2286d231f6a16290e27b84ccfaf78615ebbecc07d279f2d78b12afd802ae2c0",
         "created_at": "2026-10-19T17:41:02+00:00"
       },
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "planned_for": "2026-10-22"
     },
     {
       "id": "JI-H3-S2-03",
@@ -79,7 +81,8 @@
         "payload_sha256": "65c26effc36a6958fe2f4c46aa2b4c9d3115606f78f4f8fd6d4245da4af7d562",
         "created_at": "2026-10-19T17:41:02+00:00"
       },
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "planned_for": "2026-10-22"
     },
     {
       "id": "JI-H3-S2-04",
@@ -103,7 +106,8 @@
         "payload_sha256": "9de84cd8b2223058b70d1089963ff41b215384a3a00cd62eae75c6aea9c9c5f7",
         "created_at": "2026-10-19T17:41:02+00:00"
       },
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "planned_for": "2026-10-22"
     },
     {
       "id": "JI-H3-S2-05",
@@ -127,7 +131,8 @@
         "payload_sha256": "11d96741a0c0953bbd22a02f8888c8b5606160336f17b2df657405feaa0d7c71",
         "created_at": "2026-10-19T17:41:02+00:00"
       },
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "planned_for": "2026-10-22"
     },
     {
       "id": "JI-H3-S2-06",
@@ -159,7 +164,8 @@
         "payload_sha256": "5fa47d8f55b69f964d90c315eeb86a886560d3415ce5654830e2e6f6fb9b900a",
         "created_at": "2026-10-19T17:41:02+00:00"
       },
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "planned_for": "2026-10-22"
     },
     {
       "id": "JI-H3-S2-08",
@@ -183,7 +189,8 @@
         "payload_sha256": "8e736b3ca01be9efdb183b7e15c588493aedc817a187bb7b22a3dff29b543ef8",
         "created_at": "2026-10-19T17:41:03+00:00"
       },
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "planned_for": "2026-10-22"
     },
     {
       "id": "JI-H3-S2-09",
@@ -207,7 +214,8 @@
         "payload_sha256": "f4a66a788131d66fda26e71244365ca5c855c8aca1d48a2c4bf11d6b285576b1",
         "created_at": "2026-10-19T17:41:03+00:00"
       },
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "planned_for": "2026-10-22"
     },
     {
       "id": "JI-H3-S2-10",

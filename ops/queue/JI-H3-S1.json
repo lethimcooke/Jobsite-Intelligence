@@ -367,7 +367,8 @@
         "payload_sha256": "3bf926bf5ff27a84164e894e31ed0dfcb53dad61e2a9f27267e835b177cea4ee",
         "created_at": "2026-10-19T17:38:31+00:00"
       },
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "planned_for": "2026-10-22"
     }
   ]
 }

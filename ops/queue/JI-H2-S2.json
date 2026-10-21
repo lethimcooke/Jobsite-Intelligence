@@ -175,7 +175,8 @@
         "payload_sha256": "e7b0d16026a5d23bc707f622b6bc1af9f9b71ef491ed1383f9eeb724ac385b0a",
         "created_at": "2026-10-19T17:38:32+00:00"
       },
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "planned_for": "2026-10-22"
     },
     {
       "id": "JI-H2-S2-18",
@@ -199,7 +200,8 @@
         "payload_sha256": "b417068909c4a188c937c03df095571dc8d0e063b5b04fae1ecab67529f59eee",
         "created_at": "2026-10-19T17:38:32+00:00"
       },
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "planned_for": "2026-10-22"
     }
   ]
 }
