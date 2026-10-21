@@ -286,14 +286,17 @@ function orderEntries_(manifests) {
  * plus each business's share of that total (ASI 45, Jobsite 15; a manifest without one may use it all).
  */
 function sharedCaps_(manifests) {
-  var total = Infinity, s1 = Infinity, share = {};
+  // The total is the mailbox's and the strictest manifest wins. Each business keeps its own share and its own
+  // first-email cap (Oct 21: Jobsite's 5 had capped ASI's first emails at 5, counted across both businesses).
+  var total = Infinity, s1 = Infinity, share = {}, s1By = {};
   manifests.forEach(function (m) {
     total = Math.min(total, Number(m.max_total) || 0);
     s1 = Math.min(s1, Number(m.max_s1) || 0);
     var b = m.business || '', mine = m.share === undefined ? Infinity : (Number(m.share) || 0);
     share[b] = Math.min(share[b] === undefined ? Infinity : share[b], mine);
+    s1By[b] = Math.min(s1By[b] === undefined ? Infinity : s1By[b], Number(m.max_s1) || 0);
   });
-  return { total: total, s1: s1, share: share };
+  return { total: total, s1: s1, share: share, s1By: s1By };
 }
 
 /** Every manifest's do-not-contact applies to every email of the day, whichever business sends it. */
@@ -361,12 +364,12 @@ function runSender() {
     if (!manifests.length) return;
     // One mailbox, one set of daily caps, whichever business a manifest belongs to.
     var caps = sharedCaps_(manifests), dnc = unionDnc_(manifests);
-    var states = {}, sends = 0, sentToday = 0, s1Today = 0, tests = 0, byBiz = {};
+    var states = {}, sends = 0, sentToday = 0, tests = 0, byBiz = {}, s1ByBiz = {};
     manifests.forEach(function (mf) {
       var live = JSON.parse(props.getProperty('state:LIVE:' + mf.sha) || '{}');
       sentToday += countValues_(live, 'sent');
       byBiz[mf.business || ''] = (byBiz[mf.business || ''] || 0) + countValues_(live, 'sent');
-      s1Today += countStage_(mf, live, 'S1');
+      s1ByBiz[mf.business || ''] = (s1ByBiz[mf.business || ''] || 0) + countStage_(mf, live, 'S1');
       states[mf.sha] = JSON.parse(props.getProperty('state:' + mode + ':' + mf.sha) || '{}');
       tests += countValues_(states[mf.sha], 'test');
     });
@@ -380,7 +383,7 @@ function runSender() {
       if (mode !== 'DRY_RUN' && sends >= CFG.PER_RUN) return;
       var biz = man.business || '';
       if (mode === 'LIVE' && (sentToday >= caps.total || (byBiz[biz] || 0) >= caps.share[biz] ||
-          (e.stage === 'S1' && s1Today >= caps.s1))) {
+          (e.stage === 'S1' && (s1ByBiz[biz] || 0) >= caps.s1By[biz]))) {
         log_(mode, 'CAP', e, 'daily cap reached; left as a draft', ''); continue;
       }
       var reasons;
@@ -415,7 +418,7 @@ function runSender() {
       props.setProperty(key, JSON.stringify(state));
       sends++;
       if (mode === 'TEST') tests++;
-      if (mode === 'LIVE') { sentToday++; byBiz[biz] = (byBiz[biz] || 0) + 1; if (e.stage === 'S1') s1Today++; }
+      if (mode === 'LIVE') { sentToday++; byBiz[biz] = (byBiz[biz] || 0) + 1; if (e.stage === 'S1') s1ByBiz[biz] = (s1ByBiz[biz] || 0) + 1; }
     }
   } finally {
     lock.releaseLock();
