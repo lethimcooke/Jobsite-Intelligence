@@ -1,0 +1,535 @@
+[
+  {
+    "row": {
+      "company": "BLUE STAR DUMPSTERS LLC",
+      "legal_name": "BLUE STAR DUMPSTERS LLC",
+      "usdot": "3370411",
+      "power_units": "2",
+      "yard_address": "2320 HINTON DR, IRVING, TX 75061",
+      "phone": "2144951510",
+      "fmcsa_email": "dawn@bluestardumpsters.com",
+      "domain": "bluestardumpsters.com",
+      "fmcsa_updated": "20250107",
+      "metro": "DFW",
+      "site_text_chars": "21604",
+      "services_published": "roll-off, construction, commercial, residential, 20-yd, 30-yd",
+      "areas_published": "dallas, fort worth, arlington",
+      "site_emails": "info@bluestardumpsters.com",
+      "email": "info@bluestardumpsters.com",
+      "email_confidence": "A",
+      "fit": "True",
+      "outreach_status": "Not contacted",
+      "notes": "2026-10-21 DFW research only, no packet. Grade A exact email fetched 2026-10-21T15:17:39.275483+00:00 on https://bluestardumpsters.com/. Actual MX 0 bluestardumpsters-com.mail.protection.outlook.com.. Active FMCSA USDOT 3370411, 2 power units filed 20250107. Own-site independent/local services reviewed; private ownership, current fleet total and individual mailbox delivery not independently verified. Registry address is not a verified operating-yard coordinate."
+    },
+    "page_url": "https://bluestardumpsters.com/",
+    "fetched_at": "2026-10-21T15:17:39.275483+00:00",
+    "emails": [
+      "info@bluestardumpsters.com"
+    ],
+    "mx": {
+      "url": "https://dns.google/resolve?name=bluestardumpsters.com&type=MX",
+      "fetched_at": "2026-10-21T15:23:49.527708+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "bluestardumpsters.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "bluestardumpsters.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "0 bluestardumpsters-com.mail.protection.outlook.com."
+          }
+        ],
+        "Comment": "Response from 97.74.105.16."
+      },
+      "mx": [
+        "0 bluestardumpsters-com.mail.protection.outlook.com."
+      ],
+      "valid": true
+    },
+    "carrier_url": "https://data.transportation.gov/resource/az4n-8mr2.json?dot_number=3370411",
+    "carrier_fetched_at": "2026-10-21T15:23:49.340145+00:00",
+    "carrier": {
+      "dot_number": "3370411",
+      "legal_name": "BLUE STAR DUMPSTERS LLC",
+      "dba_name": null,
+      "status_code": "A",
+      "power_units": "2",
+      "mcs150_date": "20250107",
+      "phy_city": "IRVING",
+      "phy_state": "TX"
+    },
+    "identity_matches": []
+  },
+  {
+    "row": {
+      "company": "DISCOUNT DUMPSTERS",
+      "legal_name": "DISCOUNT DUMPSTERS LLC",
+      "usdot": "3175833",
+      "power_units": "4",
+      "yard_address": "2101 PARKER RD, WYLIE, TX 75098",
+      "phone": "9729003867",
+      "fmcsa_email": "hunter@discountdumpstersdfw.com",
+      "domain": "discountdumpstersdfw.com",
+      "fmcsa_updated": "20250306",
+      "metro": "DFW",
+      "site_text_chars": "4527",
+      "services_published": "roll-off, construction, commercial, demolition, 40-yd",
+      "areas_published": "dallas",
+      "site_emails": "office@discountdumpstersdfw.com",
+      "email": "office@discountdumpstersdfw.com",
+      "email_confidence": "A",
+      "fit": "True",
+      "outreach_status": "Not contacted",
+      "notes": "2026-10-21 DFW research only, no packet. Grade A exact email fetched 2026-10-21T15:17:35.309213+00:00 on https://www.discountdumpstersdfw.com/. Actual MX 0 discountdumpstersdfw-com.mail.protection.outlook.com.. Active FMCSA USDOT 3175833, 4 power units filed 20250306. Own-site independent/local services reviewed; private ownership, current fleet total and individual mailbox delivery not independently verified. Registry address is not a verified operating-yard coordinate."
+    },
+    "page_url": "https://www.discountdumpstersdfw.com/",
+    "fetched_at": "2026-10-21T15:17:35.309213+00:00",
+    "emails": [
+      "office@discountdumpstersdfw.com"
+    ],
+    "mx": {
+      "url": "https://dns.google/resolve?name=discountdumpstersdfw.com&type=MX",
+      "fetched_at": "2026-10-21T15:23:45.584476+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "discountdumpstersdfw.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "discountdumpstersdfw.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "0 discountdumpstersdfw-com.mail.protection.outlook.com."
+          }
+        ],
+        "Comment": "Response from 173.201.71.44."
+      },
+      "mx": [
+        "0 discountdumpstersdfw-com.mail.protection.outlook.com."
+      ],
+      "valid": true
+    },
+    "carrier_url": "https://data.transportation.gov/resource/az4n-8mr2.json?dot_number=3175833",
+    "carrier_fetched_at": "2026-10-21T15:23:45.322865+00:00",
+    "carrier": {
+      "dot_number": "3175833",
+      "legal_name": "DISCOUNT DUMPSTERS LLC",
+      "dba_name": "DISCOUNT DUMPSTERS",
+      "status_code": "A",
+      "power_units": "4",
+      "mcs150_date": "20250306",
+      "phy_city": "WYLIE",
+      "phy_state": "TX"
+    },
+    "identity_matches": []
+  },
+  {
+    "row": {
+      "company": "FUSION WASTE & RECYCLING",
+      "legal_name": "FUSION RECYCLING LLC",
+      "usdot": "2820694",
+      "power_units": "35",
+      "yard_address": "6318 I-45 NORTH, WILMER, TX 75172",
+      "phone": "9726757767",
+      "fmcsa_email": "cisco@fusionwaste.com",
+      "domain": "fusionwaste.com",
+      "fmcsa_updated": "20220815",
+      "metro": "DFW",
+      "site_text_chars": "29077",
+      "services_published": "roll-off, construction, commercial, demolition, compactors, residential, 10-yd, 20-yd, 30-yd, 40-yd",
+      "areas_published": "dallas, fort worth",
+      "site_emails": "service@fusionwaste.com",
+      "email": "service@fusionwaste.com",
+      "email_confidence": "A",
+      "fit": "True",
+      "outreach_status": "Not contacted",
+      "notes": "2026-10-21 DFW research only, no packet. Grade A exact email fetched 2026-10-21T15:17:38.200160+00:00 on https://fusionwaste.com/. Actual MX 0 fusionwaste-com.mail.protection.outlook.com.. Active FMCSA USDOT 2820694, 35 power units filed 20220815. Own-site independent/local services reviewed; private ownership, current fleet total and individual mailbox delivery not independently verified. Registry address is not a verified operating-yard coordinate."
+    },
+    "page_url": "https://fusionwaste.com/",
+    "fetched_at": "2026-10-21T15:17:38.200160+00:00",
+    "emails": [
+      "service@fusionwaste.com"
+    ],
+    "mx": {
+      "url": "https://dns.google/resolve?name=fusionwaste.com&type=MX",
+      "fetched_at": "2026-10-21T15:23:48.796873+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "fusionwaste.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "fusionwaste.com.",
+            "type": 15,
+            "TTL": 526,
+            "data": "0 fusionwaste-com.mail.protection.outlook.com."
+          }
+        ]
+      },
+      "mx": [
+        "0 fusionwaste-com.mail.protection.outlook.com."
+      ],
+      "valid": true
+    },
+    "carrier_url": "https://data.transportation.gov/resource/az4n-8mr2.json?dot_number=2820694",
+    "carrier_fetched_at": "2026-10-21T15:23:48.604528+00:00",
+    "carrier": {
+      "dot_number": "2820694",
+      "legal_name": "FUSION RECYCLING LLC",
+      "dba_name": "FUSION WASTE & RECYCLING",
+      "status_code": "A",
+      "power_units": "35",
+      "mcs150_date": "20220815",
+      "phy_city": "WILMER",
+      "phy_state": "TX"
+    },
+    "identity_matches": []
+  },
+  {
+    "row": {
+      "company": "HART WASTE REMOVAL",
+      "legal_name": "PC HART WASTE LLC",
+      "usdot": "3617390",
+      "power_units": "3",
+      "yard_address": "4445 INTERSTATE 30 SUITE 21, MESQUITE, TX 75150",
+      "phone": "9725672244",
+      "fmcsa_email": "blake@hartwasteremoval.com",
+      "domain": "hartwasteremoval.com",
+      "fmcsa_updated": "20251002",
+      "metro": "DFW",
+      "site_text_chars": "8806",
+      "services_published": "roll-off, construction, commercial, residential, 10-yd, 15-yd, 20-yd, 30-yd",
+      "areas_published": "dallas, fort worth",
+      "site_emails": "info@hartwasteremoval.com",
+      "email": "info@hartwasteremoval.com",
+      "email_confidence": "A",
+      "fit": "True",
+      "outreach_status": "Not contacted",
+      "notes": "2026-10-21 DFW research only, no packet. Grade A exact email fetched 2026-10-21T15:17:37.129414+00:00 on https://www.hartwasteremoval.com/. Actual MX 0 hartwasteremoval-com.mail.protection.outlook.com.. Active FMCSA USDOT 3617390, 3 power units filed 20251002. Own-site independent/local services reviewed; private ownership, current fleet total and individual mailbox delivery not independently verified. Registry address is not a verified operating-yard coordinate."
+    },
+    "page_url": "https://www.hartwasteremoval.com/",
+    "fetched_at": "2026-10-21T15:17:37.129414+00:00",
+    "emails": [
+      "info@hartwasteremoval.com"
+    ],
+    "mx": {
+      "url": "https://dns.google/resolve?name=hartwasteremoval.com&type=MX",
+      "fetched_at": "2026-10-21T15:23:49.417708+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "hartwasteremoval.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "hartwasteremoval.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "0 hartwasteremoval-com.mail.protection.outlook.com."
+          }
+        ],
+        "Comment": "Response from 173.201.74.7."
+      },
+      "mx": [
+        "0 hartwasteremoval-com.mail.protection.outlook.com."
+      ],
+      "valid": true
+    },
+    "carrier_url": "https://data.transportation.gov/resource/az4n-8mr2.json?dot_number=3617390",
+    "carrier_fetched_at": "2026-10-21T15:23:49.144993+00:00",
+    "carrier": {
+      "dot_number": "3617390",
+      "legal_name": "PC HART WASTE LLC",
+      "dba_name": "HART WASTE REMOVAL",
+      "status_code": "A",
+      "power_units": "3",
+      "mcs150_date": "20251002",
+      "phy_city": "MESQUITE",
+      "phy_state": "TX"
+    },
+    "identity_matches": []
+  },
+  {
+    "row": {
+      "company": "REDCLOUD DISPOSAL LIMITED LIABILITY COMPANY",
+      "legal_name": "REDCLOUD DISPOSAL LIMITED LIABILITY COMPANY",
+      "usdot": "3501830",
+      "power_units": "2",
+      "yard_address": "3626 WASHBURN AVE, FORT WORTH, TX 76107",
+      "phone": "8178855405",
+      "fmcsa_email": "taylor@redclouddisposal.com",
+      "domain": "redclouddisposal.com",
+      "fmcsa_updated": "20220310",
+      "metro": "DFW",
+      "site_text_chars": "2811",
+      "services_published": "roll-off, construction, hand-wash, residential",
+      "areas_published": "dallas, fort worth",
+      "site_emails": "info@redclouddisposal.com",
+      "email": "info@redclouddisposal.com",
+      "email_confidence": "A",
+      "fit": "True",
+      "outreach_status": "Not contacted",
+      "notes": "2026-10-21 DFW research only, no packet. Grade A exact email fetched 2026-10-21T15:17:35.542597+00:00 on https://redclouddisposal.com/. Actual MX 10 alt4.aspmx.l.google.com., 10 alt3.aspmx.l.google.com., 5 alt1.aspmx.l.google.com., 5 alt2.aspmx.l.google.com., 1 aspmx.l.google.com.. Active FMCSA USDOT 3501830, 2 power units filed 20220310. Own-site independent/local services reviewed; private ownership, current fleet total and individual mailbox delivery not independently verified. Registry address is not a verified operating-yard coordinate."
+    },
+    "page_url": "https://redclouddisposal.com/",
+    "fetched_at": "2026-10-21T15:17:35.542597+00:00",
+    "emails": [
+      "info@redclouddisposal.com",
+      "orders@redclouddisposal.com"
+    ],
+    "mx": {
+      "url": "https://dns.google/resolve?name=redclouddisposal.com&type=MX",
+      "fetched_at": "2026-10-21T15:24:19.743890+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": true,
+        "CD": false,
+        "Question": [
+          {
+            "name": "redclouddisposal.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "redclouddisposal.com.",
+            "type": 15,
+            "TTL": 300,
+            "data": "10 alt4.aspmx.l.google.com."
+          },
+          {
+            "name": "redclouddisposal.com.",
+            "type": 15,
+            "TTL": 300,
+            "data": "10 alt3.aspmx.l.google.com."
+          },
+          {
+            "name": "redclouddisposal.com.",
+            "type": 15,
+            "TTL": 300,
+            "data": "5 alt1.aspmx.l.google.com."
+          },
+          {
+            "name": "redclouddisposal.com.",
+            "type": 15,
+            "TTL": 300,
+            "data": "5 alt2.aspmx.l.google.com."
+          },
+          {
+            "name": "redclouddisposal.com.",
+            "type": 15,
+            "TTL": 300,
+            "data": "1 aspmx.l.google.com."
+          }
+        ],
+        "Comment": "Response from 172.64.32.208."
+      },
+      "mx": [
+        "10 alt4.aspmx.l.google.com.",
+        "10 alt3.aspmx.l.google.com.",
+        "5 alt1.aspmx.l.google.com.",
+        "5 alt2.aspmx.l.google.com.",
+        "1 aspmx.l.google.com."
+      ],
+      "valid": true
+    },
+    "carrier_url": "https://data.transportation.gov/resource/az4n-8mr2.json?dot_number=3501830",
+    "carrier_fetched_at": "2026-10-21T15:24:19.511552+00:00",
+    "carrier": {
+      "dot_number": "3501830",
+      "legal_name": "REDCLOUD DISPOSAL LIMITED LIABILITY COMPANY",
+      "dba_name": null,
+      "status_code": "A",
+      "power_units": "2",
+      "mcs150_date": "20220310",
+      "phy_city": "FORT WORTH",
+      "phy_state": "TX"
+    },
+    "identity_matches": []
+  },
+  {
+    "row": {
+      "company": "RED RIVER ROLL OFFS",
+      "legal_name": "MARTIN WASTE REMOVAL LLC",
+      "usdot": "3734293",
+      "power_units": "8",
+      "yard_address": "1955 TAPADERO LN, CELINA, TX 75009",
+      "phone": "5742861360",
+      "fmcsa_email": "admin@redriverrolloffs.com",
+      "domain": "redriverrolloffs.com",
+      "fmcsa_updated": "20250304",
+      "metro": "DFW",
+      "site_text_chars": "15357",
+      "services_published": "roll-off, construction, commercial, demolition, residential",
+      "areas_published": "",
+      "site_emails": "admin@redriverrolloffs.com",
+      "email": "admin@redriverrolloffs.com",
+      "email_confidence": "A",
+      "fit": "True",
+      "outreach_status": "Not contacted",
+      "notes": "2026-10-21 DFW research only, no packet. Grade A exact email fetched 2026-10-21T15:17:36.287224+00:00 on https://redriverrolloffs.com/. Actual MX 0 redriverrolloffs-com.mail.protection.outlook.com.. Active FMCSA USDOT 3734293, 8 power units filed 20250304. Own-site independent/local services reviewed; private ownership, current fleet total and individual mailbox delivery not independently verified. Registry address is not a verified operating-yard coordinate."
+    },
+    "page_url": "https://redriverrolloffs.com/",
+    "fetched_at": "2026-10-21T15:17:36.287224+00:00",
+    "emails": [
+      "admin@rediverrolloffs.com",
+      "admin@redriverrolloffs.com"
+    ],
+    "mx": {
+      "url": "https://dns.google/resolve?name=redriverrolloffs.com&type=MX",
+      "fetched_at": "2026-10-21T15:24:19.906791+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "redriverrolloffs.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "redriverrolloffs.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "0 redriverrolloffs-com.mail.protection.outlook.com."
+          }
+        ],
+        "Comment": "Response from 97.74.108.49."
+      },
+      "mx": [
+        "0 redriverrolloffs-com.mail.protection.outlook.com."
+      ],
+      "valid": true
+    },
+    "carrier_url": "https://data.transportation.gov/resource/az4n-8mr2.json?dot_number=3734293",
+    "carrier_fetched_at": "2026-10-21T15:24:19.691976+00:00",
+    "carrier": {
+      "dot_number": "3734293",
+      "legal_name": "MARTIN WASTE REMOVAL LLC",
+      "dba_name": "RED RIVER ROLL OFFS",
+      "status_code": "A",
+      "power_units": "8",
+      "mcs150_date": "20250304",
+      "phy_city": "CELINA",
+      "phy_state": "TX"
+    },
+    "identity_matches": []
+  },
+  {
+    "row": {
+      "company": "WEONIT WASTE & RECYCLE LLC",
+      "legal_name": "WEONIT WASTE & RECYCLE LLC",
+      "usdot": "3592294",
+      "power_units": "1",
+      "yard_address": "17250 DALLAS PKWY, DALLAS, TX 75248",
+      "phone": "4695011331",
+      "fmcsa_email": "g.mccurry@weonit.net",
+      "domain": "weonit.net",
+      "fmcsa_updated": "20250228",
+      "metro": "DFW",
+      "site_text_chars": "81309",
+      "services_published": "roll-off, construction, commercial, demolition, residential, 10-yd, 20-yd, 30-yd, 40-yd",
+      "areas_published": "dallas, plano, arlington",
+      "site_emails": "g.mccurry@weonit.net",
+      "email": "g.mccurry@weonit.net",
+      "email_confidence": "A",
+      "fit": "True",
+      "outreach_status": "Not contacted",
+      "notes": "2026-10-21 DFW research only, no packet. Grade A exact email fetched 2026-10-21T15:17:35.363081+00:00 on https://weonit.net/. Actual MX 0 smtp.google.com.. Active FMCSA USDOT 3592294, 1 power units filed 20250228. Own-site independent/local services reviewed; private ownership, current fleet total and individual mailbox delivery not independently verified. Registry address is not a verified operating-yard coordinate."
+    },
+    "page_url": "https://weonit.net/",
+    "fetched_at": "2026-10-21T15:17:35.363081+00:00",
+    "emails": [
+      "g.mccurry@weonit.net"
+    ],
+    "mx": {
+      "url": "https://dns.google/resolve?name=weonit.net&type=MX",
+      "fetched_at": "2026-10-21T15:23:45.464833+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "weonit.net.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "weonit.net.",
+            "type": 15,
+            "TTL": 300,
+            "data": "0 smtp.google.com."
+          }
+        ],
+        "Comment": "Response from 173.245.58.156."
+      },
+      "mx": [
+        "0 smtp.google.com."
+      ],
+      "valid": true
+    },
+    "carrier_url": "https://data.transportation.gov/resource/az4n-8mr2.json?dot_number=3592294",
+    "carrier_fetched_at": "2026-10-21T15:23:45.229615+00:00",
+    "carrier": {
+      "dot_number": "3592294",
+      "legal_name": "WEONIT WASTE & RECYCLE LLC",
+      "dba_name": null,
+      "status_code": "A",
+      "power_units": "1",
+      "mcs150_date": "20250228",
+      "phy_city": "DALLAS",
+      "phy_state": "TX"
+    },
+    "identity_matches": []
+  }
+]

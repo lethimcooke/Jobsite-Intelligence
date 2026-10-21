@@ -1,0 +1,298 @@
+{
+  "date": "2026-10-21",
+  "counts": {
+    "directory_queries": 34,
+    "directory_result_rows_with_overlap": 967,
+    "search_queries": 38,
+    "direct_candidate_domains_fetched": 156,
+    "candidate_domains_without_any_valid_email_on_a_direct_HTTP200_page": 96,
+    "actual_mx_domains_checked_including_rechecks": 40,
+    "failed_mx_domains": 1,
+    "H5_publication_failed": 1,
+    "H6_publication_failed": 1,
+    "H5_H6_mx_failed": 0,
+    "reserve_email_and_mx_pass": 10,
+    "reserve_matched": 9,
+    "reserve_unmatched": 1,
+    "new_Houston_rows": 4,
+    "new_DFW_rows": 7,
+    "DFW_registry_candidates": 215,
+    "DFW_business_domains_scanned_by_enricher": 66,
+    "DFW_auto_fit": 16,
+    "TCEQ_core_sites": 153,
+    "TCEQ_ring_sites": 25,
+    "packet_rows": {
+      "H11": 9,
+      "H12": 4
+    },
+    "email_types": {
+      "H11": {
+        "business_domain": 5,
+        "free_mail": 4
+      },
+      "H12": {
+        "business_domain": 4,
+        "free_mail": 0
+      }
+    }
+  },
+  "sources": [
+    {
+      "source": "tax_ring",
+      "records": 15,
+      "url": "https://data.texas.gov/resource/jrea-zgmq.json?%24where=outlet_county_code+in+%28%27237%27%2C%27146%27%2C%27036%27%29+AND+outlet_naics_code+in+%28%27562111%27%2C%27562119%27%2C%27562991%27%29&%24limit=10000",
+      "fetched_at": "2026-10-21T15:08:21.091942+00:00"
+    },
+    {
+      "source": "tax_sanitation",
+      "records": 37,
+      "url": "https://data.texas.gov/resource/jrea-zgmq.json?%24where=outlet_county_code+in+%28%27101%27%2C%27079%27%2C%27170%27%2C%27020%27%2C%27084%27%29+AND+outlet_naics_code%3D%27562991%27&%24limit=10000",
+      "fetched_at": "2026-10-21T15:08:21.233780+00:00"
+    },
+    {
+      "source": "fmcsa_ring",
+      "records": 101,
+      "url": "https://data.transportation.gov/resource/az4n-8mr2.json?%24where=phy_state%3D%27TX%27+AND+status_code%3D%27A%27+AND+phy_cnty+in+%28%27473%27%2C%27291%27%2C%27071%27%29+AND+%28crgo_garbage%3D%27X%27+OR+upper%28legal_name%29+like+%27%25PORTABLE%25%27+OR+upper%28legal_name%29+like+%27%25SANITATION%25%27+OR+upper%28dba_name%29+like+%27%25PORTABLE%25%27%29&%24limit=10000",
+      "fetched_at": "2026-10-21T15:08:22.133514+00:00"
+    }
+  ],
+  "directory_queries": [
+    {
+      "url": "https://www.yellowpages.com/search?search_terms=portable+toilet+rental&geo_location_terms=Magnolia%2C+TX",
+      "status": 200,
+      "result_rows": 30
+    },
+    {
+      "url": "https://www.yellowpages.com/search?search_terms=portable+toilet+rental&geo_location_terms=Angleton%2C+TX",
+      "status": 200,
+      "result_rows": 20
+    },
+    {
+      "url": "https://www.yellowpages.com/search?search_terms=portable+toilet+rental&geo_location_terms=Freeport%2C+TX",
+      "status": 200,
+      "result_rows": 23
+    },
+    {
+      "url": "https://www.yellowpages.com/search?search_terms=portable+toilet+rental&geo_location_terms=Alvin%2C+TX",
+      "status": 200,
+      "result_rows": 30
+    },
+    {
+      "url": "https://www.yellowpages.com/search?search_terms=portable+toilet+rental&geo_location_terms=Conroe%2C+TX",
+      "status": 200,
+      "result_rows": 30
+    },
+    {
+      "url": "https://www.yellowpages.com/search?search_terms=roll+off+dumpster+rental&geo_location_terms=Crosby%2C+TX",
+      "status": 200,
+      "result_rows": 31
+    },
+    {
+      "url": "https://www.yellowpages.com/search?search_terms=portable+toilet+rental&geo_location_terms=Houston%2C+TX",
+      "status": 200,
+      "result_rows": 30
+    },
+    {
+      "url": "https://www.yellowpages.com/search?search_terms=portable+toilet+rental&geo_location_terms=Crosby%2C+TX",
+      "status": 200,
+      "result_rows": 30
+    },
+    {
+      "url": "https://www.yellowpages.com/search?search_terms=portable+toilet+rental&geo_location_terms=Baytown%2C+TX",
+      "status": 200,
+      "result_rows": 30
+    },
+    {
+      "url": "https://www.yellowpages.com/search?search_terms=roll+off+dumpster+rental&geo_location_terms=Baytown%2C+TX",
+      "status": 200,
+      "result_rows": 31
+    },
+    {
+      "url": "https://www.yellowpages.com/search?search_terms=roll+off+dumpster+rental&geo_location_terms=Anahuac%2C+TX",
+      "status": 200,
+      "result_rows": 31
+    },
+    {
+      "url": "https://www.yellowpages.com/search?search_terms=roll+off+dumpster+rental&geo_location_terms=Wallisville%2C+TX",
+      "status": 200,
+      "result_rows": 31
+    },
+    {
+      "url": "https://www.yellowpages.com/search?search_terms=portable+toilet+rental&geo_location_terms=Wallisville%2C+TX",
+      "status": 200,
+      "result_rows": 26
+    },
+    {
+      "url": "https://www.yellowpages.com/search?search_terms=portable+toilet+rental&geo_location_terms=Winnie%2C+TX",
+      "status": 200,
+      "result_rows": 18
+    },
+    {
+      "url": "https://www.yellowpages.com/search?search_terms=roll+off+dumpster+rental&geo_location_terms=Winnie%2C+TX",
+      "status": 200,
+      "result_rows": 31
+    },
+    {
+      "url": "https://www.yellowpages.com/search?search_terms=portable+toilet+rental&geo_location_terms=Anahuac%2C+TX",
+      "status": 200,
+      "result_rows": 21
+    },
+    {
+      "url": "https://www.yellowpages.com/search?search_terms=portable+toilet+rental&geo_location_terms=Cleveland%2C+TX",
+      "status": 200,
+      "result_rows": 23
+    },
+    {
+      "url": "https://www.yellowpages.com/search?search_terms=roll+off+dumpster+rental&geo_location_terms=Cleveland%2C+TX",
+      "status": 200,
+      "result_rows": 31
+    },
+    {
+      "url": "https://www.yellowpages.com/search?search_terms=roll+off+dumpster+rental&geo_location_terms=Mont+Belvieu%2C+TX",
+      "status": 200,
+      "result_rows": 31
+    },
+    {
+      "url": "https://www.yellowpages.com/search?search_terms=portable+toilet+rental&geo_location_terms=Mont+Belvieu%2C+TX",
+      "status": 200,
+      "result_rows": 30
+    },
+    {
+      "url": "https://www.yellowpages.com/search?search_terms=portable+toilet+rental&geo_location_terms=Dayton%2C+TX",
+      "status": 200,
+      "result_rows": 30
+    },
+    {
+      "url": "https://www.yellowpages.com/search?search_terms=roll+off+dumpster+rental&geo_location_terms=Dayton%2C+TX",
+      "status": 200,
+      "result_rows": 31
+    },
+    {
+      "url": "https://www.yellowpages.com/search?search_terms=roll+off+dumpster+rental&geo_location_terms=Liberty%2C+TX",
+      "status": 200,
+      "result_rows": 31
+    },
+    {
+      "url": "https://www.yellowpages.com/search?search_terms=portable+toilet+rental&geo_location_terms=Liberty%2C+TX",
+      "status": 200,
+      "result_rows": 19
+    },
+    {
+      "url": "https://www.yellowpages.com/search?search_terms=roll+off+dumpster+rental&geo_location_terms=Prairie+View%2C+TX",
+      "status": 200,
+      "result_rows": 31
+    },
+    {
+      "url": "https://www.yellowpages.com/search?search_terms=portable+toilet+rental&geo_location_terms=Prairie+View%2C+TX",
+      "status": 200,
+      "result_rows": 30
+    },
+    {
+      "url": "https://www.yellowpages.com/search?search_terms=roll+off+dumpster+rental&geo_location_terms=Hockley%2C+TX",
+      "status": 200,
+      "result_rows": 31
+    },
+    {
+      "url": "https://www.yellowpages.com/search?search_terms=portable+toilet+rental&geo_location_terms=Hockley%2C+TX",
+      "status": 200,
+      "result_rows": 30
+    },
+    {
+      "url": "https://www.yellowpages.com/search?search_terms=roll+off+dumpster+rental&geo_location_terms=Hempstead%2C+TX",
+      "status": 200,
+      "result_rows": 31
+    },
+    {
+      "url": "https://www.yellowpages.com/search?search_terms=roll+off+dumpster+rental&geo_location_terms=Brookshire%2C+TX",
+      "status": 200,
+      "result_rows": 31
+    },
+    {
+      "url": "https://www.yellowpages.com/search?search_terms=portable+toilet+rental&geo_location_terms=Brookshire%2C+TX",
+      "status": 200,
+      "result_rows": 27
+    },
+    {
+      "url": "https://www.yellowpages.com/search?search_terms=portable+toilet+rental&geo_location_terms=Waller%2C+TX",
+      "status": 200,
+      "result_rows": 30
+    },
+    {
+      "url": "https://www.yellowpages.com/search?search_terms=roll+off+dumpster+rental&geo_location_terms=Waller%2C+TX",
+      "status": 200,
+      "result_rows": 31
+    },
+    {
+      "url": "https://www.yellowpages.com/search?search_terms=portable+toilet+rental&geo_location_terms=Hempstead%2C+TX",
+      "status": 200,
+      "result_rows": 26
+    }
+  ],
+  "TCEQ_pull_queries": [
+    {
+      "url": "https://data.texas.gov/resource/9iad-hrn8.json?%24select=ref_num_txt%2Creg_ent_name%2Cre_phys_loc_addr_line_1%2Cre_phys_loc_city%2Cre_phys_loc_addr_county%2Cre_phys_loc_desc%2Cindus_typ_name%2Cprinc_name%2Cname_txt%2Cadditional_id_text%2Cadditional_id_status%2Caffil_begin_dt&%24where=program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29+AND+affil_begin_dt+%3E%3D+%272026-09-21%27+AND+re_phys_loc_addr_county+in%28%27WALLER%27%2C%27LIBERTY%27%2C%27CHAMBERS%27%29&%24limit=50000",
+      "fetched_at": "2026-10-21T15:07:02.033831+00:00",
+      "records": 0
+    },
+    {
+      "url": "https://data.texas.gov/resource/tzyg-j7q4.json?%24select=ref_num_txt%2Creg_ent_name%2Cre_phys_loc_addr_line_1%2Cre_phys_loc_city%2Cre_phys_loc_addr_county%2Cre_phys_loc_desc%2Cindus_typ_name%2Cprinc_name%2Cname_txt%2Cadditional_id_text%2Cadditional_id_status%2Caffil_begin_dt&%24where=program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29+AND+affil_begin_dt+%3E%3D+%272026-09-21%27+AND+re_phys_loc_addr_county+in%28%27WALLER%27%2C%27LIBERTY%27%2C%27CHAMBERS%27%29&%24limit=50000",
+      "fetched_at": "2026-10-21T15:07:01.338751+00:00",
+      "records": 27
+    },
+    {
+      "url": "https://data.texas.gov/resource/t34q-qzi3.json?%24select=ref_num_txt%2Creg_ent_name%2Cre_phys_loc_addr_line_1%2Cre_phys_loc_city%2Cre_phys_loc_addr_county%2Cre_phys_loc_desc%2Cindus_typ_name%2Cprinc_name%2Cname_txt%2Cadditional_id_text%2Cadditional_id_status%2Caffil_begin_dt&%24where=program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29+AND+affil_begin_dt+%3E%3D+%272026-09-21%27+AND+re_phys_loc_addr_county+in%28%27WALLER%27%2C%27LIBERTY%27%2C%27CHAMBERS%27%29&%24limit=50000",
+      "fetched_at": "2026-10-21T15:06:55.739465+00:00",
+      "records": 0
+    },
+    {
+      "url": "https://data.texas.gov/resource/5eqq-7nad.json?%24select=ref_num_txt%2Creg_ent_name%2Cre_phys_loc_addr_line_1%2Cre_phys_loc_city%2Cre_phys_loc_addr_county%2Cre_phys_loc_desc%2Cindus_typ_name%2Cprinc_name%2Cname_txt%2Cadditional_id_text%2Cadditional_id_status%2Caffil_begin_dt&%24where=program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29+AND+affil_begin_dt+%3E%3D+%272026-09-21%27+AND+re_phys_loc_addr_county+in%28%27WALLER%27%2C%27LIBERTY%27%2C%27CHAMBERS%27%29&%24limit=50000",
+      "fetched_at": "2026-10-21T15:06:55.370825+00:00",
+      "records": 0
+    },
+    {
+      "url": "https://data.texas.gov/resource/msah-s2rv.json?%24select=ref_num_txt%2Creg_ent_name%2Cre_phys_loc_addr_line_1%2Cre_phys_loc_city%2Cre_phys_loc_addr_county%2Cre_phys_loc_desc%2Cindus_typ_name%2Cprinc_name%2Cname_txt%2Cadditional_id_text%2Cadditional_id_status%2Caffil_begin_dt&%24where=program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29+AND+affil_begin_dt+%3E%3D+%272026-09-21%27+AND+re_phys_loc_addr_county+in%28%27WALLER%27%2C%27LIBERTY%27%2C%27CHAMBERS%27%29&%24limit=50000",
+      "fetched_at": "2026-10-21T15:06:52.225233+00:00",
+      "records": 0
+    },
+    {
+      "url": "https://data.texas.gov/resource/9iad-hrn8.json?%24select=ref_num_txt%2Creg_ent_name%2Cre_phys_loc_addr_line_1%2Cre_phys_loc_city%2Cre_phys_loc_addr_county%2Cre_phys_loc_desc%2Cindus_typ_name%2Cprinc_name%2Cname_txt%2Cadditional_id_text%2Cadditional_id_status%2Caffil_begin_dt&%24where=program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29+AND+affil_begin_dt+%3E%3D+%272026-09-21%27+AND+re_phys_loc_addr_county+in%28%27HARRIS%27%2C%27FORT+BEND%27%2C%27MONTGOMERY%27%2C%27BRAZORIA%27%2C%27GALVESTON%27%29&%24limit=50000",
+      "fetched_at": "2026-10-21T15:06:51.368115+00:00",
+      "records": 0
+    },
+    {
+      "url": "https://data.texas.gov/resource/tzyg-j7q4.json?%24select=ref_num_txt%2Creg_ent_name%2Cre_phys_loc_addr_line_1%2Cre_phys_loc_city%2Cre_phys_loc_addr_county%2Cre_phys_loc_desc%2Cindus_typ_name%2Cprinc_name%2Cname_txt%2Cadditional_id_text%2Cadditional_id_status%2Caffil_begin_dt&%24where=program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29+AND+affil_begin_dt+%3E%3D+%272026-09-21%27+AND+re_phys_loc_addr_county+in%28%27HARRIS%27%2C%27FORT+BEND%27%2C%27MONTGOMERY%27%2C%27BRAZORIA%27%2C%27GALVESTON%27%29&%24limit=50000",
+      "fetched_at": "2026-10-21T15:06:50.593332+00:00",
+      "records": 174
+    },
+    {
+      "url": "https://data.texas.gov/resource/t34q-qzi3.json?%24select=ref_num_txt%2Creg_ent_name%2Cre_phys_loc_addr_line_1%2Cre_phys_loc_city%2Cre_phys_loc_addr_county%2Cre_phys_loc_desc%2Cindus_typ_name%2Cprinc_name%2Cname_txt%2Cadditional_id_text%2Cadditional_id_status%2Caffil_begin_dt&%24where=program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29+AND+affil_begin_dt+%3E%3D+%272026-09-21%27+AND+re_phys_loc_addr_county+in%28%27HARRIS%27%2C%27FORT+BEND%27%2C%27MONTGOMERY%27%2C%27BRAZORIA%27%2C%27GALVESTON%27%29&%24limit=50000",
+      "fetched_at": "2026-10-21T15:06:44.346337+00:00",
+      "records": 0
+    },
+    {
+      "url": "https://data.texas.gov/resource/5eqq-7nad.json?%24select=ref_num_txt%2Creg_ent_name%2Cre_phys_loc_addr_line_1%2Cre_phys_loc_city%2Cre_phys_loc_addr_county%2Cre_phys_loc_desc%2Cindus_typ_name%2Cprinc_name%2Cname_txt%2Cadditional_id_text%2Cadditional_id_status%2Caffil_begin_dt&%24where=program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29+AND+affil_begin_dt+%3E%3D+%272026-09-21%27+AND+re_phys_loc_addr_county+in%28%27HARRIS%27%2C%27FORT+BEND%27%2C%27MONTGOMERY%27%2C%27BRAZORIA%27%2C%27GALVESTON%27%29&%24limit=50000",
+      "fetched_at": "2026-10-21T15:18:32.741978+00:00",
+      "records": 0
+    },
+    {
+      "url": "https://data.texas.gov/resource/msah-s2rv.json?%24select=ref_num_txt%2Creg_ent_name%2Cre_phys_loc_addr_line_1%2Cre_phys_loc_city%2Cre_phys_loc_addr_county%2Cre_phys_loc_desc%2Cindus_typ_name%2Cprinc_name%2Cname_txt%2Cadditional_id_text%2Cadditional_id_status%2Caffil_begin_dt&%24where=program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29+AND+affil_begin_dt+%3E%3D+%272026-09-21%27+AND+re_phys_loc_addr_county+in%28%27HARRIS%27%2C%27FORT+BEND%27%2C%27MONTGOMERY%27%2C%27BRAZORIA%27%2C%27GALVESTON%27%29&%24limit=50000",
+      "fetched_at": "2026-10-21T15:06:22.828107+00:00",
+      "records": 0
+    }
+  ],
+  "limits": [
+    "Original authorization issue dates not verified; the fresh ACTIVE affiliation dates are not original issue dates.",
+    "Publication plus MX does not establish individual mailbox acceptance or delivery.",
+    "Throne Ranger construction fit not verified; exploratory trailer match explicitly flagged.",
+    "The Vic at Sunterra TCEQ/TABS address discrepancy and project phase unverified.",
+    "Two site addresses are labelled street-intersection references, not numbered postal addresses.",
+    "Prestige contact domain MX uses Mailgun; mailbox routing and Katy dispatch territory not verified.",
+    "No verified yard coordinates or numeric distances; service-city fields preserved.",
+    "Private beneficial ownership and current fleet totals not audited."
+  ],
+  "protected_existing_rows": 349,
+  "master_original_bytes_preserved": true,
+  "existing_status_changes": 0,
+  "protected_files_unchanged": true,
+  "no_site_reuse": true
+}

@@ -1,0 +1,3532 @@
+[
+  {
+    "batch": "H5",
+    "number": 1,
+    "company": "YOUR DUMPSTER BUDDY RENTALS LLC",
+    "email": "yourdumpsterbuddyrentals@gmail.com",
+    "published": true,
+    "page_url": "https://www.yourdumpsterbuddyrentals.com/",
+    "page_checks": [
+      {
+        "requested": "https://www.yourdumpsterbuddyrentals.com/",
+        "url": "https://www.yourdumpsterbuddyrentals.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:44.500449+00:00",
+        "emails": [
+          "yourdumpsterbuddyrentals@gmail.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": "MPSTER SIZE 20 Yard Roll-Off Dumpster 30 Yard Roll-Off Dumpster 25 Yard Roll-Off Dumpster 40 Yard Roll-Off Dumpster SERVICES TESTIMONIALS Contact CONTACT Email yourdumpsterbuddyrentals@gmail.com Phone 936-548-8004 Social Media First name * Last name Email * Phone * Tell us about your project. Dumpster Size GET A DUMPSTER 2026 Your Dumpster Buddy Rental"
+      },
+      {
+        "requested": "https://yourdumpsterbuddyrentals.com/",
+        "url": "https://www.yourdumpsterbuddyrentals.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:46.237817+00:00",
+        "emails": [
+          "yourdumpsterbuddyrentals@gmail.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": "MPSTER SIZE 20 Yard Roll-Off Dumpster 30 Yard Roll-Off Dumpster 25 Yard Roll-Off Dumpster 40 Yard Roll-Off Dumpster SERVICES TESTIMONIALS Contact CONTACT Email yourdumpsterbuddyrentals@gmail.com Phone 936-548-8004 Social Media First name * Last name Email * Phone * Tell us about your project. Dumpster Size GET A DUMPSTER 2026 Your Dumpster Buddy Rental"
+      }
+    ],
+    "mx": {
+      "url": "https://dns.google/resolve?name=gmail.com&type=MX",
+      "fetched_at": "2026-10-21T15:04:45.729116+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "gmail.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "10 alt1.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "20 alt2.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "5 gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "30 alt3.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "40 alt4.gmail-smtp-in.l.google.com."
+          }
+        ]
+      },
+      "mx": [
+        "10 alt1.gmail-smtp-in.l.google.com.",
+        "20 alt2.gmail-smtp-in.l.google.com.",
+        "5 gmail-smtp-in.l.google.com.",
+        "30 alt3.gmail-smtp-in.l.google.com.",
+        "40 alt4.gmail-smtp-in.l.google.com."
+      ],
+      "valid": true
+    },
+    "replacement_email": "",
+    "note": "Current publication and MX do not establish individual mailbox acceptance. No different address confirmed."
+  },
+  {
+    "batch": "H5",
+    "number": 2,
+    "company": "Precision Dumpsters LLC",
+    "email": "inquiry@precisiondumpstersllc.com",
+    "published": false,
+    "page_url": "https://precisiondumpstersllc.com/contact-us/",
+    "page_checks": [
+      {
+        "requested": "https://precisiondumpstersllc.com/contact-us/",
+        "url": "https://precisiondumpstersllc.com/contact-us/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:44.500910+00:00",
+        "emails": [],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": false,
+        "visible_email_excerpt": ""
+      },
+      {
+        "requested": "https://precisiondumpstersllc.com/",
+        "url": "https://precisiondumpstersllc.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:45.129271+00:00",
+        "emails": [],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": false,
+        "visible_email_excerpt": ""
+      },
+      {
+        "requested": "https://precisiondumpstersllc.com/contact-us/#v7zutvn",
+        "url": "https://precisiondumpstersllc.com/contact-us/#v7zutvn",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:45.491960+00:00",
+        "emails": [],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": false,
+        "visible_email_excerpt": ""
+      },
+      {
+        "requested": "https://precisiondumpstersllc.com/about-us/",
+        "url": "https://precisiondumpstersllc.com/about-us/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:45.987046+00:00",
+        "emails": [],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": false,
+        "visible_email_excerpt": ""
+      },
+      {
+        "requested": "https://www.precisiondumpstersllc.com/contact-us/",
+        "url": "https://www.precisiondumpstersllc.com/contact-us/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:11:04.161813+00:00",
+        "emails": [],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": false,
+        "visible_email_excerpt": ""
+      },
+      {
+        "requested": "https://www.precisiondumpstersllc.com/",
+        "url": "https://www.precisiondumpstersllc.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:11:04.718459+00:00",
+        "emails": [],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": false,
+        "visible_email_excerpt": ""
+      },
+      {
+        "requested": "https://precisiondumpstersllc.com/contact-us/",
+        "url": "https://precisiondumpstersllc.com/contact-us/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:15:53.343862+00:00",
+        "emails": [],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": false,
+        "visible_email_excerpt": ""
+      },
+      {
+        "requested": "https://precisiondumpstersllc.com/",
+        "url": "https://precisiondumpstersllc.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:15:53.722070+00:00",
+        "emails": [],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": false,
+        "visible_email_excerpt": ""
+      }
+    ],
+    "mx": {
+      "url": "https://dns.google/resolve?name=precisiondumpstersllc.com&type=MX",
+      "fetched_at": "2026-10-21T15:04:46.747661+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "precisiondumpstersllc.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "precisiondumpstersllc.com.",
+            "type": 15,
+            "TTL": 300,
+            "data": "87 route1.mx.cloudflare.net."
+          },
+          {
+            "name": "precisiondumpstersllc.com.",
+            "type": 15,
+            "TTL": 300,
+            "data": "25 route3.mx.cloudflare.net."
+          },
+          {
+            "name": "precisiondumpstersllc.com.",
+            "type": 15,
+            "TTL": 300,
+            "data": "8 route2.mx.cloudflare.net."
+          }
+        ],
+        "Comment": "Response from 108.162.195.129."
+      },
+      "mx": [
+        "87 route1.mx.cloudflare.net.",
+        "25 route3.mx.cloudflare.net.",
+        "8 route2.mx.cloudflare.net."
+      ],
+      "valid": true
+    },
+    "replacement_email": "",
+    "note": "Current publication and MX do not establish individual mailbox acceptance. No different address confirmed."
+  },
+  {
+    "batch": "H5",
+    "number": 3,
+    "company": "Shepherd's Dumpsters",
+    "email": "shepherdsdumpsters@gmail.com",
+    "published": true,
+    "page_url": "https://www.shepherdsdumpsters.com/",
+    "page_checks": [
+      {
+        "requested": "https://www.shepherdsdumpsters.com/",
+        "url": "https://www.shepherdsdumpsters.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:44.503473+00:00",
+        "emails": [
+          "shepherdsdumpsters@gmail.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": ""
+      },
+      {
+        "requested": "https://shepherdsdumpsters.com/",
+        "url": "https://www.shepherdsdumpsters.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:45.383357+00:00",
+        "emails": [
+          "shepherdsdumpsters@gmail.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": ""
+      }
+    ],
+    "mx": {
+      "url": "https://dns.google/resolve?name=gmail.com&type=MX",
+      "fetched_at": "2026-10-21T15:04:45.729116+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "gmail.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "10 alt1.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "20 alt2.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "5 gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "30 alt3.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "40 alt4.gmail-smtp-in.l.google.com."
+          }
+        ]
+      },
+      "mx": [
+        "10 alt1.gmail-smtp-in.l.google.com.",
+        "20 alt2.gmail-smtp-in.l.google.com.",
+        "5 gmail-smtp-in.l.google.com.",
+        "30 alt3.gmail-smtp-in.l.google.com.",
+        "40 alt4.gmail-smtp-in.l.google.com."
+      ],
+      "valid": true
+    },
+    "replacement_email": "",
+    "note": "Current publication and MX do not establish individual mailbox acceptance. No different address confirmed."
+  },
+  {
+    "batch": "H5",
+    "number": 4,
+    "company": "No-Bull Waste Solutions",
+    "email": "nobullwastesolutions@gmail.com",
+    "published": true,
+    "page_url": "https://nobullwaste.com/about/",
+    "page_checks": [
+      {
+        "requested": "https://nobullwaste.com/about/",
+        "url": "https://nobullwaste.com/about/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:44.505008+00:00",
+        "emails": [
+          "nobullwastesolutions@gmail.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": "Winnie Anahuac Dayton Dumpster Rental Dumpster Rental Hub What We Accept Harris County Chambers County Liberty County Get In Touch Call Us (281) 413-7303 Email nobullwastesolutions@gmail.com No-Bull Waste Solutions Hours Mon to Sat, 7AM to 5PM 24/7 Emergency Rentals \u00a9 2026 No-Bull Waste Solutions. All rights reserved. | Privacy Policy | Terms & Con"
+      },
+      {
+        "requested": "https://nobullwaste.com/",
+        "url": "https://nobullwaste.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:45.158132+00:00",
+        "emails": [
+          "nobullwastesolutions@gmail.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": "Winnie Anahuac Dayton Dumpster Rental Dumpster Rental Hub What We Accept Harris County Chambers County Liberty County Get In Touch Call Us (281) 413-7303 Email nobullwastesolutions@gmail.com No-Bull Waste Solutions Hours Mon to Sat, 7AM to 5PM 24/7 Emergency Rentals \u00a9 2026 No-Bull Waste Solutions. All rights reserved. | Privacy Policy | Terms & Con"
+      }
+    ],
+    "mx": {
+      "url": "https://dns.google/resolve?name=gmail.com&type=MX",
+      "fetched_at": "2026-10-21T15:04:45.729116+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "gmail.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "10 alt1.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "20 alt2.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "5 gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "30 alt3.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "40 alt4.gmail-smtp-in.l.google.com."
+          }
+        ]
+      },
+      "mx": [
+        "10 alt1.gmail-smtp-in.l.google.com.",
+        "20 alt2.gmail-smtp-in.l.google.com.",
+        "5 gmail-smtp-in.l.google.com.",
+        "30 alt3.gmail-smtp-in.l.google.com.",
+        "40 alt4.gmail-smtp-in.l.google.com."
+      ],
+      "valid": true
+    },
+    "replacement_email": "",
+    "note": "Current publication and MX do not establish individual mailbox acceptance. No different address confirmed."
+  },
+  {
+    "batch": "H5",
+    "number": 5,
+    "company": "M&E Dumpsters",
+    "email": "info@medumpsterstx.com",
+    "published": true,
+    "page_url": "https://medumpsterstx.com/",
+    "page_checks": [
+      {
+        "requested": "https://medumpsterstx.com/about-us/",
+        "url": "https://medumpsterstx.com/about-us/",
+        "http_status": 403,
+        "fetched_at": "2026-10-21T15:04:44.506408+00:00",
+        "emails": [],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": false,
+        "visible_email_excerpt": ""
+      },
+      {
+        "requested": "https://medumpsterstx.com/",
+        "url": "https://medumpsterstx.com/",
+        "http_status": 403,
+        "fetched_at": "2026-10-21T15:04:45.072045+00:00",
+        "emails": [],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": false,
+        "visible_email_excerpt": ""
+      },
+      {
+        "requested": "https://www.medumpsterstx.com/about-us/",
+        "url": "https://www.medumpsterstx.com/about-us/",
+        "http_status": 403,
+        "fetched_at": "2026-10-21T15:11:04.165841+00:00",
+        "emails": [],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": false,
+        "visible_email_excerpt": ""
+      },
+      {
+        "requested": "https://www.medumpsterstx.com/",
+        "url": "https://www.medumpsterstx.com/",
+        "http_status": 403,
+        "fetched_at": "2026-10-21T15:11:04.668297+00:00",
+        "emails": [],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": false,
+        "visible_email_excerpt": ""
+      },
+      {
+        "requested": "https://medumpsterstx.com/about-us/",
+        "url": "https://medumpsterstx.com/about-us/",
+        "http_status": 403,
+        "fetched_at": "2026-10-21T15:15:53.348257+00:00",
+        "emails": [],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": false,
+        "visible_email_excerpt": ""
+      },
+      {
+        "requested": "https://medumpsterstx.com/",
+        "url": "https://medumpsterstx.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:15:53.791629+00:00",
+        "emails": [
+          "info@medumpsterstx.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": "Dumpster Rentals | ME Dumpsters | Book your Dumpster Rental Skip to content (936) 494-9423 info@medumpsterstx.com Mon - Fri: 9:00am - 5:00pm Facebook-f Twitter Google-plus-g Instagram Home About Us How It Works FAQ Contact Us Home About Us How It Works FAQ Contact Us Book "
+      }
+    ],
+    "mx": {
+      "url": "https://dns.google/resolve?name=medumpsterstx.com&type=MX",
+      "fetched_at": "2026-10-21T15:04:45.702381+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "medumpsterstx.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "medumpsterstx.com.",
+            "type": 15,
+            "TTL": 21600,
+            "data": "10 mx10.antispam.mailspamprotection.com."
+          },
+          {
+            "name": "medumpsterstx.com.",
+            "type": 15,
+            "TTL": 21600,
+            "data": "20 mx20.antispam.mailspamprotection.com."
+          },
+          {
+            "name": "medumpsterstx.com.",
+            "type": 15,
+            "TTL": 21600,
+            "data": "30 mx30.antispam.mailspamprotection.com."
+          }
+        ],
+        "Comment": "Response from 75.2.77.104."
+      },
+      "mx": [
+        "10 mx10.antispam.mailspamprotection.com.",
+        "20 mx20.antispam.mailspamprotection.com.",
+        "30 mx30.antispam.mailspamprotection.com."
+      ],
+      "valid": true
+    },
+    "replacement_email": "",
+    "note": "Current publication and MX do not establish individual mailbox acceptance. No different address confirmed."
+  },
+  {
+    "batch": "H5",
+    "number": 6,
+    "company": "Haul Off Texas",
+    "email": "rentals@haulofftexas.com",
+    "published": true,
+    "page_url": "https://haulofftexas.com/",
+    "page_checks": [
+      {
+        "requested": "https://haulofftexas.com/",
+        "url": "https://haulofftexas.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:44.507578+00:00",
+        "emails": [
+          "rentals@haulofftexas.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": "om you! Have a question about our services? Want to see if your project is one we can serve? \u00a0If you have questions or special requests, just drop us a line at rentals@haulofftexas.com . We look forward to serving you! Haul Off Texas LLC 8415 Douro Valley Dr, Rosenberg, TX, USA 832-586-2743 rentals@haulofftexas.com Hours Sunday-Saturday 8AM\u20136"
+      }
+    ],
+    "mx": {
+      "url": "https://dns.google/resolve?name=haulofftexas.com&type=MX",
+      "fetched_at": "2026-10-21T15:04:45.424340+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "haulofftexas.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "haulofftexas.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "0 haulofftexas-com.mail.protection.outlook.com."
+          }
+        ],
+        "Comment": "Response from 173.201.73.26."
+      },
+      "mx": [
+        "0 haulofftexas-com.mail.protection.outlook.com."
+      ],
+      "valid": true
+    },
+    "replacement_email": "",
+    "note": "Current publication and MX do not establish individual mailbox acceptance. No different address confirmed."
+  },
+  {
+    "batch": "H5",
+    "number": 7,
+    "company": "Onsite Outhouse",
+    "email": "info@onsiteouthouse.com",
+    "published": true,
+    "page_url": "https://www.onsiteouthouse.com/faqs",
+    "page_checks": [
+      {
+        "requested": "https://www.onsiteouthouse.com/faqs",
+        "url": "https://www.onsiteouthouse.com/faqs",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:44.509141+00:00",
+        "emails": [
+          "info@onsiteouthouse.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": "ect to an additional charge. What other services do you offer? We also offer vacuum truck services for customer owned units as well as RV pumping. 713-538-3221 info@onsiteouthouse.com"
+      },
+      {
+        "requested": "https://onsiteouthouse.com/",
+        "url": "https://www.onsiteouthouse.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:45.511680+00:00",
+        "emails": [
+          "info@onsiteouthouse.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": "pen Menu Close Menu Home Products Contact FAQs Get a Quote Portable Sanitation Services Family-Owned. Community-Focused. Service You Can Count On. 713-538-3221 info@onsiteouthouse.com"
+      }
+    ],
+    "mx": {
+      "url": "https://dns.google/resolve?name=onsiteouthouse.com&type=MX",
+      "fetched_at": "2026-10-21T15:04:46.765668+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "onsiteouthouse.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "onsiteouthouse.com.",
+            "type": 15,
+            "TTL": 14400,
+            "data": "5 alt1.aspmx.l.google.com."
+          },
+          {
+            "name": "onsiteouthouse.com.",
+            "type": 15,
+            "TTL": 14400,
+            "data": "1 aspmx.l.google.com."
+          },
+          {
+            "name": "onsiteouthouse.com.",
+            "type": 15,
+            "TTL": 14400,
+            "data": "5 alt2.aspmx.l.google.com."
+          },
+          {
+            "name": "onsiteouthouse.com.",
+            "type": 15,
+            "TTL": 14400,
+            "data": "10 alt3.aspmx.l.google.com."
+          },
+          {
+            "name": "onsiteouthouse.com.",
+            "type": 15,
+            "TTL": 14400,
+            "data": "10 alt4.aspmx.l.google.com."
+          }
+        ],
+        "Comment": "Response from 216.239.38.109."
+      },
+      "mx": [
+        "5 alt1.aspmx.l.google.com.",
+        "1 aspmx.l.google.com.",
+        "5 alt2.aspmx.l.google.com.",
+        "10 alt3.aspmx.l.google.com.",
+        "10 alt4.aspmx.l.google.com."
+      ],
+      "valid": true
+    },
+    "replacement_email": "",
+    "note": "Current publication and MX do not establish individual mailbox acceptance. No different address confirmed."
+  },
+  {
+    "batch": "H5",
+    "number": 8,
+    "company": "Vargas Dumpster Services LLC",
+    "email": "v.dumpsterservices@gmail.com",
+    "published": true,
+    "page_url": "https://www.vargasserviceshtx.net/home",
+    "page_checks": [
+      {
+        "requested": "https://www.vargasserviceshtx.net/home",
+        "url": "https://www.vargasserviceshtx.net/home",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:44.510558+00:00",
+        "emails": [
+          "v.dumpsterservices@gmail.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": "usinesses. Call now to get your free quote. We are available to schedule a FREE Estimate 7 days a week from 8:00 AM - 6:00 PM Call or text: 832-745-3569 Email: V.dumpsterservices@gmail.com Servicing the following areas: Houston, Conroe, Magnolia, Woodlands, Shenandoah, Spring, Klein, Humble, Atascocita, Porter, Kingwood, Channelview, East End, Pa"
+      },
+      {
+        "requested": "https://vargasserviceshtx.net/",
+        "url": "https://www.vargasserviceshtx.net/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:45.310500+00:00",
+        "emails": [
+          "v.dumpsterservices@gmail.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": "usinesses. Call now to get your free quote. We are available to schedule a FREE Estimate 7 days a week from 8:00 AM - 6:00 PM Call or text: 832-745-3569 Email: V.dumpsterservices@gmail.com Servicing the following areas: Houston, Conroe, Magnolia, Woodlands, Shenandoah, Spring, Klein, Humble, Atascocita, Porter, Kingwood, Channelview, East End, Pa"
+      }
+    ],
+    "mx": {
+      "url": "https://dns.google/resolve?name=gmail.com&type=MX",
+      "fetched_at": "2026-10-21T15:04:45.729116+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "gmail.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "10 alt1.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "20 alt2.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "5 gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "30 alt3.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "40 alt4.gmail-smtp-in.l.google.com."
+          }
+        ]
+      },
+      "mx": [
+        "10 alt1.gmail-smtp-in.l.google.com.",
+        "20 alt2.gmail-smtp-in.l.google.com.",
+        "5 gmail-smtp-in.l.google.com.",
+        "30 alt3.gmail-smtp-in.l.google.com.",
+        "40 alt4.gmail-smtp-in.l.google.com."
+      ],
+      "valid": true
+    },
+    "replacement_email": "",
+    "note": "Current publication and MX do not establish individual mailbox acceptance. No different address confirmed."
+  },
+  {
+    "batch": "H5",
+    "number": 9,
+    "company": "TRS Dumpsters",
+    "email": "info@trsdumpsters.com",
+    "published": true,
+    "page_url": "https://trsdumpsters.com/",
+    "page_checks": [
+      {
+        "requested": "https://trsdumpsters.com/about/",
+        "url": "https://trsdumpsters.com/about/",
+        "http_status": 403,
+        "fetched_at": "2026-10-21T15:04:45.426068+00:00",
+        "emails": [],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": false,
+        "visible_email_excerpt": ""
+      },
+      {
+        "requested": "https://trsdumpsters.com/",
+        "url": "https://trsdumpsters.com/",
+        "http_status": 403,
+        "fetched_at": "2026-10-21T15:04:45.898527+00:00",
+        "emails": [],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": false,
+        "visible_email_excerpt": ""
+      },
+      {
+        "requested": "https://www.trsdumpsters.com/about/",
+        "url": "https://www.trsdumpsters.com/about/",
+        "http_status": 403,
+        "fetched_at": "2026-10-21T15:11:04.164282+00:00",
+        "emails": [],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": false,
+        "visible_email_excerpt": ""
+      },
+      {
+        "requested": "https://www.trsdumpsters.com/",
+        "url": "https://www.trsdumpsters.com/",
+        "http_status": 403,
+        "fetched_at": "2026-10-21T15:11:04.653313+00:00",
+        "emails": [],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": false,
+        "visible_email_excerpt": ""
+      },
+      {
+        "requested": "https://trsdumpsters.com/about/",
+        "url": "https://trsdumpsters.com/about/",
+        "http_status": 403,
+        "fetched_at": "2026-10-21T15:15:53.345975+00:00",
+        "emails": [],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": false,
+        "visible_email_excerpt": ""
+      },
+      {
+        "requested": "https://trsdumpsters.com/",
+        "url": "https://trsdumpsters.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:15:53.747886+00:00",
+        "emails": [
+          "info@trsdumpsters.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": "ng. Reliable delivery. Dumpster service you can count on. Book Online (832) 819-1474 Quick Links Home Pricing Service Area About Contact Contact (832) 819-1474 info@trsdumpsters.com \u00a9 2026 The Rental Station LLC. All rights reserved. Website design by Bin Boss Dumpster Rental Software \ud83d\udcac"
+      }
+    ],
+    "mx": {
+      "url": "https://dns.google/resolve?name=trsdumpsters.com&type=MX",
+      "fetched_at": "2026-10-21T15:04:46.435865+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "trsdumpsters.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "trsdumpsters.com.",
+            "type": 15,
+            "TTL": 745,
+            "data": "1 aspmx.l.google.com."
+          },
+          {
+            "name": "trsdumpsters.com.",
+            "type": 15,
+            "TTL": 745,
+            "data": "5 alt2.aspmx.l.google.com."
+          },
+          {
+            "name": "trsdumpsters.com.",
+            "type": 15,
+            "TTL": 745,
+            "data": "5 alt1.aspmx.l.google.com."
+          },
+          {
+            "name": "trsdumpsters.com.",
+            "type": 15,
+            "TTL": 745,
+            "data": "10 alt4.aspmx.l.google.com."
+          },
+          {
+            "name": "trsdumpsters.com.",
+            "type": 15,
+            "TTL": 745,
+            "data": "10 alt3.aspmx.l.google.com."
+          }
+        ]
+      },
+      "mx": [
+        "1 aspmx.l.google.com.",
+        "5 alt2.aspmx.l.google.com.",
+        "5 alt1.aspmx.l.google.com.",
+        "10 alt4.aspmx.l.google.com.",
+        "10 alt3.aspmx.l.google.com."
+      ],
+      "valid": true
+    },
+    "replacement_email": "",
+    "note": "Current publication and MX do not establish individual mailbox acceptance. No different address confirmed."
+  },
+  {
+    "batch": "H5",
+    "number": 10,
+    "company": "AJ Foyt Roll Offs LLC",
+    "email": "info@ajfoyt-rolloffs.com",
+    "published": true,
+    "page_url": "https://ajfoyt-rolloffs.com/",
+    "page_checks": [
+      {
+        "requested": "https://ajfoyt-rolloffs.com/",
+        "url": "https://ajfoyt-rolloffs.com/",
+        "http_status": 403,
+        "fetched_at": "2026-10-21T15:04:45.703662+00:00",
+        "emails": [],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": false,
+        "visible_email_excerpt": ""
+      },
+      {
+        "requested": "https://www.ajfoyt-rolloffs.com/",
+        "url": "https://www.ajfoyt-rolloffs.com/",
+        "http_status": 403,
+        "fetched_at": "2026-10-21T15:11:04.163413+00:00",
+        "emails": [],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": false,
+        "visible_email_excerpt": ""
+      },
+      {
+        "requested": "https://ajfoyt-rolloffs.com/",
+        "url": "https://ajfoyt-rolloffs.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:15:53.348924+00:00",
+        "emails": [
+          "info@ajfoyt-rolloffs.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": "reeze! I highly recommend.\" Rick & Sandy S. Montgomery, TX SERVICES Dumpster Rentals Waste Disposal Land Clearing Demolition Contact Information (979) 826-7655 info@ajfoyt-rolloffs.com Click Here for Service Areas Hours: 7-5pm M-F Instagram Twitter SERVICES Dumpster Rentals Waste Disposal Land Clearing Demolition Contact Information (979) 826"
+      }
+    ],
+    "mx": {
+      "url": "https://dns.google/resolve?name=ajfoyt-rolloffs.com&type=MX",
+      "fetched_at": "2026-10-21T15:04:46.469448+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "ajfoyt-rolloffs.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "ajfoyt-rolloffs.com.",
+            "type": 15,
+            "TTL": 21600,
+            "data": "30 mx30.antispam.mailspamprotection.com."
+          },
+          {
+            "name": "ajfoyt-rolloffs.com.",
+            "type": 15,
+            "TTL": 21600,
+            "data": "10 mx10.antispam.mailspamprotection.com."
+          },
+          {
+            "name": "ajfoyt-rolloffs.com.",
+            "type": 15,
+            "TTL": 21600,
+            "data": "20 mx20.antispam.mailspamprotection.com."
+          }
+        ],
+        "Comment": "Response from 75.2.77.104."
+      },
+      "mx": [
+        "30 mx30.antispam.mailspamprotection.com.",
+        "10 mx10.antispam.mailspamprotection.com.",
+        "20 mx20.antispam.mailspamprotection.com."
+      ],
+      "valid": true
+    },
+    "replacement_email": "",
+    "note": "Current publication and MX do not establish individual mailbox acceptance. No different address confirmed."
+  },
+  {
+    "batch": "H5",
+    "number": 11,
+    "company": "PARADA WASTE LLC",
+    "email": "paradawaste@gmail.com",
+    "published": true,
+    "page_url": "https://paradawaste.com/",
+    "page_checks": [
+      {
+        "requested": "https://paradawaste.com/",
+        "url": "https://paradawaste.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:45.730421+00:00",
+        "emails": [
+          "paradawaste@gmail.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": "Same-Day Dumpster Rental Houston TX | Roll-Off Containers | Parada Waste paradawaste@gmail.com Mon\u2013Fri 7:30am\u20135:00pm EN | ES 281-741-3847 Home About Services Blog Contact Dumpster Sizes Areas Request a Quote Same-Day Delivery, Subject to Availability Hou"
+      }
+    ],
+    "mx": {
+      "url": "https://dns.google/resolve?name=gmail.com&type=MX",
+      "fetched_at": "2026-10-21T15:04:45.729116+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "gmail.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "10 alt1.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "20 alt2.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "5 gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "30 alt3.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "40 alt4.gmail-smtp-in.l.google.com."
+          }
+        ]
+      },
+      "mx": [
+        "10 alt1.gmail-smtp-in.l.google.com.",
+        "20 alt2.gmail-smtp-in.l.google.com.",
+        "5 gmail-smtp-in.l.google.com.",
+        "30 alt3.gmail-smtp-in.l.google.com.",
+        "40 alt4.gmail-smtp-in.l.google.com."
+      ],
+      "valid": true
+    },
+    "replacement_email": "",
+    "note": "Current publication and MX do not establish individual mailbox acceptance. No different address confirmed."
+  },
+  {
+    "batch": "H5",
+    "number": 12,
+    "company": "NATION WASTE INC",
+    "email": "info@nationwaste.us",
+    "published": true,
+    "page_url": "http://nationwaste.us/",
+    "page_checks": [
+      {
+        "requested": "http://nationwaste.us/",
+        "url": "http://nationwaste.us/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:46.449568+00:00",
+        "emails": [
+          "info@nationwaste.us"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": "Nation Waste, Inc. | Houston's Premiere Waste & Recycling Company Facebook X (713) 649-7776  (512) 926-2999 info@nationwaste.us Our Services Front-Load Dumpsters Roll-off Containers Trash Compactors Portable Restrooms Hand-washing Stations Holding Tanks Industry Served Construction Even"
+      },
+      {
+        "requested": "https://nationwaste.us/",
+        "url": "https://nationwaste.us/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:47.576993+00:00",
+        "emails": [
+          "info@nationwaste.us"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": "Nation Waste, Inc. | Houston's Premiere Waste & Recycling Company Facebook X (713) 649-7776  (512) 926-2999 info@nationwaste.us Our Services Front-Load Dumpsters Roll-off Containers Trash Compactors Portable Restrooms Hand-washing Stations Holding Tanks Industry Served Construction Even"
+      }
+    ],
+    "mx": {
+      "url": "https://dns.google/resolve?name=nationwaste.us&type=MX",
+      "fetched_at": "2026-10-21T15:04:48.523565+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "nationwaste.us.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "nationwaste.us.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "0 nationwaste-us.mail.protection.outlook.com."
+          }
+        ],
+        "Comment": "Response from 192.185.225.236."
+      },
+      "mx": [
+        "0 nationwaste-us.mail.protection.outlook.com."
+      ],
+      "valid": true
+    },
+    "replacement_email": "",
+    "note": "Current publication and MX do not establish individual mailbox acceptance. No different address confirmed."
+  },
+  {
+    "batch": "H5",
+    "number": 13,
+    "company": "Toss and Haul Dumpsters",
+    "email": "tossandhaul@gmail.com",
+    "published": true,
+    "page_url": "https://www.tossandhauldumpsters.com/",
+    "page_checks": [
+      {
+        "requested": "https://www.tossandhauldumpsters.com/",
+        "url": "https://www.tossandhauldumpsters.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:46.470790+00:00",
+        "emails": [
+          "tossandhaul@gmail.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": ""
+      },
+      {
+        "requested": "https://tossandhauldumpsters.com/",
+        "url": "https://www.tossandhauldumpsters.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:47.046233+00:00",
+        "emails": [
+          "tossandhaul@gmail.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": ""
+      }
+    ],
+    "mx": {
+      "url": "https://dns.google/resolve?name=gmail.com&type=MX",
+      "fetched_at": "2026-10-21T15:04:45.729116+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "gmail.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "10 alt1.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "20 alt2.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "5 gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "30 alt3.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "40 alt4.gmail-smtp-in.l.google.com."
+          }
+        ]
+      },
+      "mx": [
+        "10 alt1.gmail-smtp-in.l.google.com.",
+        "20 alt2.gmail-smtp-in.l.google.com.",
+        "5 gmail-smtp-in.l.google.com.",
+        "30 alt3.gmail-smtp-in.l.google.com.",
+        "40 alt4.gmail-smtp-in.l.google.com."
+      ],
+      "valid": true
+    },
+    "replacement_email": "",
+    "note": "Current publication and MX do not establish individual mailbox acceptance. No different address confirmed."
+  },
+  {
+    "batch": "H5",
+    "number": 14,
+    "company": "Instant Solutions",
+    "email": "instantsolutions16@gmail.com",
+    "published": true,
+    "page_url": "https://instantsolutions16.wixsite.com/mysite-2/about-us",
+    "page_checks": [
+      {
+        "requested": "https://instantsolutions16.wixsite.com/mysite-2/about-us",
+        "url": "https://instantsolutions16.wixsite.com/mysite-2/about-us",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:46.609377+00:00",
+        "emails": [
+          "instantsolutions16@gmail.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": "wonderful growing community the best we can give. Instant Solutions without a doubt is the best option for any of your upcoming events or projects.Simply email instantsolutions16@gmail.com or call (832)-896-6812 and great service will be headed towards your next event. \u00a9 2023 by Ground Floor.\u00a0Proudly created with Wix.com bottom of page"
+      },
+      {
+        "requested": "https://instantsolutionsbusiness.com/",
+        "url": "https://instantsolutionsbusiness.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:47.819833+00:00",
+        "emails": [],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": false,
+        "visible_email_excerpt": ""
+      }
+    ],
+    "mx": {
+      "url": "https://dns.google/resolve?name=gmail.com&type=MX",
+      "fetched_at": "2026-10-21T15:04:45.729116+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "gmail.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "10 alt1.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "20 alt2.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "5 gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "30 alt3.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "40 alt4.gmail-smtp-in.l.google.com."
+          }
+        ]
+      },
+      "mx": [
+        "10 alt1.gmail-smtp-in.l.google.com.",
+        "20 alt2.gmail-smtp-in.l.google.com.",
+        "5 gmail-smtp-in.l.google.com.",
+        "30 alt3.gmail-smtp-in.l.google.com.",
+        "40 alt4.gmail-smtp-in.l.google.com."
+      ],
+      "valid": true
+    },
+    "replacement_email": "",
+    "note": "Current publication and MX do not establish individual mailbox acceptance. No different address confirmed."
+  },
+  {
+    "batch": "H5",
+    "number": 15,
+    "company": "TAKE1 DUMPSTER RENTAL LLC",
+    "email": "take1dumpsterrental@gmail.com",
+    "published": true,
+    "page_url": "https://take1dumpsterrental.com/contact/",
+    "page_checks": [
+      {
+        "requested": "https://take1dumpsterrental.com/contact/",
+        "url": "https://take1dumpsterrental.com/contact/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:46.748689+00:00",
+        "emails": [
+          "take1dumpsterrental@gmail.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": "Contact \u2013 Take 1 Dumpster Rental Skip to content 713-824-3069 take1dumpsterrental@gmail.com Instagram X-twitter Facebook-f Youtube Linkedin-in Home About Us Services Blogs Contact Menu Home About Us Services Blogs Contact Request A Quote Contact Us 71"
+      },
+      {
+        "requested": "https://take1dumpsterrental.com/",
+        "url": "https://take1dumpsterrental.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:47.323430+00:00",
+        "emails": [
+          "take1dumpsterrental@gmail.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": "Take 1 Dumpster Rental Skip to content 713-824-3069 take1dumpsterrental@gmail.com Instagram X-twitter Facebook-f Youtube Linkedin-in Home About Us Services Blogs Contact Menu Home About Us Services Blogs Contact Request A Quote Junk Removal,"
+      }
+    ],
+    "mx": {
+      "url": "https://dns.google/resolve?name=gmail.com&type=MX",
+      "fetched_at": "2026-10-21T15:04:45.729116+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "gmail.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "10 alt1.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "20 alt2.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "5 gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "30 alt3.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "40 alt4.gmail-smtp-in.l.google.com."
+          }
+        ]
+      },
+      "mx": [
+        "10 alt1.gmail-smtp-in.l.google.com.",
+        "20 alt2.gmail-smtp-in.l.google.com.",
+        "5 gmail-smtp-in.l.google.com.",
+        "30 alt3.gmail-smtp-in.l.google.com.",
+        "40 alt4.gmail-smtp-in.l.google.com."
+      ],
+      "valid": true
+    },
+    "replacement_email": "",
+    "note": "Current publication and MX do not establish individual mailbox acceptance. No different address confirmed."
+  },
+  {
+    "batch": "H6",
+    "number": 1,
+    "company": "Harvey's Disposal Service",
+    "email": "harveysds76@gmail.com",
+    "published": true,
+    "page_url": "https://www.harveysdisposal.com/roll-off-dumpster-rental/montgomery-tx",
+    "page_checks": [
+      {
+        "requested": "https://www.harveysdisposal.com/roll-off-dumpster-rental/montgomery-tx",
+        "url": "https://www.harveysdisposal.com/roll-off-dumpster-rental/montgomery-tx",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:46.752513+00:00",
+        "emails": [
+          "harveysds76@gmail.com",
+          "harveysds76@gmail.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": "76. Family-owned and operated for 3 generations, we pride ourselves on consistency and reliability. Contact Info: 3154 CR 2285 Cleveland, TX 77327 281-592-3370 Harveysds76@gmail.com Responsible Waste Disposal At Harvey's Disposal, we offer comprehensive disposal services for residents of Cleveland, Splendora, and parts of Dayton, TX. Our e"
+      },
+      {
+        "requested": "https://harveysdisposal.com/",
+        "url": "https://www.harveysdisposal.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:47.409389+00:00",
+        "emails": [
+          "harveysds76@gmail.com",
+          "harveysds76@gmail.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": "76. Family-owned and operated for 3 generations, we pride ourselves on consistency and reliability. Contact Info: 3154 CR 2285 Cleveland, TX 77327 281-592-3370 Harveysds76@gmail.com Responsible Waste Disposal At Harvey's Disposal, we offer comprehensive disposal services for residents of Cleveland, Splendora, and parts of Dayton, TX. Our e"
+      }
+    ],
+    "mx": {
+      "url": "https://dns.google/resolve?name=gmail.com&type=MX",
+      "fetched_at": "2026-10-21T15:04:45.729116+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "gmail.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "10 alt1.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "20 alt2.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "5 gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "30 alt3.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "40 alt4.gmail-smtp-in.l.google.com."
+          }
+        ]
+      },
+      "mx": [
+        "10 alt1.gmail-smtp-in.l.google.com.",
+        "20 alt2.gmail-smtp-in.l.google.com.",
+        "5 gmail-smtp-in.l.google.com.",
+        "30 alt3.gmail-smtp-in.l.google.com.",
+        "40 alt4.gmail-smtp-in.l.google.com."
+      ],
+      "valid": true
+    },
+    "replacement_email": "",
+    "note": "Current publication and MX do not establish individual mailbox acceptance. No different address confirmed."
+  },
+  {
+    "batch": "H6",
+    "number": 2,
+    "company": "Union Dumpster & Rentals",
+    "email": "uniondumpsterrentals@gmail.com",
+    "published": true,
+    "page_url": "https://www.uniondumpsterrentals.com/dumpster-rental-katy-tx",
+    "page_checks": [
+      {
+        "requested": "https://www.uniondumpsterrentals.com/dumpster-rental-katy-tx",
+        "url": "https://www.uniondumpsterrentals.com/dumpster-rental-katy-tx",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:46.758234+00:00",
+        "emails": [
+          "uniondumpsterrentals@gmail.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": ""
+      },
+      {
+        "requested": "https://uniondumpsterrentals.com/",
+        "url": "https://www.uniondumpsterrentals.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:47.339458+00:00",
+        "emails": [
+          "harrison@cahabadumpster.com",
+          "uniondumpsterrentals@gmail.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": ""
+      }
+    ],
+    "mx": {
+      "url": "https://dns.google/resolve?name=gmail.com&type=MX",
+      "fetched_at": "2026-10-21T15:04:45.729116+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "gmail.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "10 alt1.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "20 alt2.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "5 gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "30 alt3.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "40 alt4.gmail-smtp-in.l.google.com."
+          }
+        ]
+      },
+      "mx": [
+        "10 alt1.gmail-smtp-in.l.google.com.",
+        "20 alt2.gmail-smtp-in.l.google.com.",
+        "5 gmail-smtp-in.l.google.com.",
+        "30 alt3.gmail-smtp-in.l.google.com.",
+        "40 alt4.gmail-smtp-in.l.google.com."
+      ],
+      "valid": true
+    },
+    "replacement_email": "",
+    "note": "Current publication and MX do not establish individual mailbox acceptance. No different address confirmed."
+  },
+  {
+    "batch": "H6",
+    "number": 3,
+    "company": "Clean Space Dumpsters",
+    "email": "cleanspacedumpsters@gmail.com",
+    "published": true,
+    "page_url": "https://www.cleanspacedumpsters.com/",
+    "page_checks": [
+      {
+        "requested": "https://www.cleanspacedumpsters.com/",
+        "url": "https://www.cleanspacedumpsters.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:46.767175+00:00",
+        "emails": [
+          "cleanspacedumpsters@gmail.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": ""
+      },
+      {
+        "requested": "https://cleanspacedumpsters.com/",
+        "url": "https://www.cleanspacedumpsters.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:47.622817+00:00",
+        "emails": [
+          "cleanspacedumpsters@gmail.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": ""
+      }
+    ],
+    "mx": {
+      "url": "https://dns.google/resolve?name=gmail.com&type=MX",
+      "fetched_at": "2026-10-21T15:04:45.729116+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "gmail.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "10 alt1.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "20 alt2.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "5 gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "30 alt3.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "40 alt4.gmail-smtp-in.l.google.com."
+          }
+        ]
+      },
+      "mx": [
+        "10 alt1.gmail-smtp-in.l.google.com.",
+        "20 alt2.gmail-smtp-in.l.google.com.",
+        "5 gmail-smtp-in.l.google.com.",
+        "30 alt3.gmail-smtp-in.l.google.com.",
+        "40 alt4.gmail-smtp-in.l.google.com."
+      ],
+      "valid": true
+    },
+    "replacement_email": "",
+    "note": "Current publication and MX do not establish individual mailbox acceptance. No different address confirmed."
+  },
+  {
+    "batch": "H6",
+    "number": 4,
+    "company": "Q-LINE SITE SERVICES, LLC",
+    "email": "manuel-info@qlinesiteservices.com",
+    "published": true,
+    "page_url": "https://www.qlinesiteservices.com/",
+    "page_checks": [
+      {
+        "requested": "https://qlinesiteservices.com/",
+        "url": "https://www.qlinesiteservices.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:47.460644+00:00",
+        "emails": [
+          "manuel-info@qlinesiteservices.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": "f contact-from the first quote through final pickup and cleanup. Get in Touch Tell us about your project, and we'll provide a clear, no-obligation quote. Email manuel-info@qlinesiteservices.com Phone 361-522-2668 Full name * Phone * Email address Project Address or Zip Code * Preferred Service Date * Service type * Roll-Off Dumpster Rental Junk Remova"
+      }
+    ],
+    "mx": {
+      "url": "https://dns.google/resolve?name=qlinesiteservices.com&type=MX",
+      "fetched_at": "2026-10-21T15:04:51.520445+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "qlinesiteservices.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "qlinesiteservices.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "50 alt4.aspmx.l.google.com."
+          },
+          {
+            "name": "qlinesiteservices.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "10 aspmx.l.google.com."
+          },
+          {
+            "name": "qlinesiteservices.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "40 alt3.aspmx.l.google.com."
+          },
+          {
+            "name": "qlinesiteservices.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "30 alt2.aspmx.l.google.com."
+          },
+          {
+            "name": "qlinesiteservices.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "20 alt1.aspmx.l.google.com."
+          }
+        ],
+        "Comment": "Response from 216.239.32.100."
+      },
+      "mx": [
+        "50 alt4.aspmx.l.google.com.",
+        "10 aspmx.l.google.com.",
+        "40 alt3.aspmx.l.google.com.",
+        "30 alt2.aspmx.l.google.com.",
+        "20 alt1.aspmx.l.google.com."
+      ],
+      "valid": true
+    },
+    "replacement_email": "",
+    "note": "Current publication and MX do not establish individual mailbox acceptance. No different address confirmed."
+  },
+  {
+    "batch": "H6",
+    "number": 5,
+    "company": "A&W Dumpster Rentals",
+    "email": "support@awdumpsters.com",
+    "published": true,
+    "page_url": "https://awdumpsters.com",
+    "page_checks": [
+      {
+        "requested": "https://www.awdumpsterrentals.com/",
+        "url": "https://awdumpsters.com",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:47.859503+00:00",
+        "emails": [
+          "support@awdumpsters.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": "homes and businesses across Montgomery County and the surrounding areas. Reviews & Social \u2605\u2605\u2605\u2605\u2605 4.9 68 Google reviews Facebook Instagram Contact (936) 438-2328 support@awdumpsters.com 12885 FM 1097 Willis, TX 77318 Order online or by phone 24/7 \u00b7 Deliveries Mon\u2013Fri 7:00 AM \u2013 6:00 PM, Sat 7:00 AM \u2013 Noon, no Sunday runs After hours a live answ"
+      },
+      {
+        "requested": "https://awdumpsters.com/",
+        "url": "https://awdumpsters.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:49.038327+00:00",
+        "emails": [
+          "support@awdumpsters.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": "homes and businesses across Montgomery County and the surrounding areas. Reviews & Social \u2605\u2605\u2605\u2605\u2605 4.9 68 Google reviews Facebook Instagram Contact (936) 438-2328 support@awdumpsters.com 12885 FM 1097 Willis, TX 77318 Order online or by phone 24/7 \u00b7 Deliveries Mon\u2013Fri 7:00 AM \u2013 6:00 PM, Sat 7:00 AM \u2013 Noon, no Sunday runs After hours a live answ"
+      }
+    ],
+    "mx": {
+      "url": "https://dns.google/resolve?name=awdumpsters.com&type=MX",
+      "fetched_at": "2026-10-21T15:04:49.662252+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "awdumpsters.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "awdumpsters.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "5 alt2.aspmx.l.google.com."
+          },
+          {
+            "name": "awdumpsters.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "10 alt4.aspmx.l.google.com."
+          },
+          {
+            "name": "awdumpsters.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "10 alt3.aspmx.l.google.com."
+          },
+          {
+            "name": "awdumpsters.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "1 aspmx.l.google.com."
+          },
+          {
+            "name": "awdumpsters.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "5 alt1.aspmx.l.google.com."
+          }
+        ],
+        "Comment": "Response from 97.74.103.4."
+      },
+      "mx": [
+        "5 alt2.aspmx.l.google.com.",
+        "10 alt4.aspmx.l.google.com.",
+        "10 alt3.aspmx.l.google.com.",
+        "1 aspmx.l.google.com.",
+        "5 alt1.aspmx.l.google.com."
+      ],
+      "valid": true
+    },
+    "replacement_email": "",
+    "note": "Current publication and MX do not establish individual mailbox acceptance. No different address confirmed."
+  },
+  {
+    "batch": "H6",
+    "number": 6,
+    "company": "Midway Environmental",
+    "email": "office@mwedumpsters.com",
+    "published": true,
+    "page_url": "https://www.mwedumpsters.com/contact_us/",
+    "page_checks": [
+      {
+        "requested": "https://www.mwedumpsters.com/contact_us/",
+        "url": "https://www.mwedumpsters.com/contact_us/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:48.152376+00:00",
+        "emails": [
+          "office@mwedumpsters.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": "Contact Us | Midway Environmental X (877)514-0536 OFFICE@mwedumpsters.com Menu Home Dumpster Rental Service Area FAQs Gallery Contact Us Book Now Book Now Contact Us Submit Quick Links Privacy Details OFFICE@mwedumpsters.com (877)514"
+      },
+      {
+        "requested": "https://mwedumpsters.com/",
+        "url": "https://www.mwedumpsters.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:48.945798+00:00",
+        "emails": [
+          "office@mwedumpsters.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": "Dumpster Rentals | Midway Environmental X (877)514-0536 OFFICE@mwedumpsters.com Menu Home Dumpster Rental Service Area FAQs Gallery Contact Us Book Now Book Now Rent a Dumpster and Get It Delivered Today! Contact Us Today \u2013 We'll Be There "
+      }
+    ],
+    "mx": {
+      "url": "https://dns.google/resolve?name=mwedumpsters.com&type=MX",
+      "fetched_at": "2026-10-21T15:04:50.474367+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "mwedumpsters.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "mwedumpsters.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "0 mwedumpsters-com.mail.protection.outlook.com."
+          }
+        ],
+        "Comment": "Response from 173.201.69.2."
+      },
+      "mx": [
+        "0 mwedumpsters-com.mail.protection.outlook.com."
+      ],
+      "valid": true
+    },
+    "replacement_email": "",
+    "note": "Current publication and MX do not establish individual mailbox acceptance. No different address confirmed."
+  },
+  {
+    "batch": "H6",
+    "number": 7,
+    "company": "Big Orange Bins",
+    "email": "binsdumps77@gmail.com",
+    "published": false,
+    "page_url": "https://www.bigorangebinstx.com/contact_us/",
+    "page_checks": [
+      {
+        "requested": "https://www.bigorangebinstx.com/contact_us/",
+        "url": "https://www.bigorangebinstx.com/contact_us/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:06:18.089857+00:00",
+        "emails": [
+          " "
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": false,
+        "visible_email_excerpt": ""
+      },
+      {
+        "requested": "https://bigorangebinstx.com/",
+        "url": "https://www.bigorangebinstx.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:06:18.586396+00:00",
+        "emails": [
+          " "
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": false,
+        "visible_email_excerpt": ""
+      },
+      {
+        "requested": "https://www.bigorangebinstx.com/about_us/",
+        "url": "https://www.bigorangebinstx.com/about_us/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:06:19.588326+00:00",
+        "emails": [
+          " "
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": false,
+        "visible_email_excerpt": ""
+      },
+      {
+        "requested": "https://www.bigorangebinstx.com/service_area/",
+        "url": "https://www.bigorangebinstx.com/service_area/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:06:20.025450+00:00",
+        "emails": [
+          " "
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": false,
+        "visible_email_excerpt": ""
+      },
+      {
+        "requested": "https://www.bigorangebinstx.com/",
+        "url": "https://www.bigorangebinstx.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:11:04.153003+00:00",
+        "emails": [
+          " "
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": false,
+        "visible_email_excerpt": ""
+      },
+      {
+        "requested": "https://www.bigorangebinstx.com/contact_us/",
+        "url": "https://www.bigorangebinstx.com/contact_us/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:15:53.335466+00:00",
+        "emails": [
+          " "
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": false,
+        "visible_email_excerpt": ""
+      },
+      {
+        "requested": "https://bigorangebinstx.com/",
+        "url": "https://www.bigorangebinstx.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:15:53.743608+00:00",
+        "emails": [
+          " "
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": false,
+        "visible_email_excerpt": ""
+      }
+    ],
+    "mx": {
+      "url": "https://dns.google/resolve?name=gmail.com&type=MX",
+      "fetched_at": "2026-10-21T15:04:45.729116+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "gmail.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "10 alt1.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "20 alt2.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "5 gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "30 alt3.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "40 alt4.gmail-smtp-in.l.google.com."
+          }
+        ]
+      },
+      "mx": [
+        "10 alt1.gmail-smtp-in.l.google.com.",
+        "20 alt2.gmail-smtp-in.l.google.com.",
+        "5 gmail-smtp-in.l.google.com.",
+        "30 alt3.gmail-smtp-in.l.google.com.",
+        "40 alt4.gmail-smtp-in.l.google.com."
+      ],
+      "valid": true
+    },
+    "replacement_email": "",
+    "note": "Current publication and MX do not establish individual mailbox acceptance. No different address confirmed."
+  },
+  {
+    "batch": "H6",
+    "number": 8,
+    "company": "The Outhouse Boys",
+    "email": "info@outhouseboys.com",
+    "published": true,
+    "page_url": "https://outhouseboys.com/",
+    "page_checks": [
+      {
+        "requested": "https://outhouseboys.com/",
+        "url": "https://outhouseboys.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:48.411256+00:00",
+        "emails": [
+          "info@outhouseboys.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": "Portable Toilet Rentals | The Outhouse Boys Skip to content info@outhouseboys.com (281) 304-0710 Home Services Dumpsters Portable Toilets Our Team About Us Contact Us \u2b50Leave a Review \u00d7 Home Services Dumpsters Portable Toilets Our Team About "
+      }
+    ],
+    "mx": {
+      "url": "https://dns.google/resolve?name=outhouseboys.com&type=MX",
+      "fetched_at": "2026-10-21T15:04:49.040570+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "outhouseboys.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "outhouseboys.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "0 mx3-usg2.ppe-hosted.com."
+          },
+          {
+            "name": "outhouseboys.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "0 mx1-usg2.ppe-hosted.com."
+          },
+          {
+            "name": "outhouseboys.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "0 mx2-usg2.ppe-hosted.com."
+          }
+        ],
+        "Comment": "Response from 97.74.104.25."
+      },
+      "mx": [
+        "0 mx3-usg2.ppe-hosted.com.",
+        "0 mx1-usg2.ppe-hosted.com.",
+        "0 mx2-usg2.ppe-hosted.com."
+      ],
+      "valid": true
+    },
+    "replacement_email": "",
+    "note": "Current publication and MX do not establish individual mailbox acceptance. No different address confirmed."
+  },
+  {
+    "batch": "H6",
+    "number": 9,
+    "company": "Dolly's Dumpsters of Houston",
+    "email": "info@dollysdumpstershouston.com",
+    "published": true,
+    "page_url": "https://dollysdumpstershouston.com/",
+    "page_checks": [
+      {
+        "requested": "https://dollysdumpstershouston.com/",
+        "url": "https://dollysdumpstershouston.com/",
+        "http_status": 403,
+        "fetched_at": "2026-10-21T15:04:48.455542+00:00",
+        "emails": [],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": false,
+        "visible_email_excerpt": ""
+      },
+      {
+        "requested": "https://www.dollysdumpstershouston.com/",
+        "url": "https://www.dollysdumpstershouston.com/",
+        "http_status": 403,
+        "fetched_at": "2026-10-21T15:11:04.159018+00:00",
+        "emails": [],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": false,
+        "visible_email_excerpt": ""
+      },
+      {
+        "requested": "https://dollysdumpstershouston.com/",
+        "url": "https://dollysdumpstershouston.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:15:53.346702+00:00",
+        "emails": [
+          "info@dollysdumpstershouston.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": "Dolly's Dumpsters of Houston | Dollys Dumpsters of Houston 5025 Jensen Dr,Houston,TX,US,77026 info@dollysdumpstershouston.com Dolly's Dumpsters of Houston Dolly's Dumpsters of Houston Home Services 10 Yard Dumpster 20 Yard Dumpster 30 Yard Dumpster Roll-off Dumpster Rental Residential"
+      }
+    ],
+    "mx": {
+      "url": "https://dns.google/resolve?name=dollysdumpstershouston.com&type=MX",
+      "fetched_at": "2026-10-21T15:04:49.349747+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "dollysdumpstershouston.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "dollysdumpstershouston.com.",
+            "type": 15,
+            "TTL": 21600,
+            "data": "20 mx20.antispam.mailspamprotection.com."
+          },
+          {
+            "name": "dollysdumpstershouston.com.",
+            "type": 15,
+            "TTL": 21600,
+            "data": "30 mx30.antispam.mailspamprotection.com."
+          },
+          {
+            "name": "dollysdumpstershouston.com.",
+            "type": 15,
+            "TTL": 21600,
+            "data": "10 mx10.antispam.mailspamprotection.com."
+          }
+        ],
+        "Comment": "Response from 99.83.229.113."
+      },
+      "mx": [
+        "20 mx20.antispam.mailspamprotection.com.",
+        "30 mx30.antispam.mailspamprotection.com.",
+        "10 mx10.antispam.mailspamprotection.com."
+      ],
+      "valid": true
+    },
+    "replacement_email": "",
+    "note": "Current publication and MX do not establish individual mailbox acceptance. No different address confirmed."
+  },
+  {
+    "batch": "H6",
+    "number": 10,
+    "company": "Bin Dumped",
+    "email": "book@bindumped.com",
+    "published": true,
+    "page_url": "https://www.bindumped.com/",
+    "page_checks": [
+      {
+        "requested": "https://www.bindumped.com/",
+        "url": "https://www.bindumped.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:48.525778+00:00",
+        "emails": [
+          "book@bindumped.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": "od dumpster rental | klein dumpster rental | jersey village dumpster rental | Aldine dumpster rental AUSTIN (512)690-4999  |  HOUSTON (281)962-0600 Email us at book@bindumped.com"
+      },
+      {
+        "requested": "https://bindumped.com/",
+        "url": "https://www.bindumped.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:49.007565+00:00",
+        "emails": [
+          "book@bindumped.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": "od dumpster rental | klein dumpster rental | jersey village dumpster rental | Aldine dumpster rental AUSTIN (512)690-4999  |  HOUSTON (281)962-0600 Email us at book@bindumped.com"
+      }
+    ],
+    "mx": {
+      "url": "https://dns.google/resolve?name=bindumped.com&type=MX",
+      "fetched_at": "2026-10-21T15:04:50.648843+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "bindumped.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "bindumped.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "10 aspmx.l.google.com."
+          },
+          {
+            "name": "bindumped.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "20 alt1.aspmx.l.google.com."
+          },
+          {
+            "name": "bindumped.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "50 aspmx3.googlemail.com."
+          },
+          {
+            "name": "bindumped.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "30 alt2.aspmx.l.google.com."
+          },
+          {
+            "name": "bindumped.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "40 aspmx2.googlemail.com."
+          }
+        ],
+        "Comment": "Response from 97.74.100.1."
+      },
+      "mx": [
+        "10 aspmx.l.google.com.",
+        "20 alt1.aspmx.l.google.com.",
+        "50 aspmx3.googlemail.com.",
+        "30 alt2.aspmx.l.google.com.",
+        "40 aspmx2.googlemail.com."
+      ],
+      "valid": true
+    },
+    "replacement_email": "",
+    "note": "Current publication and MX do not establish individual mailbox acceptance. No different address confirmed."
+  },
+  {
+    "batch": "H6",
+    "number": 11,
+    "company": "Aztec Rental Services",
+    "email": "info@aztecrentalservices.com",
+    "published": true,
+    "page_url": "https://aztecrentalservices.com/portable-toilet-rentals-in-houston/",
+    "page_checks": [
+      {
+        "requested": "https://aztecrentalservices.com/portable-toilet-rentals-in-houston/",
+        "url": "https://aztecrentalservices.com/portable-toilet-rentals-in-houston/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:48.795900+00:00",
+        "emails": [
+          "email@aztecrentalservices.com",
+          "info@aztecrentalservices.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": ""
+      },
+      {
+        "requested": "https://aztecrentalservices.com/",
+        "url": "https://aztecrentalservices.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:49.259654+00:00",
+        "emails": [
+          "billing@aztecrentalservices.com",
+          "billing@aztecrentalservices.com?swcfpc=1",
+          "info@aztecrentalservices.com",
+          "service@aztecrentalservices.com",
+          "service@aztecrentalservices.com?swcfpc=1"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": ""
+      }
+    ],
+    "mx": {
+      "url": "https://dns.google/resolve?name=aztecrentalservices.com&type=MX",
+      "fetched_at": "2026-10-21T15:04:49.931220+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "aztecrentalservices.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "aztecrentalservices.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "0 aztecrentalservices-com.mail.protection.outlook.com."
+          }
+        ],
+        "Comment": "Response from 172.64.34.63."
+      },
+      "mx": [
+        "0 aztecrentalservices-com.mail.protection.outlook.com."
+      ],
+      "valid": true
+    },
+    "replacement_email": "",
+    "note": "Current publication and MX do not establish individual mailbox acceptance. No different address confirmed."
+  },
+  {
+    "batch": "H6",
+    "number": 12,
+    "company": "R&L Dumpsters",
+    "email": "info@rldumpsters.com",
+    "published": true,
+    "page_url": "https://rldumpsters.com/",
+    "page_checks": [
+      {
+        "requested": "https://rldumpsters.com/",
+        "url": "https://rldumpsters.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:49.042295+00:00",
+        "emails": [
+          "info@rldumpsters.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": ""
+      }
+    ],
+    "mx": {
+      "url": "https://dns.google/resolve?name=rldumpsters.com&type=MX",
+      "fetched_at": "2026-10-21T15:04:49.901553+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "rldumpsters.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "rldumpsters.com.",
+            "type": 15,
+            "TTL": 1800,
+            "data": "10 mx2.privateemail.com."
+          },
+          {
+            "name": "rldumpsters.com.",
+            "type": 15,
+            "TTL": 1800,
+            "data": "10 mx1.privateemail.com."
+          }
+        ],
+        "Comment": "Response from 173.201.69.22."
+      },
+      "mx": [
+        "10 mx2.privateemail.com.",
+        "10 mx1.privateemail.com."
+      ],
+      "valid": true
+    },
+    "replacement_email": "",
+    "note": "Current publication and MX do not establish individual mailbox acceptance. No different address confirmed."
+  },
+  {
+    "batch": "H6",
+    "number": 13,
+    "company": "BEST DUMPSTER SERVICE",
+    "email": "info@bdumpster.com",
+    "published": true,
+    "page_url": "http://www.bdumpster.com/",
+    "page_checks": [
+      {
+        "requested": "http://www.bdumpster.com/",
+        "url": "http://www.bdumpster.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:49.352058+00:00",
+        "emails": [
+          "info@bdumpster.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": "umpster Service you can send us a message using the form below or give us a call. Contact Info & Office Hours Office, Cell/ Text available (713) 640-1490 Email info@bdumpster.com Office Hours Monday \u2013 Friday 8:30AM to 4:00PM Send us a Message Name * Email * Phone Number * Best way to reach me: Email Phone Subject Your Message * = Requir"
+      },
+      {
+        "requested": "https://bdumpster.com/",
+        "url": "https://bdumpster.com/",
+        "http_status": 503,
+        "fetched_at": "2026-10-21T15:04:51.618789+00:00",
+        "emails": [],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": false,
+        "visible_email_excerpt": ""
+      }
+    ],
+    "mx": {
+      "url": "https://dns.google/resolve?name=bdumpster.com&type=MX",
+      "fetched_at": "2026-10-21T15:04:52.281724+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "bdumpster.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "bdumpster.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "0 bdumpster-com.mail.protection.outlook.com."
+          }
+        ],
+        "Comment": "Response from 97.74.104.5."
+      },
+      "mx": [
+        "0 bdumpster-com.mail.protection.outlook.com."
+      ],
+      "valid": true
+    },
+    "replacement_email": "",
+    "note": "Current publication and MX do not establish individual mailbox acceptance. No different address confirmed."
+  },
+  {
+    "batch": "H6",
+    "number": 14,
+    "company": "LJP Hauling",
+    "email": "ljphauling@gmail.com",
+    "published": true,
+    "page_url": "https://www.ljphauling.com/dumpster-rental-houston-tx",
+    "page_checks": [
+      {
+        "requested": "https://www.ljphauling.com/dumpster-rental-houston-tx",
+        "url": "https://www.ljphauling.com/dumpster-rental-houston-tx",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:49.678264+00:00",
+        "emails": [
+          "hlalo8486@gmail.com",
+          "ljphauling@gmail.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": "e in Katy and surrounding Houston communities. \u200b We\u2019re proud to have over 100 five-star reviews from Houston, Katy, Cypress, and Tomball customers. ljprecision LJPHauling@gmail.com Tiktok Reviews ljprecision LJ Precision LLC Hauling & Junk Removal Services \u00a9 All Rights Reserved LJ Precision LLC Hauling & Junk Removal Services \u00a9 All Rights"
+      },
+      {
+        "requested": "https://ljphauling.com/",
+        "url": "https://www.ljphauling.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:51.750001+00:00",
+        "emails": [
+          "hlalo8486@gmail.com",
+          "ljphauling@gmail.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": "e. Highly recommend. 5 months ago Write a Review We\u2019re proud to have over 100 five-star reviews from Houston, Katy, Cypress, and Tomball customers. ljprecision LJPHauling@gmail.com Tiktok Reviews ljprecision LJ Precision LLC Hauling & Junk Removal Services \u00a9 All Rights Reserved LJ Precision LLC Hauling & Junk Removal Services \u00a9 All Rights"
+      }
+    ],
+    "mx": {
+      "url": "https://dns.google/resolve?name=gmail.com&type=MX",
+      "fetched_at": "2026-10-21T15:04:45.729116+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "gmail.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "10 alt1.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "20 alt2.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "5 gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "30 alt3.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "40 alt4.gmail-smtp-in.l.google.com."
+          }
+        ]
+      },
+      "mx": [
+        "10 alt1.gmail-smtp-in.l.google.com.",
+        "20 alt2.gmail-smtp-in.l.google.com.",
+        "5 gmail-smtp-in.l.google.com.",
+        "30 alt3.gmail-smtp-in.l.google.com.",
+        "40 alt4.gmail-smtp-in.l.google.com."
+      ],
+      "valid": true
+    },
+    "replacement_email": "",
+    "note": "Current publication and MX do not establish individual mailbox acceptance. No different address confirmed."
+  },
+  {
+    "batch": "H6",
+    "number": 15,
+    "company": "The Dumpster Guys",
+    "email": "thedumpsterguys@tdggc.com",
+    "published": true,
+    "page_url": "https://www.thedumpsterguys.com/",
+    "page_checks": [
+      {
+        "requested": "https://www.thedumpsterguys.com/",
+        "url": "https://www.thedumpsterguys.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:49.903310+00:00",
+        "emails": [
+          "thedumpsterguys@tdggc.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": ""
+      },
+      {
+        "requested": "https://thedumpsterguys.com/",
+        "url": "https://www.thedumpsterguys.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:50.477180+00:00",
+        "emails": [
+          "thedumpsterguys@tdggc.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": ""
+      }
+    ],
+    "mx": {
+      "url": "https://dns.google/resolve?name=tdggc.com&type=MX",
+      "fetched_at": "2026-10-21T15:04:51.629750+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "tdggc.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "tdggc.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "30 mx.powweb.com."
+          }
+        ],
+        "Comment": "Response from 173.201.74.27."
+      },
+      "mx": [
+        "30 mx.powweb.com."
+      ],
+      "valid": true
+    },
+    "replacement_email": "",
+    "note": "Current publication and MX do not establish individual mailbox acceptance. No different address confirmed."
+  },
+  {
+    "batch": "reserve",
+    "number": 1,
+    "company": "Aqua-Zyme Services",
+    "email": "zymme@aqua-zyme.com",
+    "published": true,
+    "page_url": "https://www.aqua-zyme.com/",
+    "page_checks": [
+      {
+        "requested": "https://www.aqua-zyme.com/",
+        "url": "https://www.aqua-zyme.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:49.932622+00:00",
+        "emails": [
+          "zymme@aqua-zyme.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": "al) Request a Quote Menu Home Dewatering Local Services Disposal Sites Menu Close Legal Pages Privacy Policy Accessibility Statement Terms & Conditions Contact Zymme@aqua-zyme.com 979-245-5656 569 FM 2540 Van Vleck, TX 77482 Aqua-Zyme Services mailing: PO Box 800 Aqua-Zyme Disposal mailing: PO Box 489 Hours: Monday-Friday, 8:00 AM-5:00 P"
+      },
+      {
+        "requested": "https://aqua-zyme.com/",
+        "url": "https://www.aqua-zyme.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:53.397521+00:00",
+        "emails": [
+          "zymme@aqua-zyme.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": "al) Request a Quote Menu Home Dewatering Local Services Disposal Sites Menu Close Legal Pages Privacy Policy Accessibility Statement Terms & Conditions Contact Zymme@aqua-zyme.com 979-245-5656 569 FM 2540 Van Vleck, TX 77482 Aqua-Zyme Services mailing: PO Box 800 Aqua-Zyme Disposal mailing: PO Box 489 Hours: Monday-Friday, 8:00 AM-5:00 P"
+      }
+    ],
+    "mx": {
+      "url": "https://dns.google/resolve?name=aqua-zyme.com&type=MX",
+      "fetched_at": "2026-10-21T15:04:54.795480+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "aqua-zyme.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "aqua-zyme.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "0 aquazyme-com01b.mail.protection.outlook.com."
+          }
+        ],
+        "Comment": "Response from 216.239.32.101."
+      },
+      "mx": [
+        "0 aquazyme-com01b.mail.protection.outlook.com."
+      ],
+      "valid": true
+    },
+    "replacement_email": "",
+    "note": "Current publication and MX do not establish individual mailbox acceptance. No different address confirmed."
+  },
+  {
+    "batch": "reserve",
+    "number": 2,
+    "company": "Houston Luxury Restrooms LLC",
+    "email": "houstonluxuryrestrooms@gmail.com",
+    "published": true,
+    "page_url": "https://houstonluxuryrestrooms.com/services/",
+    "page_checks": [
+      {
+        "requested": "https://houstonluxuryrestrooms.com/services/",
+        "url": "https://houstonluxuryrestrooms.com/services/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:50.479422+00:00",
+        "emails": [
+          "houstonluxuryrestrooms@gmail.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": ""
+      },
+      {
+        "requested": "https://houstonluxuryrestrooms.com/",
+        "url": "https://houstonluxuryrestrooms.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:50.909087+00:00",
+        "emails": [
+          "houstonluxuryrestrooms@gmail.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": ""
+      }
+    ],
+    "mx": {
+      "url": "https://dns.google/resolve?name=gmail.com&type=MX",
+      "fetched_at": "2026-10-21T15:04:45.729116+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "gmail.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "10 alt1.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "20 alt2.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "5 gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "30 alt3.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "40 alt4.gmail-smtp-in.l.google.com."
+          }
+        ]
+      },
+      "mx": [
+        "10 alt1.gmail-smtp-in.l.google.com.",
+        "20 alt2.gmail-smtp-in.l.google.com.",
+        "5 gmail-smtp-in.l.google.com.",
+        "30 alt3.gmail-smtp-in.l.google.com.",
+        "40 alt4.gmail-smtp-in.l.google.com."
+      ],
+      "valid": true
+    },
+    "replacement_email": "",
+    "note": "Current publication and MX do not establish individual mailbox acceptance. No different address confirmed."
+  },
+  {
+    "batch": "reserve",
+    "number": 3,
+    "company": "J.A.C. Dumpsters & Services LLC",
+    "email": "j.a.c.dumpstersandservices@gmail.com",
+    "published": true,
+    "page_url": "https://www.jacdumpsters.com/contact-jac-dumpsters-services-baytown-junk-removal-dumpsters",
+    "page_checks": [
+      {
+        "requested": "https://www.jacdumpsters.com/contact-jac-dumpsters-services-baytown-junk-removal-dumpsters",
+        "url": "https://www.jacdumpsters.com/contact-jac-dumpsters-services-baytown-junk-removal-dumpsters",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:50.651188+00:00",
+        "emails": [
+          "j.a.c.dumpstersandservices@gmail.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": ""
+      },
+      {
+        "requested": "https://jacdumpsters.com/",
+        "url": "https://www.jacdumpsters.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:51.249140+00:00",
+        "emails": [
+          "j.a.c.dumpstersandservices@gmail.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": ""
+      }
+    ],
+    "mx": {
+      "url": "https://dns.google/resolve?name=gmail.com&type=MX",
+      "fetched_at": "2026-10-21T15:04:45.729116+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "gmail.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "10 alt1.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "20 alt2.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "5 gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "30 alt3.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "40 alt4.gmail-smtp-in.l.google.com."
+          }
+        ]
+      },
+      "mx": [
+        "10 alt1.gmail-smtp-in.l.google.com.",
+        "20 alt2.gmail-smtp-in.l.google.com.",
+        "5 gmail-smtp-in.l.google.com.",
+        "30 alt3.gmail-smtp-in.l.google.com.",
+        "40 alt4.gmail-smtp-in.l.google.com."
+      ],
+      "valid": true
+    },
+    "replacement_email": "",
+    "note": "Current publication and MX do not establish individual mailbox acceptance. No different address confirmed."
+  },
+  {
+    "batch": "reserve",
+    "number": 4,
+    "company": "RackRolloff LLC",
+    "email": "info@rackrolloff.com",
+    "published": true,
+    "page_url": "https://www.rackrolloff.com/contact.html",
+    "page_checks": [
+      {
+        "requested": "https://www.rackrolloff.com/contact.html",
+        "url": "https://www.rackrolloff.com/contact.html",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:50.989791+00:00",
+        "emails": [
+          "info@rackrolloff.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": ""
+      },
+      {
+        "requested": "https://rackrolloff.com/",
+        "url": "https://rackrolloff.com/",
+        "http_status": 0,
+        "fetched_at": "2026-10-21T15:04:51.452725+00:00",
+        "emails": [],
+        "error": "ProxyError",
+        "exact_email_in_decoded_links_or_markup": false,
+        "visible_email_excerpt": ""
+      }
+    ],
+    "mx": {
+      "url": "https://dns.google/resolve?name=rackrolloff.com&type=MX",
+      "fetched_at": "2026-10-21T15:04:51.738050+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "rackrolloff.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "rackrolloff.com.",
+            "type": 15,
+            "TTL": 1800,
+            "data": "10 mx-biz.mail.am0.yahoodns.net."
+          }
+        ],
+        "Comment": "Response from 172.64.53.21."
+      },
+      "mx": [
+        "10 mx-biz.mail.am0.yahoodns.net."
+      ],
+      "valid": true
+    },
+    "replacement_email": "",
+    "note": "Current publication and MX do not establish individual mailbox acceptance. No different address confirmed."
+  },
+  {
+    "batch": "reserve",
+    "number": 5,
+    "company": "Smooth Move Services LLC",
+    "email": "sales@smoothmv.com",
+    "published": true,
+    "page_url": "https://smoothmoveservices.com/",
+    "page_checks": [
+      {
+        "requested": "https://smoothmoveservices.com/",
+        "url": "https://smoothmoveservices.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:51.408197+00:00",
+        "emails": [
+          "sales@smoothmv.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": "Smooth Move Services | Portable Toilets and Restrooms anywhere in Houston 281-760-3705 or Fax 281-591-0070 sales@smoothmv.com Facebook Google Facebook Google Smooth Move Services Home (OLD) Select Page For Any and ALL Occasions! Smooth Move Services has all the clean,\u00a0durable, spaciou"
+      }
+    ],
+    "mx": {
+      "url": "https://dns.google/resolve?name=smoothmv.com&type=MX",
+      "fetched_at": "2026-10-21T15:04:54.117305+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "smoothmv.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "smoothmv.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "5 mx2-us1.ppe-hosted.com."
+          },
+          {
+            "name": "smoothmv.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "0 mx1-us1.ppe-hosted.com."
+          }
+        ],
+        "Comment": "Response from 97.74.104.25."
+      },
+      "mx": [
+        "5 mx2-us1.ppe-hosted.com.",
+        "0 mx1-us1.ppe-hosted.com."
+      ],
+      "valid": true
+    },
+    "replacement_email": "",
+    "note": "Current publication and MX do not establish individual mailbox acceptance. No different address confirmed."
+  },
+  {
+    "batch": "reserve",
+    "number": 6,
+    "company": "Texas Gulf Recycling / Texas Waste Control",
+    "email": "info@texasgulfrecycling.com",
+    "published": true,
+    "page_url": "https://texaswastecontrol.com/contact/",
+    "page_checks": [
+      {
+        "requested": "https://texaswastecontrol.com/contact/",
+        "url": "https://texaswastecontrol.com/contact/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:51.522211+00:00",
+        "emails": [
+          "info@texasgulfrecycling.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": " TX Home Dumpsters About Us Contact Menu Home Dumpsters About Us Contact Book Now! Contact Us Send a Message Get in Touch Address 308 Vat Road Boling, TX Email info@texasgulfrecycling.com Phone 979-800-3867 CALL NOW BOOK NOW Facebook Yelp Linkedin Texas Gulf Recycling provides fast, reliable dumpster rentals for jobs of all sizes across Texas. Q"
+      },
+      {
+        "requested": "https://texaswastecontrol.com/",
+        "url": "https://texaswastecontrol.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:04:52.588045+00:00",
+        "emails": [
+          "info@texasgulfrecycling.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": "Recycling provides fast, reliable dumpster rentals for jobs of all sizes across Texas. Quick Links Home About Dumpsters Contact Find Us 308 Vat Road Boling, TX info@texasgulfrecycling.com 979-800-3867 (DUMP) Copyright \u00a9 Powered by Docket Secret Link"
+      }
+    ],
+    "mx": {
+      "url": "https://dns.google/resolve?name=texasgulfrecycling.com&type=MX",
+      "fetched_at": "2026-10-21T15:04:53.603736+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "texasgulfrecycling.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "texasgulfrecycling.com.",
+            "type": 15,
+            "TTL": 300,
+            "data": "0 texasgulfrecycling-com.mail.protection.outlook.com."
+          }
+        ],
+        "Comment": "Response from 108.162.194.78."
+      },
+      "mx": [
+        "0 texasgulfrecycling-com.mail.protection.outlook.com."
+      ],
+      "valid": true
+    },
+    "replacement_email": "",
+    "note": "Current publication and MX do not establish individual mailbox acceptance. No different address confirmed."
+  },
+  {
+    "batch": "reserve",
+    "number": 7,
+    "company": "The Texas Loo LLC",
+    "email": "wendy@thetexasloo.com",
+    "published": true,
+    "page_url": "https://thetexasloo.com/contact-us/",
+    "page_checks": [
+      {
+        "requested": "https://thetexasloo.com/contact-us/",
+        "url": "https://thetexasloo.com/contact-us/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:06:18.090636+00:00",
+        "emails": [
+          "wendy@thetexasloo.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": "e Houston, Texas area since 2011, including long-term rentals. To learn more about our services, please fill out the contact form. Telephone 832-797-7909 Email Wendy@TheTexasLoo.com Reserve Your Luxury Mobile Restroom 832-797-7909 | Wendy@TheTexasLoo.com Providing mobile restroom trailer rentals in the Houston, Texas area since 2011. Featu"
+      },
+      {
+        "requested": "https://thetexasloo.com/",
+        "url": "https://thetexasloo.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:06:18.574762+00:00",
+        "emails": [
+          "wendy@thetexasloo.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": "guests with style and comfort. It features 2 ladies\u2019 rooms and 1 men\u2019s room, complete with a toilet and urinal. See Our Options Who We Work With 832-797-7909 | Wendy@TheTexasLoo.com Providing mobile restroom trailer rentals in the Houston, Texas area since 2011. Featuring the largest fleet in Houston. \u00a9 2026 The Texas Loo, LLC Privacy Poli"
+      }
+    ],
+    "mx": {
+      "url": "https://dns.google/resolve?name=thetexasloo.com&type=MX",
+      "fetched_at": "2026-10-21T15:06:19.197270+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "thetexasloo.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "thetexasloo.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "10 aspmx.l.google.com."
+          },
+          {
+            "name": "thetexasloo.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "30 aspmx3.googlemail.com."
+          },
+          {
+            "name": "thetexasloo.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "30 aspmx2.googlemail.com."
+          },
+          {
+            "name": "thetexasloo.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "20 alt1.aspmx.l.google.com."
+          },
+          {
+            "name": "thetexasloo.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "20 alt2.aspmx.l.google.com."
+          }
+        ],
+        "Comment": "Response from 173.201.74.27."
+      },
+      "mx": [
+        "10 aspmx.l.google.com.",
+        "30 aspmx3.googlemail.com.",
+        "30 aspmx2.googlemail.com.",
+        "20 alt1.aspmx.l.google.com.",
+        "20 alt2.aspmx.l.google.com."
+      ],
+      "valid": true
+    },
+    "replacement_email": "",
+    "note": "Current publication and MX do not establish individual mailbox acceptance. No different address confirmed."
+  },
+  {
+    "batch": "reserve",
+    "number": 8,
+    "company": "Throne Ranger",
+    "email": "info@throneranger.com",
+    "published": true,
+    "page_url": "https://throneranger.com/contact-us/",
+    "page_checks": [
+      {
+        "requested": "https://throneranger.com/contact-us/",
+        "url": "https://throneranger.com/contact-us/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:06:18.093510+00:00",
+        "emails": [
+          "info@throneranger.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": "tation 8-Station Private Company About Us Why Throne Ranger FAQs Blog Service Area Sugar Land The Woodlands Pearland Galveston All service areas (713) 747-0505 info@throneranger.com Facebook Twitter Youtube Linkedin Instagram \u00a9 2026 Throne Ranger \u00a0\u00b7 Privacy Policy Days Single Day Overnight Multi-Day Start End Street Address City Zip Code A"
+      },
+      {
+        "requested": "https://throneranger.com/",
+        "url": "https://throneranger.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:06:18.996301+00:00",
+        "emails": [
+          "info@throneranger.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": "tation 8-Station Private Company About Us Why Throne Ranger FAQs Blog Service Area Sugar Land The Woodlands Pearland Galveston All service areas (713) 747-0505 info@throneranger.com Facebook Twitter Youtube Linkedin Instagram \u00a9 2026 Throne Ranger \u00a0\u00b7 Privacy Policy Days Single Day Overnight Multi-Day Start End Street Address City Zip Code A"
+      }
+    ],
+    "mx": {
+      "url": "https://dns.google/resolve?name=throneranger.com&type=MX",
+      "fetched_at": "2026-10-21T15:06:20.609576+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "throneranger.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "throneranger.com.",
+            "type": 15,
+            "TTL": 3600,
+            "data": "10 mail.throneranger.com."
+          }
+        ],
+        "Comment": "Response from 209.250.2.66."
+      },
+      "mx": [
+        "10 mail.throneranger.com."
+      ],
+      "valid": true
+    },
+    "replacement_email": "",
+    "note": "Current publication and MX do not establish individual mailbox acceptance. No different address confirmed."
+  },
+  {
+    "batch": "reserve",
+    "number": 9,
+    "company": "Turbo Rolloff",
+    "email": "turborolloff@gmail.com",
+    "published": true,
+    "page_url": "https://www.turborolloff.com/",
+    "page_checks": [
+      {
+        "requested": "https://www.turborolloff.com/",
+        "url": "https://www.turborolloff.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:06:18.090950+00:00",
+        "emails": [
+          "turborolloff@gmail.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": ""
+      },
+      {
+        "requested": "https://turborolloff.com/",
+        "url": "https://www.turborolloff.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:06:18.563412+00:00",
+        "emails": [
+          "turborolloff@gmail.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": ""
+      }
+    ],
+    "mx": {
+      "url": "https://dns.google/resolve?name=gmail.com&type=MX",
+      "fetched_at": "2026-10-21T15:04:45.729116+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "gmail.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "10 alt1.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "20 alt2.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "5 gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "30 alt3.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "40 alt4.gmail-smtp-in.l.google.com."
+          }
+        ]
+      },
+      "mx": [
+        "10 alt1.gmail-smtp-in.l.google.com.",
+        "20 alt2.gmail-smtp-in.l.google.com.",
+        "5 gmail-smtp-in.l.google.com.",
+        "30 alt3.gmail-smtp-in.l.google.com.",
+        "40 alt4.gmail-smtp-in.l.google.com."
+      ],
+      "valid": true
+    },
+    "replacement_email": "",
+    "note": "Current publication and MX do not establish individual mailbox acceptance. No different address confirmed."
+  },
+  {
+    "batch": "reserve",
+    "number": 10,
+    "company": "786 Dumpsters & Junk Removal",
+    "email": "786dumpsters@gmail.com",
+    "published": true,
+    "page_url": "https://786dumpsters.com/contact/",
+    "page_checks": [
+      {
+        "requested": "https://786dumpsters.com/contact/",
+        "url": "https://786dumpsters.com/contact/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:06:18.094829+00:00",
+        "emails": [
+          "786dumpsters@gmail.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": "g Guide Locations Home About Dumpsters Contact Junk Pricing Guide Locations Home About Dumpsters Contact Junk Pricing Guide Locations Contact Us (832) 770-0004 786dumpsters@gmail.com Rosenberg, TX Book Us Now <span data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\" class=\"mce_SELRES_start\">"
+      },
+      {
+        "requested": "https://786dumpsters.com/",
+        "url": "https://786dumpsters.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-21T15:06:19.769888+00:00",
+        "emails": [
+          "786dumpsters@gmail.com"
+        ],
+        "error": null,
+        "exact_email_in_decoded_links_or_markup": true,
+        "visible_email_excerpt": "again!\" Our Photo Gallery Follow us on Facebook! Quick Links Home About Dumpsters Contact Junk Pricing Guide Get In Touch 4707 SH-36 Ste39, Rosenberg, TX 77471 786dumpsters@gmail.com (832) 770-0004 Follow Us Facebook Instagram Yelp \u00a9 2025 Powered By Docket Secret Link"
+      }
+    ],
+    "mx": {
+      "url": "https://dns.google/resolve?name=gmail.com&type=MX",
+      "fetched_at": "2026-10-21T15:04:45.729116+00:00",
+      "response": {
+        "Status": 0,
+        "TC": false,
+        "RD": true,
+        "RA": true,
+        "AD": false,
+        "CD": false,
+        "Question": [
+          {
+            "name": "gmail.com.",
+            "type": 15
+          }
+        ],
+        "Answer": [
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "10 alt1.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "20 alt2.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "5 gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "30 alt3.gmail-smtp-in.l.google.com."
+          },
+          {
+            "name": "gmail.com.",
+            "type": 15,
+            "TTL": 661,
+            "data": "40 alt4.gmail-smtp-in.l.google.com."
+          }
+        ]
+      },
+      "mx": [
+        "10 alt1.gmail-smtp-in.l.google.com.",
+        "20 alt2.gmail-smtp-in.l.google.com.",
+        "5 gmail-smtp-in.l.google.com.",
+        "30 alt3.gmail-smtp-in.l.google.com.",
+        "40 alt4.gmail-smtp-in.l.google.com."
+      ],
+      "valid": true
+    },
+    "replacement_email": "",
+    "note": "Current publication and MX do not establish individual mailbox acceptance. No different address confirmed."
+  }
+]
