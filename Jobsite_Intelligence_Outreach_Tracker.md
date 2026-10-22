@@ -82,6 +82,7 @@ draft and `JI/` labels. Labels (created Oct 14): `JI/Send manually` (Label_6), `
 | 2026-10-15 08:04-09:14 CT | JI-H1 (8), JI-H2 (7) | S1 | 15 (all in the Oct 15 manifest) | `ops/evidence/2026-10-15_JI-H1-S1.json`, `ops/evidence/2026-10-15_JI-H2-S1.json`; ledger and results appended | From sites@; no bounces or replies as of 10:48 CT. S2 due Mon Oct 19 (+2 business days). |
 | 2026-10-16 08:02-08:32 CT | JI-H2 (1), JI-H3 (14) | S1 | 15 of 15 logged (Essential Waste; H3 #1-14; last three logged Oct 19 from `ops/evidence/2026-10-16_JI-H3-S1_b.json`) | `ops/evidence/2026-10-16_JI-H2-S1_a.json`, `ops/evidence/2026-10-16_JI-H3-S1_a.json` (Dump Today logged in the next pass) | No bounces or replies. Friday gate report: 31 sent Oct 14-16, 0 hard bounces, 0 complaints or blocks, no sender pause. |
 | 2026-10-19 12:55-14:05 CT | JI-H1 (9), JI-H2 (6) | S2 | 15 (City Waste, H1 #2-5, 7-10, H2 #11-16) | `ops/evidence/2026-10-19_JI-H1-S2_a.json`, `..._JI-H1-S2-b_a.json`, `..._JI-H1-S2-b_b.json`, `..._JI-H2-S2_b.json` | Threaded to each S1. No replies. Same day: H3 #6 S1 hard bounce logged. |
+| 2026-10-22 08:03-08:35 CT | JI-H3 (1+8), JI-H4 (4), JI-H2 (2) | S1 5, S2 10 | 15 (Trash Hauling Fast, H4 #1-4; S2 Hercules, Essential Waste, H3 #1-5, 7-9) | `ops/evidence/2026-10-22_*.json` | First day after the sender pause. No replies, no bounces (checked 2:30 PM CT). |
 
 ## Engaged prospects
 
@@ -105,7 +106,8 @@ PDF, set From to sites@ (Oct 14: an ASI engaged email went out from operations@)
 | 2026-10-16 | r8637948838471712868 (message 1a140ec80a072bdb, labeled JI/Do not send) | ASI-MANIFEST v1 2026-10-16 8885a25f89db96723edd19ca568f5473fb481175ba801d6fcc94ebe48356fce3 (15 S1s: Essential Waste + H3 #1-14, dry_run_only false; user approved Oct 15). **Deleted Oct 19 after its sends were logged (spent).** |
 | 2026-10-19 | r-5077443539634189182 (message 1a1553aba09d33eb, labeled JI/Do not send) | ASI-MANIFEST v1 2026-10-19 e79e7fc66e8ccf34ace513693b046858b038f3e6e61dcd84e4b477b85981f2be (15 S2s, dry_run_only false; user approved Oct 19, created 12:35 CT)  **Deleted Oct 19 after its 15 sends were logged (spent).** |
 | 2026-10-20 | r2025179972168776424 (message 1a155fed924a4c7b, labeled JI/Do not send) | ASI-MANIFEST v1 2026-10-20 575277d0b0f0e7380ce59cfb55aebfbf98bd9e9e482b775c3e7556924a770e86 (15: 5 S1 (H3 #15, H4 #1-4) + 10 S2 (Hercules, Essential Waste, H3 #1-5, 7-9); user approved Oct 19 "approve H3 S2 and go ahead"; created 4:08 PM CT) |
-| 2026-10-22 | r5412951461588570780 (message 1a1600efa5014dd5; the JI/Do not send label failed: Gmail returned "caller does not have permission"; the user adds it by hand) | ASI-MANIFEST v1 2026-10-22 59e711a725300f22871e7b1b335b03c88f26c441727ac8143a2ed0ce2158b43d (15: 5 S1 (H3 #15, H4 #1-4) + 10 S2; created Oct 21 3:02 PM CT per ASI ops relayed by the user; no replies or bounces; 5 S1 addresses rechecked on live sites) |
+| 2026-10-22 | r5412951461588570780 (message 1a1600efa5014dd5; the JI/Do not send label failed: Gmail returned "caller does not have permission"; the user adds it by hand) | ASI-MANIFEST v1 2026-10-22 59e711a725300f22871e7b1b335b03c88f26c441727ac8143a2ed0ce2158b43d (15: 5 S1 (H3 #15, H4 #1-4) + 10 S2; created Oct 21 3:02 PM CT per ASI ops relayed by the user; no replies or bounces; 5 S1 addresses rechecked on live sites)  **Deleted Oct 22 after its 15 sends were logged (spent).** |
+| 2026-10-23 | r619740113729683949 (message 1a16519d01df138c; JI/Do not send label failed again: "caller does not have permission") | ASI-MANIFEST v1 2026-10-23 dec1fd6c6011fae4e0edaa2fc521dc5abe091f03e53f4f0dc1560e32f22f55fd (10: 5 S1 (H4 #5-7, 9, 10) + 5 S2 (H3 #10-14); user approved Oct 21 "go ahead for Friday"; created Oct 22 2:31 PM CT) |
 
 - **Oct 15 cap note:** `validate` on the Oct 16 queues now reports the new 5-first-email cap; the Oct 16 manifest was built and approved before the cap and sends unchanged (ASI ops, item 2). Don't rebuild it.
 
@@ -129,6 +131,8 @@ PDF, set From to sites@ (Oct 14: an ASI engaged email went out from operations@)
 - **DFW (research only, Oct 21):** `data/hauler_list_dfw.csv`, 7 rows, no packets. Nothing is sent to DFW without the user's decision on a second city and its sender name.
 
 - **Copy status (Oct 21):** H1/H2 S5 approved by the user ("approve"): `outreach/JI-H1_S5_Copy.md`, `outreach/JI-H2_S5_Copy.md`, due Nov 2-3. `outreach/JI-H4_S2_Copy.md` (14, PEM skipped; due from Oct 26) and `outreach/H5_S1_Copy.md` (14; Precision skipped; first H5 sends from Oct 27) approved by the user Oct 22 ("approve H4 S2 and H5"); queued as `ops/queue/JI-H4-S2.json` (link-threads after each H4 S1 is logged) and `ops/queue/JI-H5-S1.json`.
+
+- **ji_ops plan gap (Oct 22, for ASI):** `plan` picked S2s whose S1 had not been sent yet (H4 #5-15) when `JI-H4-S2.json` was passed for Oct 23; `validate` correctly rejects them (list status, no reply_to), so nothing wrong was drafted. Until fixed, pass a follow-up queue to `plan` only once its S1s are logged and due.
 
 ## Excluded
 

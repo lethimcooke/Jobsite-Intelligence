@@ -167,7 +167,7 @@
       "reply_to_message_id": "1a13fe9cb639301b",
       "attachments": [],
       "hook_type": "",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r-415551254985181132",
         "message_id": "1a1553e1c0998f17",
@@ -192,7 +192,7 @@
       "reply_to_message_id": "1a144ceeeb1ad11f",
       "attachments": [],
       "hook_type": "",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r6267220448618006374",
         "message_id": "1a1553e29b0216ea",

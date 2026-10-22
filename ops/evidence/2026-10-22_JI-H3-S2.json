@@ -1,0 +1,74 @@
+[
+  {
+    "outreach_id": "JI-H3-S2-01",
+    "kind": "gmail_sent",
+    "evidence_id": "1a163c1a55041e21",
+    "thread_id": "1a140ea4edd8fb2f",
+    "sent_at": "2026-10-22T13:16:37+00:00",
+    "from": "sites@asterfieldgroup.com",
+    "to": "wilsonrolloffrentals@gmail.com"
+  },
+  {
+    "outreach_id": "JI-H3-S2-02",
+    "kind": "gmail_sent",
+    "evidence_id": "1a163c79330a0739",
+    "thread_id": "1a140ea5246b7015",
+    "sent_at": "2026-10-22T13:23:06+00:00",
+    "from": "sites@asterfieldgroup.com",
+    "to": "service@forgewastetx.com"
+  },
+  {
+    "outreach_id": "JI-H3-S2-03",
+    "kind": "gmail_sent",
+    "evidence_id": "1a163c8acb2381f4",
+    "thread_id": "1a140ea542a75f69",
+    "sent_at": "2026-10-22T13:24:18+00:00",
+    "from": "sites@asterfieldgroup.com",
+    "to": "office@bcsstx.com"
+  },
+  {
+    "outreach_id": "JI-H3-S2-04",
+    "kind": "gmail_sent",
+    "evidence_id": "1a163c96d290e2be",
+    "thread_id": "1a140ea5788fb859",
+    "sent_at": "2026-10-22T13:25:07+00:00",
+    "from": "sites@asterfieldgroup.com",
+    "to": "info@buckwaste.com"
+  },
+  {
+    "outreach_id": "JI-H3-S2-05",
+    "kind": "gmail_sent",
+    "evidence_id": "1a163ca27b4218d0",
+    "thread_id": "1a140ea5983c3dc1",
+    "sent_at": "2026-10-22T13:25:54+00:00",
+    "from": "sites@asterfieldgroup.com",
+    "to": "rollindirtydumpsters@gmail.com"
+  },
+  {
+    "outreach_id": "JI-H3-S2-07",
+    "kind": "gmail_sent",
+    "evidence_id": "1a163d0bae3d74b9",
+    "thread_id": "1a140ea609ab906b",
+    "sent_at": "2026-10-22T13:33:06+00:00",
+    "from": "sites@asterfieldgroup.com",
+    "to": "info@gssdumpsters.com"
+  },
+  {
+    "outreach_id": "JI-H3-S2-08",
+    "kind": "gmail_sent",
+    "evidence_id": "1a163d17b8fb5ce9",
+    "thread_id": "1a140ea64a055d41",
+    "sent_at": "2026-10-22T13:33:55+00:00",
+    "from": "sites@asterfieldgroup.com",
+    "to": "dennis@dwcompanies.net"
+  },
+  {
+    "outreach_id": "JI-H3-S2-09",
+    "kind": "gmail_sent",
+    "evidence_id": "1a163d246d69f738",
+    "thread_id": "1a140ea6f5af024b",
+    "sent_at": "2026-10-22T13:34:47+00:00",
+    "from": "sites@asterfieldgroup.com",
+    "to": "info@amcanservices.com"
+  }
+]

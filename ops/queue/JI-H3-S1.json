@@ -359,7 +359,7 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "construction; subject A; no yard",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r-7591257903735589396",
         "message_id": "1a1553e0a3d7ad0d",

@@ -1,0 +1,20 @@
+[
+  {
+    "outreach_id": "JI-H2-S2-17",
+    "kind": "gmail_sent",
+    "evidence_id": "1a163bf8a662bcbd",
+    "thread_id": "1a13c7b01f6e6c1a",
+    "sent_at": "2026-10-22T13:14:19+00:00",
+    "from": "sites@asterfieldgroup.com",
+    "to": "office@herculeswaste.com"
+  },
+  {
+    "outreach_id": "JI-H2-S2-18",
+    "kind": "gmail_sent",
+    "evidence_id": "1a163c08b9d3ea6b",
+    "thread_id": "1a140ea4d7a5a637",
+    "sent_at": "2026-10-22T13:15:25+00:00",
+    "from": "sites@asterfieldgroup.com",
+    "to": "luisg@essential-waste.com"
+  }
+]
