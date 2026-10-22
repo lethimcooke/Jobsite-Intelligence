@@ -134,6 +134,8 @@ PDF, set From to sites@ (Oct 14: an ASI engaged email went out from operations@)
 
 - **ji_ops plan gap (Oct 22, for ASI):** `plan` picked S2s whose S1 had not been sent yet (H4 #5-15) when `JI-H4-S2.json` was passed for Oct 23; `validate` correctly rejects them (list status, no reply_to), so nothing wrong was drafted. Until fixed, pass a follow-up queue to `plan` only once its S1s are logged and due.
 
+- **Full mailbox audit (Oct 22, 2:40 PM CT, user asked):** every non-Asterfield message in the last 10 days, all folders, read. No hauler has replied to Jobsite. Sent from sites@ to prospects: 61 messages to 36 haulers, exactly matching `data/send_ledger.csv` (Oct 14: 1, Oct 15/16/19/22: 15 each); 1 hard bounce (Dumpster in the Rough), already suppressed. The two recent replies are ASI's: Nautilus Sign (houston@, Oct 22 11:06 AM CT, asks for the free sample) and Stat Signz (dfw@, Oct 22 12:29 PM CT, "No thanks"). One stray send: Oct 21 4:18 PM CT, an ASI sign-shop email (A To Z Sign Company / Thai Tale Eatery) went out **from sites@ to the user's own address**, not to a prospect; it was not on a Jobsite manifest (looks like a sender test). Reported to the user for ASI.
+
 ## Excluded
 
 - Red Dog Dumpsters LLC (Oct 14): email domain is a Nashville, TN company; doesn't match the Houston FMCSA yard.
