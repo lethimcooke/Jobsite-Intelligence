@@ -1,6 +1,6 @@
 # H5: S1 copy (Houston)
 
-Written October 21, 2026 from `docs/Outreach_Copy_v2.md` (S1, Tier B), from `data/packet_H5.csv` (Codex research, PR 2). Pending the user's approval. Review notes: Precision Dumpsters (#2) is marked SKIP: Codex's Oct 21 recheck could not find its address on its live site. Instant Solutions (#14) was flagged by Codex for an inactive federal carrier record; its address is on its live site, so it is included; drop it if you prefer.
+Written October 21, 2026 from `docs/Outreach_Copy_v2.md` (S1, Tier B), from `data/packet_H5.csv` (Codex research, PR 2). Approved by the user Oct 22 ("approve H4 S2 and H5"). Review notes: Precision Dumpsters (#2) is marked SKIP: Codex's Oct 21 recheck could not find its address on its live site. Instant Solutions (#14) was flagged by Codex for an inactive federal carrier record; its address is on its live site, so it is included; drop it if you prefer.
 
 Differences from H1-H2, because these haulers have no published yard: the distance is from a city the hauler lists as a service area ("one of the areas you serve"), never "your yard"; every subject is arm A (site name); the TCEQ date is the record date on file, worded as such. Filed facts (authorization, date, site, address, county, operator) are from the TCEQ record, recased for reading. Job type and fit are our read.
 

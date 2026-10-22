@@ -1,6 +1,6 @@
 # JI-H4 S2 copy (Houston)
 
-Written Oct 21 from `docs/Outreach_Copy_v2.md` (S2, business day +2, same thread) for H4. Same wording as the approved H3 S2s ("in your service area": no published yard). PEM Dumpster Rentals (#8) skipped. Pending the user's approval. Each S2 sends only after its S1 is confirmed sent and only if the hauler hasn't replied or bounced.
+Written Oct 21 from `docs/Outreach_Copy_v2.md` (S2, business day +2, same thread) for H4. Same wording as the approved H3 S2s ("in your service area": no published yard). PEM Dumpster Rentals (#8) skipped. Approved by the user Oct 22 ("approve H4 S2 and H5"). Each S2 sends only after its S1 is confirmed sent and only if the hauler hasn't replied or bounced.
 
 ## 1. H4: Jon's Junk Removal LLC
 - To: junkremoval19@gmail.com

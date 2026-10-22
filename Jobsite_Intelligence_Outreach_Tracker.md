@@ -128,7 +128,7 @@ PDF, set From to sites@ (Oct 14: an ASI engaged email went out from operations@)
 - **H5/H6 recheck (Codex, Oct 21):** 28 of 30 addresses still on the haulers' live pages, all 30 with MX. Not confirmed, so skipped when H5/H6 copy is written: Precision Dumpsters LLC (H5) and Big Orange Bins (H6).
 - **DFW (research only, Oct 21):** `data/hauler_list_dfw.csv`, 7 rows, no packets. Nothing is sent to DFW without the user's decision on a second city and its sender name.
 
-- **Copy status (Oct 21):** H1/H2 S5 approved by the user ("approve"): `outreach/JI-H1_S5_Copy.md`, `outreach/JI-H2_S5_Copy.md`, due Nov 2-3. Written for approval: `outreach/JI-H4_S2_Copy.md` (14, PEM skipped; due from Oct 26) and `outreach/H5_S1_Copy.md` (14; Precision skipped; first H5 sends from Oct 27).
+- **Copy status (Oct 21):** H1/H2 S5 approved by the user ("approve"): `outreach/JI-H1_S5_Copy.md`, `outreach/JI-H2_S5_Copy.md`, due Nov 2-3. `outreach/JI-H4_S2_Copy.md` (14, PEM skipped; due from Oct 26) and `outreach/H5_S1_Copy.md` (14; Precision skipped; first H5 sends from Oct 27) approved by the user Oct 22 ("approve H4 S2 and H5"); queued as `ops/queue/JI-H4-S2.json` (link-threads after each H4 S1 is logged) and `ops/queue/JI-H5-S1.json`.
 
 ## Excluded
 
