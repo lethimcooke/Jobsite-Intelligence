@@ -1,0 +1,2296 @@
+{
+  "prepared": "2026-10-26",
+  "base_commit": "866141c",
+  "batch": "DFW1",
+  "contacts": [
+    {
+      "company": "FUSION WASTE & RECYCLING",
+      "existing": true,
+      "email": "service@fusionwaste.com",
+      "email_grade": "A",
+      "own": {
+        "url": "https://fusionwaste.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-26T14:50:19.664452+00:00",
+        "sha256": "8c7db7afa87c9e0fa4f3664837485d7f943f253acd302c2bfa72c7f397c32e91",
+        "exact_address_excerpt": "service@fusionwaste.com",
+        "publication_method": "visible text"
+      },
+      "DNS": {
+        "MX": {
+          "status": 200,
+          "fetched_at": "2026-10-26T14:50:21.077682+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "fusionwaste.com.",
+                "type": 15
+              }
+            ],
+            "Answer": [
+              {
+                "name": "fusionwaste.com.",
+                "type": 15,
+                "TTL": 3600,
+                "data": "0 fusionwaste-com.mail.protection.outlook.com."
+              }
+            ],
+            "Comment": "Response from 108.162.195.82."
+          }
+        },
+        "A": {
+          "status": 200,
+          "fetched_at": "2026-10-26T14:50:21.343033+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "fusionwaste.com.",
+                "type": 1
+              }
+            ],
+            "Answer": [
+              {
+                "name": "fusionwaste.com.",
+                "type": 1,
+                "TTL": 300,
+                "data": "162.159.135.42"
+              },
+              {
+                "name": "fusionwaste.com.",
+                "type": 1,
+                "TTL": 300,
+                "data": "162.159.134.42"
+              }
+            ],
+            "Comment": "Response from 108.162.195.82."
+          }
+        }
+      },
+      "service_area_city": "Wilmer",
+      "phone": "9726757767",
+      "services_published": "roll-off, construction, commercial, demolition, compactors, residential, 10-yd, 20-yd, 30-yd, 40-yd",
+      "areas_published": "dallas, fort worth",
+      "fleet_units_as_reported": "35",
+      "usdot": "2820694",
+      "site": {
+        "rn": "RN112543889",
+        "name": "EQT SOUTHPORT BLDG 3 AND BLDG 4",
+        "street": "1600 SOUTHPORT ROAD",
+        "city": "WILMER",
+        "county": "DALLAS",
+        "priority_our_read": "1",
+        "authorization": "TXR1512ZR",
+        "authorization_status": "ACTIVE",
+        "affiliation_begin_date": "2026-10-07",
+        "business_on_file": "ARCO DESIGN BUILD SOUTHWEST",
+        "source": {
+          "url": "https://data.texas.gov/resource/t34q-qzi3.json?%24where=program_code%3D%27STORM%27+AND+affil_begin_dt+%3E%3D+%272026-09-26%27&%24limit=10000",
+          "fetched_at": "2026-10-26T14:53:37.528780+00:00",
+          "sha256": "2acf4f0d941b7b8d844135aeca34755130333e425729d9e72bb21c45ba272734",
+          "method": "individual RN public lookup plus fresh regional pull",
+          "individual_lookup": {
+            "url": "https://data.texas.gov/resource/t34q-qzi3.json?ref_num_txt=RN112543889&program_code=STORM",
+            "status": 200,
+            "fetched_at": "2026-10-26T14:59:42.770585+00:00",
+            "body_sha256": "5c4b19ebdf7eadafd5698d8a5c20ef0546e4c68813e5552de2fcd70bb6b1fcd9"
+          }
+        }
+      },
+      "limits": "Operating yard not independently verified; service-city reference only; no distance estimate. Date is affiliation-begin date, not verified original authorization issuance.",
+      "fleet_source": {
+        "url": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=2820694",
+        "http_status": 200,
+        "fetched_at": "2026-10-26T15:06:45.702399+00:00",
+        "sha256": "864147741ee48b0f841b3b4230a9c2493af56e151b316d65cca914788afa9081",
+        "power_units_as_reported": "35"
+      },
+      "services_sources": [
+        {
+          "url": "https://fusionwaste.com/",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:50:19.664452+00:00",
+          "sha256": "8c7db7afa87c9e0fa4f3664837485d7f943f253acd302c2bfa72c7f397c32e91"
+        },
+        {
+          "url": "https://fusionwaste.com/about-us/",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:50:20.309774+00:00",
+          "sha256": "ac964138ad1e7fc3633d852c4ac17bb686c689826685980b42600767fd6cdd08"
+        },
+        {
+          "url": "https://fusionwaste.com/contact-us/",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:50:20.703877+00:00",
+          "sha256": "dacf27d3e7e09b086c47b0a9766a2f9be097f770cd651c01db4a8396b3cce48b"
+        }
+      ]
+    },
+    {
+      "company": "RED RIVER ROLL OFFS",
+      "existing": true,
+      "email": "admin@redriverrolloffs.com",
+      "email_grade": "A",
+      "own": {
+        "url": "https://redriverrolloffs.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-26T14:50:19.665065+00:00",
+        "sha256": "3c39fac63c8ff4361f44b038c758e6af31537406e1c2c2e1b804792858463fa6",
+        "exact_address_excerpt": "admin@redriverrolloffs.com",
+        "publication_method": "visible text"
+      },
+      "DNS": {
+        "MX": {
+          "status": 200,
+          "fetched_at": "2026-10-26T14:50:25.281648+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "redriverrolloffs.com.",
+                "type": 15
+              }
+            ],
+            "Answer": [
+              {
+                "name": "redriverrolloffs.com.",
+                "type": 15,
+                "TTL": 3600,
+                "data": "0 redriverrolloffs-com.mail.protection.outlook.com."
+              }
+            ],
+            "Comment": "Response from 97.74.108.49."
+          }
+        },
+        "A": {
+          "status": 200,
+          "fetched_at": "2026-10-26T14:50:25.549914+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "redriverrolloffs.com.",
+                "type": 1
+              }
+            ],
+            "Answer": [
+              {
+                "name": "redriverrolloffs.com.",
+                "type": 1,
+                "TTL": 600,
+                "data": "82.29.156.143"
+              }
+            ],
+            "Comment": "Response from 173.201.76.49."
+          }
+        }
+      },
+      "service_area_city": "Celina",
+      "phone": "9033288847",
+      "services_published": "roll-off, construction, commercial, demolition, residential",
+      "areas_published": "Grayson, Collin, Cooke, Fannin and Denton counties; Celina and Prosper listed",
+      "fleet_units_as_reported": "8",
+      "usdot": "3734293",
+      "site": {
+        "rn": "RN112540372",
+        "name": "7-ELEVEN 42828",
+        "street": "1215 E FRONTIER PKWY",
+        "city": "CELINA",
+        "county": "COLLIN",
+        "priority_our_read": "1",
+        "authorization": "TXR1577ZP",
+        "authorization_status": "ACTIVE",
+        "affiliation_begin_date": "2026-10-01",
+        "business_on_file": "SCHAFFER CONSTRUCTION LLC",
+        "source": {
+          "url": "https://data.texas.gov/resource/t34q-qzi3.json?%24where=program_code%3D%27STORM%27+AND+affil_begin_dt+%3E%3D+%272026-09-26%27&%24limit=10000",
+          "fetched_at": "2026-10-26T14:53:37.528780+00:00",
+          "sha256": "2acf4f0d941b7b8d844135aeca34755130333e425729d9e72bb21c45ba272734",
+          "method": "individual RN public lookup plus fresh regional pull",
+          "individual_lookup": {
+            "url": "https://data.texas.gov/resource/t34q-qzi3.json?ref_num_txt=RN112540372&program_code=STORM",
+            "status": 200,
+            "fetched_at": "2026-10-26T14:59:57.400293+00:00",
+            "body_sha256": "4ec4b525148713f6bf91c46f45c991f86c3339c66eacd155d8eaf8864b0c65ff"
+          }
+        }
+      },
+      "limits": "Operating yard not independently verified; service-city reference only; no distance estimate. Date is affiliation-begin date, not verified original authorization issuance.",
+      "fleet_source": {
+        "url": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=3734293",
+        "http_status": 200,
+        "fetched_at": "2026-10-26T15:06:45.702974+00:00",
+        "sha256": "850109b7370588ebb66b6479a90025ee3ea06a46c16183f1eb783059313c0796",
+        "power_units_as_reported": "8"
+      },
+      "services_sources": [
+        {
+          "url": "https://redriverrolloffs.com/",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:50:19.665065+00:00",
+          "sha256": "3c39fac63c8ff4361f44b038c758e6af31537406e1c2c2e1b804792858463fa6"
+        },
+        {
+          "url": "https://redriverrolloffs.com/about-us/",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:50:22.359439+00:00",
+          "sha256": "2e106a1d4e6e9ce776ac56430d9dada3ed9111cb0fa8262e3315e671fd9d2bf2"
+        },
+        {
+          "url": "https://redriverrolloffs.com/contact/",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:50:23.073893+00:00",
+          "sha256": "c512720b599f9437b4156b09f0d3d0fa3388def9dafa1022cf90cb0695e68026"
+        },
+        {
+          "url": "https://redriverrolloffs.com/about-us/",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:50:24.041282+00:00",
+          "sha256": "2e106a1d4e6e9ce776ac56430d9dada3ed9111cb0fa8262e3315e671fd9d2bf2"
+        },
+        {
+          "url": "https://redriverrolloffs.com/contact/",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:50:24.909246+00:00",
+          "sha256": "c512720b599f9437b4156b09f0d3d0fa3388def9dafa1022cf90cb0695e68026"
+        }
+      ]
+    },
+    {
+      "company": "DISCOUNT DUMPSTERS",
+      "existing": true,
+      "email": "office@discountdumpstersdfw.com",
+      "email_grade": "A",
+      "own": {
+        "url": "https://www.discountdumpstersdfw.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-26T14:50:19.666557+00:00",
+        "sha256": "a01d7c4d092565613f1a6f9c73ef0c8d6bd23309a2a15e22d06fc76c9056c8b2",
+        "exact_address_excerpt": "office@discountdumpstersdfw.com",
+        "publication_method": "visible text"
+      },
+      "DNS": {
+        "MX": {
+          "status": 200,
+          "fetched_at": "2026-10-26T14:50:21.069821+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "discountdumpstersdfw.com.",
+                "type": 15
+              }
+            ],
+            "Answer": [
+              {
+                "name": "discountdumpstersdfw.com.",
+                "type": 15,
+                "TTL": 3600,
+                "data": "0 discountdumpstersdfw-com.mail.protection.outlook.com."
+              }
+            ],
+            "Comment": "Response from 173.201.71.44."
+          }
+        },
+        "A": {
+          "status": 200,
+          "fetched_at": "2026-10-26T14:50:21.407062+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "discountdumpstersdfw.com.",
+                "type": 1
+              }
+            ],
+            "Answer": [
+              {
+                "name": "discountdumpstersdfw.com.",
+                "type": 1,
+                "TTL": 3600,
+                "data": "34.63.252.208"
+              }
+            ],
+            "Comment": "Response from 173.201.71.44."
+          }
+        }
+      },
+      "service_area_city": "Wylie",
+      "phone": "9729003867",
+      "services_published": "roll-off, construction, commercial, demolition, 40-yd",
+      "areas_published": "Greater DFW metroplex",
+      "fleet_units_as_reported": "4",
+      "usdot": "3175833",
+      "site": {
+        "rn": "RN112543590",
+        "name": "AGAPE BAPTIST CHURCH",
+        "street": "1540 BLACKBURN RD",
+        "city": "SACHSE",
+        "county": "DALLAS",
+        "priority_our_read": "1",
+        "authorization": "TXR1506ZR",
+        "authorization_status": "ACTIVE",
+        "affiliation_begin_date": "2026-10-06",
+        "business_on_file": "FORT CONSTRUCTION LP",
+        "source": {
+          "url": "https://data.texas.gov/resource/t34q-qzi3.json?%24where=program_code%3D%27STORM%27+AND+affil_begin_dt+%3E%3D+%272026-09-26%27&%24limit=10000",
+          "fetched_at": "2026-10-26T14:53:37.528780+00:00",
+          "sha256": "2acf4f0d941b7b8d844135aeca34755130333e425729d9e72bb21c45ba272734",
+          "method": "fresh successful regional pull, exact record extracted locally; individual RN endpoint unavailable or not used",
+          "individual_lookup": {
+            "url": "https://data.texas.gov/resource/t34q-qzi3.json?ref_num_txt=RN112543590&program_code=STORM",
+            "status": 503,
+            "fetched_at": "2026-10-26T14:59:47.961252+00:00",
+            "body_sha256": "2f85832e31ca57711e6107af6b142363351ae516adb71c69afc643fac26be7f6"
+          }
+        }
+      },
+      "limits": "Operating yard not independently verified; service-city reference only; no distance estimate. Date is affiliation-begin date, not verified original authorization issuance.",
+      "fleet_source": {
+        "url": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=3175833",
+        "http_status": 200,
+        "fetched_at": "2026-10-26T15:06:45.705843+00:00",
+        "sha256": "f958a999ca855ff16bc5c40c59ce5763fef9bfb78508a97c344b4d88d61ff39b",
+        "power_units_as_reported": "4"
+      },
+      "services_sources": [
+        {
+          "url": "https://www.discountdumpstersdfw.com/",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:50:19.666557+00:00",
+          "sha256": "a01d7c4d092565613f1a6f9c73ef0c8d6bd23309a2a15e22d06fc76c9056c8b2"
+        }
+      ]
+    },
+    {
+      "company": "WEONIT WASTE & RECYCLE LLC",
+      "existing": true,
+      "email": "g.mccurry@weonit.net",
+      "email_grade": "A",
+      "own": {
+        "url": "https://weonit.net/",
+        "http_status": 200,
+        "fetched_at": "2026-10-26T14:50:21.519590+00:00",
+        "sha256": "395084c3b10b82e4fd049d0f09d3074648929ac54497aefff67badf556e14640",
+        "exact_address_excerpt": "g.mccurry@weonit.net",
+        "publication_method": "published structured-data email"
+      },
+      "DNS": {
+        "MX": {
+          "status": 200,
+          "fetched_at": "2026-10-26T14:50:24.000276+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "weonit.net.",
+                "type": 15
+              }
+            ],
+            "Answer": [
+              {
+                "name": "weonit.net.",
+                "type": 15,
+                "TTL": 300,
+                "data": "0 smtp.google.com."
+              }
+            ],
+            "Comment": "Response from 173.245.59.58."
+          }
+        },
+        "A": {
+          "status": 200,
+          "fetched_at": "2026-10-26T14:50:24.153193+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "weonit.net.",
+                "type": 1
+              }
+            ],
+            "Answer": [
+              {
+                "name": "weonit.net.",
+                "type": 1,
+                "TTL": 300,
+                "data": "104.21.64.93"
+              },
+              {
+                "name": "weonit.net.",
+                "type": 1,
+                "TTL": 300,
+                "data": "172.67.180.141"
+              }
+            ],
+            "Comment": "Response from 173.245.59.58."
+          }
+        }
+      },
+      "service_area_city": "Dallas",
+      "phone": "4695011331",
+      "services_published": "roll-off, construction, commercial, demolition, residential, 10-yd, 20-yd, 30-yd, 40-yd",
+      "areas_published": "dallas, plano, arlington",
+      "fleet_units_as_reported": "2",
+      "usdot": "3592294",
+      "site": {
+        "rn": "RN102990561",
+        "name": "PRESBYTERIAN VILLAGE NORTH",
+        "street": "8600 SKYLINE DR",
+        "city": "DALLAS",
+        "county": "DALLAS",
+        "priority_our_read": "1",
+        "authorization": "TXR1541ZT",
+        "authorization_status": "ACTIVE",
+        "affiliation_begin_date": "2026-10-15",
+        "business_on_file": "PARIC LLC",
+        "source": {
+          "url": "https://data.texas.gov/resource/t34q-qzi3.json?%24where=program_code%3D%27STORM%27+AND+affil_begin_dt+%3E%3D+%272026-09-26%27&%24limit=10000",
+          "fetched_at": "2026-10-26T14:53:37.528780+00:00",
+          "sha256": "2acf4f0d941b7b8d844135aeca34755130333e425729d9e72bb21c45ba272734",
+          "method": "fresh successful regional pull, exact record extracted locally; individual RN endpoint unavailable or not used",
+          "individual_lookup": {
+            "url": "https://data.texas.gov/resource/t34q-qzi3.json?ref_num_txt=RN102990561&program_code=STORM",
+            "status": 503,
+            "fetched_at": "2026-10-26T14:59:37.387859+00:00",
+            "body_sha256": "2f85832e31ca57711e6107af6b142363351ae516adb71c69afc643fac26be7f6"
+          }
+        }
+      },
+      "limits": "Operating yard not independently verified; service-city reference only; no distance estimate. Date is affiliation-begin date, not verified original authorization issuance.",
+      "fleet_source": {
+        "url": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=3592294",
+        "http_status": 200,
+        "fetched_at": "2026-10-26T15:06:46.262290+00:00",
+        "sha256": "1b0bc3d4c85cd3ba5f4b2c20d8fc553c90f4ab34519b6b247680cd6c39a61f9b",
+        "power_units_as_reported": "2"
+      },
+      "services_sources": [
+        {
+          "url": "https://weonit.net/",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:50:21.519590+00:00",
+          "sha256": "395084c3b10b82e4fd049d0f09d3074648929ac54497aefff67badf556e14640"
+        },
+        {
+          "url": "https://weonit.net/contact-us",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:50:22.119413+00:00",
+          "sha256": "10db2a2913cac9f944c733c0de8d430f668ed56b265820eca675ce83195987b0"
+        },
+        {
+          "url": "https://weonit.net/about-us/top-recycling-dumpster-rental-services-in-dfw-6462748",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:50:22.616614+00:00",
+          "sha256": "49b9a36365c01cd1db87a7d98b799335a0d9f8e15983d5a1083edf4ca9b91bdc"
+        },
+        {
+          "url": "https://weonit.net/about-us/delivering-quality-waste-management-solutions-6462749",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:50:23.108288+00:00",
+          "sha256": "e445df05e2848a3276c1c1d99f91b9c4fb33bde333f487ff27b66284a538b33d"
+        },
+        {
+          "url": "https://weonit.net/about-us/your-partner-in-waste-management-6462750",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:50:23.637602+00:00",
+          "sha256": "fbed948425ade8cdf541f68254ce60154675202716fbda4159caa29d6a9c3dc9"
+        }
+      ]
+    },
+    {
+      "company": "HART WASTE REMOVAL",
+      "existing": true,
+      "email": "info@hartwasteremoval.com",
+      "email_grade": "A",
+      "own": {
+        "url": "https://www.hartwasteremoval.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-26T14:50:21.764402+00:00",
+        "sha256": "d15907e458f78122ac66fe54778a457cc399179726dbdeb9500d0fb17538a84c",
+        "exact_address_excerpt": "info@hartwasteremoval.com",
+        "publication_method": "published structured-data email"
+      },
+      "DNS": {
+        "MX": {
+          "status": 200,
+          "fetched_at": "2026-10-26T14:50:24.018743+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "hartwasteremoval.com.",
+                "type": 15
+              }
+            ],
+            "Answer": [
+              {
+                "name": "hartwasteremoval.com.",
+                "type": 15,
+                "TTL": 3600,
+                "data": "0 hartwasteremoval-com.mail.protection.outlook.com."
+              }
+            ],
+            "Comment": "Response from 97.74.106.7."
+          }
+        },
+        "A": {
+          "status": 200,
+          "fetched_at": "2026-10-26T14:50:24.351028+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "hartwasteremoval.com.",
+                "type": 1
+              }
+            ],
+            "Answer": [
+              {
+                "name": "hartwasteremoval.com.",
+                "type": 1,
+                "TTL": 3600,
+                "data": "141.193.213.11"
+              },
+              {
+                "name": "hartwasteremoval.com.",
+                "type": 1,
+                "TTL": 3600,
+                "data": "141.193.213.10"
+              }
+            ],
+            "Comment": "Response from 173.201.74.7."
+          }
+        }
+      },
+      "service_area_city": "Mesquite",
+      "phone": "2146600081",
+      "services_published": "roll-off, construction, commercial, residential, 10-yd, 15-yd, 20-yd, 30-yd",
+      "areas_published": "dallas, fort worth",
+      "fleet_units_as_reported": "3",
+      "usdot": "3617390",
+      "site": {
+        "rn": "RN112537766",
+        "name": "PROPOSED SELF-STORAGE FACILITY",
+        "street": "5201 NORTHWEST DRIVE",
+        "city": "MESQUITE",
+        "county": "DALLAS",
+        "priority_our_read": "1",
+        "authorization": "TXR1549ZO",
+        "authorization_status": "ACTIVE",
+        "affiliation_begin_date": "2026-09-28",
+        "business_on_file": "RELIABLE PAVING INC",
+        "source": {
+          "url": "https://data.texas.gov/resource/t34q-qzi3.json?%24where=program_code%3D%27STORM%27+AND+affil_begin_dt+%3E%3D+%272026-09-26%27&%24limit=10000",
+          "fetched_at": "2026-10-26T14:53:37.528780+00:00",
+          "sha256": "2acf4f0d941b7b8d844135aeca34755130333e425729d9e72bb21c45ba272734",
+          "method": "fresh successful regional pull, exact record extracted locally; individual RN endpoint unavailable or not used",
+          "individual_lookup": {
+            "url": "https://data.texas.gov/resource/t34q-qzi3.json?ref_num_txt=RN112537766&program_code=STORM",
+            "status": 503,
+            "fetched_at": "2026-10-26T14:59:58.434860+00:00",
+            "body_sha256": "2f85832e31ca57711e6107af6b142363351ae516adb71c69afc643fac26be7f6"
+          }
+        }
+      },
+      "limits": "Operating yard not independently verified; service-city reference only; no distance estimate. Date is affiliation-begin date, not verified original authorization issuance.",
+      "fleet_source": {
+        "url": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=3617390",
+        "http_status": 200,
+        "fetched_at": "2026-10-26T15:06:46.267637+00:00",
+        "sha256": "d9ff1db844be63794cb9100d87eeaaed94edb75b5b3a66520ccba1ae54ad1f8d",
+        "power_units_as_reported": "3"
+      },
+      "services_sources": [
+        {
+          "url": "https://www.hartwasteremoval.com/",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:50:21.764402+00:00",
+          "sha256": "d15907e458f78122ac66fe54778a457cc399179726dbdeb9500d0fb17538a84c"
+        },
+        {
+          "url": "https://www.hartwasteremoval.com/service-area/",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:50:22.598858+00:00",
+          "sha256": "33d75f1b401b1364db13eb1fab55cd28cfc03cc4c9c6a408bdc455489c216b3d"
+        },
+        {
+          "url": "https://www.hartwasteremoval.com/service-area/dallas/",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:50:22.935712+00:00",
+          "sha256": "56c87bf533d8d305a89048f9d54255ceaeb0139bbda6c82cffb4865db4cc97fe"
+        },
+        {
+          "url": "https://www.hartwasteremoval.com/service-area/north-dallas/",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:50:23.231853+00:00",
+          "sha256": "82282f974222d571a93cdebe963a3245b205d53339cc3a16c87825a703374af8"
+        },
+        {
+          "url": "https://www.hartwasteremoval.com/service-area/east-dallas/",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:50:23.533414+00:00",
+          "sha256": "7c007452219d0ea95c1561814d4967e2452efe33ba540ef48b611e5656981b3d"
+        }
+      ]
+    },
+    {
+      "company": "BLUE STAR DUMPSTERS LLC",
+      "existing": true,
+      "email": "info@bluestardumpsters.com",
+      "email_grade": "A",
+      "own": {
+        "url": "https://bluestardumpsters.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-26T14:50:24.572315+00:00",
+        "sha256": "02aad070536fc2e2181f72d30e87cde3d031ddddb7e844961697895544f2e843",
+        "exact_address_excerpt": "info@bluestardumpsters.com",
+        "publication_method": "mailto"
+      },
+      "DNS": {
+        "MX": {
+          "status": 200,
+          "fetched_at": "2026-10-26T14:50:26.923342+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "bluestardumpsters.com.",
+                "type": 15
+              }
+            ],
+            "Answer": [
+              {
+                "name": "bluestardumpsters.com.",
+                "type": 15,
+                "TTL": 3600,
+                "data": "0 bluestardumpsters-com.mail.protection.outlook.com."
+              }
+            ],
+            "Comment": "Response from 173.201.73.16."
+          }
+        },
+        "A": {
+          "status": 200,
+          "fetched_at": "2026-10-26T14:50:27.101676+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "bluestardumpsters.com.",
+                "type": 1
+              }
+            ],
+            "Answer": [
+              {
+                "name": "bluestardumpsters.com.",
+                "type": 1,
+                "TTL": 1800,
+                "data": "162.159.135.42"
+              }
+            ],
+            "Comment": "Response from 97.74.105.16."
+          }
+        }
+      },
+      "service_area_city": "Irving",
+      "phone": "2144951510",
+      "services_published": "roll-off, construction, commercial, residential, 20-yd, 30-yd",
+      "areas_published": "dallas, fort worth, arlington",
+      "fleet_units_as_reported": "2",
+      "usdot": "3370411",
+      "site": {
+        "rn": "RN112539911",
+        "name": "4955 ROCHELLE",
+        "street": "4995 W ROCHELLE RD",
+        "city": "IRVING",
+        "county": "DALLAS",
+        "priority_our_read": "1",
+        "authorization": "TXR1558ZP",
+        "authorization_status": "ACTIVE",
+        "affiliation_begin_date": "2026-10-01",
+        "business_on_file": "ALLIANCE INDUSTRIAL BUILDERS LP",
+        "source": {
+          "url": "https://data.texas.gov/resource/t34q-qzi3.json?%24where=program_code%3D%27STORM%27+AND+affil_begin_dt+%3E%3D+%272026-09-26%27&%24limit=10000",
+          "fetched_at": "2026-10-26T14:53:37.528780+00:00",
+          "sha256": "2acf4f0d941b7b8d844135aeca34755130333e425729d9e72bb21c45ba272734",
+          "method": "fresh successful regional pull, exact record extracted locally; individual RN endpoint unavailable or not used",
+          "individual_lookup": {
+            "url": "https://data.texas.gov/resource/t34q-qzi3.json?ref_num_txt=RN112539911&program_code=STORM",
+            "status": 503,
+            "fetched_at": "2026-10-26T14:59:58.339226+00:00",
+            "body_sha256": "2f85832e31ca57711e6107af6b142363351ae516adb71c69afc643fac26be7f6"
+          }
+        }
+      },
+      "limits": "Operating yard not independently verified; service-city reference only; no distance estimate. Date is affiliation-begin date, not verified original authorization issuance. Filed site label says 4955 ROCHELLE; street address says 4995 W ROCHELLE RD. Filed street retained; exact entrance/address discrepancy unresolved.",
+      "fleet_source": {
+        "url": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=3370411",
+        "http_status": 200,
+        "fetched_at": "2026-10-26T15:06:46.743817+00:00",
+        "sha256": "0177ad029f05bd9af7df9678fcdb93fde56b2f7ba114d9ba53b5b17085a42860",
+        "power_units_as_reported": "2"
+      },
+      "services_sources": [
+        {
+          "url": "https://bluestardumpsters.com/",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:50:24.572315+00:00",
+          "sha256": "02aad070536fc2e2181f72d30e87cde3d031ddddb7e844961697895544f2e843"
+        },
+        {
+          "url": "https://bluestardumpsters.com/about/",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:50:25.220099+00:00",
+          "sha256": "3a5ae5a3c1eb7b9db96c4ba8be1f39ecbc0eaba7453ec1a4aa854d023efd3b4c"
+        },
+        {
+          "url": "https://bluestardumpsters.com/contact/",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:50:26.278456+00:00",
+          "sha256": "9b4372f46f68d4271a28723201d8cd55ca0be68ccb281a07121b6273d96ab631"
+        }
+      ]
+    },
+    {
+      "company": "Delta Solid Waste Management LLC",
+      "existing": false,
+      "email": "info@deltawasteservices.com",
+      "email_grade": "A",
+      "own": {
+        "url": "https://deltawasteservices.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-26T14:52:50.385348+00:00",
+        "sha256": "893d207b90b732c89caf678c98ce44ee07a63e95ed319a791ba3a0066cb54559",
+        "exact_address_excerpt": "info@deltawasteservices.com",
+        "publication_method": "visible text"
+      },
+      "DNS": {
+        "MX": {
+          "status": 200,
+          "fetched_at": "2026-10-26T14:52:52.235691+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "deltawasteservices.com.",
+                "type": 15
+              }
+            ],
+            "Answer": [
+              {
+                "name": "deltawasteservices.com.",
+                "type": 15,
+                "TTL": 14400,
+                "data": "10 alt3.aspmx.l.google.com."
+              },
+              {
+                "name": "deltawasteservices.com.",
+                "type": 15,
+                "TTL": 14400,
+                "data": "5 alt1.aspmx.l.google.com."
+              },
+              {
+                "name": "deltawasteservices.com.",
+                "type": 15,
+                "TTL": 14400,
+                "data": "10 alt4.aspmx.l.google.com."
+              },
+              {
+                "name": "deltawasteservices.com.",
+                "type": 15,
+                "TTL": 14400,
+                "data": "5 alt2.aspmx.l.google.com."
+              },
+              {
+                "name": "deltawasteservices.com.",
+                "type": 15,
+                "TTL": 14400,
+                "data": "1 aspmx.l.google.com."
+              }
+            ],
+            "Comment": "Response from 198.51.45.7."
+          }
+        },
+        "A": {
+          "status": 200,
+          "fetched_at": "2026-10-26T14:52:52.532147+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "deltawasteservices.com.",
+                "type": 1
+              }
+            ],
+            "Answer": [
+              {
+                "name": "deltawasteservices.com.",
+                "type": 1,
+                "TTL": 14400,
+                "data": "151.101.2.159"
+              }
+            ],
+            "Comment": "Response from 45.54.22.129."
+          }
+        }
+      },
+      "service_area_city": "Dallas",
+      "phone": "9728777798",
+      "services_published": "roll-off, construction, commercial, 10-yd, 15-yd, 20-yd, 30-yd, 40-yd",
+      "areas_published": "DFW metroplex and North Texas",
+      "fleet_units_as_reported": "4",
+      "usdot": "1959742",
+      "site": {
+        "rn": "RN112542428",
+        "name": "ANNA BUZZ CENTER",
+        "street": "1005 S POWELL PKWY",
+        "city": "ANNA",
+        "county": "COLLIN",
+        "priority_our_read": "1",
+        "authorization": "TXR1563ZQ",
+        "authorization_status": "ACTIVE",
+        "affiliation_begin_date": "2026-10-06",
+        "business_on_file": "PVB CONTRACTING LLC",
+        "source": {
+          "url": "https://data.texas.gov/resource/t34q-qzi3.json?%24where=program_code%3D%27STORM%27+AND+affil_begin_dt+%3E%3D+%272026-09-26%27&%24limit=10000",
+          "fetched_at": "2026-10-26T14:53:37.528780+00:00",
+          "sha256": "2acf4f0d941b7b8d844135aeca34755130333e425729d9e72bb21c45ba272734",
+          "method": "fresh successful regional pull, exact record extracted locally; individual RN endpoint unavailable or not used",
+          "individual_lookup": {
+            "url": "https://data.texas.gov/resource/t34q-qzi3.json?ref_num_txt=RN112542428&program_code=STORM",
+            "status": 503,
+            "fetched_at": "2026-10-26T14:59:47.475301+00:00",
+            "body_sha256": "2f85832e31ca57711e6107af6b142363351ae516adb71c69afc643fac26be7f6"
+          }
+        }
+      },
+      "limits": "Operating yard not independently verified; service-city reference only; no distance estimate. Date is affiliation-begin date, not verified original authorization issuance.",
+      "fleet_source": {
+        "url": "https://data.transportation.gov/resource/az4n-8mr2.json?%24where=upper%28legal_name%29+like+%27%25DELTA+SOLID+WASTE%25%27&%24limit=100",
+        "http_status": 200,
+        "fetched_at": "2026-10-26T14:57:19.403654+00:00",
+        "sha256": "5fce77ea435bff2b596025c4cdef4b7f229f70e045957022e0433a00822e4295",
+        "power_units_as_reported": "4"
+      },
+      "services_sources": [
+        {
+          "url": "https://deltawasteservices.com/",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:52:50.385348+00:00",
+          "sha256": "893d207b90b732c89caf678c98ce44ee07a63e95ed319a791ba3a0066cb54559"
+        },
+        {
+          "url": "https://deltawasteservices.com/about-us/",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:52:51.016599+00:00",
+          "sha256": "97cea91094d5d7f6ac56208302907ef0c870bd301d01e1ab5fe7dacb7cccc72f"
+        },
+        {
+          "url": "https://deltawasteservices.com/service-areas/",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:52:51.401044+00:00",
+          "sha256": "dcd168f1763f2c46333bc4c58830ef3db66a447b5c7a89c9824bf5f347ee3327"
+        },
+        {
+          "url": "https://deltawasteservices.com/contact/",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:52:51.777129+00:00",
+          "sha256": "a2db09b07b6686805505166c1a173fd76fe9510119e359a3c8d3cafb0b1676fc"
+        }
+      ]
+    },
+    {
+      "company": "EnviroHauling Services",
+      "existing": false,
+      "email": "info@envirohauling.com",
+      "email_grade": "A",
+      "own": {
+        "url": "https://envirohauling.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-26T14:52:57.012930+00:00",
+        "sha256": "000cf96a8a0b93f9939c78395b1fd4e483abb3e1beed72b29eefcb771188ebf2",
+        "exact_address_excerpt": "info@envirohauling.com",
+        "publication_method": "visible text"
+      },
+      "DNS": {
+        "MX": {
+          "status": 200,
+          "fetched_at": "2026-10-26T14:52:59.206949+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "envirohauling.com.",
+                "type": 15
+              }
+            ],
+            "Answer": [
+              {
+                "name": "envirohauling.com.",
+                "type": 15,
+                "TTL": 14400,
+                "data": "5 alt1.aspmx.l.google.com."
+              },
+              {
+                "name": "envirohauling.com.",
+                "type": 15,
+                "TTL": 14400,
+                "data": "5 alt2.aspmx.l.google.com."
+              },
+              {
+                "name": "envirohauling.com.",
+                "type": 15,
+                "TTL": 14400,
+                "data": "1 aspmx.l.google.com."
+              },
+              {
+                "name": "envirohauling.com.",
+                "type": 15,
+                "TTL": 14400,
+                "data": "10 alt3.aspmx.l.google.com."
+              },
+              {
+                "name": "envirohauling.com.",
+                "type": 15,
+                "TTL": 14400,
+                "data": "10 alt4.aspmx.l.google.com."
+              }
+            ],
+            "Comment": "Response from 162.159.24.80."
+          }
+        },
+        "A": {
+          "status": 200,
+          "fetched_at": "2026-10-26T14:52:59.378759+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "envirohauling.com.",
+                "type": 1
+              }
+            ],
+            "Answer": [
+              {
+                "name": "envirohauling.com.",
+                "type": 1,
+                "TTL": 1800,
+                "data": "216.150.1.1"
+              }
+            ],
+            "Comment": "Response from 162.159.25.175."
+          }
+        }
+      },
+      "service_area_city": "Justin",
+      "phone": "8173684210",
+      "services_published": "roll-off, construction, commercial, compactors, 15-yd, 20-yd, 30-yd, 40-yd",
+      "areas_published": "Justin, Fort Worth and all DFW",
+      "fleet_units_as_reported": "8",
+      "usdot": "4016265",
+      "site": {
+        "rn": "RN112506712",
+        "name": "CHILIS GRILL & BAR - LITTLE ELM 1698",
+        "street": "26580 E UNIVERSITY DR",
+        "city": "LITTLE ELM",
+        "county": "DENTON",
+        "priority_our_read": "1",
+        "authorization": "TXR1515ZU",
+        "authorization_status": "ACTIVE",
+        "affiliation_begin_date": "2026-10-19",
+        "business_on_file": "VENTURE CONSTRUCTION COMPANY",
+        "source": {
+          "url": "https://data.texas.gov/resource/t34q-qzi3.json?%24where=program_code%3D%27STORM%27+AND+affil_begin_dt+%3E%3D+%272026-09-26%27&%24limit=10000",
+          "fetched_at": "2026-10-26T14:53:37.528780+00:00",
+          "sha256": "2acf4f0d941b7b8d844135aeca34755130333e425729d9e72bb21c45ba272734",
+          "method": "fresh successful regional pull, exact record extracted locally; individual RN endpoint unavailable or not used",
+          "individual_lookup": {
+            "url": "https://data.texas.gov/resource/t34q-qzi3.json?ref_num_txt=RN112506712&program_code=STORM",
+            "status": 503,
+            "fetched_at": "2026-10-26T14:59:37.386765+00:00",
+            "body_sha256": "2f85832e31ca57711e6107af6b142363351ae516adb71c69afc643fac26be7f6"
+          }
+        }
+      },
+      "limits": "Operating yard not independently verified; service-city reference only; no distance estimate. Date is affiliation-begin date, not verified original authorization issuance. Similar-name Houston Renegade account reviewed: different USDOT, domain, phone and city; no shared named officer found in compared public records.",
+      "fleet_source": {
+        "url": "https://data.transportation.gov/resource/az4n-8mr2.json?%24where=dot_number%3D4016265&%24limit=100",
+        "http_status": 200,
+        "fetched_at": "2026-10-26T14:57:15.021528+00:00",
+        "sha256": "27e85e2ae5ede11c6a49b0ae4eaeb87c97c74930bdb283c4a627d50f629c996e",
+        "power_units_as_reported": "8"
+      },
+      "services_sources": [
+        {
+          "url": "https://envirohauling.com/",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:52:57.012930+00:00",
+          "sha256": "000cf96a8a0b93f9939c78395b1fd4e483abb3e1beed72b29eefcb771188ebf2"
+        },
+        {
+          "url": "https://envirohauling.com/service-areas/",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:52:57.665998+00:00",
+          "sha256": "9131dbbec3ef8887b556f37fa69f01cdd15de7340bdeb31ee3183839dfaa9d07"
+        },
+        {
+          "url": "https://envirohauling.com/service-areas/justin-tx/",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:52:58.041079+00:00",
+          "sha256": "46631c1abf6fa60da29dcd7feda5eba497a128e7cc748b837463c93beab849df"
+        },
+        {
+          "url": "https://envirohauling.com/service-areas/fort-worth-tx/",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:52:58.479311+00:00",
+          "sha256": "3e41a51bf2b338c221f504e0a7c370784db202b38387fdcb9c982f7685eedbd1"
+        },
+        {
+          "url": "https://envirohauling.com/service-areas/alliance-tx/",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:52:58.862773+00:00",
+          "sha256": "512cfb75ae58500111dbe2057bb1fc3cd6b19b1e6bb4c17bde662a16364492cb"
+        }
+      ]
+    },
+    {
+      "company": "HD Waste & Recycling",
+      "existing": false,
+      "email": "service@hdwastetx.com",
+      "email_grade": "A",
+      "own": {
+        "url": "https://hdwastetx.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-26T14:52:51.010216+00:00",
+        "sha256": "3d1aaf0a77e77e3ea724f04d060d00504b239006399974f17332a1c8bdac97ce",
+        "exact_address_excerpt": "service@hdwastetx.com",
+        "publication_method": "visible text"
+      },
+      "DNS": {
+        "MX": {
+          "status": 200,
+          "fetched_at": "2026-10-26T14:53:05.655108+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "hdwastetx.com.",
+                "type": 15
+              }
+            ],
+            "Answer": [
+              {
+                "name": "hdwastetx.com.",
+                "type": 15,
+                "TTL": 14400,
+                "data": "10 d121370b.ess.barracudanetworks.com."
+              },
+              {
+                "name": "hdwastetx.com.",
+                "type": 15,
+                "TTL": 14400,
+                "data": "0 d121370a.ess.barracudanetworks.com."
+              }
+            ],
+            "Comment": "Response from 72.249.143.60."
+          }
+        },
+        "A": {
+          "status": 200,
+          "fetched_at": "2026-10-26T14:53:05.804842+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "hdwastetx.com.",
+                "type": 1
+              }
+            ],
+            "Answer": [
+              {
+                "name": "hdwastetx.com.",
+                "type": 1,
+                "TTL": 14400,
+                "data": "72.249.143.60"
+              }
+            ],
+            "Comment": "Response from 72.249.143.60."
+          }
+        }
+      },
+      "service_area_city": "Dallas",
+      "phone": "2147929199",
+      "services_published": "roll-off, construction, commercial, compactors",
+      "areas_published": "DFW metroplex",
+      "fleet_units_as_reported": "13",
+      "usdot": "2028799",
+      "site": {
+        "rn": "RN112544887",
+        "name": "NATERRA WORLD HQ - COMMERCIAL",
+        "street": "1525 POINT WEST BLVD",
+        "city": "COPPELL",
+        "county": "DALLAS",
+        "priority_our_read": "1",
+        "authorization": "TXR1556ZR",
+        "authorization_status": "ACTIVE",
+        "affiliation_begin_date": "2026-10-08",
+        "business_on_file": "CROSSLAND CONSTRUCTION COMPANY INC",
+        "source": {
+          "url": "https://data.texas.gov/resource/t34q-qzi3.json?%24where=program_code%3D%27STORM%27+AND+affil_begin_dt+%3E%3D+%272026-09-26%27&%24limit=10000",
+          "fetched_at": "2026-10-26T14:53:37.528780+00:00",
+          "sha256": "2acf4f0d941b7b8d844135aeca34755130333e425729d9e72bb21c45ba272734",
+          "method": "fresh successful regional pull, exact record extracted locally; individual RN endpoint unavailable or not used",
+          "individual_lookup": {
+            "url": "https://data.texas.gov/resource/t34q-qzi3.json?ref_num_txt=RN112544887&program_code=STORM",
+            "status": 503,
+            "fetched_at": "2026-10-26T14:59:42.769393+00:00",
+            "body_sha256": "2f85832e31ca57711e6107af6b142363351ae516adb71c69afc643fac26be7f6"
+          }
+        }
+      },
+      "limits": "Operating yard not independently verified; service-city reference only; no distance estimate. Date is affiliation-begin date, not verified original authorization issuance.",
+      "fleet_source": {
+        "url": "https://data.transportation.gov/resource/az4n-8mr2.json?%24where=dot_number%3D2028799&%24limit=100",
+        "http_status": 200,
+        "fetched_at": "2026-10-26T14:57:15.019028+00:00",
+        "sha256": "c919d2d4648d4dc0ddc6eb471633c2a477cda99abcb7654969adc82f8203026f",
+        "power_units_as_reported": "13"
+      },
+      "services_sources": [
+        {
+          "url": "https://hdwastetx.com/",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:52:51.010216+00:00",
+          "sha256": "3d1aaf0a77e77e3ea724f04d060d00504b239006399974f17332a1c8bdac97ce"
+        },
+        {
+          "url": "https://hdwastetx.com/about-hd/",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:52:59.680887+00:00",
+          "sha256": "b77504d8843183157a22d2ecd80953291fc394af9a9e7e08cd7279e7cebf8ae6"
+        }
+      ]
+    },
+    {
+      "company": "Sundance Disposal",
+      "existing": false,
+      "email": "andrew@sundancedisposal.com",
+      "email_grade": "A",
+      "own": {
+        "url": "https://sundancedisposal.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-26T14:53:03.165837+00:00",
+        "sha256": "b94ac7248edeedc4c6b1112053b1a85b5348d3ffe70e8574eadb24d6285097c1",
+        "exact_address_excerpt": "andrew@sundancedisposal.com",
+        "publication_method": "published structured-data email"
+      },
+      "DNS": {
+        "MX": {
+          "status": 200,
+          "fetched_at": "2026-10-26T14:53:06.256637+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "sundancedisposal.com.",
+                "type": 15
+              }
+            ],
+            "Answer": [
+              {
+                "name": "sundancedisposal.com.",
+                "type": 15,
+                "TTL": 300,
+                "data": "10 alt4.aspmx.l.google.com."
+              },
+              {
+                "name": "sundancedisposal.com.",
+                "type": 15,
+                "TTL": 300,
+                "data": "5 alt2.aspmx.l.google.com."
+              },
+              {
+                "name": "sundancedisposal.com.",
+                "type": 15,
+                "TTL": 300,
+                "data": "1 aspmx.l.google.com."
+              },
+              {
+                "name": "sundancedisposal.com.",
+                "type": 15,
+                "TTL": 300,
+                "data": "10 alt3.aspmx.l.google.com."
+              },
+              {
+                "name": "sundancedisposal.com.",
+                "type": 15,
+                "TTL": 300,
+                "data": "5 alt1.aspmx.l.google.com."
+              }
+            ],
+            "Comment": "Response from 162.159.44.221."
+          }
+        },
+        "A": {
+          "status": 200,
+          "fetched_at": "2026-10-26T14:53:06.421476+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "sundancedisposal.com.",
+                "type": 1
+              }
+            ],
+            "Answer": [
+              {
+                "name": "sundancedisposal.com.",
+                "type": 1,
+                "TTL": 300,
+                "data": "172.67.194.195"
+              },
+              {
+                "name": "sundancedisposal.com.",
+                "type": 1,
+                "TTL": 300,
+                "data": "104.21.20.235"
+              }
+            ],
+            "Comment": "Response from 108.162.192.92."
+          }
+        }
+      },
+      "service_area_city": "Godley",
+      "phone": "8174760699",
+      "services_published": "roll-off, construction, commercial, 20-yd, 30-yd, 40-yd",
+      "areas_published": "DFW, including Arlington, Dallas, Fort Worth and Anna",
+      "fleet_units_as_reported": "17",
+      "usdot": "3567517",
+      "site": {
+        "rn": "RN112538160",
+        "name": "ARBROOK APARTMENTS",
+        "street": "1001 E ARBROOK BLVD",
+        "city": "ARLINGTON",
+        "county": "TARRANT",
+        "priority_our_read": "2",
+        "authorization": "TXR1566ZO",
+        "authorization_status": "ACTIVE",
+        "affiliation_begin_date": "2026-09-29",
+        "business_on_file": "ROERS GENERAL CONTRACTING LLC",
+        "source": {
+          "url": "https://data.texas.gov/resource/t34q-qzi3.json?%24where=program_code%3D%27STORM%27+AND+affil_begin_dt+%3E%3D+%272026-09-26%27&%24limit=10000",
+          "fetched_at": "2026-10-26T14:53:37.528780+00:00",
+          "sha256": "2acf4f0d941b7b8d844135aeca34755130333e425729d9e72bb21c45ba272734",
+          "method": "individual RN public lookup plus fresh regional pull",
+          "individual_lookup": {
+            "url": "https://data.texas.gov/resource/t34q-qzi3.json?ref_num_txt=RN112538160&program_code=STORM",
+            "status": 200,
+            "fetched_at": "2026-10-26T15:00:02.114683+00:00",
+            "body_sha256": "3255988836eaa1d37b61768027e8eac127dc8d391920cbd226fab28a75b3d487"
+          }
+        }
+      },
+      "limits": "Operating yard not independently verified; service-city reference only; no distance estimate. Date is affiliation-begin date, not verified original authorization issuance. Script person-name flag manually cleared: apartment/property name, not an individual. Local hauling operation retained; own site also advertises brokerage/nationwide services. National jobs are not the basis for this match.",
+      "fleet_source": {
+        "url": "https://data.transportation.gov/resource/az4n-8mr2.json?%24where=upper%28legal_name%29+like+%27%25SUNDANCE+DISPOSAL%25%27&%24limit=100",
+        "http_status": 200,
+        "fetched_at": "2026-10-26T14:57:24.100257+00:00",
+        "sha256": "3ba818c3a1efe52c4f8179bfbbab69ef0c053a8d7b3bbb005e90780445951ba5",
+        "power_units_as_reported": "17"
+      },
+      "services_sources": [
+        {
+          "url": "https://sundancedisposal.com/",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:53:03.165837+00:00",
+          "sha256": "b94ac7248edeedc4c6b1112053b1a85b5348d3ffe70e8574eadb24d6285097c1"
+        },
+        {
+          "url": "https://sundancedisposal.com/service-areas/",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:53:03.770392+00:00",
+          "sha256": "ab07fbc30d6d07f092fcdb4f153c6bbd72353cb879b1ec01ed5b3c9a8326557b"
+        },
+        {
+          "url": "https://sundancedisposal.com/service-areas/#residential",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:53:04.554586+00:00",
+          "sha256": "ab07fbc30d6d07f092fcdb4f153c6bbd72353cb879b1ec01ed5b3c9a8326557b"
+        },
+        {
+          "url": "https://sundancedisposal.com/about/#our-story",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:53:05.017550+00:00",
+          "sha256": "c73a1c1b93abc00c2b2db92b226b60ea7580d98bb3be56542bed01ce170d460a"
+        },
+        {
+          "url": "https://sundancedisposal.com/about/#meet-the-team",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:53:05.660189+00:00",
+          "sha256": "c73a1c1b93abc00c2b2db92b226b60ea7580d98bb3be56542bed01ce170d460a"
+        }
+      ]
+    },
+    {
+      "company": "Texas Elite Disposal",
+      "existing": false,
+      "email": "tabatha@texaselitedisposal.com",
+      "email_grade": "A",
+      "own": {
+        "url": "https://texaselitedisposal.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-26T14:53:06.698466+00:00",
+        "sha256": "62d5fc6ee7d4dec54674d3c72ee1ad1d4cead5fb7941e8622fed9d294d786506",
+        "exact_address_excerpt": "tabatha@texaselitedisposal.com",
+        "publication_method": "visible text"
+      },
+      "DNS": {
+        "MX": {
+          "status": 200,
+          "fetched_at": "2026-10-26T14:53:08.224156+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "texaselitedisposal.com.",
+                "type": 15
+              }
+            ],
+            "Answer": [
+              {
+                "name": "texaselitedisposal.com.",
+                "type": 15,
+                "TTL": 3600,
+                "data": "0 texaselitedisposal-com.mail.protection.outlook.com."
+              }
+            ],
+            "Comment": "Response from 97.74.101.12."
+          }
+        },
+        "A": {
+          "status": 200,
+          "fetched_at": "2026-10-26T14:53:08.410396+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "texaselitedisposal.com.",
+                "type": 1
+              }
+            ],
+            "Answer": [
+              {
+                "name": "texaselitedisposal.com.",
+                "type": 1,
+                "TTL": 600,
+                "data": "160.153.0.190"
+              }
+            ],
+            "Comment": "Response from 173.201.69.12."
+          }
+        }
+      },
+      "service_area_city": "Aledo",
+      "phone": "8179257507",
+      "services_published": "roll-off, construction, commercial, portable toilets, hand-wash, compactors",
+      "areas_published": "Fort Worth and listed North Texas cities, including Prosper, Little Elm and McKinney",
+      "fleet_units_as_reported": "5",
+      "usdot": "3388014",
+      "site": {
+        "rn": "RN112549498",
+        "name": "PROSPER FLEX PARK - BUILDING 1",
+        "street": "621 WEST PROSPER TRAIL",
+        "city": "PROSPER",
+        "county": "COLLIN",
+        "priority_our_read": "1",
+        "authorization": "TXR1548ZT",
+        "authorization_status": "ACTIVE",
+        "affiliation_begin_date": "2026-10-16",
+        "business_on_file": "HBA DESIGN BUILD LLC",
+        "source": {
+          "url": "https://data.texas.gov/resource/t34q-qzi3.json?%24where=program_code%3D%27STORM%27+AND+affil_begin_dt+%3E%3D+%272026-09-26%27&%24limit=10000",
+          "fetched_at": "2026-10-26T14:53:37.528780+00:00",
+          "sha256": "2acf4f0d941b7b8d844135aeca34755130333e425729d9e72bb21c45ba272734",
+          "method": "fresh successful regional pull, exact record extracted locally; individual RN endpoint unavailable or not used",
+          "individual_lookup": {
+            "url": "https://data.texas.gov/resource/t34q-qzi3.json?ref_num_txt=RN112549498&program_code=STORM",
+            "status": 503,
+            "fetched_at": "2026-10-26T14:59:37.387327+00:00",
+            "body_sha256": "2f85832e31ca57711e6107af6b142363351ae516adb71c69afc643fac26be7f6"
+          }
+        }
+      },
+      "limits": "Operating yard not independently verified; service-city reference only; no distance estimate. Date is affiliation-begin date, not verified original authorization issuance.",
+      "fleet_source": {
+        "url": "https://data.transportation.gov/resource/az4n-8mr2.json?%24where=upper%28legal_name%29+like+%27%25TEXAS+ELITE+DISPOSAL%25%27&%24limit=100",
+        "http_status": 200,
+        "fetched_at": "2026-10-26T14:57:24.662169+00:00",
+        "sha256": "2fa0f7c6d7b94edef10d39362990a6003a72873ebbefe9e1b6f12c4a63e9bf13",
+        "power_units_as_reported": "5"
+      },
+      "services_sources": [
+        {
+          "url": "https://texaselitedisposal.com/",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:53:06.698466+00:00",
+          "sha256": "62d5fc6ee7d4dec54674d3c72ee1ad1d4cead5fb7941e8622fed9d294d786506"
+        },
+        {
+          "url": "https://texaselitedisposal.com/about/",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:53:07.079227+00:00",
+          "sha256": "5a63e269ca47bfaa12c61b1b6889cf273e4c4a221fa47a1ecedbf8ce31c5fab6"
+        },
+        {
+          "url": "https://texaselitedisposal.com/contact/",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:53:07.519895+00:00",
+          "sha256": "ca17c975ad7568ef9209caff6e2ab2e9ef94ba9706205c862f53fea2ae9d4fee"
+        }
+      ]
+    },
+    {
+      "company": "Sweet Dumps",
+      "existing": false,
+      "email": "inbox@sweetdumps.com",
+      "email_grade": "A",
+      "own": {
+        "url": "https://sweetdumps.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-26T14:53:05.951745+00:00",
+        "sha256": "2fee42f6f7f8f2789f0263a1ff52b4dccda9ccf5c2849fe60d44ddd528570cd0",
+        "exact_address_excerpt": "inbox@sweetdumps.com",
+        "publication_method": "Cloudflare email-protection link"
+      },
+      "DNS": {
+        "MX": {
+          "status": 200,
+          "fetched_at": "2026-10-26T14:53:10.829644+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "sweetdumps.com.",
+                "type": 15
+              }
+            ],
+            "Answer": [
+              {
+                "name": "sweetdumps.com.",
+                "type": 15,
+                "TTL": 300,
+                "data": "5 alt1.aspmx.l.google.com."
+              },
+              {
+                "name": "sweetdumps.com.",
+                "type": 15,
+                "TTL": 300,
+                "data": "1 aspmx.l.google.com."
+              },
+              {
+                "name": "sweetdumps.com.",
+                "type": 15,
+                "TTL": 300,
+                "data": "5 alt2.aspmx.l.google.com."
+              },
+              {
+                "name": "sweetdumps.com.",
+                "type": 15,
+                "TTL": 300,
+                "data": "10 alt3.aspmx.l.google.com."
+              },
+              {
+                "name": "sweetdumps.com.",
+                "type": 15,
+                "TTL": 300,
+                "data": "10 alt4.aspmx.l.google.com."
+              }
+            ],
+            "Comment": "Response from 172.64.33.120."
+          }
+        },
+        "A": {
+          "status": 200,
+          "fetched_at": "2026-10-26T14:53:10.998845+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "sweetdumps.com.",
+                "type": 1
+              }
+            ],
+            "Answer": [
+              {
+                "name": "sweetdumps.com.",
+                "type": 1,
+                "TTL": 300,
+                "data": "172.67.199.108"
+              },
+              {
+                "name": "sweetdumps.com.",
+                "type": 1,
+                "TTL": 300,
+                "data": "104.21.84.246"
+              }
+            ],
+            "Comment": "Response from 173.245.58.187."
+          }
+        }
+      },
+      "service_area_city": "Fort Worth",
+      "phone": "8176770040",
+      "services_published": "roll-off, construction, commercial, 10-yd, 20-yd, 30-yd, 40-yd",
+      "areas_published": "Dallas-Fort Worth area, including Fort Worth",
+      "fleet_units_as_reported": "4",
+      "usdot": "3242133",
+      "site": {
+        "rn": "RN112544879",
+        "name": "N FTW MCKEEVER GROCER AND RETAIL",
+        "street": "9052 NORTH CITY DR",
+        "city": "FORT WORTH",
+        "county": "TARRANT",
+        "priority_our_read": "1",
+        "authorization": "TXR1555ZR",
+        "authorization_status": "ACTIVE",
+        "affiliation_begin_date": "2026-10-08",
+        "business_on_file": "RELIABLE PAVING INC",
+        "source": {
+          "url": "https://data.texas.gov/resource/t34q-qzi3.json?%24where=program_code%3D%27STORM%27+AND+affil_begin_dt+%3E%3D+%272026-09-26%27&%24limit=10000",
+          "fetched_at": "2026-10-26T14:53:37.528780+00:00",
+          "sha256": "2acf4f0d941b7b8d844135aeca34755130333e425729d9e72bb21c45ba272734",
+          "method": "fresh successful regional pull, exact record extracted locally; individual RN endpoint unavailable or not used",
+          "individual_lookup": {}
+        }
+      },
+      "limits": "Operating yard not independently verified; service-city reference only; no distance estimate. Date is affiliation-begin date, not verified original authorization issuance.",
+      "fleet_source": {
+        "url": "https://data.transportation.gov/resource/az4n-8mr2.json?%24where=upper%28legal_name%29+like+%27%25SWEET+DUMPS%25%27&%24limit=100",
+        "http_status": 200,
+        "fetched_at": "2026-10-26T14:57:21.341261+00:00",
+        "sha256": "14ecf3fd3415e00fcfd3b153438b44e550b567f7b7862628c8ea5435705ba394",
+        "power_units_as_reported": "4"
+      },
+      "services_sources": [
+        {
+          "url": "https://sweetdumps.com/",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:53:05.951745+00:00",
+          "sha256": "2fee42f6f7f8f2789f0263a1ff52b4dccda9ccf5c2849fe60d44ddd528570cd0"
+        },
+        {
+          "url": "https://sweetdumps.com/contact-us/",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:53:07.316736+00:00",
+          "sha256": "21c8fe495d7e420590ab8f4d726ea8b0b4a6723b1612f26edf353909d09040a5"
+        },
+        {
+          "url": "https://sweetdumps.com/about-us/",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:53:08.221627+00:00",
+          "sha256": "b8fc22567f9321436dcee7424368c934712c6ac6701c64a4f8469fff0a110fd5"
+        },
+        {
+          "url": "https://sweetdumps.com/service-area/",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:53:08.995013+00:00",
+          "sha256": "3820e485cba033a926f22dfa8f3e6766c653f41f22cf2d5be1c1ceb6c2ed3b4a"
+        },
+        {
+          "url": "https://sweetdumps.com/contact-us/",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:53:09.852454+00:00",
+          "sha256": "9d34e1df2d8d2594abf3bdc94674150fc43648c2ea02c86db712dfd6a5d4eded"
+        }
+      ]
+    },
+    {
+      "company": "Sunbelt Disposal & Recycling",
+      "existing": false,
+      "email": "sales@sunbeltdisposal.com",
+      "email_grade": "A",
+      "own": {
+        "url": "https://sunbeltdisposal.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-26T14:53:01.349498+00:00",
+        "sha256": "f36b874d516189c59c2241dc6e223afc7efb76fdddf393fb6858ff6bec56533a",
+        "exact_address_excerpt": "sales@sunbeltdisposal.com",
+        "publication_method": "Cloudflare email-protection link"
+      },
+      "DNS": {
+        "MX": {
+          "status": 200,
+          "fetched_at": "2026-10-26T14:53:02.717736+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "sunbeltdisposal.com.",
+                "type": 15
+              }
+            ],
+            "Answer": [
+              {
+                "name": "sunbeltdisposal.com.",
+                "type": 15,
+                "TTL": 300,
+                "data": "1 aspmx.l.google.com."
+              },
+              {
+                "name": "sunbeltdisposal.com.",
+                "type": 15,
+                "TTL": 300,
+                "data": "10 quotient-mail.feedback-smtp.us-west-2.amazonses.com."
+              },
+              {
+                "name": "sunbeltdisposal.com.",
+                "type": 15,
+                "TTL": 300,
+                "data": "10 aspmx2.googlemail.com."
+              },
+              {
+                "name": "sunbeltdisposal.com.",
+                "type": 15,
+                "TTL": 300,
+                "data": "10 aspmx3.googlemail.com."
+              },
+              {
+                "name": "sunbeltdisposal.com.",
+                "type": 15,
+                "TTL": 300,
+                "data": "5 alt2.aspmx.l.google.com."
+              },
+              {
+                "name": "sunbeltdisposal.com.",
+                "type": 15,
+                "TTL": 300,
+                "data": "5 alt1.aspmx.l.google.com."
+              }
+            ],
+            "Comment": "Response from 172.64.35.17."
+          }
+        },
+        "A": {
+          "status": 200,
+          "fetched_at": "2026-10-26T14:53:03.008600+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "sunbeltdisposal.com.",
+                "type": 1
+              }
+            ],
+            "Answer": [
+              {
+                "name": "sunbeltdisposal.com.",
+                "type": 1,
+                "TTL": 300,
+                "data": "104.21.68.39"
+              },
+              {
+                "name": "sunbeltdisposal.com.",
+                "type": 1,
+                "TTL": 300,
+                "data": "172.67.186.82"
+              }
+            ],
+            "Comment": "Response from 108.162.195.17."
+          }
+        }
+      },
+      "service_area_city": "Dallas",
+      "phone": "8002039053",
+      "services_published": "roll-off, construction, commercial, portable toilets, hand-wash",
+      "areas_published": "DFW metroplex, plus separate nationwide services",
+      "fleet_units_as_reported": "23",
+      "usdot": "995914",
+      "site": {
+        "rn": "RN112542410",
+        "name": "THE EDIFICE AT ANNA",
+        "street": "1105 S POWELL PKWY",
+        "city": "ANNA",
+        "county": "COLLIN",
+        "priority_our_read": "1",
+        "authorization": "TXR1562ZQ",
+        "authorization_status": "ACTIVE",
+        "affiliation_begin_date": "2026-10-06",
+        "business_on_file": "PVB CONTRACTING LLC",
+        "source": {
+          "url": "https://data.texas.gov/resource/t34q-qzi3.json?%24where=program_code%3D%27STORM%27+AND+affil_begin_dt+%3E%3D+%272026-09-26%27&%24limit=10000",
+          "fetched_at": "2026-10-26T14:53:37.528780+00:00",
+          "sha256": "2acf4f0d941b7b8d844135aeca34755130333e425729d9e72bb21c45ba272734",
+          "method": "fresh successful regional pull, exact record extracted locally; individual RN endpoint unavailable or not used",
+          "individual_lookup": {
+            "url": "https://data.texas.gov/resource/t34q-qzi3.json?ref_num_txt=RN112542410&program_code=STORM",
+            "status": 503,
+            "fetched_at": "2026-10-26T14:59:48.023675+00:00",
+            "body_sha256": "2f85832e31ca57711e6107af6b142363351ae516adb71c69afc643fac26be7f6"
+          }
+        }
+      },
+      "limits": "Operating yard not independently verified; service-city reference only; no distance estimate. Date is affiliation-begin date, not verified original authorization issuance. Local hauling operation retained; own site also advertises brokerage/nationwide services. National jobs are not the basis for this match.",
+      "fleet_source": {
+        "url": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=995914",
+        "http_status": 200,
+        "fetched_at": "2026-10-26T15:01:07.468318+00:00",
+        "sha256": "95c3f021316fdf7f1cbf100e2363d9b755ee85257e6db3c0fae6cb35e25ab6d4",
+        "power_units_as_reported": "23"
+      },
+      "services_sources": [
+        {
+          "url": "https://sunbeltdisposal.com/",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:53:01.349498+00:00",
+          "sha256": "f36b874d516189c59c2241dc6e223afc7efb76fdddf393fb6858ff6bec56533a"
+        },
+        {
+          "url": "https://sunbeltdisposal.com/about-us/",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:53:01.842314+00:00",
+          "sha256": "67cb03b05eee177ece780395101e888f854127c9f41e187239c679f3165e0043"
+        },
+        {
+          "url": "https://sunbeltdisposal.com/contact-us/",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:53:02.242111+00:00",
+          "sha256": "dc11937ffa0000a7a99a8b5f5fa497d8e6fc9fd3bdb6afdea1ba4cfb1cbeb3c4"
+        }
+      ]
+    },
+    {
+      "company": "Waste Advantage",
+      "existing": false,
+      "email": "dispatch@wasteadvantagetx.com",
+      "email_grade": "A",
+      "own": {
+        "url": "https://wasteadvantagetx.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-26T14:53:08.999451+00:00",
+        "sha256": "16cfb2f9a104ff99e13b645e2adde2ef6b349075fd8ec739e444c8597ec959c5",
+        "exact_address_excerpt": "dispatch@wasteadvantagetx.com",
+        "publication_method": "visible text"
+      },
+      "DNS": {
+        "MX": {
+          "status": 200,
+          "fetched_at": "2026-10-26T14:53:10.228235+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "wasteadvantagetx.com.",
+                "type": 15
+              }
+            ],
+            "Answer": [
+              {
+                "name": "wasteadvantagetx.com.",
+                "type": 15,
+                "TTL": 14400,
+                "data": "0 wasteadvantagetx-com.mail.protection.outlook.com."
+              }
+            ],
+            "Comment": "Response from 2620:4d:4000:6259:7:3:0:1."
+          }
+        },
+        "A": {
+          "status": 200,
+          "fetched_at": "2026-10-26T14:53:10.386374+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "wasteadvantagetx.com.",
+                "type": 1
+              }
+            ],
+            "Answer": [
+              {
+                "name": "wasteadvantagetx.com.",
+                "type": 1,
+                "TTL": 14400,
+                "data": "198.185.159.145"
+              },
+              {
+                "name": "wasteadvantagetx.com.",
+                "type": 1,
+                "TTL": 14400,
+                "data": "198.49.23.144"
+              },
+              {
+                "name": "wasteadvantagetx.com.",
+                "type": 1,
+                "TTL": 14400,
+                "data": "198.185.159.144"
+              },
+              {
+                "name": "wasteadvantagetx.com.",
+                "type": 1,
+                "TTL": 14400,
+                "data": "198.49.23.145"
+              }
+            ],
+            "Comment": "Response from 45.54.22.1."
+          }
+        }
+      },
+      "service_area_city": "Kennedale",
+      "phone": "8174781288",
+      "services_published": "roll-off, construction, commercial, compactors",
+      "areas_published": "Dallas, Fort Worth, DFW metroplex and surrounding areas",
+      "fleet_units_as_reported": "37",
+      "usdot": "3537154",
+      "site": {
+        "rn": "RN112541800",
+        "name": "7BREW COFFEE MCKINNEY",
+        "street": "8701 ELDORADO PKWY",
+        "city": "MCKINNEY",
+        "county": "COLLIN",
+        "priority_our_read": "1",
+        "authorization": "TXR1530ZQ",
+        "authorization_status": "ACTIVE",
+        "affiliation_begin_date": "2026-10-05",
+        "business_on_file": "SCHAFFER CONSTRUCTION LLC",
+        "source": {
+          "url": "https://data.texas.gov/resource/t34q-qzi3.json?%24where=program_code%3D%27STORM%27+AND+affil_begin_dt+%3E%3D+%272026-09-26%27&%24limit=10000",
+          "fetched_at": "2026-10-26T14:53:37.528780+00:00",
+          "sha256": "2acf4f0d941b7b8d844135aeca34755130333e425729d9e72bb21c45ba272734",
+          "method": "individual RN public lookup plus fresh regional pull",
+          "individual_lookup": {
+            "url": "https://data.texas.gov/resource/t34q-qzi3.json?ref_num_txt=RN112541800&program_code=STORM",
+            "status": 200,
+            "fetched_at": "2026-10-26T14:59:53.157235+00:00",
+            "body_sha256": "20d35990d7734bae6929266f3f110121f5eb5b0f09c59a8d12ee557d64008606"
+          }
+        }
+      },
+      "limits": "Operating yard not independently verified; service-city reference only; no distance estimate. Date is affiliation-begin date, not verified original authorization issuance. Own site discusses acquisitions; current SAFER reports 37 power units. Aggregate affiliate fleet not independently audited.",
+      "fleet_source": {
+        "url": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=3537154",
+        "http_status": 200,
+        "fetched_at": "2026-10-26T15:01:08.032757+00:00",
+        "sha256": "bb5dc4404a385dc2eb5bde6b25dcc235e9a9c7296d40060d97bfa8242b9c034c",
+        "power_units_as_reported": "37"
+      },
+      "services_sources": [
+        {
+          "url": "https://wasteadvantagetx.com/",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:53:08.999451+00:00",
+          "sha256": "16cfb2f9a104ff99e13b645e2adde2ef6b349075fd8ec739e444c8597ec959c5"
+        },
+        {
+          "url": "https://wasteadvantagetx.com/about-us",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:53:09.556939+00:00",
+          "sha256": "5922a0d44d94eee191c9b3a89803e189e874429bf9d9a248fc734337de6cf438"
+        },
+        {
+          "url": "https://wasteadvantagetx.com/contact-1",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:53:10.025457+00:00",
+          "sha256": "db9c81ba84e54cbb4bd6b66ce9f3eefcd375be1a897325d7da73e540ed13a8bd"
+        }
+      ]
+    },
+    {
+      "company": "One Stop Porta Shop",
+      "existing": false,
+      "email": "nathan@onestopportashop.com",
+      "email_grade": "A",
+      "own": {
+        "url": "https://onestopportashop.com/",
+        "http_status": 200,
+        "fetched_at": "2026-10-26T14:59:36.094180+00:00",
+        "sha256": "5ff652fe05f773c79fd31761a7d099a5793e9f36ececb40674bf14119f5f9f7c",
+        "exact_address_excerpt": "nathan@onestopportashop.com",
+        "publication_method": "visible text"
+      },
+      "DNS": {
+        "MX": {
+          "status": 200,
+          "fetched_at": "2026-10-26T14:59:41.282406+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "onestopportashop.com.",
+                "type": 15
+              }
+            ],
+            "Answer": [
+              {
+                "name": "onestopportashop.com.",
+                "type": 15,
+                "TTL": 14400,
+                "data": "10 mx2.hostinger.com."
+              },
+              {
+                "name": "onestopportashop.com.",
+                "type": 15,
+                "TTL": 14400,
+                "data": "5 mx1.hostinger.com."
+              }
+            ],
+            "Comment": "Response from 172.64.53.70."
+          }
+        },
+        "A": {
+          "status": 200,
+          "fetched_at": "2026-10-26T14:59:41.549125+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "onestopportashop.com.",
+                "type": 1
+              }
+            ],
+            "Answer": [
+              {
+                "name": "onestopportashop.com.",
+                "type": 1,
+                "TTL": 60,
+                "data": "147.79.79.35"
+              },
+              {
+                "name": "onestopportashop.com.",
+                "type": 1,
+                "TTL": 60,
+                "data": "88.223.87.217"
+              }
+            ],
+            "Comment": "Response from 172.64.53.70."
+          }
+        }
+      },
+      "service_area_city": "Fort Worth",
+      "phone": "6826814288",
+      "services_published": "portable toilets, construction, commercial, restroom trailers, hand-wash",
+      "areas_published": "Fort Worth",
+      "fleet_units_as_reported": null,
+      "usdot": "",
+      "site": {
+        "rn": "RN112542105",
+        "name": "EQT AIRPARQ 820",
+        "street": "3950 ANGLE AVE",
+        "city": "FORT WORTH",
+        "county": "TARRANT",
+        "priority_our_read": "1",
+        "authorization": "TXR1548ZQ",
+        "authorization_status": "ACTIVE",
+        "affiliation_begin_date": "2026-10-05",
+        "business_on_file": "ARCO DESIGN BUILD SOUTHWEST",
+        "source": {
+          "url": "https://data.texas.gov/resource/t34q-qzi3.json?%24where=program_code%3D%27STORM%27+AND+affil_begin_dt+%3E%3D+%272026-09-26%27&%24limit=10000",
+          "fetched_at": "2026-10-26T14:53:37.528780+00:00",
+          "sha256": "2acf4f0d941b7b8d844135aeca34755130333e425729d9e72bb21c45ba272734",
+          "method": "fresh successful regional pull, exact record extracted locally; individual RN endpoint unavailable or not used",
+          "individual_lookup": {
+            "url": "https://data.texas.gov/resource/t34q-qzi3.json?ref_num_txt=RN112542105&program_code=STORM",
+            "status": 503,
+            "fetched_at": "2026-10-26T14:59:53.152952+00:00",
+            "body_sha256": "2f85832e31ca57711e6107af6b142363351ae516adb71c69afc643fac26be7f6"
+          }
+        }
+      },
+      "limits": "Operating yard not independently verified; service-city reference only; no distance estimate. Date is affiliation-begin date, not verified original authorization issuance. Current fleet size not independently verified; no matched FMCSA record obtained.",
+      "fleet_source": {
+        "url": "https://data.transportation.gov/resource/az4n-8mr2.json?%24where=upper%28legal_name%29+like+%27%25ONE+STOP+PORTA%25%27&%24limit=20",
+        "http_status": 503,
+        "fetched_at": "2026-10-26T15:01:08.543508+00:00",
+        "sha256": "2f85832e31ca57711e6107af6b142363351ae516adb71c69afc643fac26be7f6",
+        "power_units_as_reported": null
+      },
+      "services_sources": [
+        {
+          "url": "https://onestopportashop.com/",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:59:36.094180+00:00",
+          "sha256": "5ff652fe05f773c79fd31761a7d099a5793e9f36ececb40674bf14119f5f9f7c"
+        },
+        {
+          "url": "https://onestopportashop.com/about/",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:59:39.460391+00:00",
+          "sha256": "19463a1091273ec7390785d002f7d68bd1c49b836736f312b340ebfc79811db9"
+        },
+        {
+          "url": "https://onestopportashop.com/contact-us/",
+          "http_status": 200,
+          "fetched_at": "2026-10-26T14:59:40.445079+00:00",
+          "sha256": "6473c78003f7685321f1e41b88b417c848db1dc0c75ad0ce0d8a81836497b3f2"
+        }
+      ]
+    }
+  ],
+  "rechecks": [
+    {
+      "company": "FUSION WASTE & RECYCLING",
+      "result": "retained in DFW1",
+      "email_changed": false,
+      "areas_before": "dallas, fort worth",
+      "areas_after": "dallas, fort worth",
+      "phone_before": "9726757767",
+      "phone_after": "9726757767",
+      "power_units_before": "35",
+      "power_units_after": "35",
+      "status_before": "Not contacted",
+      "status_after": "Not contacted"
+    },
+    {
+      "company": "RED RIVER ROLL OFFS",
+      "result": "retained in DFW1",
+      "email_changed": false,
+      "areas_before": "",
+      "areas_after": "Grayson, Collin, Cooke, Fannin and Denton counties; Celina and Prosper listed",
+      "phone_before": "5742861360",
+      "phone_after": "9033288847",
+      "power_units_before": "8",
+      "power_units_after": "8",
+      "status_before": "Not contacted",
+      "status_after": "Not contacted"
+    },
+    {
+      "company": "DISCOUNT DUMPSTERS",
+      "result": "retained in DFW1",
+      "email_changed": false,
+      "areas_before": "dallas",
+      "areas_after": "Greater DFW metroplex",
+      "phone_before": "9729003867",
+      "phone_after": "9729003867",
+      "power_units_before": "4",
+      "power_units_after": "4",
+      "status_before": "Not contacted",
+      "status_after": "Not contacted"
+    },
+    {
+      "company": "WEONIT WASTE & RECYCLE LLC",
+      "result": "retained in DFW1",
+      "email_changed": false,
+      "areas_before": "dallas, plano, arlington",
+      "areas_after": "dallas, plano, arlington",
+      "phone_before": "4695011331",
+      "phone_after": "4695011331",
+      "power_units_before": "1",
+      "power_units_after": "2",
+      "status_before": "Not contacted",
+      "status_after": "Not contacted"
+    },
+    {
+      "company": "HART WASTE REMOVAL",
+      "result": "retained in DFW1",
+      "email_changed": false,
+      "areas_before": "dallas, fort worth",
+      "areas_after": "dallas, fort worth",
+      "phone_before": "9725672244",
+      "phone_after": "2146600081",
+      "power_units_before": "3",
+      "power_units_after": "3",
+      "status_before": "Not contacted",
+      "status_after": "Not contacted"
+    },
+    {
+      "company": "REDCLOUD DISPOSAL LIMITED LIABILITY COMPANY",
+      "result": "HOLD, omitted from packet; own page 403",
+      "email_changed": false,
+      "status_before": "Not contacted",
+      "status_after": "Not contacted"
+    },
+    {
+      "company": "BLUE STAR DUMPSTERS LLC",
+      "result": "retained in DFW1",
+      "email_changed": false,
+      "areas_before": "dallas, fort worth, arlington",
+      "areas_after": "dallas, fort worth, arlington",
+      "phone_before": "2144951510",
+      "phone_after": "2144951510",
+      "power_units_before": "2",
+      "power_units_after": "2",
+      "status_before": "Not contacted",
+      "status_after": "Not contacted"
+    }
+  ],
+  "source_limits": [
+    "Coastal and Border TCEQ regional endpoints unavailable; Dallas/Fort Worth broader response yielded all selected records",
+    "Strict original authorization issue date not independently verified, affiliation date labelled",
+    "One Stop fleet count unknown",
+    "Rochelle site label and filed street number differ",
+    "Enviro compared to similarly named Houston account on public identifiers and officers, no common named officer found; beneficial ownership not audited"
+  ],
+  "held": [
+    {
+      "company": "Redcloud Disposal",
+      "reason": "Own site HTTP 403; omitted from packet, existing status/email unchanged"
+    },
+    {
+      "company": "Wildcat Dumpster Rentals",
+      "reason": "Free-mail only, needs email pass; not included"
+    },
+    {
+      "company": "Jaguar Waste Management",
+      "reason": "No matching fleet record/owned-container evidence established, not included"
+    },
+    {
+      "company": "DFW Roll Off",
+      "reason": "No published email found on fetched own pages, not included"
+    },
+    {
+      "company": "NTX Porta Potties",
+      "reason": "Own page HTTP 403, not included"
+    }
+  ]
+}
