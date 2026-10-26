@@ -31,7 +31,22 @@ You must never:
   own business domain. Free-mail only: mark `needs email pass`. No email at all: give the contact
   form URL and say so.
 
-## Current priority (Oct 14): find new Houston haulers by public research
+## Current priority (Oct 26): DFW is the second city
+
+The user approved DFW as Jobsite's second metro on Oct 26. Houston has about 55 usable haulers left
+(packets H5 to H12), which lasts to about Nov 9. Target: **at least 60 fit DFW haulers**, in packets
+of about 15 named `DFW1`, `DFW2`, and so on (`outreach/DFW1_Hook_Packet.md`, `data/packet_DFW1.csv`).
+New rows go in `data/hauler_list_dfw.csv` (7 research rows are already there; recheck them and keep
+them if they fit). Sites come from `scripts/pull_noi_sites.py` for the DFW counties in
+`scripts/metros.py` (Dallas, Tarrant, Collin, Denton); pair each hauler with a site in its own
+service area. Use the same sources, skips and quality bar as Houston below, with DFW suburbs
+(Fort Worth, Arlington, Plano, Frisco, McKinney, Denton, Irving, Garland, Mesquite, Grand Prairie,
+Carrollton, Lewisville, Mansfield, Wylie, Rockwall, Waxahachie, Weatherford). City of Dallas and
+City of Fort Worth both license commercial solid waste haulers; check whether those lists are public.
+
+Houston stays open: add a Houston hauler if you find one, in a separate packet.
+
+## Earlier priority (Oct 14): find new Houston haulers by public research
 
 Projects are not the bottleneck: TCEQ adds about 745 construction sites a month statewide and
 Houston had 84 usable ones in three weeks. Buyers are. Of 273 Houston FMCSA candidates only 22 were
@@ -55,7 +70,7 @@ Skip: national haulers and franchises (WM, Republic, WCA, GFL, Waste Connections
 United Site Services and similar), brokers and lead-gen sites that don't own containers, junk
 removal only, residential-only, and anyone already in `data/packet_H1-H2.csv`.
 
-Only when the user says so: DFW or San Antonio (`enrich_haulers.py --metro DFW`).
+DFW is approved (Oct 26): `enrich_haulers.py --metro DFW`. San Antonio only when the user says so.
 
 ## Quality bar
 

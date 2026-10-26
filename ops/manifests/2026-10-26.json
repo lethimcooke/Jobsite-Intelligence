@@ -1,0 +1,159 @@
+{
+  "subject": "ASI-MANIFEST v1 2026-10-26 e60fe7c98d888ae5845443647bb1796e13282966fd2181d832ea21b57751d890",
+  "manifest": {
+    "version": 1,
+    "send_date": "2026-10-26",
+    "created_at": "2026-10-26T14:44:13+00:00",
+    "business": "Jobsite Intelligence",
+    "dry_run_only": false,
+    "max_total": 60,
+    "max_s1": 5,
+    "share": 15,
+    "aliases": {
+      "sites@asterfieldgroup.com": "Houston Jobsite Intelligence"
+    },
+    "dnc_emails": [
+      "support@dumpsterintherough.com"
+    ],
+    "dnc_domains": [
+      "dumpsterintherough.com"
+    ],
+    "entries": [
+      {
+        "outreach_id": "JI-H4-S1-11",
+        "stage": "S1",
+        "company": "In-Laws Dumpsters",
+        "to": "inlawsdumpsters@gmail.com",
+        "from_alias": "sites@asterfieldgroup.com",
+        "display_name": "Houston Jobsite Intelligence",
+        "subject": "Rockefeller Axis 290",
+        "body_len": 809,
+        "body_sha256": "e0e776135eacf6429d39daf4cb5ad7c9d7678a45784ca67ed8813f7e150a8447",
+        "is_reply": false,
+        "reply_to_message_id": "",
+        "draft_id": "r-2625899750037211049",
+        "thread_id": "1a178aae38645b37"
+      },
+      {
+        "outreach_id": "JI-H4-S1-12",
+        "stage": "S1",
+        "company": "TOP WASTE SOLUTIONS",
+        "to": "info@topwastesolutions.com",
+        "from_alias": "sites@asterfieldgroup.com",
+        "display_name": "Houston Jobsite Intelligence",
+        "subject": "Infrastructure Services, 711 Rankin Rd",
+        "body_len": 815,
+        "body_sha256": "a82544e0f776d9ad39603e6c61ce1cb6173fa6b4408843d307552b56e23c3540",
+        "is_reply": false,
+        "reply_to_message_id": "",
+        "draft_id": "r-1128366772632772606",
+        "thread_id": "1a178aae698a1519"
+      },
+      {
+        "outreach_id": "JI-H4-S1-13",
+        "stage": "S1",
+        "company": "Quickwaste Services",
+        "to": "admin@quickwaste.com",
+        "from_alias": "sites@asterfieldgroup.com",
+        "display_name": "Houston Jobsite Intelligence",
+        "subject": "Lake Pointe Plaza, Sugar Land",
+        "body_len": 817,
+        "body_sha256": "e55234eaf7dd38fbfb49dda3b2d40727a8b67e7189aab57ad267bad686c344c1",
+        "is_reply": false,
+        "reply_to_message_id": "",
+        "draft_id": "r2979318522398254292",
+        "thread_id": "1a178aae9db69d53"
+      },
+      {
+        "outreach_id": "JI-H4-S1-14",
+        "stage": "S1",
+        "company": "Houston Rolling Restrooms",
+        "to": "info@houstonrollingrestrooms.com",
+        "from_alias": "sites@asterfieldgroup.com",
+        "display_name": "Houston Jobsite Intelligence",
+        "subject": "AutoZone, 1330 Northpark Dr",
+        "body_len": 791,
+        "body_sha256": "e2a5c19850a6a79bb87dd559d52b79dcf759234403dc9ccce716090752e1e5b7",
+        "is_reply": false,
+        "reply_to_message_id": "",
+        "draft_id": "r4174136601733938683",
+        "thread_id": "1a178aaeb5423dda"
+      },
+      {
+        "outreach_id": "JI-H4-S1-15",
+        "stage": "S1",
+        "company": "Humpty Dumpsters LLC",
+        "to": "humptydumpsterstx@gmail.com",
+        "from_alias": "sites@asterfieldgroup.com",
+        "display_name": "Houston Jobsite Intelligence",
+        "subject": "Biotics Research, Rosenberg",
+        "body_len": 822,
+        "body_sha256": "c39e83160261c7bb5a58185c3a35d5d7f3c51cdd30c07f7cdef1b0870293eff5",
+        "is_reply": false,
+        "reply_to_message_id": "",
+        "draft_id": "r999798653206165268",
+        "thread_id": "1a178aaec8449c7f"
+      },
+      {
+        "outreach_id": "JI-H4-S2-01",
+        "stage": "S2",
+        "company": "Jon's Junk Removal LLC",
+        "to": "junkremoval19@gmail.com",
+        "from_alias": "sites@asterfieldgroup.com",
+        "display_name": "Houston Jobsite Intelligence",
+        "subject": "Re: Ridgelake Cove Clearing and Grubbing",
+        "body_len": 516,
+        "body_sha256": "c82c578ab8d6b951540e6df8d015b1e76719b7ba22414d8aa18faebc90263098",
+        "is_reply": true,
+        "reply_to_message_id": "1a163b60797a36a8",
+        "draft_id": "r-7362833545473536558",
+        "thread_id": "1a1553e1414fe2c1"
+      },
+      {
+        "outreach_id": "JI-H4-S2-02",
+        "stage": "S2",
+        "company": "Renegade Roll-Offs LLC",
+        "to": "renegaderolloffsllc@gmail.com",
+        "from_alias": "sites@asterfieldgroup.com",
+        "display_name": "Houston Jobsite Intelligence",
+        "subject": "Re: Fifth Third Bank Shops at Katy",
+        "body_len": 503,
+        "body_sha256": "c9e5cd999763ac5e8bb800e33f191dd157d85857a7e5ababa8bda49822cfff1c",
+        "is_reply": true,
+        "reply_to_message_id": "1a163b6effb0759f",
+        "draft_id": "r-7604288312494843440",
+        "thread_id": "1a1553e17087ea94"
+      },
+      {
+        "outreach_id": "JI-H4-S2-03",
+        "stage": "S2",
+        "company": "TEXAS ROLL OFF",
+        "to": "goyardexcellence@gmail.com",
+        "from_alias": "sites@asterfieldgroup.com",
+        "display_name": "Houston Jobsite Intelligence",
+        "subject": "Re: TNMP Alvin Construction Center",
+        "body_len": 509,
+        "body_sha256": "c521b8d049fa93b60f3275a1c1603d01b1fec5e345f9b6ebb3bc3bbccc66c7f4",
+        "is_reply": true,
+        "reply_to_message_id": "1a163b7fcf2ae565",
+        "draft_id": "r13636506169376648",
+        "thread_id": "1a1553e183a6100b"
+      },
+      {
+        "outreach_id": "JI-H4-S2-04",
+        "stage": "S2",
+        "company": "Long Boy Rentals LLC",
+        "to": "castillo2287@hotmail.com",
+        "from_alias": "sites@asterfieldgroup.com",
+        "display_name": "Houston Jobsite Intelligence",
+        "subject": "Re: Rooms To Go, Baytown",
+        "body_len": 505,
+        "body_sha256": "2e0221540af8e27cef28d841491573e5f084867c59321c947a3a2afb53328a57",
+        "is_reply": true,
+        "reply_to_message_id": "1a163bea0715727c",
+        "draft_id": "r5482266077815638408",
+        "thread_id": "1a1553e1b212256c"
+      }
+    ]
+  }
+}
