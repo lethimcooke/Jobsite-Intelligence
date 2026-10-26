@@ -1,0 +1,117 @@
+{
+  "subject": "ASI-MANIFEST v1 2026-10-27 a5b874e0e10c94e0c3b13790bb8e16ecfdd1b4e0763532a6a19180089fb215c8",
+  "manifest": {
+    "version": 1,
+    "send_date": "2026-10-27",
+    "created_at": "2026-10-26T18:46:38+00:00",
+    "business": "Jobsite Intelligence",
+    "dry_run_only": false,
+    "max_total": 60,
+    "max_s1": 5,
+    "share": 15,
+    "aliases": {
+      "sites@asterfieldgroup.com": "Houston Jobsite Intelligence"
+    },
+    "dnc_emails": [
+      "admin@quickwaste.com",
+      "quickwasteservices@gmail.com",
+      "support@dumpsterintherough.com"
+    ],
+    "dnc_domains": [
+      "dumpsterintherough.com",
+      "quickwaste.com"
+    ],
+    "entries": [
+      {
+        "outreach_id": "JI-H5-S1-01",
+        "stage": "S1",
+        "company": "YOUR DUMPSTER BUDDY RENTALS LLC",
+        "to": "yourdumpsterbuddyrentals@gmail.com",
+        "from_alias": "sites@asterfieldgroup.com",
+        "display_name": "Houston Jobsite Intelligence",
+        "subject": "Ridgelake Cove Clearing and Grubbing",
+        "body_len": 851,
+        "body_sha256": "46c56dabb6087485af8ed497822e414d05d9eb7ef181f0713ca043257f9cd985",
+        "is_reply": false,
+        "reply_to_message_id": "",
+        "draft_id": "r-1353652333577776271",
+        "thread_id": "1a17989137bc2523"
+      },
+      {
+        "outreach_id": "JI-H5-S1-03",
+        "stage": "S1",
+        "company": "Shepherd's Dumpsters",
+        "to": "shepherdsdumpsters@gmail.com",
+        "from_alias": "sites@asterfieldgroup.com",
+        "display_name": "Houston Jobsite Intelligence",
+        "subject": "The Retreat, 3139 Grissom Rd",
+        "body_len": 799,
+        "body_sha256": "2aa3136834b77484422f471ee9f3aa1dd6de9d3c3f26b6944289fef1f9b93d9c",
+        "is_reply": false,
+        "reply_to_message_id": "",
+        "draft_id": "r1189961198883357519",
+        "thread_id": "1a17989148c6cd1c"
+      },
+      {
+        "outreach_id": "JI-H5-S1-04",
+        "stage": "S1",
+        "company": "No-Bull Waste Solutions",
+        "to": "nobullwastesolutions@gmail.com",
+        "from_alias": "sites@asterfieldgroup.com",
+        "display_name": "Houston Jobsite Intelligence",
+        "subject": "Rooms To Go, Baytown",
+        "body_len": 817,
+        "body_sha256": "40b381cf02f03cfca01e1d3cccbbc724f0067a316f05ec93f92aa81d42145cd9",
+        "is_reply": false,
+        "reply_to_message_id": "",
+        "draft_id": "r-6636897684539646046",
+        "thread_id": "1a1798917e1ad7bb"
+      },
+      {
+        "outreach_id": "JI-H5-S1-05",
+        "stage": "S1",
+        "company": "M&E Dumpsters",
+        "to": "info@medumpsterstx.com",
+        "from_alias": "sites@asterfieldgroup.com",
+        "display_name": "Houston Jobsite Intelligence",
+        "subject": "Springbrook Plaza office building, Spring",
+        "body_len": 830,
+        "body_sha256": "1697b8ba4f0cc58d7722e858d05d9bcccdc032ecd82cfc267111aee524230c27",
+        "is_reply": false,
+        "reply_to_message_id": "",
+        "draft_id": "r1011285459091581651",
+        "thread_id": "1a179891bc8ded8a"
+      },
+      {
+        "outreach_id": "JI-H5-S1-06",
+        "stage": "S1",
+        "company": "Haul Off Texas",
+        "to": "rentals@haulofftexas.com",
+        "from_alias": "sites@asterfieldgroup.com",
+        "display_name": "Houston Jobsite Intelligence",
+        "subject": "Biotics Research, Rosenberg",
+        "body_len": 824,
+        "body_sha256": "c7041613d8c163cd7915828d4b1a6e05861cbb1cb53e926622c94b869e12682d",
+        "is_reply": false,
+        "reply_to_message_id": "",
+        "draft_id": "r-7774180978397897750",
+        "thread_id": "1a179891c5f97d46"
+      },
+      {
+        "outreach_id": "JI-H3-S2-15",
+        "stage": "S2",
+        "company": "H3: Trash Hauling Fast",
+        "to": "elink96@yahoo.com",
+        "from_alias": "sites@asterfieldgroup.com",
+        "display_name": "Houston Jobsite Intelligence",
+        "subject": "Re: IDV Red Bluff, 8006 Red Bluff Rd",
+        "body_len": 485,
+        "body_sha256": "d6c36292c473efed983b20cd23ba07c1c12643cdcaa8c56e5930510f1bfad4ac",
+        "is_reply": true,
+        "reply_to_message_id": "1a163b555a01b69f",
+        "draft_id": "r-6935295464110763704",
+        "thread_id": "1a1553e0a3d7ad0d"
+      }
+    ]
+  }
+}

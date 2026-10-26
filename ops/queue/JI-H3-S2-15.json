@@ -23,9 +23,16 @@
       "reply_to_message_id": "1a163b555a01b69f",
       "attachments": [],
       "hook_type": "",
-      "status": "queued",
-      "draft": null,
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "status": "drafted",
+      "draft": {
+        "draft_id": "r-6935295464110763704",
+        "message_id": "1a179891f78b71f9",
+        "thread_id": "1a1553e0a3d7ad0d",
+        "payload_sha256": "c750888d3edbecafcdf518be1ef2b220bafb8eabbae60d14af32e35a71bcebe3",
+        "created_at": "2026-10-26T18:46:38+00:00"
+      },
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "planned_for": "2026-10-27"
     }
   ]
 }
