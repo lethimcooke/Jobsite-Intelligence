@@ -1,6 +1,6 @@
 # JI-H3 S2 copy, #15 (Houston)
 
-Written Oct 26 for Trash Hauling Fast, whose S1 went out Oct 22 (H3 #15, sent with the H4 batch). Same approved S2 wording as `outreach/JI-H3_S2_Copy.md` (no published yard, so "in your service area"). **Pending the user's approval.**
+Written Oct 26 for Trash Hauling Fast, whose S1 went out Oct 22 (H3 #15, sent with the H4 batch). Same approved S2 wording as `outreach/JI-H3_S2_Copy.md` (no published yard, so "in your service area"). Approved by the user Oct 26 ("approve").
 
 ## 15. H3: Trash Hauling Fast
 - To: elink96@yahoo.com
