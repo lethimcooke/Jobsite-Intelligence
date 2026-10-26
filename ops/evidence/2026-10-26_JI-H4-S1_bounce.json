@@ -1,0 +1,12 @@
+[
+  {
+    "outreach_id": "JI-H4-S1-13",
+    "kind": "gmail_bounce",
+    "evidence_id": "1a178b53d33de094",
+    "thread_id": "1a178aae9db69d53",
+    "sent_at": "2026-10-26T14:55:05+00:00",
+    "from": "mailer-daemon@googlemail.com",
+    "to": "admin@quickwaste.com",
+    "reason": "hard bounce: 550 No Such User Here (5.1.1) from mail.quickwaste.com"
+  }
+]

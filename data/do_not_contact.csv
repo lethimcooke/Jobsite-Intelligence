@@ -1,2 +1,4 @@
 company,email,domain,phone,address,reason,date,source
 Dumpster in the Rough,support@dumpsterintherough.com,dumpsterintherough.com,,,hard bounce (recipient server did not accept),2026-10-19,Gmail DSN 1a154ca16b3266ae
+Quickwaste Services,admin@quickwaste.com,quickwaste.com,,,hard bounce (550 No Such User Here),2026-10-26,Gmail DSN 1a178b53d33de094
+QUICK WASTE SERVICES LLC,quickwasteservices@gmail.com,,2817485820,"12222 ALMEDA GENOA RD, HOUSTON, TX 77034","possibly same company as bounced Quickwaste Services; one company, one try",2026-10-26,Gmail DSN 1a178b53d33de094
