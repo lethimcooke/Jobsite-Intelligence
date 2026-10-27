@@ -1,6 +1,6 @@
 # JI-H11 S2 copy (Houston)
 
-Written Oct 27 from `docs/Outreach_Copy_v2.md` (S2, business day +2, same thread) for H11, from `outreach/H11_S1_Copy.md` (same PR: each S1's subject, site and operator, unchanged). Same wording as the approved H4 S2s ("in your service area": no published yards). Dropped: Throne Ranger (packet #7) stays out per the brief, so there is no section 7; nobody else (checked Oct 27 against `data/do_not_contact.csv` and `data/send_ledger.csv`). Section numbers match the S1 file. Each S2 sends only after its S1 is confirmed sent and only if the hauler hasn't replied or bounced. Pending the user's approval.
+Written Oct 27 from `docs/Outreach_Copy_v2.md` (S2, business day +2, same thread) for H11, from `outreach/H11_S1_Copy.md` (same PR: each S1's subject, site and operator, unchanged). Same wording as the approved H4 S2s ("in your service area": no published yards). Dropped: Throne Ranger (packet #7) stays out per the brief, so there is no section 7; nobody else (checked Oct 27 against `data/do_not_contact.csv` and `data/send_ledger.csv`). Section numbers match the S1 file. Each S2 sends only after its S1 is confirmed sent and only if the hauler hasn't replied or bounced. Approved by the user Oct 27 ("approved all").
 
 ## 1. H11: Houston Luxury Restrooms LLC
 - To: houstonluxuryrestrooms@gmail.com

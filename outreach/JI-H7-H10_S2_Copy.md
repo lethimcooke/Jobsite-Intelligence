@@ -1,6 +1,6 @@
 # JI-H7 to H10 S2 copy (Houston)
 
-Written Oct 27 from `docs/Outreach_Copy_v2.md` (S2, business day +2, same thread) for H7-H10, from `outreach/H7-H10_S1_Copy.md` (same PR: each S1's subject, site and operator, unchanged). Same wording as the approved H4 S2s ("in your service area": no published yards). Dropped: nobody (checked Oct 27 against `data/do_not_contact.csv` and `data/send_ledger.csv`). Section numbers match the S1 file (1-14 across the four batches). Each S2 sends only after its S1 is confirmed sent and only if the hauler hasn't replied or bounced. Pending the user's approval.
+Written Oct 27 from `docs/Outreach_Copy_v2.md` (S2, business day +2, same thread) for H7-H10, from `outreach/H7-H10_S1_Copy.md` (same PR: each S1's subject, site and operator, unchanged). Same wording as the approved H4 S2s ("in your service area": no published yards). Dropped: nobody (checked Oct 27 against `data/do_not_contact.csv` and `data/send_ledger.csv`). Section numbers match the S1 file (1-14 across the four batches). Each S2 sends only after its S1 is confirmed sent and only if the hauler hasn't replied or bounced. Approved by the user Oct 27 ("approved all").
 
 ## 1. H7: Missouri City Porta Potty
 - To: contact@missouricityportapotty.com

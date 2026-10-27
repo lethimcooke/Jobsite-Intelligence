@@ -1,6 +1,6 @@
 # JI-H12 S2 copy (Houston)
 
-Written Oct 27 from `docs/Outreach_Copy_v2.md` (S2, business day +2, same thread) for H12, from `outreach/H12_S1_Copy.md` (same PR: each S1's subject, site and operator, unchanged). Same wording as the approved H4 S2s ("in your service area": no published yards). Dropped: nobody (checked Oct 27 against `data/do_not_contact.csv` and `data/send_ledger.csv`). If #3 Prestige is dropped from the S1 in review, drop it here too. Section numbers match the S1 file. Each S2 sends only after its S1 is confirmed sent and only if the hauler hasn't replied or bounced. Pending the user's approval.
+Written Oct 27 from `docs/Outreach_Copy_v2.md` (S2, business day +2, same thread) for H12, from `outreach/H12_S1_Copy.md` (same PR: each S1's subject, site and operator, unchanged). Same wording as the approved H4 S2s ("in your service area": no published yards). Dropped: nobody (checked Oct 27 against `data/do_not_contact.csv` and `data/send_ledger.csv`). If #3 Prestige is dropped from the S1 in review, drop it here too. Section numbers match the S1 file. Each S2 sends only after its S1 is confirmed sent and only if the hauler hasn't replied or bounced. Approved by the user Oct 27 ("approved all").
 
 ## 1. H12: Shep Boys Waste Management LLC
 - To: info@shepboyswaste.com

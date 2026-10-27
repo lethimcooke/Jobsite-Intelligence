@@ -4,7 +4,7 @@ Written Oct 27, 2026 from `docs/Outreach_Copy_v2.md` (S1, Tier B) in the structu
 
 **One wording change for the user to approve:** the H12 packet gives no distance for any row. Instead of "It's about N miles from [city]", the fit line places the site against the areas the hauler publishes ("It's in Katy, one of the areas you serve"). For #3 Prestige Portable Restrooms the packet confirms only Houston as its area, so the line says "It's in Katy, on the west side of the Houston area" and makes no claim that Prestige serves Katy; drop #3 if that match is too loose.
 
-Dropped (checked Oct 27): nobody. None of the 4 is on `data/do_not_contact.csv`, logged as bounced in `data/send_ledger.csv`, or listed with a status other than `Not contacted`. For review: #4's address begins with a first name (cindy@), shown only in the To line. Pending the user's approval.
+Dropped (checked Oct 27): nobody. None of the 4 is on `data/do_not_contact.csv`, logged as bounced in `data/send_ledger.csv`, or listed with a status other than `Not contacted`. For review: #4's address begins with a first name (cindy@), shown only in the To line. Approved by the user Oct 27 ("approved all").
 
 ## 1. H12: Shep Boys Waste Management LLC
 - To: info@shepboyswaste.com (A)

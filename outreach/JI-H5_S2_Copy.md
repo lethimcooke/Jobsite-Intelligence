@@ -1,6 +1,6 @@
 # JI-H5 S2 copy (Houston)
 
-Written Oct 27 from `docs/Outreach_Copy_v2.md` (S2, business day +2, same thread) for H5, from the approved `outreach/H5_S1_Copy.md` (each S1's subject, site and operator, unchanged). Same wording as the approved H4 S2s ("in your service area": these haulers have no published yard). Dropped: Precision Dumpsters (#2), marked SKIP in the S1 file (address not confirmed on its live site, Oct 21 recheck). Checked Oct 27: none of the other 14 is on `data/do_not_contact.csv` or logged as bounced in `data/send_ledger.csv`. Section numbers match the S1 file. Each S2 sends only after its S1 is confirmed sent and only if the hauler hasn't replied or bounced. Pending the user's approval.
+Written Oct 27 from `docs/Outreach_Copy_v2.md` (S2, business day +2, same thread) for H5, from the approved `outreach/H5_S1_Copy.md` (each S1's subject, site and operator, unchanged). Same wording as the approved H4 S2s ("in your service area": these haulers have no published yard). Dropped: Precision Dumpsters (#2), marked SKIP in the S1 file (address not confirmed on its live site, Oct 21 recheck). Checked Oct 27: none of the other 14 is on `data/do_not_contact.csv` or logged as bounced in `data/send_ledger.csv`. Section numbers match the S1 file. Each S2 sends only after its S1 is confirmed sent and only if the hauler hasn't replied or bounced. Approved by the user Oct 27 ("approved all").
 
 ## 1. H5: YOUR DUMPSTER BUDDY RENTALS LLC
 - To: yourdumpsterbuddyrentals@gmail.com
