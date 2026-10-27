@@ -1,0 +1,102 @@
+{
+  "subject": "ASI-MANIFEST v1 2026-10-28 e23438ffe0fdfd7a2d2282778ff6a0258b8eda9846cf3d1b42af2dc1796c8030",
+  "manifest": {
+    "version": 1,
+    "send_date": "2026-10-28",
+    "created_at": "2026-10-27T18:42:52+00:00",
+    "business": "Jobsite Intelligence",
+    "dry_run_only": false,
+    "max_total": 60,
+    "max_s1": 5,
+    "share": 15,
+    "aliases": {
+      "sites@asterfieldgroup.com": "Houston Jobsite Intelligence"
+    },
+    "dnc_emails": [
+      "admin@quickwaste.com",
+      "quickwasteservices@gmail.com",
+      "support@dumpsterintherough.com"
+    ],
+    "dnc_domains": [
+      "dumpsterintherough.com",
+      "quickwaste.com"
+    ],
+    "entries": [
+      {
+        "outreach_id": "JI-H5-S1-07",
+        "stage": "S1",
+        "company": "Onsite Outhouse",
+        "to": "info@onsiteouthouse.com",
+        "from_alias": "sites@asterfieldgroup.com",
+        "display_name": "Houston Jobsite Intelligence",
+        "subject": "Memorial City Mall",
+        "body_len": 791,
+        "body_sha256": "ea66ae3056027bd1d5597744bdbbbfe9d6ea7f3b5f97b9794b96f29955dbddd3",
+        "is_reply": false,
+        "reply_to_message_id": "",
+        "draft_id": "r4512128891185785315",
+        "thread_id": "1a17eabe47f5d8ca"
+      },
+      {
+        "outreach_id": "JI-H5-S1-08",
+        "stage": "S1",
+        "company": "Vargas Dumpster Services LLC",
+        "to": "v.dumpsterservices@gmail.com",
+        "from_alias": "sites@asterfieldgroup.com",
+        "display_name": "Houston Jobsite Intelligence",
+        "subject": "Project Wildcat, 222 Holmes Rd",
+        "body_len": 798,
+        "body_sha256": "6fb025308ff242bff6f060b2797c9bee6759969345355eaea74017d9ebc18f74",
+        "is_reply": false,
+        "reply_to_message_id": "",
+        "draft_id": "r-2201214800215935979",
+        "thread_id": "1a17eabe8973cacf"
+      },
+      {
+        "outreach_id": "JI-H5-S1-09",
+        "stage": "S1",
+        "company": "TRS Dumpsters",
+        "to": "info@trsdumpsters.com",
+        "from_alias": "sites@asterfieldgroup.com",
+        "display_name": "Houston Jobsite Intelligence",
+        "subject": "Lake Pointe Plaza, Sugar Land",
+        "body_len": 813,
+        "body_sha256": "dc424ca0129769f8fd7f23d24417e84bea33147eb3cdb297b251bf6f3105d22c",
+        "is_reply": false,
+        "reply_to_message_id": "",
+        "draft_id": "r-6548906687060284170",
+        "thread_id": "1a17eabebace60b1"
+      },
+      {
+        "outreach_id": "JI-H5-S1-10",
+        "stage": "S1",
+        "company": "AJ Foyt Roll Offs LLC",
+        "to": "info@ajfoyt-rolloffs.com",
+        "from_alias": "sites@asterfieldgroup.com",
+        "display_name": "Houston Jobsite Intelligence",
+        "subject": "Hoelscher Weatherstrip Manufacturing",
+        "body_len": 846,
+        "body_sha256": "bd6dc7e0900be8f0b6a7eb973dfcfd5f7b3e0af58736747432f2988c1c752145",
+        "is_reply": false,
+        "reply_to_message_id": "",
+        "draft_id": "r-8796402133621217994",
+        "thread_id": "1a17eabec0edc9b1"
+      },
+      {
+        "outreach_id": "JI-H5-S1-11",
+        "stage": "S1",
+        "company": "PARADA WASTE LLC",
+        "to": "paradawaste@gmail.com",
+        "from_alias": "sites@asterfieldgroup.com",
+        "display_name": "Houston Jobsite Intelligence",
+        "subject": "HLSR 288, 9950 South Fwy",
+        "body_len": 799,
+        "body_sha256": "3a7107f67a260fa3a70aafd6e42f03cca936dbb5204a545ed05c69f4b9a9b7a2",
+        "is_reply": false,
+        "reply_to_message_id": "",
+        "draft_id": "r4876090103267510604",
+        "thread_id": "1a17eabefd8ba951"
+      }
+    ]
+  }
+}
