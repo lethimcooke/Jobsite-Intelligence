@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "documentTitle": "Houston Jobsite Intelligence, five-site sample for Renegade Roll-Offs, Asterfield Group",
+    "pdfAuthor": "Asterfield Group",
+    "pdfSubject": "Five new construction sites in Renegade Roll-Offs' service area, from TCEQ construction stormwater records.",
+    "pdfKeywords": "Houston, TCEQ, construction stormwater, roll-off, portable toilets, Asterfield Group"
+  },
+  "brand": {
+    "wordmark": "Asterfield",
+    "companyLine": "ASTERFIELD GROUP"
+  },
+  "report": {
+    "eyebrow": "HOUSTON JOBSITE INTELLIGENCE",
+    "city": "Houston",
+    "reportShortLabel": "RENEGADE ROLL-OFFS SAMPLE",
+    "headline": "Five new construction sites in the areas you serve, west and southwest Houston.",
+    "supportingCopy": "Picked for your 15- and 20-yard roll-offs and the areas on your site: Katy, Sugar Land, Rosenberg, Cypress and Tomball. Each site comes from a TCEQ construction stormwater record.",
+    "reportIdentifier": "FIVE-SITE SAMPLE FOR RENEGADE ROLL-OFFS",
+    "preparedFor": "Prepared for Renegade Roll-Offs",
+    "territory": "Fort Bend and Harris County",
+    "projectCountLabel": "5 Sites",
+    "preparedDate": "Prepared October 29, 2026",
+    "footerLine": "Public-record intelligence / Verify before outreach",
+    "contactEmail": "sites@asterfieldgroup.com",
+    "scopeLabel": "Likely hauling work (our read)"
+  },
+  "projects": [
+    {
+      "number": "01",
+      "name": "Fifth Third Bank Shops at Katy",
+      "tag": "Roll-off",
+      "address": "1720 Spring Green Blvd, Katy, TX",
+      "area": "Katy, Fort Bend County",
+      "dateLabel": "Authorized",
+      "filedStart": "Oct 2, 2026",
+      "valueLabel": "Your area",
+      "value": "Katy (on your list)",
+      "recordLabel": "TCEQ TXR1591ZP",
+      "recordUrl": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112540703&program_code=STORM",
+      "whatsFiled": "Construction stormwater authorization for a commercial site, operator on file The Fifth Third Bank. The record lists no project value or finish date.",
+      "likelyScope": "Roll-off containers for construction and packaging debris on a bank branch and retail build; our read from the site type.",
+      "whoDecides": "Operator on file is The Fifth Third Bank, the owner, a routing contact for which contractor runs the site. No hauler is named in the record, which is not the same as no hauler chosen.",
+      "contactLine": "Operator on file: The Fifth Third Bank (business name from the TCEQ record)",
+      "firstStep": "Call the operator's main office and ask who books site services for this job."
+    },
+    {
+      "number": "02",
+      "name": "HTEAO TX-656, Rosenberg",
+      "tag": "Roll-off",
+      "address": "6415 Reading Rd, Rosenberg, TX",
+      "area": "Rosenberg, Fort Bend County",
+      "dateLabel": "Authorized",
+      "filedStart": "Oct 20, 2026",
+      "valueLabel": "Your area",
+      "value": "Rosenberg (on your list)",
+      "recordLabel": "TCEQ TXR1538ZU",
+      "recordUrl": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112551775&program_code=STORM",
+      "whatsFiled": "Construction stormwater authorization for a commercial site, operator on file Dallas Commercial Builders LLC. The record lists no project value.",
+      "likelyScope": "Roll-off containers for construction and packaging debris on a commercial build; our read from the site type, not the filing.",
+      "whoDecides": "Operator on file is Dallas Commercial Builders LLC, a routing contact, not confirmed as the hauling decision-maker. No hauler is named in the record, which is not the same as no hauler chosen.",
+      "contactLine": "Operator on file: Dallas Commercial Builders LLC (from the TCEQ record)",
+      "firstStep": "Call the operator's main office and ask who books site services for this job."
+    },
+    {
+      "number": "03",
+      "name": "Yokogawa Park, Sugar Land",
+      "tag": "Roll-off",
+      "address": "12530 W Airport Blvd, Sugar Land, TX",
+      "area": "Sugar Land, Fort Bend County",
+      "dateLabel": "Authorized",
+      "filedStart": "Sep 29, 2026",
+      "valueLabel": "Your area",
+      "value": "Sugar Land (on your list)",
+      "recordLabel": "TCEQ TXR15R222",
+      "recordUrl": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN104658299&program_code=STORM",
+      "whatsFiled": "Construction stormwater authorization for an amenity and recreation site, operator on file Yokogawa Fluence Analytics Inc.",
+      "likelyScope": "Roll-off containers for clearing and construction debris on a park or amenity build; our read from the site type.",
+      "whoDecides": "Operator on file is Yokogawa Fluence Analytics Inc, the owner, a routing contact for which contractor runs the site. No hauler is named in the record, which is not the same as no hauler chosen.",
+      "contactLine": "Operator on file: Yokogawa Fluence Analytics Inc (from the TCEQ record)",
+      "firstStep": "Call the operator's main office and ask who books site services for this job."
+    },
+    {
+      "number": "04",
+      "name": "Rockefeller Axis 290",
+      "tag": "Roll-off",
+      "address": "6995 Brittmoore Rd, Houston, TX",
+      "area": "Northwest Houston, Harris County",
+      "dateLabel": "Authorized",
+      "filedStart": "Sep 29, 2026",
+      "valueLabel": "Your area",
+      "value": "Cypress side (our read)",
+      "recordLabel": "TCEQ TXR1577ZO",
+      "recordUrl": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112538277&program_code=STORM",
+      "whatsFiled": "Construction stormwater authorization for a commercial and industrial site, operator on file Burton Construction Co.",
+      "likelyScope": "Roll-off containers for construction and packaging debris on an industrial build off US 290; our read from the site type.",
+      "whoDecides": "Operator on file is Burton Construction Co, a routing contact, not confirmed as the hauling decision-maker. No hauler is named in the record, which is not the same as no hauler chosen.",
+      "contactLine": "Operator on file: Burton Construction Co (business name from the TCEQ record)",
+      "firstStep": "Call the operator's main office and ask who books site services for this job."
+    },
+    {
+      "number": "05",
+      "name": "BJ Services Tomball",
+      "tag": "Roll-off",
+      "address": "11211 FM 2920 Rd, Tomball, TX",
+      "area": "Tomball, Harris County",
+      "dateLabel": "Authorized",
+      "filedStart": "Oct 8, 2026",
+      "valueLabel": "Your area",
+      "value": "Tomball (on your list)",
+      "recordLabel": "TCEQ TXR1573ZR",
+      "recordUrl": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN100705680&program_code=STORM",
+      "whatsFiled": "Construction stormwater authorization for a commercial and industrial site, operator on file ICI Construction Inc.",
+      "likelyScope": "Roll-off containers for construction and packaging debris on an industrial build; our read from the site type, not the filing.",
+      "whoDecides": "Operator on file is ICI Construction Inc, a routing contact, not confirmed as the hauling decision-maker. No hauler is named in the record, which is not the same as no hauler chosen.",
+      "contactLine": "Operator on file: ICI Construction Inc (business name from the TCEQ record)",
+      "firstStep": "Call the operator's main office and ask who books site services for this job."
+    }
+  ],
+  "pilot": {
+    "eyebrow": "ABOUT THIS SAMPLE",
+    "headline": "How this list was built.",
+    "bullets": [
+      "Five sites pulled from TCEQ construction stormwater records, each with its own authorization number.",
+      "Distances and hauling scope are our read of the public record, not confirmation that work has started or that a hauler is unselected.",
+      "No individual names; every contact is a business name on file."
+    ],
+    "disclosure": "A stormwater authorization shows a site is permitted for construction; it does not say who hauls for it.",
+    "contactEmail": "sites@asterfieldgroup.com",
+    "contactLine": "Prepared by Asterfield Group."
+  }
+}

@@ -108,7 +108,7 @@
       '<div class="g-name">Project</div>' +
       '<div class="g-tag">Type</div>' +
       '<div class="g-filed">Timing</div>' +
-      '<div class="g-value">From yard</div>' +
+      '<div class="g-value">' + esc((data.projects[0] && data.projects[0].valueLabel) || 'From yard') + '</div>' +
       '<div class="g-record">Record</div>' +
       '</div>' +
       rows +
