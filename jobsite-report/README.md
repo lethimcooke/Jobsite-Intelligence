@@ -36,6 +36,17 @@ The free five-site sample a hauler gets in E1 when it says "send it". Adapted fr
 - A site already used in an S1 hook to that hauler may be #1 (it's the job they asked about); don't
   give the same site to two competing haulers in the same week.
 - `report-data-example.json` is a format example with placeholder distances. Never send it.
+- **Live record check (Oct 30):** before a site goes in a sample, re-read its record on
+  data.texas.gov and confirm the TXR15 authorization shows `ACTIVE`. A fresh pull can still carry a
+  cancelled authorization (Yokogawa Park, TXR15R222, was CANCELLED). List every operator on file.
+- **Not someone else's hook:** a site in any hauler's packet (`data/packet_*.csv`, by `site_rn`) is
+  off limits for another hauler's sample unless it is the requesting hauler's own S1 site (#1).
+- **No assumptions as facts:** don't call an operator "the owner" or name a contractor the record
+  doesn't list. A site name built on a person's name (for example a road named after someone) is
+  skipped, as in the emails.
+- **Review before the user sends (user, Oct 30):** every sample and its E1 email go to the
+  report creator for review (`jobsite-report/Report_Review_Brief.md`). Operations hands the user a
+  ready-to-paste review prompt and never presents a sample as ready until the review is back.
 
 ## Verified cloud export (October 14)
 
