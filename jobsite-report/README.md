@@ -44,9 +44,10 @@ The free five-site sample a hauler gets in E1 when it says "send it". Adapted fr
 - **No assumptions as facts:** don't call an operator "the owner" or name a contractor the record
   doesn't list. A site name built on a person's name (for example a road named after someone) is
   skipped, as in the emails.
-- **Review before the user sends (user, Oct 30):** every sample and its E1 email go to the
-  report creator for review (`jobsite-report/Report_Review_Brief.md`). Operations hands the user a
-  ready-to-paste review prompt and never presents a sample as ready until the review is back.
+- **Who builds and who reviews (user, Oct 30):** the report creator builds every sample
+  (`jobsite-report/Report_Creator_Brief.md`); operations (Claude) reviews it, drafts the E1 and
+  hands it to the user. When a hauler replies, operations gives the user a ready-to-paste prompt
+  for the report creator; nothing goes to the hauler until operations has reviewed the PR.
 
 ## Verified cloud export (October 14)
 
