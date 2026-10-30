@@ -14,7 +14,7 @@
     "city": "Houston",
     "reportShortLabel": "RENEGADE ROLL-OFFS SAMPLE",
     "headline": "Five new construction sites near the Katy, Cypress and Richmond areas you serve.",
-    "supportingCopy": "Each site comes from a TCEQ construction stormwater record, picked for your 15- and 20-yard roll-offs and read for hauling scope and a real contact.",
+    "supportingCopy": "Each site comes from a TCEQ construction stormwater record, picked for your 15- and 20-yard roll-offs and read for hauling scope, with the operator on file.",
     "reportIdentifier": "SAMPLE REPORT FOR RENEGADE ROLL-OFFS LLC",
     "preparedFor": "Prepared for Renegade Roll-Offs LLC",
     "territory": "Katy, Cypress and Richmond service areas",
@@ -93,7 +93,7 @@
       "recordUrl": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112239876&program_code=STORM",
       "whatsFiled": "Two construction stormwater authorizations (TXR1504ZR, TXR1539VB) for heavy construction and land development, two operators on file.",
       "likelyScope": "Roll-off containers, 15 to 20 yard, for clearing and site work on a land development; our read from the filed industry.",
-      "whoDecides": "Operator on file is S & J Excavation LLC and TPHTL Cypress LLC, a routing contact, not confirmed as the hauling decision-maker. No hauler is named in the record, which is not the same as no hauler chosen.",
+      "whoDecides": "Operators on file are S & J Excavation LLC and TPHTL Cypress LLC, routing contacts, not confirmed as the hauling decision-maker. No hauler is named in the record, which is not the same as no hauler chosen.",
       "contactLine": "Operators on file: S & J Excavation LLC, TPHTL Cypress LLC",
       "firstStep": "Call the operator's main office and ask who books site services for this job."
     },
@@ -111,7 +111,7 @@
       "recordUrl": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112520465&program_code=STORM",
       "whatsFiled": "Construction stormwater authorization for the Richmond address above, two operators on file. The record lists no project type.",
       "likelyScope": "Roll-off containers, 15 to 20 yard, for clearing and site work on a phased build; our read from the site name, not the filing.",
-      "whoDecides": "Operator on file is FM 359 Realty LLC and Esteem AI Ventures LLC, a routing contact, not confirmed as the hauling decision-maker. No hauler is named in the record, which is not the same as no hauler chosen.",
+      "whoDecides": "Operators on file are FM 359 Realty LLC and Esteem AI Ventures LLC, routing contacts, not confirmed as the hauling decision-maker. No hauler is named in the record, which is not the same as no hauler chosen.",
       "contactLine": "Operators on file: FM 359 Realty LLC, Esteem AI Ventures LLC",
       "firstStep": "Call the operator's main office and ask who books site services for this job."
     }
