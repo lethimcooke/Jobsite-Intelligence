@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "documentTitle": "Houston Jobsite Intelligence, sample report for Renegade Roll-Offs LLC, Asterfield Group",
+    "pdfAuthor": "Asterfield Group",
+    "pdfSubject": "Five new construction sites near Renegade Roll-Offs' service cities, from TCEQ stormwater records.",
+    "pdfKeywords": "Houston, TCEQ, construction stormwater, roll-off, Katy, Cypress, Richmond, Asterfield Group"
+  },
+  "brand": {
+    "wordmark": "Asterfield",
+    "companyLine": "ASTERFIELD GROUP"
+  },
+  "report": {
+    "eyebrow": "HOUSTON JOBSITE INTELLIGENCE",
+    "city": "Houston",
+    "reportShortLabel": "RENEGADE ROLL-OFFS SAMPLE",
+    "headline": "Five new construction sites near the Katy, Cypress and Richmond areas you serve.",
+    "supportingCopy": "Each site comes from a TCEQ construction stormwater record, picked for your 15- and 20-yard roll-offs and read for hauling scope, with the operator on file.",
+    "reportIdentifier": "SAMPLE REPORT FOR RENEGADE ROLL-OFFS LLC",
+    "preparedFor": "Prepared for Renegade Roll-Offs LLC",
+    "territory": "Katy, Cypress and Richmond service areas",
+    "projectCountLabel": "5 Sites",
+    "preparedDate": "Prepared October 30, 2026",
+    "footerLine": "Public-record intelligence / Verify before outreach",
+    "contactEmail": "sites@asterfieldgroup.com",
+    "scopeLabel": "Likely hauling work (our read)"
+  },
+  "projects": [
+    {
+      "number": "01",
+      "name": "Fifth Third Bank Shops at Katy",
+      "tag": "Roll-off",
+      "address": "1720 Spring Green Blvd, Katy, TX",
+      "area": "Katy, Fort Bend County",
+      "dateLabel": "Authorized",
+      "filedStart": "Oct 2, 2026",
+      "valueLabel": "From your service city",
+      "value": "About 2 mi from Katy (our read)",
+      "recordLabel": "TCEQ TXR1591ZP",
+      "recordUrl": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112540703&program_code=STORM",
+      "whatsFiled": "Construction stormwater authorization for the Katy address above, operator on file The Fifth Third Bank. The record lists no project type.",
+      "likelyScope": "Roll-off containers, 15 to 20 yard, for construction debris on a commercial build; our read from the site name, not the filing.",
+      "whoDecides": "Operator on file is The Fifth Third Bank, a routing contact, not confirmed as the hauling decision-maker. No hauler is named in the record, which is not the same as no hauler chosen.",
+      "contactLine": "Operator on file: The Fifth Third Bank (business name from the TCEQ record)",
+      "firstStep": "Call the operator's main office and ask who books site services for this job."
+    },
+    {
+      "number": "02",
+      "name": "The Home Depot, Elyson",
+      "tag": "Roll-off",
+      "address": "0.3 mi south of Mason Rd and West Rd, Harris County",
+      "area": "Harris County, Katy area (our read)",
+      "dateLabel": "Authorized",
+      "filedStart": "Oct 19, 2026",
+      "valueLabel": "From your service city",
+      "value": "About 7 mi from Katy (our read)",
+      "recordLabel": "TCEQ TXR1569ZT",
+      "recordUrl": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112550140&program_code=STORM",
+      "whatsFiled": "Construction stormwater authorization for The Home Depot, Elyson, operator on file Home Depot USA Inc. The record gives no street address.",
+      "likelyScope": "Roll-off containers, 15 to 20 yard, for construction debris on a commercial build; our read from the site name, not the filing.",
+      "whoDecides": "Operator on file is Home Depot USA Inc, a routing contact, not confirmed as the hauling decision-maker. No hauler is named in the record, which is not the same as no hauler chosen.",
+      "contactLine": "Operator on file: Home Depot USA Inc (business name from the TCEQ record)",
+      "firstStep": "Call the operator's main office and ask who books site services for this job."
+    },
+    {
+      "number": "03",
+      "name": "Legacy CD-2",
+      "tag": "Roll-off",
+      "address": "South side of US-290, just east of Mueschke Rd, Harris County",
+      "area": "Harris County, Cypress area (our read)",
+      "dateLabel": "Authorized",
+      "filedStart": "Oct 12, 2026",
+      "valueLabel": "From your service city",
+      "value": "About 2 mi from Cypress (our read)",
+      "recordLabel": "TCEQ TXR1512ZS",
+      "recordUrl": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112546403&program_code=STORM",
+      "whatsFiled": "Construction stormwater authorization for an industrial building in a business park, operator on file David E Harvey Builders Inc.",
+      "likelyScope": "Roll-off containers, 15 to 20 yard, for construction debris on an industrial building; our read from the site type.",
+      "whoDecides": "Operator on file is David E Harvey Builders Inc, a routing contact, not confirmed as the hauling decision-maker. No hauler is named in the record, which is not the same as no hauler chosen.",
+      "contactLine": "Operator on file: David E Harvey Builders Inc",
+      "firstStep": "Call the operator's main office and ask who books site services for this job."
+    },
+    {
+      "number": "04",
+      "name": "Watersong",
+      "tag": "Roll-off",
+      "address": "North side of Cypresswood Dr, east of Mueschke Rd, Harris County",
+      "area": "Harris County, Cypress area (our read)",
+      "dateLabel": "Authorized",
+      "filedStart": "Oct 6, 2026",
+      "valueLabel": "From your service city",
+      "value": "About 2 mi from Cypress (our read)",
+      "recordLabel": "TCEQ TXR1504ZR",
+      "recordUrl": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112239876&program_code=STORM",
+      "whatsFiled": "Two construction stormwater authorizations (TXR1504ZR, TXR1539VB) for heavy construction and land development, two operators on file.",
+      "likelyScope": "Roll-off containers, 15 to 20 yard, for clearing and site work on a land development; our read from the filed industry.",
+      "whoDecides": "Operators on file are S & J Excavation LLC and TPHTL Cypress LLC, routing contacts, not confirmed as the hauling decision-maker. No hauler is named in the record, which is not the same as no hauler chosen.",
+      "contactLine": "Operators on file: S & J Excavation LLC, TPHTL Cypress LLC",
+      "firstStep": "Call the operator's main office and ask who books site services for this job."
+    },
+    {
+      "number": "05",
+      "name": "Mason Crossing Phase 1",
+      "tag": "Roll-off",
+      "address": "2506 Brandt Rd, Richmond, TX",
+      "area": "Richmond, Fort Bend County",
+      "dateLabel": "Authorized",
+      "filedStart": "Oct 18, 2026",
+      "valueLabel": "From your service city",
+      "value": "About 4 mi from Richmond (our read)",
+      "recordLabel": "TCEQ TXR1577ZH",
+      "recordUrl": "https://data.texas.gov/resource/tzyg-j7q4.json?ref_num_txt=RN112520465&program_code=STORM",
+      "whatsFiled": "Construction stormwater authorization for the Richmond address above, two operators on file. The record lists no project type.",
+      "likelyScope": "Roll-off containers, 15 to 20 yard, for clearing and site work on a phased build; our read from the site name, not the filing.",
+      "whoDecides": "Operators on file are FM 359 Realty LLC and Esteem AI Ventures LLC, routing contacts, not confirmed as the hauling decision-maker. No hauler is named in the record, which is not the same as no hauler chosen.",
+      "contactLine": "Operators on file: FM 359 Realty LLC, Esteem AI Ventures LLC",
+      "firstStep": "Call the operator's main office and ask who books site services for this job."
+    }
+  ],
+  "pilot": {
+    "eyebrow": "ABOUT THIS SAMPLE",
+    "headline": "How this list was built.",
+    "bullets": [
+      "Five sites pulled from TCEQ construction stormwater records, each with its own authorization number, each checked ACTIVE on October 30.",
+      "Distances and hauling scope are our read of the public record, not confirmation that work has started or that a hauler is unselected.",
+      "No individual names; every contact is a business name on file."
+    ],
+    "disclosure": "A stormwater authorization shows a site is permitted for construction; it does not say who hauls for it.",
+    "contactEmail": "sites@asterfieldgroup.com",
+    "contactLine": "Prepared by Asterfield Group."
+  }
+}
