@@ -1,0 +1,47 @@
+[
+  {
+    "outreach_id": "JI-H6-S1-03",
+    "kind": "gmail_sent",
+    "evidence_id": "1a19ced8c0d75ef3",
+    "thread_id": "1a19cb5a69c4e1f9",
+    "sent_at": "2026-11-02T15:42:56+00:00",
+    "from": "sites@asterfieldgroup.com",
+    "to": "cleanspacedumpsters@gmail.com"
+  },
+  {
+    "outreach_id": "JI-H6-S1-04",
+    "kind": "gmail_sent",
+    "evidence_id": "1a19cee9849b0c9d",
+    "thread_id": "1a19cb5a94696673",
+    "sent_at": "2026-11-02T15:44:04+00:00",
+    "from": "sites@asterfieldgroup.com",
+    "to": "manuel-info@qlinesiteservices.com"
+  },
+  {
+    "outreach_id": "JI-H6-S1-05",
+    "kind": "gmail_sent",
+    "evidence_id": "1a19cef9caee62d7",
+    "thread_id": "1a19cb5aa1d24668",
+    "sent_at": "2026-11-02T15:45:11+00:00",
+    "from": "sites@asterfieldgroup.com",
+    "to": "support@awdumpsters.com"
+  },
+  {
+    "outreach_id": "JI-H6-S1-06",
+    "kind": "gmail_sent",
+    "evidence_id": "1a19cf0677daa8aa",
+    "thread_id": "1a19cb5ac69d667c",
+    "sent_at": "2026-11-02T15:46:03+00:00",
+    "from": "sites@asterfieldgroup.com",
+    "to": "office@mwedumpsters.com"
+  },
+  {
+    "outreach_id": "JI-H6-S1-08",
+    "kind": "gmail_sent",
+    "evidence_id": "1a19cf6a9bc38f50",
+    "thread_id": "1a19cb5aeb972938",
+    "sent_at": "2026-11-02T15:52:53+00:00",
+    "from": "sites@asterfieldgroup.com",
+    "to": "info@outhouseboys.com"
+  }
+]
