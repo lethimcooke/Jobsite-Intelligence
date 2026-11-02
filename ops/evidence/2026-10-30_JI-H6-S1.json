@@ -1,0 +1,20 @@
+[
+  {
+    "outreach_id": "JI-H6-S1-01",
+    "kind": "gmail_sent",
+    "evidence_id": "1a18ceb8658c37a3",
+    "thread_id": "1a183d8b51c61519",
+    "sent_at": "2026-10-30T13:06:48+00:00",
+    "from": "sites@asterfieldgroup.com",
+    "to": "harveysds76@gmail.com"
+  },
+  {
+    "outreach_id": "JI-H6-S1-02",
+    "kind": "gmail_sent",
+    "evidence_id": "1a18cf124e40cf3b",
+    "thread_id": "1a183d8b654c9856",
+    "sent_at": "2026-10-30T13:12:56+00:00",
+    "from": "sites@asterfieldgroup.com",
+    "to": "uniondumpsterrentals@gmail.com"
+  }
+]

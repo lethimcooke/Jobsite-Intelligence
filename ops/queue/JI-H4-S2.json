@@ -123,7 +123,7 @@
       "reply_to_message_id": "1a168dc1ea4ced10",
       "attachments": [],
       "hook_type": "commercial; subject A; no yard",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r1806997920171095961",
         "message_id": "1a183d91443de1b9",
@@ -148,7 +148,7 @@
       "reply_to_message_id": "1a168ddda9ab091d",
       "attachments": [],
       "hook_type": "commercial; subject A; no yard",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r1966344664918665774",
         "message_id": "1a183d919302941a",
@@ -173,7 +173,7 @@
       "reply_to_message_id": "1a168e5f3864e273",
       "attachments": [],
       "hook_type": "industrial; subject A; no yard",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r-4279401443900708338",
         "message_id": "1a183d91af92480e",
@@ -198,7 +198,7 @@
       "reply_to_message_id": "1a168e7d93ad1667",
       "attachments": [],
       "hook_type": "construction; subject A; no yard",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r7962118032710226267",
         "message_id": "1a183d91c325cec8",
@@ -223,7 +223,7 @@
       "reply_to_message_id": "1a168ee83aff1ec2",
       "attachments": [],
       "hook_type": "construction; subject A; no yard",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r-6606537545388754396",
         "message_id": "1a183d921f187048",
@@ -248,7 +248,7 @@
       "reply_to_message_id": "1a178b3337f757ef",
       "attachments": [],
       "hook_type": "construction; subject A; no yard",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r5251501073315605703",
         "message_id": "1a183d922914e286",
@@ -273,7 +273,7 @@
       "reply_to_message_id": "1a178b413e9fae33",
       "attachments": [],
       "hook_type": "construction; subject A; no yard",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r-7722524113041160202",
         "message_id": "1a183d924d4fae2a",
@@ -318,7 +318,7 @@
       "reply_to_message_id": "1a178b5e3e84b811",
       "attachments": [],
       "hook_type": "commercial; subject A; no yard",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r-1292919414093371641",
         "message_id": "1a183d927927235e",
@@ -343,7 +343,7 @@
       "reply_to_message_id": "1a178bc81546758f",
       "attachments": [],
       "hook_type": "construction; subject A; no yard",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r-8893788324387082644",
         "message_id": "1a183d929bff90fc",
