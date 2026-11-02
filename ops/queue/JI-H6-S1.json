@@ -73,9 +73,16 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "",
-      "status": "deferred",
-      "draft": null,
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "status": "drafted",
+      "draft": {
+        "draft_id": "r7617088047536903076",
+        "message_id": "1a19cb5a69c4e1f9",
+        "thread_id": "1a19cb5a69c4e1f9",
+        "payload_sha256": "740dfbde3e7ffaf16bba8e368a6c8ad1cc49a66d2acbc7b9842a0fe0ae782574",
+        "created_at": "2026-11-02T14:42:11+00:00"
+      },
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "planned_for": "2026-11-02"
     },
     {
       "id": "JI-H6-S1-04",
@@ -91,9 +98,16 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "",
-      "status": "deferred",
-      "draft": null,
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "status": "drafted",
+      "draft": {
+        "draft_id": "r4252499622926989243",
+        "message_id": "1a19cb5a94696673",
+        "thread_id": "1a19cb5a94696673",
+        "payload_sha256": "dc7cb9f0e2de5836f07408d2b4bc99c911181781453e7f85eef9c22dbf61df45",
+        "created_at": "2026-11-02T14:42:11+00:00"
+      },
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "planned_for": "2026-11-02"
     },
     {
       "id": "JI-H6-S1-05",
@@ -109,9 +123,16 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "",
-      "status": "deferred",
-      "draft": null,
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "status": "drafted",
+      "draft": {
+        "draft_id": "r-5632436161194533973",
+        "message_id": "1a19cb5aa1d24668",
+        "thread_id": "1a19cb5aa1d24668",
+        "payload_sha256": "ea92ac4bbbf14a86950caf4bfa49c12771f9a6ab3aee8b3e106f0d1d54670b9c",
+        "created_at": "2026-11-02T14:42:11+00:00"
+      },
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "planned_for": "2026-11-02"
     },
     {
       "id": "JI-H6-S1-06",
@@ -127,9 +148,16 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "",
-      "status": "deferred",
-      "draft": null,
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "status": "drafted",
+      "draft": {
+        "draft_id": "r-5867738856918232143",
+        "message_id": "1a19cb5ac69d667c",
+        "thread_id": "1a19cb5ac69d667c",
+        "payload_sha256": "db58d5833684c4beb794ee64d2c763674fbeab88d22af88bdf6ae912ea5c6079",
+        "created_at": "2026-11-02T14:42:11+00:00"
+      },
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "planned_for": "2026-11-02"
     },
     {
       "id": "JI-H6-S1-07",
@@ -153,9 +181,16 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "",
-      "status": "deferred",
-      "draft": null,
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "status": "drafted",
+      "draft": {
+        "draft_id": "r4008220305595846374",
+        "message_id": "1a19cb5aeb972938",
+        "thread_id": "1a19cb5aeb972938",
+        "payload_sha256": "2d360296168b192487f05729c0254bfe7ad438b3cb8b25209e78a31d4b927e86",
+        "created_at": "2026-11-02T14:42:11+00:00"
+      },
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "planned_for": "2026-11-02"
     },
     {
       "id": "JI-H6-S1-09",
