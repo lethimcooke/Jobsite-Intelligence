@@ -1,0 +1,2519 @@
+{
+  "prepared": "2026-11-03",
+  "batch": "DFW2",
+  "base_commit": "9e0d82fa81542482aafebb426f8de39e2a525897",
+  "contacts": [
+    {
+      "row": 1,
+      "company": "Greenmark Waste Solutions",
+      "domain": "greenmarkwaste.com",
+      "email": "customerservice@greenmarkwaste.com",
+      "email_grade": "A",
+      "own": {
+        "url": "https://www.greenmarkwaste.com/contact-us",
+        "final_url": "https://www.greenmarkwaste.com/contact-us",
+        "http_status": 200,
+        "fetched_at": "2026-11-03T16:14:11.283050+00:00",
+        "sha256": "3d33b37cd19a52d4a9cd0f934e998997f705d557612feea2d20b9a12fcaf3d32",
+        "exact_address_excerpt": "customerservice@greenmarkwaste.com",
+        "publication_method": "published text or mailto link"
+      },
+      "DNS": {
+        "MX": {
+          "url": "https://dns.google/resolve?name=greenmarkwaste.com&type=MX",
+          "status": 200,
+          "fetched_at": "2026-11-03T16:19:05.579626+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "greenmarkwaste.com.",
+                "type": 15
+              }
+            ],
+            "Answer": [
+              {
+                "name": "greenmarkwaste.com.",
+                "type": 15,
+                "TTL": 3600,
+                "data": "0 greenmarkwaste-com.mail.protection.outlook.com."
+              }
+            ],
+            "Comment": "Response from 173.201.71.4."
+          }
+        },
+        "A": {
+          "url": "https://dns.google/resolve?name=greenmarkwaste.com&type=A",
+          "status": 200,
+          "fetched_at": "2026-11-03T16:19:05.904463+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "greenmarkwaste.com.",
+                "type": 1
+              }
+            ],
+            "Answer": [
+              {
+                "name": "greenmarkwaste.com.",
+                "type": 1,
+                "TTL": 3600,
+                "data": "198.202.211.1"
+              }
+            ],
+            "Comment": "Response from 97.74.103.4."
+          }
+        }
+      },
+      "support_pages": [
+        {
+          "url": "https://greenmarkwaste.com/",
+          "final_url": "https://www.greenmarkwaste.com/",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:14:09.304718+00:00",
+          "sha256": "81ee46f7e842ee894decb2f823d59896b52b20d9699c7e6664c3d4093f1b872f"
+        },
+        {
+          "url": "https://www.greenmarkwaste.com/roll-off-dumpsters",
+          "final_url": "https://www.greenmarkwaste.com/roll-off-dumpsters",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:14:10.347942+00:00",
+          "sha256": "9a996e69cef1d9e46903082f9ed00e454b3cd5ae80a9f599e667b3393641faed"
+        },
+        {
+          "url": "https://www.greenmarkwaste.com/about-us",
+          "final_url": "https://www.greenmarkwaste.com/about-us",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:14:10.610364+00:00",
+          "sha256": "a2d8d1f00dc150433f104289493d381e8cecb0c3274c6edb61cb4355c50c45ba"
+        },
+        {
+          "url": "https://www.greenmarkwaste.com/contact-us",
+          "final_url": "https://www.greenmarkwaste.com/contact-us",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:14:11.283050+00:00",
+          "sha256": "3d33b37cd19a52d4a9cd0f934e998997f705d557612feea2d20b9a12fcaf3d32"
+        }
+      ],
+      "fit_evidence": "Locally owned and operated on own About page; commercial construction dumpsters.",
+      "areas_published": "Dallas-Fort Worth metroplex",
+      "service_reference": "Sunnyvale",
+      "fleet": {
+        "usdot": "4318946",
+        "power_units_as_reported": "8",
+        "source_url": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=4318946",
+        "http_status": 200,
+        "fetched_at": "2026-11-03T16:20:33.116152+00:00",
+        "sha256": "6687dceafb9c2112609b13ea1654cf296d4f27e60a1e5f21a534eca1e0872caa",
+        "unverified": false
+      },
+      "site": {
+        "rn": "RN112540109",
+        "authorization": "TXR1568ZP",
+        "status": "ACTIVE",
+        "name": "COLLINS OFFICE CONDOS",
+        "street": "110 AND 112 CLAY ROAD",
+        "city": "SUNNYVALE",
+        "county": "DALLAS",
+        "affiliation_begin": "2026-10-01",
+        "priority_our_read": "1",
+        "project_type_our_read": "commercial / industrial / institutional",
+        "source_url": "https://data.texas.gov/resource/t34q-qzi3.json?%24where=program_code%3D%27STORM%27+AND+affil_begin_dt+%3E%3D+%272026-09-19%27&%24limit=10000",
+        "fetched_at": "2026-11-03T16:19:04.106094+00:00",
+        "verification_method": "fresh live regional response; individual RN lookup returned 503",
+        "previous_DFW1_use": false
+      },
+      "limits": ""
+    },
+    {
+      "row": 2,
+      "company": "Parker Waste Services",
+      "domain": "parkerwasteservices.com",
+      "email": "info@parkerwaste.com",
+      "email_grade": "A",
+      "own": {
+        "url": "https://www.parkerwasteservices.com/contact",
+        "final_url": "https://www.parkerwasteservices.com/contact",
+        "http_status": 200,
+        "fetched_at": "2026-11-03T16:14:11.733753+00:00",
+        "sha256": "0f4f54b9f1443a341bfbbd7d797b32d849910c5ead4d6979791e2ed5f956d670",
+        "exact_address_excerpt": "info@parkerwaste.com",
+        "publication_method": "published text or mailto link"
+      },
+      "DNS": {
+        "MX": {
+          "url": "https://dns.google/resolve?name=parkerwaste.com&type=MX",
+          "status": 200,
+          "fetched_at": "2026-11-03T16:19:06.234770+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "parkerwaste.com.",
+                "type": 15
+              }
+            ],
+            "Answer": [
+              {
+                "name": "parkerwaste.com.",
+                "type": 15,
+                "TTL": 3600,
+                "data": "10 aspmx.l.google.com."
+              },
+              {
+                "name": "parkerwaste.com.",
+                "type": 15,
+                "TTL": 3600,
+                "data": "20 alt1.aspmx.l.google.com."
+              },
+              {
+                "name": "parkerwaste.com.",
+                "type": 15,
+                "TTL": 3600,
+                "data": "30 alt2.aspmx.l.google.com."
+              },
+              {
+                "name": "parkerwaste.com.",
+                "type": 15,
+                "TTL": 3600,
+                "data": "40 alt3.aspmx.l.google.com."
+              },
+              {
+                "name": "parkerwaste.com.",
+                "type": 15,
+                "TTL": 3600,
+                "data": "50 alt4.aspmx.l.google.com."
+              }
+            ],
+            "Comment": "Response from 216.239.38.100."
+          }
+        },
+        "A": {
+          "url": "https://dns.google/resolve?name=parkerwaste.com&type=A",
+          "status": 200,
+          "fetched_at": "2026-11-03T16:19:06.559090+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "parkerwaste.com.",
+                "type": 1
+              }
+            ],
+            "Answer": [
+              {
+                "name": "parkerwaste.com.",
+                "type": 1,
+                "TTL": 3600,
+                "data": "185.230.63.186"
+              },
+              {
+                "name": "parkerwaste.com.",
+                "type": 1,
+                "TTL": 3600,
+                "data": "185.230.63.171"
+              },
+              {
+                "name": "parkerwaste.com.",
+                "type": 1,
+                "TTL": 3600,
+                "data": "185.230.63.107"
+              }
+            ],
+            "Comment": "Response from 216.239.38.100."
+          }
+        }
+      },
+      "support_pages": [
+        {
+          "url": "https://parkerwasteservices.com/",
+          "final_url": "https://www.parkerwasteservices.com/",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:14:09.308177+00:00",
+          "sha256": "4732717dfd75e9ad904f57598fb6dba517575f8bf8ad04738a51755b3b014d75"
+        },
+        {
+          "url": "https://www.parkerwasteservices.com/about",
+          "final_url": "https://www.parkerwasteservices.com/about",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:14:10.370154+00:00",
+          "sha256": "b47d10ccaeaba612765a49541562bf8c07d8caa0cb8145310ac33bafe2b9cb2e"
+        },
+        {
+          "url": "https://www.parkerwasteservices.com/commercial",
+          "final_url": "https://www.parkerwasteservices.com/commercial",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:14:10.744331+00:00",
+          "sha256": "bf916948840f83cf5997e13b13c9ddd15bcc7c53cd5acedc7121cea737f47ed4"
+        },
+        {
+          "url": "https://www.parkerwasteservices.com/service-areas",
+          "final_url": "https://www.parkerwasteservices.com/service-areas",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:14:11.282625+00:00",
+          "sha256": "d4180ee2a9f0cf7fe6225a3bbac78fe2a14d1f5f034f188160707e2c1af41b5f"
+        },
+        {
+          "url": "https://www.parkerwasteservices.com/contact",
+          "final_url": "https://www.parkerwasteservices.com/contact",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:14:11.733753+00:00",
+          "sha256": "0f4f54b9f1443a341bfbbd7d797b32d849910c5ead4d6979791e2ed5f956d670"
+        },
+        {
+          "url": "https://www.parkerwasteservices.com/roll-off-guidelines",
+          "final_url": "https://www.parkerwasteservices.com/roll-off-guidelines",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:14:12.252308+00:00",
+          "sha256": "8825d3f926749a7cc08e2f461c088860047f1d0455822992a3055326a54d5a37"
+        }
+      ],
+      "fit_evidence": "Locally owned since 2016; Tarrant County published on own service-area page; Fort Worth city lists it as a current permitted commercial hauler.",
+      "areas_published": "Tarrant County and listed North Texas counties",
+      "service_reference": "Fort Worth",
+      "fleet": {
+        "usdot": "3537637",
+        "power_units_as_reported": "26",
+        "source_url": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=3537637",
+        "http_status": 200,
+        "fetched_at": "2026-11-03T16:20:33.117194+00:00",
+        "sha256": "efadaa9c8f43d0be6f4e7c254b4ed16c6414e44154b5ccddfd0494ffc725a668",
+        "unverified": false
+      },
+      "site": {
+        "rn": "RN112542105",
+        "authorization": "TXR1548ZQ",
+        "status": "ACTIVE",
+        "name": "EQT AIRPARQ 820",
+        "street": "3950 ANGLE AVE",
+        "city": "FORT WORTH",
+        "county": "TARRANT",
+        "affiliation_begin": "2026-10-05",
+        "priority_our_read": "1",
+        "project_type_our_read": "commercial / industrial / institutional",
+        "source_url": "https://data.texas.gov/resource/t34q-qzi3.json?ref_num_txt=RN112542105&program_code=STORM",
+        "fetched_at": "2026-11-03T16:26:09.142943+00:00",
+        "verification_method": "separate live RN lookup",
+        "previous_DFW1_use": true
+      },
+      "limits": "Email domain parkerwaste.com differs from website parkerwasteservices.com; exact address is published on own site. Fort Worth dispatch coverage is our read of county coverage plus city hauler listing, not a confirmed booking."
+    },
+    {
+      "row": 3,
+      "company": "ABCDump LLC",
+      "domain": "abcdump.net",
+      "email": "reservations@abcdump.net",
+      "email_grade": "A",
+      "own": {
+        "url": "https://www.abcdump.net/contact_us/",
+        "final_url": "https://www.abcdump.net/contact_us/",
+        "http_status": 200,
+        "fetched_at": "2026-11-03T16:14:40.144714+00:00",
+        "sha256": "6f4aabb3df55ec09fdc463e9efe6281ef2bd7532f351d235dffaecf8e5ec8db2",
+        "exact_address_excerpt": "reservations@abcdump.net",
+        "publication_method": "Cloudflare decoded"
+      },
+      "DNS": {
+        "MX": {
+          "url": "https://dns.google/resolve?name=abcdump.net&type=MX",
+          "status": 200,
+          "fetched_at": "2026-11-03T16:19:06.515820+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "abcdump.net.",
+                "type": 15
+              }
+            ],
+            "Answer": [
+              {
+                "name": "abcdump.net.",
+                "type": 15,
+                "TTL": 300,
+                "data": "10 mx-biz.mail.am0.yahoodns.net."
+              }
+            ],
+            "Comment": "Response from 108.162.192.146."
+          }
+        },
+        "A": {
+          "url": "https://dns.google/resolve?name=abcdump.net&type=A",
+          "status": 200,
+          "fetched_at": "2026-11-03T16:19:06.657651+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "abcdump.net.",
+                "type": 1
+              }
+            ],
+            "Answer": [
+              {
+                "name": "abcdump.net.",
+                "type": 1,
+                "TTL": 300,
+                "data": "104.21.63.185"
+              },
+              {
+                "name": "abcdump.net.",
+                "type": 1,
+                "TTL": 300,
+                "data": "172.67.149.81"
+              }
+            ],
+            "Comment": "Response from 172.64.33.105."
+          }
+        }
+      },
+      "support_pages": [
+        {
+          "url": "https://abcdump.net/",
+          "final_url": "https://www.abcdump.net/",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:14:39.134329+00:00",
+          "sha256": "13306299729a909b371980c692682fcc637f88125333534e6a7d26a6aa6ea678"
+        },
+        {
+          "url": "https://www.abcdump.net/contact_us/",
+          "final_url": "https://www.abcdump.net/contact_us/",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:14:40.144714+00:00",
+          "sha256": "6f4aabb3df55ec09fdc463e9efe6281ef2bd7532f351d235dffaecf8e5ec8db2"
+        },
+        {
+          "url": "https://www.abcdump.net/service_area/",
+          "final_url": "https://www.abcdump.net/service_area/",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:14:40.719246+00:00",
+          "sha256": "279d90a6abc5ec2b0793e5885b5954cf72c91a3eaa5d7523cfa43e1e4a3af130"
+        }
+      ],
+      "fit_evidence": "Local roll-off delivery, demolition and construction cleanup; exact business-domain email is Cloudflare decoded.",
+      "areas_published": "Arlington, Fort Worth, North Richland Hills and listed western DFW cities",
+      "service_reference": "Arlington",
+      "fleet": {
+        "usdot": "4440788",
+        "power_units_as_reported": "5",
+        "source_url": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=4440788",
+        "http_status": 200,
+        "fetched_at": "2026-11-03T16:29:07.359565+00:00",
+        "sha256": "e8660a3e24de0f66805962bfea13c20a62a9091785af5947fee8829ffc506a1c",
+        "unverified": false
+      },
+      "site": {
+        "rn": "RN112538160",
+        "authorization": "TXR1566ZO",
+        "status": "ACTIVE",
+        "name": "ARBROOK APARTMENTS",
+        "street": "1001 E ARBROOK BLVD",
+        "city": "ARLINGTON",
+        "county": "TARRANT",
+        "affiliation_begin": "2026-09-29",
+        "priority_our_read": "2",
+        "project_type_our_read": "multifamily",
+        "source_url": "https://data.texas.gov/resource/t34q-qzi3.json?%24where=ref_num_txt%3D%27RN112538160%27+AND+program_code%3D%27STORM%27&%24limit=500",
+        "fetched_at": "2026-11-03T16:29:01.037696+00:00",
+        "verification_method": "separate live RN lookup",
+        "previous_DFW1_use": true
+      },
+      "limits": "Own contact page also publishes an Orange Crush Junk Removal address; relationship and beneficial ownership not independently established. Selected TCEQ affiliation date is 35 days old."
+    },
+    {
+      "row": 4,
+      "company": "Iron Eagle Dumpster Rentals",
+      "domain": "ironeagledumpsters.com",
+      "email": "info@ironeagledumpsters.com",
+      "email_grade": "A",
+      "own": {
+        "url": "https://ironeagledumpsters.com/contact",
+        "final_url": "https://ironeagledumpsters.com/contact",
+        "http_status": 200,
+        "fetched_at": "2026-11-03T16:14:41.106501+00:00",
+        "sha256": "b5e412090cc964699e570255a56ab48c16fd898ef37a6c4066fd308938f33a31",
+        "exact_address_excerpt": "info@ironeagledumpsters.com",
+        "publication_method": "published text or mailto link"
+      },
+      "DNS": {
+        "MX": {
+          "url": "https://dns.google/resolve?name=ironeagledumpsters.com&type=MX",
+          "status": 200,
+          "fetched_at": "2026-11-03T16:19:06.059296+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "ironeagledumpsters.com.",
+                "type": 15
+              }
+            ],
+            "Answer": [
+              {
+                "name": "ironeagledumpsters.com.",
+                "type": 15,
+                "TTL": 3600,
+                "data": "5 alt1.aspmx.l.google.com."
+              },
+              {
+                "name": "ironeagledumpsters.com.",
+                "type": 15,
+                "TTL": 3600,
+                "data": "5 alt2.aspmx.l.google.com."
+              },
+              {
+                "name": "ironeagledumpsters.com.",
+                "type": 15,
+                "TTL": 3600,
+                "data": "10 alt3.aspmx.l.google.com."
+              },
+              {
+                "name": "ironeagledumpsters.com.",
+                "type": 15,
+                "TTL": 3600,
+                "data": "10 alt4.aspmx.l.google.com."
+              },
+              {
+                "name": "ironeagledumpsters.com.",
+                "type": 15,
+                "TTL": 3600,
+                "data": "1 aspmx.l.google.com."
+              }
+            ],
+            "Comment": "Response from 172.64.33.117."
+          }
+        },
+        "A": {
+          "url": "https://dns.google/resolve?name=ironeagledumpsters.com&type=A",
+          "status": 200,
+          "fetched_at": "2026-11-03T16:19:06.205326+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "ironeagledumpsters.com.",
+                "type": 1
+              }
+            ],
+            "Answer": [
+              {
+                "name": "ironeagledumpsters.com.",
+                "type": 1,
+                "TTL": 300,
+                "data": "104.21.80.80"
+              },
+              {
+                "name": "ironeagledumpsters.com.",
+                "type": 1,
+                "TTL": 300,
+                "data": "172.67.176.83"
+              }
+            ],
+            "Comment": "Response from 173.245.59.117."
+          }
+        }
+      },
+      "support_pages": [
+        {
+          "url": "https://ironeagledumpsters.com/",
+          "final_url": "https://ironeagledumpsters.com/",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:14:39.136274+00:00",
+          "sha256": "0f5292b0a67dad465c2c63a4f873d6c0385586e2df255346baaddfab2942b31f"
+        },
+        {
+          "url": "https://ironeagledumpsters.com/service-areas",
+          "final_url": "https://ironeagledumpsters.com/service-areas",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:14:39.591023+00:00",
+          "sha256": "ff799b12a91b178dd315e4c01ab64fe5e600192c817b5909b5ca6e1f23913ee4"
+        },
+        {
+          "url": "https://ironeagledumpsters.com/commercial-dumpster-rental",
+          "final_url": "https://ironeagledumpsters.com/commercial-dumpster-rental",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:14:40.187898+00:00",
+          "sha256": "a0e5bc6328693573ff01ba98ddeebdcc5b6873f3bdc19eee6b7f1592d6eeda7f"
+        },
+        {
+          "url": "https://ironeagledumpsters.com/about",
+          "final_url": "https://ironeagledumpsters.com/about",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:14:40.634103+00:00",
+          "sha256": "ca3e8ee702e8992704a9eebb3901bf14c6d24895422caa515c465ef95b197946"
+        },
+        {
+          "url": "https://ironeagledumpsters.com/contact",
+          "final_url": "https://ironeagledumpsters.com/contact",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:14:41.106501+00:00",
+          "sha256": "b5e412090cc964699e570255a56ab48c16fd898ef37a6c4066fd308938f33a31"
+        }
+      ],
+      "fit_evidence": "Own About page describes a family-owned operation and rebrand from M&O Dumpsters. Own service page lists Little Elm; explicitly does not serve Dallas, Fort Worth or Arlington.",
+      "areas_published": "Denton County and North DFW; Little Elm, Prosper and other named cities",
+      "service_reference": "Little Elm",
+      "fleet": {
+        "usdot": "",
+        "power_units_as_reported": "",
+        "source_url": null,
+        "http_status": null,
+        "fetched_at": null,
+        "sha256": null,
+        "unverified": true
+      },
+      "site": {
+        "rn": "RN112506712",
+        "authorization": "TXR1561ZC",
+        "status": "ACTIVE",
+        "name": "CHILIS GRILL & BAR - LITTLE ELM 1698",
+        "street": "26580 E UNIVERSITY DR",
+        "city": "LITTLE ELM",
+        "county": "DENTON",
+        "affiliation_begin": "2026-10-19",
+        "priority_our_read": "1",
+        "project_type_our_read": "commercial / industrial / institutional",
+        "source_url": "https://data.texas.gov/resource/t34q-qzi3.json?ref_num_txt=RN112506712&program_code=STORM",
+        "fetched_at": "2026-11-03T16:26:06.905344+00:00",
+        "verification_method": "separate live RN lookup",
+        "previous_DFW1_use": true
+      },
+      "limits": "Fleet count not established after name and phone census searches; no claim of independently verified fleet size."
+    },
+    {
+      "row": 5,
+      "company": "Dumpster Quest DFW",
+      "domain": "dumpsterquestdfw.com",
+      "email": "jonathan@dumpsterquestdfw.com",
+      "email_grade": "A",
+      "own": {
+        "url": "https://dumpsterquestdfw.com/",
+        "final_url": "https://dumpsterquestdfw.com/",
+        "http_status": 200,
+        "fetched_at": "2026-11-03T16:14:41.115609+00:00",
+        "sha256": "be1096659bed0da5e70b840ad937db69177e54fa0838cf5713dba3a924ba3a7c",
+        "exact_address_excerpt": "jonathan@dumpsterquestdfw.com",
+        "publication_method": "published text or mailto link"
+      },
+      "DNS": {
+        "MX": {
+          "url": "https://dns.google/resolve?name=dumpsterquestdfw.com&type=MX",
+          "status": 200,
+          "fetched_at": "2026-11-03T16:19:06.386661+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "dumpsterquestdfw.com.",
+                "type": 15
+              }
+            ],
+            "Answer": [
+              {
+                "name": "dumpsterquestdfw.com.",
+                "type": 15,
+                "TTL": 14400,
+                "data": "5 mx1.hostinger.com."
+              },
+              {
+                "name": "dumpsterquestdfw.com.",
+                "type": 15,
+                "TTL": 14400,
+                "data": "10 mx2.hostinger.com."
+              }
+            ],
+            "Comment": "Response from 162.159.24.201."
+          }
+        },
+        "A": {
+          "url": "https://dns.google/resolve?name=dumpsterquestdfw.com&type=A",
+          "status": 200,
+          "fetched_at": "2026-11-03T16:19:06.573560+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "dumpsterquestdfw.com.",
+                "type": 1
+              }
+            ],
+            "Answer": [
+              {
+                "name": "dumpsterquestdfw.com.",
+                "type": 1,
+                "TTL": 60,
+                "data": "88.223.87.25"
+              },
+              {
+                "name": "dumpsterquestdfw.com.",
+                "type": 1,
+                "TTL": 60,
+                "data": "147.79.72.139"
+              }
+            ],
+            "Comment": "Response from 162.159.25.42."
+          }
+        }
+      },
+      "support_pages": [
+        {
+          "url": "https://dumpsterquestdfw.com/",
+          "final_url": "https://dumpsterquestdfw.com/",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:14:41.115609+00:00",
+          "sha256": "be1096659bed0da5e70b840ad937db69177e54fa0838cf5713dba3a924ba3a7c"
+        },
+        {
+          "url": "https://dumpsterquestdfw.com/about/",
+          "final_url": "https://dumpsterquestdfw.com/about/",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:14:41.851248+00:00",
+          "sha256": "38de4e6b251a47b3fa1e7442d7010a6e0538c573f1c87b6529da33f75fd23e9a"
+        },
+        {
+          "url": "https://dumpsterquestdfw.com/commercial-dumpster-rental/",
+          "final_url": "https://dumpsterquestdfw.com/commercial-dumpster-rental/",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:14:42.951793+00:00",
+          "sha256": "91790deb6e21f311ac5e27ec1298be3f3e7a9e439737e1033ea0b5c7df6ab8c4"
+        },
+        {
+          "url": "https://dumpsterquestdfw.com/contact-us/",
+          "final_url": "https://dumpsterquestdfw.com/contact-us/",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:14:46.142253+00:00",
+          "sha256": "4c0fe2b31ced923e355fd0b886d04029e4830a8a8212e9520b1e106a1f358e4e"
+        },
+        {
+          "url": "https://dumpsterquestdfw.com/contact-us",
+          "final_url": "https://dumpsterquestdfw.com/contact-us/",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:14:46.769176+00:00",
+          "sha256": "4c0fe2b31ced923e355fd0b886d04029e4830a8a8212e9520b1e106a1f358e4e"
+        }
+      ],
+      "fit_evidence": "Own About page describes local ownership and direct delivery/pickup, including contractor and commercial rentals.",
+      "areas_published": "North Dallas; Prosper, Anna, McKinney, Wylie and listed suburbs",
+      "service_reference": "Prosper",
+      "fleet": {
+        "usdot": "",
+        "power_units_as_reported": "",
+        "source_url": null,
+        "http_status": null,
+        "fetched_at": null,
+        "sha256": null,
+        "unverified": true
+      },
+      "site": {
+        "rn": "RN112549498",
+        "authorization": "TXR1548ZT",
+        "status": "ACTIVE",
+        "name": "PROSPER FLEX PARK - BUILDING 1",
+        "street": "621 WEST PROSPER TRAIL",
+        "city": "PROSPER",
+        "county": "COLLIN",
+        "affiliation_begin": "2026-10-16",
+        "priority_our_read": "1",
+        "project_type_our_read": "amenity / recreation",
+        "source_url": "https://data.texas.gov/resource/t34q-qzi3.json?ref_num_txt=RN112549498&program_code=STORM",
+        "fetched_at": "2026-11-03T16:26:07.850767+00:00",
+        "verification_method": "separate live RN lookup",
+        "previous_DFW1_use": true
+      },
+      "limits": "Fleet count not established after name and phone census searches."
+    },
+    {
+      "row": 6,
+      "company": "MCK Dumpster Rental",
+      "domain": "mckdumpsterrental.com",
+      "email": "info@mckdumpsterrental.com",
+      "email_grade": "A",
+      "own": {
+        "url": "https://mckdumpsterrental.com/contact.html",
+        "final_url": "https://mckdumpsterrental.com/contact.html",
+        "http_status": 200,
+        "fetched_at": "2026-11-03T16:14:44.273661+00:00",
+        "sha256": "0552c3518a498b07cf859b69057401ad2041a7199af9d15776de18e465aca982",
+        "exact_address_excerpt": "info@mckdumpsterrental.com",
+        "publication_method": "published text or mailto link"
+      },
+      "DNS": {
+        "MX": {
+          "url": "https://dns.google/resolve?name=mckdumpsterrental.com&type=MX",
+          "status": 200,
+          "fetched_at": "2026-11-03T16:19:06.072911+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "mckdumpsterrental.com.",
+                "type": 15
+              }
+            ],
+            "Answer": [
+              {
+                "name": "mckdumpsterrental.com.",
+                "type": 15,
+                "TTL": 14400,
+                "data": "10 mx2.hostinger.com."
+              },
+              {
+                "name": "mckdumpsterrental.com.",
+                "type": 15,
+                "TTL": 14400,
+                "data": "5 mx1.hostinger.com."
+              }
+            ],
+            "Comment": "Response from 162.159.25.42."
+          }
+        },
+        "A": {
+          "url": "https://dns.google/resolve?name=mckdumpsterrental.com&type=A",
+          "status": 200,
+          "fetched_at": "2026-11-03T16:19:06.225216+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "mckdumpsterrental.com.",
+                "type": 1
+              }
+            ],
+            "Answer": [
+              {
+                "name": "mckdumpsterrental.com.",
+                "type": 1,
+                "TTL": 60,
+                "data": "88.223.87.212"
+              },
+              {
+                "name": "mckdumpsterrental.com.",
+                "type": 1,
+                "TTL": 60,
+                "data": "145.223.124.130"
+              }
+            ],
+            "Comment": "Response from 162.159.25.42."
+          }
+        }
+      },
+      "support_pages": [
+        {
+          "url": "https://mckdumpsterrental.com/",
+          "final_url": "https://mckdumpsterrental.com/",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:14:41.504242+00:00",
+          "sha256": "24369dc1c2298026404c82abc573d33cc6b3f44c187a43ce5bce851ea762bc50"
+        },
+        {
+          "url": "https://mckdumpsterrental.com/services/commercial-dumpster-rental.html",
+          "final_url": "https://mckdumpsterrental.com/services/commercial-dumpster-rental.html",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:14:42.162015+00:00",
+          "sha256": "7d61a85746013c43cbb460d8b657d2d59e2bcde4e077a5fc6f5b5569dfcef5ed"
+        },
+        {
+          "url": "https://mckdumpsterrental.com/services/roll-off-dumpster-rental.html",
+          "final_url": "https://mckdumpsterrental.com/services/roll-off-dumpster-rental.html",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:14:42.627047+00:00",
+          "sha256": "9683ed30567b8eadfe84569c5f05f6bef9ffce4c6853025724c9a3dce90b29be"
+        },
+        {
+          "url": "https://mckdumpsterrental.com/service-area.html",
+          "final_url": "https://mckdumpsterrental.com/service-area.html",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:14:43.137443+00:00",
+          "sha256": "12335695b91dcc65e34b56aa8562274195dd81995e404051c6e09baa68bdc0b1"
+        },
+        {
+          "url": "https://mckdumpsterrental.com/about.html",
+          "final_url": "https://mckdumpsterrental.com/about.html",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:14:43.606633+00:00",
+          "sha256": "65190faea3c28971eefe485a08fd6b6851de51ff132f356f7ed25b65099dc081"
+        },
+        {
+          "url": "https://mckdumpsterrental.com/contact.html",
+          "final_url": "https://mckdumpsterrental.com/contact.html",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:14:44.273661+00:00",
+          "sha256": "0552c3518a498b07cf859b69057401ad2041a7199af9d15776de18e465aca982"
+        }
+      ],
+      "fit_evidence": "Own About page states local ownership, no franchise or private equity, own trucks/containers and commercial contractor accounts.",
+      "areas_published": "McKinney and all Collin County, including Wylie",
+      "service_reference": "Wylie",
+      "fleet": {
+        "usdot": "",
+        "power_units_as_reported": "",
+        "source_url": null,
+        "http_status": null,
+        "fetched_at": null,
+        "sha256": null,
+        "unverified": true
+      },
+      "site": {
+        "rn": "RN112556469",
+        "authorization": "TXR1570ZU",
+        "status": "ACTIVE",
+        "name": "COSTCO WAREHOUSE - WYLIE",
+        "street": "2002 W FM 544",
+        "city": "WYLIE",
+        "county": "COLLIN",
+        "affiliation_begin": "2026-10-30",
+        "priority_our_read": "1",
+        "project_type_our_read": "commercial / industrial / institutional",
+        "source_url": "https://data.texas.gov/resource/t34q-qzi3.json?ref_num_txt=RN112556469&program_code=STORM",
+        "fetched_at": "2026-11-03T16:26:09.299909+00:00",
+        "verification_method": "separate live RN lookup",
+        "previous_DFW1_use": false
+      },
+      "limits": "Fleet count and private ownership not independently established; no matched census record by name or phone. Yard address is a website claim, not a verified coordinate."
+    },
+    {
+      "row": 7,
+      "company": "D&A Waste Services",
+      "domain": "dandawaste.com",
+      "email": "info@dandawaste.com",
+      "email_grade": "A",
+      "own": {
+        "url": "https://dandawaste.com/",
+        "final_url": "https://dandawaste.com/",
+        "http_status": 200,
+        "fetched_at": "2026-11-03T16:15:45.906014+00:00",
+        "sha256": "a94436e3970229ad5de1d4a386cd47263415478e1bb2375f0249172182ab41c5",
+        "exact_address_excerpt": "info@dandawaste.com",
+        "publication_method": "published text or mailto link"
+      },
+      "DNS": {
+        "MX": {
+          "url": "https://dns.google/resolve?name=dandawaste.com&type=MX",
+          "status": 200,
+          "fetched_at": "2026-11-03T16:19:06.029584+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "dandawaste.com.",
+                "type": 15
+              }
+            ],
+            "Answer": [
+              {
+                "name": "dandawaste.com.",
+                "type": 15,
+                "TTL": 21600,
+                "data": "30 mx30.antispam.mailspamprotection.com."
+              },
+              {
+                "name": "dandawaste.com.",
+                "type": 15,
+                "TTL": 21600,
+                "data": "20 mx20.antispam.mailspamprotection.com."
+              },
+              {
+                "name": "dandawaste.com.",
+                "type": 15,
+                "TTL": 21600,
+                "data": "10 mx10.antispam.mailspamprotection.com."
+              }
+            ],
+            "Comment": "Response from 75.2.77.104."
+          }
+        },
+        "A": {
+          "url": "https://dns.google/resolve?name=dandawaste.com&type=A",
+          "status": 200,
+          "fetched_at": "2026-11-03T16:19:06.233855+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "dandawaste.com.",
+                "type": 1
+              }
+            ],
+            "Answer": [
+              {
+                "name": "dandawaste.com.",
+                "type": 1,
+                "TTL": 14400,
+                "data": "35.215.96.142"
+              }
+            ],
+            "Comment": "Response from 99.83.229.113."
+          }
+        }
+      },
+      "support_pages": [
+        {
+          "url": "https://dandawaste.com/",
+          "final_url": "https://dandawaste.com/",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:15:45.906014+00:00",
+          "sha256": "a94436e3970229ad5de1d4a386cd47263415478e1bb2375f0249172182ab41c5"
+        },
+        {
+          "url": "https://dandawaste.com/roll-off-dumpster/",
+          "final_url": "https://dandawaste.com/roll-off-dumpster/",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:15:46.533815+00:00",
+          "sha256": "384ab75360b01c6748a5da49f213878427ba69a34d3a39b0dd5c36ade9fc076b"
+        },
+        {
+          "url": "https://dandawaste.com/contact-us/",
+          "final_url": "https://dandawaste.com/contact-us/",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:15:47.115384+00:00",
+          "sha256": "8862e8b2ba78df92aaee04ed5f79cfd4b6ddc945ea44e79f011e968ba3a759d3"
+        }
+      ],
+      "fit_evidence": "Own site states local family ownership since 2006 and commercial/industrial rentals; published Dallas County coverage fits Wilmer.",
+      "areas_published": "Dallas County and DFW cities listed on own site",
+      "service_reference": "Wilmer",
+      "fleet": {
+        "usdot": "",
+        "power_units_as_reported": "",
+        "source_url": null,
+        "http_status": null,
+        "fetched_at": null,
+        "sha256": null,
+        "unverified": true
+      },
+      "site": {
+        "rn": "RN112543889",
+        "authorization": "TXR1512ZR",
+        "status": "ACTIVE",
+        "name": "EQT SOUTHPORT BLDG 3 AND BLDG 4",
+        "street": "1600 SOUTHPORT ROAD",
+        "city": "WILMER",
+        "county": "DALLAS",
+        "affiliation_begin": "2026-10-07",
+        "priority_our_read": "1",
+        "project_type_our_read": "commercial / industrial / institutional",
+        "source_url": "https://data.texas.gov/resource/t34q-qzi3.json?ref_num_txt=RN112543889&program_code=STORM",
+        "fetched_at": "2026-11-03T16:26:06.902512+00:00",
+        "verification_method": "separate live RN lookup",
+        "previous_DFW1_use": true
+      },
+      "limits": "Fleet count not established; phone census lookup returned 429 and name search did not establish a matching carrier."
+    },
+    {
+      "row": 8,
+      "company": "Cowtown Dumpsters",
+      "domain": "cowtowndumpsters.com",
+      "email": "admin@cowtowndumpsters.com",
+      "email_grade": "A",
+      "own": {
+        "url": "https://cowtowndumpsters.com/",
+        "final_url": "https://www.cowtowndumpsters.com/",
+        "http_status": 200,
+        "fetched_at": "2026-11-03T16:15:45.906861+00:00",
+        "sha256": "f2f85856fda3570097e45c50c9f81f5976f0694118b90fb295514940080fbe32",
+        "exact_address_excerpt": "admin@cowtowndumpsters.com",
+        "publication_method": "published text or mailto link"
+      },
+      "DNS": {
+        "MX": {
+          "url": "https://dns.google/resolve?name=cowtowndumpsters.com&type=MX",
+          "status": 200,
+          "fetched_at": "2026-11-03T16:19:05.577963+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "cowtowndumpsters.com.",
+                "type": 15
+              }
+            ],
+            "Answer": [
+              {
+                "name": "cowtowndumpsters.com.",
+                "type": 15,
+                "TTL": 300,
+                "data": "5 alt1.aspmx.l.google.com."
+              },
+              {
+                "name": "cowtowndumpsters.com.",
+                "type": 15,
+                "TTL": 300,
+                "data": "1 aspmx.l.google.com."
+              },
+              {
+                "name": "cowtowndumpsters.com.",
+                "type": 15,
+                "TTL": 300,
+                "data": "5 alt2.aspmx.l.google.com."
+              },
+              {
+                "name": "cowtowndumpsters.com.",
+                "type": 15,
+                "TTL": 300,
+                "data": "10 alt3.aspmx.l.google.com."
+              },
+              {
+                "name": "cowtowndumpsters.com.",
+                "type": 15,
+                "TTL": 300,
+                "data": "10 alt4.aspmx.l.google.com."
+              }
+            ],
+            "Comment": "Response from 173.245.58.233."
+          }
+        },
+        "A": {
+          "url": "https://dns.google/resolve?name=cowtowndumpsters.com&type=A",
+          "status": 200,
+          "fetched_at": "2026-11-03T16:19:05.891542+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "cowtowndumpsters.com.",
+                "type": 1
+              }
+            ],
+            "Answer": [
+              {
+                "name": "cowtowndumpsters.com.",
+                "type": 1,
+                "TTL": 300,
+                "data": "100.24.208.97"
+              },
+              {
+                "name": "cowtowndumpsters.com.",
+                "type": 1,
+                "TTL": 300,
+                "data": "35.172.94.1"
+              }
+            ],
+            "Comment": "Response from 108.162.193.88."
+          }
+        }
+      },
+      "support_pages": [
+        {
+          "url": "https://cowtowndumpsters.com/",
+          "final_url": "https://www.cowtowndumpsters.com/",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:15:45.906861+00:00",
+          "sha256": "f2f85856fda3570097e45c50c9f81f5976f0694118b90fb295514940080fbe32"
+        },
+        {
+          "url": "https://www.cowtowndumpsters.com/roll-off-dumpster-pricing",
+          "final_url": "https://www.cowtowndumpsters.com/roll-off-dumpster-pricing",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:15:47.114884+00:00",
+          "sha256": "da8ffb9f556fd372debdcbd991fe05ea85586006ec1ef96f96c272fa7db1f0aa"
+        }
+      ],
+      "fit_evidence": "Own site describes local delivery, commercial rentals, construction work and long-term commercial pricing.",
+      "areas_published": "Fort Worth and named DFW communities",
+      "service_reference": "Fort Worth",
+      "fleet": {
+        "usdot": "",
+        "power_units_as_reported": "",
+        "source_url": null,
+        "http_status": null,
+        "fetched_at": null,
+        "sha256": null,
+        "unverified": true
+      },
+      "site": {
+        "rn": "RN112544879",
+        "authorization": "TXR1555ZR",
+        "status": "ACTIVE",
+        "name": "N FTW MCKEEVER GROCER AND RETAIL",
+        "street": "9052 NORTH CITY DR",
+        "city": "FORT WORTH",
+        "county": "TARRANT",
+        "affiliation_begin": "2026-10-08",
+        "priority_our_read": "1",
+        "project_type_our_read": "commercial / industrial / institutional",
+        "source_url": "https://data.texas.gov/resource/t34q-qzi3.json?ref_num_txt=RN112544879&program_code=STORM",
+        "fetched_at": "2026-11-03T16:26:08.409449+00:00",
+        "verification_method": "separate live RN lookup",
+        "previous_DFW1_use": true
+      },
+      "limits": "Fleet count not established after name and phone census searches. Local/family operating description is website evidence, not a beneficial-ownership audit."
+    },
+    {
+      "row": 9,
+      "company": "Bosman Waste Services",
+      "domain": "bosmanwasteservices.com",
+      "email": "info@bosmanwasteservices.com",
+      "email_grade": "A",
+      "own": {
+        "url": "https://bosmanwasteservices.com/",
+        "final_url": "https://bosmanwasteservices.com/",
+        "http_status": 200,
+        "fetched_at": "2026-11-03T16:18:01.373748+00:00",
+        "sha256": "9140be76b5201bb8ebb1ac6847e0abc0de5d4f5f443af37b6243faf2a2c80d70",
+        "exact_address_excerpt": "info@bosmanwasteservices.com",
+        "publication_method": "published text or mailto link"
+      },
+      "DNS": {
+        "MX": {
+          "url": "https://dns.google/resolve?name=bosmanwasteservices.com&type=MX",
+          "status": 200,
+          "fetched_at": "2026-11-03T16:19:06.026874+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "bosmanwasteservices.com.",
+                "type": 15
+              }
+            ],
+            "Answer": [
+              {
+                "name": "bosmanwasteservices.com.",
+                "type": 15,
+                "TTL": 600,
+                "data": "1 smtp.google.com."
+              }
+            ],
+            "Comment": "Response from 162.159.10.150."
+          }
+        },
+        "A": {
+          "url": "https://dns.google/resolve?name=bosmanwasteservices.com&type=A",
+          "status": 200,
+          "fetched_at": "2026-11-03T16:19:06.139014+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "bosmanwasteservices.com.",
+                "type": 1
+              }
+            ],
+            "Answer": [
+              {
+                "name": "bosmanwasteservices.com.",
+                "type": 1,
+                "TTL": 600,
+                "data": "207.148.3.57"
+              }
+            ],
+            "Comment": "Response from 162.159.8.140."
+          }
+        }
+      },
+      "support_pages": [
+        {
+          "url": "https://bosmanwasteservices.com/",
+          "final_url": "https://bosmanwasteservices.com/",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:18:01.373748+00:00",
+          "sha256": "9140be76b5201bb8ebb1ac6847e0abc0de5d4f5f443af37b6243faf2a2c80d70"
+        },
+        {
+          "url": "https://bosmanwasteservices.com/about-us/",
+          "final_url": "https://bosmanwasteservices.com/about-us/",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:18:01.865424+00:00",
+          "sha256": "79c9c8ac285625c120be1185ddff97b1e070e7c532a7a4133604cc96d38e530e"
+        },
+        {
+          "url": "https://bosmanwasteservices.com/commercial-dumpster-rental/",
+          "final_url": "https://bosmanwasteservices.com/commercial-dumpster-rental/",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:18:02.814154+00:00",
+          "sha256": "0367f2b2070bce01c38576bccd4b8211937d17f14bdc6c434d41f950b9571e5f"
+        },
+        {
+          "url": "https://bosmanwasteservices.com/contact/",
+          "final_url": "https://bosmanwasteservices.com/contact/",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:18:03.309375+00:00",
+          "sha256": "4cea86ad5673c9013b128d9d518fe10665053c9a9e9ee99b010c686c58b6aa1c"
+        },
+        {
+          "url": "https://bosmanwasteservices.com/commercial-dumpster-rental/#commercial-quote",
+          "final_url": "https://bosmanwasteservices.com/commercial-dumpster-rental/#commercial-quote",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:18:03.795462+00:00",
+          "sha256": "0367f2b2070bce01c38576bccd4b8211937d17f14bdc6c434d41f950b9571e5f"
+        }
+      ],
+      "fit_evidence": "Own About page states family ownership; commercial construction dumpsters and delivery/pickup.",
+      "areas_published": "Fort Worth, Denton and surrounding DFW areas",
+      "service_reference": "Coppell",
+      "fleet": {
+        "usdot": "4508098",
+        "power_units_as_reported": "1",
+        "source_url": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=4508098",
+        "http_status": 200,
+        "fetched_at": "2026-11-03T16:20:33.117703+00:00",
+        "sha256": "b9147f14f34276043af9be2b00c56b490d34252f2a45c634e0052b073d96328d",
+        "unverified": false
+      },
+      "site": {
+        "rn": "RN112544887",
+        "authorization": "TXR1556ZR",
+        "status": "ACTIVE",
+        "name": "NATERRA WORLD HQ - COMMERCIAL",
+        "street": "1525 POINT WEST BLVD",
+        "city": "COPPELL",
+        "county": "DALLAS",
+        "affiliation_begin": "2026-10-08",
+        "priority_our_read": "1",
+        "project_type_our_read": "commercial / industrial / institutional",
+        "source_url": "https://data.texas.gov/resource/t34q-qzi3.json?ref_num_txt=RN112544887&program_code=STORM",
+        "fetched_at": "2026-11-03T16:26:07.552089+00:00",
+        "verification_method": "separate live RN lookup",
+        "previous_DFW1_use": true
+      },
+      "limits": "Coppell pairing uses the broader published DFW coverage, not a specific Coppell commitment; dispatch acceptance unverified. Registry physical city differs from website service reference."
+    },
+    {
+      "row": 10,
+      "company": "Ranger Waste Management",
+      "domain": "rangerwaste.com",
+      "email": "info@rangerwaste.com",
+      "email_grade": "A",
+      "own": {
+        "url": "https://rangerwaste.com/",
+        "final_url": "https://rangerwaste.com/",
+        "http_status": 200,
+        "fetched_at": "2026-11-03T16:18:01.375518+00:00",
+        "sha256": "754b4bbddb48c00775a3e0ddc6c61b7979a5a263be73e0de6f5ce99889d8de79",
+        "exact_address_excerpt": "info@rangerwaste.com",
+        "publication_method": "Cloudflare decoded"
+      },
+      "DNS": {
+        "MX": {
+          "url": "https://dns.google/resolve?name=rangerwaste.com&type=MX",
+          "status": 200,
+          "fetched_at": "2026-11-03T16:19:06.385049+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "rangerwaste.com.",
+                "type": 15
+              }
+            ],
+            "Answer": [
+              {
+                "name": "rangerwaste.com.",
+                "type": 15,
+                "TTL": 300,
+                "data": "0 SMTP.GOOGLE.com."
+              }
+            ],
+            "Comment": "Response from 173.245.59.70."
+          }
+        },
+        "A": {
+          "url": "https://dns.google/resolve?name=rangerwaste.com&type=A",
+          "status": 200,
+          "fetched_at": "2026-11-03T16:19:06.520526+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "rangerwaste.com.",
+                "type": 1
+              }
+            ],
+            "Answer": [
+              {
+                "name": "rangerwaste.com.",
+                "type": 1,
+                "TTL": 300,
+                "data": "104.21.32.185"
+              },
+              {
+                "name": "rangerwaste.com.",
+                "type": 1,
+                "TTL": 300,
+                "data": "172.67.153.175"
+              }
+            ],
+            "Comment": "Response from 172.64.33.70."
+          }
+        }
+      },
+      "support_pages": [
+        {
+          "url": "https://rangerwaste.com/",
+          "final_url": "https://rangerwaste.com/",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:18:01.375518+00:00",
+          "sha256": "754b4bbddb48c00775a3e0ddc6c61b7979a5a263be73e0de6f5ce99889d8de79"
+        },
+        {
+          "url": "https://rangerwaste.com/contact.html",
+          "final_url": "https://rangerwaste.com/contact",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:18:01.879832+00:00",
+          "sha256": "ea3ba6da455f3c47eecee80ee7b18ccdc998cd67c2c833ca938627f155ed84fc"
+        },
+        {
+          "url": "https://rangerwaste.com/about.html",
+          "final_url": "https://rangerwaste.com/about",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:18:02.532953+00:00",
+          "sha256": "821fe5e173b507038c756fde672373690d346dbde33d8d9c24f492dd3bafcc40"
+        },
+        {
+          "url": "https://rangerwaste.com/#about-us",
+          "final_url": "https://rangerwaste.com/#about-us",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:18:03.037554+00:00",
+          "sha256": "9509a8622aefc1f6ea89a7f05fd6366c9d712510b4ebffc59f3fc290944193b9"
+        }
+      ],
+      "fit_evidence": "Own site states local ownership and describes its Hino/HYVA truck fleet; commercial construction and demolition scope.",
+      "areas_published": "Dallas-Fort Worth metroplex",
+      "service_reference": "Grand Prairie",
+      "fleet": {
+        "usdot": "3080756",
+        "power_units_as_reported": "3",
+        "source_url": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=3080756",
+        "http_status": 200,
+        "fetched_at": "2026-11-03T16:20:33.118536+00:00",
+        "sha256": "b6404232c76934bffe9589ae017f5470fb3e2abe10c7b828d7dc920d494a000c",
+        "unverified": false
+      },
+      "site": {
+        "rn": "RN102288552",
+        "authorization": "TXR1555ZQ",
+        "status": "ACTIVE",
+        "name": "LOCKHEED MARSHALL PLANT",
+        "street": "1701 W MARSHALL DR",
+        "city": "GRAND PRAIRIE",
+        "county": "DALLAS",
+        "affiliation_begin": "2026-10-05",
+        "priority_our_read": "1",
+        "project_type_our_read": "commercial / industrial / institutional",
+        "source_url": "https://data.texas.gov/resource/t34q-qzi3.json?ref_num_txt=RN102288552&program_code=STORM",
+        "fetched_at": "2026-11-03T16:26:09.382834+00:00",
+        "verification_method": "separate live RN lookup",
+        "previous_DFW1_use": false
+      },
+      "limits": "Own-site phone differs from FMCSA phone; exact business domain and published identity match the carrier email/domain. Exact email is Cloudflare decoded."
+    },
+    {
+      "row": 11,
+      "company": "Blue Giant Dumpsters",
+      "domain": "bluegiantdumpsters.com",
+      "email": "info@bluegiantdumpsters.com",
+      "email_grade": "A",
+      "own": {
+        "url": "https://www.bluegiantdumpsters.com/contact_us/",
+        "final_url": "https://www.bluegiantdumpsters.com/contact_us/",
+        "http_status": 200,
+        "fetched_at": "2026-11-03T16:18:03.953446+00:00",
+        "sha256": "214a0f466758cec2f90c4d9ed88f037886080aad5edcc283be41f4e8cff05b86",
+        "exact_address_excerpt": "info@bluegiantdumpsters.com",
+        "publication_method": "published text or mailto link"
+      },
+      "DNS": {
+        "MX": {
+          "url": "https://dns.google/resolve?name=bluegiantdumpsters.com&type=MX",
+          "status": 200,
+          "fetched_at": "2026-11-03T16:19:05.581187+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "bluegiantdumpsters.com.",
+                "type": 15
+              }
+            ],
+            "Answer": [
+              {
+                "name": "bluegiantdumpsters.com.",
+                "type": 15,
+                "TTL": 3600,
+                "data": "0 bluegiantdumpsters-com.mail.protection.outlook.com."
+              }
+            ],
+            "Comment": "Response from 97.74.109.10."
+          }
+        },
+        "A": {
+          "url": "https://dns.google/resolve?name=bluegiantdumpsters.com&type=A",
+          "status": 200,
+          "fetched_at": "2026-11-03T16:19:05.895443+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "bluegiantdumpsters.com.",
+                "type": 1
+              }
+            ],
+            "Answer": [
+              {
+                "name": "bluegiantdumpsters.com.",
+                "type": 1,
+                "TTL": 600,
+                "data": "146.20.25.155"
+              }
+            ],
+            "Comment": "Response from 97.74.109.10."
+          }
+        }
+      },
+      "support_pages": [
+        {
+          "url": "https://bluegiantdumpsters.com/",
+          "final_url": "https://www.bluegiantdumpsters.com/",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:18:01.741445+00:00",
+          "sha256": "c78834ed2f6f7b5c5a1d6db6bdc92f20f24ac73fbfd28268402cd8f243a95604"
+        },
+        {
+          "url": "https://www.bluegiantdumpsters.com/category/commercial/",
+          "final_url": "https://www.bluegiantdumpsters.com/category/commercial/",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:18:02.881952+00:00",
+          "sha256": "8000fc3fbe52288b268f77a7835b67cf5cfb4e7af22ab180ba7fef11371f72b0"
+        },
+        {
+          "url": "https://www.bluegiantdumpsters.com/service_area/",
+          "final_url": "https://www.bluegiantdumpsters.com/service_area/",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:18:03.549090+00:00",
+          "sha256": "57f66b94a6c51cd1c00ee256d4ec7e96b1719cc1aaf489e6b132ac6f28a5c5c9"
+        },
+        {
+          "url": "https://www.bluegiantdumpsters.com/contact_us/",
+          "final_url": "https://www.bluegiantdumpsters.com/contact_us/",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:18:03.953446+00:00",
+          "sha256": "214a0f466758cec2f90c4d9ed88f037886080aad5edcc283be41f4e8cff05b86"
+        }
+      ],
+      "fit_evidence": "Own site states locally owned and operated; Bedford is explicitly listed in service area; carrier DBA matches.",
+      "areas_published": "DFW metroplex, including Bedford",
+      "service_reference": "Bedford",
+      "fleet": {
+        "usdot": "4476490",
+        "power_units_as_reported": "1",
+        "source_url": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=4476490",
+        "http_status": 200,
+        "fetched_at": "2026-11-03T16:20:33.600247+00:00",
+        "sha256": "3cb56c0fe4d56591f306f1df4b35fcc8127e4e376923a936ec874dfbcf63b18b",
+        "unverified": false
+      },
+      "site": {
+        "rn": "RN112525647",
+        "authorization": "TXR1572ZJ",
+        "status": "ACTIVE",
+        "name": "2050 FORUM PARKWAY",
+        "street": "2050 FORUM PKWY",
+        "city": "BEDFORD",
+        "county": "TARRANT",
+        "affiliation_begin": "2026-10-06",
+        "priority_our_read": "1",
+        "project_type_our_read": "commercial / industrial / institutional",
+        "source_url": "https://data.texas.gov/resource/t34q-qzi3.json?ref_num_txt=RN112525647&program_code=STORM",
+        "fetched_at": "2026-11-03T16:26:09.631806+00:00",
+        "verification_method": "separate live RN lookup",
+        "previous_DFW1_use": false
+      },
+      "limits": "Own phone differs from census phone; current site email exactly matches the carrier business-domain email."
+    },
+    {
+      "row": 12,
+      "company": "Open Top Waste & Recycling",
+      "domain": "opentopwaste.com",
+      "email": "info@opentopwaste.com",
+      "email_grade": "A",
+      "own": {
+        "url": "https://opentopwaste.com/",
+        "final_url": "https://opentopwaste.com/",
+        "http_status": 200,
+        "fetched_at": "2026-11-03T16:18:02.412882+00:00",
+        "sha256": "540be4924f2a11f49641ffc29ce594baa3b77eda5946d1df2d38d8e322e481fd",
+        "exact_address_excerpt": "info@opentopwaste.com",
+        "publication_method": "published text or mailto link"
+      },
+      "DNS": {
+        "MX": {
+          "url": "https://dns.google/resolve?name=opentopwaste.com&type=MX",
+          "status": 200,
+          "fetched_at": "2026-11-03T16:19:06.199174+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "opentopwaste.com.",
+                "type": 15
+              }
+            ],
+            "Answer": [
+              {
+                "name": "opentopwaste.com.",
+                "type": 15,
+                "TTL": 3600,
+                "data": "0 mx2-usg2.ppe-hosted.com."
+              },
+              {
+                "name": "opentopwaste.com.",
+                "type": 15,
+                "TTL": 3600,
+                "data": "0 mx3-usg2.ppe-hosted.com."
+              },
+              {
+                "name": "opentopwaste.com.",
+                "type": 15,
+                "TTL": 3600,
+                "data": "0 mx1-usg2.ppe-hosted.com."
+              }
+            ],
+            "Comment": "Response from 97.74.105.26."
+          }
+        },
+        "A": {
+          "url": "https://dns.google/resolve?name=opentopwaste.com&type=A",
+          "status": 200,
+          "fetched_at": "2026-11-03T16:19:06.439152+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "opentopwaste.com.",
+                "type": 1
+              }
+            ],
+            "Answer": [
+              {
+                "name": "opentopwaste.com.",
+                "type": 1,
+                "TTL": 3600,
+                "data": "13.248.243.5"
+              },
+              {
+                "name": "opentopwaste.com.",
+                "type": 1,
+                "TTL": 3600,
+                "data": "76.223.105.230"
+              }
+            ],
+            "Comment": "Response from 97.74.105.26."
+          }
+        }
+      },
+      "support_pages": [
+        {
+          "url": "https://opentopwaste.com/",
+          "final_url": "https://opentopwaste.com/",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:18:02.412882+00:00",
+          "sha256": "540be4924f2a11f49641ffc29ce594baa3b77eda5946d1df2d38d8e322e481fd"
+        },
+        {
+          "url": "https://opentopwaste.com/about",
+          "final_url": "https://opentopwaste.com/about",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:18:02.882739+00:00",
+          "sha256": "c5eeceeed29576807d6f96f0e7d805a1a45021562ac6591a2757112acd0f799f"
+        },
+        {
+          "url": "https://opentopwaste.com/contact",
+          "final_url": "https://opentopwaste.com/contact",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:18:03.622778+00:00",
+          "sha256": "2c2a5cfc635a95c3ea4f5714346044163dc828d383f903dc15d1f23e982ad1c4"
+        }
+      ],
+      "fit_evidence": "Own site describes family ownership and construction-project services in North Texas; carrier domain match establishes local DFW identity.",
+      "areas_published": "North Texas",
+      "service_reference": "Anna",
+      "fleet": {
+        "usdot": "4278016",
+        "power_units_as_reported": "8",
+        "source_url": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=4278016",
+        "http_status": 200,
+        "fetched_at": "2026-11-03T16:20:33.619335+00:00",
+        "sha256": "569b97b2339e6b400d35838a228fdb65f82a5c072210d9c25c82e241c4f0dd31",
+        "unverified": false
+      },
+      "site": {
+        "rn": "RN112542428",
+        "authorization": "TXR1563ZQ",
+        "status": "ACTIVE",
+        "name": "ANNA BUZZ CENTER",
+        "street": "1005 S POWELL PKWY",
+        "city": "ANNA",
+        "county": "COLLIN",
+        "affiliation_begin": "2026-10-06",
+        "priority_our_read": "1",
+        "project_type_our_read": "commercial / industrial / institutional",
+        "source_url": "https://data.texas.gov/resource/t34q-qzi3.json?ref_num_txt=RN112542428&program_code=STORM",
+        "fetched_at": "2026-11-03T16:26:06.904030+00:00",
+        "verification_method": "separate live RN lookup",
+        "previous_DFW1_use": true
+      },
+      "limits": "Email published as mailto link on own home page. Broad North Texas coverage supports metro match; Anna dispatch acceptance not independently confirmed."
+    },
+    {
+      "row": 13,
+      "company": "DFW Toilets",
+      "domain": "dfwtoilets.com",
+      "email": "david@dfwtoilets.com",
+      "email_grade": "A",
+      "own": {
+        "url": "https://dfwtoilets.com/contact/",
+        "final_url": "https://dfwtoilets.com/contact/",
+        "http_status": 200,
+        "fetched_at": "2026-11-03T16:14:13.232890+00:00",
+        "sha256": "44ccbf51fbd98f42ac327a28f5b51769916700027da6604ff99897634754065b",
+        "exact_address_excerpt": "david@dfwtoilets.com",
+        "publication_method": "published text or mailto link"
+      },
+      "DNS": {
+        "MX": {
+          "url": "https://dns.google/resolve?name=dfwtoilets.com&type=MX",
+          "status": 200,
+          "fetched_at": "2026-11-03T16:19:05.580766+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "dfwtoilets.com.",
+                "type": 15
+              }
+            ],
+            "Answer": [
+              {
+                "name": "dfwtoilets.com.",
+                "type": 15,
+                "TTL": 300,
+                "data": "0 dfwtoilets-com.mail.protection.outlook.com."
+              }
+            ],
+            "Comment": "Response from 108.162.195.166."
+          }
+        },
+        "A": {
+          "url": "https://dns.google/resolve?name=dfwtoilets.com&type=A",
+          "status": 200,
+          "fetched_at": "2026-11-03T16:19:05.886128+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "dfwtoilets.com.",
+                "type": 1
+              }
+            ],
+            "Answer": [
+              {
+                "name": "dfwtoilets.com.",
+                "type": 1,
+                "TTL": 300,
+                "data": "192.0.79.176"
+              }
+            ],
+            "Comment": "Response from 162.159.38.74."
+          }
+        }
+      },
+      "support_pages": [
+        {
+          "url": "https://dfwtoilets.com/",
+          "final_url": "https://dfwtoilets.com/",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:14:12.757753+00:00",
+          "sha256": "af172ecebe2584b5fdb01892128e34e17f366b9777c2afd3942d26b7453c2785"
+        },
+        {
+          "url": "https://dfwtoilets.com/contact/",
+          "final_url": "https://dfwtoilets.com/contact/",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:14:13.232890+00:00",
+          "sha256": "44ccbf51fbd98f42ac327a28f5b51769916700027da6604ff99897634754065b"
+        }
+      ],
+      "fit_evidence": "Own site describes local ownership, equipment rental, long-term needs and construction use; broad DFW coverage.",
+      "areas_published": "Entire DFW area; Dallas, Fort Worth and named suburbs",
+      "service_reference": "Sachse",
+      "fleet": {
+        "usdot": "",
+        "power_units_as_reported": "",
+        "source_url": null,
+        "http_status": null,
+        "fetched_at": null,
+        "sha256": null,
+        "unverified": true
+      },
+      "site": {
+        "rn": "RN112543590",
+        "authorization": "TXR1506ZR",
+        "status": "ACTIVE",
+        "name": "AGAPE BAPTIST CHURCH",
+        "street": "1540 BLACKBURN RD",
+        "city": "SACHSE",
+        "county": "DALLAS",
+        "affiliation_begin": "2026-10-06",
+        "priority_our_read": "1",
+        "project_type_our_read": "commercial / industrial / institutional",
+        "source_url": "https://data.texas.gov/resource/t34q-qzi3.json?ref_num_txt=RN112543590&program_code=STORM",
+        "fetched_at": "2026-11-03T16:26:06.902934+00:00",
+        "verification_method": "separate live RN lookup",
+        "previous_DFW1_use": true
+      },
+      "limits": "Own pages link billing to Texas Johns. Treated as one prospect, not two. No existing list/packet match on either screened domain; combined ownership and fleet size not established. Texas Johns fleet count is not assigned to DFW Toilets."
+    },
+    {
+      "row": 14,
+      "company": "Unique Waste Disposal",
+      "domain": "uniquewastedisposal.com",
+      "email": "info@uniquewastedisposal.com",
+      "email_grade": "A",
+      "own": {
+        "url": "https://uniquewaste.weebly.com/contact-us.html",
+        "final_url": "https://uniquewaste.weebly.com/contact-us.html",
+        "http_status": 200,
+        "fetched_at": "2026-11-03T16:24:27.390478+00:00",
+        "sha256": "c24677cf0032c2276598d92465ad8c4f17652a12ee97c44460025478444286ff",
+        "exact_address_excerpt": "info@uniquewastedisposal.com",
+        "publication_method": "Cloudflare decoded"
+      },
+      "DNS": {
+        "MX": {
+          "url": "https://dns.google/resolve?name=uniquewastedisposal.com&type=MX",
+          "status": 200,
+          "fetched_at": "2026-11-03T16:26:06.144187+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "uniquewastedisposal.com.",
+                "type": 15
+              }
+            ],
+            "Answer": [
+              {
+                "name": "uniquewastedisposal.com.",
+                "type": 15,
+                "TTL": 3600,
+                "data": "20 alt2.aspmx.l.google.com."
+              },
+              {
+                "name": "uniquewastedisposal.com.",
+                "type": 15,
+                "TTL": 3600,
+                "data": "20 alt1.aspmx.l.google.com."
+              },
+              {
+                "name": "uniquewastedisposal.com.",
+                "type": 15,
+                "TTL": 3600,
+                "data": "5 alt1.aspmx.l.google.com."
+              },
+              {
+                "name": "uniquewastedisposal.com.",
+                "type": 15,
+                "TTL": 3600,
+                "data": "10 alt3.aspmx.l.google.com."
+              },
+              {
+                "name": "uniquewastedisposal.com.",
+                "type": 15,
+                "TTL": 3600,
+                "data": "30 aspmx2.googlemail.com."
+              },
+              {
+                "name": "uniquewastedisposal.com.",
+                "type": 15,
+                "TTL": 3600,
+                "data": "10 alt4.aspmx.l.google.com."
+              },
+              {
+                "name": "uniquewastedisposal.com.",
+                "type": 15,
+                "TTL": 3600,
+                "data": "1 aspmx.l.google.com."
+              },
+              {
+                "name": "uniquewastedisposal.com.",
+                "type": 15,
+                "TTL": 3600,
+                "data": "5 alt2.aspmx.l.google.com."
+              },
+              {
+                "name": "uniquewastedisposal.com.",
+                "type": 15,
+                "TTL": 3600,
+                "data": "30 aspmx3.googlemail.com."
+              },
+              {
+                "name": "uniquewastedisposal.com.",
+                "type": 15,
+                "TTL": 3600,
+                "data": "10 aspmx.l.google.com."
+              }
+            ],
+            "Comment": "Response from 173.201.70.23."
+          }
+        },
+        "A": {
+          "url": "https://dns.google/resolve?name=uniquewastedisposal.com&type=A",
+          "status": 200,
+          "fetched_at": "2026-11-03T16:26:06.380676+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "uniquewastedisposal.com.",
+                "type": 1
+              }
+            ],
+            "Answer": [
+              {
+                "name": "uniquewastedisposal.com.",
+                "type": 1,
+                "TTL": 3600,
+                "data": "3.33.251.168"
+              },
+              {
+                "name": "uniquewastedisposal.com.",
+                "type": 1,
+                "TTL": 3600,
+                "data": "15.197.225.128"
+              }
+            ],
+            "Comment": "Response from 173.201.70.23."
+          }
+        }
+      },
+      "support_pages": [
+        {
+          "url": "https://uniquewastedisposal.com/",
+          "final_url": "https://uniquewaste.weebly.com/",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:18:01.749516+00:00",
+          "sha256": "ec91f2effc7221fee4bd43d7b8b70b548769c41246fd19b8710f19235a150f63"
+        }
+      ],
+      "fit_evidence": "Own domain redirects to the company Weebly site; same company, phone, services and business-domain email; current active carrier corroborates local operator.",
+      "areas_published": "Dallas",
+      "service_reference": "Dallas",
+      "fleet": {
+        "usdot": "2404654",
+        "power_units_as_reported": "3",
+        "source_url": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=2404654",
+        "http_status": 200,
+        "fetched_at": "2026-11-03T16:20:33.796426+00:00",
+        "sha256": "28a5291da58c558777333ad1118ebb32d6fb8c74166239e704bd509ba28b4361",
+        "unverified": false
+      },
+      "site": {
+        "rn": "RN102990561",
+        "authorization": "TXR1541ZT",
+        "status": "ACTIVE",
+        "name": "PRESBYTERIAN VILLAGE NORTH",
+        "street": "8600 SKYLINE DR",
+        "city": "DALLAS",
+        "county": "DALLAS",
+        "affiliation_begin": "2026-10-15",
+        "priority_our_read": "1",
+        "project_type_our_read": "commercial / industrial / institutional",
+        "source_url": "https://data.texas.gov/resource/t34q-qzi3.json?%24where=ref_num_txt%3D%27RN102990561%27+AND+program_code%3D%27STORM%27&%24limit=500",
+        "fetched_at": "2026-11-03T16:29:01.697286+00:00",
+        "verification_method": "separate live RN lookup",
+        "previous_DFW1_use": true
+      },
+      "limits": "Email Cloudflare decoded from own contact page. Independence is based on local carrier/own-site identity; beneficial ownership not independently audited."
+    },
+    {
+      "row": 15,
+      "company": "U Dump It I Take It LLC",
+      "domain": "udumpititakeitllc.com",
+      "email": "karina@udumpititakeitllc.com",
+      "email_grade": "A",
+      "own": {
+        "url": "https://udumpititakeitllc.com/contact",
+        "final_url": "https://udumpititakeitllc.com/contact",
+        "http_status": 200,
+        "fetched_at": "2026-11-03T16:25:01.234634+00:00",
+        "sha256": "67d037131248d9e8897c9f6c5b1a6bf29af59a6a5eecbf2e1211f6b7ad69351b",
+        "exact_address_excerpt": "karina@udumpititakeitllc.com",
+        "publication_method": "published text or mailto link"
+      },
+      "DNS": {
+        "MX": {
+          "url": "https://dns.google/resolve?name=udumpititakeitllc.com&type=MX",
+          "status": 200,
+          "fetched_at": "2026-11-03T16:26:06.610126+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "udumpititakeitllc.com.",
+                "type": 15
+              }
+            ],
+            "Answer": [
+              {
+                "name": "udumpititakeitllc.com.",
+                "type": 15,
+                "TTL": 600,
+                "data": "1 smtp.google.com."
+              }
+            ],
+            "Comment": "Response from 97.74.107.18."
+          }
+        },
+        "A": {
+          "url": "https://dns.google/resolve?name=udumpititakeitllc.com&type=A",
+          "status": 200,
+          "fetched_at": "2026-11-03T16:26:06.712770+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "udumpititakeitllc.com.",
+                "type": 1
+              }
+            ],
+            "Answer": [
+              {
+                "name": "udumpititakeitllc.com.",
+                "type": 1,
+                "TTL": 600,
+                "data": "76.223.113.161"
+              }
+            ],
+            "Comment": "Response from 173.201.75.18."
+          }
+        }
+      },
+      "support_pages": [
+        {
+          "url": "https://udumpititakeitllc.com/",
+          "final_url": "https://udumpititakeitllc.com/",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:24:59.758568+00:00",
+          "sha256": "5869899a93111417d31ce4274ad5a56d73bb07c96f81971d3e6cdced9fce87c4"
+        },
+        {
+          "url": "https://udumpititakeitllc.com/about-us",
+          "final_url": "https://udumpititakeitllc.com/about-us",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:25:00.704351+00:00",
+          "sha256": "4d44e5114287a8d4849130cd08e931a3ad8634d6da8f0fe477a6ead32f0a5f80"
+        },
+        {
+          "url": "https://udumpititakeitllc.com/contact",
+          "final_url": "https://udumpititakeitllc.com/contact",
+          "http_status": 200,
+          "fetched_at": "2026-11-03T16:25:01.234634+00:00",
+          "sha256": "67d037131248d9e8897c9f6c5b1a6bf29af59a6a5eecbf2e1211f6b7ad69351b"
+        }
+      ],
+      "fit_evidence": "Own About page states family ownership, commercial waste disposal and contractor services; own site lists direct delivery and haul-away.",
+      "areas_published": "Dallas-Fort Worth metroplex",
+      "service_reference": "Anna",
+      "fleet": {
+        "usdot": "6186037",
+        "power_units_as_reported": "1",
+        "source_url": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=6186037",
+        "http_status": 200,
+        "fetched_at": "2026-11-03T16:29:07.360267+00:00",
+        "sha256": "1909363aa27f79f818c0fb4b6feec3a1a3a643d8f23d4eadf6f1c5c3fbbea748",
+        "unverified": false
+      },
+      "site": {
+        "rn": "RN112542410",
+        "authorization": "TXR1562ZQ",
+        "status": "ACTIVE",
+        "name": "THE EDIFICE AT ANNA",
+        "street": "1105 S POWELL PKWY",
+        "city": "ANNA",
+        "county": "COLLIN",
+        "affiliation_begin": "2026-10-06",
+        "priority_our_read": "1",
+        "project_type_our_read": "commercial / industrial / institutional",
+        "source_url": "https://data.texas.gov/resource/t34q-qzi3.json?ref_num_txt=RN112542410&program_code=STORM",
+        "fetched_at": "2026-11-03T16:26:08.625989+00:00",
+        "verification_method": "separate live RN lookup",
+        "previous_DFW1_use": true
+      },
+      "limits": ""
+    }
+  ],
+  "candidate_counts": {
+    "own_site_candidates_checked": 62,
+    "included": 15,
+    "held": 47,
+    "business_domain_emails": 15,
+    "free_mail_included": 0,
+    "failed_MX_included": 0
+  },
+  "research_holds": [
+    {
+      "company": "Advantage Waste Disposal",
+      "domain": "advantagewastedisposal.net",
+      "reason": "Ownership ambiguity: Dallas public list labels a Waste Connections/Advantage association. Not included despite published email.",
+      "attempted_own_pages": "https://advantagewastedisposal.net/; https://www.advantagewastedisposal.net/dallas-roll-off-dumpster; https://www.advantagewastedisposal.net/roll-off-service-tips; https://www.advantagewastedisposal.net/contact-advantage-waste-disposal; https://www.advantagewastedisposal.net/roll-off-employment-opportunities"
+    },
+    {
+      "company": "Evergreen Disposal Services",
+      "domain": "evergreen-disposalservices.com",
+      "reason": "Live contact form found, no published email.",
+      "attempted_own_pages": "https://evergreen-disposalservices.com/"
+    },
+    {
+      "company": "Independent Waste",
+      "domain": "independentwaste.net",
+      "reason": "Multi-state partner network; no published non-placeholder email.",
+      "attempted_own_pages": "https://independentwaste.net/; https://www.independentwaste.net/about/; https://www.independentwaste.net/contact-us/; https://www.independentwaste.net/services/roll-off-dumpsters/"
+    },
+    {
+      "company": "Jaguar Waste Management",
+      "domain": "jaguarwastemanagement.com",
+      "reason": "Template content and ownership/owned-container/fleet evidence not established.",
+      "attempted_own_pages": "https://jaguarwastemanagement.com/; https://jaguarwastemanagement.com/contact-us/; https://jaguarwastemanagement.com/about-us/; https://jaguarwastemanagement.com/about-us/fast-delivery-easy-pickup/; https://jaguarwastemanagement.com/about-us/dumpster-sizes-specifications/; https://jaguarwastemanagement.com/about-us/what-can-go-in-our-dumpsters/"
+    },
+    {
+      "company": "NTV Waste Removal",
+      "domain": "ntvwasteremoval.com",
+      "reason": "No published email on fetched own pages; form only.",
+      "attempted_own_pages": "https://ntvwasteremoval.com/; https://www.ntvwasteremoval.com/commercial"
+    },
+    {
+      "company": "Wildcat Dumpster Rentals",
+      "domain": "wildcatdumps.com",
+      "reason": "Own published free-mail only; needs email pass, not in packet.",
+      "attempted_own_pages": "https://wildcatdumps.com/; https://www.wildcatdumps.com/fort-worth-dumpster-rental-service-about-us-1; https://www.wildcatdumps.com/fort-worth-roll-off-dumpster-blog; https://www.wildcatdumps.com/dumpster-rental-service-areas; https://www.wildcatdumps.com/roll-off-dumpster-rental-arlington-tx; https://www.wildcatdumps.com/roll-off-dumpster-rental-cleburne-tx"
+    },
+    {
+      "company": "S&H Waste Disposal",
+      "domain": "shwaste.com",
+      "reason": "Own site live, no published email found.",
+      "attempted_own_pages": "https://shwaste.com/; https://www.shwaste.com/about; https://www.shwaste.com/contact"
+    },
+    {
+      "company": "TJ Services",
+      "domain": "tjrolloffs.com",
+      "reason": "Own site live, no published email found.",
+      "attempted_own_pages": "https://tjrolloffs.com/; https://tjrolloffs.com/service-areas/; https://tjrolloffs.com/commercial-dumpster/; https://tjrolloffs.com/commercial-dumpster/#3-yard; https://tjrolloffs.com/commercial-dumpster/#4-yard; https://tjrolloffs.com/commercial-dumpster/#6-yard"
+    },
+    {
+      "company": "NTX Porta Potties",
+      "domain": "ntxportapotties.com",
+      "reason": "Only marketing-provider email found; no attributable hauler email.",
+      "attempted_own_pages": "https://ntxportapotties.com/; https://ntxportapotties.com/contact/; https://ntxportapotties.com/about/"
+    },
+    {
+      "company": "Dallas Portable Toilets",
+      "domain": "dallasportabletoilets.com",
+      "reason": "No attributable email found on own fetched pages.",
+      "attempted_own_pages": "https://dallasportabletoilets.com/; https://www.dallasportabletoilets.com/contact"
+    },
+    {
+      "company": "DFW Roll Off",
+      "domain": "dfwrolloff.com",
+      "reason": "No published email on own fetched pages; form only.",
+      "attempted_own_pages": "https://dfwrolloff.com/; https://dfwrolloff.com/services/roll-off-dumpsters/; https://dfwrolloff.com/dumpster-sizes/15-yard-roll-off-dumpster/; https://dfwrolloff.com/dumpster-sizes/20-yard-roll-off-dumpster/; https://dfwrolloff.com/dumpster-sizes/30-yard-roll-off-dumpster/; https://dfwrolloff.com/dumpster-sizes/40-yard-roll-off-dumpster/"
+    },
+    {
+      "company": "Ironman Roll Offs",
+      "domain": "ironmanrolloffs.com",
+      "reason": "Own published free-mail only; needs email pass, not in packet.",
+      "attempted_own_pages": "https://ironmanrolloffs.com/; https://ironmanrolloffs.com/about-us/; https://ironmanrolloffs.com/contact-us/; https://ironmanrolloffs.com/service-areas/; https://ironmanrolloffs.com/service-areas/dallas-tx/; https://ironmanrolloffs.com/contact-us"
+    },
+    {
+      "company": "Texas Johns",
+      "domain": "texasjohns.com",
+      "reason": "No qualifying public email and fit established.",
+      "attempted_own_pages": "https://texasjohns.com/; https://texasjohns.com/service-areas/; https://texasjohns.com/about-us/; https://texasjohns.com/contact/; https://texasjohns.com/roll-off-dumpsters/; https://texasjohns.com/contact-us/"
+    },
+    {
+      "company": "Cole's Portable Toilets",
+      "domain": "colesportabletoilets.com",
+      "reason": "No qualifying public email and fit established.",
+      "attempted_own_pages": "https://colesportabletoilets.com/; https://www.colesportabletoilets.com/contact/; https://colesportabletoilets.com/about-us/; https://colesportabletoilets.com/contact/"
+    },
+    {
+      "company": "Anderson Roll Off",
+      "domain": "andersonrolloffllc.com",
+      "reason": "Published area limited to Weatherford/Parker County, outside core selected-site counties; matching named carrier is inactive.",
+      "attempted_own_pages": "https://andersonrolloffllc.com/; https://andersonrolloffllc.com/roll-off-dumpster-rental/; https://andersonrolloffllc.com/about/; https://andersonrolloffllc.com/contact/"
+    },
+    {
+      "company": "Firefighter Dumpsters of Parker County",
+      "domain": "firefighterdumpstersofparkerco.com",
+      "reason": "Own published free-mail only; Parker County focus, needs email pass.",
+      "attempted_own_pages": "https://firefighterdumpstersofparkerco.com/; https://firefighterdumpstersofparkerco.com/contact/"
+    },
+    {
+      "company": "Denton Dumpsters",
+      "domain": "dentondumpsters.com",
+      "reason": "Own site returned HTTP 503.",
+      "attempted_own_pages": "https://dentondumpsters.com/"
+    },
+    {
+      "company": "Gladiator Dumpsters",
+      "domain": "gladiatordumpsters.com",
+      "reason": "Own site connection failed.",
+      "attempted_own_pages": "https://gladiatordumpsters.com/"
+    },
+    {
+      "company": "Insta-Dump",
+      "domain": "insta-dump.com",
+      "reason": "Own published free-mail only; needs email pass, not in packet.",
+      "attempted_own_pages": "https://insta-dump.com/; https://insta-dump.com/contact-us; https://insta-dump.com/about-us"
+    },
+    {
+      "company": "Dumpster Supply",
+      "domain": "dumpster-supply.com",
+      "reason": "Own published free-mail only; needs email pass, not in packet.",
+      "attempted_own_pages": "https://dumpster-supply.com/"
+    },
+    {
+      "company": "Red River Dumpster Rental",
+      "domain": "redriverdumpsterrental.com",
+      "reason": "Alias duplicate: publishes DFW1 Red River Roll Offs exact email and phone.",
+      "attempted_own_pages": "https://redriverdumpsterrental.com/; https://www.redriverdumpsterrental.com/service-areas/; https://www.redriverdumpsterrental.com/contact/; https://www.redriverdumpsterrental.com/a-contractors-pre-delivery-checklist-for-a-roll-off-dumpster/"
+    },
+    {
+      "company": "United Recycling & Waste Disposal",
+      "domain": "unitedrecyclingusa.com",
+      "reason": "HTTPS 503; live HTTP domain-suspended/ICANN-verification page, not an operating hauler page.",
+      "attempted_own_pages": "https://unitedrecyclingusa.com/"
+    },
+    {
+      "company": "Fill N Go Waste",
+      "domain": "fillngo.net",
+      "reason": "Own site 503/403 on attempted public variants; no live email verified.",
+      "attempted_own_pages": "https://fillngo.net/"
+    },
+    {
+      "company": "Pure Sanitation Services",
+      "domain": "pureservice.biz",
+      "reason": "Cleaning/servicing portables is published, but equipment rental/hauler scope not established.",
+      "attempted_own_pages": "https://pureservice.biz/; https://pureservice.biz/about/; https://pureservice.biz/contact/"
+    },
+    {
+      "company": "All Pro Waste & Recycling",
+      "domain": "allprowasterecycling.com",
+      "reason": "Own website connection failed.",
+      "attempted_own_pages": "https://allprowasterecycling.com/"
+    },
+    {
+      "company": "Chrome Waste & Recycling",
+      "domain": "chromewaste.com",
+      "reason": "No published email on fetched own pages.",
+      "attempted_own_pages": "https://chromewaste.com/; https://chromewaste.com/#contact; https://chromewaste.com/roll-off-dumpster-rentals/"
+    },
+    {
+      "company": "North Texas Waste",
+      "domain": "ntxwaste.com",
+      "reason": "Root 503; www variant empty, no usable live email or scope.",
+      "attempted_own_pages": "https://ntxwaste.com/"
+    },
+    {
+      "company": "Five Star Waste & Recycling",
+      "domain": "fivestarwasteandrecycling.com",
+      "reason": "Own contact page live after fallback, no published hauler email; form only.",
+      "attempted_own_pages": "https://fivestarwasteandrecycling.com/; https://fivestarwasteandrecycling.com/about-us; https://fivestarwasteandrecycling.com/contact"
+    },
+    {
+      "company": "Hanks Clean Up & Roll Off Service",
+      "domain": "hanksinc.com",
+      "reason": "Own website connection failed.",
+      "attempted_own_pages": "https://hanksinc.com/"
+    },
+    {
+      "company": "AI Recycling & Waste Solutions",
+      "domain": "aisolutions4u.com",
+      "reason": "No usable own-site content or email found.",
+      "attempted_own_pages": "https://aisolutions4u.com/"
+    },
+    {
+      "company": "Champion Waste & Recycling",
+      "domain": "championwaste.com",
+      "reason": "Own domain redirects to Republic Services, national hauler excluded.",
+      "attempted_own_pages": "https://championwaste.com/"
+    },
+    {
+      "company": "Knight Waste Services",
+      "domain": "knightwaste.com",
+      "reason": "Own website connection failed.",
+      "attempted_own_pages": "https://knightwaste.com/"
+    },
+    {
+      "company": "Barnes Waste Disposal",
+      "domain": "barneswdi.com",
+      "reason": "Own website HTTP 406, no live email verified.",
+      "attempted_own_pages": "https://barneswdi.com/"
+    },
+    {
+      "company": "Rhino Removal",
+      "domain": "rhinoremoval.com",
+      "reason": "Own domain redirects to Waste Connections, national hauler excluded.",
+      "attempted_own_pages": "https://rhinoremoval.com/"
+    },
+    {
+      "company": "B&B Waste & Recycling",
+      "domain": "bbwaste.com",
+      "reason": "Own domain redirects to Independent Waste multi-state partner site; no published email.",
+      "attempted_own_pages": "https://bbwaste.com/"
+    },
+    {
+      "company": "AWT Sanitations",
+      "domain": "awtsanitations.com",
+      "reason": "Own website HTTP 503.",
+      "attempted_own_pages": "https://awtsanitations.com/"
+    },
+    {
+      "company": "Service Waste",
+      "domain": "servicewaste.com",
+      "reason": "Own domain redirects to Frontier Waste Solutions, excluded brand.",
+      "attempted_own_pages": "https://servicewaste.com/"
+    },
+    {
+      "company": "Panther City Disposal",
+      "domain": "panthercitydisposal.com",
+      "reason": "Own website connection failed.",
+      "attempted_own_pages": "https://panthercitydisposal.com/"
+    },
+    {
+      "company": "DFW Container Service",
+      "domain": "dfwcontainerservice.com",
+      "reason": "Publishes equipment rental/repair exclusive to trash haulers, not contractor-facing hauling scope.",
+      "attempted_own_pages": "https://dfwcontainerservice.com/; https://dfwcontainerservice.com/about-us"
+    },
+    {
+      "company": "Trashbusterz",
+      "domain": "trashbusterz.com",
+      "reason": "Own website connection failed.",
+      "attempted_own_pages": "https://trashbusterz.com/"
+    },
+    {
+      "company": "Buildsite Services",
+      "domain": "buildsiteservices.com",
+      "reason": "No usable own-site content or published email.",
+      "attempted_own_pages": "https://buildsiteservices.com/"
+    },
+    {
+      "company": "Servall Contractor Services",
+      "domain": "servallcs.com",
+      "reason": "Own domain now advertises sod/material sales, not the required hauler rental scope.",
+      "attempted_own_pages": "https://servallcs.com/"
+    },
+    {
+      "company": "Lone Star Trash",
+      "domain": "lonestartrash.com",
+      "reason": "Residential trash service only on fetched own pages, no roll-off or portable rental scope.",
+      "attempted_own_pages": "https://lonestartrash.com/; https://www.lonestartrash.com/about"
+    },
+    {
+      "company": "Brigade Site Services",
+      "domain": "brigadesiteservices.com",
+      "reason": "Own website connection failed.",
+      "attempted_own_pages": "https://brigadesiteservices.com/"
+    },
+    {
+      "company": "Dump It Dallas",
+      "domain": "didtx.com",
+      "reason": "No usable own-site content or published email.",
+      "attempted_own_pages": "https://didtx.com/"
+    },
+    {
+      "company": "American AF Dumpsters",
+      "domain": "americanafdumpsters.com",
+      "reason": "Own site promotes franchising; franchise/national scope uncertain, excluded.",
+      "attempted_own_pages": "https://americanafdumpsters.com/"
+    },
+    {
+      "company": "DFW Dumpster Rentals",
+      "domain": "dfwdumpsterrentals.com",
+      "reason": "Own site under construction; no live email verified.",
+      "attempted_own_pages": "https://www.dfwdumpsterrentals.com/"
+    }
+  ],
+  "site_pull_attempts": [
+    {
+      "method": "unmodified pull_noi_sites.py --metro DFW --days 30",
+      "result": "HTTP 503, no complete output"
+    },
+    {
+      "method": "Scratch broader regional transport queries, local TXR15/ACTIVE/county/date filters and unchanged script output/classification",
+      "lookback_days": 30,
+      "sites": 93,
+      "regional_successes": 5
+    },
+    {
+      "method": "45-day supplementary pull, all five regions successful; only two selected dates exceed 30 days",
+      "sites": 167,
+      "selected_oldest_date": "2026-09-29"
+    }
+  ],
+  "source_limits": [
+    "TCEQ date is business affiliation begin, not independently established original authorization issuance.",
+    "Six fleet counts remain unverified; no claim of full beneficial-ownership verification.",
+    "11 sites also appeared in DFW1; all 15 site RNs and authorizations are unique within DFW2.",
+    "Sunnyvale individual RN lookups failed 503; exact ACTIVE record rechecked in successful fresh regional response.",
+    "Research only; no delivery guarantee, SMTP probes, messages, contact submissions, cookies or logins."
+  ],
+  "research_sources": [
+    "https://www.fortworthtexas.gov/departments/environmental-services/solidwaste/commercial",
+    "https://dallascityhall.com/departments/sanitation/Pages/Franchised-Private-Haulers.aspx",
+    "https://data.transportation.gov/resource/az4n-8mr2.json",
+    "https://www.hometowndumpsterrental.com/Texas/dumpsters-denton.html",
+    "Brave search, followed by Bing/BBB/Hometown after Brave HTTP 429; Google shell and DuckDuckGo CAPTCHA were not bypassed."
+  ]
+}
