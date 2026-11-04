@@ -123,9 +123,10 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "",
-      "status": "deferred",
+      "status": "skipped",
       "draft": null,
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "skip_reason": "MillionVerifier catch_all (2026-11-04); only ok addresses get first emails after the Nov 4 bounces"
     },
     {
       "id": "JI-H7-H10-S1-06",
@@ -141,9 +142,10 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "",
-      "status": "deferred",
+      "status": "skipped",
       "draft": null,
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "skip_reason": "MillionVerifier catch_all (2026-11-04); only ok addresses get first emails after the Nov 4 bounces"
     },
     {
       "id": "JI-H7-H10-S1-07",
@@ -159,9 +161,10 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "",
-      "status": "deferred",
+      "status": "skipped",
       "draft": null,
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "skip_reason": "MillionVerifier invalid (2026-11-04); only ok addresses get first emails after the Nov 4 bounces"
     },
     {
       "id": "JI-H7-H10-S1-08",
@@ -177,9 +180,10 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "",
-      "status": "deferred",
+      "status": "skipped",
       "draft": null,
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "skip_reason": "MillionVerifier catch_all (2026-11-04); only ok addresses get first emails after the Nov 4 bounces"
     },
     {
       "id": "JI-H7-H10-S1-09",
@@ -195,9 +199,10 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "",
-      "status": "deferred",
+      "status": "skipped",
       "draft": null,
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "skip_reason": "MillionVerifier invalid (2026-11-04); only ok addresses get first emails after the Nov 4 bounces"
     },
     {
       "id": "JI-H7-H10-S1-10",
@@ -215,7 +220,8 @@
       "hook_type": "",
       "status": "deferred",
       "draft": null,
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "verified": "MillionVerifier ok 2026-11-04"
     },
     {
       "id": "JI-H7-H10-S1-11",
@@ -233,7 +239,8 @@
       "hook_type": "",
       "status": "deferred",
       "draft": null,
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "verified": "MillionVerifier ok 2026-11-04"
     },
     {
       "id": "JI-H7-H10-S1-12",
@@ -249,9 +256,10 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "",
-      "status": "deferred",
+      "status": "skipped",
       "draft": null,
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "skip_reason": "MillionVerifier catch_all (2026-11-04); only ok addresses get first emails after the Nov 4 bounces"
     },
     {
       "id": "JI-H7-H10-S1-13",
@@ -269,7 +277,8 @@
       "hook_type": "",
       "status": "deferred",
       "draft": null,
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "verified": "MillionVerifier ok 2026-11-04"
     },
     {
       "id": "JI-H7-H10-S1-14",
@@ -285,9 +294,10 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "",
-      "status": "deferred",
+      "status": "skipped",
       "draft": null,
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "skip_reason": "MillionVerifier catch_all (2026-11-04); only ok addresses get first emails after the Nov 4 bounces"
     }
   ]
 }

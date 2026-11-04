@@ -281,11 +281,12 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "construction; subject A; no yard",
-      "status": "deferred",
+      "status": "skipped",
       "draft": null,
       "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
       "planned_for": null,
-      "note": "Held Oct 28: site blocks direct fetch (Mod_Security), address seen only via Jina, same pattern as the Quickwaste bounce; MX is Microsoft 365. Ask the user before sending."
+      "note": "Held Oct 28: site blocks direct fetch (Mod_Security), address seen only via Jina, same pattern as the Quickwaste bounce; MX is Microsoft 365. Ask the user before sending.",
+      "skip_reason": "MillionVerifier catch_all (2026-11-04); dropped (user agreed Nov 4: verify, send only if valid)"
     },
     {
       "id": "JI-H5-S1-13",

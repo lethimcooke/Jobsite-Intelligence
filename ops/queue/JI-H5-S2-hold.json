@@ -23,9 +23,10 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "",
-      "status": "queued",
+      "status": "skipped",
       "draft": null,
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "skip_reason": "S1 never sent; MillionVerifier catch_all (2026-11-04); only ok addresses get first emails after the Nov 4 bounces"
     }
   ]
 }
