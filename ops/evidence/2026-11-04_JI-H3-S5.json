@@ -1,0 +1,29 @@
+[
+  {
+    "outreach_id": "JI-H3-S5-01",
+    "kind": "gmail_sent",
+    "evidence_id": "1a1a729a3db7169b",
+    "thread_id": "1a140ea4edd8fb2f",
+    "sent_at": "2026-11-04T15:24:46+00:00",
+    "from": "sites@asterfieldgroup.com",
+    "to": "wilsonrolloffrentals@gmail.com"
+  },
+  {
+    "outreach_id": "JI-H3-S5-02",
+    "kind": "gmail_sent",
+    "evidence_id": "1a1a7312aea6fe6e",
+    "thread_id": "1a140ea5246b7015",
+    "sent_at": "2026-11-04T15:32:59+00:00",
+    "from": "sites@asterfieldgroup.com",
+    "to": "service@forgewastetx.com"
+  },
+  {
+    "outreach_id": "JI-H3-S5-03",
+    "kind": "gmail_sent",
+    "evidence_id": "1a1a732a399422d9",
+    "thread_id": "1a140ea542a75f69",
+    "sent_at": "2026-11-04T15:34:36+00:00",
+    "from": "sites@asterfieldgroup.com",
+    "to": "office@bcsstx.com"
+  }
+]

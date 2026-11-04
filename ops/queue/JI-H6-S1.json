@@ -351,7 +351,7 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r-8668417338449729358",
         "message_id": "1a1a416fa6cbb13f",

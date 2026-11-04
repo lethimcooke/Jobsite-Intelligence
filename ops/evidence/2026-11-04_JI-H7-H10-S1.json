@@ -1,0 +1,38 @@
+[
+  {
+    "outreach_id": "JI-H7-H10-S1-01",
+    "kind": "gmail_sent",
+    "evidence_id": "1a1a6e13d9ef433c",
+    "thread_id": "1a1a416fdc2ea76e",
+    "sent_at": "2026-11-04T14:05:41+00:00",
+    "from": "sites@asterfieldgroup.com",
+    "to": "contact@missouricityportapotty.com"
+  },
+  {
+    "outreach_id": "JI-H7-H10-S1-02",
+    "kind": "gmail_sent",
+    "evidence_id": "1a1a6e7e6de535ab",
+    "thread_id": "1a1a416fff7af1bb",
+    "sent_at": "2026-11-04T14:12:57+00:00",
+    "from": "sites@asterfieldgroup.com",
+    "to": "info@alldumpstersrental.com"
+  },
+  {
+    "outreach_id": "JI-H7-H10-S1-03",
+    "kind": "gmail_sent",
+    "evidence_id": "1a1a6ea1db573140",
+    "thread_id": "1a1a417015ef5e87",
+    "sent_at": "2026-11-04T14:15:22+00:00",
+    "from": "sites@asterfieldgroup.com",
+    "to": "info@swelltex.com"
+  },
+  {
+    "outreach_id": "JI-H7-H10-S1-04",
+    "kind": "gmail_sent",
+    "evidence_id": "1a1a6f106ebe0103",
+    "thread_id": "1a1a41702bb5a959",
+    "sent_at": "2026-11-04T14:22:56+00:00",
+    "from": "sites@asterfieldgroup.com",
+    "to": "info@dumpsterconroe.com"
+  }
+]

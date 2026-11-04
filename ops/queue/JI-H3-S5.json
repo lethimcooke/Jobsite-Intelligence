@@ -23,7 +23,7 @@
       "reply_to_message_id": "1a163c1a55041e21",
       "attachments": [],
       "hook_type": "",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r1136666595575318926",
         "message_id": "1a1a417157a0e3d5",
@@ -48,7 +48,7 @@
       "reply_to_message_id": "1a163c79330a0739",
       "attachments": [],
       "hook_type": "",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r-7441358605967316514",
         "message_id": "1a1a41719489c828",
@@ -73,7 +73,7 @@
       "reply_to_message_id": "1a163c8acb2381f4",
       "attachments": [],
       "hook_type": "",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r-1687621277092896337",
         "message_id": "1a1a4171a8428dfc",
@@ -98,9 +98,16 @@
       "reply_to_message_id": "1a163c96d290e2be",
       "attachments": [],
       "hook_type": "",
-      "status": "deferred",
-      "draft": null,
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "status": "drafted",
+      "draft": {
+        "draft_id": "r8522194986159318772",
+        "message_id": "1a1a814352f706e2",
+        "thread_id": "1a140ea5788fb859",
+        "payload_sha256": "7478616b1e9056360940fa1f7ba6f04fdc1bc13af515f1acd962a9d4e6172c77",
+        "created_at": "2026-11-04T19:41:13+00:00"
+      },
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "planned_for": "2026-11-05"
     },
     {
       "id": "JI-H3-S5-05",
@@ -116,9 +123,16 @@
       "reply_to_message_id": "1a163ca27b4218d0",
       "attachments": [],
       "hook_type": "",
-      "status": "deferred",
-      "draft": null,
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "status": "drafted",
+      "draft": {
+        "draft_id": "r-6674193413110368242",
+        "message_id": "1a1a814383106551",
+        "thread_id": "1a140ea5983c3dc1",
+        "payload_sha256": "e30a49e0f5726108cae3939848ebb3645ead79828592ba7a4494d5a86cee48d9",
+        "created_at": "2026-11-04T19:41:13+00:00"
+      },
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "planned_for": "2026-11-05"
     },
     {
       "id": "JI-H3-S5-07",
@@ -134,9 +148,16 @@
       "reply_to_message_id": "1a163d0bae3d74b9",
       "attachments": [],
       "hook_type": "",
-      "status": "deferred",
-      "draft": null,
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "status": "drafted",
+      "draft": {
+        "draft_id": "r4432079726275833894",
+        "message_id": "1a1a8143a5e270d3",
+        "thread_id": "1a140ea609ab906b",
+        "payload_sha256": "38478bbd3ef661881546606b4d147a9f60f4d6aafe647f90678bf315477c2ef0",
+        "created_at": "2026-11-04T19:41:13+00:00"
+      },
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "planned_for": "2026-11-05"
     },
     {
       "id": "JI-H3-S5-08",
@@ -152,9 +173,16 @@
       "reply_to_message_id": "1a163d17b8fb5ce9",
       "attachments": [],
       "hook_type": "",
-      "status": "deferred",
-      "draft": null,
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "status": "drafted",
+      "draft": {
+        "draft_id": "r-3700666599103940921",
+        "message_id": "1a1a8143df972b1d",
+        "thread_id": "1a140ea64a055d41",
+        "payload_sha256": "e6dec8bc44f4e6e64eb6540ea51a5d9b808ef0468b1aea4867075419d5487200",
+        "created_at": "2026-11-04T19:41:13+00:00"
+      },
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "planned_for": "2026-11-05"
     },
     {
       "id": "JI-H3-S5-09",
@@ -170,9 +198,16 @@
       "reply_to_message_id": "1a163d246d69f738",
       "attachments": [],
       "hook_type": "",
-      "status": "deferred",
-      "draft": null,
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "status": "drafted",
+      "draft": {
+        "draft_id": "r-99835704693452264",
+        "message_id": "1a1a8143e404c553",
+        "thread_id": "1a140ea6f5af024b",
+        "payload_sha256": "5014c67c654397a849f51faffa7723e5e99da20536894fcb3607ee068fff38f0",
+        "created_at": "2026-11-04T19:41:13+00:00"
+      },
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "planned_for": "2026-11-05"
     },
     {
       "id": "JI-H3-S5-10",
@@ -188,9 +223,16 @@
       "reply_to_message_id": "1a168f0462fd7da9",
       "attachments": [],
       "hook_type": "",
-      "status": "deferred",
-      "draft": null,
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "status": "drafted",
+      "draft": {
+        "draft_id": "r8086886836954213268",
+        "message_id": "1a1a814403be041c",
+        "thread_id": "1a140ea71bc91a19",
+        "payload_sha256": "dbbaf27f25bf4ec30caf362528a4fbe726071958ed0c120490a0626c6f2b8d81",
+        "created_at": "2026-11-04T19:41:13+00:00"
+      },
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "planned_for": "2026-11-05"
     },
     {
       "id": "JI-H3-S5-11",
@@ -206,9 +248,16 @@
       "reply_to_message_id": "1a168f7a6a956f0a",
       "attachments": [],
       "hook_type": "",
-      "status": "deferred",
-      "draft": null,
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "status": "drafted",
+      "draft": {
+        "draft_id": "r8104597359368603099",
+        "message_id": "1a1a814455c9cc37",
+        "thread_id": "1a140ea74d7917a3",
+        "payload_sha256": "74b168bd319244da13d19f43611cc59d281ce10e5950a0462daa9ea7c6cdf510",
+        "created_at": "2026-11-04T19:41:13+00:00"
+      },
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "planned_for": "2026-11-05"
     },
     {
       "id": "JI-H3-S5-12",
@@ -224,9 +273,16 @@
       "reply_to_message_id": "1a168f9807683cac",
       "attachments": [],
       "hook_type": "",
-      "status": "deferred",
-      "draft": null,
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "status": "drafted",
+      "draft": {
+        "draft_id": "r-8551318010466365042",
+        "message_id": "1a1a81446386d2f8",
+        "thread_id": "1a140ea76fd2fe34",
+        "payload_sha256": "67cc78ede220c1739daf7b1c11afafe6c91ea4a8469cc20755c41a40aa647825",
+        "created_at": "2026-11-04T19:41:13+00:00"
+      },
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "planned_for": "2026-11-05"
     },
     {
       "id": "JI-H3-S5-13",
@@ -242,9 +298,16 @@
       "reply_to_message_id": "1a16901238a1e0d6",
       "attachments": [],
       "hook_type": "",
-      "status": "deferred",
-      "draft": null,
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "status": "drafted",
+      "draft": {
+        "draft_id": "r-5052324018354307022",
+        "message_id": "1a1a81448dcc3b77",
+        "thread_id": "1a140ea7f99dda10",
+        "payload_sha256": "2765633c94f9abef5c414ba9c4ca541d7b747892bf1aee91d3f6f917d810db0d",
+        "created_at": "2026-11-04T19:41:13+00:00"
+      },
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "planned_for": "2026-11-05"
     },
     {
       "id": "JI-H3-S5-14",
@@ -260,27 +323,16 @@
       "reply_to_message_id": "1a169029ec1ff176",
       "attachments": [],
       "hook_type": "",
-      "status": "deferred",
-      "draft": null,
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
-    },
-    {
-      "id": "JI-H3-S5-15",
-      "seq": 15,
-      "batch": "JI-H3",
-      "company": "Trash Hauling Fast",
-      "city": "Houston",
-      "stage": "S5",
-      "from": "sites@asterfieldgroup.com",
-      "to": "elink96@yahoo.com",
-      "subject": "Re: IDV Red Bluff, 8006 Red Bluff Rd",
-      "body": "Hi Trash Hauling Fast team,\n\nLast note from me on this. If new job sites in your service area are ever useful, reply \"send it\" and the five-site sample will be in your inbox the same day.\n\nShould I check back in a few months?\n\nHouston Jobsite Intelligence\nAsterfield Group\nsites@asterfieldgroup.com",
-      "reply_to_message_id": "1a17d898fb9349cd",
-      "attachments": [],
-      "hook_type": "",
-      "status": "deferred",
-      "draft": null,
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "status": "drafted",
+      "draft": {
+        "draft_id": "r6410674477331471857",
+        "message_id": "1a1a8144a6b53902",
+        "thread_id": "1a140ea80f302800",
+        "payload_sha256": "29eda7ea068ad33c1e802740ec68ab57bb2c4c8a639593b6490cf0489db4b10a",
+        "created_at": "2026-11-04T19:41:14+00:00"
+      },
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "planned_for": "2026-11-05"
     }
   ]
 }

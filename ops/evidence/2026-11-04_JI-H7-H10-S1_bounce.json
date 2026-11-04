@@ -1,0 +1,22 @@
+[
+  {
+    "outreach_id": "JI-H7-H10-S1-01",
+    "kind": "gmail_bounce",
+    "evidence_id": "1a1a6e14824bb24b",
+    "thread_id": "1a1a416fdc2ea76e",
+    "sent_at": "2026-11-04T14:05:44+00:00",
+    "from": "mailer-daemon@googlemail.com",
+    "to": "contact@missouricityportapotty.com",
+    "reason": "hard bounce: 554 5.7.1 Relay access denied from eforward1.registrar-servers.com"
+  },
+  {
+    "outreach_id": "JI-H7-H10-S1-04",
+    "kind": "gmail_bounce",
+    "evidence_id": "1a1a6f12dd43dc40",
+    "thread_id": "1a1a41702bb5a959",
+    "sent_at": "2026-11-04T14:22:58+00:00",
+    "from": "mailer-daemon@googlemail.com",
+    "to": "info@dumpsterconroe.com",
+    "reason": "hard bounce: 554 5.7.1 Relay access denied from mx1.hostinger.pk"
+  }
+]
