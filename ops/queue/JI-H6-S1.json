@@ -331,9 +331,11 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "",
-      "status": "deferred",
+      "status": "skipped",
       "draft": null,
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "planned_for": null,
+      "skip_reason": "Held Nov 3: ljphauling@gmail.com no longer found on its live site (direct fetch and Jina); same rule as Big Orange and Precision"
     },
     {
       "id": "JI-H6-S1-15",
@@ -349,9 +351,16 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "",
-      "status": "deferred",
-      "draft": null,
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "status": "drafted",
+      "draft": {
+        "draft_id": "r-8668417338449729358",
+        "message_id": "1a1a416fa6cbb13f",
+        "thread_id": "1a1a416fa6cbb13f",
+        "payload_sha256": "3691f923f9496d25f29cb0a4aa6561bcff67c03ea6d2e91c955aeaab04491dc0",
+        "created_at": "2026-11-04T01:05:54+00:00"
+      },
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "planned_for": "2026-11-04"
     }
   ]
 }
