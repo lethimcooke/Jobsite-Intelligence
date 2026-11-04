@@ -8,7 +8,7 @@ Start here in a new session. The tracker (`Jobsite_Intelligence_Outreach_Tracker
 - Queues in `ops/queue/`; held: `JI-H5-S2-hold.json` (H5 S2 #12-15, release when due), Nation Waste (H5 S1 #12, held for the user), LJP Hauling (H6 S1 #14, skipped: address gone from its site).
 
 ## Engaged
-- **Renegade Roll-Offs (Erin):** sample sent Oct 30 (from operations@ by mistake). E2 check-in is drafted in her thread (r7286572832928906880); the user sends it Nov 4 from sites@ if she hasn't replied. E3 (pilot offer) due Nov 6 if no answer; needs a Stripe payment link first (not made yet).
+- **Renegade Roll-Offs (Erin):** sample sent Oct 30 (from operations@ by mistake). E2 check-in sent by the user Nov 4, 7:04 AM CT from sites@ (Sent 1a1a6a969e4310cb); no reply from her since Oct 29. E3 (pilot offer) due Nov 6 if no answer; needs a Stripe payment link first (not made yet).
 
 ## Daily loop (per `ops/README.md`)
 1. Check replies and bounces (Gmail, sites@ and operations@).
