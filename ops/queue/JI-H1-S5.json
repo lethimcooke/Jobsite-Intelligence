@@ -23,7 +23,7 @@
       "reply_to_message_id": "1a1554dd7c80dc4e",
       "attachments": [],
       "hook_type": "",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r4160485144233238955",
         "message_id": "1a19dd0743490ddd",
@@ -48,7 +48,7 @@
       "reply_to_message_id": "1a15554e1c2f9076",
       "attachments": [],
       "hook_type": "",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r3243372371385699748",
         "message_id": "1a19dd0775725e89",
@@ -73,7 +73,7 @@
       "reply_to_message_id": "1a155568ad1d2fb1",
       "attachments": [],
       "hook_type": "",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r6022391088117914110",
         "message_id": "1a19dd078655bd41",
@@ -98,7 +98,7 @@
       "reply_to_message_id": "1a1555dff96deaa0",
       "attachments": [],
       "hook_type": "",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r1174303901062312617",
         "message_id": "1a19dd07b9cbf8fe",
@@ -123,7 +123,7 @@
       "reply_to_message_id": "1a1556009fd4c04a",
       "attachments": [],
       "hook_type": "",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r-7517864863728323854",
         "message_id": "1a19dd07d3f64480",
@@ -148,7 +148,7 @@
       "reply_to_message_id": "1a155671c936e769",
       "attachments": [],
       "hook_type": "",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r-1919638294908134060",
         "message_id": "1a19dd080641627c",
@@ -173,7 +173,7 @@
       "reply_to_message_id": "1a1556923a7b4f94",
       "attachments": [],
       "hook_type": "",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r7328654725787096351",
         "message_id": "1a19dd083142a9a5",
@@ -198,7 +198,7 @@
       "reply_to_message_id": "1a15570505ac880e",
       "attachments": [],
       "hook_type": "",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r-6838926132214565299",
         "message_id": "1a19dd084d20c2c5",
@@ -223,7 +223,7 @@
       "reply_to_message_id": "1a155720bcad95c4",
       "attachments": [],
       "hook_type": "",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r3343751578824372551",
         "message_id": "1a19dd086d7c8508",

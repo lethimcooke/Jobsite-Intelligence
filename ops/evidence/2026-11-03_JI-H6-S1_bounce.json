@@ -1,0 +1,12 @@
+[
+  {
+    "outreach_id": "JI-H6-S1-09",
+    "kind": "gmail_bounce",
+    "evidence_id": "1a1a1b88de93f55c",
+    "thread_id": "1a19dd06897ecc60",
+    "sent_at": "2026-11-03T14:03:07+00:00",
+    "from": "mailer-daemon@googlemail.com",
+    "to": "info@dollysdumpstershouston.com",
+    "reason": "hard bounce: 550 No mailbox by that name is currently available (5.7.1) from mx10.antispam.mailspamprotection.com"
+  }
+]

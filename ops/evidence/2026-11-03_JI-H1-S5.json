@@ -1,0 +1,83 @@
+[
+  {
+    "outreach_id": "JI-H1-S5-01",
+    "kind": "gmail_sent",
+    "evidence_id": "1a1a1e64d73a1894",
+    "thread_id": "1a13ba7b4a2819dd",
+    "sent_at": "2026-11-03T14:53:07+00:00",
+    "from": "sites@asterfieldgroup.com",
+    "to": "sales@city-waste.com"
+  },
+  {
+    "outreach_id": "JI-H1-S5-02",
+    "kind": "gmail_sent",
+    "evidence_id": "1a1a1e82000b2d7c",
+    "thread_id": "1a13c799bc659ae5",
+    "sent_at": "2026-11-03T14:55:06+00:00",
+    "from": "sites@asterfieldgroup.com",
+    "to": "info@rapidwastesolutions.com"
+  },
+  {
+    "outreach_id": "JI-H1-S5-03",
+    "kind": "gmail_sent",
+    "evidence_id": "1a1a1ef51d4e214b",
+    "thread_id": "1a13c7a23f9183b7",
+    "sent_at": "2026-11-03T15:02:58+00:00",
+    "from": "sites@asterfieldgroup.com",
+    "to": "customerservice@buizawaste.com"
+  },
+  {
+    "outreach_id": "JI-H1-S5-04",
+    "kind": "gmail_sent",
+    "evidence_id": "1a1a1f1093a3867c",
+    "thread_id": "1a13c7a24a66897f",
+    "sent_at": "2026-11-03T15:04:50+00:00",
+    "from": "sites@asterfieldgroup.com",
+    "to": "sales@texanwasteservices.com"
+  },
+  {
+    "outreach_id": "JI-H1-S5-05",
+    "kind": "gmail_sent",
+    "evidence_id": "1a1a1f86e52e7bd6",
+    "thread_id": "1a13c7a26cda424b",
+    "sent_at": "2026-11-03T15:12:55+00:00",
+    "from": "sites@asterfieldgroup.com",
+    "to": "info@wasteshrink.com"
+  },
+  {
+    "outreach_id": "JI-H1-S5-07",
+    "kind": "gmail_sent",
+    "evidence_id": "1a1a1f9f5dc4b73a",
+    "thread_id": "1a13c7a6c7cfa012",
+    "sent_at": "2026-11-03T15:14:35+00:00",
+    "from": "sites@asterfieldgroup.com",
+    "to": "dbaker@bwsdumpsters.com"
+  },
+  {
+    "outreach_id": "JI-H1-S5-08",
+    "kind": "gmail_sent",
+    "evidence_id": "1a1a201900733146",
+    "thread_id": "1a13c7a7036e0b15",
+    "sent_at": "2026-11-03T15:22:53+00:00",
+    "from": "sites@asterfieldgroup.com",
+    "to": "robby@texasmodernwaste.com"
+  },
+  {
+    "outreach_id": "JI-H1-S5-09",
+    "kind": "gmail_sent",
+    "evidence_id": "1a1a203246390ee3",
+    "thread_id": "1a13c7a7293f6b6d",
+    "sent_at": "2026-11-03T15:24:37+00:00",
+    "from": "sites@asterfieldgroup.com",
+    "to": "admin@ofssolidwaste.com"
+  },
+  {
+    "outreach_id": "JI-H1-S5-10",
+    "kind": "gmail_sent",
+    "evidence_id": "1a1a20abd6536e80",
+    "thread_id": "1a13c7a7423b9b6c",
+    "sent_at": "2026-11-03T15:32:55+00:00",
+    "from": "sites@asterfieldgroup.com",
+    "to": "bgonzalez@ezwasteinc.com"
+  }
+]
