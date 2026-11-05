@@ -273,7 +273,7 @@
       "reply_to_message_id": "1a18ce82ef5edfb0",
       "attachments": [],
       "hook_type": "",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r-3384540838094273641",
         "message_id": "1a1a8139d4b37707",
@@ -298,7 +298,7 @@
       "reply_to_message_id": "1a18ce957b676469",
       "attachments": [],
       "hook_type": "",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r-2939513372617309017",
         "message_id": "1a1a8142af5a9682",
@@ -323,7 +323,7 @@
       "reply_to_message_id": "1a18cea773763aa1",
       "attachments": [],
       "hook_type": "",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r-399380283788583682",
         "message_id": "1a1a8142fbcb9088",

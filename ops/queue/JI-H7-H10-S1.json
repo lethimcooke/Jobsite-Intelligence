@@ -218,10 +218,11 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "",
-      "status": "deferred",
+      "status": "skipped",
       "draft": null,
       "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
-      "verified": "MillionVerifier ok 2026-11-04"
+      "verified": "MillionVerifier ok 2026-11-04",
+      "skip_reason": "Nov 5 recheck: address no longer on the hauler's live site (MillionVerifier ok Nov 4, but the rule needs it published)"
     },
     {
       "id": "JI-H7-H10-S1-11",
@@ -237,10 +238,17 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "",
-      "status": "deferred",
-      "draft": null,
+      "status": "drafted",
+      "draft": {
+        "draft_id": "r9147065606646202234",
+        "message_id": "1a1ad7ddb83584d1",
+        "thread_id": "1a1ad7ddb83584d1",
+        "payload_sha256": "2cc2e6f93df8efe653aae55cc51457ae77d22de6ccfdc063dee26a338d93b33b",
+        "created_at": "2026-11-05T20:55:00+00:00"
+      },
       "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
-      "verified": "MillionVerifier ok 2026-11-04"
+      "verified": "MillionVerifier ok 2026-11-04",
+      "planned_for": "2026-11-06"
     },
     {
       "id": "JI-H7-H10-S1-12",
@@ -275,10 +283,17 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "",
-      "status": "deferred",
-      "draft": null,
+      "status": "drafted",
+      "draft": {
+        "draft_id": "r3372692263692026607",
+        "message_id": "1a1ad7de1e4fb081",
+        "thread_id": "1a1ad7de1e4fb081",
+        "payload_sha256": "8b1f1882da7bf255814c6ea2f7deb47a18c0c9ee142e4923eb6b1faeeb8430d9",
+        "created_at": "2026-11-05T20:55:00+00:00"
+      },
       "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
-      "verified": "MillionVerifier ok 2026-11-04"
+      "verified": "MillionVerifier ok 2026-11-04",
+      "planned_for": "2026-11-06"
     },
     {
       "id": "JI-H7-H10-S1-14",
