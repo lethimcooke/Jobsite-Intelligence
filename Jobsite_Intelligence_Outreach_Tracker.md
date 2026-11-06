@@ -99,6 +99,8 @@ draft and `JI/` labels. Labels (created Oct 14): `JI/Send manually` (Label_6), `
 
 - **Approved and merged Nov 6 (user: "if they are reviewed and approved as viable prospects and projects then yes approve"):** PR #19 DFW2 haulers, #20 H13 haulers, #21 DFW3 haulers (hauler_list_dfw.csv conflict resolved by keeping both row sets), #22 H13 S1/S2/S5 copy (6 MillionVerifier-ok haulers), #23 DFW1 signature to dfwjobsite@ (6 ok kept, 9 SKIP), #25 DFW3 S1/S2/S5 copy (5 ok). Each reviewed by operations first (check_packet 0 flags, check_copy PASS or hand-checked for DFW, tests OK, no overlaps with DNC or the ledger). Later Nov 6, under the same rule (reviewed, then merged): #26 DFW2 site repair (Greenmark, Parker, Dumpster Quest, D&A re-paired: one site was possibly named for a person, three were shared with live DFW1 haulers) and #24 DFW2 S1/S2/S5 copy (7 ok haulers); #27 H13R packet (3 Houston reserves paired with sites: Mid-Tex Environmental, La Dompe, Frontier Site Services; 5 reserves wait for sites, Father & Son Dirt Works held: roll-offs unconfirmed) and #28 H13R copy.
 
+- **Site window (user, Nov 6):** hook sites may be up to **45 days** from their TCEQ record date (was 30), Houston and DFW; still ACTIVE on the live record, priority 1-2, not named for a person, used once. Reason: the recent-site pool ran out before the hauler pool.
+
 ## Engaged prospects
 
 One row per prospect who replies. Cadence: E1 (sample attached) the same day as the reply; E2 at sample + 2
