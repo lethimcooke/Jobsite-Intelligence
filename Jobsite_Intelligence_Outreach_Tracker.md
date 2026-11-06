@@ -95,6 +95,8 @@ draft and `JI/` labels. Labels (created Oct 14): `JI/Send manually` (Label_6), `
 
 - **Verification (user, Nov 4):** after two more hard bounces on Nov 4, first emails go only to addresses MillionVerifier rates `ok`. Batch of 23 (`data/to_verify_2026-11-04.csv`, results `data/verified_2026-11-04_millionverifier.csv`): 11 ok (queued: H7-H10 #10, 11, 13; H11 #1, 2, 4, 5, 8, 9; H12 #2, 4), 2 invalid (Action Trucking, Katy Dumpster Rental Group), 10 catch_all (Supreme Site Services, SolidSite, Century Sanitation, H J Services, All Pro Waste, RackRolloff, The Texas Loo, Shep Boys, Prestige Portable Restrooms, Nation Waste): skipped, results noted in the list. Nation Waste (H5 #12) dropped. Resume Fri Nov 6 at 5 a day.
 
+- **DFW sender (user approved DFW sends Nov 6; ASI ops confirmed Nov 6):** DFW sends from **dfwjobsite@asterfieldgroup.com** as "DFW Jobsite Intelligence" (added to `ops/rules.json` senders). Not dfwsites@: the sender matches the signature alias by substring, so any address containing "sites@asterfieldgroup.com" resolves to Houston's alias and is refused; nothing may contain "dfw@" (ASI). No sender code change; DFW counts inside Jobsite's 15/5. Before the first DFW send: the user creates and verifies the alias as Send-mail-as in Gmail; DFW copy signatures carry exactly the new address (copywriter); one `--dry-run-only` test manifest with a DFW entry shows "would send" in the Sender Log.
+
 ## Engaged prospects
 
 One row per prospect who replies. Cadence: E1 (sample attached) the same day as the reply; E2 at sample + 2

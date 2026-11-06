@@ -17,6 +17,10 @@
     "Houston": {
       "from": "sites@asterfieldgroup.com",
       "display": "Houston Jobsite Intelligence"
+    },
+    "DFW": {
+      "from": "dfwjobsite@asterfieldgroup.com",
+      "display": "DFW Jobsite Intelligence"
     }
   },
   "signature_template": "{display}\nAsterfield Group\n{from}",
