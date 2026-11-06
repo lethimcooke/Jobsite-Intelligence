@@ -1,0 +1,1272 @@
+{
+  "prepared": "2026-11-06",
+  "mailbox_delivery": "Not tested; MillionVerifier pending",
+  "rows": [
+    {
+      "row": 1,
+      "company": "Ghost Dumpsters",
+      "email": "info@ghostdumpsterstx.com",
+      "own_page": {
+        "url": "https://ghostdumpsterstx.com/",
+        "final_url": "https://www.ghostdumpsterstx.com/",
+        "status": 200,
+        "fetched_at": "2026-11-06T13:50:32.397327+00:00",
+        "sha256": "a388da7d06eafcd988cfa97bce38c95a8e988fea48d11bdd3e97bab1f3529540",
+        "exact_address_excerpt": "T US CONTACT US HEAD OFFICE 10850 Blackland Rd, Willis, TX 77318 (936) 363-8401 Info@ghostdumpsterstx.com SOCIALS Facebook Instagram LinkedIn INQUIRIES Looking to get a quote from us? G"
+      },
+      "supporting_own_pages": [
+        {
+          "url": "https://www.ghostdumpsterstx.com/about-us",
+          "fetched_at": "2026-11-06T13:52:31.693031+00:00",
+          "status": 200,
+          "sha256": "86a88154bd7d6ffcfb8920257a4ad85f2117d802dbcb095f8065a71c44a17e9a"
+        },
+        {
+          "url": "https://ghostdumpsterstx.com/",
+          "fetched_at": "2026-11-06T13:50:32.397327+00:00",
+          "status": 200,
+          "sha256": "a388da7d06eafcd988cfa97bce38c95a8e988fea48d11bdd3e97bab1f3529540"
+        }
+      ],
+      "dns": {
+        "MX": {
+          "url": "https://dns.google/resolve?name=ghostdumpsterstx.com&type=MX",
+          "status": 200,
+          "fetched_at": "2026-11-06T14:22:01.924631+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "ghostdumpsterstx.com.",
+                "type": 15
+              }
+            ],
+            "Answer": [
+              {
+                "name": "ghostdumpsterstx.com.",
+                "type": 15,
+                "TTL": 3600,
+                "data": "10 alt3.aspmx.l.google.com."
+              },
+              {
+                "name": "ghostdumpsterstx.com.",
+                "type": 15,
+                "TTL": 3600,
+                "data": "10 alt4.aspmx.l.google.com."
+              },
+              {
+                "name": "ghostdumpsterstx.com.",
+                "type": 15,
+                "TTL": 3600,
+                "data": "5 alt1.aspmx.l.google.com."
+              },
+              {
+                "name": "ghostdumpsterstx.com.",
+                "type": 15,
+                "TTL": 3600,
+                "data": "1 aspmx.l.google.com."
+              },
+              {
+                "name": "ghostdumpsterstx.com.",
+                "type": 15,
+                "TTL": 3600,
+                "data": "5 alt2.aspmx.l.google.com."
+              }
+            ],
+            "Comment": "Response from 173.201.69.12."
+          }
+        },
+        "A": {
+          "url": "https://dns.google/resolve?name=ghostdumpsterstx.com&type=A",
+          "status": 200,
+          "fetched_at": "2026-11-06T14:22:02.251584+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "ghostdumpsterstx.com.",
+                "type": 1
+              }
+            ],
+            "Answer": [
+              {
+                "name": "ghostdumpsterstx.com.",
+                "type": 1,
+                "TTL": 600,
+                "data": "185.230.63.107"
+              }
+            ],
+            "Comment": "Response from 97.74.101.12."
+          }
+        }
+      },
+      "site": {
+        "url": "https://data.texas.gov/resource/tzyg-j7q4.json?%24where=additional_id_text%3D%27TXR1522ZU%27+AND+program_code%3D%27STORM%27&%24limit=1000",
+        "fetched_at": "2026-11-06T14:39:27.467484+00:00",
+        "sha256": "a0575e442525864598ecf17445f3b22b69c02a07c24bc3a1728d980ed8006e27",
+        "record": {
+          "ref_num_txt": "RN112445150",
+          "reg_ent_name": "NEW CANEY ISD PORTER HIGH SCHOOL",
+          "re_phys_loc_addr_line_1": "22625 SANDY LN",
+          "re_phys_loc_city": "PORTER",
+          "re_phys_loc_addr_county": "MONTGOMERY",
+          "re_phys_loc_addr_state": "TX",
+          "re_phys_loc_addr_zip": "77365",
+          "re_phys_loc_addr_zip_ext": "5594",
+          "princ_name": "GAMMA CONSTRUCTION COMPANY",
+          "princ_legal_name": "Gamma Construction Company",
+          "ref_num_txt_1": "CN602549925",
+          "name_txt": "CORPORATION",
+          "program_code": "STORM",
+          "additional_id_text": "TXR1522ZU",
+          "additional_id_status": "ACTIVE",
+          "ai_phys_loc_addr_line_1": "22625 SANDY LN",
+          "ai_phys_loc_city": "PORTER",
+          "ai_phys_loc_addr_state": "TX",
+          "ai_phys_loc_addr_zip_full": "77365-5594",
+          "indus_typ_cd_1": "1542",
+          "indus_typ_name_1": "General Contractors-Nonresidential Buildings",
+          "tceq_region_number": "12",
+          "affil_begin_dt": "2026-05-07T00:00:00.000",
+          "affil_end_dt": "3000-12-31T00:00:00.000",
+          "reg_ent_status_txt": "ACTIVE",
+          "status_dt": "2026-05-07T00:00:00.000",
+          "princ_status_txt": "ACTIVE"
+        },
+        "date_used": "2026-10-20",
+        "date_type": "EPA original issue",
+        "epa": {
+          "permit": "TXR1522ZU",
+          "original_issue_date": "10/20/2026",
+          "facility": {
+            "ICIS_FACILITY_INTEREST_ID": "3602397272",
+            "NPDES_ID": "TXR1522ZU",
+            "FACILITY_UIN": "",
+            "FACILITY_TYPE_CODE": "COR",
+            "FACILITY_NAME": "PORTER HIGH SCHOOL PHASE III - PACKAGE 2",
+            "LOCATION_ADDRESS": "22625 SANDY LN",
+            "SUPPLEMENTAL_ADDRESS_TEXT": "",
+            "CITY": "PORTER",
+            "COUNTY_CODE": "TX339",
+            "STATE_CODE": "TX",
+            "ZIP": "77365-5594",
+            "GEOCODE_LATITUDE": "30.120474",
+            "GEOCODE_LONGITUDE": "-95.268357",
+            "IMPAIRED_WATERS": ""
+          }
+        }
+      },
+      "flags": [
+        "Operating yard unverified; service-city reference only; distance not estimated"
+      ]
+    },
+    {
+      "row": 2,
+      "company": "ESTX Dumpsters",
+      "email": "info@estxdumpsters.com",
+      "own_page": {
+        "url": "https://estxdumpsters.com/contact-us/",
+        "final_url": "https://estxdumpsters.com/contact-us/",
+        "status": 200,
+        "fetched_at": "2026-11-06T14:16:42.366588+00:00",
+        "sha256": "ccc96fc5825225b880e30d3bc50326b4c5c2e8b5381af26eda5f14d2fca80c69",
+        "exact_address_excerpt": "equirements, disposal rules, or anything else you\u2019re wondering about. Email Us: info@estxdumpsters.com We\u2019ll never ignore your message or leave you waiting. If you\u2019ve reached out and"
+      },
+      "supporting_own_pages": [
+        {
+          "url": "https://estxdumpsters.com/about-us/",
+          "fetched_at": "2026-11-06T14:16:42.815252+00:00",
+          "status": 200,
+          "sha256": "31f1c1a45904ef85a1a52eb224691d40c652e1b4fe608334f015f9db0df62512"
+        },
+        {
+          "url": "https://estxdumpsters.com/contact-us/",
+          "fetched_at": "2026-11-06T14:16:42.366588+00:00",
+          "status": 200,
+          "sha256": "ccc96fc5825225b880e30d3bc50326b4c5c2e8b5381af26eda5f14d2fca80c69"
+        },
+        {
+          "url": "https://estxdumpsters.com/",
+          "fetched_at": "2026-11-06T13:59:57.531532+00:00",
+          "status": 200,
+          "sha256": "2a944ab2fd35373b1e0481a8ba2942bfc9fe5dfd047900cce4a06f803d0ed3f7"
+        }
+      ],
+      "dns": {
+        "MX": {
+          "url": "https://dns.google/resolve?name=estxdumpsters.com&type=MX",
+          "status": 200,
+          "fetched_at": "2026-11-06T14:22:02.402915+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "estxdumpsters.com.",
+                "type": 15
+              }
+            ],
+            "Answer": [
+              {
+                "name": "estxdumpsters.com.",
+                "type": 15,
+                "TTL": 7200,
+                "data": "0 estxdumpsters.com."
+              }
+            ],
+            "Comment": "Response from 13.248.158.180."
+          }
+        },
+        "A": {
+          "url": "https://dns.google/resolve?name=estxdumpsters.com&type=A",
+          "status": 200,
+          "fetched_at": "2026-11-06T14:22:02.599507+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "estxdumpsters.com.",
+                "type": 1
+              }
+            ],
+            "Answer": [
+              {
+                "name": "estxdumpsters.com.",
+                "type": 1,
+                "TTL": 7200,
+                "data": "195.250.26.69"
+              }
+            ],
+            "Comment": "Response from 13.248.158.180."
+          }
+        }
+      },
+      "site": {
+        "url": "https://data.texas.gov/resource/tzyg-j7q4.json?%24where=ref_num_txt%3D%27RN112473939%27+AND+program_code%3D%27STORM%27&%24limit=1000",
+        "fetched_at": "2026-11-06T14:39:27.187687+00:00",
+        "sha256": "041007652aa59d530ea48443e72c515bcd18c90d146c8b549f1a11cee17030c0",
+        "record": {
+          "ref_num_txt": "RN112473939",
+          "reg_ent_name": "EVERGREEN VILLAGE",
+          "re_phys_loc_addr_county": "MONTGOMERY",
+          "re_phys_loc_desc": "APPROX. 200 FEET NORTHEAST FROM THE INTERSECTION OF STONECREST DR. & SH 242",
+          "reg_ent_desc_txt": "DEVELOPMENT OF COMMERCIAL LAND",
+          "princ_name": "PRINCIPAL SERVICES LTD",
+          "princ_legal_name": "Principal Services, Ltd.",
+          "ref_num_txt_1": "CN604238816",
+          "name_txt": "PARTNERSHIP",
+          "program_code": "STORM",
+          "additional_id_text": "TXR1583ZT",
+          "additional_id_status": "ACTIVE",
+          "ai_phys_loc_addr_zip_full": "-",
+          "ai_phys_loc_desc": "APPROX. 200 FEET NORTHEAST FROM THE INTERSECTION OF STONECREST DR. & SH 242",
+          "tceq_region_number": "12",
+          "affil_begin_dt": "2026-10-19T00:00:00.000",
+          "affil_end_dt": "3000-12-31T00:00:00.000",
+          "reg_ent_status_txt": "ACTIVE",
+          "status_dt": "2026-06-17T00:00:00.000",
+          "princ_status_txt": "ACTIVE"
+        },
+        "date_used": "2026-10-19",
+        "date_type": "EPA original issue",
+        "epa": {
+          "permit": "TXR1583ZT",
+          "original_issue_date": "10/19/2026",
+          "facility": {
+            "ICIS_FACILITY_INTEREST_ID": "3602396657",
+            "NPDES_ID": "TXR1583ZT",
+            "FACILITY_UIN": "",
+            "FACILITY_TYPE_CODE": "POF",
+            "FACILITY_NAME": "EVERGREEN VILLAGE",
+            "LOCATION_ADDRESS": "APPROX. 200 FEET NORTHEAST FROM THE INTERSECTION O",
+            "SUPPLEMENTAL_ADDRESS_TEXT": "F STONECREST DR. & SH 242",
+            "CITY": "CONROE",
+            "COUNTY_CODE": "TX339",
+            "STATE_CODE": "TX",
+            "ZIP": "77302",
+            "GEOCODE_LATITUDE": "30.215661",
+            "GEOCODE_LONGITUDE": "-95.371455",
+            "IMPAIRED_WATERS": ""
+          }
+        }
+      },
+      "flags": [
+        "Operating yard unverified; service-city reference only; distance not estimated"
+      ]
+    },
+    {
+      "row": 3,
+      "company": "Katy Mini Dumpsters",
+      "email": "katyminidumpsters@gmail.com",
+      "own_page": {
+        "url": "https://www.katyminidumpsters.com/contact_us/",
+        "final_url": "https://www.katyminidumpsters.com/contact_us/",
+        "status": 200,
+        "fetched_at": "2026-11-06T14:16:42.364943+00:00",
+        "sha256": "bc15f7f6b1f6683b18aa35d54c6a8e35f8935d8d53fb1328f2917ef2c5f48c03",
+        "exact_address_excerpt": "Exact mailto address in directly fetched HTML: katyminidumpsters@gmail.com"
+      },
+      "supporting_own_pages": [
+        {
+          "url": "https://www.katyminidumpsters.com/contact_us/",
+          "fetched_at": "2026-11-06T14:16:42.364943+00:00",
+          "status": 200,
+          "sha256": "bc15f7f6b1f6683b18aa35d54c6a8e35f8935d8d53fb1328f2917ef2c5f48c03"
+        },
+        {
+          "url": "https://katyminidumpsters.com/",
+          "fetched_at": "2026-11-06T13:59:57.292124+00:00",
+          "status": 200,
+          "sha256": "3e2e8f809c038c2da5067c75eb2093bab56479010fbdcbc306b4ea3ccba3e245"
+        }
+      ],
+      "dns": {
+        "MX": {
+          "url": "https://dns.google/resolve?name=gmail.com&type=MX",
+          "status": 200,
+          "fetched_at": "2026-11-06T14:22:02.392809+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "gmail.com.",
+                "type": 15
+              }
+            ],
+            "Answer": [
+              {
+                "name": "gmail.com.",
+                "type": 15,
+                "TTL": 1309,
+                "data": "20 alt2.gmail-smtp-in.l.google.com."
+              },
+              {
+                "name": "gmail.com.",
+                "type": 15,
+                "TTL": 1309,
+                "data": "5 gmail-smtp-in.l.google.com."
+              },
+              {
+                "name": "gmail.com.",
+                "type": 15,
+                "TTL": 1309,
+                "data": "30 alt3.gmail-smtp-in.l.google.com."
+              },
+              {
+                "name": "gmail.com.",
+                "type": 15,
+                "TTL": 1309,
+                "data": "40 alt4.gmail-smtp-in.l.google.com."
+              },
+              {
+                "name": "gmail.com.",
+                "type": 15,
+                "TTL": 1309,
+                "data": "10 alt1.gmail-smtp-in.l.google.com."
+              }
+            ]
+          }
+        },
+        "A": {
+          "url": "https://dns.google/resolve?name=gmail.com&type=A",
+          "status": 200,
+          "fetched_at": "2026-11-06T14:22:02.482874+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "gmail.com.",
+                "type": 1
+              }
+            ],
+            "Answer": [
+              {
+                "name": "gmail.com.",
+                "type": 1,
+                "TTL": 300,
+                "data": "142.251.218.101"
+              }
+            ],
+            "Comment": "Response from 216.239.32.10."
+          }
+        }
+      },
+      "site": {
+        "url": "https://data.texas.gov/resource/tzyg-j7q4.json?%24where=ref_num_txt%3D%27RN112550140%27+AND+program_code%3D%27STORM%27&%24limit=1000",
+        "fetched_at": "2026-11-06T14:39:27.274882+00:00",
+        "sha256": "ab38f02ba2ae901f8d682a1dc0a1428847808f12398a9983192b07a49dd362a3",
+        "record": {
+          "ref_num_txt": "RN112550140",
+          "reg_ent_name": "THE HOME DEPOT - ELYSON",
+          "re_phys_loc_addr_county": "HARRIS",
+          "re_phys_loc_desc": "0.3 MILES SOUTH OF THE INTERSECTION OF MASON ROAD AND WEST ROAD",
+          "princ_name": "HOME DEPOT USA INC",
+          "princ_legal_name": "Home Depot U.S.A., Inc.",
+          "ref_num_txt_1": "CN600240659",
+          "name_txt": "CORPORATION",
+          "program_code": "STORM",
+          "additional_id_text": "TXR1569ZT",
+          "additional_id_status": "ACTIVE",
+          "ai_phys_loc_addr_zip_full": "-",
+          "ai_phys_loc_desc": "0.3 MILES SOUTH OF THE INTERSECTION OF MASON ROAD AND WEST ROAD",
+          "tceq_region_number": "12",
+          "affil_begin_dt": "2026-10-19T00:00:00.000",
+          "affil_end_dt": "3000-12-31T00:00:00.000",
+          "reg_ent_status_txt": "ACTIVE",
+          "status_dt": "2026-10-19T00:00:00.000",
+          "princ_status_txt": "ACTIVE"
+        },
+        "date_used": "2026-10-19",
+        "date_type": "EPA original issue",
+        "epa": {
+          "permit": "TXR1569ZT",
+          "original_issue_date": "10/19/2026",
+          "facility": {
+            "ICIS_FACILITY_INTEREST_ID": "3602396640",
+            "NPDES_ID": "TXR1569ZT",
+            "FACILITY_UIN": "",
+            "FACILITY_TYPE_CODE": "COR",
+            "FACILITY_NAME": "THE HOME DEPOT - ELYSON",
+            "LOCATION_ADDRESS": "0.3 MILES SOUTH OF THE INTERSECTION OF MASON ROAD",
+            "SUPPLEMENTAL_ADDRESS_TEXT": "AND WEST ROAD",
+            "CITY": "CYPRESS",
+            "COUNTY_CODE": "TX201",
+            "STATE_CODE": "TX",
+            "ZIP": "77433",
+            "GEOCODE_LATITUDE": "29.899792",
+            "GEOCODE_LONGITUDE": "-95.755903",
+            "IMPAIRED_WATERS": ""
+          }
+        }
+      },
+      "flags": [
+        "Operating yard unverified; service-city reference only; distance not estimated",
+        "needs email pass"
+      ]
+    },
+    {
+      "row": 4,
+      "company": "Texas Waste Services",
+      "email": "info@texaswasteservices.com",
+      "own_page": {
+        "url": "https://texaswasteservices.com/contact/",
+        "final_url": "https://texaswasteservices.com/contact/",
+        "status": 200,
+        "fetched_at": "2026-11-06T13:52:36.511820+00:00",
+        "sha256": "47174f6739e47f311a5bfbe627bdfb9b0d7cfe11f189634d41b27b16890b73ce",
+        "exact_address_excerpt": " Us Pricing Dumpsters Junk Removal Contact Blog Contact Us Contact 713-818-0254 info@texaswasteservices.com Katy, Texas Send a Message CALL NOW BOOK NOW Providing dumpster rental services"
+      },
+      "supporting_own_pages": [
+        {
+          "url": "https://texaswasteservices.com/contact",
+          "fetched_at": "2026-11-06T13:52:36.931199+00:00",
+          "status": 200,
+          "sha256": "47174f6739e47f311a5bfbe627bdfb9b0d7cfe11f189634d41b27b16890b73ce"
+        },
+        {
+          "url": "https://texaswasteservices.com/contact/",
+          "fetched_at": "2026-11-06T13:52:36.511820+00:00",
+          "status": 200,
+          "sha256": "47174f6739e47f311a5bfbe627bdfb9b0d7cfe11f189634d41b27b16890b73ce"
+        },
+        {
+          "url": "https://texaswasteservices.com/about-us/",
+          "fetched_at": "2026-11-06T13:52:35.487314+00:00",
+          "status": 200,
+          "sha256": "76011faab211b4bfdcac4fee51f36b0f6ba24f5eacdf76c4685671d20a9f3961"
+        },
+        {
+          "url": "https://texaswasteservices.com/",
+          "fetched_at": "2026-11-06T13:50:40.588610+00:00",
+          "status": 200,
+          "sha256": "ffaacc501eb649fa3465e2f8e649ee7ee3ed6700d6e838aea16cc16c79c4ae8d"
+        }
+      ],
+      "dns": {
+        "MX": {
+          "url": "https://dns.google/resolve?name=texaswasteservices.com&type=MX",
+          "status": 200,
+          "fetched_at": "2026-11-06T14:22:02.341128+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "texaswasteservices.com.",
+                "type": 15
+              }
+            ],
+            "Answer": [
+              {
+                "name": "texaswasteservices.com.",
+                "type": 15,
+                "TTL": 3600,
+                "data": "0 texaswasteservices-com.mail.protection.outlook.com."
+              }
+            ],
+            "Comment": "Response from 97.74.108.19."
+          }
+        },
+        "A": {
+          "url": "https://dns.google/resolve?name=texaswasteservices.com&type=A",
+          "status": 200,
+          "fetched_at": "2026-11-06T14:22:02.474882+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "texaswasteservices.com.",
+                "type": 1
+              }
+            ],
+            "Answer": [
+              {
+                "name": "texaswasteservices.com.",
+                "type": 1,
+                "TTL": 600,
+                "data": "207.148.3.57"
+              }
+            ],
+            "Comment": "Response from 173.201.76.19."
+          }
+        }
+      },
+      "site": {
+        "url": "https://data.texas.gov/resource/tzyg-j7q4.json?%24where=ref_num_txt%3D%27RN112546403%27+AND+program_code%3D%27STORM%27&%24limit=1000",
+        "fetched_at": "2026-11-06T14:39:26.999955+00:00",
+        "sha256": "4ad783d07a6eadf964aef2caa3ead188e9f3f6f7ef8914e442179500b5a0e36f",
+        "record": {
+          "ref_num_txt": "RN112546403",
+          "reg_ent_name": "LEGACY CD-2",
+          "re_phys_loc_addr_county": "HARRIS",
+          "re_phys_loc_desc": "ON THE SOUTH SIDE OF US-290, JUST EAST OF MUESCHKE ROAD",
+          "reg_ent_desc_txt": "INDUSTRIAL BUILDING FOR BUSINESS PARK",
+          "princ_name": "DAVID E HARVEY BUILDERS INC",
+          "princ_legal_name": "David E. Harvey Builders, Inc.",
+          "ref_num_txt_1": "CN602546517",
+          "name_txt": "CORPORATION",
+          "program_code": "STORM",
+          "additional_id_text": "TXR1512ZS",
+          "additional_id_status": "ACTIVE",
+          "ai_phys_loc_addr_zip_full": "-",
+          "ai_phys_loc_desc": "ON THE SOUTH SIDE OF US-290, JUST EAST OF MUESCHKE ROAD",
+          "indus_typ_cd_1": "1541",
+          "indus_typ_name_1": "General Contractors-Industrial Buildings and Warehouses",
+          "tceq_region_number": "12",
+          "affil_begin_dt": "2026-10-12T00:00:00.000",
+          "affil_end_dt": "3000-12-31T00:00:00.000",
+          "reg_ent_status_txt": "ACTIVE",
+          "status_dt": "2026-10-12T00:00:00.000",
+          "princ_status_txt": "ACTIVE"
+        },
+        "date_used": "2026-10-12",
+        "date_type": "EPA original issue",
+        "epa": {
+          "permit": "TXR1512ZS",
+          "original_issue_date": "10/12/2026",
+          "facility": {
+            "ICIS_FACILITY_INTEREST_ID": "3602393824",
+            "NPDES_ID": "TXR1512ZS",
+            "FACILITY_UIN": "",
+            "FACILITY_TYPE_CODE": "COR",
+            "FACILITY_NAME": "LEGACY CD-2",
+            "LOCATION_ADDRESS": "ON THE SOUTH SIDE OF US-290, JUST EAST OF MUESCHKE",
+            "SUPPLEMENTAL_ADDRESS_TEXT": "ROAD",
+            "CITY": "CYPRESS",
+            "COUNTY_CODE": "TX201",
+            "STATE_CODE": "TX",
+            "ZIP": "77433",
+            "GEOCODE_LATITUDE": "29.974447",
+            "GEOCODE_LONGITUDE": "-95.710865",
+            "IMPAIRED_WATERS": ""
+          }
+        }
+      },
+      "flags": [
+        "Operating yard unverified; service-city reference only; distance not estimated"
+      ]
+    },
+    {
+      "row": 5,
+      "company": "Go Waste",
+      "email": "service@gowaste.com",
+      "own_page": {
+        "url": "https://www.gowaste.com/",
+        "final_url": "https://www.gowaste.com/",
+        "status": 200,
+        "fetched_at": "2026-11-06T14:07:13.060113+00:00",
+        "sha256": "98864997869550215c0c1d972f7600480eb423c531e9668750c7f2d4eba6ba90",
+        "exact_address_excerpt": "day! Call, text, or email Go Waste for your dumpster rental needs. 713-701-1615 Service@GoWaste.com By texting Go Waste, you consent to receive SMS replies. Message and data rates"
+      },
+      "supporting_own_pages": [
+        {
+          "url": "https://www.gowaste.com/get-a-quote-contact-us",
+          "fetched_at": "2026-11-06T14:08:50.238671+00:00",
+          "status": 200,
+          "sha256": "bf162e172074c313cd703867c2c4d055e0240d65e3c82bc46626dfd886e6af2c"
+        },
+        {
+          "url": "https://www.gowaste.com/",
+          "fetched_at": "2026-11-06T14:07:13.060113+00:00",
+          "status": 200,
+          "sha256": "98864997869550215c0c1d972f7600480eb423c531e9668750c7f2d4eba6ba90"
+        },
+        {
+          "url": "https://gowaste.com/",
+          "fetched_at": "2026-11-06T13:58:33.794689+00:00",
+          "status": 200,
+          "sha256": "32ce1d5d249c520b6698c72f9560c69d05cf62bb7eaf57a73ccb0f25041af038"
+        }
+      ],
+      "dns": {
+        "MX": {
+          "url": "https://dns.google/resolve?name=gowaste.com&type=MX",
+          "status": 200,
+          "fetched_at": "2026-11-06T14:22:02.623340+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "gowaste.com.",
+                "type": 15
+              }
+            ],
+            "Answer": [
+              {
+                "name": "gowaste.com.",
+                "type": 15,
+                "TTL": 300,
+                "data": "0 gowaste-com.mail.protection.outlook.com."
+              }
+            ],
+            "Comment": "Response from 64.41.114.10."
+          }
+        },
+        "A": {
+          "url": "https://dns.google/resolve?name=gowaste.com&type=A",
+          "status": 200,
+          "fetched_at": "2026-11-06T14:22:02.981151+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "gowaste.com.",
+                "type": 1
+              }
+            ],
+            "Answer": [
+              {
+                "name": "gowaste.com.",
+                "type": 1,
+                "TTL": 300,
+                "data": "35.204.150.5"
+              }
+            ],
+            "Comment": "Response from 64.41.112.10."
+          }
+        }
+      },
+      "site": {
+        "url": "https://data.texas.gov/resource/tzyg-j7q4.json?%24where=ref_num_txt%3D%27RN112551007%27+AND+program_code%3D%27STORM%27&%24limit=1000",
+        "fetched_at": "2026-11-06T14:39:28.027865+00:00",
+        "sha256": "bd5cf6f674910a3c2ea0242e0a7b2f7ea3ceb541ee62afc98a720b5c12f5fbf8",
+        "record": {
+          "ref_num_txt": "RN112551007",
+          "reg_ent_name": "TESLA - AUSTIN POINT",
+          "re_phys_loc_addr_county": "FORT BEND",
+          "re_phys_loc_desc": "W OF THE INTERSECTION OF FM 1994 & FM 762, E OF BOOTHLINE RD/STAVINOHA VACEK RD, & E OF BIG CREEK",
+          "princ_name": "RANGER EXCAVATING LP",
+          "princ_legal_name": "Ranger Excavating, L.P.",
+          "ref_num_txt_1": "CN602783037",
+          "name_txt": "CORPORATION",
+          "program_code": "STORM",
+          "additional_id_text": "TXR1511ZU",
+          "additional_id_status": "ACTIVE",
+          "ai_phys_loc_addr_zip_full": "-",
+          "ai_phys_loc_desc": "W OF THE INTERSECTION OF FM 1994 & FM 762, E OF BOOTHLINE RD/STAVINOHA VACEK RD, & E OF BIG CREEK",
+          "tceq_region_number": "12",
+          "affil_begin_dt": "2026-10-19T00:00:00.000",
+          "affil_end_dt": "3000-12-31T00:00:00.000",
+          "reg_ent_status_txt": "ACTIVE",
+          "status_dt": "2026-10-19T00:00:00.000",
+          "princ_status_txt": "ACTIVE"
+        },
+        "date_used": "2026-10-19",
+        "date_type": "EPA original issue",
+        "epa": {
+          "permit": "TXR1511ZU",
+          "original_issue_date": "10/19/2026",
+          "facility": {
+            "ICIS_FACILITY_INTEREST_ID": "3602396619",
+            "NPDES_ID": "TXR1511ZU",
+            "FACILITY_UIN": "",
+            "FACILITY_TYPE_CODE": "COR",
+            "FACILITY_NAME": "TESLA - AUSTIN POINT",
+            "LOCATION_ADDRESS": "W OF THE INTERSECTION OF FM 1994 & FM 762, E OF BO",
+            "SUPPLEMENTAL_ADDRESS_TEXT": "OTHLINE RD/STAVINOHA VACEK RD, & E OF BIG CREEK",
+            "CITY": "RICHMOND",
+            "COUNTY_CODE": "TX157",
+            "STATE_CODE": "TX",
+            "ZIP": "77469",
+            "GEOCODE_LATITUDE": "29.43447",
+            "GEOCODE_LONGITUDE": "-95.7155",
+            "IMPAIRED_WATERS": ""
+          }
+        }
+      },
+      "flags": [
+        "Operating yard unverified; service-city reference only; distance not estimated"
+      ]
+    },
+    {
+      "row": 6,
+      "company": "Hero Portables",
+      "email": "teamhero@heroportables.com",
+      "own_page": {
+        "url": "https://heroportables.com/",
+        "final_url": "https://heroportables.com/",
+        "status": 200,
+        "fetched_at": "2026-11-06T13:52:31.523784+00:00",
+        "sha256": "7d2c8d310716ddf198f993253b9a6061eb7dac2a15db49fb8fb49f94cb1ee162",
+        "exact_address_excerpt": "y. Hero Portables Providing Service for the South Houston and surrounding areas teamhero@heroportables.com 346-689-0735 Hours Mon 09:00 am \u2013 05:00 pm Tue 09:00 am \u2013 05:00 pm Wed 09:00 am"
+      },
+      "supporting_own_pages": [
+        {
+          "url": "https://heroportables.com/",
+          "fetched_at": "2026-11-06T13:52:31.523784+00:00",
+          "status": 200,
+          "sha256": "7d2c8d310716ddf198f993253b9a6061eb7dac2a15db49fb8fb49f94cb1ee162"
+        }
+      ],
+      "dns": {
+        "MX": {
+          "url": "https://dns.google/resolve?name=heroportables.com&type=MX",
+          "status": 200,
+          "fetched_at": "2026-11-06T14:22:02.440520+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "heroportables.com.",
+                "type": 15
+              }
+            ],
+            "Answer": [
+              {
+                "name": "heroportables.com.",
+                "type": 15,
+                "TTL": 3600,
+                "data": "0 heroportables-com.mail.protection.outlook.com."
+              }
+            ],
+            "Comment": "Response from 97.74.106.47."
+          }
+        },
+        "A": {
+          "url": "https://dns.google/resolve?name=heroportables.com&type=A",
+          "status": 200,
+          "fetched_at": "2026-11-06T14:22:02.608638+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "heroportables.com.",
+                "type": 1
+              }
+            ],
+            "Answer": [
+              {
+                "name": "heroportables.com.",
+                "type": 1,
+                "TTL": 3600,
+                "data": "13.248.243.5"
+              },
+              {
+                "name": "heroportables.com.",
+                "type": 1,
+                "TTL": 3600,
+                "data": "76.223.105.230"
+              }
+            ],
+            "Comment": "Response from 97.74.106.47."
+          }
+        }
+      },
+      "site": {
+        "url": "https://data.texas.gov/resource/tzyg-j7q4.json?%24where=additional_id_text%3D%27TXR1567ZR%27+AND+program_code%3D%27STORM%27&%24limit=1000",
+        "fetched_at": "2026-11-06T14:39:27.156717+00:00",
+        "sha256": "fcc33bf503a2697446526d9a20748e0b6236aa8811f9f18b0de0387f1546f5b0",
+        "record": {
+          "ref_num_txt": "RN110785292",
+          "reg_ent_name": "STEEL SUPPLY",
+          "re_phys_loc_addr_line_1": "10600 TELEPHONE RD",
+          "re_phys_loc_city": "HOUSTON",
+          "re_phys_loc_addr_county": "HARRIS",
+          "re_phys_loc_addr_state": "TX",
+          "re_phys_loc_addr_zip": "77075",
+          "re_phys_loc_addr_zip_ext": "4514",
+          "reg_ent_desc_txt": "STEEL SUPPLY AND FABRICATION",
+          "indus_type_cd_name": "332999 - All Other Miscellaneous Fabricated Metal Product Manufacturing",
+          "princ_name": "GRA-GULF COAST CONSTRUCTION LLC",
+          "princ_legal_name": "GRA - Gulf Coast Construction, L.L.C.",
+          "ref_num_txt_1": "CN602976912",
+          "name_txt": "CORPORATION",
+          "program_code": "STORM",
+          "additional_id_text": "TXR1567ZR",
+          "additional_id_status": "ACTIVE",
+          "ai_phys_loc_addr_line_1": "10600 TELEPHONE RD",
+          "ai_phys_loc_city": "HOUSTON",
+          "ai_phys_loc_addr_state": "TX",
+          "ai_phys_loc_addr_zip_full": "77075-4514",
+          "indus_typ_cd_1": "1541",
+          "indus_typ_name_1": "General Contractors-Industrial Buildings and Warehouses",
+          "tceq_region_number": "12",
+          "affil_begin_dt": "2021-04-14T00:00:00.000",
+          "affil_end_dt": "3000-12-31T00:00:00.000",
+          "reg_ent_status_txt": "ACTIVE",
+          "status_dt": "2019-06-03T00:00:00.000",
+          "princ_status_txt": "ACTIVE"
+        },
+        "date_used": "2026-10-08",
+        "date_type": "EPA original issue",
+        "epa": {
+          "permit": "TXR1567ZR",
+          "original_issue_date": "10/08/2026",
+          "facility": {
+            "ICIS_FACILITY_INTEREST_ID": "3602392295",
+            "NPDES_ID": "TXR1567ZR",
+            "FACILITY_UIN": "",
+            "FACILITY_TYPE_CODE": "COR",
+            "FACILITY_NAME": "STEEL SUPPLY - PROCESSING CENTER",
+            "LOCATION_ADDRESS": "10600 TELEPHONE RD",
+            "SUPPLEMENTAL_ADDRESS_TEXT": "",
+            "CITY": "HOUSTON",
+            "COUNTY_CODE": "TX201",
+            "STATE_CODE": "TX",
+            "ZIP": "77075-4514",
+            "GEOCODE_LATITUDE": "29.610647",
+            "GEOCODE_LONGITUDE": "-95.28858",
+            "IMPAIRED_WATERS": ""
+          }
+        }
+      },
+      "flags": [
+        "Operating yard unverified; service-city reference only; distance not estimated"
+      ]
+    },
+    {
+      "row": 7,
+      "company": "Blackwood Portable Restrooms",
+      "email": "byrd@blackwoodportablerestrooms.com",
+      "own_page": {
+        "url": "https://blackwoodportablerestrooms.com/",
+        "final_url": "https://blackwoodportablerestrooms.com/",
+        "status": 200,
+        "fetched_at": "2026-11-06T13:38:32.715853+00:00",
+        "sha256": "8dfdabd6708e9779da16c04311e31050d3310a0aee2641e072e07b5f1f7ad354",
+        "exact_address_excerpt": " Antonio Dallas / Fort Worth Beaumont & Galveston Contact Us \u260e (713) 900-1941 \u2709 byrd@blackwoodportablerestrooms.com 2717 Commercial Center Blvd Suite E200 Katy, Texas 77494 \u00a9 2026 Blackwood Porta"
+      },
+      "supporting_own_pages": [
+        {
+          "url": "https://blackwoodportablerestrooms.com/#contact",
+          "fetched_at": "2026-11-06T13:40:48.155338+00:00",
+          "status": 200,
+          "sha256": "8dfdabd6708e9779da16c04311e31050d3310a0aee2641e072e07b5f1f7ad354"
+        },
+        {
+          "url": "https://blackwoodportablerestrooms.com/",
+          "fetched_at": "2026-11-06T13:38:32.715853+00:00",
+          "status": 200,
+          "sha256": "8dfdabd6708e9779da16c04311e31050d3310a0aee2641e072e07b5f1f7ad354"
+        }
+      ],
+      "dns": {
+        "MX": {
+          "url": "https://dns.google/resolve?name=blackwoodportablerestrooms.com&type=MX",
+          "status": 200,
+          "fetched_at": "2026-11-06T14:22:01.920751+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "blackwoodportablerestrooms.com.",
+                "type": 15
+              }
+            ],
+            "Answer": [
+              {
+                "name": "blackwoodportablerestrooms.com.",
+                "type": 15,
+                "TTL": 14400,
+                "data": "10 alt3.aspmx.l.google.com."
+              },
+              {
+                "name": "blackwoodportablerestrooms.com.",
+                "type": 15,
+                "TTL": 14400,
+                "data": "5 alt2.aspmx.l.google.com."
+              },
+              {
+                "name": "blackwoodportablerestrooms.com.",
+                "type": 15,
+                "TTL": 14400,
+                "data": "10 alt4.aspmx.l.google.com."
+              },
+              {
+                "name": "blackwoodportablerestrooms.com.",
+                "type": 15,
+                "TTL": 14400,
+                "data": "1 aspmx.l.google.com."
+              },
+              {
+                "name": "blackwoodportablerestrooms.com.",
+                "type": 15,
+                "TTL": 14400,
+                "data": "5 alt1.aspmx.l.google.com."
+              }
+            ],
+            "Comment": "Response from 216.239.32.109."
+          }
+        },
+        "A": {
+          "url": "https://dns.google/resolve?name=blackwoodportablerestrooms.com&type=A",
+          "status": 200,
+          "fetched_at": "2026-11-06T14:22:02.231517+00:00",
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "blackwoodportablerestrooms.com.",
+                "type": 1
+              }
+            ],
+            "Answer": [
+              {
+                "name": "blackwoodportablerestrooms.com.",
+                "type": 1,
+                "TTL": 14400,
+                "data": "172.66.3.26"
+              },
+              {
+                "name": "blackwoodportablerestrooms.com.",
+                "type": 1,
+                "TTL": 14400,
+                "data": "162.159.143.30"
+              }
+            ],
+            "Comment": "Response from 216.239.38.109."
+          }
+        }
+      },
+      "site": {
+        "url": "https://data.texas.gov/resource/tzyg-j7q4.json?%24where=ref_num_txt%3D%27RN112547773%27+AND+program_code%3D%27STORM%27&%24limit=1000",
+        "fetched_at": "2026-11-06T14:39:27.882625+00:00",
+        "sha256": "f495c97533ff38bdc50e7ab33439183ae7f184b3685d4fd50c0511bfc75ea488",
+        "record": {
+          "ref_num_txt": "RN112547773",
+          "reg_ent_name": "SAWGRASS STAGING AREA",
+          "re_phys_loc_addr_county": "GALVESTON",
+          "re_phys_loc_desc": "EAST SIDE OF HWY 146, BETWEEN 25TH AVE N TX-197 LOOP, AND MOSS LAKE",
+          "reg_ent_desc_txt": "EMERGENCY STAGING YARD",
+          "princ_name": "TEXAS-NEW MEXICO POWER COMPANY",
+          "princ_legal_name": "Texas-New Mexico Power Company",
+          "ref_num_txt_1": "CN600255830",
+          "name_txt": "CORPORATION",
+          "program_code": "STORM",
+          "additional_id_text": "TXR1583ZS",
+          "additional_id_status": "ACTIVE",
+          "ai_phys_loc_addr_zip_full": "-",
+          "ai_phys_loc_desc": "EAST SIDE OF HWY 146, BETWEEN 25TH AVE N TX-197 LOOP, AND MOSS LAKE",
+          "indus_typ_cd_1": "1629",
+          "indus_typ_name_1": "Heavy Construction",
+          "tceq_region_number": "12",
+          "affil_begin_dt": "2026-10-14T00:00:00.000",
+          "affil_end_dt": "3000-12-31T00:00:00.000",
+          "reg_ent_status_txt": "ACTIVE",
+          "status_dt": "2026-10-14T00:00:00.000",
+          "princ_status_txt": "ACTIVE"
+        },
+        "date_used": "2026-10-14",
+        "date_type": "EPA original issue",
+        "epa": {
+          "permit": "TXR1583ZS",
+          "original_issue_date": "10/14/2026",
+          "facility": {
+            "ICIS_FACILITY_INTEREST_ID": "3602394769",
+            "NPDES_ID": "TXR1583ZS",
+            "FACILITY_UIN": "",
+            "FACILITY_TYPE_CODE": "COR",
+            "FACILITY_NAME": "SAWGRASS STAGING AREA",
+            "LOCATION_ADDRESS": "EAST SIDE OF HWY 146, BETWEEN 25TH AVE N TX-197 LO",
+            "SUPPLEMENTAL_ADDRESS_TEXT": "OP, AND MOSS LAKE",
+            "CITY": "TEXAS CITY",
+            "COUNTY_CODE": "TX167",
+            "STATE_CODE": "TX",
+            "ZIP": "77590",
+            "GEOCODE_LATITUDE": "29.4125",
+            "GEOCODE_LONGITUDE": "-94.9567",
+            "IMPAIRED_WATERS": ""
+          }
+        }
+      },
+      "flags": [
+        "Operating yard unverified; service-city reference only; distance not estimated"
+      ]
+    },
+    {
+      "row": 8,
+      "company": "Premier Hauling Solutions LLC",
+      "email": "joey@premierhaulingtx.com",
+      "own_page": {
+        "url": "https://www.premierhaulingtx.com/contact",
+        "final_url": "https://www.premierhaulingtx.com/contact",
+        "status": 200,
+        "fetched_at": "2026-11-06T14:38:59.965971+00:00",
+        "sha256": "1651ffbce491b99d12ff00f52bb3766849d5182efde6685a324d9127fdc390e4",
+        "exact_address_excerpt": "\u202d(346) 342-3969\u202c 3003 Green Tee Dr. Pearland Tx 77581 Premier Hauling Solutions joey@premierhaulingtx.com (832) 275-3768 3003 Green Tee Dr. Pearland Tx 77581 Made with Squarespace"
+      },
+      "supporting_own_pages": [
+        {
+          "url": "https://www.premierhaulingtx.com/containers",
+          "fetched_at": "2026-11-06T14:40:49.462954+00:00",
+          "status": 200,
+          "sha256": "dcf71b5685abf001ee484419db68a9ffeeca34407c65ea1a8e9153366920e429"
+        },
+        {
+          "url": "https://www.premierhaulingtx.com/solutions",
+          "fetched_at": "2026-11-06T14:40:48.770145+00:00",
+          "status": 200,
+          "sha256": "8e27c05c57f85d08754ee36292263eb35424a750d9e26d9ad575523c61b5b171"
+        },
+        {
+          "url": "https://www.premierhaulingtx.com/contact",
+          "fetched_at": "2026-11-06T14:38:59.965971+00:00",
+          "status": 200,
+          "sha256": "1651ffbce491b99d12ff00f52bb3766849d5182efde6685a324d9127fdc390e4"
+        },
+        {
+          "url": "https://www.premierhaulingtx.com/about",
+          "fetched_at": "2026-11-06T14:38:59.117600+00:00",
+          "status": 200,
+          "sha256": "950545f31a31c37e1cc3e400ccbd0f249e5ac701b1643f713647083b37e531e4"
+        },
+        {
+          "url": "https://www.premierhaulingtx.com/",
+          "fetched_at": "2026-11-06T14:38:58.460076+00:00",
+          "status": 200,
+          "sha256": "bf0f4162e9c1f6ec0f3a460f5220fa589c802f39d225820b02365c8b2f0f3198"
+        }
+      ],
+      "dns": {
+        "MX": {
+          "url": "https://dns.google/resolve?name=premierhaulingtx.com&type=MX",
+          "fetched_at": "2026-11-06T14:44:26.878096+00:00",
+          "status": 200,
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "premierhaulingtx.com.",
+                "type": 15
+              }
+            ],
+            "Answer": [
+              {
+                "name": "premierhaulingtx.com.",
+                "type": 15,
+                "TTL": 14400,
+                "data": "0 mx2-usg2.ppe-hosted.com."
+              },
+              {
+                "name": "premierhaulingtx.com.",
+                "type": 15,
+                "TTL": 14400,
+                "data": "0 mx3-usg2.ppe-hosted.com."
+              },
+              {
+                "name": "premierhaulingtx.com.",
+                "type": 15,
+                "TTL": 14400,
+                "data": "0 mx1-usg2.ppe-hosted.com."
+              }
+            ],
+            "Comment": "Response from 45.54.22.65."
+          }
+        },
+        "A": {
+          "url": "https://dns.google/resolve?name=premierhaulingtx.com&type=A",
+          "fetched_at": "2026-11-06T14:44:27.105019+00:00",
+          "status": 200,
+          "response": {
+            "Status": 0,
+            "TC": false,
+            "RD": true,
+            "RA": true,
+            "AD": false,
+            "CD": false,
+            "Question": [
+              {
+                "name": "premierhaulingtx.com.",
+                "type": 1
+              }
+            ],
+            "Answer": [
+              {
+                "name": "premierhaulingtx.com.",
+                "type": 1,
+                "TTL": 14400,
+                "data": "198.49.23.145"
+              },
+              {
+                "name": "premierhaulingtx.com.",
+                "type": 1,
+                "TTL": 14400,
+                "data": "198.185.159.145"
+              },
+              {
+                "name": "premierhaulingtx.com.",
+                "type": 1,
+                "TTL": 14400,
+                "data": "198.49.23.144"
+              },
+              {
+                "name": "premierhaulingtx.com.",
+                "type": 1,
+                "TTL": 14400,
+                "data": "198.185.159.144"
+              }
+            ],
+            "Comment": "Response from 198.51.45.6."
+          }
+        }
+      },
+      "site": {
+        "url": "https://data.texas.gov/resource/tzyg-j7q4.json?%24where=ref_num_txt%3D%27RN112549423%27+AND+program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29&%24limit=1000",
+        "fetched_at": "2026-11-06T14:44:24.964687+00:00",
+        "sha256": "00f5166e98794d099b14781bf8f58f010d53a2e3b022dd96d4734eb681d8e534",
+        "record": {
+          "ref_num_txt": "RN112549423",
+          "reg_ent_name": "OREM RD",
+          "re_phys_loc_addr_county": "HARRIS",
+          "re_phys_loc_desc": "NWC OF WEST OREM DRIVE & SH 288",
+          "reg_ent_desc_txt": "COMMERCIAL BUILDINGS FOR BUSINESS PARK",
+          "princ_name": "BURTON CONSTRUCTION CO",
+          "princ_legal_name": "Burton Construction Co.",
+          "ref_num_txt_1": "CN602809790",
+          "name_txt": "CORPORATION",
+          "program_code": "STORM",
+          "additional_id_text": "TXR1543ZT",
+          "additional_id_status": "ACTIVE",
+          "ai_phys_loc_addr_zip_full": "-",
+          "ai_phys_loc_desc": "NWC OF WEST OREM DRIVE & SH 288",
+          "indus_typ_cd_1": "1542",
+          "indus_typ_name_1": "General Contractors-Nonresidential Buildings",
+          "tceq_region_number": "12",
+          "affil_begin_dt": "2026-10-16T00:00:00.000",
+          "affil_end_dt": "3000-12-31T00:00:00.000",
+          "reg_ent_status_txt": "ACTIVE",
+          "status_dt": "2026-10-16T00:00:00.000",
+          "princ_status_txt": "ACTIVE"
+        },
+        "date_used": "2026-10-16",
+        "date_type": "EPA original issue",
+        "epa": {
+          "permit": "TXR1543ZT",
+          "original_issue_date": "10/16/2026",
+          "facility": {
+            "ICIS_FACILITY_INTEREST_ID": "3602395995",
+            "NPDES_ID": "TXR1543ZT",
+            "FACILITY_UIN": "",
+            "FACILITY_TYPE_CODE": "COR",
+            "FACILITY_NAME": "OREM RD",
+            "LOCATION_ADDRESS": "NWC OF WEST OREM DRIVE & SH 288",
+            "SUPPLEMENTAL_ADDRESS_TEXT": "",
+            "CITY": "HOUSTON",
+            "COUNTY_CODE": "TX201",
+            "STATE_CODE": "TX",
+            "ZIP": "77047",
+            "GEOCODE_LATITUDE": "29.630379",
+            "GEOCODE_LONGITUDE": "-95.389503",
+            "IMPAIRED_WATERS": ""
+          }
+        }
+      },
+      "flags": [
+        "Operating yard unverified; service-city reference only; distance not estimated"
+      ]
+    }
+  ]
+}
