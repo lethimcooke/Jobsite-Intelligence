@@ -1,0 +1,101 @@
+[
+ {
+  "company": "Container Source Inc.",
+  "email": "office@containersourceinc.com",
+  "page": "https://containersourceinc.com/contact/",
+  "final_url": "https://containersourceinc.com/contact/",
+  "http_status": 200,
+  "email_on_page": true,
+  "method": "direct fetch",
+  "fetched_at": "2026-11-06T20:11:49.560578+00:00",
+  "mx": "0 containersourceinc-com.mail.protection.outlook.com."
+ },
+ {
+  "company": "Tru-Tex Sanitation",
+  "email": "caseyestes1684@icloud.com",
+  "page": "https://trutexsanitation.com/contact/",
+  "final_url": "https://trutexsanitation.com/contact/",
+  "http_status": 200,
+  "email_on_page": true,
+  "method": "direct fetch",
+  "fetched_at": "2026-11-06T20:11:51.352439+00:00",
+  "mx": "10 mx02.mail.icloud.com.; 10 mx01.mail.icloud.com."
+ },
+ {
+  "company": "La Dompe LLC",
+  "email": "selvin.turcios@ladompellc.com",
+  "page": "https://www.ladompellc.com/contact",
+  "final_url": "https://www.ladompellc.com/contact",
+  "http_status": 200,
+  "email_on_page": true,
+  "method": "direct fetch",
+  "fetched_at": "2026-11-06T20:11:51.740589+00:00",
+  "mx": "0 ladompellc-com.mail.protection.outlook.com."
+ },
+ {
+  "company": "Trailer Ready Rentals LLC",
+  "email": "trailerreadyrentals@gmail.com",
+  "page": "https://trailerreadyrentals.com/",
+  "final_url": "https://www.trailerreadyrentals.com/",
+  "http_status": "200",
+  "email_on_page": true,
+  "method": "rendered in Chromium (JS page)",
+  "fetched_at": "2026-11-06T20:12:03.621533+00:00",
+  "mx": "5 gmail-smtp-in.l.google.com.; 10 alt1.gmail-smtp-in.l.google.com.; 20 alt2.gmail-smtp-in.l.google.com.; 30 alt3.gmail-smtp-in.l.google.com.; 40 alt4.gmail-smtp-in.l.google.com."
+ },
+ {
+  "company": "K&K Dumpster Rentals",
+  "email": "002kevinrodriguez@gmail.com",
+  "page": "https://www.kkdumpsters.com/",
+  "final_url": "https://kkdumpsters.com/",
+  "http_status": "200",
+  "email_on_page": true,
+  "method": "rendered in Chromium (JS page)",
+  "fetched_at": "2026-11-06T20:12:09.249367+00:00",
+  "mx": "5 gmail-smtp-in.l.google.com.; 20 alt2.gmail-smtp-in.l.google.com.; 40 alt4.gmail-smtp-in.l.google.com.; 30 alt3.gmail-smtp-in.l.google.com.; 10 alt1.gmail-smtp-in.l.google.com."
+ },
+ {
+  "company": "Texas Lux Restroom Trailers",
+  "email": "contact@texasluxrestroomtrailers.com",
+  "page": "https://texasluxrestrooms.com/contact/",
+  "final_url": "https://texasluxrestrooms.com/contact/",
+  "http_status": 200,
+  "email_on_page": true,
+  "method": "direct fetch",
+  "fetched_at": "2026-11-06T20:12:10.096972+00:00",
+  "mx": "10 alt3.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 1 aspmx.l.google.com."
+ },
+ {
+  "company": "Mid-Tex Environmental Services LLC",
+  "email": "midtexenvironmental@gmail.com",
+  "page": "https://midtexenvironmental.com/contact-us/",
+  "final_url": "https://midtexenvironmental.com/contact-us/",
+  "http_status": 200,
+  "email_on_page": true,
+  "method": "direct fetch",
+  "fetched_at": "2026-11-06T20:12:10.688006+00:00",
+  "mx": "10 alt1.gmail-smtp-in.l.google.com.; 20 alt2.gmail-smtp-in.l.google.com.; 5 gmail-smtp-in.l.google.com.; 40 alt4.gmail-smtp-in.l.google.com.; 30 alt3.gmail-smtp-in.l.google.com."
+ },
+ {
+  "company": "Father & Son Dirt Works LLC",
+  "email": "fathersondirtworks2@gmail.com",
+  "page": "https://landclearinghoustontxcom.com/contact-us",
+  "final_url": "https://landclearinghoustontxcom.com/contact-us",
+  "http_status": "502",
+  "email_on_page": false,
+  "method": "rendered in Chromium (JS page)",
+  "fetched_at": "2026-11-06T20:12:31.778432+00:00",
+  "mx": "40 alt4.gmail-smtp-in.l.google.com.; 30 alt3.gmail-smtp-in.l.google.com.; 5 gmail-smtp-in.l.google.com.; 10 alt1.gmail-smtp-in.l.google.com.; 20 alt2.gmail-smtp-in.l.google.com."
+ },
+ {
+  "company": "Frontier Site Services",
+  "email": "sales@frontiersiteservices.com",
+  "page": "https://frontiersiteservices.com/contact-us/",
+  "final_url": "https://frontiersiteservices.com/contact-us/",
+  "http_status": 200,
+  "email_on_page": true,
+  "method": "direct fetch",
+  "fetched_at": "2026-11-06T20:12:32.416080+00:00",
+  "mx": "0 frontiersiteservices-com.mail.protection.outlook.com."
+ }
+]
