@@ -1,8 +1,8 @@
 # Hook packet: batch H13R2 (Houston reserves, 45-day sites)
 
-**Prepared:** November 6, 2026, by Claude (prospector role) at operations' request, after the user approved a 45-day site window (relayed by operations, Nov 6). It pairs four of the H13R haulers that were waiting for a site (PR #27 adds their rows to ). The addresses are already verified (MillionVerifier ok) and were rechecked on each hauler's own live page on Nov 6, so no verification CSV is needed. Prospecting only.
+**Prepared:** November 6, 2026, by Claude (prospector role) at operations' request, after the user approved a 45-day site window (relayed by operations, Nov 6). It pairs four of the H13R haulers that were waiting for a site (PR #27 adds their rows to `data/hauler_list_houston.csv`). The addresses are already verified (MillionVerifier ok) and were rechecked on each hauler's own live page on Nov 6, so no verification CSV is needed. Prospecting only.
 
-**Sites:** taken from  (Nov 6) and re-fetched live at 20:28 UTC. All four are ACTIVE, priority 1, and not in any packet. KAJIMA CONSTRUCTION YOKOGAWA PARK was dropped because its TXR15 is CANCELLED, so FULSHEAR LAKES LAKESIDE PARK SECTION 6 replaces it for K&K. Tru-Tex Sanitation stays unpaired until a site appears in its Baytown-east area. Area matches are our read. No claim that work has started, a vendor is unselected, or work is open for bid.
+**Sites:** taken from `pull_noi_sites.py --metro Houston --days 45` (Nov 6) and re-fetched live at 20:28 UTC. All four are ACTIVE, priority 1, and not in any packet. KAJIMA CONSTRUCTION YOKOGAWA PARK was dropped because its TXR15 is CANCELLED, so FULSHEAR LAKES LAKESIDE PARK SECTION 6 replaces it for K&K. Tru-Tex Sanitation stays unpaired until a site appears in its Baytown-east area. Area matches are our read. No claim that work has started, a vendor is unselected, or work is open for bid.
 
 | # | Batch | Hauler | Email (grade) | Service reference | Publishes | Site | TCEQ auth / date on file / RN | Business affiliation on file | Miles |
 |---|---|---|---|---|---|---|---|---|---|
