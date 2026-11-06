@@ -1,6 +1,8 @@
 # DFW1: S1 copy (DFW)
 
-Written Oct 27, 2026 from `docs/Outreach_Copy_v2.md` (S1, Tier B) in the structure of the approved `outreach/H5_S1_Copy.md`, from `data/packet_DFW1.csv` and `outreach/DFW1_Hook_Packet.md` (15 haulers). Sender display name `DFW Jobsite Intelligence` (user, Oct 26), from sites@asterfieldgroup.com; `ops/rules.json` has no DFW sender yet, so `check_copy.py --metro DFW` can't check the signature. Filed facts (authorization, record date, site, address, county, operator) are from the TCEQ record, recased for reading; every site appears once. Job type and fit are our read. No published yards, so the close says "in your service area". Every subject is arm A.
+Written Oct 27, 2026 from `docs/Outreach_Copy_v2.md` (S1, Tier B) in the structure of the approved `outreach/H5_S1_Copy.md`, from `data/packet_DFW1.csv` and `outreach/DFW1_Hook_Packet.md` (15 haulers). Sender display name `DFW Jobsite Intelligence` (user, Oct 26), from dfwjobsite@asterfieldgroup.com (Nov 6; was sites@); `ops/rules.json` has no DFW sender yet, so `check_copy.py --metro DFW` can't check the signature. Filed facts (authorization, record date, site, address, county, operator) are from the TCEQ record, recased for reading; every site appears once. Job type and fit are our read. No published yards, so the close says "in your service area". Every subject is arm A.
+
+**Nov 6 changes (operations):** DFW sends from **dfwjobsite@asterfieldgroup.com**, not sites@ (ASI confirmed the sender refuses a sites@ or dfwsites@ signature for DFW), so the third signature line of every body is now dfwjobsite@asterfieldgroup.com; nothing else in the bodies changed. MillionVerifier (`data/verified_2026-11-06_millionverifier.csv`) rated 6 rows "ok"; the other 9 are marked SKIP and must not be queued: #3 Discount Dumpsters, #4 Weonit, #6 Blue Star, #8 EnviroHauling, #9 HD Waste, #10 Sundance, #12 Sweet Dumps, #13 Sunbelt (catch_all) and #5 Hart Waste Removal (invalid). Kept: #1 Fusion, #2 Red River, #7 Delta, #11 Texas Elite, #14 Waste Advantage, #15 One Stop Porta Shop. `check_copy.py` and `validate` will flag the DFW signature until operations adds the DFW sender to `ops/rules.json`. Signature change and SKIPs pending the user's approval.
 
 **One wording change for the user to approve:** the DFW1 packet gives no distance for any row (no verified yard; "no distance estimate"). Instead of "It's about N miles from [city]", each fit line places the site against the areas the hauler publishes, for example "It's in Celina, one of the areas you serve" or "It's in Coppell, in the DFW metroplex you serve". The rest of the line is unchanged.
 
@@ -26,7 +28,7 @@ Want five sites like this in your service area, free?
 
 DFW Jobsite Intelligence
 Asterfield Group
-sites@asterfieldgroup.com
+dfwjobsite@asterfieldgroup.com
 
 If this isn't useful, reply "no thanks" and I won't email again.
 ```
@@ -51,12 +53,12 @@ Want five sites like this in your service area, free?
 
 DFW Jobsite Intelligence
 Asterfield Group
-sites@asterfieldgroup.com
+dfwjobsite@asterfieldgroup.com
 
 If this isn't useful, reply "no thanks" and I won't email again.
 ```
 
-## 3. DFW1: DISCOUNT DUMPSTERS
+## 3. DFW1: DISCOUNT DUMPSTERS (SKIP: MillionVerifier catch_all, Nov 6)
 - To: office@discountdumpstersdfw.com (A)
 - Subject: Agape Baptist Church, Sachse
 - Subject arm: A
@@ -76,12 +78,12 @@ Want five sites like this in your service area, free?
 
 DFW Jobsite Intelligence
 Asterfield Group
-sites@asterfieldgroup.com
+dfwjobsite@asterfieldgroup.com
 
 If this isn't useful, reply "no thanks" and I won't email again.
 ```
 
-## 4. DFW1: WEONIT WASTE & RECYCLE LLC
+## 4. DFW1: WEONIT WASTE & RECYCLE LLC (SKIP: MillionVerifier catch_all, Nov 6)
 - To: g.mccurry@weonit.net (A)
 - Subject: Presbyterian Village North
 - Subject arm: A
@@ -101,12 +103,12 @@ Want five sites like this in your service area, free?
 
 DFW Jobsite Intelligence
 Asterfield Group
-sites@asterfieldgroup.com
+dfwjobsite@asterfieldgroup.com
 
 If this isn't useful, reply "no thanks" and I won't email again.
 ```
 
-## 5. DFW1: HART WASTE REMOVAL
+## 5. DFW1: HART WASTE REMOVAL (SKIP: MillionVerifier invalid, Nov 6)
 - To: info@hartwasteremoval.com (A)
 - Subject: Self-storage facility, Mesquite
 - Subject arm: A
@@ -126,12 +128,12 @@ Want five sites like this in your service area, free?
 
 DFW Jobsite Intelligence
 Asterfield Group
-sites@asterfieldgroup.com
+dfwjobsite@asterfieldgroup.com
 
 If this isn't useful, reply "no thanks" and I won't email again.
 ```
 
-## 6. DFW1: BLUE STAR DUMPSTERS LLC
+## 6. DFW1: BLUE STAR DUMPSTERS LLC (SKIP: MillionVerifier catch_all, Nov 6)
 - To: info@bluestardumpsters.com (A)
 - Subject: 4955 Rochelle, Irving
 - Subject arm: A
@@ -151,7 +153,7 @@ Want five sites like this in your service area, free?
 
 DFW Jobsite Intelligence
 Asterfield Group
-sites@asterfieldgroup.com
+dfwjobsite@asterfieldgroup.com
 
 If this isn't useful, reply "no thanks" and I won't email again.
 ```
@@ -176,12 +178,12 @@ Want five sites like this in your service area, free?
 
 DFW Jobsite Intelligence
 Asterfield Group
-sites@asterfieldgroup.com
+dfwjobsite@asterfieldgroup.com
 
 If this isn't useful, reply "no thanks" and I won't email again.
 ```
 
-## 8. DFW1: EnviroHauling Services
+## 8. DFW1: EnviroHauling Services (SKIP: MillionVerifier catch_all, Nov 6)
 - To: info@envirohauling.com (A)
 - Subject: Chilis Grill & Bar, Little Elm
 - Subject arm: A
@@ -201,12 +203,12 @@ Want five sites like this in your service area, free?
 
 DFW Jobsite Intelligence
 Asterfield Group
-sites@asterfieldgroup.com
+dfwjobsite@asterfieldgroup.com
 
 If this isn't useful, reply "no thanks" and I won't email again.
 ```
 
-## 9. DFW1: HD Waste & Recycling
+## 9. DFW1: HD Waste & Recycling (SKIP: MillionVerifier catch_all, Nov 6)
 - To: service@hdwastetx.com (A)
 - Subject: Naterra World HQ, Coppell
 - Subject arm: A
@@ -226,12 +228,12 @@ Want five sites like this in your service area, free?
 
 DFW Jobsite Intelligence
 Asterfield Group
-sites@asterfieldgroup.com
+dfwjobsite@asterfieldgroup.com
 
 If this isn't useful, reply "no thanks" and I won't email again.
 ```
 
-## 10. DFW1: Sundance Disposal
+## 10. DFW1: Sundance Disposal (SKIP: MillionVerifier catch_all, Nov 6)
 - To: andrew@sundancedisposal.com (A)
 - Subject: Arbrook Apartments
 - Subject arm: A
@@ -251,7 +253,7 @@ Want five sites like this in your service area, free?
 
 DFW Jobsite Intelligence
 Asterfield Group
-sites@asterfieldgroup.com
+dfwjobsite@asterfieldgroup.com
 
 If this isn't useful, reply "no thanks" and I won't email again.
 ```
@@ -276,12 +278,12 @@ Want five sites like this in your service area, free?
 
 DFW Jobsite Intelligence
 Asterfield Group
-sites@asterfieldgroup.com
+dfwjobsite@asterfieldgroup.com
 
 If this isn't useful, reply "no thanks" and I won't email again.
 ```
 
-## 12. DFW1: Sweet Dumps
+## 12. DFW1: Sweet Dumps (SKIP: MillionVerifier catch_all, Nov 6)
 - To: inbox@sweetdumps.com (A)
 - Subject: McKeever Grocer and Retail, Fort Worth
 - Subject arm: A
@@ -301,12 +303,12 @@ Want five sites like this in your service area, free?
 
 DFW Jobsite Intelligence
 Asterfield Group
-sites@asterfieldgroup.com
+dfwjobsite@asterfieldgroup.com
 
 If this isn't useful, reply "no thanks" and I won't email again.
 ```
 
-## 13. DFW1: Sunbelt Disposal & Recycling
+## 13. DFW1: Sunbelt Disposal & Recycling (SKIP: MillionVerifier catch_all, Nov 6)
 - To: sales@sunbeltdisposal.com (A)
 - Subject: The Edifice at Anna
 - Subject arm: A
@@ -326,7 +328,7 @@ Want five sites like this in your service area, free?
 
 DFW Jobsite Intelligence
 Asterfield Group
-sites@asterfieldgroup.com
+dfwjobsite@asterfieldgroup.com
 
 If this isn't useful, reply "no thanks" and I won't email again.
 ```
@@ -351,7 +353,7 @@ Want five sites like this in your service area, free?
 
 DFW Jobsite Intelligence
 Asterfield Group
-sites@asterfieldgroup.com
+dfwjobsite@asterfieldgroup.com
 
 If this isn't useful, reply "no thanks" and I won't email again.
 ```
@@ -376,7 +378,7 @@ Want five sites like this in your service area, free?
 
 DFW Jobsite Intelligence
 Asterfield Group
-sites@asterfieldgroup.com
+dfwjobsite@asterfieldgroup.com
 
 If this isn't useful, reply "no thanks" and I won't email again.
 ```
