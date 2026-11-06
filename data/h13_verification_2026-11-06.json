@@ -764,7 +764,16 @@
       },
       "flags": [
         "Operating yard unverified; service-city reference only; distance not estimated"
-      ]
+      ],
+      "carrier": {
+        "source_url": "https://data.transportation.gov/resource/az4n-8mr2.json?%24where=phy_state%3D%27TX%27+AND+status_code%3D%27A%27+AND+crgo_garbage%3D%27X%27+AND+phy_cnty+in%28%27201%27%2C%27157%27%2C%27339%27%2C%27039%27%2C%27167%27%2C%27473%27%2C%27291%27%2C%27071%27%29&%24limit=10000",
+        "fetched_at": "2026-11-06T13:31:00.415213+00:00",
+        "legal_name": "GO WASTE LLC",
+        "usdot": "5535669",
+        "power_units": "7",
+        "phone": "7137011615",
+        "website_domain_transition": "Registry publishes HASSCO domain; own current site GoWaste.com and published phone match. Current carrier total is a filing, not an equipment audit."
+      }
     },
     {
       "row": 6,

@@ -1,0 +1,4 @@
+company,email,hauler_email_source,http_status,fetched_at,mx_hosts,flags,reason,counts_toward_target
+Minter Bros Porta Potty Rental,warren@minterbrosportapottyrental.store,https://minterbrosportapottyrental.store/,200,2026-11-06T13:58:37.217993+00:00,78 route2.mx.cloudflare.net.; 42 route3.mx.cloudflare.net.; 6 route1.mx.cloudflare.net.,forwarder MX; identity hold,Independent operator identity/equipment ownership uncorroborated; not held solely for forwarding MX,False
+Hempstead Dumpster Co,info@hempsteaddumpsterco.site,https://hempsteaddumpsterco.site/,200,2026-11-06T13:58:38.339723+00:00,10 mx2.hostinger.com.; 5 mx1.hostinger.com.,forwarder MX; identity hold,Independent operator identity/equipment ownership uncorroborated; not held solely for forwarding MX,False
+Peninsula Septic,info@penseptic.com,https://penseptic.com/,200,2026-11-06T13:38:34.095801+00:00,,no MX,No MX on actual DNS lookup; not counted,False

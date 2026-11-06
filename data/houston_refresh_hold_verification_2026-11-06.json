@@ -1,0 +1,257 @@
+[
+  {
+    "company": "Minter Bros Porta Potty Rental",
+    "email": "warren@minterbrosportapottyrental.store",
+    "own_page": {
+      "url": "https://minterbrosportapottyrental.store/",
+      "status": 200,
+      "fetched_at": "2026-11-06T13:58:37.217993+00:00",
+      "sha256": "696f80b293778fa0f2f4fd6d2b4772ac97abae2d47de9ab571907eba2238629c",
+      "exact_address_excerpt": "warren@minterbrosportapottyrental.store"
+    },
+    "dns": {
+      "MX": {
+        "url": "https://dns.google/resolve?name=minterbrosportapottyrental.store&type=MX",
+        "status": 200,
+        "fetched_at": "2026-11-06T14:22:02.600845+00:00",
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "minterbrosportapottyrental.store.",
+              "type": 15
+            }
+          ],
+          "Answer": [
+            {
+              "name": "minterbrosportapottyrental.store.",
+              "type": 15,
+              "TTL": 300,
+              "data": "78 route2.mx.cloudflare.net."
+            },
+            {
+              "name": "minterbrosportapottyrental.store.",
+              "type": 15,
+              "TTL": 300,
+              "data": "42 route3.mx.cloudflare.net."
+            },
+            {
+              "name": "minterbrosportapottyrental.store.",
+              "type": 15,
+              "TTL": 300,
+              "data": "6 route1.mx.cloudflare.net."
+            }
+          ],
+          "Comment": "Response from 172.64.34.128."
+        }
+      },
+      "A": {
+        "url": "https://dns.google/resolve?name=minterbrosportapottyrental.store&type=A",
+        "status": 200,
+        "fetched_at": "2026-11-06T14:22:02.781914+00:00",
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "minterbrosportapottyrental.store.",
+              "type": 1
+            }
+          ],
+          "Answer": [
+            {
+              "name": "minterbrosportapottyrental.store.",
+              "type": 1,
+              "TTL": 300,
+              "data": "172.67.201.202"
+            },
+            {
+              "name": "minterbrosportapottyrental.store.",
+              "type": 1,
+              "TTL": 300,
+              "data": "104.21.60.214"
+            }
+          ],
+          "Comment": "Response from 162.159.38.128."
+        }
+      }
+    },
+    "flags": "forwarder MX; identity hold",
+    "reason": "Independent operator identity/equipment ownership uncorroborated; not held solely for forwarding MX"
+  },
+  {
+    "company": "Hempstead Dumpster Co",
+    "email": "info@hempsteaddumpsterco.site",
+    "own_page": {
+      "url": "https://hempsteaddumpsterco.site/",
+      "status": 200,
+      "fetched_at": "2026-11-06T13:58:38.339723+00:00",
+      "sha256": "d281e25e18a5bd3305be79f58c0300425e96814b4d3ded0b438267a899fc6552",
+      "exact_address_excerpt": "info@hempsteaddumpsterco.site"
+    },
+    "dns": {
+      "MX": {
+        "url": "https://dns.google/resolve?name=hempsteaddumpsterco.site&type=MX",
+        "status": 200,
+        "fetched_at": "2026-11-06T14:22:02.605214+00:00",
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "hempsteaddumpsterco.site.",
+              "type": 15
+            }
+          ],
+          "Answer": [
+            {
+              "name": "hempsteaddumpsterco.site.",
+              "type": 15,
+              "TTL": 14400,
+              "data": "10 mx2.hostinger.com."
+            },
+            {
+              "name": "hempsteaddumpsterco.site.",
+              "type": 15,
+              "TTL": 14400,
+              "data": "5 mx1.hostinger.com."
+            }
+          ],
+          "Comment": "Response from 172.64.53.67."
+        }
+      },
+      "A": {
+        "url": "https://dns.google/resolve?name=hempsteaddumpsterco.site&type=A",
+        "status": 200,
+        "fetched_at": "2026-11-06T14:22:02.971019+00:00",
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "hempsteaddumpsterco.site.",
+              "type": 1
+            }
+          ],
+          "Answer": [
+            {
+              "name": "hempsteaddumpsterco.site.",
+              "type": 1,
+              "TTL": 60,
+              "data": "145.223.124.77"
+            },
+            {
+              "name": "hempsteaddumpsterco.site.",
+              "type": 1,
+              "TTL": 60,
+              "data": "147.79.72.46"
+            }
+          ],
+          "Comment": "Response from 172.64.52.230."
+        }
+      }
+    },
+    "flags": "forwarder MX; identity hold",
+    "reason": "Independent operator identity/equipment ownership uncorroborated; not held solely for forwarding MX"
+  },
+  {
+    "company": "Peninsula Septic",
+    "email": "info@penseptic.com",
+    "own_page": {
+      "url": "https://penseptic.com/",
+      "status": 200,
+      "fetched_at": "2026-11-06T13:38:34.095801+00:00",
+      "sha256": "7a110d0889cbca105a4fd7b1b0c582b8a8d109e49961526bb22847240895b141",
+      "exact_address_excerpt": "info@penseptic.com"
+    },
+    "dns": {
+      "MX": {
+        "url": "https://dns.google/resolve?name=penseptic.com&type=MX",
+        "status": 200,
+        "fetched_at": "2026-11-06T14:22:02.373250+00:00",
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "penseptic.com.",
+              "type": 15
+            }
+          ],
+          "Authority": [
+            {
+              "name": "penseptic.com.",
+              "type": 6,
+              "TTL": 1800,
+              "data": "ns4.wixdns.net. support.wix.com. 2023103119 10800 3600 1209600 3600"
+            }
+          ],
+          "Comment": "Response from 216.239.38.101."
+        }
+      },
+      "A": {
+        "url": "https://dns.google/resolve?name=penseptic.com&type=A",
+        "status": 200,
+        "fetched_at": "2026-11-06T14:22:02.604711+00:00",
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "penseptic.com.",
+              "type": 1
+            }
+          ],
+          "Answer": [
+            {
+              "name": "penseptic.com.",
+              "type": 1,
+              "TTL": 3600,
+              "data": "185.230.63.107"
+            },
+            {
+              "name": "penseptic.com.",
+              "type": 1,
+              "TTL": 3600,
+              "data": "185.230.63.171"
+            },
+            {
+              "name": "penseptic.com.",
+              "type": 1,
+              "TTL": 3600,
+              "data": "185.230.63.186"
+            }
+          ],
+          "Comment": "Response from 216.239.38.101."
+        }
+      }
+    },
+    "flags": "no MX",
+    "reason": "No MX on actual DNS lookup; not counted"
+  }
+]

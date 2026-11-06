@@ -100,6 +100,8 @@ Partial packet: 8/15. These are research-qualified contacts for MillionVerifier 
 - Verification: Own page HTTP 200 fetched 2026-11-06T14:07:13.060113+00:00. MX: 0 gowaste-com.mail.protection.outlook.com.. Actual DNS lookup 2026-11-06T14:22:02.623340+00:00. Grade A publication and MX are not mailbox-delivery verification. MillionVerifier result pending; do not queue before an ok result. Current fleet total and beneficial ownership unverified unless an exact carrier record is stated. Industrial fit is our read of the filed project name and public manufacturing-facility reporting. Scope, final development decisions and dispatch access are not verified.
 - Additional flags: Operating yard unverified; service-city reference only; distance not estimated.
 
+- Carrier evidence: exact GO WASTE LLC phone match, USDOT 5535669, 7 filed power units. https://data.transportation.gov/resource/az4n-8mr2.json?%24where=phy_state%3D%27TX%27+AND+status_code%3D%27A%27+AND+crgo_garbage%3D%27X%27+AND+phy_cnty+in%28%27201%27%2C%27157%27%2C%27339%27%2C%27039%27%2C%27167%27%2C%27473%27%2C%27291%27%2C%27071%27%29&%24limit=10000; retrieved 2026-11-06T13:31:00.415213+00:00. Filing is not an equipment audit.
+
 ## 6. H13: Hero Portables
 - To: teamhero@heroportables.com
 - Email grade: A, exact address on directly fetched own live page.
