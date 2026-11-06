@@ -1,0 +1,1612 @@
+{
+  "prepared": "2026-11-06",
+  "limits": "Unmatched research reserves, not packet stock; no master rows appended for these contacts.",
+  "results": [
+    {
+      "row": {
+        "company": "Container Source Inc.",
+        "domain": "containersourceinc.com",
+        "email": "office@containersourceinc.com",
+        "hauler_email_source": "https://containersourceinc.com/contact/",
+        "phone": "9798305350",
+        "services_published": "roll-off dumpster rentals; shipping containers",
+        "areas_published": "Magnolia, Tomball, Hempstead, Waller",
+        "fit_source_url": "https://containersourceinc.com/",
+        "notes": "",
+        "email_confidence": "A",
+        "mx_hosts": "0 containersourceinc-com.mail.protection.outlook.com.",
+        "fetched_at": "2026-11-06T13:34:25.891301+00:00",
+        "flags": "",
+        "status": "reserve: no compliant unused site assigned",
+        "batch": "UNASSIGNED",
+        "verification_notes": "Own-site HTTP 200; DNS MX actually checked. MillionVerifier pending; not queued or counted as completed stock. Operating yard, beneficial ownership and current fleet size unverified unless noted."
+      },
+      "evidence": {
+        "company": "Container Source Inc.",
+        "email": "office@containersourceinc.com",
+        "own_page": {
+          "url": "https://containersourceinc.com/contact/",
+          "final_url": "https://containersourceinc.com/contact/",
+          "fetched_at": "2026-11-06T13:34:25.891301+00:00",
+          "status": 200,
+          "sha256": "b165b2bc6a0bc1795dfc746fc51b94d903aca91a4f130499123ea425cebbc0e8",
+          "exact_address_excerpt": " in Touch Give Us a Call or Drop a Message Phone (979) 830-5350 Email office@containersourceinc.com Address 12662 Highway 36 North Brenham, Texas 77833 Need a Price? Use"
+        },
+        "fit_source": {
+          "url": "https://containersourceinc.com/",
+          "final_url": "https://containersourceinc.com/",
+          "fetched_at": "2026-11-06T13:32:33.950351+00:00",
+          "status": 200,
+          "sha256": "991eb12293b20287a96f868b6587fab5e05f753179a8fb24ef6f63e8393dda88",
+          "exact_address_excerpt": "cing and availability \u2014 usually the same business day. (979) 830-5350 office@containersourceinc.com 12662 Highway 36 North, Brenham, TX 77833 Quick Quote Request Don't f"
+        },
+        "public_bundle": null,
+        "dns": {
+          "MX": {
+            "url": "https://dns.google/resolve?name=containersourceinc.com&type=MX",
+            "fetched_at": "2026-11-06T14:22:01.918186+00:00",
+            "status": 200,
+            "response": {
+              "Status": 0,
+              "TC": false,
+              "RD": true,
+              "RA": true,
+              "AD": false,
+              "CD": false,
+              "Question": [
+                {
+                  "name": "containersourceinc.com.",
+                  "type": 15
+                }
+              ],
+              "Answer": [
+                {
+                  "name": "containersourceinc.com.",
+                  "type": 15,
+                  "TTL": 3600,
+                  "data": "0 containersourceinc-com.mail.protection.outlook.com."
+                }
+              ],
+              "Comment": "Response from 173.201.74.17."
+            }
+          },
+          "A": {
+            "url": "https://dns.google/resolve?name=containersourceinc.com&type=A",
+            "fetched_at": "2026-11-06T14:22:02.261018+00:00",
+            "status": 200,
+            "response": {
+              "Status": 0,
+              "TC": false,
+              "RD": true,
+              "RA": true,
+              "AD": false,
+              "CD": false,
+              "Question": [
+                {
+                  "name": "containersourceinc.com.",
+                  "type": 1
+                }
+              ],
+              "Answer": [
+                {
+                  "name": "containersourceinc.com.",
+                  "type": 1,
+                  "TTL": 600,
+                  "data": "75.2.60.5"
+                }
+              ],
+              "Comment": "Response from 97.74.106.17."
+            }
+          }
+        },
+        "status": "reserve: no compliant unused site assigned"
+      }
+    },
+    {
+      "row": {
+        "company": "Tru-Tex Sanitation",
+        "domain": "trutexsanitation.com",
+        "email": "caseyestes1684@icloud.com",
+        "hauler_email_source": "https://trutexsanitation.com/contact/",
+        "phone": "9365489300",
+        "services_published": "20-, 30- and 40-yard roll-off dumpsters",
+        "areas_published": "Baytown, Anahuac, Liberty, Dayton, Mont Belvieu, Cove, Winnie",
+        "fit_source_url": "https://trutexsanitation.com/",
+        "notes": "Published business iCloud inbox, not registry Gmail.",
+        "email_confidence": "A",
+        "mx_hosts": "10 mx01.mail.icloud.com.; 10 mx02.mail.icloud.com.",
+        "fetched_at": "2026-11-06T13:34:28.258213+00:00",
+        "flags": "needs email pass",
+        "status": "reserve: no compliant unused site assigned",
+        "batch": "UNASSIGNED",
+        "verification_notes": "Own-site HTTP 200; DNS MX actually checked. MillionVerifier pending; not queued or counted as completed stock. Operating yard, beneficial ownership and current fleet size unverified unless noted."
+      },
+      "evidence": {
+        "company": "Tru-Tex Sanitation",
+        "email": "caseyestes1684@icloud.com",
+        "own_page": {
+          "url": "https://trutexsanitation.com/contact/",
+          "final_url": "https://trutexsanitation.com/contact/",
+          "fetched_at": "2026-11-06T13:34:28.258213+00:00",
+          "status": 200,
+          "sha256": "1f2d35455f7b42ab8b017fec553f36f3c5a5aed774914eafe460d0cd64e2ed47",
+          "exact_address_excerpt": "name. True to Texas. Contact Office: 936-548-9300 Sales: 936-548-9388 caseyestes1684@icloud.com Mon\u2013Fri, 7am\u20135pm Serving Baytown & SE Texas Services Roll-Off Dumpste"
+        },
+        "fit_source": {
+          "url": "https://trutexsanitation.com/",
+          "final_url": "https://trutexsanitation.com/",
+          "fetched_at": "2026-11-06T13:32:37.045142+00:00",
+          "status": 200,
+          "sha256": "d64ac931ff0b55cb796312b4301453d2c17e32e1eb4d4b95b561df297b9ff850",
+          "exact_address_excerpt": "name. True to Texas. Contact Office: 936-548-9300 Sales: 936-548-9388 caseyestes1684@icloud.com Mon\u2013Fri, 7am\u20135pm Serving Baytown & SE Texas Services Roll-Off Dumpste"
+        },
+        "public_bundle": null,
+        "dns": {
+          "MX": {
+            "url": "https://dns.google/resolve?name=icloud.com&type=MX",
+            "fetched_at": "2026-11-06T14:22:01.919357+00:00",
+            "status": 200,
+            "response": {
+              "Status": 0,
+              "TC": false,
+              "RD": true,
+              "RA": true,
+              "AD": false,
+              "CD": false,
+              "Question": [
+                {
+                  "name": "icloud.com.",
+                  "type": 15
+                }
+              ],
+              "Answer": [
+                {
+                  "name": "icloud.com.",
+                  "type": 15,
+                  "TTL": 1455,
+                  "data": "10 mx01.mail.icloud.com."
+                },
+                {
+                  "name": "icloud.com.",
+                  "type": 15,
+                  "TTL": 1455,
+                  "data": "10 mx02.mail.icloud.com."
+                }
+              ]
+            }
+          },
+          "A": {
+            "url": "https://dns.google/resolve?name=icloud.com&type=A",
+            "fetched_at": "2026-11-06T14:22:02.217695+00:00",
+            "status": 200,
+            "response": {
+              "Status": 0,
+              "TC": false,
+              "RD": true,
+              "RA": true,
+              "AD": false,
+              "CD": false,
+              "Question": [
+                {
+                  "name": "icloud.com.",
+                  "type": 1
+                }
+              ],
+              "Answer": [
+                {
+                  "name": "icloud.com.",
+                  "type": 1,
+                  "TTL": 478,
+                  "data": "17.253.144.10"
+                }
+              ]
+            }
+          }
+        },
+        "status": "reserve: no compliant unused site assigned"
+      }
+    },
+    {
+      "row": {
+        "company": "La Dompe LLC",
+        "domain": "ladompellc.com",
+        "email": "selvin.turcios@ladompellc.com",
+        "hauler_email_source": "https://www.ladompellc.com/contact",
+        "phone": "2812075145",
+        "services_published": "roll-off dumpsters; dumpster trailers; construction debris removal",
+        "areas_published": "North Houston and Humble",
+        "fit_source_url": "https://www.ladompellc.com/",
+        "notes": "North Houston Commerce Park hook held: original authorization issue date not independently verified.",
+        "email_confidence": "A",
+        "mx_hosts": "0 ladompellc-com.mail.protection.outlook.com.",
+        "fetched_at": "2026-11-06T13:46:42.318695+00:00",
+        "flags": "",
+        "status": "reserve: no compliant unused site assigned",
+        "batch": "UNASSIGNED",
+        "verification_notes": "Own-site HTTP 200; DNS MX actually checked. MillionVerifier pending; not queued or counted as completed stock. Operating yard, beneficial ownership and current fleet size unverified unless noted."
+      },
+      "evidence": {
+        "company": "La Dompe LLC",
+        "email": "selvin.turcios@ladompellc.com",
+        "own_page": {
+          "url": "https://www.ladompellc.com/contact",
+          "final_url": "https://www.ladompellc.com/contact",
+          "fetched_at": "2026-11-06T13:46:42.318695+00:00",
+          "status": 200,
+          "sha256": "719976dcbd8ca5abc8745514711d3b76c04b88b4e8b8494c44d3b8f9008ce21d",
+          "exact_address_excerpt": "Holiday Hours Main Phone: (281) 207-5145 Mobile Phone: (281) 207-5145 selvin.turcios@ladompellc.com Payment Methods American Express Apple Pay Cash Check Discover Invoic"
+        },
+        "fit_source": {
+          "url": "https://www.ladompellc.com/",
+          "final_url": "https://www.ladompellc.com/",
+          "fetched_at": "2026-11-06T14:41:40.127000+00:00",
+          "status": 200,
+          "sha256": "f76556a9d01327815ce70aea029ade4ee29528f1d0a5cc468f88538b4d1242fe",
+          "exact_address_excerpt": "Exact contact mailto is in directly fetched own-site public browser component: selvin.turcios@ladompellc.com"
+        },
+        "public_bundle": null,
+        "dns": {
+          "MX": {
+            "url": "https://dns.google/resolve?name=ladompellc.com&type=MX",
+            "fetched_at": "2026-11-06T14:22:01.921846+00:00",
+            "status": 200,
+            "response": {
+              "Status": 0,
+              "TC": false,
+              "RD": true,
+              "RA": true,
+              "AD": false,
+              "CD": false,
+              "Question": [
+                {
+                  "name": "ladompellc.com.",
+                  "type": 15
+                }
+              ],
+              "Answer": [
+                {
+                  "name": "ladompellc.com.",
+                  "type": 15,
+                  "TTL": 3600,
+                  "data": "0 ladompellc-com.mail.protection.outlook.com."
+                }
+              ],
+              "Comment": "Response from 97.74.101.42."
+            }
+          },
+          "A": {
+            "url": "https://dns.google/resolve?name=ladompellc.com&type=A",
+            "fetched_at": "2026-11-06T14:22:02.257979+00:00",
+            "status": 200,
+            "response": {
+              "Status": 0,
+              "TC": false,
+              "RD": true,
+              "RA": true,
+              "AD": false,
+              "CD": false,
+              "Question": [
+                {
+                  "name": "ladompellc.com.",
+                  "type": 1
+                }
+              ],
+              "Answer": [
+                {
+                  "name": "ladompellc.com.",
+                  "type": 1,
+                  "TTL": 600,
+                  "data": "199.180.140.11"
+                },
+                {
+                  "name": "ladompellc.com.",
+                  "type": 1,
+                  "TTL": 600,
+                  "data": "199.180.140.12"
+                }
+              ],
+              "Comment": "Response from 97.74.101.42."
+            }
+          }
+        },
+        "status": "reserve: no compliant unused site assigned"
+      }
+    },
+    {
+      "row": {
+        "company": "HAT Services LLC",
+        "domain": "hatservicesllc.com",
+        "email": "orders@hatservicesllc.com",
+        "hauler_email_source": "https://hatservicesllc.com/",
+        "phone": "8327760112",
+        "services_published": "portable restrooms; handwash stations; restroom trailers; tanks",
+        "areas_published": "Greater Houston; Huffman base",
+        "fit_source_url": "https://hatservicesllc.com/",
+        "notes": "Direct retry succeeded, HTTP 200. No proxy reader needed.",
+        "email_confidence": "A",
+        "mx_hosts": "5 alt1.aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 1 smtp.google.com.; 10 alt3.aspmx.l.google.com.; 50 hatservicesllc-com.mail.protection.outlook.com.; 10 alt4.aspmx.l.google.com.",
+        "fetched_at": "2026-11-06T14:41:12.864935+00:00",
+        "flags": "",
+        "status": "reserve: no compliant unused site assigned",
+        "batch": "UNASSIGNED",
+        "verification_notes": "Own-site HTTP 200; DNS MX actually checked. MillionVerifier pending; not queued or counted as completed stock. Operating yard, beneficial ownership and current fleet size unverified unless noted."
+      },
+      "evidence": {
+        "company": "HAT Services LLC",
+        "email": "orders@hatservicesllc.com",
+        "own_page": {
+          "url": "https://hatservicesllc.com/",
+          "final_url": "https://hatservicesllc.com/",
+          "fetched_at": "2026-11-06T14:41:12.864935+00:00",
+          "status": 200,
+          "sha256": "592471322a04519128dd14b4f614fd6434e02d72e2fa1e37f509b243dcde2a65",
+          "exact_address_excerpt": "LC 12421 Farm to Market 1960 Road East, Huffman, TX, USA 832-776-0112 orders@hatservicesllc.com Hours of Operation Open 24 hours 7 days a week Get directions Privacy"
+        },
+        "fit_source": {
+          "url": "https://hatservicesllc.com/",
+          "final_url": "https://hatservicesllc.com/",
+          "fetched_at": "2026-11-06T14:41:12.864935+00:00",
+          "status": 200,
+          "sha256": "592471322a04519128dd14b4f614fd6434e02d72e2fa1e37f509b243dcde2a65",
+          "exact_address_excerpt": "LC 12421 Farm to Market 1960 Road East, Huffman, TX, USA 832-776-0112 orders@hatservicesllc.com Hours of Operation Open 24 hours 7 days a week Get directions Privacy"
+        },
+        "public_bundle": null,
+        "dns": {
+          "MX": {
+            "url": "https://dns.google/resolve?name=hatservicesllc.com&type=MX",
+            "fetched_at": "2026-11-06T14:52:52.712389+00:00",
+            "status": 200,
+            "response": {
+              "Status": 0,
+              "TC": false,
+              "RD": true,
+              "RA": true,
+              "AD": false,
+              "CD": false,
+              "Question": [
+                {
+                  "name": "hatservicesllc.com.",
+                  "type": 15
+                }
+              ],
+              "Answer": [
+                {
+                  "name": "hatservicesllc.com.",
+                  "type": 15,
+                  "TTL": 3600,
+                  "data": "5 alt1.aspmx.l.google.com."
+                },
+                {
+                  "name": "hatservicesllc.com.",
+                  "type": 15,
+                  "TTL": 3600,
+                  "data": "5 alt2.aspmx.l.google.com."
+                },
+                {
+                  "name": "hatservicesllc.com.",
+                  "type": 15,
+                  "TTL": 3600,
+                  "data": "1 smtp.google.com."
+                },
+                {
+                  "name": "hatservicesllc.com.",
+                  "type": 15,
+                  "TTL": 3600,
+                  "data": "10 alt3.aspmx.l.google.com."
+                },
+                {
+                  "name": "hatservicesllc.com.",
+                  "type": 15,
+                  "TTL": 3600,
+                  "data": "50 hatservicesllc-com.mail.protection.outlook.com."
+                },
+                {
+                  "name": "hatservicesllc.com.",
+                  "type": 15,
+                  "TTL": 3600,
+                  "data": "10 alt4.aspmx.l.google.com."
+                }
+              ],
+              "Comment": "Response from 97.74.101.12."
+            }
+          },
+          "A": {
+            "url": "https://dns.google/resolve?name=hatservicesllc.com&type=A",
+            "fetched_at": "2026-11-06T14:52:52.987573+00:00",
+            "status": 200,
+            "response": {
+              "Status": 0,
+              "TC": false,
+              "RD": true,
+              "RA": true,
+              "AD": false,
+              "CD": false,
+              "Question": [
+                {
+                  "name": "hatservicesllc.com.",
+                  "type": 1
+                }
+              ],
+              "Answer": [
+                {
+                  "name": "hatservicesllc.com.",
+                  "type": 1,
+                  "TTL": 3600,
+                  "data": "76.223.105.230"
+                },
+                {
+                  "name": "hatservicesllc.com.",
+                  "type": 1,
+                  "TTL": 3600,
+                  "data": "13.248.243.5"
+                }
+              ],
+              "Comment": "Response from 173.201.69.12."
+            }
+          }
+        },
+        "status": "reserve: no compliant unused site assigned"
+      }
+    },
+    {
+      "row": {
+        "company": "Honey Bee Septic LLC",
+        "domain": "honeybeesepticpumping.com",
+        "email": "office@hbseptic.com",
+        "hauler_email_source": "https://www.honeybeesepticpumping.com/",
+        "phone": "9369319778",
+        "services_published": "porta-can rentals; ADA units; handwashing units; weekly construction servicing",
+        "areas_published": "Waller County and published 150-mile radius",
+        "fit_source_url": "https://www.honeybeesepticpumping.com/",
+        "notes": "Own site publishes a different business email domain; publication is direct. No operating yard separately verified.",
+        "email_confidence": "A",
+        "mx_hosts": "1 smtp.google.com.",
+        "fetched_at": "2026-11-06T14:41:12.166124+00:00",
+        "flags": "",
+        "status": "reserve: no compliant unused site assigned",
+        "batch": "UNASSIGNED",
+        "verification_notes": "Own-site HTTP 200; DNS MX actually checked. MillionVerifier pending; not queued or counted as completed stock. Operating yard, beneficial ownership and current fleet size unverified unless noted."
+      },
+      "evidence": {
+        "company": "Honey Bee Septic LLC",
+        "email": "office@hbseptic.com",
+        "own_page": {
+          "url": "https://www.honeybeesepticpumping.com/",
+          "final_url": "https://www.honeybeesepticpumping.com/",
+          "fetched_at": "2026-11-06T14:41:12.166124+00:00",
+          "status": 200,
+          "sha256": "8497c7e5c8b33b123572831efb0ead32ebbaa2b80fd713e5625b57e1ac153486",
+          "exact_address_excerpt": " 77445 Call Us: (936) 931-9778 Emergency Phone: (281)-924-6357 Email: office@hbseptic.com Hours Mon - Fri 8:00 am - 5:00 pm Sat - Sun Closed Lunch Break from 1"
+        },
+        "fit_source": {
+          "url": "https://www.honeybeesepticpumping.com/",
+          "final_url": "https://www.honeybeesepticpumping.com/",
+          "fetched_at": "2026-11-06T14:41:12.166124+00:00",
+          "status": 200,
+          "sha256": "8497c7e5c8b33b123572831efb0ead32ebbaa2b80fd713e5625b57e1ac153486",
+          "exact_address_excerpt": " 77445 Call Us: (936) 931-9778 Emergency Phone: (281)-924-6357 Email: office@hbseptic.com Hours Mon - Fri 8:00 am - 5:00 pm Sat - Sun Closed Lunch Break from 1"
+        },
+        "public_bundle": null,
+        "dns": {
+          "MX": {
+            "url": "https://dns.google/resolve?name=hbseptic.com&type=MX",
+            "fetched_at": "2026-11-06T14:52:52.707340+00:00",
+            "status": 200,
+            "response": {
+              "Status": 0,
+              "TC": false,
+              "RD": true,
+              "RA": true,
+              "AD": false,
+              "CD": false,
+              "Question": [
+                {
+                  "name": "hbseptic.com.",
+                  "type": 15
+                }
+              ],
+              "Answer": [
+                {
+                  "name": "hbseptic.com.",
+                  "type": 15,
+                  "TTL": 14400,
+                  "data": "1 smtp.google.com."
+                }
+              ],
+              "Comment": "Response from 216.239.38.106."
+            }
+          },
+          "A": {
+            "url": "https://dns.google/resolve?name=hbseptic.com&type=A",
+            "fetched_at": "2026-11-06T14:52:53.006409+00:00",
+            "status": 200,
+            "response": {
+              "Status": 0,
+              "TC": false,
+              "RD": true,
+              "RA": true,
+              "AD": false,
+              "CD": false,
+              "Question": [
+                {
+                  "name": "hbseptic.com.",
+                  "type": 1
+                }
+              ],
+              "Answer": [
+                {
+                  "name": "hbseptic.com.",
+                  "type": 1,
+                  "TTL": 14400,
+                  "data": "198.185.159.144"
+                }
+              ],
+              "Comment": "Response from 216.239.34.106."
+            }
+          }
+        },
+        "status": "reserve: no compliant unused site assigned"
+      }
+    },
+    {
+      "row": {
+        "company": "Arcann Waste",
+        "domain": "arcannwaste.com",
+        "email": "info@arcannwaste.com",
+        "hauler_email_source": "https://arcannwaste.com/construction-dumpster-rental/",
+        "phone": "7133672293",
+        "services_published": "20-, 30- and 40-yard roll-off dumpsters; contractor and commercial rentals",
+        "areas_published": "Houston",
+        "fit_source_url": "https://arcannwaste.com/commercial-dumpster-rental/",
+        "notes": "ARCANN COMPANIES LLC carrier record has matching former website/email domain arcannco.com, 8 power units. Root page contains suspicious unrelated news text; service page fetch is direct, but site hygiene needs review.",
+        "email_confidence": "A",
+        "mx_hosts": "",
+        "fetched_at": "2026-11-06T14:38:59.261641+00:00",
+        "flags": "",
+        "status": "hold: no MX",
+        "batch": "UNASSIGNED",
+        "verification_notes": "Own-site HTTP 200; DNS MX actually checked. MillionVerifier pending; not queued or counted as completed stock. Operating yard, beneficial ownership and current fleet size unverified unless noted."
+      },
+      "evidence": {
+        "company": "Arcann Waste",
+        "email": "info@arcannwaste.com",
+        "own_page": {
+          "url": "https://arcannwaste.com/construction-dumpster-rental/",
+          "final_url": "https://arcannwaste.com/construction-dumpster-rental/",
+          "fetched_at": "2026-11-06T14:38:59.261641+00:00",
+          "status": 200,
+          "sha256": "343484e2142d55b91e19418b08fdcfd9fc0850ea3835f23346ec2129ad9c8b5b",
+          "exact_address_excerpt": "tainers of various sizes. Contact us at (713) 367-2293 or email us at info@arcannwaste.com . We\u2019re just a call away and ready to help! CALL US (713) 367-2293 EM"
+        },
+        "fit_source": {
+          "url": "https://arcannwaste.com/commercial-dumpster-rental/",
+          "final_url": "https://arcannwaste.com/commercial-dumpster-rental/",
+          "fetched_at": "2026-11-06T14:39:00.546779+00:00",
+          "status": 200,
+          "sha256": "22d18fa6248a4dc0e0969bff14f1447779d985b5410d7c92e16787425517b605",
+          "exact_address_excerpt": "tainers of various sizes. Contact us at (713) 367-2293 or email us at info@arcannwaste.com . We\u2019re just a call away and ready to help! CALL US (713) 367-2293 EM"
+        },
+        "public_bundle": null,
+        "dns": {
+          "MX": {
+            "url": "https://dns.google/resolve?name=arcannwaste.com&type=MX",
+            "fetched_at": "2026-11-06T14:52:52.724887+00:00",
+            "status": 200,
+            "response": {
+              "Status": 0,
+              "TC": false,
+              "RD": true,
+              "RA": true,
+              "AD": false,
+              "CD": false,
+              "Question": [
+                {
+                  "name": "arcannwaste.com.",
+                  "type": 15
+                }
+              ],
+              "Authority": [
+                {
+                  "name": "arcannwaste.com.",
+                  "type": 6,
+                  "TTL": 900,
+                  "data": "ns-1036.awsdns-01.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                }
+              ],
+              "Comment": "Response from 205.251.196.12."
+            }
+          },
+          "A": {
+            "url": "https://dns.google/resolve?name=arcannwaste.com&type=A",
+            "fetched_at": "2026-11-06T14:52:52.994822+00:00",
+            "status": 200,
+            "response": {
+              "Status": 0,
+              "TC": false,
+              "RD": true,
+              "RA": true,
+              "AD": false,
+              "CD": false,
+              "Question": [
+                {
+                  "name": "arcannwaste.com.",
+                  "type": 1
+                }
+              ],
+              "Answer": [
+                {
+                  "name": "arcannwaste.com.",
+                  "type": 1,
+                  "TTL": 60,
+                  "data": "167.99.118.197"
+                }
+              ],
+              "Comment": "Response from 205.251.198.163."
+            }
+          }
+        },
+        "status": "hold: no MX"
+      }
+    },
+    {
+      "row": {
+        "company": "Ace Waste",
+        "domain": "acewastetx.com",
+        "email": "dispatch@acewastetx.com",
+        "hauler_email_source": "https://acewastetx.com/",
+        "phone": "2819088869",
+        "services_published": "15-, 20-, 30- and 40-yard roll-off containers; construction and demolition debris",
+        "areas_published": "Houston and surrounding cities",
+        "fit_source_url": "https://acewastetx.com/",
+        "notes": "",
+        "email_confidence": "A",
+        "mx_hosts": "0 acewastetx-com.mail.protection.outlook.com.",
+        "fetched_at": "2026-11-06T13:59:55.647116+00:00",
+        "flags": "",
+        "status": "reserve: no compliant unused site assigned",
+        "batch": "UNASSIGNED",
+        "verification_notes": "Own-site HTTP 200; DNS MX actually checked. MillionVerifier pending; not queued or counted as completed stock. Operating yard, beneficial ownership and current fleet size unverified unless noted."
+      },
+      "evidence": {
+        "company": "Ace Waste",
+        "email": "dispatch@acewastetx.com",
+        "own_page": {
+          "url": "https://acewastetx.com/",
+          "final_url": "https://acewastetx.com/",
+          "fetched_at": "2026-11-06T13:59:55.647116+00:00",
+          "status": 200,
+          "sha256": "e8649f08304c5d75789a62b2b9e85e7a0fa92be19b259c1a1b0056a0ec25d4f8",
+          "exact_address_excerpt": "o serving you! Ace Waste Houston, Texas, United States (281)-908-8869 Dispatch@acewastetx.com Hours Monday -Friday: 6AM\u20136PM Saturday: 8AM-4PM Sunday: Closed Copyri"
+        },
+        "fit_source": {
+          "url": "https://acewastetx.com/",
+          "final_url": "https://acewastetx.com/",
+          "fetched_at": "2026-11-06T13:59:55.647116+00:00",
+          "status": 200,
+          "sha256": "e8649f08304c5d75789a62b2b9e85e7a0fa92be19b259c1a1b0056a0ec25d4f8",
+          "exact_address_excerpt": "o serving you! Ace Waste Houston, Texas, United States (281)-908-8869 Dispatch@acewastetx.com Hours Monday -Friday: 6AM\u20136PM Saturday: 8AM-4PM Sunday: Closed Copyri"
+        },
+        "public_bundle": null,
+        "dns": {
+          "MX": {
+            "url": "https://dns.google/resolve?name=acewastetx.com&type=MX",
+            "fetched_at": "2026-11-06T14:52:52.737217+00:00",
+            "status": 200,
+            "response": {
+              "Status": 0,
+              "TC": false,
+              "RD": true,
+              "RA": true,
+              "AD": false,
+              "CD": false,
+              "Question": [
+                {
+                  "name": "acewastetx.com.",
+                  "type": 15
+                }
+              ],
+              "Answer": [
+                {
+                  "name": "acewastetx.com.",
+                  "type": 15,
+                  "TTL": 3600,
+                  "data": "0 acewastetx-com.mail.protection.outlook.com."
+                }
+              ],
+              "Comment": "Response from 97.74.107.28."
+            }
+          },
+          "A": {
+            "url": "https://dns.google/resolve?name=acewastetx.com&type=A",
+            "fetched_at": "2026-11-06T14:52:53.028251+00:00",
+            "status": 200,
+            "response": {
+              "Status": 0,
+              "TC": false,
+              "RD": true,
+              "RA": true,
+              "AD": false,
+              "CD": false,
+              "Question": [
+                {
+                  "name": "acewastetx.com.",
+                  "type": 1
+                }
+              ],
+              "Answer": [
+                {
+                  "name": "acewastetx.com.",
+                  "type": 1,
+                  "TTL": 3600,
+                  "data": "76.223.105.230"
+                },
+                {
+                  "name": "acewastetx.com.",
+                  "type": 1,
+                  "TTL": 3600,
+                  "data": "13.248.243.5"
+                }
+              ],
+              "Comment": "Response from 97.74.107.28."
+            }
+          }
+        },
+        "status": "reserve: no compliant unused site assigned"
+      }
+    },
+    {
+      "row": {
+        "company": "Trailer Ready Rentals LLC",
+        "domain": "trailerreadyrentals.com",
+        "email": "trailerreadyrentals@gmail.com",
+        "hauler_email_source": "https://trailerreadyrentals.com/",
+        "phone": "9369002468",
+        "services_published": "restroom trailers; construction sites; corporate temporary facilities",
+        "areas_published": "Houston; Willis business reference",
+        "fit_source_url": "https://trailerreadyrentals.com/",
+        "notes": "Published business Gmail, needs email pass. Listed Willis address is not verified as a yard.",
+        "email_confidence": "A",
+        "mx_hosts": "20 alt2.gmail-smtp-in.l.google.com.; 5 gmail-smtp-in.l.google.com.; 30 alt3.gmail-smtp-in.l.google.com.; 40 alt4.gmail-smtp-in.l.google.com.; 10 alt1.gmail-smtp-in.l.google.com.",
+        "fetched_at": "2026-11-06T13:58:36.972693+00:00",
+        "flags": "needs email pass",
+        "status": "reserve: no compliant unused site assigned",
+        "batch": "UNASSIGNED",
+        "verification_notes": "Own-site HTTP 200; DNS MX actually checked. MillionVerifier pending; not queued or counted as completed stock. Operating yard, beneficial ownership and current fleet size unverified unless noted."
+      },
+      "evidence": {
+        "company": "Trailer Ready Rentals LLC",
+        "email": "trailerreadyrentals@gmail.com",
+        "own_page": {
+          "url": "https://trailerreadyrentals.com/",
+          "final_url": "https://www.trailerreadyrentals.com/",
+          "fetched_at": "2026-11-06T13:58:36.972693+00:00",
+          "status": 200,
+          "sha256": "528537c81f3799d86df62d82f2c72ff4af1dd4ef91aa4b8b85daaad675157e41",
+          "exact_address_excerpt": "Home About Solutions Contact SOCIAL TikTok Facebook Instagram CONTACT trailerreadyrentals@gmail.com 936-900-2468 10795 Longstreet Rd, Willis, TX 77318 POLICY Terms & Con"
+        },
+        "fit_source": {
+          "url": "https://trailerreadyrentals.com/",
+          "final_url": "https://www.trailerreadyrentals.com/",
+          "fetched_at": "2026-11-06T13:58:36.972693+00:00",
+          "status": 200,
+          "sha256": "528537c81f3799d86df62d82f2c72ff4af1dd4ef91aa4b8b85daaad675157e41",
+          "exact_address_excerpt": "Home About Solutions Contact SOCIAL TikTok Facebook Instagram CONTACT trailerreadyrentals@gmail.com 936-900-2468 10795 Longstreet Rd, Willis, TX 77318 POLICY Terms & Con"
+        },
+        "public_bundle": null,
+        "dns": {
+          "MX": {
+            "url": "https://dns.google/resolve?name=gmail.com&type=MX",
+            "fetched_at": "2026-11-06T14:22:02.392809+00:00",
+            "status": 200,
+            "response": {
+              "Status": 0,
+              "TC": false,
+              "RD": true,
+              "RA": true,
+              "AD": false,
+              "CD": false,
+              "Question": [
+                {
+                  "name": "gmail.com.",
+                  "type": 15
+                }
+              ],
+              "Answer": [
+                {
+                  "name": "gmail.com.",
+                  "type": 15,
+                  "TTL": 1309,
+                  "data": "20 alt2.gmail-smtp-in.l.google.com."
+                },
+                {
+                  "name": "gmail.com.",
+                  "type": 15,
+                  "TTL": 1309,
+                  "data": "5 gmail-smtp-in.l.google.com."
+                },
+                {
+                  "name": "gmail.com.",
+                  "type": 15,
+                  "TTL": 1309,
+                  "data": "30 alt3.gmail-smtp-in.l.google.com."
+                },
+                {
+                  "name": "gmail.com.",
+                  "type": 15,
+                  "TTL": 1309,
+                  "data": "40 alt4.gmail-smtp-in.l.google.com."
+                },
+                {
+                  "name": "gmail.com.",
+                  "type": 15,
+                  "TTL": 1309,
+                  "data": "10 alt1.gmail-smtp-in.l.google.com."
+                }
+              ]
+            }
+          },
+          "A": {
+            "url": "https://dns.google/resolve?name=gmail.com&type=A",
+            "fetched_at": "2026-11-06T14:22:02.482874+00:00",
+            "status": 200,
+            "response": {
+              "Status": 0,
+              "TC": false,
+              "RD": true,
+              "RA": true,
+              "AD": false,
+              "CD": false,
+              "Question": [
+                {
+                  "name": "gmail.com.",
+                  "type": 1
+                }
+              ],
+              "Answer": [
+                {
+                  "name": "gmail.com.",
+                  "type": 1,
+                  "TTL": 300,
+                  "data": "142.251.218.101"
+                }
+              ],
+              "Comment": "Response from 216.239.32.10."
+            }
+          }
+        },
+        "status": "reserve: no compliant unused site assigned"
+      }
+    },
+    {
+      "row": {
+        "company": "K&K Dumpster Rentals",
+        "domain": "kkdumpsters.com",
+        "email": "002kevinrodriguez@gmail.com",
+        "hauler_email_source": "https://www.kkdumpsters.com/",
+        "phone": "8329839807",
+        "services_published": "10-, 15-, 20-, 25-, 30- and 40-yard dumpster rentals; commercial and construction",
+        "areas_published": "Houston and surrounding areas",
+        "fit_source_url": "https://kkdumpsters.com/assets/index-CY3VgYio.js",
+        "notes": "Contact/footer email is in the own-site public browser bundle, HTTP 200, linked by the directly fetched homepage. No reader/proxy used. Business Gmail, needs email pass.",
+        "email_confidence": "A",
+        "mx_hosts": "20 alt2.gmail-smtp-in.l.google.com.; 5 gmail-smtp-in.l.google.com.; 30 alt3.gmail-smtp-in.l.google.com.; 40 alt4.gmail-smtp-in.l.google.com.; 10 alt1.gmail-smtp-in.l.google.com.",
+        "fetched_at": "2026-11-06T14:00:52.041873+00:00",
+        "flags": "needs email pass",
+        "status": "reserve: no compliant unused site assigned",
+        "batch": "UNASSIGNED",
+        "verification_notes": "Own-site HTTP 200; DNS MX actually checked. MillionVerifier pending; not queued or counted as completed stock. Operating yard, beneficial ownership and current fleet size unverified unless noted."
+      },
+      "evidence": {
+        "company": "K&K Dumpster Rentals",
+        "email": "002kevinrodriguez@gmail.com",
+        "own_page": {
+          "url": "https://www.kkdumpsters.com/",
+          "final_url": "https://kkdumpsters.com/",
+          "fetched_at": "2026-11-06T14:00:52.041873+00:00",
+          "status": 200,
+          "sha256": "36f42e1b60a8ccfb9efe549a8ea6f5aa63146216639d658a4fedfe7c4144cd5d",
+          "exact_address_excerpt": "Exact contact mailto is in directly fetched own-site public browser component: 002kevinrodriguez@gmail.com"
+        },
+        "fit_source": {
+          "url": "https://kkdumpsters.com/assets/index-CY3VgYio.js",
+          "final_url": "https://kkdumpsters.com/assets/index-CY3VgYio.js",
+          "fetched_at": "2026-11-06T14:07:13.058189+00:00",
+          "status": 200,
+          "sha256": "ad4bb81d0aa99e4e5d75c5850798b0cfdb190ce6ea699e77d95501756d4c98d1",
+          "exact_address_excerpt": "r Rentals\",phone:\"(832) 983-9807\",phoneHref:\"tel:+18329839807\",email:\"002kevinrodriguez@gmail.com\",tagline:\"Serves Houston, TX & Surrounding Communities\"},Hl=[{label:\""
+        },
+        "public_bundle": {
+          "url": "https://kkdumpsters.com/assets/index-CY3VgYio.js",
+          "final_url": "https://kkdumpsters.com/assets/index-CY3VgYio.js",
+          "fetched_at": "2026-11-06T14:07:13.058189+00:00",
+          "status": 200,
+          "sha256": "ad4bb81d0aa99e4e5d75c5850798b0cfdb190ce6ea699e77d95501756d4c98d1",
+          "exact_address_excerpt": "r Rentals\",phone:\"(832) 983-9807\",phoneHref:\"tel:+18329839807\",email:\"002kevinrodriguez@gmail.com\",tagline:\"Serves Houston, TX & Surrounding Communities\"},Hl=[{label:\""
+        },
+        "dns": {
+          "MX": {
+            "url": "https://dns.google/resolve?name=gmail.com&type=MX",
+            "fetched_at": "2026-11-06T14:22:02.392809+00:00",
+            "status": 200,
+            "response": {
+              "Status": 0,
+              "TC": false,
+              "RD": true,
+              "RA": true,
+              "AD": false,
+              "CD": false,
+              "Question": [
+                {
+                  "name": "gmail.com.",
+                  "type": 15
+                }
+              ],
+              "Answer": [
+                {
+                  "name": "gmail.com.",
+                  "type": 15,
+                  "TTL": 1309,
+                  "data": "20 alt2.gmail-smtp-in.l.google.com."
+                },
+                {
+                  "name": "gmail.com.",
+                  "type": 15,
+                  "TTL": 1309,
+                  "data": "5 gmail-smtp-in.l.google.com."
+                },
+                {
+                  "name": "gmail.com.",
+                  "type": 15,
+                  "TTL": 1309,
+                  "data": "30 alt3.gmail-smtp-in.l.google.com."
+                },
+                {
+                  "name": "gmail.com.",
+                  "type": 15,
+                  "TTL": 1309,
+                  "data": "40 alt4.gmail-smtp-in.l.google.com."
+                },
+                {
+                  "name": "gmail.com.",
+                  "type": 15,
+                  "TTL": 1309,
+                  "data": "10 alt1.gmail-smtp-in.l.google.com."
+                }
+              ]
+            }
+          },
+          "A": {
+            "url": "https://dns.google/resolve?name=gmail.com&type=A",
+            "fetched_at": "2026-11-06T14:22:02.482874+00:00",
+            "status": 200,
+            "response": {
+              "Status": 0,
+              "TC": false,
+              "RD": true,
+              "RA": true,
+              "AD": false,
+              "CD": false,
+              "Question": [
+                {
+                  "name": "gmail.com.",
+                  "type": 1
+                }
+              ],
+              "Answer": [
+                {
+                  "name": "gmail.com.",
+                  "type": 1,
+                  "TTL": 300,
+                  "data": "142.251.218.101"
+                }
+              ],
+              "Comment": "Response from 216.239.32.10."
+            }
+          }
+        },
+        "status": "reserve: no compliant unused site assigned"
+      }
+    },
+    {
+      "row": {
+        "company": "Texas Lux Restroom Trailers",
+        "domain": "texasluxrestrooms.com",
+        "email": "contact@texasluxrestroomtrailers.com",
+        "hauler_email_source": "https://texasluxrestrooms.com/contact/",
+        "phone": "8325095385",
+        "services_published": "restroom trailers; industrial turnarounds; construction and emergency rentals",
+        "areas_published": "Houston and Gulf Coast",
+        "fit_source_url": "https://texasluxrestrooms.com/assets/index-B4R83kfi.js",
+        "notes": "Exact email appears in page JSON-LD and in the rendered contact component of its directly fetched own public browser bundle. Different published email and website domains.",
+        "email_confidence": "A",
+        "mx_hosts": "1 aspmx.l.google.com.; 5 alt2.aspmx.l.google.com.; 10 alt3.aspmx.l.google.com.; 10 alt4.aspmx.l.google.com.; 5 alt1.aspmx.l.google.com.",
+        "fetched_at": "2026-11-06T13:40:49.224729+00:00",
+        "flags": "",
+        "status": "reserve: no compliant unused site assigned",
+        "batch": "UNASSIGNED",
+        "verification_notes": "Own-site HTTP 200; DNS MX actually checked. MillionVerifier pending; not queued or counted as completed stock. Operating yard, beneficial ownership and current fleet size unverified unless noted."
+      },
+      "evidence": {
+        "company": "Texas Lux Restroom Trailers",
+        "email": "contact@texasluxrestroomtrailers.com",
+        "own_page": {
+          "url": "https://texasluxrestrooms.com/contact/",
+          "final_url": "https://texasluxrestrooms.com/contact/",
+          "fetched_at": "2026-11-06T13:40:49.224729+00:00",
+          "status": 200,
+          "sha256": "89813512e7cd0458edbc7d30e05a5143f92947b303dbe944510c2f55f8eba8e7",
+          "exact_address_excerpt": "Exact contact mailto is in directly fetched own-site public browser component: contact@texasluxrestroomtrailers.com"
+        },
+        "fit_source": {
+          "url": "https://texasluxrestrooms.com/assets/index-B4R83kfi.js",
+          "final_url": "https://texasluxrestrooms.com/assets/index-B4R83kfi.js",
+          "fetched_at": "2026-11-06T14:49:44.796950+00:00",
+          "status": 200,
+          "sha256": "4939a7cd04f5e302c95c76be1008857e02eb902cdc62f22fd452fdfdc28b3d06",
+          "exact_address_excerpt": "-2\",children:[l.jsx(Cw,{className:\"w-4 h-4\"}),l.jsx(\"a\",{href:\"mailto:contact@texasluxrestroomtrailers.com\",className:\"hover:underline underline-offset-2\",children:\"contact@tex"
+        },
+        "public_bundle": {
+          "url": "https://texasluxrestrooms.com/assets/index-B4R83kfi.js",
+          "final_url": "https://texasluxrestrooms.com/assets/index-B4R83kfi.js",
+          "fetched_at": "2026-11-06T14:49:44.796950+00:00",
+          "status": 200,
+          "sha256": "4939a7cd04f5e302c95c76be1008857e02eb902cdc62f22fd452fdfdc28b3d06",
+          "exact_address_excerpt": "-2\",children:[l.jsx(Cw,{className:\"w-4 h-4\"}),l.jsx(\"a\",{href:\"mailto:contact@texasluxrestroomtrailers.com\",className:\"hover:underline underline-offset-2\",children:\"contact@tex"
+        },
+        "dns": {
+          "MX": {
+            "url": "https://dns.google/resolve?name=texasluxrestroomtrailers.com&type=MX",
+            "fetched_at": "2026-11-06T14:22:02.520024+00:00",
+            "status": 200,
+            "response": {
+              "Status": 0,
+              "TC": false,
+              "RD": true,
+              "RA": true,
+              "AD": false,
+              "CD": false,
+              "Question": [
+                {
+                  "name": "texasluxrestroomtrailers.com.",
+                  "type": 15
+                }
+              ],
+              "Answer": [
+                {
+                  "name": "texasluxrestroomtrailers.com.",
+                  "type": 15,
+                  "TTL": 14400,
+                  "data": "1 aspmx.l.google.com."
+                },
+                {
+                  "name": "texasluxrestroomtrailers.com.",
+                  "type": 15,
+                  "TTL": 14400,
+                  "data": "5 alt2.aspmx.l.google.com."
+                },
+                {
+                  "name": "texasluxrestroomtrailers.com.",
+                  "type": 15,
+                  "TTL": 14400,
+                  "data": "10 alt3.aspmx.l.google.com."
+                },
+                {
+                  "name": "texasluxrestroomtrailers.com.",
+                  "type": 15,
+                  "TTL": 14400,
+                  "data": "10 alt4.aspmx.l.google.com."
+                },
+                {
+                  "name": "texasluxrestroomtrailers.com.",
+                  "type": 15,
+                  "TTL": 14400,
+                  "data": "5 alt1.aspmx.l.google.com."
+                }
+              ],
+              "Comment": "Response from 216.239.38.108."
+            }
+          },
+          "A": {
+            "url": "https://dns.google/resolve?name=texasluxrestroomtrailers.com&type=A",
+            "fetched_at": "2026-11-06T14:22:02.635065+00:00",
+            "status": 200,
+            "response": {
+              "Status": 0,
+              "TC": false,
+              "RD": true,
+              "RA": true,
+              "AD": false,
+              "CD": false,
+              "Question": [
+                {
+                  "name": "texasluxrestroomtrailers.com.",
+                  "type": 1
+                }
+              ],
+              "Answer": [
+                {
+                  "name": "texasluxrestroomtrailers.com.",
+                  "type": 1,
+                  "TTL": 14400,
+                  "data": "198.185.159.144"
+                },
+                {
+                  "name": "texasluxrestroomtrailers.com.",
+                  "type": 1,
+                  "TTL": 14400,
+                  "data": "198.49.23.144"
+                },
+                {
+                  "name": "texasluxrestroomtrailers.com.",
+                  "type": 1,
+                  "TTL": 14400,
+                  "data": "198.49.23.145"
+                },
+                {
+                  "name": "texasluxrestroomtrailers.com.",
+                  "type": 1,
+                  "TTL": 14400,
+                  "data": "198.185.159.145"
+                }
+              ],
+              "Comment": "Response from 216.239.38.108."
+            }
+          }
+        },
+        "status": "reserve: no compliant unused site assigned"
+      }
+    },
+    {
+      "row": {
+        "company": "Mid-Tex Environmental Services LLC",
+        "domain": "midtexenvironmental.com",
+        "email": "midtexenvironmental@gmail.com",
+        "hauler_email_source": "https://midtexenvironmental.com/contact-us/",
+        "phone": "8326228188",
+        "services_published": "roll-off dumpsters; front-load dumpsters; commercial and industrial disposal",
+        "areas_published": "Tomball, Houston, Cypress, Magnolia, Montgomery, Waller, Prairie View, Hempstead, Spring, The Woodlands",
+        "fit_source_url": "https://midtexenvironmental.com/roll-off-dumpsters/",
+        "notes": "Exact FMCSA legal name and phone match, USDOT 2465078, 5 filed power units. Published business Gmail, needs email pass.",
+        "email_confidence": "A",
+        "mx_hosts": "20 alt2.gmail-smtp-in.l.google.com.; 5 gmail-smtp-in.l.google.com.; 30 alt3.gmail-smtp-in.l.google.com.; 40 alt4.gmail-smtp-in.l.google.com.; 10 alt1.gmail-smtp-in.l.google.com.",
+        "fetched_at": "2026-11-06T14:45:08.398111+00:00",
+        "flags": "needs email pass",
+        "status": "reserve: no compliant unused site assigned",
+        "batch": "UNASSIGNED",
+        "verification_notes": "Own-site HTTP 200; DNS MX actually checked. MillionVerifier pending; not queued or counted as completed stock. Operating yard, beneficial ownership and current fleet size unverified unless noted."
+      },
+      "evidence": {
+        "company": "Mid-Tex Environmental Services LLC",
+        "email": "midtexenvironmental@gmail.com",
+        "own_page": {
+          "url": "https://midtexenvironmental.com/contact-us/",
+          "final_url": "https://midtexenvironmental.com/contact-us/",
+          "fetched_at": "2026-11-06T14:45:08.398111+00:00",
+          "status": 200,
+          "sha256": "66232dd6ebd192f6c199ca8ea671cc7beb9c606f60cd271646444624a7507821",
+          "exact_address_excerpt": "ial waste management services now! Phone (832) 622-8188 Email Address midtexenvironmental@gmail.com Opening Hours Monday \u2013 Friday: 7am \u2013 5pm Address 10010 Kleppel Rd, To"
+        },
+        "fit_source": {
+          "url": "https://midtexenvironmental.com/roll-off-dumpsters/",
+          "final_url": "https://midtexenvironmental.com/roll-off-dumpsters/",
+          "fetched_at": "2026-11-06T14:45:07.706870+00:00",
+          "status": 200,
+          "sha256": "72e251945b6b064787445c6cda12dba8294a48af0b0be7a0b88f8ca29d7ae2b0",
+          "exact_address_excerpt": "Exact contact mailto is in directly fetched own-site public browser component: midtexenvironmental@gmail.com"
+        },
+        "public_bundle": null,
+        "dns": {
+          "MX": {
+            "url": "https://dns.google/resolve?name=gmail.com&type=MX",
+            "fetched_at": "2026-11-06T14:22:02.392809+00:00",
+            "status": 200,
+            "response": {
+              "Status": 0,
+              "TC": false,
+              "RD": true,
+              "RA": true,
+              "AD": false,
+              "CD": false,
+              "Question": [
+                {
+                  "name": "gmail.com.",
+                  "type": 15
+                }
+              ],
+              "Answer": [
+                {
+                  "name": "gmail.com.",
+                  "type": 15,
+                  "TTL": 1309,
+                  "data": "20 alt2.gmail-smtp-in.l.google.com."
+                },
+                {
+                  "name": "gmail.com.",
+                  "type": 15,
+                  "TTL": 1309,
+                  "data": "5 gmail-smtp-in.l.google.com."
+                },
+                {
+                  "name": "gmail.com.",
+                  "type": 15,
+                  "TTL": 1309,
+                  "data": "30 alt3.gmail-smtp-in.l.google.com."
+                },
+                {
+                  "name": "gmail.com.",
+                  "type": 15,
+                  "TTL": 1309,
+                  "data": "40 alt4.gmail-smtp-in.l.google.com."
+                },
+                {
+                  "name": "gmail.com.",
+                  "type": 15,
+                  "TTL": 1309,
+                  "data": "10 alt1.gmail-smtp-in.l.google.com."
+                }
+              ]
+            }
+          },
+          "A": {
+            "url": "https://dns.google/resolve?name=gmail.com&type=A",
+            "fetched_at": "2026-11-06T14:22:02.482874+00:00",
+            "status": 200,
+            "response": {
+              "Status": 0,
+              "TC": false,
+              "RD": true,
+              "RA": true,
+              "AD": false,
+              "CD": false,
+              "Question": [
+                {
+                  "name": "gmail.com.",
+                  "type": 1
+                }
+              ],
+              "Answer": [
+                {
+                  "name": "gmail.com.",
+                  "type": 1,
+                  "TTL": 300,
+                  "data": "142.251.218.101"
+                }
+              ],
+              "Comment": "Response from 216.239.32.10."
+            }
+          }
+        },
+        "status": "reserve: no compliant unused site assigned"
+      }
+    },
+    {
+      "row": {
+        "company": "Texas Waste Haulers",
+        "domain": "texaswastehaulers.com",
+        "email": "sales@texaswastehaulers.com",
+        "hauler_email_source": "https://texaswastehaulers.com/contact-us/",
+        "phone": "2815080513",
+        "services_published": "10-, 15- and 20-yard roll-off dumpster rentals; construction waste",
+        "areas_published": "Spring, Magnolia and published service-area list",
+        "fit_source_url": "https://texaswastehaulers.com/",
+        "notes": "Small local company on own site; published sizes vary by page. Fleet total unverified.",
+        "email_confidence": "A",
+        "mx_hosts": "0 texaswastehaulers-com.mail.protection.outlook.com.",
+        "fetched_at": "2026-11-06T14:45:12.941009+00:00",
+        "flags": "",
+        "status": "reserve: no compliant unused site assigned",
+        "batch": "UNASSIGNED",
+        "verification_notes": "Own-site HTTP 200; DNS MX actually checked. MillionVerifier pending; not queued or counted as completed stock. Operating yard, beneficial ownership and current fleet size unverified unless noted."
+      },
+      "evidence": {
+        "company": "Texas Waste Haulers",
+        "email": "sales@texaswastehaulers.com",
+        "own_page": {
+          "url": "https://texaswastehaulers.com/contact-us/",
+          "final_url": "https://texaswastehaulers.com/contact-us/",
+          "fetched_at": "2026-11-06T14:45:12.941009+00:00",
+          "status": 200,
+          "sha256": "c91ed173d427ea339b01be71ac39358176c5a5bc6593df42f360e20f054f0776",
+          "exact_address_excerpt": "Exact contact mailto is in directly fetched own-site public browser component: sales@texaswastehaulers.com"
+        },
+        "fit_source": {
+          "url": "https://texaswastehaulers.com/",
+          "final_url": "https://texaswastehaulers.com/",
+          "fetched_at": "2026-11-06T14:45:07.237135+00:00",
+          "status": 200,
+          "sha256": "74d04e5f0e80070c6b42fdb04be5efd80da9f15232e5a1ae8cc06267daf7bf82",
+          "exact_address_excerpt": "Exact contact mailto is in directly fetched own-site public browser component: sales@texaswastehaulers.com"
+        },
+        "public_bundle": null,
+        "dns": {
+          "MX": {
+            "url": "https://dns.google/resolve?name=texaswastehaulers.com&type=MX",
+            "fetched_at": "2026-11-06T14:52:52.761912+00:00",
+            "status": 200,
+            "response": {
+              "Status": 0,
+              "TC": false,
+              "RD": true,
+              "RA": true,
+              "AD": false,
+              "CD": false,
+              "Question": [
+                {
+                  "name": "texaswastehaulers.com.",
+                  "type": 15
+                }
+              ],
+              "Answer": [
+                {
+                  "name": "texaswastehaulers.com.",
+                  "type": 15,
+                  "TTL": 300,
+                  "data": "0 texaswastehaulers-com.mail.protection.outlook.com."
+                }
+              ],
+              "Comment": "Response from 172.64.35.55."
+            }
+          },
+          "A": {
+            "url": "https://dns.google/resolve?name=texaswastehaulers.com&type=A",
+            "fetched_at": "2026-11-06T14:52:52.999715+00:00",
+            "status": 200,
+            "response": {
+              "Status": 0,
+              "TC": false,
+              "RD": true,
+              "RA": true,
+              "AD": false,
+              "CD": false,
+              "Question": [
+                {
+                  "name": "texaswastehaulers.com.",
+                  "type": 1
+                }
+              ],
+              "Answer": [
+                {
+                  "name": "texaswastehaulers.com.",
+                  "type": 1,
+                  "TTL": 300,
+                  "data": "104.21.47.109"
+                },
+                {
+                  "name": "texaswastehaulers.com.",
+                  "type": 1,
+                  "TTL": 300,
+                  "data": "172.67.147.52"
+                }
+              ],
+              "Comment": "Response from 108.162.195.55."
+            }
+          }
+        },
+        "status": "reserve: no compliant unused site assigned"
+      }
+    },
+    {
+      "row": {
+        "company": "Father & Son Dirt Works LLC",
+        "domain": "landclearinghoustontxcom.com",
+        "email": "fathersondirtworks2@gmail.com",
+        "hauler_email_source": "https://landclearinghoustontxcom.com/contact-us",
+        "phone": "2815085886",
+        "services_published": "owned roll-off containers; construction and demolition cleanup; container rentals",
+        "areas_published": "Houston-area service; Bacliff business reference",
+        "fit_source_url": "https://landclearinghoustontxcom.com/roll-off-container-rental",
+        "notes": "Own service page explicitly says it owns the containers and rents them without a middleman. Published business Gmail, needs email pass.",
+        "email_confidence": "A",
+        "mx_hosts": "20 alt2.gmail-smtp-in.l.google.com.; 5 gmail-smtp-in.l.google.com.; 30 alt3.gmail-smtp-in.l.google.com.; 40 alt4.gmail-smtp-in.l.google.com.; 10 alt1.gmail-smtp-in.l.google.com.",
+        "fetched_at": "2026-11-06T14:45:19.827506+00:00",
+        "flags": "needs email pass",
+        "status": "reserve: no compliant unused site assigned",
+        "batch": "UNASSIGNED",
+        "verification_notes": "Own-site HTTP 200; DNS MX actually checked. MillionVerifier pending; not queued or counted as completed stock. Operating yard, beneficial ownership and current fleet size unverified unless noted."
+      },
+      "evidence": {
+        "company": "Father & Son Dirt Works LLC",
+        "email": "fathersondirtworks2@gmail.com",
+        "own_page": {
+          "url": "https://landclearinghoustontxcom.com/contact-us",
+          "final_url": "https://landclearinghoustontxcom.com/contact-us",
+          "fetched_at": "2026-11-06T14:45:19.827506+00:00",
+          "status": 200,
+          "sha256": "483c72abdc19e78b6c68580bbb89649471933e37bb2a92ab6035eab428eb172e",
+          "exact_address_excerpt": "Son Dirt Work's 3824 Melody Lane, Bacliff, Texas 77518, United States fathersondirtworks2@gmail.com Hours Monday - Friday: 8am - 5pm Saturday: 8am - 5pm Sunday: 8am - 5p"
+        },
+        "fit_source": {
+          "url": "https://landclearinghoustontxcom.com/roll-off-container-rental",
+          "final_url": "https://landclearinghoustontxcom.com/roll-off-container-rental",
+          "fetched_at": "2026-11-06T14:45:20.246349+00:00",
+          "status": 200,
+          "sha256": "b57484623c3214a47e34127e14e86fc8a9c31983a0e9a016cd9ab31003483a63",
+          "exact_address_excerpt": "Exact contact mailto is in directly fetched own-site public browser component: fathersondirtworks2@gmail.com"
+        },
+        "public_bundle": null,
+        "dns": {
+          "MX": {
+            "url": "https://dns.google/resolve?name=gmail.com&type=MX",
+            "fetched_at": "2026-11-06T14:22:02.392809+00:00",
+            "status": 200,
+            "response": {
+              "Status": 0,
+              "TC": false,
+              "RD": true,
+              "RA": true,
+              "AD": false,
+              "CD": false,
+              "Question": [
+                {
+                  "name": "gmail.com.",
+                  "type": 15
+                }
+              ],
+              "Answer": [
+                {
+                  "name": "gmail.com.",
+                  "type": 15,
+                  "TTL": 1309,
+                  "data": "20 alt2.gmail-smtp-in.l.google.com."
+                },
+                {
+                  "name": "gmail.com.",
+                  "type": 15,
+                  "TTL": 1309,
+                  "data": "5 gmail-smtp-in.l.google.com."
+                },
+                {
+                  "name": "gmail.com.",
+                  "type": 15,
+                  "TTL": 1309,
+                  "data": "30 alt3.gmail-smtp-in.l.google.com."
+                },
+                {
+                  "name": "gmail.com.",
+                  "type": 15,
+                  "TTL": 1309,
+                  "data": "40 alt4.gmail-smtp-in.l.google.com."
+                },
+                {
+                  "name": "gmail.com.",
+                  "type": 15,
+                  "TTL": 1309,
+                  "data": "10 alt1.gmail-smtp-in.l.google.com."
+                }
+              ]
+            }
+          },
+          "A": {
+            "url": "https://dns.google/resolve?name=gmail.com&type=A",
+            "fetched_at": "2026-11-06T14:22:02.482874+00:00",
+            "status": 200,
+            "response": {
+              "Status": 0,
+              "TC": false,
+              "RD": true,
+              "RA": true,
+              "AD": false,
+              "CD": false,
+              "Question": [
+                {
+                  "name": "gmail.com.",
+                  "type": 1
+                }
+              ],
+              "Answer": [
+                {
+                  "name": "gmail.com.",
+                  "type": 1,
+                  "TTL": 300,
+                  "data": "142.251.218.101"
+                }
+              ],
+              "Comment": "Response from 216.239.32.10."
+            }
+          }
+        },
+        "status": "reserve: no compliant unused site assigned"
+      }
+    },
+    {
+      "row": {
+        "company": "Frontier Site Services",
+        "domain": "frontiersiteservices.com",
+        "email": "sales@frontiersiteservices.com",
+        "hauler_email_source": "https://frontiersiteservices.com/contact-us/",
+        "phone": "4092705345",
+        "services_published": "porta potties; restroom trailers; temporary site infrastructure; construction and industrial rentals",
+        "areas_published": "Houston Texas location and Tulsa Oklahoma location",
+        "fit_source_url": "https://frontiersiteservices.com/about/",
+        "notes": "Regional site-service brand, not established as related to Frontier Waste Solutions. Ownership and fleet count need review; not assumed from similar name.",
+        "email_confidence": "A",
+        "mx_hosts": "0 frontiersiteservices-com.mail.protection.outlook.com.",
+        "fetched_at": "2026-11-06T14:45:11.341358+00:00",
+        "flags": "",
+        "status": "reserve: no compliant unused site assigned",
+        "batch": "UNASSIGNED",
+        "verification_notes": "Own-site HTTP 200; DNS MX actually checked. MillionVerifier pending; not queued or counted as completed stock. Operating yard, beneficial ownership and current fleet size unverified unless noted."
+      },
+      "evidence": {
+        "company": "Frontier Site Services",
+        "email": "sales@frontiersiteservices.com",
+        "own_page": {
+          "url": "https://frontiersiteservices.com/contact-us/",
+          "final_url": "https://frontiersiteservices.com/contact-us/",
+          "fetched_at": "2026-11-06T14:45:11.341358+00:00",
+          "status": 200,
+          "sha256": "c56795b142409fd8bc4ad6f06687f181d3baec903d6dddaa42a325757467f28e",
+          "exact_address_excerpt": "ry Site Solutions in Texas and Oklahoma Instagram Facebook Contact Us sales@frontiersiteservices.com 409-270-5345 Scroll to Top"
+        },
+        "fit_source": {
+          "url": "https://frontiersiteservices.com/about/",
+          "final_url": "https://frontiersiteservices.com/about/",
+          "fetched_at": "2026-11-06T14:45:11.052654+00:00",
+          "status": 200,
+          "sha256": "b905995ee77b1aaaf2206b7a9c302216a65d4c9e17bf2a387288f6a74b221149",
+          "exact_address_excerpt": "ry Site Solutions in Texas and Oklahoma Instagram Facebook Contact Us sales@frontiersiteservices.com 409-270-5345 Scroll to Top"
+        },
+        "public_bundle": null,
+        "dns": {
+          "MX": {
+            "url": "https://dns.google/resolve?name=frontiersiteservices.com&type=MX",
+            "fetched_at": "2026-11-06T14:52:52.765368+00:00",
+            "status": 200,
+            "response": {
+              "Status": 0,
+              "TC": false,
+              "RD": true,
+              "RA": true,
+              "AD": false,
+              "CD": false,
+              "Question": [
+                {
+                  "name": "frontiersiteservices.com.",
+                  "type": 15
+                }
+              ],
+              "Answer": [
+                {
+                  "name": "frontiersiteservices.com.",
+                  "type": 15,
+                  "TTL": 3600,
+                  "data": "0 frontiersiteservices-com.mail.protection.outlook.com."
+                }
+              ],
+              "Comment": "Response from 97.74.106.17."
+            }
+          },
+          "A": {
+            "url": "https://dns.google/resolve?name=frontiersiteservices.com&type=A",
+            "fetched_at": "2026-11-06T14:52:53.018172+00:00",
+            "status": 200,
+            "response": {
+              "Status": 0,
+              "TC": false,
+              "RD": true,
+              "RA": true,
+              "AD": false,
+              "CD": false,
+              "Question": [
+                {
+                  "name": "frontiersiteservices.com.",
+                  "type": 1
+                }
+              ],
+              "Answer": [
+                {
+                  "name": "frontiersiteservices.com.",
+                  "type": 1,
+                  "TTL": 3600,
+                  "data": "160.153.0.100"
+                }
+              ],
+              "Comment": "Response from 173.201.74.17."
+            }
+          }
+        },
+        "status": "reserve: no compliant unused site assigned"
+      }
+    }
+  ]
+}
