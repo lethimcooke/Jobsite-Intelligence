@@ -1,0 +1,25 @@
+company,domain,reason,attempted_own_pages
+Waste Warriors Inc,wastewarriorsinc.com,"Needs recheck: admin@wastewarriorsinc.com is on the live homepage (HTTP 200, fetched 2026-11-06) and FMCSA USDOT 2259073 is active (Dallas, 8 power units), but the page body is only a one-line title; services and service area are not published, and a real browser gets a bot-check page. Mixed MX (Microsoft 365 at preference 0 plus Google). Not counted.",https://wastewarriorsinc.com/
+Discount Dumpster Co,discountdumpsterco.com,"Broker signals: 855 number, multi-state city pages, 'Become A Hauler' link. Skipped.",https://discountdumpsterco.com/
+PottiPro (Denton Porta Potty Rental),dentonportapotties.com,"Templated SEO page and Mailgun-only MX (routing service, forwarder). Skipped.",https://dentonportapotties.com/
+Roadrunner Waste,rrwaste.com,"Domain is a Hill Country septic company, not the Dallas franchisee. Skipped.",https://rrwaste.com/; https://rrwaste.com/contact
+Triplett Waste Services,triplettwaste.com,"Only a marketing agency address on the page; no hauler email.",https://triplettwaste.com/
+BG Site Services,bgsiteservices.com,"Only a marketing agency address on the page; no hauler email.",https://bgsiteservices.com/
+DD Disposal,dddisposal.com,"New-home lot cleaning with franchise opportunities, not roll-off rental. Skipped.",https://dddisposal.com/
+Ellis Way Dumpsters,elliswaydumpsters.com,"Southeast Arizona, not DFW.",https://elliswaydumpsters.com/
+Porta Potty Crew Dallas,portapottycrewdallas.com,"Published address domain has no MX record.",https://www.portapottycrewdallas.com/contact
+Trashformers,trashformersdumpsters.com,"Published address domain has no MX record.",https://trashformersdumpsters.com/
+Board Brothers,boardbrothers.net,"LA, Orange County and Dallas; multi-region, local fleet not established.",https://boardbrothers.net/
+Southern Roll Off Solutions,southernrolloffsolution.com,"No published email (Amarillo, Pampa, Midlothian yards).",https://www.southernrolloffsolution.com/contact
+Wise Guys Dumpsters,wiseguysdumpsters.com,"No published email on homepage or contact page.",https://www.wiseguysdumpsters.com/contact-wise-guys-dumpsters
+Titan Waste,titanwaste.net,"Contact form only; no published email.",https://titanwaste.net/contact-titan-waste/
+FT Worth Roll-off Dumpsters,ftworthrolloffdumpsters.com,"No published email.",https://www.ftworthrolloffdumpsters.com/contact
+Brandon Rental Works,dentonportapottyrentals.com,"No published email.",https://www.dentonportapottyrentals.com/
+Junk Queen TX,junkqueentx.com,"Own published free-mail only; needs email pass.",https://www.junkqueentx.com/
+Lone Wolf Dumpsters,lonewolfdumpsters.com,"Own published free-mail only; needs email pass.",https://lonewolfdumpsters.com/
+Country Cousins Waste Services,countrycousinswaste.com,"Own published free-mail only; needs email pass.",https://countrycousinswaste.com/
+R&S Roll Offs,rsrolloffs.com,"Granbury area only (Hood County); no published email.",https://www.rsrolloffs.com/
+Firefighter Dumpsters,firefighterdumpsters.com,"Franchise. Skipped.",https://firefighterdumpsters.com/
+DumpStor,dumpstor.com,"Multi-location brand; only individual staff addresses. Skipped.",https://www.dumpstor.com/about-dumpstor/
+Texas Dumpstars,texasdumpstars.com,"Round Rock (Austin), not DFW.",https://www.texasdumpstars.com/
+AP&J Recycling,apjrecycling.com,"Industrial plastic recycler; roll-off hauling is secondary. Held for a fit decision.",https://apjrecycling.com/
