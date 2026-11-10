@@ -1,0 +1,842 @@
+[
+  {
+    "company": "Wright Waste Management LLC",
+    "email": "stratton.wright@wrightwastemanagement.com",
+    "own_page": {
+      "url": "https://wrightwastemanagement.com/",
+      "final_url": "https://wrightwastemanagement.com/",
+      "status": 200,
+      "fetched_at": "2026-11-10T02:04:01.212606+00:00",
+      "sha256": "61b24a75360717dd17e99d44cad8a820e137d5f98d062dc90c923caab122c300"
+    },
+    "exact_address_excerpt": "t. Learn More Frequently Asked Questions Please reach us at stratton.wright@wrightwastemanagement.com if you cannot find an answer to your question. Do you provide waste management ",
+    "DNS": {
+      "MX": {
+        "url": "https://dns.google/resolve?name=wrightwastemanagement.com&type=MX",
+        "fetched_at": "2026-11-10T02:30:26.962922+00:00",
+        "status": 200,
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "wrightwastemanagement.com.",
+              "type": 15
+            }
+          ],
+          "Answer": [
+            {
+              "name": "wrightwastemanagement.com.",
+              "type": 15,
+              "TTL": 120,
+              "data": "30 mx-biz.mail.am0.yahoodns.net."
+            },
+            {
+              "name": "wrightwastemanagement.com.",
+              "type": 15,
+              "TTL": 120,
+              "data": "20 mx-biz.mail.am0.yahoodns.net."
+            }
+          ],
+          "Comment": "Response from 20.121.230.119."
+        }
+      },
+      "A": {
+        "url": "https://dns.google/resolve?name=wrightwastemanagement.com&type=A",
+        "fetched_at": "2026-11-10T02:30:27.234701+00:00",
+        "status": 200,
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "wrightwastemanagement.com.",
+              "type": 1
+            }
+          ],
+          "Answer": [
+            {
+              "name": "wrightwastemanagement.com.",
+              "type": 1,
+              "TTL": 120,
+              "data": "13.248.243.5"
+            }
+          ],
+          "Comment": "Response from 134.33.240.61."
+        }
+      },
+      "mx_hosts": [
+        "30 mx-biz.mail.am0.yahoodns.net.",
+        "20 mx-biz.mail.am0.yahoodns.net."
+      ],
+      "forwarder": false
+    },
+    "site": {
+      "rn": "RN105064984",
+      "name": "TOTAL LIME",
+      "auth": "TXR1548ZP",
+      "date": "2026-09-30",
+      "date_type": "TCEQ affiliation begin date",
+      "county": "HARRIS",
+      "address": "13613 S WAYSIDE DR",
+      "city": "HOUSTON",
+      "operator": "CHAMPION INNOVATIONS LLC",
+      "customer_type": "SOLE PROPRIETORSHIP",
+      "filed_scope": "DRY BAG LINES AND SLURRY SALES",
+      "type": "industrial / lime processing",
+      "priority": 1,
+      "scope_notes": "Filed primary business is dry bag lines and slurry sales. Business-name operator retained although TCEQ customer type is sole proprietorship.",
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?%24where=ref_num_txt%3D%27RN105064984%27+AND+program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29&%24limit=1000",
+      "fetched_at": "2026-11-10T02:37:12.680814+00:00",
+      "sha256": "9b9207203cd78490c4022c9012998488f79f0c59e0061db03ed9bce62209501b",
+      "status": "eligible unused ACTIVE"
+    },
+    "source_pages": [
+      {
+        "url": "https://wrightwastemanagement.com/",
+        "status": 200,
+        "fetched_at": "2026-11-10T02:04:01.212606+00:00",
+        "sha256": "61b24a75360717dd17e99d44cad8a820e137d5f98d062dc90c923caab122c300"
+      },
+      {
+        "url": "https://wrightwastemanagement.com/contact",
+        "status": 200,
+        "fetched_at": "2026-11-10T02:04:02.069100+00:00",
+        "sha256": "ee398e69536c4aa57e8d1aba209a23d3acc31cadd9a915bae1eb39d8de5f3178"
+      },
+      {
+        "url": "https://wrightwastemanagement.com/about",
+        "status": 200,
+        "fetched_at": "2026-11-10T02:04:02.523858+00:00",
+        "sha256": "9c86f711635191a3132a0d6c6a331b9a4e439ffcb9b891ebdffe6c882578a38d"
+      }
+    ]
+  },
+  {
+    "company": "Max Disposal",
+    "email": "sales@max-disposal.com",
+    "own_page": {
+      "url": "https://www.max-disposal.com/contact_us/",
+      "final_url": "https://www.max-disposal.com/contact_us/",
+      "status": 200,
+      "fetched_at": "2026-11-10T01:51:59.388842+00:00",
+      "sha256": "52d1c335d3aff51a2bb2d7e3920805b22166c5d54eec7e649fc6471de7f879a3"
+    },
+    "exact_address_excerpt": "Contact Us | Max Disposal X (281) 799-5999 sales@max-disposal.com Menu Home Dumpster Rental 10 Yard dumpster 20 Yard dumpster 30 Yard dumpster Se",
+    "DNS": {
+      "MX": {
+        "url": "https://dns.google/resolve?name=max-disposal.com&type=MX",
+        "fetched_at": "2026-11-10T02:01:35.584351+00:00",
+        "status": 200,
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "max-disposal.com.",
+              "type": 15
+            }
+          ],
+          "Answer": [
+            {
+              "name": "max-disposal.com.",
+              "type": 15,
+              "TTL": 3600,
+              "data": "0 mx3-usg1.ppe-hosted.com."
+            },
+            {
+              "name": "max-disposal.com.",
+              "type": 15,
+              "TTL": 3600,
+              "data": "0 mx1-usg1.ppe-hosted.com."
+            },
+            {
+              "name": "max-disposal.com.",
+              "type": 15,
+              "TTL": 3600,
+              "data": "0 mx2-usg1.ppe-hosted.com."
+            }
+          ],
+          "Comment": "Response from 97.74.103.4."
+        }
+      },
+      "A": {
+        "url": "https://dns.google/resolve?name=max-disposal.com&type=A",
+        "fetched_at": "2026-11-10T02:01:35.994087+00:00",
+        "status": 200,
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "max-disposal.com.",
+              "type": 1
+            }
+          ],
+          "Answer": [
+            {
+              "name": "max-disposal.com.",
+              "type": 1,
+              "TTL": 600,
+              "data": "146.20.25.155"
+            }
+          ],
+          "Comment": "Response from 97.74.103.4."
+        }
+      },
+      "mx_hosts": [
+        "0 mx3-usg1.ppe-hosted.com.",
+        "0 mx1-usg1.ppe-hosted.com.",
+        "0 mx2-usg1.ppe-hosted.com."
+      ],
+      "forwarder": false
+    },
+    "site": {
+      "rn": "RN112547047",
+      "name": "TEXAS PETROLEUM GROUP",
+      "auth": "TXR1542ZS",
+      "date": "2026-10-13",
+      "date_type": "TCEQ affiliation begin date",
+      "county": "HARRIS",
+      "address": "1136 TEXAS HERITAGE PKWY, KATY, TX 77494",
+      "city": "HOUSTON",
+      "operator": "TEXAS PETROLEUM GROUP LLC",
+      "customer_type": "CORPORATION",
+      "filed_scope": "TEXAS PETROLEUM GROUP LLC",
+      "type": "commercial / retail site, our read",
+      "priority": 1,
+      "scope_notes": "Use AI physical location description 1136 Texas Heritage Pkwy in Katy, not the RE corporate office at 1080 Eldridge Pkwy. Actual site county needs corroboration.",
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?%24where=ref_num_txt%3D%27RN112547047%27+AND+program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29&%24limit=1000",
+      "fetched_at": "2026-11-10T02:37:12.677221+00:00",
+      "sha256": "9db3e742e3d183d8b64f93572981c9991e1b16a4c7cbe68b061c55e981b8988b",
+      "status": "eligible unused ACTIVE"
+    },
+    "source_pages": [
+      {
+        "url": "https://www.max-disposal.com/",
+        "status": 200,
+        "fetched_at": "2026-11-10T01:51:58.566462+00:00",
+        "sha256": "10af6c35925db805598be1ea25b6ada2ad40e30ff865aedba8d724b0d8a663ba"
+      },
+      {
+        "url": "https://www.max-disposal.com/contact_us/",
+        "status": 200,
+        "fetched_at": "2026-11-10T01:51:59.388842+00:00",
+        "sha256": "52d1c335d3aff51a2bb2d7e3920805b22166c5d54eec7e649fc6471de7f879a3"
+      },
+      {
+        "url": "https://www.max-disposal.com/service_area/",
+        "status": 200,
+        "fetched_at": "2026-11-10T01:51:59.805591+00:00",
+        "sha256": "d5620244aec0cadeba52da28a7985b0d457d798f0d65bf428ca78992c8377a14"
+      }
+    ]
+  },
+  {
+    "company": "Snap Junk Removal",
+    "email": "snapjunkremoval@gmail.com",
+    "own_page": {
+      "url": "https://snapjunkremoval.com/contact_us/",
+      "final_url": "https://snapjunkremoval.com/contact_us/",
+      "status": 200,
+      "fetched_at": "2026-11-10T01:49:27.341397+00:00",
+      "sha256": "8b1c260574c1ce4a05bdd8542968c3d20c781d7fb872dd2cfaefb5234d86ffab"
+    },
+    "exact_address_excerpt": "snapjunkremoval@gmail.com (public mailto/decoded address)",
+    "DNS": {
+      "MX": {
+        "url": "https://dns.google/resolve?name=gmail.com&type=MX",
+        "fetched_at": "2026-11-10T02:01:35.583232+00:00",
+        "status": 200,
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "gmail.com.",
+              "type": 15
+            }
+          ],
+          "Answer": [
+            {
+              "name": "gmail.com.",
+              "type": 15,
+              "TTL": 1870,
+              "data": "40 alt4.gmail-smtp-in.l.google.com."
+            },
+            {
+              "name": "gmail.com.",
+              "type": 15,
+              "TTL": 1870,
+              "data": "5 gmail-smtp-in.l.google.com."
+            },
+            {
+              "name": "gmail.com.",
+              "type": 15,
+              "TTL": 1870,
+              "data": "20 alt2.gmail-smtp-in.l.google.com."
+            },
+            {
+              "name": "gmail.com.",
+              "type": 15,
+              "TTL": 1870,
+              "data": "10 alt1.gmail-smtp-in.l.google.com."
+            },
+            {
+              "name": "gmail.com.",
+              "type": 15,
+              "TTL": 1870,
+              "data": "30 alt3.gmail-smtp-in.l.google.com."
+            }
+          ]
+        }
+      },
+      "A": {
+        "url": "https://dns.google/resolve?name=gmail.com&type=A",
+        "fetched_at": "2026-11-10T02:01:35.964192+00:00",
+        "status": 200,
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "gmail.com.",
+              "type": 1
+            }
+          ],
+          "Answer": [
+            {
+              "name": "gmail.com.",
+              "type": 1,
+              "TTL": 300,
+              "data": "142.251.218.197"
+            }
+          ],
+          "Comment": "Response from 216.239.38.10."
+        }
+      },
+      "mx_hosts": [
+        "40 alt4.gmail-smtp-in.l.google.com.",
+        "5 gmail-smtp-in.l.google.com.",
+        "20 alt2.gmail-smtp-in.l.google.com.",
+        "10 alt1.gmail-smtp-in.l.google.com.",
+        "30 alt3.gmail-smtp-in.l.google.com."
+      ],
+      "forwarder": false
+    },
+    "site": {
+      "rn": "RN112537824",
+      "name": "IAH COMMERCE PARK",
+      "auth": "TXR1553ZO",
+      "date": "2026-09-28",
+      "date_type": "TCEQ affiliation begin date",
+      "county": "HARRIS",
+      "address": "APPROX. 0.30 MI E OF THE INTERSECTION OF FM 1960 RD. AND FOXWOOD FOREST BLVD.",
+      "city": "",
+      "operator": "ROACH & PADUA REALTY 1960 JV LLC",
+      "customer_type": "JOINT VENTURE",
+      "filed_scope": "",
+      "type": "industrial / commerce park",
+      "priority": 1,
+      "scope_notes": "Commercial/industrial park inferred from filed park name and business operator; our read.",
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?%24where=ref_num_txt%3D%27RN112537824%27+AND+program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29&%24limit=1000",
+      "fetched_at": "2026-11-10T02:37:12.668999+00:00",
+      "sha256": "9c7d52ee60dc4527ec1f4199f307e8f9452f3689d4c51da9db40191d9a57819a",
+      "status": "eligible unused ACTIVE"
+    },
+    "source_pages": [
+      {
+        "url": "https://snapjunkremoval.com/",
+        "status": 200,
+        "fetched_at": "2026-11-10T01:49:26.703403+00:00",
+        "sha256": "c80acce5154985e49de11a0ca7f9aafd9fc70dc79932f73bd99a3fe0a4d8fa10"
+      },
+      {
+        "url": "https://snapjunkremoval.com/contact_us/",
+        "status": 200,
+        "fetched_at": "2026-11-10T01:49:27.341397+00:00",
+        "sha256": "8b1c260574c1ce4a05bdd8542968c3d20c781d7fb872dd2cfaefb5234d86ffab"
+      },
+      {
+        "url": "https://snapjunkremoval.com/items/15_yard_roll_off_dumpster/",
+        "status": 200,
+        "fetched_at": "2026-11-10T01:49:27.818358+00:00",
+        "sha256": "8bb2f969f0a3004fab8ceaed29f5716e30a390d50f2d47685f795072072b653e"
+      },
+      {
+        "url": "https://snapjunkremoval.com/items/20_yard_roll_off_dumpster/",
+        "status": 200,
+        "fetched_at": "2026-11-10T01:49:28.385964+00:00",
+        "sha256": "28db8ebfe890ca2fd8d781fef00ac8d5821a1c6ce05f2a6b7550fe2b389748f1"
+      },
+      {
+        "url": "https://snapjunkremoval.com/items/40_yard_roll_off_dumpster/",
+        "status": 200,
+        "fetched_at": "2026-11-10T01:49:28.785997+00:00",
+        "sha256": "22d9d69b08f6e2178fdc0a8d5008cb3770bea976beb06e32848ea5ef668fb6fe"
+      },
+      {
+        "url": "https://snapjunkremoval.com/items/30_yard_roll_off_dumpster/",
+        "status": 200,
+        "fetched_at": "2026-11-10T01:49:29.511316+00:00",
+        "sha256": "09ec1c1423f7853dd7b10f2c104b076b3030eea39c8b7d886074b22cad70d5e2"
+      },
+      {
+        "url": "https://snapjunkremoval.com/service_area/",
+        "status": 200,
+        "fetched_at": "2026-11-10T01:49:29.999346+00:00",
+        "sha256": "248e7c69aac84f41d9649e3ec134d41ac9ce86c1cc52d8d83272c1f52aa56699"
+      }
+    ]
+  },
+  {
+    "company": "Fourth + Grey",
+    "email": "info@fourthandgrey.com",
+    "own_page": {
+      "url": "https://fourthandgrey.com/contact",
+      "final_url": "https://fourthandgrey.com/contact",
+      "status": 200,
+      "fetched_at": "2026-11-10T01:49:19.533267+00:00",
+      "sha256": "b57bb4e4ab09cbd3f6c1c6cd1202f77bee06539484912e8b971a52bce3af087f"
+    },
+    "exact_address_excerpt": "ings My Account Houston, TX, USA Phone: 713-489-2919 Email: info@fourthandgrey.com inquiry form Name* Email* Phone* Event Date* Event Type* Address / Venue* Estim",
+    "DNS": {
+      "MX": {
+        "url": "https://dns.google/resolve?name=fourthandgrey.com&type=MX",
+        "fetched_at": "2026-11-10T02:01:35.581938+00:00",
+        "status": 200,
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "fourthandgrey.com.",
+              "type": 15
+            }
+          ],
+          "Answer": [
+            {
+              "name": "fourthandgrey.com.",
+              "type": 15,
+              "TTL": 3600,
+              "data": "0 fourthandgrey-com.mail.protection.outlook.com."
+            }
+          ],
+          "Comment": "Response from 97.74.101.12."
+        }
+      },
+      "A": {
+        "url": "https://dns.google/resolve?name=fourthandgrey.com&type=A",
+        "fetched_at": "2026-11-10T02:01:35.983389+00:00",
+        "status": 200,
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "fourthandgrey.com.",
+              "type": 1
+            }
+          ],
+          "Answer": [
+            {
+              "name": "fourthandgrey.com.",
+              "type": 1,
+              "TTL": 3600,
+              "data": "13.248.243.5"
+            },
+            {
+              "name": "fourthandgrey.com.",
+              "type": 1,
+              "TTL": 3600,
+              "data": "76.223.105.230"
+            }
+          ],
+          "Comment": "Response from 173.201.69.12."
+        }
+      },
+      "mx_hosts": [
+        "0 fourthandgrey-com.mail.protection.outlook.com."
+      ],
+      "forwarder": false
+    },
+    "site": {
+      "rn": "RN112537360",
+      "name": "GREENS BAYOU GREENWAY IMPROVEMENTS SEGMENT GR02E",
+      "auth": "TXR1533ZO",
+      "date": "2026-09-27",
+      "date_type": "TCEQ affiliation begin date",
+      "county": "HARRIS",
+      "address": "12857 GREEN DOLPHIN ST",
+      "city": "HOUSTON",
+      "operator": "R MIRANDA TRUCKING & CONSTRUCTION LLC",
+      "customer_type": "SOLE PROPRIETORSHIP",
+      "filed_scope": "",
+      "type": "amenity / greenway recreation project",
+      "priority": 1,
+      "scope_notes": "Manual classification: recreation greenway project, not a road merely because its name contains IMPROVEMENTS. Filed business operator retained; customer type is sole proprietorship.",
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?%24where=ref_num_txt%3D%27RN112537360%27+AND+program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29&%24limit=1000",
+      "fetched_at": "2026-11-10T02:37:13.540806+00:00",
+      "sha256": "a59de7fe0cb4ee017c6ae7a4393cb514c6f5ec5d83f4525f4bc0ef8ef5153897",
+      "status": "eligible unused ACTIVE"
+    },
+    "source_pages": [
+      {
+        "url": "https://fourthandgrey.com/",
+        "status": 200,
+        "fetched_at": "2026-11-10T01:49:18.762951+00:00",
+        "sha256": "e33f3c94b5efdd7300bbcfde3c7768557ede4ac5ca929fa457a75b56f15e43be"
+      },
+      {
+        "url": "https://fourthandgrey.com/contact",
+        "status": 200,
+        "fetched_at": "2026-11-10T01:49:19.533267+00:00",
+        "sha256": "b57bb4e4ab09cbd3f6c1c6cd1202f77bee06539484912e8b971a52bce3af087f"
+      },
+      {
+        "url": "https://fourthandgrey.com/contact#2a769509-0624-40f0-8589-26d136373f69",
+        "status": 200,
+        "fetched_at": "2026-11-10T01:49:21.128222+00:00",
+        "sha256": "b57bb4e4ab09cbd3f6c1c6cd1202f77bee06539484912e8b971a52bce3af087f"
+      },
+      {
+        "url": "https://fourthandgrey.com/about",
+        "status": 200,
+        "fetched_at": "2026-11-10T01:49:21.505525+00:00",
+        "sha256": "339498c17f7181b1c86a4c07a9cf4e8e61372e1b4c9a88b284f4a87254704570"
+      },
+      {
+        "url": "https://fourthandgrey.com/restroom-trailers",
+        "status": 200,
+        "fetched_at": "2026-11-10T01:49:21.886006+00:00",
+        "sha256": "a7387298114b96dd45de18ef85dc91e50be4eca40eee93c9591dfc1928f04d27"
+      }
+    ]
+  },
+  {
+    "company": "LUX Trailer Rental",
+    "email": "info@luxtrailerrentals.com",
+    "own_page": {
+      "url": "https://luxtrailerrental.com/contact-us/",
+      "final_url": "https://luxtrailerrental.com/contact-us/",
+      "status": 200,
+      "fetched_at": "2026-11-10T01:52:05.820926+00:00",
+      "sha256": "690be8975949990aea0fcd5aacc83b8d61654c401fe1e65431b827d4d59a18ac"
+    },
+    "exact_address_excerpt": "How It Works Gallery Service Areas Book Now Request a Quote info@luxtrailerrentals.com \u00a9 2026 LUXTrailerRental. All rights reserved.",
+    "DNS": {
+      "MX": {
+        "url": "https://dns.google/resolve?name=luxtrailerrentals.com&type=MX",
+        "fetched_at": "2026-11-10T02:01:36.108603+00:00",
+        "status": 200,
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "luxtrailerrentals.com.",
+              "type": 15
+            }
+          ],
+          "Answer": [
+            {
+              "name": "luxtrailerrentals.com.",
+              "type": 15,
+              "TTL": 3600,
+              "data": "1 smtp.google.com."
+            }
+          ],
+          "Comment": "Response from 216.239.38.108."
+        }
+      },
+      "A": {
+        "url": "https://dns.google/resolve?name=luxtrailerrentals.com&type=A",
+        "fetched_at": "2026-11-10T02:01:36.260208+00:00",
+        "status": 200,
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "luxtrailerrentals.com.",
+              "type": 1
+            }
+          ],
+          "Answer": [
+            {
+              "name": "luxtrailerrentals.com.",
+              "type": 1,
+              "TTL": 14400,
+              "data": "198.185.159.145"
+            },
+            {
+              "name": "luxtrailerrentals.com.",
+              "type": 1,
+              "TTL": 14400,
+              "data": "198.49.23.145"
+            },
+            {
+              "name": "luxtrailerrentals.com.",
+              "type": 1,
+              "TTL": 14400,
+              "data": "198.49.23.144"
+            },
+            {
+              "name": "luxtrailerrentals.com.",
+              "type": 1,
+              "TTL": 14400,
+              "data": "198.185.159.144"
+            }
+          ],
+          "Comment": "Response from 216.239.38.108."
+        }
+      },
+      "mx_hosts": [
+        "1 smtp.google.com."
+      ],
+      "forwarder": false
+    },
+    "site": {
+      "rn": "RN112539077",
+      "name": "CHIPOTLE - KATY GREEN",
+      "auth": "TXR1514ZP",
+      "date": "2026-09-30",
+      "date_type": "TCEQ affiliation begin date",
+      "county": "HARRIS",
+      "address": "SWC OF KATY PARK MARKET DR & KATY HOCKLEY CUT OFF RD",
+      "city": "",
+      "operator": "RECONN CONSTRUCTION SERVICES",
+      "customer_type": "SOLE PROPRIETORSHIP",
+      "filed_scope": "COMMERCIAL BUILDING",
+      "type": "commercial / retail building",
+      "priority": 1,
+      "scope_notes": "Filed primary business explicitly says commercial building. Named construction-service business retained although customer type is sole proprietorship; no individuals named.",
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?%24where=ref_num_txt%3D%27RN112539077%27+AND+program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29&%24limit=1000",
+      "fetched_at": "2026-11-10T02:37:13.308071+00:00",
+      "sha256": "a70779be46b61282691ef7408e010fc2cfc937eab2df2712edb16e4c88687989",
+      "status": "eligible unused ACTIVE"
+    },
+    "source_pages": [
+      {
+        "url": "https://luxtrailerrental.com/",
+        "status": 200,
+        "fetched_at": "2026-11-10T01:52:05.095734+00:00",
+        "sha256": "fab00404e9edeee6db8ee46a11d6557aa69b042d640449d975cee24220dbcd35"
+      },
+      {
+        "url": "https://luxtrailerrental.com/contact-us/",
+        "status": 200,
+        "fetched_at": "2026-11-10T01:52:05.820926+00:00",
+        "sha256": "690be8975949990aea0fcd5aacc83b8d61654c401fe1e65431b827d4d59a18ac"
+      },
+      {
+        "url": "https://luxtrailerrental.com/5-station-restroom-trailer/",
+        "status": 200,
+        "fetched_at": "2026-11-10T01:52:06.286947+00:00",
+        "sha256": "4f231d1732ba7ce688b83e12fd447d3c26331f4d420b1f51eed8e1b4a1ca3318"
+      },
+      {
+        "url": "https://luxtrailerrental.com/service-areas/",
+        "status": 200,
+        "fetched_at": "2026-11-10T01:52:06.725132+00:00",
+        "sha256": "0cdecf42e38ba3c26124b71e1845e3de2b62a1ba4dc3142d163e21bd18f1d00a"
+      },
+      {
+        "url": "https://luxtrailerrental.com/3-station-restroom-trailer/",
+        "status": 200,
+        "fetched_at": "2026-11-10T01:52:07.161604+00:00",
+        "sha256": "c359ade6564c180362c7aaadecc06048de05bfeb4f6fa73e9099788533a1c723"
+      },
+      {
+        "url": "https://luxtrailerrental.com/about/",
+        "status": 200,
+        "fetched_at": "2026-11-10T01:52:07.677645+00:00",
+        "sha256": "d36c00ed1bf0c1cefb25b17e7e809781c6675fe8e3218aa9359b26ecd45becd1"
+      }
+    ]
+  },
+  {
+    "company": "Permiant Waste Recycling Services",
+    "email": "info@permiant.com",
+    "own_page": {
+      "url": "https://permiant.com/contact",
+      "final_url": "https://permiant.com/contact",
+      "status": 200,
+      "fetched_at": "2026-11-10T02:04:06.086328+00:00",
+      "sha256": "2dfdae4f26a18e214831076c69103e37b2b168886f3cd95dafb95c60b9bf521f"
+    },
+    "exact_address_excerpt": "ton, Texas 77037, United States Office: 281-847-9900 Email: INFO@PERMIANT.COM Hours Open today 06:00 am \u2013 06:00 pm Drop us a line! Drop us a line! Name Email",
+    "DNS": {
+      "MX": {
+        "url": "https://dns.google/resolve?name=permiant.com&type=MX",
+        "fetched_at": "2026-11-10T02:30:26.965484+00:00",
+        "status": 200,
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "permiant.com.",
+              "type": 15
+            }
+          ],
+          "Answer": [
+            {
+              "name": "permiant.com.",
+              "type": 15,
+              "TTL": 600,
+              "data": "0 permiant-com.mail.protection.outlook.com."
+            }
+          ],
+          "Comment": "Response from 173.201.75.48."
+        }
+      },
+      "A": {
+        "url": "https://dns.google/resolve?name=permiant.com&type=A",
+        "fetched_at": "2026-11-10T02:30:27.243981+00:00",
+        "status": 200,
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "permiant.com.",
+              "type": 1
+            }
+          ],
+          "Answer": [
+            {
+              "name": "permiant.com.",
+              "type": 1,
+              "TTL": 3600,
+              "data": "13.248.243.5"
+            },
+            {
+              "name": "permiant.com.",
+              "type": 1,
+              "TTL": 3600,
+              "data": "76.223.105.230"
+            }
+          ],
+          "Comment": "Response from 97.74.107.48."
+        }
+      },
+      "mx_hosts": [
+        "0 permiant-com.mail.protection.outlook.com."
+      ],
+      "forwarder": false
+    },
+    "site": {
+      "rn": "RN108322959",
+      "name": "INTERCONTINENTAL AIRPORT WWTP IMPROVEMENTS",
+      "auth": "TXR1599ZJ",
+      "date": "2026-10-07",
+      "date_type": "TCEQ affiliation begin date",
+      "county": "HARRIS",
+      "address": "2450 RANKIN RD",
+      "city": "HOUSTON",
+      "operator": "SERVOX LLC",
+      "customer_type": "PARTNERSHIP",
+      "filed_scope": "WASTE WATER TREATMENT PLANT",
+      "type": "industrial / treatment plant improvement",
+      "priority": 1,
+      "scope_notes": "Manual classification: TCEQ describes a waste water treatment plant; the IMPROVEMENTS word is not evidence of a road project.",
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?%24where=ref_num_txt%3D%27RN108322959%27+AND+program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29&%24limit=1000",
+      "fetched_at": "2026-11-10T02:37:12.672054+00:00",
+      "sha256": "1a583d04873aaacd466d83244867a4601c4f261e5dc8355979c38d57c899688b",
+      "status": "eligible unused ACTIVE"
+    },
+    "source_pages": [
+      {
+        "url": "https://permiant.com/",
+        "status": 200,
+        "fetched_at": "2026-11-10T02:04:05.425488+00:00",
+        "sha256": "af43763e33dbfc83e8a0089725f486cb690d704cbc00f204d06a4f53d37e3a82"
+      },
+      {
+        "url": "https://permiant.com/contact",
+        "status": 200,
+        "fetched_at": "2026-11-10T02:04:06.086328+00:00",
+        "sha256": "2dfdae4f26a18e214831076c69103e37b2b168886f3cd95dafb95c60b9bf521f"
+      },
+      {
+        "url": "https://permiant.com/roll-off-equipment-repair",
+        "status": 200,
+        "fetched_at": "2026-11-10T02:04:06.525704+00:00",
+        "sha256": "e370671ebc1e3a24def3c328e7f8e6903bb218b73273e9ad15e52747e6a48357"
+      },
+      {
+        "url": "https://permiant.com/roll-off-boxes-containers",
+        "status": 200,
+        "fetched_at": "2026-11-10T02:04:06.958074+00:00",
+        "sha256": "6dd6317212714b8792f78eb3eb4c264e11a06258dc9669fed7db00197ed95c05"
+      },
+      {
+        "url": "https://permiant.com/about-us",
+        "status": 200,
+        "fetched_at": "2026-11-10T02:04:07.396228+00:00",
+        "sha256": "5c1552bc084d1a00d8d96dbbc9016088681ef0b31b7ebcd1a05de633e93ed2e4"
+      },
+      {
+        "url": "https://permiant.com/roll-off-dumpster-sizing",
+        "status": 200,
+        "fetched_at": "2026-11-10T02:04:07.744890+00:00",
+        "sha256": "009a83034d318a2c1c4082b00da7b287bf16d21809d61c250fab877045b7016b"
+      },
+      {
+        "url": "https://permiant.com/roll-off-waste-solutions",
+        "status": 200,
+        "fetched_at": "2026-11-10T02:04:08.168905+00:00",
+        "sha256": "73592ec2da48573be0bc9a2e2122d95468db90d700046e80351adf3b444cba6a"
+      }
+    ]
+  }
+]

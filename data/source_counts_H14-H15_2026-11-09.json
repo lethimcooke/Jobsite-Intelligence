@@ -1,0 +1,37 @@
+[
+  {
+    "source_log": "search_results",
+    "records": 8,
+    "note": "Source result groups or records, not a count of unique qualified haulers."
+  },
+  {
+    "source_log": "secondary_search_results",
+    "records": 8,
+    "note": "Source result groups or records, not a count of unique qualified haulers."
+  },
+  {
+    "source_log": "final_houston_search",
+    "records": 8,
+    "note": "Source result groups or records, not a count of unique qualified haulers."
+  },
+  {
+    "source_log": "carriers_more",
+    "records": 5,
+    "note": "Source result groups or records, not a count of unique qualified haulers."
+  },
+  {
+    "source_log": "carriers_extra_filtered",
+    "records": 5,
+    "note": "Source result groups or records, not a count of unique qualified haulers."
+  },
+  {
+    "source_log": "directory_leads",
+    "records": 5,
+    "note": "Source result groups or records, not a count of unique qualified haulers."
+  },
+  {
+    "source_log": "new_leads",
+    "records": 7,
+    "note": "Source result groups or records, not a count of unique qualified haulers."
+  }
+]
