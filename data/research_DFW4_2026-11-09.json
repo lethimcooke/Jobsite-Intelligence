@@ -1,0 +1,2201 @@
+[
+  {
+    "company": "Alpha Roll Off Logistics",
+    "email": "info@alpharollofflogistics.com",
+    "own_page": {
+      "url": "https://alpharollofflogistics.com/contact-us",
+      "final_url": "https://alpharollofflogistics.com/contact-us/",
+      "status": 200,
+      "fetched_at": "2026-11-10T03:36:17.201072+00:00",
+      "sha256": "e6208d3305a0c29a5e0e11bc1a73928891e30514408cfc4c9a9c41fd86878e87"
+    },
+    "exact_address_excerpt": "posal Services Recycling Services Contact Us (817) 925-8040 Info@AlphaRollOffLogistics.com 7828 Jacksboro Hwy Fort Worth, Texas 76135 M - F 8:00 AM - 5:00 PM Saturday 8:0",
+    "DNS": {
+      "MX": {
+        "url": "https://dns.google/resolve?name=alpharollofflogistics.com&type=MX",
+        "fetched_at": "2026-11-10T03:38:41.265519+00:00",
+        "status": 200,
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "alpharollofflogistics.com.",
+              "type": 15
+            }
+          ],
+          "Answer": [
+            {
+              "name": "alpharollofflogistics.com.",
+              "type": 15,
+              "TTL": 3600,
+              "data": "10 mx1-us1.ppe-hosted.com."
+            },
+            {
+              "name": "alpharollofflogistics.com.",
+              "type": 15,
+              "TTL": 3600,
+              "data": "20 mx2-us1.ppe-hosted.com."
+            }
+          ],
+          "Comment": "Response from 173.201.76.29."
+        }
+      },
+      "A": {
+        "url": "https://dns.google/resolve?name=alpharollofflogistics.com&type=A",
+        "fetched_at": "2026-11-10T03:38:41.553319+00:00",
+        "status": 200,
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "alpharollofflogistics.com.",
+              "type": 1
+            }
+          ],
+          "Answer": [
+            {
+              "name": "alpharollofflogistics.com.",
+              "type": 1,
+              "TTL": 600,
+              "data": "160.153.0.182"
+            }
+          ],
+          "Comment": "Response from 97.74.108.29."
+        }
+      },
+      "mx_hosts": [
+        "10 mx1-us1.ppe-hosted.com.",
+        "20 mx2-us1.ppe-hosted.com."
+      ],
+      "forwarder": false
+    },
+    "site": {
+      "rn": "RN112541685",
+      "name": "HEB OAKMONT 836",
+      "auth": "TXR1520ZQ",
+      "date": "2026-10-05",
+      "date_type": "TCEQ affiliation begin date",
+      "county": "TARRANT",
+      "address": "NORTHEAST OF OAKMONT BLVD & CHISHOLM TRAIL PARKWAY",
+      "city": "",
+      "operator": "HARPER BROTHERS CONSTRUCTION LLC",
+      "customer_type": "PARTNERSHIP",
+      "filed_scope": "RETAIL GROCERY STORES",
+      "type": "commercial / grocery retail",
+      "priority": 1,
+      "scope_notes": "Project classification from filed business/site name and scope, our read. No work-start or bid availability claim.",
+      "source": "https://data.texas.gov/resource/t34q-qzi3.json?%24where=ref_num_txt%3D%27RN112541685%27+AND+program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29&%24limit=1000",
+      "fetched_at": "2026-11-10T03:39:32.948017+00:00",
+      "sha256": "8fa5f99c9a456a441fd5bb7e559b0be59b6d13ab3c2a5fc840168809c58ab85f",
+      "status": "eligible unused ACTIVE"
+    },
+    "source_pages": [
+      {
+        "url": "https://alpharollofflogistics.com/",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:16.756058+00:00",
+        "sha256": "a0c1add33a34bd2c3e21969dfe250deafd496a26d2148e54177a226789eefb8c"
+      },
+      {
+        "url": "https://alpharollofflogistics.com/contact-us",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:17.201072+00:00",
+        "sha256": "e6208d3305a0c29a5e0e11bc1a73928891e30514408cfc4c9a9c41fd86878e87"
+      },
+      {
+        "url": "https://alpharollofflogistics.com/contact-us/",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:17.707816+00:00",
+        "sha256": "e6208d3305a0c29a5e0e11bc1a73928891e30514408cfc4c9a9c41fd86878e87"
+      }
+    ]
+  },
+  {
+    "company": "Texas Tough Waste",
+    "email": "info@texastoughwaste.com",
+    "own_page": {
+      "url": "https://texastoughwaste.com/",
+      "final_url": "https://texastoughwaste.com/",
+      "status": 200,
+      "fetched_at": "2026-11-10T03:36:21.623855+00:00",
+      "sha256": "d30f501f6831c03cd000084fec4de5eb5b763db8d1b97771e39b959b15dc6691"
+    },
+    "exact_address_excerpt": "ort Worth TX | Texas Tough Waste Call or Text: 682-651-1151 info@texastoughwaste.com Home Dumpster Sizes Services Service Areas Dumpster Rentals in Aledo, TX Dumpst",
+    "DNS": {
+      "MX": {
+        "url": "https://dns.google/resolve?name=texastoughwaste.com&type=MX",
+        "fetched_at": "2026-11-10T03:38:41.267074+00:00",
+        "status": 200,
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "texastoughwaste.com.",
+              "type": 15
+            }
+          ],
+          "Answer": [
+            {
+              "name": "texastoughwaste.com.",
+              "type": 15,
+              "TTL": 3600,
+              "data": "1 aspmx.l.google.com."
+            },
+            {
+              "name": "texastoughwaste.com.",
+              "type": 15,
+              "TTL": 3600,
+              "data": "10 alt4.aspmx.l.google.com."
+            },
+            {
+              "name": "texastoughwaste.com.",
+              "type": 15,
+              "TTL": 3600,
+              "data": "5 alt2.aspmx.l.google.com."
+            },
+            {
+              "name": "texastoughwaste.com.",
+              "type": 15,
+              "TTL": 3600,
+              "data": "5 alt1.aspmx.l.google.com."
+            },
+            {
+              "name": "texastoughwaste.com.",
+              "type": 15,
+              "TTL": 3600,
+              "data": "10 alt3.aspmx.l.google.com."
+            }
+          ],
+          "Comment": "Response from 97.74.107.18."
+        }
+      },
+      "A": {
+        "url": "https://dns.google/resolve?name=texastoughwaste.com&type=A",
+        "fetched_at": "2026-11-10T03:38:41.676924+00:00",
+        "status": 200,
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "texastoughwaste.com.",
+              "type": 1
+            }
+          ],
+          "Answer": [
+            {
+              "name": "texastoughwaste.com.",
+              "type": 1,
+              "TTL": 600,
+              "data": "5.100.156.253"
+            },
+            {
+              "name": "texastoughwaste.com.",
+              "type": 1,
+              "TTL": 600,
+              "data": "5.100.156.2"
+            }
+          ],
+          "Comment": "Response from 173.201.75.18."
+        }
+      },
+      "mx_hosts": [
+        "1 aspmx.l.google.com.",
+        "10 alt4.aspmx.l.google.com.",
+        "5 alt2.aspmx.l.google.com.",
+        "5 alt1.aspmx.l.google.com.",
+        "10 alt3.aspmx.l.google.com."
+      ],
+      "forwarder": false
+    },
+    "site": {
+      "rn": "RN112542923",
+      "name": "TCU - ACC ON CAMPUS HOUSING",
+      "auth": "TXR1589ZQ",
+      "date": "2026-10-06",
+      "date_type": "TCEQ affiliation begin date",
+      "county": "TARRANT",
+      "address": "SOUTHWEST OF SANDAGE AVE & W CANTEY ST",
+      "city": "",
+      "operator": "TADMOR CONTRACTORS LLC",
+      "customer_type": "CORPORATION",
+      "filed_scope": "",
+      "type": "multifamily / campus housing",
+      "priority": 2,
+      "scope_notes": "Project classification from filed business/site name and scope, our read. No work-start or bid availability claim.",
+      "source": "https://data.texas.gov/resource/t34q-qzi3.json?%24where=ref_num_txt%3D%27RN112542923%27+AND+program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29&%24limit=1000",
+      "fetched_at": "2026-11-10T03:39:32.948901+00:00",
+      "sha256": "24265040c41914706dbe2a563cf61d84fa24a91c868799db047238be68499dd9",
+      "status": "eligible unused ACTIVE"
+    },
+    "source_pages": [
+      {
+        "url": "https://texastoughwaste.com/",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:21.623855+00:00",
+        "sha256": "d30f501f6831c03cd000084fec4de5eb5b763db8d1b97771e39b959b15dc6691"
+      },
+      {
+        "url": "https://texastoughwaste.com/dumpster-rental-quote/",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:22.065667+00:00",
+        "sha256": "b17a10c594a549f9c6800de41d17ce34e22c4b3b91f937f13eec7529f7f63adc"
+      },
+      {
+        "url": "https://texastoughwaste.com/dumpster-rental-services/",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:23.688371+00:00",
+        "sha256": "84331a119d474482e82828584a14d9fd5ebadc82bd9a22dcaa4c872068211599"
+      },
+      {
+        "url": "https://texastoughwaste.com/dumpster-sizes/",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:25.387705+00:00",
+        "sha256": "e01923771c95dfbf217d03fda635393dc2ce2fd8d2d3ce2868c22d84ab9b0e0a"
+      },
+      {
+        "url": "https://texastoughwaste.com/service-areas/",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:27.191932+00:00",
+        "sha256": "d3dabda24adb19da4917ca325dcdf7c4f20fea387dac6de7263540d4ddd41783"
+      },
+      {
+        "url": "https://texastoughwaste.com/service-areas/dumpster-rentals-aledo-tx/",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:27.543534+00:00",
+        "sha256": "031238a51485fea08a2dacbe440697e82ed59f5f0c304ec236c2282affd58d30"
+      }
+    ]
+  },
+  {
+    "company": "Boss Lady Boxes",
+    "email": "info@bossladyboxes.com",
+    "own_page": {
+      "url": "https://bossladyboxes.com/contact",
+      "final_url": "https://bossladyboxes.com/contact",
+      "status": 200,
+      "fetched_at": "2026-11-10T03:36:18.374339+00:00",
+      "sha256": "330dead2bcf400c4f9a6f511d06ec8dc36f196cb06f31b888a5df6ca806a4b55"
+    },
+    "exact_address_excerpt": "tions before scheduling? Call or text 817-900-2677 or email info@bossladyboxes.com . Boss Lady Boxes Dumpster rental and junk removal for homeowners, contractors,",
+    "DNS": {
+      "MX": {
+        "url": "https://dns.google/resolve?name=bossladyboxes.com&type=MX",
+        "fetched_at": "2026-11-10T03:38:41.267885+00:00",
+        "status": 200,
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": true,
+          "CD": false,
+          "Question": [
+            {
+              "name": "bossladyboxes.com.",
+              "type": 15
+            }
+          ],
+          "Answer": [
+            {
+              "name": "bossladyboxes.com.",
+              "type": 15,
+              "TTL": 3600,
+              "data": "0 bossladyboxes-com.mail.protection.outlook.com."
+            }
+          ],
+          "Comment": "Response from 97.74.105.26."
+        }
+      },
+      "A": {
+        "url": "https://dns.google/resolve?name=bossladyboxes.com&type=A",
+        "fetched_at": "2026-11-10T03:38:41.700195+00:00",
+        "status": 200,
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": true,
+          "CD": false,
+          "Question": [
+            {
+              "name": "bossladyboxes.com.",
+              "type": 1
+            }
+          ],
+          "Answer": [
+            {
+              "name": "bossladyboxes.com.",
+              "type": 1,
+              "TTL": 600,
+              "data": "198.185.159.144"
+            },
+            {
+              "name": "bossladyboxes.com.",
+              "type": 1,
+              "TTL": 600,
+              "data": "198.49.23.145"
+            },
+            {
+              "name": "bossladyboxes.com.",
+              "type": 1,
+              "TTL": 600,
+              "data": "198.185.159.145"
+            },
+            {
+              "name": "bossladyboxes.com.",
+              "type": 1,
+              "TTL": 600,
+              "data": "198.49.23.144"
+            }
+          ],
+          "Comment": "Response from 97.74.105.26."
+        }
+      },
+      "mx_hosts": [
+        "0 bossladyboxes-com.mail.protection.outlook.com."
+      ],
+      "forwarder": false
+    },
+    "site": {
+      "rn": "RN112542626",
+      "name": "CROWLEY MS 5",
+      "auth": "TXR1576ZQ",
+      "date": "2026-10-06",
+      "date_type": "TCEQ affiliation begin date",
+      "county": "TARRANT",
+      "address": "RUNS ALONG S HULEN ST, BETWEEN CORKTREE LN & GREYBERRY DR",
+      "city": "",
+      "operator": "PRIMORIS T&D SERVICES LLC",
+      "customer_type": "CORPORATION",
+      "filed_scope": "",
+      "type": "institutional / middle school",
+      "priority": 1,
+      "scope_notes": "Project classification from filed business/site name and scope, our read. No work-start or bid availability claim.",
+      "source": "https://data.texas.gov/resource/t34q-qzi3.json?%24where=ref_num_txt%3D%27RN112542626%27+AND+program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29&%24limit=1000",
+      "fetched_at": "2026-11-10T03:39:32.950498+00:00",
+      "sha256": "5f6c80c93760b7101b472139c4c33490e4f6650f1ed9e4e17817991772358a08",
+      "status": "eligible unused ACTIVE"
+    },
+    "source_pages": [
+      {
+        "url": "https://bossladyboxes.com/about",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:16.765215+00:00",
+        "sha256": "83c49db7f8cb8e0f104a558a40ab3983ffdefad9fd150b4b975e00cb7810aace"
+      },
+      {
+        "url": "https://bossladyboxes.com/",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:17.555792+00:00",
+        "sha256": "1b3fed813535e0793c9c3830f0822a28f1945d2886d8e160805dbd4854e83e10"
+      },
+      {
+        "url": "https://bossladyboxes.com/about",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:16.765215+00:00",
+        "sha256": "83c49db7f8cb8e0f104a558a40ab3983ffdefad9fd150b4b975e00cb7810aace"
+      },
+      {
+        "url": "https://bossladyboxes.com/about#page",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:17.958120+00:00",
+        "sha256": "83c49db7f8cb8e0f104a558a40ab3983ffdefad9fd150b4b975e00cb7810aace"
+      },
+      {
+        "url": "https://bossladyboxes.com/contact",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:18.374339+00:00",
+        "sha256": "330dead2bcf400c4f9a6f511d06ec8dc36f196cb06f31b888a5df6ca806a4b55"
+      },
+      {
+        "url": "https://bossladyboxes.com/dumpster-rental",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:18.826750+00:00",
+        "sha256": "0f846fb1661864f0b78e7aa740199ea208f4c43df48770fe55e94ac0311620e3"
+      },
+      {
+        "url": "https://bossladyboxes.com/dumpster-rental-alvarado-tx",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:19.355704+00:00",
+        "sha256": "7add3a1747992e66ba10c335b28f3092ef94e443bbdb339fec0e1954aa798efb"
+      }
+    ]
+  },
+  {
+    "company": "DFW Trailer Systems",
+    "email": "info@dfwtrailersystems.com",
+    "own_page": {
+      "url": "https://www.dfwtrailersystems.com/contact",
+      "final_url": "https://www.dfwtrailersystems.com/contact",
+      "status": 200,
+      "fetched_at": "2026-11-10T03:36:25.477797+00:00",
+      "sha256": "1a6b2feb6f6f4395d4c945451331959f939f494a3b2fcaac6032eddc005d5419"
+    },
+    "exact_address_excerpt": "gs & Events Disaster Relief FAQs Contact Us: (682) 231-0639 info@dfwtrailersystems.com Request Quote Serving DFW & North Texas Reliable restroom, freezer, and refrige",
+    "DNS": {
+      "MX": {
+        "url": "https://dns.google/resolve?name=dfwtrailersystems.com&type=MX",
+        "fetched_at": "2026-11-10T03:38:41.268944+00:00",
+        "status": 200,
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "dfwtrailersystems.com.",
+              "type": 15
+            }
+          ],
+          "Answer": [
+            {
+              "name": "dfwtrailersystems.com.",
+              "type": 15,
+              "TTL": 300,
+              "data": "1 smtp.google.com."
+            }
+          ],
+          "Comment": "Response from 216.239.36.109."
+        }
+      },
+      "A": {
+        "url": "https://dns.google/resolve?name=dfwtrailersystems.com&type=A",
+        "fetched_at": "2026-11-10T03:38:41.682499+00:00",
+        "status": 200,
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "dfwtrailersystems.com.",
+              "type": 1
+            }
+          ],
+          "Answer": [
+            {
+              "name": "dfwtrailersystems.com.",
+              "type": 1,
+              "TTL": 14400,
+              "data": "198.49.23.145"
+            },
+            {
+              "name": "dfwtrailersystems.com.",
+              "type": 1,
+              "TTL": 14400,
+              "data": "198.185.159.144"
+            },
+            {
+              "name": "dfwtrailersystems.com.",
+              "type": 1,
+              "TTL": 14400,
+              "data": "198.49.23.144"
+            },
+            {
+              "name": "dfwtrailersystems.com.",
+              "type": 1,
+              "TTL": 14400,
+              "data": "198.185.159.145"
+            }
+          ],
+          "Comment": "Response from 216.239.32.109."
+        }
+      },
+      "mx_hosts": [
+        "1 smtp.google.com."
+      ],
+      "forwarder": false
+    },
+    "site": {
+      "rn": "RN112548326",
+      "name": "EWING GMC CELINA",
+      "auth": "TXR1505ZT",
+      "date": "2026-10-15",
+      "date_type": "TCEQ affiliation begin date",
+      "county": "COLLIN",
+      "address": "NW OF S. DALLAS PKWY. AND PINTO CREEK DR.",
+      "city": "",
+      "operator": "STEVE WIER INC",
+      "customer_type": "CORPORATION",
+      "filed_scope": "",
+      "type": "commercial / auto dealership",
+      "priority": 1,
+      "scope_notes": "Project classification from filed business/site name and scope, our read. No work-start or bid availability claim.",
+      "source": "https://data.texas.gov/resource/t34q-qzi3.json?%24where=ref_num_txt%3D%27RN112548326%27+AND+program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29&%24limit=1000",
+      "fetched_at": "2026-11-10T03:39:32.951545+00:00",
+      "sha256": "32ba35eee799a5d8d7ffd5eca1ef5afcbc0719fa312fe1ae64864b80ce191e87",
+      "status": "eligible unused ACTIVE"
+    },
+    "source_pages": [
+      {
+        "url": "https://www.dfwtrailersystems.com/restroom-trailer-rentals-dfw",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:23.021536+00:00",
+        "sha256": "3ada001613d4e162c092af77e056e7f70b78a56a731cebd7dc477ecc4dbbe525"
+      },
+      {
+        "url": "https://dfwtrailersystems.com/",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:24.058362+00:00",
+        "sha256": "1cf82b91f7ad7c65cce0c75534b15f1ddafdbe96ec12b10e0b9456f26fd5c490"
+      },
+      {
+        "url": "https://www.dfwtrailersystems.com/contact",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:25.477797+00:00",
+        "sha256": "1a6b2feb6f6f4395d4c945451331959f939f494a3b2fcaac6032eddc005d5419"
+      }
+    ]
+  },
+  {
+    "company": "DFW Restroom Trailers",
+    "email": "jodi@dfw-restroomtrailers.com",
+    "own_page": {
+      "url": "https://www.dfw-restroomtrailers.com/contact",
+      "final_url": "https://www.dfw-restroomtrailers.com/contact",
+      "status": 200,
+      "fetched_at": "2026-11-10T03:36:25.636849+00:00",
+      "sha256": "1cb7db741668c61ae63939d331034509f522ae5735937ce908f2d614eb17038b"
+    },
+    "exact_address_excerpt": "troom Trailers. All rights reserved. Contact (214) 406-4610 jodi@dfw-restroomtrailers.com Quick Links HOME START HERE OUR RESTROOMS contact us DFW Restroom Trailers offe",
+    "DNS": {
+      "MX": {
+        "url": "https://dns.google/resolve?name=dfw-restroomtrailers.com&type=MX",
+        "fetched_at": "2026-11-10T03:38:41.269903+00:00",
+        "status": 200,
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "dfw-restroomtrailers.com.",
+              "type": 15
+            }
+          ],
+          "Answer": [
+            {
+              "name": "dfw-restroomtrailers.com.",
+              "type": 15,
+              "TTL": 3600,
+              "data": "1 smtp.google.com."
+            }
+          ],
+          "Comment": "Response from 216.239.38.106."
+        }
+      },
+      "A": {
+        "url": "https://dns.google/resolve?name=dfw-restroomtrailers.com&type=A",
+        "fetched_at": "2026-11-10T03:38:41.531651+00:00",
+        "status": 200,
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "dfw-restroomtrailers.com.",
+              "type": 1
+            }
+          ],
+          "Answer": [
+            {
+              "name": "dfw-restroomtrailers.com.",
+              "type": 1,
+              "TTL": 12700,
+              "data": "198.185.159.144"
+            },
+            {
+              "name": "dfw-restroomtrailers.com.",
+              "type": 1,
+              "TTL": 12700,
+              "data": "198.49.23.145"
+            },
+            {
+              "name": "dfw-restroomtrailers.com.",
+              "type": 1,
+              "TTL": 12700,
+              "data": "198.49.23.144"
+            },
+            {
+              "name": "dfw-restroomtrailers.com.",
+              "type": 1,
+              "TTL": 12700,
+              "data": "198.185.159.145"
+            }
+          ]
+        }
+      },
+      "mx_hosts": [
+        "1 smtp.google.com."
+      ],
+      "forwarder": false
+    },
+    "site": {
+      "rn": "RN112539952",
+      "name": "BRAKE MASTERS- TEEL 380 ADDITION",
+      "auth": "TXR1560ZP",
+      "date": "2026-10-01",
+      "date_type": "TCEQ affiliation begin date",
+      "county": "DENTON",
+      "address": "380 AND TEEL PARKWAY",
+      "city": "",
+      "operator": "LUCKY CONSTRUCTION INC",
+      "customer_type": "CORPORATION",
+      "filed_scope": "",
+      "type": "commercial / auto service",
+      "priority": 1,
+      "scope_notes": "Project classification from filed business/site name and scope, our read. No work-start or bid availability claim.",
+      "source": "https://data.texas.gov/resource/t34q-qzi3.json?%24where=ref_num_txt%3D%27RN112539952%27+AND+program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29&%24limit=1000",
+      "fetched_at": "2026-11-10T03:39:32.960682+00:00",
+      "sha256": "e520ff7f3bdd1cb51643643b86fc297c91d5514525d895db641cdbef8ec99926",
+      "status": "eligible unused ACTIVE"
+    },
+    "source_pages": [
+      {
+        "url": "https://www.dfw-restroomtrailers.com/construction-oil-gas-restroom-trailer-rentals-north-texas",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:22.987784+00:00",
+        "sha256": "7db9c7a83d07b321bfb4ac0110b2864a2b0b0f23733cc44177cbfd582914e02e"
+      },
+      {
+        "url": "https://dfw-restroomtrailers.com/",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:23.963104+00:00",
+        "sha256": "17557af9931b317b830f90f52f5d862bcbd54e156e216943971b5ea4123c160e"
+      },
+      {
+        "url": "https://www.dfw-restroomtrailers.com/construction-oil-gas-restroom-trailer-rentals-north-texas",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:22.987784+00:00",
+        "sha256": "7db9c7a83d07b321bfb4ac0110b2864a2b0b0f23733cc44177cbfd582914e02e"
+      },
+      {
+        "url": "https://www.dfw-restroomtrailers.com/construction-oil-gas-restroom-trailer-rentals-north-texas#page",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:24.918802+00:00",
+        "sha256": "7db9c7a83d07b321bfb4ac0110b2864a2b0b0f23733cc44177cbfd582914e02e"
+      },
+      {
+        "url": "https://www.dfw-restroomtrailers.com/contact",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:25.636849+00:00",
+        "sha256": "1cb7db741668c61ae63939d331034509f522ae5735937ce908f2d614eb17038b"
+      }
+    ]
+  },
+  {
+    "company": "MyCleanPotty",
+    "email": "info@mycleanpotty.com",
+    "own_page": {
+      "url": "https://www.mycleanpotty.com/contact.html",
+      "final_url": "https://www.mycleanpotty.com/contact.html",
+      "status": 200,
+      "fetched_at": "2026-11-10T03:36:26.008888+00:00",
+      "sha256": "80ae825f20edf39ed9e3670e6d4a87ae22904496fa7779d103c7ebad8d3cedc2"
+    },
+    "exact_address_excerpt": "e 682-422-4245 Fastest way to confirm availability \u2709\ufe0f Email info@mycleanpotty.com We reply within one business day \ud83d\udccd Service Area Dallas\u2013Fort Worth Metroplex All",
+    "DNS": {
+      "MX": {
+        "url": "https://dns.google/resolve?name=mycleanpotty.com&type=MX",
+        "fetched_at": "2026-11-10T03:38:41.276762+00:00",
+        "status": 200,
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "mycleanpotty.com.",
+              "type": 15
+            }
+          ],
+          "Answer": [
+            {
+              "name": "mycleanpotty.com.",
+              "type": 15,
+              "TTL": 3600,
+              "data": "5 alt2.aspmx.l.google.com."
+            },
+            {
+              "name": "mycleanpotty.com.",
+              "type": 15,
+              "TTL": 3600,
+              "data": "10 alt4.aspmx.l.google.com."
+            },
+            {
+              "name": "mycleanpotty.com.",
+              "type": 15,
+              "TTL": 3600,
+              "data": "1 aspmx.l.google.com."
+            },
+            {
+              "name": "mycleanpotty.com.",
+              "type": 15,
+              "TTL": 3600,
+              "data": "5 alt1.aspmx.l.google.com."
+            },
+            {
+              "name": "mycleanpotty.com.",
+              "type": 15,
+              "TTL": 3600,
+              "data": "10 alt3.aspmx.l.google.com."
+            }
+          ],
+          "Comment": "Response from 173.201.76.29."
+        }
+      },
+      "A": {
+        "url": "https://dns.google/resolve?name=mycleanpotty.com&type=A",
+        "fetched_at": "2026-11-10T03:38:41.606343+00:00",
+        "status": 200,
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "mycleanpotty.com.",
+              "type": 1
+            }
+          ],
+          "Answer": [
+            {
+              "name": "mycleanpotty.com.",
+              "type": 1,
+              "TTL": 600,
+              "data": "216.198.79.1"
+            }
+          ],
+          "Comment": "Response from 173.201.76.29."
+        }
+      },
+      "mx_hosts": [
+        "5 alt2.aspmx.l.google.com.",
+        "10 alt4.aspmx.l.google.com.",
+        "1 aspmx.l.google.com.",
+        "5 alt1.aspmx.l.google.com.",
+        "10 alt3.aspmx.l.google.com."
+      ],
+      "forwarder": false
+    },
+    "site": {
+      "rn": "RN112539978",
+      "name": "SOUTHGATE MULTI-FAMILY",
+      "auth": "TXR1562ZP",
+      "date": "2026-10-01",
+      "date_type": "TCEQ affiliation begin date",
+      "county": "COLLIN",
+      "address": "1200 S BUDDY HAYS BLVD",
+      "city": "ANNA",
+      "operator": "DRAKE TAPPE CONSTRUCTION LLC",
+      "customer_type": "CORPORATION",
+      "filed_scope": "MULTI-FAMILY HOUSING",
+      "type": "multifamily",
+      "priority": 2,
+      "scope_notes": "Project classification from filed business/site name and scope, our read. No work-start or bid availability claim.",
+      "source": "https://data.texas.gov/resource/t34q-qzi3.json?%24where=ref_num_txt%3D%27RN112539978%27+AND+program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29&%24limit=1000",
+      "fetched_at": "2026-11-10T03:39:32.957094+00:00",
+      "sha256": "c4a5f6f0512a16946027d725329a72adc84583cb2f1e661c677bc78524cda0ac",
+      "status": "eligible unused ACTIVE"
+    },
+    "source_pages": [
+      {
+        "url": "https://www.mycleanpotty.com/construction.html",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:24.089130+00:00",
+        "sha256": "383cca0566b5bf9b432a9eaf1d5e7706617e0ec1a814626ad41f25ca623fb5d5"
+      },
+      {
+        "url": "https://mycleanpotty.com/",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:24.476856+00:00",
+        "sha256": "e75905a1447d850cf6704abe95bc0b422c3063eb67da7ff4f2cc73c96d3ef735"
+      },
+      {
+        "url": "https://www.mycleanpotty.com/about.html",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:25.534566+00:00",
+        "sha256": "e18bbbd0aaf3987fad336fded78b65d0c74fba74b76fba93a919dc5348fdb5f9"
+      },
+      {
+        "url": "https://www.mycleanpotty.com/construction.html",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:24.089130+00:00",
+        "sha256": "383cca0566b5bf9b432a9eaf1d5e7706617e0ec1a814626ad41f25ca623fb5d5"
+      },
+      {
+        "url": "https://www.mycleanpotty.com/contact.html",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:26.008888+00:00",
+        "sha256": "80ae825f20edf39ed9e3670e6d4a87ae22904496fa7779d103c7ebad8d3cedc2"
+      },
+      {
+        "url": "https://www.mycleanpotty.com/service-area.html",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:26.352650+00:00",
+        "sha256": "5befaf7d7e034c25af613e82d7eb23317871c4ecc76c3ff61513389a050a6aec"
+      }
+    ]
+  },
+  {
+    "company": "Metroplex Restroom Trailers",
+    "email": "info@metroplexrestroomtrailers.com",
+    "own_page": {
+      "url": "https://www.metroplexrestroomtrailers.com/contact",
+      "final_url": "https://www.metroplexrestroomtrailers.com/contact",
+      "status": 200,
+      "fetched_at": "2026-11-10T03:36:27.295443+00:00",
+      "sha256": "f48302ab1348e527602e39c3f723dce795255095379cedf09844c581913d486c"
+    },
+    "exact_address_excerpt": "roplex and surrounding North Texas counties. (214) 302-5458 info@metroplexrestroomtrailers.com What Happens Next Once we receive your request, we\u2019ll review availability and f",
+    "DNS": {
+      "MX": {
+        "url": "https://dns.google/resolve?name=metroplexrestroomtrailers.com&type=MX",
+        "fetched_at": "2026-11-10T03:38:41.278098+00:00",
+        "status": 200,
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "metroplexrestroomtrailers.com.",
+              "type": 15
+            }
+          ],
+          "Answer": [
+            {
+              "name": "metroplexrestroomtrailers.com.",
+              "type": 15,
+              "TTL": 14400,
+              "data": "10 alt3.aspmx.l.google.com."
+            },
+            {
+              "name": "metroplexrestroomtrailers.com.",
+              "type": 15,
+              "TTL": 14400,
+              "data": "5 alt1.aspmx.l.google.com."
+            },
+            {
+              "name": "metroplexrestroomtrailers.com.",
+              "type": 15,
+              "TTL": 14400,
+              "data": "1 aspmx.l.google.com."
+            },
+            {
+              "name": "metroplexrestroomtrailers.com.",
+              "type": 15,
+              "TTL": 14400,
+              "data": "10 alt4.aspmx.l.google.com."
+            },
+            {
+              "name": "metroplexrestroomtrailers.com.",
+              "type": 15,
+              "TTL": 14400,
+              "data": "5 alt2.aspmx.l.google.com."
+            }
+          ],
+          "Comment": "Response from 216.239.34.110."
+        }
+      },
+      "A": {
+        "url": "https://dns.google/resolve?name=metroplexrestroomtrailers.com&type=A",
+        "fetched_at": "2026-11-10T03:38:41.652381+00:00",
+        "status": 200,
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "metroplexrestroomtrailers.com.",
+              "type": 1
+            }
+          ],
+          "Answer": [
+            {
+              "name": "metroplexrestroomtrailers.com.",
+              "type": 1,
+              "TTL": 14400,
+              "data": "198.185.159.144"
+            },
+            {
+              "name": "metroplexrestroomtrailers.com.",
+              "type": 1,
+              "TTL": 14400,
+              "data": "198.49.23.144"
+            },
+            {
+              "name": "metroplexrestroomtrailers.com.",
+              "type": 1,
+              "TTL": 14400,
+              "data": "198.49.23.145"
+            },
+            {
+              "name": "metroplexrestroomtrailers.com.",
+              "type": 1,
+              "TTL": 14400,
+              "data": "198.185.159.145"
+            }
+          ],
+          "Comment": "Response from 216.239.38.110."
+        }
+      },
+      "mx_hosts": [
+        "10 alt3.aspmx.l.google.com.",
+        "5 alt1.aspmx.l.google.com.",
+        "1 aspmx.l.google.com.",
+        "10 alt4.aspmx.l.google.com.",
+        "5 alt2.aspmx.l.google.com."
+      ],
+      "forwarder": false
+    },
+    "site": {
+      "rn": "RN112542006",
+      "name": "HALL PARK B3",
+      "auth": "TXR1540ZQ",
+      "date": "2026-10-05",
+      "date_type": "TCEQ affiliation begin date",
+      "county": "COLLIN",
+      "address": "INTERNET BLVD. AND NETWORK BLVD.",
+      "city": "",
+      "operator": "LMF CONSTRUCTION LLC",
+      "customer_type": "ORGANIZATION",
+      "filed_scope": "",
+      "type": "commercial / office building",
+      "priority": 1,
+      "scope_notes": "Project classification from filed business/site name and scope, our read. No work-start or bid availability claim.",
+      "source": "https://data.texas.gov/resource/t34q-qzi3.json?%24where=ref_num_txt%3D%27RN112542006%27+AND+program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29&%24limit=1000",
+      "fetched_at": "2026-11-10T03:39:32.956668+00:00",
+      "sha256": "096388b2994684312a75ca68ea18f2119fe7815506d9cb81195767fb2f9a2f71",
+      "status": "eligible unused ACTIVE"
+    },
+    "source_pages": [
+      {
+        "url": "https://www.metroplexrestroomtrailers.com/",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:23.346568+00:00",
+        "sha256": "7f5b5b76d8e256845ddcaa9a08f27d5d75fd7c86500ae0a8b33f2c2cc60b9f28"
+      },
+      {
+        "url": "https://metroplexrestroomtrailers.com/",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:24.434379+00:00",
+        "sha256": "7f5b5b76d8e256845ddcaa9a08f27d5d75fd7c86500ae0a8b33f2c2cc60b9f28"
+      },
+      {
+        "url": "https://www.metroplexrestroomtrailers.com/about-us-restroom-rental-north-texas",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:25.717862+00:00",
+        "sha256": "049ef491e358b13dd12e2ffd98377101f459ee55682dbbafa21b426e0197aa18"
+      },
+      {
+        "url": "https://www.metroplexrestroomtrailers.com/construction-restroom-rentals-north-texas",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:26.589100+00:00",
+        "sha256": "a7ef51091c4e6834efbdbd307b43e99d7ad284788203f2e8f980f32d11679d3f"
+      },
+      {
+        "url": "https://www.metroplexrestroomtrailers.com/contact",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:27.295443+00:00",
+        "sha256": "f48302ab1348e527602e39c3f723dce795255095379cedf09844c581913d486c"
+      }
+    ]
+  },
+  {
+    "company": "Iron Man Roll Offs",
+    "email": "ironmanrolloffs7@gmail.com",
+    "own_page": {
+      "url": "https://ironmanrolloffs.com/contact-us",
+      "final_url": "https://ironmanrolloffs.com/contact-us/",
+      "status": 200,
+      "fetched_at": "2026-11-10T03:36:21.473902+00:00",
+      "sha256": "3e6e3366fda23ab402b25045b666240de0ccf3b5ad108cf555f2b9c96c5242de"
+    },
+    "exact_address_excerpt": "ing the following contact details. Phone 469-314-0248 Email ironmanrolloffs7@gmail.com Location 2235 Poetry Rd, Royse City, TX 75189, United States of America First N",
+    "DNS": {
+      "MX": {
+        "url": "https://dns.google/resolve?name=gmail.com&type=MX",
+        "fetched_at": "2026-11-10T02:01:35.583232+00:00",
+        "status": 200,
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "gmail.com.",
+              "type": 15
+            }
+          ],
+          "Answer": [
+            {
+              "name": "gmail.com.",
+              "type": 15,
+              "TTL": 1870,
+              "data": "40 alt4.gmail-smtp-in.l.google.com."
+            },
+            {
+              "name": "gmail.com.",
+              "type": 15,
+              "TTL": 1870,
+              "data": "5 gmail-smtp-in.l.google.com."
+            },
+            {
+              "name": "gmail.com.",
+              "type": 15,
+              "TTL": 1870,
+              "data": "20 alt2.gmail-smtp-in.l.google.com."
+            },
+            {
+              "name": "gmail.com.",
+              "type": 15,
+              "TTL": 1870,
+              "data": "10 alt1.gmail-smtp-in.l.google.com."
+            },
+            {
+              "name": "gmail.com.",
+              "type": 15,
+              "TTL": 1870,
+              "data": "30 alt3.gmail-smtp-in.l.google.com."
+            }
+          ]
+        }
+      },
+      "A": {
+        "url": "https://dns.google/resolve?name=gmail.com&type=A",
+        "fetched_at": "2026-11-10T02:01:35.964192+00:00",
+        "status": 200,
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "gmail.com.",
+              "type": 1
+            }
+          ],
+          "Answer": [
+            {
+              "name": "gmail.com.",
+              "type": 1,
+              "TTL": 300,
+              "data": "142.251.218.197"
+            }
+          ],
+          "Comment": "Response from 216.239.38.10."
+        }
+      },
+      "mx_hosts": [
+        "40 alt4.gmail-smtp-in.l.google.com.",
+        "5 gmail-smtp-in.l.google.com.",
+        "20 alt2.gmail-smtp-in.l.google.com.",
+        "10 alt1.gmail-smtp-in.l.google.com.",
+        "30 alt3.gmail-smtp-in.l.google.com."
+      ],
+      "forwarder": false
+    },
+    "site": {
+      "rn": "RN112539994",
+      "name": "DENNARDS WESTERN WEAR",
+      "auth": "TXR1564ZP",
+      "date": "2026-10-01",
+      "date_type": "TCEQ affiliation begin date",
+      "county": "COLLIN",
+      "address": "500 FEET NORTH OF CHERRYWOOD ST AND S OKLAHOMA DR",
+      "city": "",
+      "operator": "FA PEINADO LLC",
+      "customer_type": "CORPORATION",
+      "filed_scope": "",
+      "type": "commercial / retail",
+      "priority": 1,
+      "scope_notes": "Project classification from filed business/site name and scope, our read. No work-start or bid availability claim.",
+      "source": "https://data.texas.gov/resource/t34q-qzi3.json?%24where=ref_num_txt%3D%27RN112539994%27+AND+program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29&%24limit=1000",
+      "fetched_at": "2026-11-10T03:39:32.961467+00:00",
+      "sha256": "2e63af05eeb6f64477411d0f1a2ee5f9f256e10c2254f0b5eec527fed68bb860",
+      "status": "eligible unused ACTIVE"
+    },
+    "source_pages": [
+      {
+        "url": "https://ironmanrolloffs.com/service-areas/",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:18.851057+00:00",
+        "sha256": "b00fa15b3e6c3521d558f2218d843040b50b319dc5b926927f241a182362a083"
+      },
+      {
+        "url": "https://ironmanrolloffs.com/",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:19.899821+00:00",
+        "sha256": "2f20c9789de86e59d071d6d11ac092d28912fab2067dbde210c251c910e54cf2"
+      },
+      {
+        "url": "https://ironmanrolloffs.com/about-us/",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:20.815964+00:00",
+        "sha256": "7a451c27e40b78c6c0bf3cd61678557c83fabfe9ce046636fab9ce9c60525bee"
+      },
+      {
+        "url": "https://ironmanrolloffs.com/contact-us",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:21.473902+00:00",
+        "sha256": "3e6e3366fda23ab402b25045b666240de0ccf3b5ad108cf555f2b9c96c5242de"
+      },
+      {
+        "url": "https://ironmanrolloffs.com/contact-us/",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:23.733860+00:00",
+        "sha256": "3e6e3366fda23ab402b25045b666240de0ccf3b5ad108cf555f2b9c96c5242de"
+      },
+      {
+        "url": "https://ironmanrolloffs.com/dumpster-rental",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:24.393561+00:00",
+        "sha256": "2c85904ec64b5508e3633b55c4248acf88dafbadb9925e01a19ffd9824f76e13"
+      },
+      {
+        "url": "https://ironmanrolloffs.com/residential-services/dumpster-rental/",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:25.867456+00:00",
+        "sha256": "2c85904ec64b5508e3633b55c4248acf88dafbadb9925e01a19ffd9824f76e13"
+      }
+    ]
+  },
+  {
+    "company": "Home Brewed Rolloffs",
+    "email": "hbromanagement@gmail.com",
+    "own_page": {
+      "url": "https://hbrolloffs.com/contact-us/",
+      "final_url": "https://hbrolloffs.com/contact-us/",
+      "status": 200,
+      "fetched_at": "2026-11-10T03:36:20.661846+00:00",
+      "sha256": "11d6b958962339495e4dee66319bd73849534cf029740972a75313de0d5b962f"
+    },
+    "exact_address_excerpt": " 8 = Submit Contact Info \ue090 Call 817-846-1234 \ue010 Get in Touch hbromanagement@gmail.com Follow Call: (817) 846-1234 Rolloff Dumpster Service beyond your expectations! ",
+    "DNS": {
+      "MX": {
+        "url": "https://dns.google/resolve?name=gmail.com&type=MX",
+        "fetched_at": "2026-11-10T02:01:35.583232+00:00",
+        "status": 200,
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "gmail.com.",
+              "type": 15
+            }
+          ],
+          "Answer": [
+            {
+              "name": "gmail.com.",
+              "type": 15,
+              "TTL": 1870,
+              "data": "40 alt4.gmail-smtp-in.l.google.com."
+            },
+            {
+              "name": "gmail.com.",
+              "type": 15,
+              "TTL": 1870,
+              "data": "5 gmail-smtp-in.l.google.com."
+            },
+            {
+              "name": "gmail.com.",
+              "type": 15,
+              "TTL": 1870,
+              "data": "20 alt2.gmail-smtp-in.l.google.com."
+            },
+            {
+              "name": "gmail.com.",
+              "type": 15,
+              "TTL": 1870,
+              "data": "10 alt1.gmail-smtp-in.l.google.com."
+            },
+            {
+              "name": "gmail.com.",
+              "type": 15,
+              "TTL": 1870,
+              "data": "30 alt3.gmail-smtp-in.l.google.com."
+            }
+          ]
+        }
+      },
+      "A": {
+        "url": "https://dns.google/resolve?name=gmail.com&type=A",
+        "fetched_at": "2026-11-10T02:01:35.964192+00:00",
+        "status": 200,
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "gmail.com.",
+              "type": 1
+            }
+          ],
+          "Answer": [
+            {
+              "name": "gmail.com.",
+              "type": 1,
+              "TTL": 300,
+              "data": "142.251.218.197"
+            }
+          ],
+          "Comment": "Response from 216.239.38.10."
+        }
+      },
+      "mx_hosts": [
+        "40 alt4.gmail-smtp-in.l.google.com.",
+        "5 gmail-smtp-in.l.google.com.",
+        "20 alt2.gmail-smtp-in.l.google.com.",
+        "10 alt1.gmail-smtp-in.l.google.com.",
+        "30 alt3.gmail-smtp-in.l.google.com."
+      ],
+      "forwarder": false
+    },
+    "site": {
+      "rn": "RN112543442",
+      "name": "GLENN VILLAGE",
+      "auth": "TXR1599ZQ",
+      "date": "2026-10-06",
+      "date_type": "TCEQ affiliation begin date",
+      "county": "TARRANT",
+      "address": "1200 N INDUSTRIAL BLVD",
+      "city": "EULESS",
+      "operator": "3S CONTRACTING LLC",
+      "customer_type": "CORPORATION",
+      "filed_scope": "",
+      "type": "commercial / development",
+      "priority": 1,
+      "scope_notes": "Project classification from filed business/site name and scope, our read. No work-start or bid availability claim.",
+      "source": "https://data.texas.gov/resource/t34q-qzi3.json?%24where=ref_num_txt%3D%27RN112543442%27+AND+program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29&%24limit=1000",
+      "fetched_at": "2026-11-10T03:39:33.597095+00:00",
+      "sha256": "0b1f1c29f2595e683375237ce21d0fb8246c75d5e90e73d74a6c04ad0faf7489",
+      "status": "eligible unused ACTIVE"
+    },
+    "source_pages": [
+      {
+        "url": "https://hbrolloffs.com/service-areas/",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:18.653734+00:00",
+        "sha256": "761b6c1f08d199085c6343a995de09a7b041ef42c021e6bbebc12e8880bb0e80"
+      },
+      {
+        "url": "https://hbrolloffs.com/",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:19.224395+00:00",
+        "sha256": "7cd10e3d37c27b9817398d91dc8bc99b8b9c9c326b42dddf9e0b1b1cc63c189f"
+      },
+      {
+        "url": "https://hbrolloffs.com/Contact-Us",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:19.521326+00:00",
+        "sha256": "df431f045cb39df2339fee8c80fa5ff439feb0592c8dffadca76e9e0968da710"
+      },
+      {
+        "url": "https://hbrolloffs.com/contact-us/",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:20.661846+00:00",
+        "sha256": "11d6b958962339495e4dee66319bd73849534cf029740972a75313de0d5b962f"
+      },
+      {
+        "url": "https://hbrolloffs.com/contactus/",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:20.986992+00:00",
+        "sha256": "555900a9465725d6abde00ae6c6d25f3b43b8a043d462ec798c04cf5771f549f"
+      },
+      {
+        "url": "https://hbrolloffs.com/service-areas/",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:18.653734+00:00",
+        "sha256": "761b6c1f08d199085c6343a995de09a7b041ef42c021e6bbebc12e8880bb0e80"
+      }
+    ]
+  },
+  {
+    "company": "Wildcat Dumpster Rentals",
+    "email": "wildcatdumps@gmail.com",
+    "own_page": {
+      "url": "https://www.wildcatdumps.com/",
+      "final_url": "https://www.wildcatdumps.com/",
+      "status": 200,
+      "fetched_at": "2026-11-10T03:36:27.716296+00:00",
+      "sha256": "1786e07357c5d5268d0469efba007ae9ee7d620ec3568cca9b7996f5ab1bd7a5"
+    },
+    "exact_address_excerpt": "wildcatdumps@gmail.com (public mailto/decoded address)",
+    "DNS": {
+      "MX": {
+        "url": "https://dns.google/resolve?name=gmail.com&type=MX",
+        "fetched_at": "2026-11-10T02:01:35.583232+00:00",
+        "status": 200,
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "gmail.com.",
+              "type": 15
+            }
+          ],
+          "Answer": [
+            {
+              "name": "gmail.com.",
+              "type": 15,
+              "TTL": 1870,
+              "data": "40 alt4.gmail-smtp-in.l.google.com."
+            },
+            {
+              "name": "gmail.com.",
+              "type": 15,
+              "TTL": 1870,
+              "data": "5 gmail-smtp-in.l.google.com."
+            },
+            {
+              "name": "gmail.com.",
+              "type": 15,
+              "TTL": 1870,
+              "data": "20 alt2.gmail-smtp-in.l.google.com."
+            },
+            {
+              "name": "gmail.com.",
+              "type": 15,
+              "TTL": 1870,
+              "data": "10 alt1.gmail-smtp-in.l.google.com."
+            },
+            {
+              "name": "gmail.com.",
+              "type": 15,
+              "TTL": 1870,
+              "data": "30 alt3.gmail-smtp-in.l.google.com."
+            }
+          ]
+        }
+      },
+      "A": {
+        "url": "https://dns.google/resolve?name=gmail.com&type=A",
+        "fetched_at": "2026-11-10T02:01:35.964192+00:00",
+        "status": 200,
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "gmail.com.",
+              "type": 1
+            }
+          ],
+          "Answer": [
+            {
+              "name": "gmail.com.",
+              "type": 1,
+              "TTL": 300,
+              "data": "142.251.218.197"
+            }
+          ],
+          "Comment": "Response from 216.239.38.10."
+        }
+      },
+      "mx_hosts": [
+        "40 alt4.gmail-smtp-in.l.google.com.",
+        "5 gmail-smtp-in.l.google.com.",
+        "20 alt2.gmail-smtp-in.l.google.com.",
+        "10 alt1.gmail-smtp-in.l.google.com.",
+        "30 alt3.gmail-smtp-in.l.google.com."
+      ],
+      "forwarder": false
+    },
+    "site": {
+      "rn": "RN112321260",
+      "name": "CHURCH AT HEMPHILL",
+      "auth": "TXR1504ZO",
+      "date": "2026-09-25",
+      "date_type": "TCEQ affiliation begin date",
+      "county": "TARRANT",
+      "address": "NORTH OF THE INTERSECTION OF ARCHBURY ROAD AND HEMPHILL STREET",
+      "city": "",
+      "operator": "ATLANTIC CONSTRUCTION GROUP LLC",
+      "customer_type": "CORPORATION",
+      "filed_scope": "",
+      "type": "institutional / church",
+      "priority": 1,
+      "scope_notes": "Project classification from filed business/site name and scope, our read. No work-start or bid availability claim.",
+      "source": "https://data.texas.gov/resource/t34q-qzi3.json?%24where=ref_num_txt%3D%27RN112321260%27+AND+program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29&%24limit=1000",
+      "fetched_at": "2026-11-10T03:39:33.630775+00:00",
+      "sha256": "bb13343e8603215f430f7ef492495d5aeed70d5136a88e87954d1156aacc7bdb",
+      "status": "eligible unused ACTIVE"
+    },
+    "source_pages": [
+      {
+        "url": "https://www.wildcatdumps.com/",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:27.716296+00:00",
+        "sha256": "1786e07357c5d5268d0469efba007ae9ee7d620ec3568cca9b7996f5ab1bd7a5"
+      },
+      {
+        "url": "https://wildcatdumps.com/",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:29.827616+00:00",
+        "sha256": "1786e07357c5d5268d0469efba007ae9ee7d620ec3568cca9b7996f5ab1bd7a5"
+      },
+      {
+        "url": "https://www.wildcatdumps.com/20-yard-dumpster-rentals",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:30.807642+00:00",
+        "sha256": "0b2e60299c4165608a6e23fa9cc232974b97357762841912eb7ea845d14a5986"
+      },
+      {
+        "url": "https://www.wildcatdumps.com/30-yard-dumpster-rentals",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:31.821747+00:00",
+        "sha256": "87c9ba4118e87d5ff034ad91e0b6ebc09c470a1226b38659450a45650503bf30"
+      },
+      {
+        "url": "https://www.wildcatdumps.com/commercial-dumpster-rental-explained",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:32.787556+00:00",
+        "sha256": "e0088ca26e9c367bd95c6d07e9c26602e1ccd50023ba4f4dee99ce216cee6eca"
+      },
+      {
+        "url": "https://www.wildcatdumps.com/concrete-dumpster-rental",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:33.949806+00:00",
+        "sha256": "0d815bc16e0c32619947afdbbf072cd8b2851f08f733998776f7659d2bfaede9"
+      },
+      {
+        "url": "https://www.wildcatdumps.com/construction-dumpster-rental-explained",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:35.346761+00:00",
+        "sha256": "8ebe0b8a1306f36e8a751d0dcf54a1ada7a544244bd06e143e6716348c56636b"
+      }
+    ]
+  },
+  {
+    "company": "Fort Worth Dumpster & Disposal LLC",
+    "email": "sales@fortworth-dumpster.com",
+    "own_page": {
+      "url": "https://fortworth-dumpster.com/",
+      "final_url": "https://fortworth-dumpster.com/",
+      "status": 200,
+      "fetched_at": "2026-11-10T03:36:17.757241+00:00",
+      "sha256": "8627cc44c4c53fe4e5739553b44783ec03bc72efb5b46444263152d5f615006e"
+    },
+    "exact_address_excerpt": " Pricing Service Area About Contact Contact Us 214-444-8074 sales@fortworth-dumpster.com Mon\u2013Sat: 8:00 AM \u2013 5:00 PM Serving Fort Worth & surrounding areas (35-mile radi",
+    "DNS": {
+      "MX": {
+        "url": "https://dns.google/resolve?name=fortworth-dumpster.com&type=MX",
+        "fetched_at": "2026-11-10T03:38:41.287302+00:00",
+        "status": 200,
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "fortworth-dumpster.com.",
+              "type": 15
+            }
+          ],
+          "Answer": [
+            {
+              "name": "fortworth-dumpster.com.",
+              "type": 15,
+              "TTL": 3600,
+              "data": "1 smtp.google.com."
+            }
+          ],
+          "Comment": "Response from 216.239.38.107."
+        }
+      },
+      "A": {
+        "url": "https://dns.google/resolve?name=fortworth-dumpster.com&type=A",
+        "fetched_at": "2026-11-10T03:38:41.525584+00:00",
+        "status": 200,
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "fortworth-dumpster.com.",
+              "type": 1
+            }
+          ],
+          "Answer": [
+            {
+              "name": "fortworth-dumpster.com.",
+              "type": 1,
+              "TTL": 1800,
+              "data": "35.209.154.159"
+            }
+          ],
+          "Comment": "Response from 216.239.38.107."
+        }
+      },
+      "mx_hosts": [
+        "1 smtp.google.com."
+      ],
+      "forwarder": false
+    },
+    "site": {
+      "rn": "RN112537519",
+      "name": "TEXAS HEALTH HUGULEY-FT WORTH TX",
+      "auth": "TXR1543ZO",
+      "date": "2026-09-28",
+      "date_type": "TCEQ affiliation begin date",
+      "county": "TARRANT",
+      "address": "HUGULEY BLVD & MEDPARK DR",
+      "city": "",
+      "operator": "ROCKPORT CONSTRUCTION GROUP LLC",
+      "customer_type": "CORPORATION",
+      "filed_scope": "",
+      "type": "institutional / hospital",
+      "priority": 1,
+      "scope_notes": "Project classification from filed business/site name and scope, our read. No work-start or bid availability claim.",
+      "source": "https://data.texas.gov/resource/t34q-qzi3.json?%24where=ref_num_txt%3D%27RN112537519%27+AND+program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29&%24limit=1000",
+      "fetched_at": "2026-11-10T03:39:33.615904+00:00",
+      "sha256": "5a14e5f17dfda45fe3418e6ffc8a4605c3edeee7f8330286388f0f4f46d8b3bb",
+      "status": "eligible unused ACTIVE"
+    },
+    "source_pages": [
+      {
+        "url": "https://fortworth-dumpster.com/",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:17.757241+00:00",
+        "sha256": "8627cc44c4c53fe4e5739553b44783ec03bc72efb5b46444263152d5f615006e"
+      },
+      {
+        "url": "https://fortworth-dumpster.com",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:19.859560+00:00",
+        "sha256": "8627cc44c4c53fe4e5739553b44783ec03bc72efb5b46444263152d5f615006e"
+      },
+      {
+        "url": "https://fortworth-dumpster.com/",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:17.757241+00:00",
+        "sha256": "8627cc44c4c53fe4e5739553b44783ec03bc72efb5b46444263152d5f615006e"
+      },
+      {
+        "url": "https://fortworth-dumpster.com/#content",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:20.223350+00:00",
+        "sha256": "8627cc44c4c53fe4e5739553b44783ec03bc72efb5b46444263152d5f615006e"
+      },
+      {
+        "url": "https://fortworth-dumpster.com/about",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:20.909389+00:00",
+        "sha256": "6085a67b6599eb5666455162ad0a1841225bcff3ddcbf504f9e08fb134a59ca7"
+      },
+      {
+        "url": "https://fortworth-dumpster.com/about/",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:21.687279+00:00",
+        "sha256": "6085a67b6599eb5666455162ad0a1841225bcff3ddcbf504f9e08fb134a59ca7"
+      }
+    ]
+  },
+  {
+    "company": "TJ Rolloffs",
+    "email": "scott@tjservicestx.com",
+    "own_page": {
+      "url": "https://tjrolloffs.com/meet-the-team/",
+      "final_url": "https://tjrolloffs.com/meet-the-team/",
+      "status": 200,
+      "fetched_at": "2026-11-10T03:36:21.663691+00:00",
+      "sha256": "b32cad3b5ab451b348e4b7cbf99c9c62bb19924d0523cdc89aa1bec1cc075342"
+    },
+    "exact_address_excerpt": "\u2013 tim@tjservicestx.com Jack \u2013 jack@tjservicestx.com Scott \u2013 scott@tjservicestx.com Jessica \u2013 jdoss@tjservicestx.com Wayne \u2013 wayne@tjservicestx.com Front Loads: (8",
+    "DNS": {
+      "MX": {
+        "url": "https://dns.google/resolve?name=tjservicestx.com&type=MX",
+        "fetched_at": "2026-11-10T03:38:41.625225+00:00",
+        "status": 200,
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "tjservicestx.com.",
+              "type": 15
+            }
+          ],
+          "Answer": [
+            {
+              "name": "tjservicestx.com.",
+              "type": 15,
+              "TTL": 3600,
+              "data": "0 tjservicestx-com.mail.protection.outlook.com."
+            }
+          ],
+          "Comment": "Response from 173.201.76.9."
+        }
+      },
+      "A": {
+        "url": "https://dns.google/resolve?name=tjservicestx.com&type=A",
+        "fetched_at": "2026-11-10T03:38:41.771807+00:00",
+        "status": 200,
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "tjservicestx.com.",
+              "type": 1
+            }
+          ],
+          "Answer": [
+            {
+              "name": "tjservicestx.com.",
+              "type": 1,
+              "TTL": 3600,
+              "data": "3.33.251.168"
+            },
+            {
+              "name": "tjservicestx.com.",
+              "type": 1,
+              "TTL": 3600,
+              "data": "15.197.225.128"
+            }
+          ],
+          "Comment": "Response from 173.201.76.9."
+        }
+      },
+      "mx_hosts": [
+        "0 tjservicestx-com.mail.protection.outlook.com."
+      ],
+      "forwarder": false
+    },
+    "site": {
+      "rn": "RN112541479",
+      "name": "TRAILSTONE TOWNHOME",
+      "auth": "TXR1511ZQ",
+      "date": "2026-10-05",
+      "date_type": "TCEQ affiliation begin date",
+      "county": "COLLIN",
+      "address": "2550 N GLENVILLE DR.",
+      "city": "",
+      "operator": "HLC BUILDERS 2 LLC",
+      "customer_type": "ORGANIZATION",
+      "filed_scope": "",
+      "type": "multifamily / townhomes",
+      "priority": 2,
+      "scope_notes": "Project classification from filed business/site name and scope, our read. No work-start or bid availability claim.",
+      "source": "https://data.texas.gov/resource/t34q-qzi3.json?%24where=ref_num_txt%3D%27RN112541479%27+AND+program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29&%24limit=1000",
+      "fetched_at": "2026-11-10T03:40:16.983904+00:00",
+      "sha256": "3410f85287f249861c6fe36929b98310c6f77f9da52f6336b7c0e301418edb39",
+      "status": "eligible unused ACTIVE"
+    },
+    "source_pages": [
+      {
+        "url": "https://tjrolloffs.com/meet-the-team/",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:21.663691+00:00",
+        "sha256": "b32cad3b5ab451b348e4b7cbf99c9c62bb19924d0523cdc89aa1bec1cc075342"
+      },
+      {
+        "url": "https://tjrolloffs.com/",
+        "status": 200,
+        "fetched_at": "2026-11-10T01:49:24.708133+00:00",
+        "sha256": "21c50fd7bc470f07f2b79e61e93b61c2670280dab17b441f57465adab53621c6"
+      },
+      {
+        "url": "https://tjrolloffs.com/#contact-us",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:22.167944+00:00",
+        "sha256": "21c50fd7bc470f07f2b79e61e93b61c2670280dab17b441f57465adab53621c6"
+      },
+      {
+        "url": "https://tjrolloffs.com/about/",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:22.457412+00:00",
+        "sha256": "40d031eaffafdd812bb5dbd346b6659c936b313e20482103bd3acf8972d01479"
+      },
+      {
+        "url": "https://tjrolloffs.com/commercial-dumpster/",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:22.653631+00:00",
+        "sha256": "60e27c263defed1eeafac2680ff442179f4c9de0e0c8f22a3bcee6138420a2be"
+      },
+      {
+        "url": "https://tjrolloffs.com/commercial-dumpster/#3-yard",
+        "status": 200,
+        "fetched_at": "2026-11-10T01:49:26.306196+00:00",
+        "sha256": "60e27c263defed1eeafac2680ff442179f4c9de0e0c8f22a3bcee6138420a2be"
+      },
+      {
+        "url": "https://tjrolloffs.com/commercial-dumpster/#4-yard",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:22.817904+00:00",
+        "sha256": "60e27c263defed1eeafac2680ff442179f4c9de0e0c8f22a3bcee6138420a2be"
+      }
+    ]
+  },
+  {
+    "company": "Esmian Inc.",
+    "email": "esmian.inc@gmail.com",
+    "own_page": {
+      "url": "https://esmianwasteservices.com/",
+      "final_url": "https://esmianwasteservices.com/",
+      "status": 200,
+      "fetched_at": "2026-11-10T03:36:16.782989+00:00",
+      "sha256": "f134aeae2b9153d754d0a863e49abbcb20a4e29a78828e4699c2011c0c340758"
+    },
+    "exact_address_excerpt": "lly Owned | Contractor-Friendly | Woman-Managed Esmian Inc. esmian.inc@gmail.com 9729976589 \ud83d\udccdServing Irving, TX and the greater DFW area. Hours Open today 09:00",
+    "DNS": {
+      "MX": {
+        "url": "https://dns.google/resolve?name=gmail.com&type=MX",
+        "fetched_at": "2026-11-10T02:01:35.583232+00:00",
+        "status": 200,
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "gmail.com.",
+              "type": 15
+            }
+          ],
+          "Answer": [
+            {
+              "name": "gmail.com.",
+              "type": 15,
+              "TTL": 1870,
+              "data": "40 alt4.gmail-smtp-in.l.google.com."
+            },
+            {
+              "name": "gmail.com.",
+              "type": 15,
+              "TTL": 1870,
+              "data": "5 gmail-smtp-in.l.google.com."
+            },
+            {
+              "name": "gmail.com.",
+              "type": 15,
+              "TTL": 1870,
+              "data": "20 alt2.gmail-smtp-in.l.google.com."
+            },
+            {
+              "name": "gmail.com.",
+              "type": 15,
+              "TTL": 1870,
+              "data": "10 alt1.gmail-smtp-in.l.google.com."
+            },
+            {
+              "name": "gmail.com.",
+              "type": 15,
+              "TTL": 1870,
+              "data": "30 alt3.gmail-smtp-in.l.google.com."
+            }
+          ]
+        }
+      },
+      "A": {
+        "url": "https://dns.google/resolve?name=gmail.com&type=A",
+        "fetched_at": "2026-11-10T02:01:35.964192+00:00",
+        "status": 200,
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "gmail.com.",
+              "type": 1
+            }
+          ],
+          "Answer": [
+            {
+              "name": "gmail.com.",
+              "type": 1,
+              "TTL": 300,
+              "data": "142.251.218.197"
+            }
+          ],
+          "Comment": "Response from 216.239.38.10."
+        }
+      },
+      "mx_hosts": [
+        "40 alt4.gmail-smtp-in.l.google.com.",
+        "5 gmail-smtp-in.l.google.com.",
+        "20 alt2.gmail-smtp-in.l.google.com.",
+        "10 alt1.gmail-smtp-in.l.google.com.",
+        "30 alt3.gmail-smtp-in.l.google.com."
+      ],
+      "forwarder": false
+    },
+    "site": {
+      "rn": "RN112542147",
+      "name": "NORTHPORT 11",
+      "auth": "TXR1553ZQ",
+      "date": "2026-10-05",
+      "date_type": "TCEQ affiliation begin date",
+      "county": "DENTON",
+      "address": "NORTH OF THE INTERSECTION OF VICTORY CIRCLE AND MCELREATH AVENUE",
+      "city": "",
+      "operator": "HILLWOOD ALLIANCE SERVICES LLC",
+      "customer_type": "CORPORATION",
+      "filed_scope": "",
+      "type": "industrial / business park",
+      "priority": 1,
+      "scope_notes": "Project classification from filed business/site name and scope, our read. No work-start or bid availability claim.",
+      "source": "https://data.texas.gov/resource/t34q-qzi3.json?%24where=ref_num_txt%3D%27RN112542147%27+AND+program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29&%24limit=1000",
+      "fetched_at": "2026-11-10T03:39:33.739973+00:00",
+      "sha256": "b82f6546ead747c6f39d7e50f6b3d90800d01179c59efde506580b8a17056850",
+      "status": "eligible unused ACTIVE"
+    },
+    "source_pages": [
+      {
+        "url": "https://esmianwasteservices.com/",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:16.782989+00:00",
+        "sha256": "f134aeae2b9153d754d0a863e49abbcb20a4e29a78828e4699c2011c0c340758"
+      }
+    ]
+  },
+  {
+    "company": "Dump Dem Loads LLC",
+    "email": "dumpdemloadsllc@gmail.com",
+    "own_page": {
+      "url": "https://dumpdemloadsllc.wixsite.com/dumpdemloadsllc",
+      "final_url": "https://dumpdemloadsllc.wixsite.com/dumpdemloadsllc",
+      "status": 200,
+      "fetched_at": "2026-11-10T03:36:16.773286+00:00",
+      "sha256": "092ea3adb8fd5f1a736fb3187c1aca017a07462ec3cfad684be61f180acb5f61"
+    },
+    "exact_address_excerpt": "NVIRONMENTAL SERVICES LLC \ud83e\uddac Contact @ 469-427-0237! CONTACT dumpdemloadsllc@gmail.com 469-819-7427 Hebrews 13:18 Thanks for submitting! Submit dumpdemloadsllc@gmail.",
+    "DNS": {
+      "MX": {
+        "url": "https://dns.google/resolve?name=gmail.com&type=MX",
+        "fetched_at": "2026-11-10T02:01:35.583232+00:00",
+        "status": 200,
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "gmail.com.",
+              "type": 15
+            }
+          ],
+          "Answer": [
+            {
+              "name": "gmail.com.",
+              "type": 15,
+              "TTL": 1870,
+              "data": "40 alt4.gmail-smtp-in.l.google.com."
+            },
+            {
+              "name": "gmail.com.",
+              "type": 15,
+              "TTL": 1870,
+              "data": "5 gmail-smtp-in.l.google.com."
+            },
+            {
+              "name": "gmail.com.",
+              "type": 15,
+              "TTL": 1870,
+              "data": "20 alt2.gmail-smtp-in.l.google.com."
+            },
+            {
+              "name": "gmail.com.",
+              "type": 15,
+              "TTL": 1870,
+              "data": "10 alt1.gmail-smtp-in.l.google.com."
+            },
+            {
+              "name": "gmail.com.",
+              "type": 15,
+              "TTL": 1870,
+              "data": "30 alt3.gmail-smtp-in.l.google.com."
+            }
+          ]
+        }
+      },
+      "A": {
+        "url": "https://dns.google/resolve?name=gmail.com&type=A",
+        "fetched_at": "2026-11-10T02:01:35.964192+00:00",
+        "status": 200,
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "gmail.com.",
+              "type": 1
+            }
+          ],
+          "Answer": [
+            {
+              "name": "gmail.com.",
+              "type": 1,
+              "TTL": 300,
+              "data": "142.251.218.197"
+            }
+          ],
+          "Comment": "Response from 216.239.38.10."
+        }
+      },
+      "mx_hosts": [
+        "40 alt4.gmail-smtp-in.l.google.com.",
+        "5 gmail-smtp-in.l.google.com.",
+        "20 alt2.gmail-smtp-in.l.google.com.",
+        "10 alt1.gmail-smtp-in.l.google.com.",
+        "30 alt3.gmail-smtp-in.l.google.com."
+      ],
+      "forwarder": false
+    },
+    "site": {
+      "rn": "RN112541677",
+      "name": "VITRUVIAN PARK",
+      "auth": "TXR1519ZQ",
+      "date": "2026-10-05",
+      "date_type": "TCEQ affiliation begin date",
+      "county": "DALLAS",
+      "address": "PONTE AVENUE AND BELLA LANE",
+      "city": "",
+      "operator": "CBG BUILDING COMPANY LLC",
+      "customer_type": "CORPORATION",
+      "filed_scope": "",
+      "type": "multifamily / park district, our read",
+      "priority": 2,
+      "scope_notes": "Project classification from filed business/site name and scope, our read. No work-start or bid availability claim.",
+      "source": "https://data.texas.gov/resource/t34q-qzi3.json?%24where=ref_num_txt%3D%27RN112541677%27+AND+program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29&%24limit=1000",
+      "fetched_at": "2026-11-10T03:39:33.697199+00:00",
+      "sha256": "9ad47e38200a824b660ccd15ba308e263a0eccc3d8f67a0fbc3000d2d941778b",
+      "status": "eligible unused ACTIVE"
+    },
+    "source_pages": [
+      {
+        "url": "https://dumpdemloadsllc.wixsite.com/dumpdemloadsllc",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:16.773286+00:00",
+        "sha256": "092ea3adb8fd5f1a736fb3187c1aca017a07462ec3cfad684be61f180acb5f61"
+      },
+      {
+        "url": "https://dumpdemloadsllc.wixsite.com/",
+        "status": 404,
+        "fetched_at": "2026-11-10T03:36:18.365449+00:00",
+        "sha256": null
+      }
+    ]
+  },
+  {
+    "company": "JDA Select Services LLC",
+    "email": "info@jdaselectservices.com",
+    "own_page": {
+      "url": "https://jdaselectservices.com/contact",
+      "final_url": "https://jdaselectservices.com/contact",
+      "status": 200,
+      "fetched_at": "2026-11-10T03:36:20.644213+00:00",
+      "sha256": "2d8cdb09e67c48400f96781fb1c64bef7de68cab505a7a71d4be33619364f88a"
+    },
+    "exact_address_excerpt": "n Placement and access details Call (832) 713-4556 or email info@jdaselectservices.com . Business hours are Monday-Saturday, 7:00 AM-6:00 PM, with Sunday service by a",
+    "DNS": {
+      "MX": {
+        "url": "https://dns.google/resolve?name=jdaselectservices.com&type=MX",
+        "fetched_at": "2026-11-10T03:38:41.656980+00:00",
+        "status": 200,
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "jdaselectservices.com.",
+              "type": 15
+            }
+          ],
+          "Answer": [
+            {
+              "name": "jdaselectservices.com.",
+              "type": 15,
+              "TTL": 3600,
+              "data": "0 mail.jdaselectservices.com."
+            }
+          ],
+          "Comment": "Response from 173.201.77.10."
+        }
+      },
+      "A": {
+        "url": "https://dns.google/resolve?name=jdaselectservices.com&type=A",
+        "fetched_at": "2026-11-10T03:38:41.843250+00:00",
+        "status": 200,
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "jdaselectservices.com.",
+              "type": 1
+            }
+          ],
+          "Answer": [
+            {
+              "name": "jdaselectservices.com.",
+              "type": 1,
+              "TTL": 600,
+              "data": "34.111.179.208"
+            }
+          ],
+          "Comment": "Response from 97.74.109.10."
+        }
+      },
+      "mx_hosts": [
+        "0 mail.jdaselectservices.com."
+      ],
+      "forwarder": false
+    },
+    "site": {
+      "rn": "RN112539945",
+      "name": "HEB MCPHERSON",
+      "auth": "TXR1559ZP",
+      "date": "2026-10-01",
+      "date_type": "TCEQ affiliation begin date",
+      "county": "TARRANT",
+      "address": "NORTHEAST OF CHISHOLM TRAIL PKWY & MCPHERSON BLVD",
+      "city": "",
+      "operator": "HARPER BROTHERS CONSTRUCTION LLC",
+      "customer_type": "PARTNERSHIP",
+      "filed_scope": "RETAIL GROCERY STORES",
+      "type": "commercial / grocery retail",
+      "priority": 1,
+      "scope_notes": "Project classification from filed business/site name and scope, our read. No work-start or bid availability claim.",
+      "source": "https://data.texas.gov/resource/t34q-qzi3.json?%24where=ref_num_txt%3D%27RN112539945%27+AND+program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29&%24limit=1000",
+      "fetched_at": "2026-11-10T03:42:31.124756+00:00",
+      "sha256": "5a2dd831b34bca1a253e664acb9ebdd8270e6b8e2a5354c17d727b92bb048f42",
+      "status": "eligible unused ACTIVE"
+    },
+    "source_pages": [
+      {
+        "url": "https://jdaselectservices.com/",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:19.778098+00:00",
+        "sha256": "b4b82ae3d90673c34e8832ff5a837ccb1673a99c1f0989f323218d8377e8e804"
+      },
+      {
+        "url": "https://jdaselectservices.com/about",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:20.256127+00:00",
+        "sha256": "89702cc8ba9331303473dbc68ed63fde9bb80b7c9349e518275d889fa86859c6"
+      },
+      {
+        "url": "https://jdaselectservices.com/contact",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:20.644213+00:00",
+        "sha256": "2d8cdb09e67c48400f96781fb1c64bef7de68cab505a7a71d4be33619364f88a"
+      },
+      {
+        "url": "https://jdaselectservices.com/service-area",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:36:20.986744+00:00",
+        "sha256": "ee4db75af135175c62a32860aa3af66ef82c4b746e601c8bf58248cd74129ccc"
+      }
+    ]
+  }
+]
