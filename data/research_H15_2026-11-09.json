@@ -1,0 +1,356 @@
+[
+  {
+    "company": "All-In Hauling",
+    "email": "info@allinhauling.net",
+    "own_page": {
+      "url": "https://allinhauling.net/",
+      "final_url": "https://allinhauling.net/",
+      "status": 200,
+      "fetched_at": "2026-11-10T01:51:58.567476+00:00",
+      "sha256": "f3067c9567a5db4eb710267c3e0840eb69c017a495c2293a68055e1eace09bee"
+    },
+    "exact_address_excerpt": ". Contact All-In Hauling Junk Removal, Conroe & Surrounding info@allinhauling.net 936.445.8159 Resources Monday - Saturday: 8AM-7PM Sunday: By Appointment Privac",
+    "DNS": {
+      "MX": {
+        "url": "https://dns.google/resolve?name=allinhauling.net&type=MX",
+        "fetched_at": "2026-11-10T02:01:35.586498+00:00",
+        "status": 200,
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "allinhauling.net.",
+              "type": 15
+            }
+          ],
+          "Answer": [
+            {
+              "name": "allinhauling.net.",
+              "type": 15,
+              "TTL": 21600,
+              "data": "0 SMTP.GOOGLE.COM."
+            }
+          ],
+          "Comment": "Response from 99.83.229.113."
+        }
+      },
+      "A": {
+        "url": "https://dns.google/resolve?name=allinhauling.net&type=A",
+        "fetched_at": "2026-11-10T02:01:35.968524+00:00",
+        "status": 200,
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "allinhauling.net.",
+              "type": 1
+            }
+          ],
+          "Answer": [
+            {
+              "name": "allinhauling.net.",
+              "type": 1,
+              "TTL": 21600,
+              "data": "34.174.95.251"
+            }
+          ],
+          "Comment": "Response from 75.2.77.104."
+        }
+      },
+      "mx_hosts": [
+        "0 SMTP.GOOGLE.COM."
+      ],
+      "forwarder": false
+    },
+    "site": {
+      "rn": "RN112546981",
+      "name": "WWTP FOR MC MUD NO 173",
+      "auth": "TXR1541ZS",
+      "date": "2026-10-13",
+      "date_type": "TCEQ affiliation begin date",
+      "county": "MONTGOMERY",
+      "address": "THE SITE WILL BE LOCATED SOUTH OF THE GRANGER POINTE LANE CUL-DE-SAC",
+      "city": "",
+      "operator": "SEQUEIRA CIVIL CONSTRUCTION LLC",
+      "customer_type": "CORPORATION",
+      "filed_scope": "",
+      "type": "industrial / wastewater treatment facility",
+      "priority": 1,
+      "scope_notes": "WWTP is a physical treatment facility, not a linear sewer installation; industrial site classification is our read.",
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?%24where=ref_num_txt%3D%27RN112546981%27+AND+program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29&%24limit=1000",
+      "fetched_at": "2026-11-10T02:37:12.669866+00:00",
+      "sha256": "610fd4099ab695de50fe39460c0964486cf81f5ea23d211f2d22711ab0a17bf4",
+      "status": "eligible unused ACTIVE"
+    },
+    "source_pages": [
+      {
+        "url": "https://allinhauling.net/",
+        "status": 200,
+        "fetched_at": "2026-11-10T01:51:58.567476+00:00",
+        "sha256": "f3067c9567a5db4eb710267c3e0840eb69c017a495c2293a68055e1eace09bee"
+      },
+      {
+        "url": "https://allinhauling.net/about-us/",
+        "status": 200,
+        "fetched_at": "2026-11-10T01:51:59.180992+00:00",
+        "sha256": "061507c7dde8177bd8fb4969b8c74568e3842c8ea8b0300f6d665caf7ec1db84"
+      },
+      {
+        "url": "https://allinhauling.net/construction-debris-removal/",
+        "status": 200,
+        "fetched_at": "2026-11-10T01:52:01.866857+00:00",
+        "sha256": "678846b10598084883c0f05e93cd9867c18e169327388681991987588218ee10"
+      },
+      {
+        "url": "https://allinhauling.net/commercial-junk-removal-services/",
+        "status": 200,
+        "fetched_at": "2026-11-10T01:52:02.630045+00:00",
+        "sha256": "d49f164d880bc895cf83c5b651cda1afe4dd6c28803a4fea7bc252f57128c561"
+      }
+    ]
+  },
+  {
+    "company": "True Texas Dumpsters & Logistics",
+    "email": "info@truetexasdumpsters.com",
+    "own_page": {
+      "url": "https://www.truetexasdumpsters.com/",
+      "final_url": "https://www.truetexasdumpsters.com/",
+      "status": 200,
+      "fetched_at": "2026-11-10T01:52:06.277537+00:00",
+      "sha256": "fe136c8838560c44e49cce1de428ea542d292a913a4114dec396d2fd62333ebf"
+    },
+    "exact_address_excerpt": "fident from the first message to final pickup. 346-218-9121 info@truetexasdumpsters.com True Texas Dumpsters & Logistics 346-218-9121 info@truetexasdumpsters.com",
+    "DNS": {
+      "MX": {
+        "url": "https://dns.google/resolve?name=truetexasdumpsters.com&type=MX",
+        "fetched_at": "2026-11-10T02:01:35.588533+00:00",
+        "status": 200,
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "truetexasdumpsters.com.",
+              "type": 15
+            }
+          ],
+          "Answer": [
+            {
+              "name": "truetexasdumpsters.com.",
+              "type": 15,
+              "TTL": 3600,
+              "data": "1 smtp.google.com."
+            }
+          ],
+          "Comment": "Response from 216.239.38.108."
+        }
+      },
+      "A": {
+        "url": "https://dns.google/resolve?name=truetexasdumpsters.com&type=A",
+        "fetched_at": "2026-11-10T02:01:35.968101+00:00",
+        "status": 200,
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "truetexasdumpsters.com.",
+              "type": 1
+            }
+          ],
+          "Answer": [
+            {
+              "name": "truetexasdumpsters.com.",
+              "type": 1,
+              "TTL": 14400,
+              "data": "198.49.23.144"
+            },
+            {
+              "name": "truetexasdumpsters.com.",
+              "type": 1,
+              "TTL": 14400,
+              "data": "198.185.159.145"
+            },
+            {
+              "name": "truetexasdumpsters.com.",
+              "type": 1,
+              "TTL": 14400,
+              "data": "198.49.23.145"
+            },
+            {
+              "name": "truetexasdumpsters.com.",
+              "type": 1,
+              "TTL": 14400,
+              "data": "198.185.159.144"
+            }
+          ],
+          "Comment": "Response from 216.239.32.108."
+        }
+      },
+      "mx_hosts": [
+        "1 smtp.google.com."
+      ],
+      "forwarder": false
+    },
+    "site": {
+      "rn": "RN112546973",
+      "name": "WWTP PHASE 1 MCMUD NO 38",
+      "auth": "TXR1540ZS",
+      "date": "2026-10-13",
+      "date_type": "TCEQ affiliation begin date",
+      "county": "MONTGOMERY",
+      "address": "APPROX. 0.65 MILES NORTH OF THE COUNTY LINE RD AND CANEY RIDGE AVENUE INTERSECTION",
+      "city": "",
+      "operator": "SEQUEIRA CIVIL CONSTRUCTION LLC",
+      "customer_type": "CORPORATION",
+      "filed_scope": "",
+      "type": "industrial / wastewater treatment facility",
+      "priority": 1,
+      "scope_notes": "Manual classification: phase 1 of a named physical wastewater treatment plant, not a residential subdivision despite the PHASE keyword.",
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?%24where=ref_num_txt%3D%27RN112546973%27+AND+program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29&%24limit=1000",
+      "fetched_at": "2026-11-10T02:37:12.670925+00:00",
+      "sha256": "05e75417f9ff44166ca9cdb9972b82ccddbc515ae6a7058d2ed0d4f87c6cd393",
+      "status": "eligible unused ACTIVE"
+    },
+    "source_pages": [
+      {
+        "url": "https://www.truetexasdumpsters.com/",
+        "status": 200,
+        "fetched_at": "2026-11-10T01:52:06.277537+00:00",
+        "sha256": "fe136c8838560c44e49cce1de428ea542d292a913a4114dec396d2fd62333ebf"
+      }
+    ]
+  },
+  {
+    "company": "Maverick Equipment",
+    "email": "sales@maverickequip.com",
+    "own_page": {
+      "url": "https://www.maverickequip.com/",
+      "final_url": "https://www.maverickequip.com/",
+      "status": 200,
+      "fetched_at": "2026-11-10T01:52:05.629251+00:00",
+      "sha256": "5e8d0ac0e1acce9bd0a73f7c5361afbf64e6abf82d777e65a9eb8adad5ba579a"
+    },
+    "exact_address_excerpt": "sales@maverickequip.com (public mailto/decoded address)",
+    "DNS": {
+      "MX": {
+        "url": "https://dns.google/resolve?name=maverickequip.com&type=MX",
+        "fetched_at": "2026-11-10T03:23:42.948023+00:00",
+        "status": 200,
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "maverickequip.com.",
+              "type": 15
+            }
+          ],
+          "Answer": [
+            {
+              "name": "maverickequip.com.",
+              "type": 15,
+              "TTL": 3600,
+              "data": "0 maverickequip-com.mail.protection.outlook.com."
+            }
+          ],
+          "Comment": "Response from 173.201.75.48."
+        }
+      },
+      "A": {
+        "url": "https://dns.google/resolve?name=maverickequip.com&type=A",
+        "fetched_at": "2026-11-10T03:23:43.274873+00:00",
+        "status": 200,
+        "response": {
+          "Status": 0,
+          "TC": false,
+          "RD": true,
+          "RA": true,
+          "AD": false,
+          "CD": false,
+          "Question": [
+            {
+              "name": "maverickequip.com.",
+              "type": 1
+            }
+          ],
+          "Answer": [
+            {
+              "name": "maverickequip.com.",
+              "type": 1,
+              "TTL": 600,
+              "data": "34.111.179.208"
+            }
+          ],
+          "Comment": "Response from 173.201.75.48."
+        }
+      },
+      "mx_hosts": [
+        "0 maverickequip-com.mail.protection.outlook.com."
+      ],
+      "forwarder": false
+    },
+    "site": {
+      "rn": "RN112350277",
+      "name": "VICKERY STORAGE",
+      "auth": "TXR1546WY",
+      "date": "2026-09-30",
+      "date_type": "TCEQ affiliation begin date",
+      "county": "LIBERTY",
+      "address": "4753 FM 1960",
+      "city": "DAYTON",
+      "operator": "VICKERY STORAGE LLC",
+      "customer_type": "OTHER",
+      "filed_scope": "STORAGE UNITS",
+      "type": "commercial / self storage",
+      "priority": 1,
+      "scope_notes": "Use the filed Dayton storage-site address; own Vickery site confirms storage facilities.",
+      "source": "https://data.texas.gov/resource/tzyg-j7q4.json?%24where=ref_num_txt%3D%27RN112350277%27+AND+program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29&%24limit=1000",
+      "fetched_at": "2026-11-10T02:37:12.668330+00:00",
+      "sha256": "a68956195a72973ab95a9a65a5957b372046767de61cdb9e2c81ce4fb058c7a1",
+      "status": "eligible unused ACTIVE"
+    },
+    "source_pages": [
+      {
+        "url": "https://www.maverickequip.com/",
+        "status": 200,
+        "fetched_at": "2026-11-10T01:52:05.629251+00:00",
+        "sha256": "5e8d0ac0e1acce9bd0a73f7c5361afbf64e6abf82d777e65a9eb8adad5ba579a"
+      },
+      {
+        "url": "https://www.maverickequip.com/assets/index-8xbHAD6L.js",
+        "status": 200,
+        "fetched_at": "2026-11-10T03:02:33.556061+00:00",
+        "sha256": "1a2b7c00f41040596ba6351bfa3612d827dd99750beecf928601b369a9a87255"
+      }
+    ],
+    "public_asset": {
+      "url": "https://www.maverickequip.com/assets/index-8xbHAD6L.js",
+      "status": 200,
+      "fetched_at": "2026-11-10T03:02:33.556061+00:00",
+      "sha256": "1a2b7c00f41040596ba6351bfa3612d827dd99750beecf928601b369a9a87255"
+    }
+  }
+]
