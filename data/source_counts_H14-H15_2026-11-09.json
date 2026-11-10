@@ -1,37 +1,50 @@
 [
   {
     "source_log": "search_results",
-    "records": 8,
-    "note": "Source result groups or records, not a count of unique qualified haulers."
+    "result_groups_or_leads": 8,
+    "result_links": 200,
+    "note": "Source result counts, not unique qualified haulers."
   },
   {
     "source_log": "secondary_search_results",
-    "records": 8,
-    "note": "Source result groups or records, not a count of unique qualified haulers."
+    "result_groups_or_leads": 8,
+    "result_links": 200,
+    "note": "Source result counts, not unique qualified haulers."
   },
   {
     "source_log": "final_houston_search",
-    "records": 8,
-    "note": "Source result groups or records, not a count of unique qualified haulers."
+    "result_groups_or_leads": 8,
+    "result_links": 200,
+    "note": "Source result counts, not unique qualified haulers."
   },
   {
     "source_log": "carriers_more",
-    "records": 5,
-    "note": "Source result groups or records, not a count of unique qualified haulers."
+    "source_url": "https://data.transportation.gov/resource/az4n-8mr2.json?%24where=phy_state%3D%27TX%27+AND+status_code%3D%27A%27+AND+phy_cnty+in%28%27201%27%2C%27157%27%2C%27339%27%2C%27039%27%2C%27167%27%2C%27473%27%2C%27291%27%2C%27071%27%29+AND+%28%28upper%28legal_name%29+like+%27%25DUMP%25%27+OR+upper%28dba_name%29+like+%27%25DUMP%25%27%29+OR+%28upper%28legal_name%29+like+%27%25WASTE%25%27+OR+upper%28dba_name%29+like+%27%25WASTE%25%27%29+OR+%28upper%28legal_name%29+like+%27%25ROLL%25%27+OR+upper%28dba_name%29+like+%27%25ROLL%25%27%29+OR+%28upper%28legal_name%29+like+%27%25PORTABLE%25%27+OR+upper%28dba_name%29+like+%27%25PORTABLE%25%27%29+OR+%28upper%28legal_name%29+like+%27%25SANITATION%25%27+OR+upper%28dba_name%29+like+%27%25SANITATION%25%27%29+OR+%28upper%28legal_name%29+like+%27%25SEPTIC%25%27+OR+upper%28dba_name%29+like+%27%25SEPTIC%25%27%29+OR+%28upper%28legal_name%29+like+%27%25REFUSE%25%27+OR+upper%28dba_name%29+like+%27%25REFUSE%25%27%29+OR+%28upper%28legal_name%29+like+%27%25TRASH%25%27+OR+upper%28dba_name%29+like+%27%25TRASH%25%27%29+OR+%28upper%28legal_name%29+like+%27%25RENTAL%25%27+OR+upper%28dba_name%29+like+%27%25RENTAL%25%27%29%29&%24limit=10000&%24select=dot_number%2Clegal_name%2Cdba_name%2Cphy_city%2Cphy_street%2Cphy_zip%2Cphone%2Cemail_address%2Cpower_units%2Cmcs150_date%2Ccrgo_garbage",
+    "fetched_at": "2026-11-10T02:02:56.322897+00:00",
+    "status": 200,
+    "source_rows": 646,
+    "unseen_after_screen": 481,
+    "note": "Source result counts, not unique qualified haulers."
   },
   {
     "source_log": "carriers_extra_filtered",
-    "records": 5,
-    "note": "Source result groups or records, not a count of unique qualified haulers."
+    "source_url": "https://data.transportation.gov/resource/az4n-8mr2.json?%24where=phy_state%3D%27TX%27+AND+status_code%3D%27A%27+AND+phy_cnty+in%28%27201%27%2C%27157%27%2C%27339%27%2C%27039%27%2C%27167%27%2C%27473%27%2C%27291%27%2C%27071%27%29+AND+%28%28upper%28legal_name%29+like+%27%25DISPOSAL%25%27+OR+upper%28dba_name%29+like+%27%25DISPOSAL%25%27%29+OR+%28upper%28legal_name%29+like+%27%25RESTROOM%25%27+OR+upper%28dba_name%29+like+%27%25RESTROOM%25%27%29+OR+%28upper%28legal_name%29+like+%27%25BATHROOM%25%27+OR+upper%28dba_name%29+like+%27%25BATHROOM%25%27%29+OR+%28upper%28legal_name%29+like+%27%25TOILET%25%27+OR+upper%28dba_name%29+like+%27%25TOILET%25%27%29+OR+%28upper%28legal_name%29+like+%27%25PORTA%25%27+OR+upper%28dba_name%29+like+%27%25PORTA%25%27%29+OR+%28upper%28legal_name%29+like+%27%25SANITARY%25%27+OR+upper%28dba_name%29+like+%27%25SANITARY%25%27%29+OR+%28upper%28legal_name%29+like+%27%25CONTAINER%25%27+OR+upper%28dba_name%29+like+%27%25CONTAINER%25%27%29+OR+%28upper%28legal_name%29+like+%27%25TRAILER%25%27+OR+upper%28dba_name%29+like+%27%25TRAILER%25%27%29+OR+%28upper%28legal_name%29+like+%27%25CANS%25%27+OR+upper%28dba_name%29+like+%27%25CANS%25%27%29%29&%24limit=10000&%24select=dot_number%2Clegal_name%2Cdba_name%2Cphy_city%2Cphy_street%2Cphy_zip%2Cphone%2Cemail_address%2Cpower_units%2Cmcs150_date%2Ccrgo_garbage",
+    "fetched_at": "2026-11-10T02:40:46.286694+00:00",
+    "status": 200,
+    "source_rows": 3556,
+    "unseen_after_screen": 33,
+    "note": "Source result counts, not unique qualified haulers."
   },
   {
     "source_log": "directory_leads",
-    "records": 5,
-    "note": "Source result groups or records, not a count of unique qualified haulers."
+    "result_groups_or_leads": 5,
+    "result_links": 0,
+    "note": "Source result counts, not unique qualified haulers."
   },
   {
     "source_log": "new_leads",
-    "records": 7,
-    "note": "Source result groups or records, not a count of unique qualified haulers."
+    "result_groups_or_leads": 7,
+    "result_links": 0,
+    "note": "Source result counts, not unique qualified haulers."
   }
 ]
