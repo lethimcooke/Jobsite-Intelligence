@@ -138,6 +138,9 @@ def main():
     for r in carriers:
         name = f"{r.get('legal_name') or ''} {r.get('dba_name') or ''}"
         email = (r.get("email_address") or "").strip()
+        # A malformed filed value is not an address or a website-domain hint.
+        if email and "@" not in email:
+            email = ""
         units = int(r.get("power_units") or 0)
         if not FIT.search(name) or NATIONAL_NAMES.search(name) or NATIONAL_DOMAINS.search(email) or units > MAX_POWER_UNITS:
             continue
