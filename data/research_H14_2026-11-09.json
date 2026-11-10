@@ -213,7 +213,7 @@
       "auth": "TXR1542ZS",
       "date": "2026-10-13",
       "date_type": "TCEQ affiliation begin date",
-      "county": "HARRIS",
+      "county": "WALLER",
       "address": "1136 TEXAS HERITAGE PKWY, KATY, TX 77494",
       "city": "HOUSTON",
       "operator": "TEXAS PETROLEUM GROUP LLC",
@@ -221,7 +221,7 @@
       "filed_scope": "TEXAS PETROLEUM GROUP LLC",
       "type": "commercial / retail site, our read",
       "priority": 1,
-      "scope_notes": "Use AI physical location description 1136 Texas Heritage Pkwy in Katy, not the RE corporate office at 1080 Eldridge Pkwy. Actual site county needs corroboration.",
+      "scope_notes": "Use AI physical location description 1136 Texas Heritage Pkwy in Katy, not the RE corporate office at 1080 Eldridge Pkwy. RE county Harris refers to the corporate address. Comptroller taxpayer 12624594912 outlet 339 at the exact physical address lists county code 237, Waller; packet uses Waller.",
       "source": "https://data.texas.gov/resource/tzyg-j7q4.json?%24where=ref_num_txt%3D%27RN112547047%27+AND+program_code%3D%27STORM%27+AND+starts_with%28additional_id_text%2C%27TXR15%27%29&%24limit=1000",
       "fetched_at": "2026-11-10T02:37:12.677221+00:00",
       "sha256": "9db3e742e3d183d8b64f93572981c9991e1b16a4c7cbe68b061c55e981b8988b",
@@ -246,7 +246,34 @@
         "fetched_at": "2026-11-10T01:51:59.805591+00:00",
         "sha256": "d5620244aec0cadeba52da28a7985b0d457d798f0d65bf428ca78992c8377a14"
       }
-    ]
+    ],
+    "physical_location_corroboration": {
+      "url": "https://data.texas.gov/resource/jrea-zgmq.json?%24where=outlet_address+like+%27%251136%25TEXAS%25HERITAGE%25%27&%24limit=100",
+      "fetched_at": "2026-11-10T03:11:29.056503+00:00",
+      "response": [
+        {
+          "taxpayer_number": "12624594912",
+          "taxpayer_name": "TEXAS PETROLEUM GROUP, LLC",
+          "taxpayer_address": "1080 ELDRIDGE PKWY STE 1400",
+          "taxpayer_city": "HOUSTON",
+          "taxpayer_state": "TX",
+          "taxpayer_zip_code": "77077",
+          "taxpayer_county_code": "101",
+          "taxpayer_organization_type": "CI",
+          "outlet_number": "339",
+          "outlet_name": "TIMEWISE FOOD STORE #334",
+          "outlet_address": "1136 TEXAS HERITAGE PKWY",
+          "outlet_city": "KATY",
+          "outlet_state": "TX",
+          "outlet_zip_code": "77494",
+          "outlet_county_code": "237",
+          "outlet_naics_code": "447110",
+          "outlet_inside_outside_city_limits_indicator": "N",
+          "outlet_permit_issue_date": "2026-05-22T00:00:00.000",
+          "outlet_first_sales_date": "2026-06-01T00:00:00.000"
+        }
+      ]
+    }
   },
   {
     "company": "Snap Junk Removal",
