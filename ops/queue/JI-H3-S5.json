@@ -333,6 +333,31 @@
       },
       "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
       "planned_for": "2026-11-05"
+    },
+    {
+      "id": "JI-H3-S5-15",
+      "seq": 15,
+      "batch": "JI-H3",
+      "company": "Trash Hauling Fast",
+      "city": "Houston",
+      "stage": "S5",
+      "from": "sites@asterfieldgroup.com",
+      "to": "elink96@yahoo.com",
+      "subject": "Re: IDV Red Bluff, 8006 Red Bluff Rd",
+      "body": "Hi Trash Hauling Fast team,\n\nLast note from me on this. If new job sites in your service area are ever useful, reply \"send it\" and the five-site sample will be in your inbox the same day.\n\nShould I check back in a few months?\n\nHouston Jobsite Intelligence\nAsterfield Group\nsites@asterfieldgroup.com",
+      "reply_to_message_id": "1a17d898fb9349cd",
+      "attachments": [],
+      "hook_type": "",
+      "status": "drafted",
+      "draft": {
+        "draft_id": "r977288363589244256",
+        "message_id": "1a1cc20f3b65373e",
+        "thread_id": "1a1553e0a3d7ad0d",
+        "payload_sha256": "6184a309481ac84f1eaa0d0f91042b53c2d66fdaaffba1236b7edc646edc2e30",
+        "created_at": "2026-11-11T19:41:32+00:00"
+      },
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "planned_for": "2026-11-12"
     }
   ]
 }

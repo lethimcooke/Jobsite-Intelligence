@@ -42,10 +42,17 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "",
-      "status": "deferred",
-      "draft": null,
+      "status": "drafted",
+      "draft": {
+        "draft_id": "r-4864266358556170617",
+        "message_id": "1a1cc20e473304c3",
+        "thread_id": "1a1cc20e473304c3",
+        "payload_sha256": "f643dac9e006531bb214cfd303d50ab9f63bdb3165dbf1a3e1228b3a91050ac0",
+        "created_at": "2026-11-11T19:41:32+00:00"
+      },
       "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
-      "verified": "MillionVerifier ok 2026-11-04"
+      "verified": "MillionVerifier ok 2026-11-04",
+      "planned_for": "2026-11-12"
     },
     {
       "id": "JI-H12-S1-03",
@@ -80,10 +87,17 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "",
-      "status": "deferred",
-      "draft": null,
+      "status": "drafted",
+      "draft": {
+        "draft_id": "r-8568702516937517464",
+        "message_id": "1a1cc20ec18ecca1",
+        "thread_id": "1a1cc20ec18ecca1",
+        "payload_sha256": "95920e3eb6902833caedc4c95eccba0978e707e6fc8a1106b7a8b111ae0ab6e6",
+        "created_at": "2026-11-11T19:41:32+00:00"
+      },
       "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
-      "verified": "MillionVerifier ok 2026-11-04"
+      "verified": "MillionVerifier ok 2026-11-04",
+      "planned_for": "2026-11-12"
     }
   ]
 }
