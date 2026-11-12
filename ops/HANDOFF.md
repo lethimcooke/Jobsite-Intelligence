@@ -1,11 +1,14 @@
-# Operations handoff (Nov 5, 2026, 2:15 PM CT)
+# Operations handoff (Nov 12, 2026, 1:50 PM CT)
 
 Start here in a new session. The tracker (`Jobsite_Intelligence_Outreach_Tracker.md`) is the full record; this is the short version.
 
 ## State
-- 165 cold sends to 76 Houston haulers since Oct 14. 1 reply (Renegade Roll-Offs). 5 hard bounces (3.0%, over the 2% gate): Dumpster in the Rough, Quickwaste, Dolly's Dumpsters, Missouri City Porta Potty, Dumpster Conroe, all on `data/do_not_contact.csv`.
-- Nov 5's 15 logged; its manifest draft deleted.
-- **Fri Nov 6 manifest is in Gmail** (draft r4547905190791005644, user OK Nov 5; `ops/manifests/2026-11-06.json`, 15 = 5 S1 (Old Glory, Goldmine, Houston Luxury Restrooms, Smooth Move, Texas Gulf Recycling) + 10 S2 (H6 #3-6, 8, 10-13, 15); drafts created).
+- 180 cold sends to 81 Houston haulers since Oct 14. 1 reply (Renegade), 1 opt-out (Texas Gulf Recycling, Nov 9), 5 hard bounces (2.8%), all on DNC.
+- Nov 6's 15 logged Nov 11. **Nothing sent Nov 9-12** (check-ins missed Nov 8-10; the Nov 12 manifest never got an OK).
+- **Fri Nov 13 manifest built, not in Gmail yet** (`ops/manifests/2026-11-13.json`; 5 S1: Turbo, 786, K&H, Waste Solutions, ESTX; 10 S5: H3 #15, H4 #1, 3-7, 9-11; drafts exist). Create the Gmail draft only after the user's OK, before 8 AM CT Fri.
+- Next due after Friday: S2 for Nov 6 S1s (Old Glory, Goldmine, Houston Luxury, Smooth Move: convert `JI-H7-H10_S2_Copy.md` / `JI-H11_S2_Copy.md`, skip non-sent and Texas Gulf), H4 S5 #12, 14, 15, H5 S5 (copy approved), then H6 S5. First emails left with approved copy: H13 #3-7 (5), H13R (3), plus DFW 18 once dfwjobsite@ exists.
+- Open PRs to review: #29 H13R2 (reviewed clean Nov 6, not merged), #30 H14, #31 H15, #32 DFW4, #33 enrich_haulers fix (Codex, Nov 10). New addresses need one combined MillionVerifier upload.
+- Renegade E3 draft (r5801946320233686263) still unsent in Erin's thread; no reply from her.
 - **First emails resume Fri Nov 6, verified only** (MillionVerifier, Nov 4: `data/verified_2026-11-04_millionverifier.csv`). Of the 11 ok: 5 planned for Fri Nov 6; Trash Monkey (H7-H10 #10) and J.A.C. (H11 #2) skipped Nov 5 (address gone from their sites); left: Turbo Rolloff (H11 #8, address not on its homepage at the Nov 5 check: recheck its contact page), 786 Dumpsters (H11 #9, on its site Nov 5), K & H (H12 #2), Waste Solutions USA (H12 #4). 12 skipped (2 invalid: Action Trucking, Katy Dumpster Rental Group; 10 catch_all, including Nation Waste, now dropped). Any new first-email address gets verified first; only `ok` is sent. These run out Mon Nov 9: Codex's Houston refresh (verified) is needed.
 - Held: `JI-H3-S5-hold.json` (#15 Trash Hauling Fast, due Nov 10). H7-H10 S2 copy, when converted, must skip every S1 that wasn't sent (#1 and #4 bounced; #5-9, 12, 14 skipped). LJP Hauling (H6 #14) skipped.
 ## Prospect surplus plan (user, Nov 6)

@@ -1,9 +1,9 @@
 {
-  "subject": "ASI-MANIFEST v1 2026-11-12 e6752785d10f759e6bf75db62f8e07aef9b7b552155ff9ec0be23b3918d55b38",
+  "subject": "ASI-MANIFEST v1 2026-11-13 29c655af54577b2e8ae0c449b1f74c354686cbd9320d8156fdc26052f268582a",
   "manifest": {
     "version": 1,
-    "send_date": "2026-11-12",
-    "created_at": "2026-11-11T19:41:33+00:00",
+    "send_date": "2026-11-13",
+    "created_at": "2026-11-12T19:38:10+00:00",
     "business": "Jobsite Intelligence",
     "dry_run_only": false,
     "max_total": 60,
