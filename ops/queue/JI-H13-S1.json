@@ -23,7 +23,7 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r8752875218808780896",
         "message_id": "1a1cc20ee6bdd966",
@@ -48,9 +48,16 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "",
-      "status": "deferred",
-      "draft": null,
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "status": "drafted",
+      "draft": {
+        "draft_id": "r2278180460088846641",
+        "message_id": "1a1d67de74446851",
+        "thread_id": "1a1d67de74446851",
+        "payload_sha256": "3416259b12e779372c1f87ac9d54f0c7f4b5b22966eb0cc299dd61b313dc394f",
+        "created_at": "2026-11-13T20:00:03+00:00"
+      },
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "planned_for": "2026-11-16"
     },
     {
       "id": "JI-H13-S1-04",
@@ -66,9 +73,16 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "",
-      "status": "deferred",
-      "draft": null,
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "status": "drafted",
+      "draft": {
+        "draft_id": "r2389250755773483760",
+        "message_id": "1a1d67de82510d91",
+        "thread_id": "1a1d67de82510d91",
+        "payload_sha256": "0f30e2340c82c7f6b23f186ee9f82aae604192d1df1965d0df12fac6f77fca47",
+        "created_at": "2026-11-13T20:00:03+00:00"
+      },
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "planned_for": "2026-11-16"
     },
     {
       "id": "JI-H13-S1-05",
@@ -84,9 +98,16 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "",
-      "status": "deferred",
-      "draft": null,
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "status": "drafted",
+      "draft": {
+        "draft_id": "r5414951423369046758",
+        "message_id": "1a1d67deb4ba1b83",
+        "thread_id": "1a1d67deb4ba1b83",
+        "payload_sha256": "bc5d4de7e44122671c92f4e6aec0b83514111c79fe12f1742df73a516f8149e7",
+        "created_at": "2026-11-13T20:00:03+00:00"
+      },
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "planned_for": "2026-11-16"
     },
     {
       "id": "JI-H13-S1-06",
@@ -102,9 +123,10 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "",
-      "status": "deferred",
+      "status": "held_stale",
       "draft": null,
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "hold_reason": "Nov 13 close-out: copy cites a Central Registry record date of Oct 8, but the live TCEQ record for TXR1567ZR shows 2019-06-03 / 2021-04-14 (Oct 8 is the EPA original issue date). Needs a re-hook or copy fix before sending."
     },
     {
       "id": "JI-H13-S1-07",
@@ -120,9 +142,16 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "",
-      "status": "deferred",
-      "draft": null,
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "status": "drafted",
+      "draft": {
+        "draft_id": "r5210099731596916238",
+        "message_id": "1a1d67dec445cd5e",
+        "thread_id": "1a1d67dec445cd5e",
+        "payload_sha256": "8a6e8375edfa00449a8236f316b6a65041a0688bbaa4f8b8a753222f769dd9fe",
+        "created_at": "2026-11-13T20:00:03+00:00"
+      },
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "planned_for": "2026-11-16"
     }
   ]
 }

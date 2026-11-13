@@ -1,9 +1,9 @@
 {
-  "subject": "ASI-MANIFEST v1 2026-11-13 29c655af54577b2e8ae0c449b1f74c354686cbd9320d8156fdc26052f268582a",
+  "subject": "ASI-MANIFEST v1 2026-11-13 7fb857e4f4f5d6cd94d8103b40cdb5be2d4c0a17b5cd3762aac2e8b1dc281ea4",
   "manifest": {
     "version": 1,
     "send_date": "2026-11-13",
-    "created_at": "2026-11-12T19:38:10+00:00",
+    "created_at": "2026-11-13T11:57:39+00:00",
     "business": "Jobsite Intelligence",
     "dry_run_only": false,
     "max_total": 60,
@@ -44,21 +44,6 @@
         "reply_to_message_id": "",
         "draft_id": "r3517888921955260699",
         "thread_id": "1a1cc20db2a15d6f"
-      },
-      {
-        "outreach_id": "JI-H11-S1-09",
-        "stage": "S1",
-        "company": "H11: 786 Dumpsters & Junk Removal",
-        "to": "786dumpsters@gmail.com",
-        "from_alias": "sites@asterfieldgroup.com",
-        "display_name": "Houston Jobsite Intelligence",
-        "subject": "Sams Club 9753, Richmond",
-        "body_len": 826,
-        "body_sha256": "1429c4958514bf4397b92bbb8937f9a517033c1ce2f5abd5f355bc2210e14bd7",
-        "is_reply": false,
-        "reply_to_message_id": "",
-        "draft_id": "r2433209867038969279",
-        "thread_id": "1a1cc20dc6fcd41b"
       },
       {
         "outreach_id": "JI-H12-S1-02",

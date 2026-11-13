@@ -159,7 +159,7 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r3517888921955260699",
         "message_id": "1a1cc20db2a15d6f",
@@ -185,7 +185,7 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "",
-      "status": "drafted",
+      "status": "held_stale",
       "draft": {
         "draft_id": "r2433209867038969279",
         "message_id": "1a1cc20dc6fcd41b",
@@ -195,7 +195,8 @@
       },
       "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
       "verified": "MillionVerifier ok 2026-11-04",
-      "planned_for": "2026-11-13"
+      "held_from": "2026-11-13",
+      "hold_note": "2026-11-13: stale hook (TXR1574ZN record date 2026-09-24 is 50 days old on 2026-11-13, over the 45-day site window); needs a re-hook. Gmail draft r2433209867038969279 kept."
     }
   ]
 }

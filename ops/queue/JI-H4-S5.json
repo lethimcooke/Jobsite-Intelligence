@@ -23,7 +23,7 @@
       "reply_to_message_id": "1a178bdc352b52b4",
       "attachments": [],
       "hook_type": "",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r3360699677840415586",
         "message_id": "1a1cc20f7323089c",
@@ -67,7 +67,7 @@
       "reply_to_message_id": "1a178bffd94bdb10",
       "attachments": [],
       "hook_type": "",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r-2429702206108666948",
         "message_id": "1a1cc20fa2eff0d3",
@@ -92,7 +92,7 @@
       "reply_to_message_id": "1a178c58405a5d15",
       "attachments": [],
       "hook_type": "",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r-3500147921524753364",
         "message_id": "1a1cc20fd2abbdbe",
@@ -117,7 +117,7 @@
       "reply_to_message_id": "1a18cf31e8f8331e",
       "attachments": [],
       "hook_type": "",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r-4733895335248389760",
         "message_id": "1a1cc210284c8a01",
@@ -142,7 +142,7 @@
       "reply_to_message_id": "1a18cfa48bd8a825",
       "attachments": [],
       "hook_type": "",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r-5587602012474750496",
         "message_id": "1a1cc210975fcf2c",
@@ -167,7 +167,7 @@
       "reply_to_message_id": "1a18cfc1c8b3b0d4",
       "attachments": [],
       "hook_type": "",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r2831761987021835023",
         "message_id": "1a1cc210c6efe20f",
@@ -192,7 +192,7 @@
       "reply_to_message_id": "1a18d03b4213e584",
       "attachments": [],
       "hook_type": "",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r-103207623983688384",
         "message_id": "1a1cc21102d818be",
@@ -217,7 +217,7 @@
       "reply_to_message_id": "1a18d05c466f18af",
       "attachments": [],
       "hook_type": "",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r-7652620763032018515",
         "message_id": "1a1cc211589caa30",
@@ -242,7 +242,7 @@
       "reply_to_message_id": "1a18d0c95235691d",
       "attachments": [],
       "hook_type": "",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r-4387648153369387553",
         "message_id": "1a1cc2118f22a176",
@@ -267,9 +267,16 @@
       "reply_to_message_id": "1a18d0e5d23d886f",
       "attachments": [],
       "hook_type": "",
-      "status": "deferred",
-      "draft": null,
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "status": "drafted",
+      "draft": {
+        "draft_id": "r-4772581321873903639",
+        "message_id": "1a1d67e455b0df9b",
+        "thread_id": "1a178aae698a1519",
+        "payload_sha256": "61ca3abcfa55893db9ea72c3e8b7305d22083cfe3cb06d7579b13be166eb737d",
+        "created_at": "2026-11-13T20:00:54+00:00"
+      },
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "planned_for": "2026-11-16"
     },
     {
       "id": "JI-H4-S5-14",
@@ -285,9 +292,16 @@
       "reply_to_message_id": "1a18d15c419a7bff",
       "attachments": [],
       "hook_type": "",
-      "status": "deferred",
-      "draft": null,
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "status": "drafted",
+      "draft": {
+        "draft_id": "r4655881596151635160",
+        "message_id": "1a1d67e4c4bec802",
+        "thread_id": "1a178aaeb5423dda",
+        "payload_sha256": "9dd8e9618a3dc999a6ba87fc31b6be8395aa56c496a4a7ba421b29b8a0b7b234",
+        "created_at": "2026-11-13T20:00:54+00:00"
+      },
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "planned_for": "2026-11-16"
     },
     {
       "id": "JI-H4-S5-15",
@@ -303,9 +317,16 @@
       "reply_to_message_id": "1a18d17514130193",
       "attachments": [],
       "hook_type": "",
-      "status": "deferred",
-      "draft": null,
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "status": "drafted",
+      "draft": {
+        "draft_id": "r233039429298738947",
+        "message_id": "1a1d67e53c335800",
+        "thread_id": "1a178aaec8449c7f",
+        "payload_sha256": "05894639e9a0416290ac6bf052bba5837bcef21f9c475b89c53ce7c3fad49f29",
+        "created_at": "2026-11-13T20:00:54+00:00"
+      },
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "planned_for": "2026-11-16"
     }
   ]
 }

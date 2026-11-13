@@ -348,7 +348,7 @@
       "reply_to_message_id": "1a17d898fb9349cd",
       "attachments": [],
       "hook_type": "",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r977288363589244256",
         "message_id": "1a1cc20f3b65373e",

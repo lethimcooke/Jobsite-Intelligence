@@ -1,0 +1,20 @@
+[
+  {
+    "outreach_id": "JI-H12-S1-02",
+    "kind": "gmail_sent",
+    "evidence_id": "1a1d53a0fdabff7e",
+    "thread_id": "1a1cc20e473304c3",
+    "sent_at": "2026-11-13T14:05:14+00:00",
+    "from": "sites@asterfieldgroup.com",
+    "to": "info@khtoilets.com"
+  },
+  {
+    "outreach_id": "JI-H12-S1-04",
+    "kind": "gmail_sent",
+    "evidence_id": "1a1d5413465e19d7",
+    "thread_id": "1a1cc20ec18ecca1",
+    "sent_at": "2026-11-13T14:13:02+00:00",
+    "from": "sites@asterfieldgroup.com",
+    "to": "cindy@wastesolutionsusa.com"
+  }
+]

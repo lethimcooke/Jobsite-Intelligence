@@ -42,7 +42,7 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r-4864266358556170617",
         "message_id": "1a1cc20e473304c3",
@@ -87,7 +87,7 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "",
-      "status": "drafted",
+      "status": "sent_confirmed",
       "draft": {
         "draft_id": "r-8568702516937517464",
         "message_id": "1a1cc20ec18ecca1",
