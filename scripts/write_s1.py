@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Write S1 drafts from a hook packet CSV (build_packet.py output), one per hauler.
 
-Follows docs/Outreach_Copy_v1.md (S1, Tier B) and ops/rules.json (exact price line,
+Follows docs/Outreach_Copy_v2.md (S1, Tier B) and ops/rules.json (exact price line,
 signature, opt-out footer). Site names and operators are re-cased for reading; review the
 names table at the top of the output file, and any site type marked "construction".
 
@@ -17,7 +17,7 @@ import os
 import re
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-RULES = json.load(open(os.path.join(HERE, "..", "ops", "rules.json")))
+RULES = json.load(open(os.path.join(HERE, "..", "ops", "rules.json"), encoding="utf-8"))
 SMALL = {"Of", "And", "At", "The", "To"}
 UPPER = {"LLC", "LP", "LLP", "II", "III", "FM", "SH", "US", "IH", "ISD", "HCA", "NW", "NE", "SW", "SE", "DC", "CR"}
 
@@ -38,8 +38,32 @@ def recase(text):
 
 
 def distance(miles):
-    m = int(miles)
+    m = int(float(miles))
     return "a mile" if m <= 1 else f"{m} miles"
+
+
+def month_day(iso):
+    """'2026-11-09' -> 'November 9' (portable: Windows strftime rejects %-d)."""
+    d = dt.date.fromisoformat(iso)
+    return f"{d:%B} {d.day}"
+
+
+def fit_lines(r, kind, fit):
+    """v2 fit line and close. With a yard distance, the yard variant; without one (no published yard),
+    the site is placed against the hauler's published areas, as approved from H11 on."""
+    article = "an" if kind[0] in "aeiou" else "a"
+    miles = (r.get("miles_from_yard_our_read") or "").strip()
+    if miles:
+        yard = recase(r.get("yard_city") or "") or "nearby"
+        return (f"It's about {distance(miles)} from your {yard} yard, and {article} {kind} job like this is the "
+                f"kind your {fit} serve; that's our read, not the filing.",
+                "Want five sites like this near your yard, free?")
+    area = (r.get("service_area_city") or "").strip()
+    if not area and "," in r["site_address"]:
+        area = recase(r["site_address"].split(",")[1].strip())
+    return (f"It's in {area or 'your area'}, one of the areas you serve, and {article} {kind} job like this is "
+            f"the kind your {fit} serve; that's our read, not the filing.",
+            "Want five sites like this in your service area, free?")
 
 
 def greeting_name(company):
@@ -68,7 +92,7 @@ def main():
             s = s.replace(a, b)
         return s
 
-    rows = list(csv.DictReader(open(args.packet)))
+    rows = list(csv.DictReader(open(args.packet, encoding="utf-8")))
     out = [f"# {rows[0]['batch']} to {rows[-1]['batch']}: S1 copy ({args.metro})\n",
            f"Generated {dt.date.today().isoformat()} from the hook packet. Tier B (no public record names a "
            f"hauler at a job site). Sender: {sender['display']} <{sender['from']}>. Every fact is from the "
@@ -81,30 +105,29 @@ def main():
         city = recase(r["site_address"].split(",")[1]) if "," in r["site_address"] else ""
         operator = fix(recase(r["operator_on_file"].split(";")[0]))
         company = fix(recase(r["company"]))
-        date = dt.date.fromisoformat(r["date_on_file"]).strftime("%B %-d")
+        date = month_day(r["date_on_file"])
         kind = types.get(r["site_rn"], "construction")
-        yard = recase(r["yard_city"]) or "nearby"
+        fit_line, close = fit_lines(r, kind, r["fit_phrase_our_read"])
         body = (
             f"Hi {greeting_name(company)} team,\n\n"
             f"TCEQ's Central Registry lists a construction stormwater authorization ({r['tceq_authorization']}) "
-            f"dated {date} for {site} at {street}{', ' + city if city else ''} in {r['county']} County. "
-            f"The operator on file is {operator}. It's about {distance(r['miles_from_yard_our_read'])} from your "
-            f"{yard} yard, and {('an' if kind[0] in 'aeiou' else 'a')} {kind} site like this is the kind of job "
-            f"your {r['fit_phrase_our_read']} serve; that's our read, not the filing.\n\n"
-            "We're a research service with no connection to the project: each week we pull new construction "
-            f"sites from state records and match them to haulers by service area. {price}\n\n"
-            "Want the free five-site sample?\n\n"
+            f"with a record date of {date} for {site} at {street}{', ' + city if city else ''} in "
+            f"{recase(r['county'])} County. The operator on file is {operator}.\n\n"
+            f"{fit_line}\n\n"
+            f"We're a research service with no tie to the project. {price}\n\n"
+            f"{close}\n\n"
             f"{signature}\n\n{footer}"
         )
+        subject = site if len(site) >= 10 else f"{site}, {street}"
         out.append(f"\n## {n}. {r['batch']}: {company}\n")
-        out.append(f"- To: {r['email']} ({r['email_confidence']})\n- Subject: {site}, {street}\n"
+        out.append(f"- To: {r['email']} ({r['email_confidence']})\n- Subject: {subject}\n- Subject arm: A\n"
                    f"- Site record: {r['site_source_url']}\n- Hauler publishes: {r['services_published']}\n")
         out.append("\n```\n" + body + "\n```\n")
     text = "".join(out)
     if "—" in text:
         raise SystemExit("em dash found; fix before writing")
     os.makedirs(os.path.dirname(os.path.abspath(args.out)), exist_ok=True)
-    open(args.out, "w").write(text)
+    open(args.out, "w", encoding="utf-8", newline="\n").write(text)
     print(f"{len(rows)} S1 drafts -> {args.out}")
 
 
