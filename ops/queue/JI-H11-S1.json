@@ -196,7 +196,7 @@
       "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
       "verified": "MillionVerifier ok 2026-11-04",
       "held_from": "2026-11-13",
-      "hold_note": "2026-11-13: stale hook (TXR1574ZN record date 2026-09-24 is 50 days old on 2026-11-13, over the 45-day site window); needs a re-hook. Gmail draft r2433209867038969279 kept."
+      "hold_note": "2026-11-13: stale hook (TXR1574ZN record date 2026-09-24 is 50 days old on 2026-11-13, over the 45-day site window); needs a re-hook. Gmail draft r2433209867038969279 kept. 2026-11-24: that draft deleted (user OK, cleanup); a re-hook goes in a new JI-H11R-S1 queue."
     }
   ]
 }
