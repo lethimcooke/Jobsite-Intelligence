@@ -52,7 +52,9 @@ says interested) leads the alert with "HOT: <business>". Business names only, ne
    lists IDs, `hold_stale.py --repo . --release <those IDs> --apply` (Central Registry back up and their hooks pass). Log the counts.
 3. Plan: `PY scripts/ji_ops.py plan <S1 queues, oldest batch first> <today's and buffered follow-up queues> --send-date <N> --apply`.
    It takes up to 5 first touches, then follow-ups oldest S1 first, within 15, and carries drafts whose day passed.
-4. For each record planned for N: search Gmail for the address and domain (a hit on an ASI alias means the company
+4. For each record planned for N: re-check the hooks of every S1 now planned for N, carried drafts included
+   (`hook_gate.py --repo . --send-date <N> --include-drafted --out <scratch>\gate2_<N>.json`, then `hold_stale.py --stale
+   <scratch>\gate2_<N>.stale.json --apply`); search Gmail for the address and domain (a hit on an ASI alias means the company
    belongs to ASI: drop it and note it in the list; never open ASI's threads beyond the search result), check the ledger and
    do-not-contact by address and domain. Hold each failure (stale hook -> `hold_stale.py`; reply, bounce, opt-out ->
    ops/README.md step 1). Re-run plan once to backfill.
