@@ -39,7 +39,13 @@ Call `get_usage` first (README, Logging).
    45), and not used in any `data/packet_*.csv`. Check each kept site live with `node ops/routines/tools/hook_recheck.js <TXR15 IDs>`
    (ACTIVE only; PENDING sites are rechecked next run). DFW sites and haulers wait until a DFW sender alias exists.
 3. **Haulers for the kept sites:**
-   - FMCSA and Comptroller first (`enrich_haulers.py`, `pull_haulers.py`); then Exa (PowerShell only):
+   - **Named haulers first (user, Nov 24):** work `data/research/hauler_names_to_work.csv` (Comptroller/FMCSA names we
+     don't have; `pull_haulers.py` gives names only, never a website or email). Take rows with `status` todo, fitting names
+     (`name_fit`) first, then the rest: Exa by name (`query="<company> <yard city> TX"`, `numResults=5`) to find the hauler's
+     own site, then Crawl4AI its home and contact pages. Set each row's `website`, `email`, `status` (`found`, `no_site`,
+     `no_email`, `national`, `not_a_hauler`) and `checked_on`; found emails go to `data/to_verify_<today>.csv` and the hauler
+     list like any other. Re-running `pull_haulers.py` appends only names not already in the file or the hauler lists.
+   - FMCSA and Comptroller (`enrich_haulers.py`, `pull_haulers.py`); then Exa by service and area (PowerShell only):
      `& (Join-Path (npm prefix -g) 'mcporter.ps1') call exa.web_search_exa query="roll-off dumpster rental <area> TX" numResults=10`
      and `"portable toilet rental <area> TX"`. Time each search; save raw output under scratch.
    - Own-site evidence with Crawl4AI: `D:\Workspace\austin-signage-repo\local\tools\crawl4ai-venv\Scripts\python.exe ops/routines/tools/crawl_sites.py <scratch>\sites <home, services and contact URLs>`.
