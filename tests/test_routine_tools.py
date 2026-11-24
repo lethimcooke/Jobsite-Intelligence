@@ -201,6 +201,9 @@ class Gate(Repo):
         self.assertEqual(sorted(stale), ["JI-T1-S1-02", "JI-T1-S1-03"])
         self.assertIn("over 45", stale["JI-T1-S1-02"])
         with open(self.p("gate.release.txt"), encoding="utf-8") as fh: self.assertEqual(fh.read(), "JI-T1-S1-04")
+        r = self.tool("hook_gate.py", "--send-date", "2026-11-25", "--out", self.p("g2.json"), "--facts", facts, "--include-drafted")
+        with open(self.p("g2.json"), encoding="utf-8") as fh:
+            self.assertIn("JI-T1-S1-05", [x["id"] for x in json.load(fh)["results"]])   # pre-send re-checks today's drafts too
         self.tool("hold_stale.py", "--stale", self.p("gate.stale.json"), "--apply")
         self.tool("hold_stale.py", "--release", "JI-T1-S1-04", "--apply")
         st = {r["id"]: r["status"] for r in self.read_queue("JI-T1-S1")["records"]}

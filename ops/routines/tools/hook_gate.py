@@ -1,6 +1,7 @@
 """Gate Jobsite first touches on a fresh TCEQ hook check before `plan` picks them (close-out, before plan).
 
 python -I hook_gate.py --repo . --send-date YYYY-MM-DD --out <gate.json> [--evidence <glob> ...] [--facts <recheck.json>]
+                      [--include-drafted]    (pre-send: also the S1s already drafted for the send date)
 
 Checks every ready S1 (status queued/deferred, no planned_for) and every row held for a Central Registry outage with
 the JSI publisher's own rule (JsiPublisher.gs noiProblem_, run through ops/sender/hook_facts.cjs) as of the send date:
@@ -16,6 +17,7 @@ from datetime import date, datetime, timezone
 p = argparse.ArgumentParser()
 p.add_argument("--repo", required=True); p.add_argument("--send-date", required=True); p.add_argument("--out", required=True)
 p.add_argument("--evidence", action="append", default=[]); p.add_argument("--facts")
+p.add_argument("--include-drafted", action="store_true")
 a = p.parse_args()
 TOOLS = os.path.dirname(os.path.abspath(__file__)); OUT = os.path.abspath(a.out)
 FACTS = os.path.abspath(a.facts) if a.facts else None
@@ -30,6 +32,7 @@ for f in sorted(glob.glob("ops/queue/*.json")):
     for r in q["records"]:
         if r.get("stage") != "S1": continue
         ready = r.get("status") in ("queued", "deferred") and not r.get("planned_for")
+        ready = ready or (a.include_drafted and r.get("status") == "drafted" and r.get("planned_for") == a.send_date)
         outage_held = r.get("status") == "held_stale" and "TCEQ outage" in str(r.get("hold_note", ""))
         if not (ready or outage_held): continue
         try:

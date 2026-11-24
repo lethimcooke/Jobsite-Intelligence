@@ -1,54 +1,59 @@
 # Jobsite Intelligence weekday routines (local Claude Desktop scheduled tasks)
 
-Permanent weekday workflow, no end date. First end-to-end test: Friday, Nov 13, 2026. Times are Central.
-Follow `ops/README.md` (the daily loop) and `CLAUDE.md`; these files only say what runs when, unattended.
-PY = `D:\Workspace\tools\asi-venv\Scripts\python.exe` (or `python` 3.13). Scratch:
-`D:\Workspace\tools\scratch\routines\<today>\jsi\`.
+Permanent weekday workflow, no end date, ported from ASI's proven setup on Nov 24, 2026
+(`TRANSFER_2026-11-24.md`). Times are Eastern (the PC's clock; the ASI Sender and the publisher run on Central, one hour
+earlier). Each task's prompt says: open `D:\Workspace\jobsite-intelligence-repo` and follow the matching file here, plus
+`ops/README.md` (the daily loop) and `CLAUDE.md`.
+PY = `D:\Workspace\tools\asi-venv\Scripts\python.exe` (or `python` 3.13). Scratch: `D:\Workspace\tools\scratch\routines\<today>\jsi\`.
 
-| Task | When (Central) | What it does |
-|---|---|---|
-| JSI pre-send | Mon-Fri 5:55 AM | Keep a valid published JSI manifest; build and publish today's if missing or empty and drafted JI- rows exist |
-| JSI close-out | Mon-Fri 1:54 PM | Reconcile today, mailbox (our lane), plan and draft the next business day (no manifest) |
-| JSI late reconcile | Mon-Fri 5:33 PM | Reconcile what sent after the close-out; leave unsent drafts for the next plan |
-| JSI replenish | Mon-Fri 3:55 PM | Add send-ready first touches to the reserve (verified, fresh TCEQ site, check_packet 0 flags) |
+| Task | When (ET) | File | What it does |
+|---|---|---|---|
+| JSI pre-send | Mon-Fri 6:55 AM (8:35 AM once the JSI publisher is installed) | `JSI_PreSend.md` | Until the publisher is live: keeps or builds today's manifest. After: backup only, reports the publisher's result |
+| JSI close-out | Mon-Fri 2:54 PM | `JSI_CloseOut.md` | Reconciles today, mailbox (our lane), plans and drafts the next business day, stages the prepared batch, writes the next day's follow-up copy buffer |
+| JSI late reconcile | Mon-Fri 6:33 PM | `JSI_LateReconcile.md` | Reconciles what sent after the close-out; leaves unsent drafts for the next plan |
+| JSI replenish | Mon, Wed, Fri 4:55 PM | `JSI_Replenish.md` | Adds send-ready first touches to the reserve (verified address, fresh TCEQ site, check_packet 0 flags); runs the shared MillionVerifier CSV |
 
-## Rules
+ASI runs the same four steps from its own repo. The two never edit each other's files, drafts, labels or manifests,
+so a blocker in one leaves the other free.
 
-- **Our lane only:** `sites@`, `JI-` records, `JI/` labels, our manifest drafts. Never open, edit, label or delete
-  ASI's drafts or manifests. Both businesses' manifests share the subject prefix `ASI-MANIFEST v1 <date> <sha>`;
-  tell ours apart by the exact SHA in `ops/manifests/<date>.json`.
-- **Cadence:** up to 5 first touches plus eligible follow-ups (S2 at S1 + 2 business days, S5 at S1 + 13), 15 total;
-  the shared mailbox cap is 60 and ASI plans 45. The sender enforces all of them.
-- **Manifest freshness:** dated the send day, at most 36 hours old at 8 AM, so built each send morning by the
-  pre-send. Friday's close-out drafts Monday; Monday's pre-send publishes Monday's manifest.
+## Fixed rules
+
+- **Our lane only:** `sites@`, `JI-` records, `JI/` labels, our manifest and `JSI-PREPARED` drafts. Never open, edit,
+  label or delete ASI's drafts, manifests or prepared batches. Both businesses' manifests use the subject
+  `ASI-MANIFEST v1 <date> <sha>`; ours is the one whose decoded business is "Jobsite Intelligence" (repo-built: the SHA in
+  `ops/manifests/<date>.json`; publisher-built: the `JSI-PUBLISH PUBLISHED` row in the Sender Log).
+- **Cadence:** up to 5 first touches plus follow-ups (S2 at S1 + 2 business days, S5 at S1 + 13), 15 total; the shared
+  mailbox cap is 60 and ASI plans 45. The sender enforces all of them. First touches only to Houston until a DFW alias exists.
+- **Gates for every first touch:** verified address (MillionVerifier ok, or published on the hauler's own site under the
+  tracker's rules), hook re-checked live (`tools/hook_gate.py` / `tools/hook_recheck.js`: authorization ACTIVE, cited record
+  date on the live record, at most 45 days old on the send day), stale rows held (`tools/hold_stale.py`), list status,
+  do-not-contact and send ledger by address and domain, Gmail history, `ji_ops.py validate` PASS.
+- **Manifest freshness:** dated the send day and at most 36 hours old at 8 AM CT. The close-out stages a prepared batch
+  (`JSI-PREPARED v1`); the publisher or, until it is installed, the pre-send turns it into the send-day manifest.
 - **Reruns:** `tools/presend_check.py --id-prefix JI-` before any build (KEEP and SENDING are never replaced);
   `tools/reconcile_check.py` before any retry; UNCERTAIN entries are checked against the draft and Sent, never resent.
-- **First run (Nov 13):** the ledger has no rows for the Nov 6 manifest (15 sends, Sender Log rows JI-...). The first
-  close-out reconciles `ops/manifests/2026-11-06.json` before planning.
+- **No copy before verification** (user, Nov 19, same as ASI): an unverified address gets a `data/to_verify_<date>.csv` row
+  and nothing else. MillionVerifier is website-only: never call its API, never read, print or store `MILLIONVERIFIER_API_KEY`.
 - **Line endings:** after any `ji_ops.py` write, `tools/lf_fix.py "ops/queue/*.json" "ops/manifests/*.json"`.
-- **Never:** send, reply, forward or trash mail; change the sender's MODE or triggers; touch ASI files.
-
-## Steps
-
-**Pre-send:** weekend or `holidays.txt` -> stop. Save `list_drafts` (`subject:"ASI-MANIFEST v1 <today>"`, DRAFT_VIEW_FULL)
-and the Sender Log export (Drive file `1qBaAWdp2rR9NVlNrL9qkaaKn-SVqh2xI7Et4Rj--4ro`, text/csv). Run
-`PY -I ops/routines/tools/presend_check.py --repo . --date <today> --id-prefix JI- --gmail-drafts ... --sender-log ...`.
-KEEP/SENDING/NOTHING: log. BUILD: re-check each drafted row's site record and Gmail history, `reconcile-drafts`,
-then ops/README.md step 6 (manifest, decode-check, `create_draft` exactly, read back, label `JI/Do not send`).
-
-**Close-out:** (A) reconcile today: Sent `in:sent from:sites@asterfieldgroup.com after:<today> before:<tomorrow>`,
-`reconcile_check.py` against `ops/manifests/<today>.json`, then ops/README.md steps 7 and 8 for SENT entries; also any
-earlier manifest with unlogged entries (Nov 6 on the first run). (B) ops/README.md step 1 (replies, bounces, opt-outs;
-engaged replies are not drafted unattended: alert). (C) Plan the next business day: due follow-ups (write S2/S5
-copy per the copy rules if missing, convert, link-threads), `ji_ops.py plan ... --send-date <N> --apply`, re-check each
-planned row, `validate`, draft with `next` + `create_draft` + `record-draft`, read back and compare. No manifest.
-
-**Late reconcile:** close-out section A again; leave PENDING drafts as `drafted` (the next plan carries them over).
-
-**Replenish:** new packets only through `scripts/check_packet.py` (0 flags) and the copy rules; stop at 25 ready first touches.
+- **Holidays:** `holidays.txt` (no sends; Thanksgiving Nov 26-27, 2026). The next business day skips them; Wed Nov 25's
+  close-out plans Mon Nov 30.
+- **Never:** send, reply, forward or trash mail; create Gmail drafts other than our S1/S2/S5 drafts, our manifest and our
+  prepared batch; change the sender's MODE, Script properties or triggers; touch ASI files; edit `scripts/ji_ops.py` or
+  `ops/sender/Code.gs` (ASI owns them: tell the user).
 
 ## Logging and alerts
 
-One line per run in `ops/routines/run_log.md`. Alert (PushNotification, or an `ALERT` line and the task's final
-message) only for a reply needing the user's decision, an issue that prevents or cuts 3 or more of the day's
-planned sends, an UNCERTAIN send, or a reserve under 15 ready first touches.
+Every run appends one line to `run_log.md`: date and time (ET), task, result, counts, and the usage measurement:
+call `mcp__ccd_session_mgmt__get_usage` first and last (load it with ToolSearch if deferred) and end the line with
+`usage 5h A%->B%, weekly C%->D%; wall clock N min` (or "usage tool unavailable"). Routine successes go only there.
+Alert (PushNotification, or a line starting `ALERT` in the run log and the task's final message) only when:
+- a reply, sample request or opt-out needs the user's decision (engaged replies stay with the user);
+- an unresolved issue prevents or cuts 3 or more of the day's planned sends (sender did not run, manifest or prepared
+  batch could not be built, publisher dropped 3+, UNCERTAIN sends);
+- ready first touches fall below 3 business days of cover (15), or a replenish run ends SHORT.
+
+## Views
+
+- `CALENDAR.md`: rolling 15-business-day first-touch calendar plus follow-ups (`tools/calendar_view.py`), refreshed by each close-out.
+- `tools/daily_status.py`: the close-out's read-only status (send confirmation, next day's batch, reserve, copy buffer,
+  verification backlog). The reserve line is 50 (10 business days at 5 a day): under it, replenish runs in full mode.
