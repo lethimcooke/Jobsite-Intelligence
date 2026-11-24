@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Jobsite Intelligence outreach operations (copy of Austin-Signage scripts/asi_ops.py at f34e343; the ASI repo owns the code, resync from there, change only via the user).
+"""Jobsite Intelligence outreach operations (copy of Austin-Signage scripts/asi_ops.py at b4a81ca, resynced Nov 24, 2026 with the user's OK; the ASI repo owns the code, resync from there, change only via the user).
 
 Outreach operations: approved copy -> validated draft queue -> Gmail drafts -> evidence-backed logging.
 
@@ -120,6 +120,11 @@ def write_csv_tmp(path, fields, rows):
 
 def now_iso():
     return dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat()
+
+
+def today():
+    """Today's date (YYYY-MM-DD, US Central, the sending day). A function so tests can pin it."""
+    return dt.datetime.now(dt.timezone(dt.timedelta(hours=-5))).date().isoformat()
 
 
 # ---------- rules and lists ----------
@@ -353,6 +358,15 @@ def s1_dates_from_ledger(data_dir):
     return out
 
 
+def s1_cap(rules, send_date=None):
+    """First-email cap for send_date: max_s1_per_day, lowered for a date in s1_cap_by_date (user, Oct 21:
+    5 first emails on Oct 22-23 after the bounce pause), and never above the daily share."""
+    cap = rules["max_s1_per_day"]
+    if send_date:
+        cap = min(cap, rules.get("s1_cap_by_date", {}).get(send_date, cap))
+    return min(cap, daily_share(rules))
+
+
 def daily_share(rules):
     """This business's share of the shared mailbox's daily total (user, Oct 14: ASI 45, Jobsite 15)."""
     total = rules.get("max_total_per_day", 10**6)
@@ -365,6 +379,18 @@ def sent_on(data_dir, send_date, other=None):
     return [r for r in rows if r["kind"] == "gmail_sent" and r["sent_at"][:10] == send_date]
 
 
+VERIFY_RANK = {"SEND": 0, "RISKY": 2}
+
+
+def s1_verify_ok(rules, rec, send_date):
+    """First emails go only to addresses with an allowed verification verdict from the rule's start date on
+    (user, Oct 21: SEND-rated addresses only; Oct 26: planning past the SEND stock filled with RISKY rows)."""
+    req = rules.get("s1_verify_required") or {}
+    if not req or (send_date or "") < req.get("from", ""):
+        return True
+    return rec.get("verify") in req.get("verdicts", [])
+
+
 def plan_day(queues, rules, data_dir, send_date, other=None):
     """Pick today's sends across queues: first touches first (up to max_s1_per_day), then
     follow-ups oldest S1 first, all within max_total_per_day. The rest become 'deferred'.
@@ -372,7 +398,7 @@ def plan_day(queues, rules, data_dir, send_date, other=None):
     queues for the day too (planned jointly, same order: first touches of both businesses first)."""
     sent, mine = sent_on(data_dir, send_date, other), sent_on(data_dir, send_date)
     budget = min(rules.get("max_total_per_day", 10**6) - len(sent), daily_share(rules) - len(mine))
-    s1_budget = min(rules["max_s1_per_day"], daily_share(rules)) - sum(1 for r in mine if r["stage"] == "S1")
+    s1_budget = s1_cap(rules, send_date) - sum(1 for r in mine if r["stage"] == "S1")
     s1_dates = s1_dates_from_ledger(data_dir)
     for r in (other or {}).get("ledger") or []:
         if r["stage"] == "S1" and r["kind"] == "gmail_sent":
@@ -389,15 +415,24 @@ def plan_day(queues, rules, data_dir, send_date, other=None):
     for qi, (path, q) in enumerate(queues):
         for r in q["records"]:
             # Candidates: queued or deferred records (a deferred one may keep its draft), and drafts planned for
-            # another day that never sent (carried over; re-planned here, draft kept).
-            carried = r.get("status") == "drafted" and r.get("planned_for") != send_date
+            # a day that has passed without sending (carried over; re-planned here, draft kept). A draft planned
+            # for a later day, or for a day still to come, stays put (Oct 21: planning Oct 23 ahead of time
+            # pulled in Oct 22's drafts).
+            pf = r.get("planned_for")
+            carried = r.get("status") == "drafted" and (pf is None or pf < min(send_date, today()))
             if r.get("status") in ("queued", "deferred") or carried:
                 first = r["stage"] == "S1"
+                if first and not s1_verify_ok(rules, r, send_date):
+                    r["status"] = "deferred"
+                    continue
                 # No S1 in the ledger means the S1 predates the ledger (before Oct 7), so it is oldest.
                 age = s1_dates.get(r["to"].lower(), "0000") if not first else ""
                 # Engaged emails (E1-E3) always go first: the tracker puts replies ahead of everything.
                 tier = -1 if r["stage"].startswith("E") else (0 if first else 1)
-                cands.append(((tier, age, qi, r["seq"]), r))
+                # First emails: address-verification verdict next (Verify E1/R1, Oct 21), across queues, so a
+                # SEND row in a later queue goes before a RISKY row in an earlier one. Unverified sits between.
+                rank = VERIFY_RANK.get(r.get("verify"), 1) if first else 0
+                cands.append(((tier, rank, age, qi, r["seq"]), r))
     picked, deferred = [], []
     for _, r in sorted(cands, key=lambda x: x[0]):
         if r["stage"] == "S1":
@@ -448,9 +483,9 @@ def validate_queue(queue, rules, data_dir, send_date=None, run_dup_check=True, o
             return (r.get("status") in ("queued", "drafted")
                     and r.get("planned_for") in (None, send_date))
         planned = sum(1 for r in queue["records"] if r.get("stage") == "S1" and for_today(r))
-        s1_cap = min(rules["max_s1_per_day"], daily_share(rules))
-        if already + planned > s1_cap:
-            errs.append(f"S1 cap: {already} already logged on {send_date} + {planned} planned > {s1_cap}")
+        cap_s1 = s1_cap(rules, send_date)
+        if already + planned > cap_s1:
+            errs.append(f"S1 cap: {already} already logged on {send_date} + {planned} planned > {cap_s1}")
         cap = rules.get("max_total_per_day") and daily_share(rules)
         if cap:
             done = len(sent_on(data_dir, send_date))
@@ -472,6 +507,14 @@ SECTION_RE = re.compile(r"^### (\d+)\. (.+)$", re.M)
 SECTION2_RE = re.compile(r"^## (\d+)\. (.+)$", re.M)   # Jobsite copy files number their '## ' headings
 TO_RE = re.compile(r"(?:\*\*To:\*\*|^- To:)\s*([^\s(]+)", re.M)
 SUBJECT_RE = re.compile(r"(?:\*\*Subject:\*\*|^- Subject:)\s*(.+?)\s*$", re.M)
+
+
+def _rel(path):
+    """Repo-relative path; absolute when the file is on another drive (Windows temp on C:, repo on D:)."""
+    try:
+        return os.path.relpath(path, ROOT)
+    except ValueError:
+        return os.path.abspath(path)
 
 
 def convert(source, batch, city, stage, rules, packet=None, section=None, title_prefix=None):
@@ -524,7 +567,7 @@ def convert(source, batch, city, stage, rules, packet=None, section=None, title_
     if not records:
         raise OpsError(f"no sections for '{title_prefix}' found")
     return {
-        "batch": batch, "city": city, "stage": stage, "source": os.path.relpath(source, ROOT),
+        "batch": batch, "city": city, "stage": stage, "source": _rel(source),
         "section": section, "title_prefix": title_prefix, "source_sha256": hashlib.sha256(full.encode()).hexdigest(), "packet": packet,
         "created_at": now_iso(), "records": records,
     }
@@ -713,7 +756,7 @@ def build_manifest(queues, rules, data_dir, send_date, other=None, dry_run_only=
         # A test manifest: the sender checks and logs it but never sends from it, in any mode.
         "dry_run_only": bool(dry_run_only),
         # max_total is the mailbox's total across both businesses; share is this business's part of it.
-        "max_total": rules.get("max_total_per_day", 60), "max_s1": rules["max_s1_per_day"],
+        "max_total": rules.get("max_total_per_day", 60), "max_s1": s1_cap(rules, send_date),
         "share": daily_share(rules),
         "aliases": {v["from"]: v["display"] for v in rules["senders"].values()},
         "dnc_emails": sorted({x["email"].strip().lower() for x in rows if x["email"].strip()}),

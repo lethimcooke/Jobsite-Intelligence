@@ -425,9 +425,24 @@ function runSender() {
   }
 }
 
+/**
+ * Every manifest draft, however many other drafts there are. GmailApp.getDrafts() returns only the newest 50
+ * (Oct 22: Friday's 45 drafts, made after Thursday's manifest, pushed it out of view and ASI sent nothing),
+ * so search the drafts by subject through the Gmail API and page through every result.
+ */
+function manifestDrafts_() {
+  var ids = [], token;
+  do {
+    var resp = Gmail.Users.Drafts.list('me', { q: 'subject:ASI-MANIFEST', maxResults: 100, pageToken: token });
+    (resp.drafts || []).forEach(function (d) { ids.push(d.id); });
+    token = resp.nextPageToken;
+  } while (token);
+  return ids.map(function (id) { return GmailApp.getDraft(id); });
+}
+
 function loadManifests_(today, nowMs) {
   var out = [];
-  GmailApp.getDrafts().forEach(function (d) {
+  manifestDrafts_().forEach(function (d) {
     var m = d.getMessage();
     if (!CFG.MANIFEST_RE.test(m.getSubject())) return;
     if (parseAddresses_(m.getTo()).join(',') !== CFG.OWNER) return;
