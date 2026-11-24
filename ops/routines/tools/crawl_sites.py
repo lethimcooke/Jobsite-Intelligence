@@ -1,5 +1,5 @@
 """Crawl4AI site reader for the Jobsite replenish (hauler home, services and contact pages). Run with the isolated venv:
-D:\\Workspace\\tools\\crawl4ai-venv\\Scripts\\python.exe crawl_sites.py <out dir> <url> [<url> ...]
+D:\\Workspace\\austin-signage-repo\\local\\tools\\crawl4ai-venv\\Scripts\\python.exe crawl_sites.py <out dir> <url> [<url> ...]
 Saves one Markdown file per page and prints emails, phones and elapsed seconds per page."""
 import asyncio, json, os, re, sys, time
 from crawl4ai import AsyncWebCrawler, BrowserConfig, CrawlerRunConfig, CacheMode

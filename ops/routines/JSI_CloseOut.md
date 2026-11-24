@@ -2,8 +2,8 @@
 
 Goal: log what went out today, handle the mailbox (our lane), then prepare the next business day: drafts, the
 prepared batch for the publisher, and the follow-up copy buffer one send day beyond it. No manifest here.
-Read `README.md` here, `ops/README.md` and `CLAUDE.md` first. PY = `D:\Workspace\tools\asi-venv\Scripts\python.exe`.
-Scratch: `D:\Workspace\tools\scratch\routines\<today>\jsi\`. Copy rules: `docs/Outreach_Copy_v2.md`.
+Read `README.md` here, `ops/README.md` and `CLAUDE.md` first. PY = `D:\Workspace\austin-signage-repo\local\tools\asi-venv\Scripts\python.exe`.
+Scratch: `D:\Workspace\austin-signage-repo\local\tools\scratch\routines\<today>\jsi\`. Copy rules: `docs/Outreach_Copy_v2.md`.
 
 ## 0. Guard
 If `ops/routines/done/closeout_<today>.txt` exists, today's close-out already ran (or was done by hand): log

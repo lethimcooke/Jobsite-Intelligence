@@ -163,7 +163,7 @@ if since:
     L.append(f"- Oldest waiting since {oldest} ({age} business days)")
     if age > STALL_BD:
         alerts.append(f"VERIFICATION STALLED: {len(pend) + len(waiting)} addresses waiting, oldest since {oldest} ({age} business days). "
-                      r"Upload the newest D:\Workspace\verify\outbox\<date>.csv on the MillionVerifier website and save the results in D:\Workspace\verify\inbox\.")
+                      r"Upload the newest D:\Workspace\austin-signage-repo\verify\outbox\<date>.csv on the MillionVerifier website and save the results in D:\Workspace\austin-signage-repo\verify\inbox\.")
 
 head = [f"# JSI daily status, {TODAY:%a %b %d, %Y} (read-only)\n", "## Alerts\n"]
 head += [f"- **{x}**" for x in alerts] or ["- none"]

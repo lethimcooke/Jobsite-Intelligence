@@ -5,7 +5,7 @@ drafted rows exist. Read `README.md` here first. One live publisher at a time: o
 (`ops/sender/JsiPublisher.gs`) runs in Apps Script, this task only reports.
 
 0. Weekend or `holidays.txt` date: log "no send day" and stop.
-1. Save Gmail state (read-only), under `D:\Workspace\tools\scratch\routines\<today>\jsi\`:
+1. Save Gmail state (read-only), under `D:\Workspace\austin-signage-repo\local\tools\scratch\routines\<today>\jsi\`:
    - `list_drafts` query `subject:"ASI-MANIFEST v1 <today>"` (DRAFT_VIEW_FULL, pageSize 5) to `gmail_manifests.json`
      (keep `id` and `subject`); ASI's manifest is in the same list: never open, edit or label it.
    - Export the Sender Log (Drive `download_file_content`, file `1qBaAWdp2rR9NVlNrL9qkaaKn-SVqh2xI7Et4Rj--4ro`, text/csv)

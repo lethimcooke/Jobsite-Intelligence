@@ -26,7 +26,7 @@ verified haulers to match); that line is an alert.
 
 Read `README.md` here, `AGENTS.md` (prospector rules), `docs/Outreach_Copy_v2.md` (S1) and the tracker's site rules
 (45-day window, ACTIVE, priority 1-2, not named for a person, used once). Claude buys nothing.
-PY = `D:\Workspace\tools\asi-venv\Scripts\python.exe`. Scratch: `D:\Workspace\tools\scratch\routines\<today>\jsi\replenish\`.
+PY = `D:\Workspace\austin-signage-repo\local\tools\asi-venv\Scripts\python.exe`. Scratch: `D:\Workspace\austin-signage-repo\local\tools\scratch\routines\<today>\jsi\replenish\`.
 Call `get_usage` first (README, Logging).
 
 1. **Recover what is close to ready** (cheapest):
@@ -42,7 +42,7 @@ Call `get_usage` first (README, Logging).
    - FMCSA and Comptroller first (`enrich_haulers.py`, `pull_haulers.py`); then Exa (PowerShell only):
      `& (Join-Path (npm prefix -g) 'mcporter.ps1') call exa.web_search_exa query="roll-off dumpster rental <area> TX" numResults=10`
      and `"portable toilet rental <area> TX"`. Time each search; save raw output under scratch.
-   - Own-site evidence with Crawl4AI: `D:\Workspace\tools\crawl4ai-venv\Scripts\python.exe ops/routines/tools/crawl_sites.py <scratch>\sites <home, services and contact URLs>`.
+   - Own-site evidence with Crawl4AI: `D:\Workspace\austin-signage-repo\local\tools\crawl4ai-venv\Scripts\python.exe ops/routines/tools/crawl_sites.py <scratch>\sites <home, services and contact URLs>`.
      Services and areas from the hauler's own pages; email only if published there (grade A), else the contact form URL
      (Option A forms stay with the user, CLAUDE.md). Skip national haulers, franchises and anyone in another business's list.
 4. **Packet and dedupe:** `PY scripts/build_packet.py ...` (or by hand in its columns) into `data/packet_<B>.csv` (batch `<B>` =
@@ -57,15 +57,15 @@ Call `get_usage` first (README, Logging).
 5b. **MillionVerifier: website only, one CSV for ASI and Jobsite (user, Nov 20).** Never call the API; the tool has no API
    code and never reads `MILLIONVERIFIER_API_KEY`.
    - Import first: `PY -I ops/routines/tools/mv_bulk.py --repo . import-inbox` (every results file in
-     `D:\Workspace\verify\inbox\` and `inbox\done\` without a Jobsite marker; only addresses in Jobsite's open batches are
+     `D:\Workspace\austin-signage-repo\verify\inbox\` and `inbox\done\` without a Jobsite marker; only addresses in Jobsite's open batches are
      taken, ASI's rows are ignored; it writes `<file>.jsi_imported.txt` beside each file). Never move or delete files there:
      ASI moves a file to `done\` once both businesses have imported it. Then write copy (step 5) for every new ok row, and
      for catch-all rows whose address is on the hauler's own site, matched to its site.
    - Export last: `PY -I ops/routines/tools/mv_bulk.py --repo . collect --max 1000` appends the new addresses to
-     `D:\Workspace\verify\outbox\<today>.csv` (columns `email,business`, business `JSI`; it creates the file with that header
+     `D:\Workspace\austin-signage-repo\verify\outbox\<today>.csv` (columns `email,business`, business `JSI`; it creates the file with that header
      if missing and never repeats an address already there; an open, unverified batch never blocks a new one). The run report ends with: "Verify
-     `D:\Workspace\verify\outbox\<today>.csv` on the MillionVerifier website and save the results file in
-     `D:\Workspace\verify\inbox\`." Log the batch id, rows, and per-result counts of each import.
+     `D:\Workspace\austin-signage-repo\verify\outbox\<today>.csv` on the MillionVerifier website and save the results file in
+     `D:\Workspace\austin-signage-repo\verify\inbox\`." Log the batch id, rows, and per-result counts of each import.
 6. **Record the run:** commit and push (only files this run changed), then one line in `run_log.md`: sites pulled and kept,
    haulers found (Exa searches and seconds per search), send-ready added (verified), unverified rows queued, ready reserve
    and business days, week's total against 25, mode (full or focus), usage. Alert when SHORT (fewer new addresses than the

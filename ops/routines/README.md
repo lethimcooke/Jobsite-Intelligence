@@ -4,7 +4,7 @@ Permanent weekday workflow, no end date, ported from ASI's proven setup on Nov 2
 (`TRANSFER_2026-11-24.md`). Times are Eastern (the PC's clock; the ASI Sender and the publisher run on Central, one hour
 earlier). Each task's prompt says: open `D:\Workspace\jobsite-intelligence-repo` and follow the matching file here, plus
 `ops/README.md` (the daily loop) and `CLAUDE.md`.
-PY = `D:\Workspace\tools\asi-venv\Scripts\python.exe` (or `python` 3.13). Scratch: `D:\Workspace\tools\scratch\routines\<today>\jsi\`.
+PY = `D:\Workspace\austin-signage-repo\local\tools\asi-venv\Scripts\python.exe` (or `python` 3.13). Scratch: `D:\Workspace\austin-signage-repo\local\tools\scratch\routines\<today>\jsi\`.
 
 | Task | When (ET) | File | What it does |
 |---|---|---|---|

@@ -1,14 +1,14 @@
 """MillionVerifier for Jobsite: website route only, one CSV shared with ASI (user, Nov 20).
 
-python -I mv_bulk.py --repo . collect [--max 1000] [--outbox D:\\Workspace\\verify\\outbox]
+python -I mv_bulk.py --repo . collect [--max 1000] [--outbox D:\\Workspace\\austin-signage-repo\\verify\\outbox]
         build a batch from addresses waiting for verification and append them to the shared outbox file
         <outbox>/<today>.csv (columns email,business; business JSI). The user uploads that file on the
-        MillionVerifier website and saves the results file in D:\\Workspace\\verify\\inbox\\.
+        MillionVerifier website and saves the results file in D:\\Workspace\\austin-signage-repo\\verify\\inbox\\.
 python -I mv_bulk.py --repo . import-shared RESULTS.csv [RESULTS.csv ...]
         import a combined ASI+JSI results file: only addresses in Jobsite's open batches are taken (ASI's rows
         are ignored); each batch with at least one address in the file is imported. Writes a marker
         <RESULTS>.jsi_imported.txt beside the file so ASI knows Jobsite is done with it (ASI moves it to done\\).
-python -I mv_bulk.py --repo . import-inbox [--inbox D:\\Workspace\\verify\\inbox]
+python -I mv_bulk.py --repo . import-inbox [--inbox D:\\Workspace\\austin-signage-repo\\verify\\inbox]
         import-shared every results file in the inbox and inbox\\done\\ that has no Jobsite marker yet.
 python -I mv_bulk.py --repo . status
 
@@ -29,7 +29,7 @@ FREE = {"gmail.com", "yahoo.com", "hotmail.com", "outlook.com", "aol.com", "live
 LABEL = {"ok": "Deliverable", "catch_all": "Risky: accept-all", "invalid": "Undeliverable",
          "disposable": "Undeliverable", "unknown": "Unknown"}
 BUSINESS = "JSI"
-SHARED = r"D:\Workspace\verify"
+SHARED = r"D:\Workspace\austin-signage-repo\verify"
 VFIELDS = ["email", "company", "list", "metro", "service", "result", "checked_on"]
 
 
