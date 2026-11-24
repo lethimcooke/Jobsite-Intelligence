@@ -7,7 +7,9 @@ a week** (about 8 a run); **reserve line 50** ready (10 business days).
 **Run targets.** Two numbers, both logged:
 - **8 send-ready first touches added**, all from usable addresses (MillionVerifier ok, or published on the hauler's own
   site under the tracker's rules). Step 1 comes first and is the main source.
-- **20 new addresses found for verification**, hauler-first: FMCSA and Comptroller pulls (`scripts/enrich_haulers.py`,
+- **150 new addresses found for verification (user, Nov 24, same as ASI; was 20).** Never skip or cut the search short
+  because of an unverified backlog: finding addresses for the user to verify is this routine's main job, and a big backlog
+  is fine. Stop only at the target, the time cap, or 5-hour usage over 90%. Hauler-first: FMCSA and Comptroller pulls (`scripts/enrich_haulers.py`,
   `scripts/pull_haulers.py`), then Exa (two queries per service and area, `numResults=10`), then Crawl4AI for own-site
   emails. A hauler qualifies when its email is on its own site, it publishes roll-off, dumpster or portable toilet
   service, and a fresh TCEQ site sits in an area it publishes.
@@ -15,10 +17,10 @@ a week** (about 8 a run); **reserve line 50** ready (10 business days).
   metro, site: the matched site's RN) and nothing else: no copy, no queue row.
 - **Reserve full (ready at or over 50): focus mode.** Still run, but only where leads come easiest: read
   `data/research/yield.csv` and work the 2 service and area pairs with the most own-site emails per search over the last
-  3 runs (a pair with no history counts as average). Targets drop to 10 new addresses; step 1 still runs first; stop at
-  30 minutes. Every run appends one row per pair it worked to `data/research/yield.csv` (columns date, metro, service,
+  3 runs (a pair with no history counts as average). Targets drop to 100 new addresses (user, Nov 24); step 1 still runs first; stop at
+  45 minutes. Every run appends one row per pair it worked to `data/research/yield.csv` (columns date, metro, service,
   area, searches, own_site_emails, send_ready_added; create it with that header if missing).
-Work until both targets are met or the run reaches 1 hour (30 minutes in focus mode). If it ends short, the run log line
+Work until both targets are met or the run reaches 2 hours (45 minutes in focus mode), as ASI. If it ends short, the run log line
 starts with "SHORT:" plus the counts and says what ran out (fresh ACTIVE sites, haulers with an own-site email, or
 verified haulers to match); that line is an alert.
 
@@ -59,12 +61,13 @@ Call `get_usage` first (README, Logging).
      taken, ASI's rows are ignored; it writes `<file>.jsi_imported.txt` beside each file). Never move or delete files there:
      ASI moves a file to `done\` once both businesses have imported it. Then write copy (step 5) for every new ok row, and
      for catch-all rows whose address is on the hauler's own site, matched to its site.
-   - Export last: `PY -I ops/routines/tools/mv_bulk.py --repo . collect --max 200` appends the new addresses to
+   - Export last: `PY -I ops/routines/tools/mv_bulk.py --repo . collect --max 1000` appends the new addresses to
      `D:\Workspace\verify\outbox\<today>.csv` (columns `email,business`, business `JSI`; it creates the file with that header
-     if missing and never repeats an address already there). The run report ends with: "Verify
+     if missing and never repeats an address already there; an open, unverified batch never blocks a new one). The run report ends with: "Verify
      `D:\Workspace\verify\outbox\<today>.csv` on the MillionVerifier website and save the results file in
      `D:\Workspace\verify\inbox\`." Log the batch id, rows, and per-result counts of each import.
 6. **Record the run:** commit and push (only files this run changed), then one line in `run_log.md`: sites pulled and kept,
    haulers found (Exa searches and seconds per search), send-ready added (verified), unverified rows queued, ready reserve
-   and business days, week's total against 25, mode (full or focus), usage. Alert when SHORT, when the week's added ready
-   rows are under 15 by Friday, or when the unverified backlog reaches 10 on a Monday.
+   and business days, week's total against 25, mode (full or focus), usage. Alert when SHORT (fewer new addresses than the
+   run's target), or when the week's added ready rows are under 15 by Friday. An unverified backlog is not an alert; the
+   run report always ends with the verify line.

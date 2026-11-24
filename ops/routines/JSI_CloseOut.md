@@ -10,6 +10,13 @@ If `ops/routines/done/closeout_<today>.txt` exists, today's close-out already ra
 "already done" and stop. Write that file at the end of a successful run. Call `get_usage` now (README, Logging).
 
 ## A. Reconcile today (skip on non-send days)
+If neither `ops/manifests/<today>.json` nor `ops/prepared/<today>.json` exists, nothing was listed for today (first day
+back after the Nov 18 pause, or a missed close-out): log "no Jobsite list for today", alert only if records were drafted
+for today, and go to B. Unsent drafts from an earlier day stay `drafted`; the plan in C carries them.
+
+**Before the JSI publisher is installed** (the Sender Log has never had a `JSI-PUBLISH` row): the pre-send builds
+`ops/manifests/<date>.json` the old way, so step 2 uses that file and no row is ever DROPPED. Step C5b still stages the
+prepared batch: it costs one labeled draft, proves the batch builds, and is what the publisher will read once installed.
 1. Export the Sender Log (as in `JSI_PreSend.md` step 1) and save Gmail Sent:
    `search_threads` `in:sent from:sites@asterfieldgroup.com after:<today> before:<tomorrow>` (METADATA_ONLY, pageSize 50,
    page until done) to `sent_<today>.json` in search_threads shape.

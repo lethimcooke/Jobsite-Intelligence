@@ -305,6 +305,17 @@ class Verify(Repo):
         self.assertEqual([(r["email"], r["business"]) for r in rows],
                          [("asi1@signs.com", "ASI"), ("new1@haul.com", "JSI"), ("new2@haul.com", "JSI")])
 
+    def test_open_batch_does_not_block_a_new_one(self):
+        self.tool("mv_bulk.py", "collect", "--today", "2026-11-24", "--outbox", self.outbox)
+        write_csv(self.p("data/to_verify_2026-11-25.csv"), ["email", "company", "metro", "site"],
+                  [{"email": "new3@haul.com", "company": "New Three", "metro": "Houston", "site": "RN6"}])
+        self.tool("mv_bulk.py", "collect", "--today", "2026-11-25", "--outbox", self.outbox)
+        with open(self.p("data/verify_batches/state.json"), encoding="utf-8") as fh: st = json.load(fh)
+        self.assertEqual([(b["id"], b["emails"]) for b in st["batches"]],
+                         [("2026-11-24", ["new1@haul.com", "new2@haul.com"]), ("2026-11-25", ["new3@haul.com"])])
+        r = self.tool("mv_bulk.py", "collect", "--today", "2026-11-25", "--outbox", self.outbox)
+        self.assertIn("nothing pending", r.stdout)                         # every address is already in a batch
+
     def test_import_shared_takes_only_our_rows(self):
         self.tool("mv_bulk.py", "collect", "--today", "2026-11-24", "--outbox", self.outbox)
         res = self.p("inbox/results.csv")

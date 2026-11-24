@@ -1,6 +1,6 @@
 """MillionVerifier for Jobsite: website route only, one CSV shared with ASI (user, Nov 20).
 
-python -I mv_bulk.py --repo . collect [--max 200] [--outbox D:\\Workspace\\verify\\outbox]
+python -I mv_bulk.py --repo . collect [--max 1000] [--outbox D:\\Workspace\\verify\\outbox]
         build a batch from addresses waiting for verification and append them to the shared outbox file
         <outbox>/<today>.csv (columns email,business; business JSI). The user uploads that file on the
         MillionVerifier website and saves the results file in D:\\Workspace\\verify\\inbox\\.
@@ -108,6 +108,8 @@ def append_outbox(outbox, today, emails):
 
 def cmd_collect(repo, mx, today, outbox):
     st = load_state(repo)
+    # Website mode (user, Nov 24, as ASI): an open, unverified batch never blocks a new one. pending() already leaves
+    # out addresses in open batches, so each collect takes only addresses not yet in any batch.
     rows = pending(repo, st)[:mx]
     if not rows:
         print("nothing pending verification"); return None
@@ -201,7 +203,7 @@ if __name__ == "__main__":
     p = argparse.ArgumentParser()
     p.add_argument("--repo", required=True); p.add_argument("--today", default=datetime.date.today().isoformat())
     p.add_argument("cmd", choices=["collect", "import-shared", "import-inbox", "status"])
-    p.add_argument("files", nargs="*"); p.add_argument("--max", type=int, default=200)
+    p.add_argument("files", nargs="*"); p.add_argument("--max", type=int, default=1000)
     p.add_argument("--outbox", default=os.path.join(SHARED, "outbox")); p.add_argument("--inbox", default=os.path.join(SHARED, "inbox"))
     a = p.parse_args()
     repo = os.path.abspath(a.repo)
