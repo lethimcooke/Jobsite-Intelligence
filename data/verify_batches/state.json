@@ -32,6 +32,23 @@
    "rows": 24,
    "outbox": "D:\\Workspace\\austin-signage-repo\\verify\\outbox\\2026-11-24.csv",
    "route": "web"
+  },
+  {
+   "id": "2026-11-24-2",
+   "collected_at": "2026-11-24",
+   "emails": [
+    "info@capitalwastevalet.com",
+    "tim@meridiandoorstep.com",
+    "info@scorpionwaste.com",
+    "info@simplepickup.net",
+    "service@texaspridedisposal.com",
+    "info@zerowastesolutions.com",
+    "mike.telle@americancombatcans.com",
+    "weebblejunkremoval@gmail.com"
+   ],
+   "rows": 8,
+   "outbox": "D:\\Workspace\\austin-signage-repo\\verify\\outbox\\2026-11-24.csv",
+   "route": "web"
   }
  ],
  "unknown_count": {}
