@@ -88,7 +88,14 @@ class Rules(Base):
 
 class Convert(Base):
     def test_jobsite_copy_format(self):
-        p = os.path.join(self.d, "copy.md")
+        # ji_ops.convert stores the source path relative to the repo, which fails when the temp dir is on another
+        # Windows drive (repo on D:, temp on C:). ASI's asi_ops has the fix (_rel); until ji_ops is resynced from
+        # ASI, keep this copy file on the repo's drive.
+        d = self.d
+        if os.path.splitdrive(d)[0].lower() != os.path.splitdrive(ROOT)[0].lower():
+            d = tempfile.mkdtemp(dir=os.path.dirname(ROOT))
+            self.addCleanup(shutil.rmtree, d, True)
+        p = os.path.join(d, "copy.md")
         body = f"Hi City Waste team,\n\nText.\n\n{SIG}\n\n{FOOT}"
         with open(p, "w") as fh:
             fh.write(f"# T\n\n## 1. H1: City Waste LP\n- To: sales@city-waste.com (A)\n- Subject: Annex, Lauder Rd\n\n```\n{body}\n```\n\n"

@@ -1,11 +1,16 @@
 """Reconcile one manifest against the Sender Log export and Gmail Sent (read-only).
 
-python -I reconcile_check.py --manifest ops/manifests/D.json --sender-log <csv> --sent <search_threads json> --out <report.json>
+python -I reconcile_check.py --manifest <ops/manifests/D.json or ops/prepared/D.json> --sender-log <csv> --sent <search_threads json> --out <report.json>
+
+--manifest takes a manifest built in the repo (pre-send) or the prepared batch the JSI publisher published from
+(prepare_batch.py output; the published manifest itself lives only in Gmail).
 
 Per entry:
   SENT       Sender Log LIVE SENT row whose message_id is a Sent message to that recipient from the manifest alias
   SKIPPED    Sender Log SKIP/ERROR row (detail kept); the queue's own skip handling applies
   PENDING    no Sender Log row and no Sent message: the sender has not reached it (or did not run)
+  DROPPED    the JSI publisher left it out of the published manifest (Sender Log JSI-PUBLISH DROPPED row, reason kept);
+             nothing was sent: hold or re-plan it per the reason, never resend by hand
   UNCERTAIN  the log and Sent disagree (sent without a log row, a log row without Sent, wrong alias or
              recipient). Never retry an UNCERTAIN entry: check its draft (list_drafts) and Sent first.
 Also writes <out>.sent_threads.json: Sent messages for SENT entries only, in search_threads shape, for
@@ -17,12 +22,14 @@ p.add_argument("--manifest", required=True); p.add_argument("--sender-log", requ
 p.add_argument("--sent", required=True); p.add_argument("--out", required=True)
 a = p.parse_args()
 with open(a.manifest, encoding="utf-8") as fh: raw = json.load(fh)
-man = raw.get("manifest", raw); d = man["send_date"]
-logrows = collections.defaultdict(list)
+man = raw.get("manifest") or raw.get("prepared") or raw; d = man["send_date"]
+logrows = collections.defaultdict(list); dropped = {}
 with open(a.sender_log, newline="", encoding="utf-8") as fh:
     for r in csv.DictReader(fh):
         if r.get("time (Central)", "").startswith(d) and r.get("mode") in ("LIVE",):
             logrows[r.get("outreach_id", "")].append(r)
+        elif r.get("time (Central)", "").startswith(d) and r.get("mode") == "JSI-PUBLISH" and r.get("result") == "DROPPED":
+            dropped[r.get("outreach_id", "")] = r.get("detail", "")
 with open(a.sent, encoding="utf-8") as fh: sent = json.load(fh)
 msgs = {}
 for t in sent.get("threads", []):
@@ -47,6 +54,8 @@ for e in man["entries"]:
             st, why = "UNCERTAIN", f"log SENT message {mid} not found in Sent to {to} from {alias}"
     elif skip_rows:
         st, why = "SKIPPED", f"{skip_rows[-1]['result']}: {skip_rows[-1].get('detail', '')[:120]}"
+    elif rid in dropped and not cand:
+        st, why = "DROPPED", f"publisher dropped it: {dropped[rid][:120]}"
     elif cand:
         st, why = "UNCERTAIN", f"Sent has {len(cand)} message(s) to {to} today but the Sender Log has no row"
     else:
