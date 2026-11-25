@@ -99,6 +99,21 @@
    "rows": 41,
    "outbox": "D:\\Workspace\\austin-signage-repo\\verify\\outbox\\2026-11-25.csv",
    "route": "web"
+  },
+  {
+   "id": "2026-11-25-2",
+   "collected_at": "2026-11-25",
+   "emails": [
+    "info@texastoughwaste.com",
+    "info@wiseguysdumpsters.com",
+    "sales@dfwcontainerservice.com",
+    "info@wastelandequipment.com",
+    "billing@firedogdumpsters.com",
+    "doubletdumpsters@gmail.com"
+   ],
+   "rows": 6,
+   "outbox": "D:\\Workspace\\austin-signage-repo\\verify\\outbox\\2026-11-25.csv",
+   "route": "web"
   }
  ],
  "unknown_count": {}
