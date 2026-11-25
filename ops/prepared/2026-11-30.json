@@ -1,0 +1,352 @@
+{
+ "subject": "JSI-PREPARED v1 2026-11-30 96b892f5bb66edfab7eda2f3447205029029f43bd7c6a393993238839e3aaa1c",
+ "prepared": {
+  "version": 1,
+  "send_date": "2026-11-30",
+  "created_at": "2026-11-25T19:58:17+00:00",
+  "business": "Jobsite Intelligence",
+  "dry_run_only": false,
+  "max_total": 60,
+  "max_s1": 5,
+  "share": 15,
+  "aliases": {
+   "sites@asterfieldgroup.com": "Houston Jobsite Intelligence"
+  },
+  "dnc_emails": [
+   "admin@quickwaste.com",
+   "contact@missouricityportapotty.com",
+   "info@dollysdumpstershouston.com",
+   "info@dumpsterconroe.com",
+   "info@texasgulfrecycling.com",
+   "quickwasteservices@gmail.com",
+   "support@dumpsterintherough.com"
+  ],
+  "dnc_domains": [
+   "dollysdumpstershouston.com",
+   "dumpsterconroe.com",
+   "dumpsterintherough.com",
+   "missouricityportapotty.com",
+   "quickwaste.com",
+   "texasgulfrecycling.com"
+  ],
+  "entries": [
+   {
+    "outreach_id": "JI-H13-S1-03",
+    "stage": "S1",
+    "company": "H13: Katy Mini Dumpsters",
+    "to": "katyminidumpsters@gmail.com",
+    "from_alias": "sites@asterfieldgroup.com",
+    "display_name": "Houston Jobsite Intelligence",
+    "subject": "The Home Depot - Elyson",
+    "body_len": 817,
+    "body_sha256": "a6cd9f796c6a82ca02cf4378239796ae69f351de31fe2e98fa14e8d2b7a1ef41",
+    "is_reply": false,
+    "reply_to_message_id": "",
+    "draft_id": "r2278180460088846641",
+    "thread_id": "1a1d67de74446851",
+    "hook": {
+     "kind": "NOI",
+     "id": "TXR1569ZT",
+     "cited": "2026-10-19",
+     "checked_at": ""
+    }
+   },
+   {
+    "outreach_id": "JI-H13-S1-05",
+    "stage": "S1",
+    "company": "H13: Go Waste",
+    "to": "service@gowaste.com",
+    "from_alias": "sites@asterfieldgroup.com",
+    "display_name": "Houston Jobsite Intelligence",
+    "subject": "Tesla - Austin Point",
+    "body_len": 812,
+    "body_sha256": "50fcdd965fd05295979ff4131c5e9b583e7e14147fb1d714bab82c21b1fb4684",
+    "is_reply": false,
+    "reply_to_message_id": "",
+    "draft_id": "r5414951423369046758",
+    "thread_id": "1a1d67deb4ba1b83",
+    "hook": {
+     "kind": "NOI",
+     "id": "TXR1511ZU",
+     "cited": "2026-10-19",
+     "checked_at": ""
+    }
+   },
+   {
+    "outreach_id": "JI-H13R-S1-01",
+    "stage": "S1",
+    "company": "Mid-Tex Environmental Services LLC",
+    "to": "midtexenvironmental@gmail.com",
+    "from_alias": "sites@asterfieldgroup.com",
+    "display_name": "Houston Jobsite Intelligence",
+    "subject": "Cypress Fields Business Park",
+    "body_len": 822,
+    "body_sha256": "7e7d8c7ced931d98fa48eed6c099caf6a1190451821b35300a6bd7a8121577ed",
+    "is_reply": false,
+    "reply_to_message_id": "",
+    "draft_id": "r-4437293358792085841",
+    "thread_id": "1a2144877b2b2503",
+    "hook": {
+     "kind": "NOI",
+     "id": "TXR1594ZB",
+     "cited": "2026-11-05",
+     "checked_at": ""
+    }
+   },
+   {
+    "outreach_id": "JI-H14-S1-01",
+    "stage": "S1",
+    "company": "786 Dumpsters & Junk Removal",
+    "to": "786dumpsters@gmail.com",
+    "from_alias": "sites@asterfieldgroup.com",
+    "display_name": "Houston Jobsite Intelligence",
+    "subject": "Lamar CISD Red Track, Rosenberg",
+    "body_len": 807,
+    "body_sha256": "93a6eb230dd368d28b3f36c0457166d2d2fb62971c17be544e0dcf4113bf100b",
+    "is_reply": false,
+    "reply_to_message_id": "",
+    "draft_id": "r-5934381659604782437",
+    "thread_id": "1a2144879e4f8025",
+    "hook": {
+     "kind": "NOI",
+     "id": "TXR1597ZU",
+     "cited": "2026-10-30",
+     "checked_at": ""
+    }
+   },
+   {
+    "outreach_id": "JI-H14-S1-02",
+    "stage": "S1",
+    "company": "Hero Portables",
+    "to": "teamhero@heroportables.com",
+    "from_alias": "sites@asterfieldgroup.com",
+    "display_name": "Houston Jobsite Intelligence",
+    "subject": "Holmes Industrial Park",
+    "body_len": 806,
+    "body_sha256": "99a7f89f6602e9f9e32974ec46188b8951aaa79d35f0d8cbdbd3b93e82039a90",
+    "is_reply": false,
+    "reply_to_message_id": "",
+    "draft_id": "r-5614240351991724057",
+    "thread_id": "1a214487c7c170ab",
+    "hook": {
+     "kind": "NOI",
+     "id": "TXR1580ZX",
+     "cited": "2026-11-16",
+     "checked_at": ""
+    }
+   },
+   {
+    "outreach_id": "JI-H4-S5-12",
+    "stage": "S5",
+    "company": "H4: TOP WASTE SOLUTIONS",
+    "to": "info@topwastesolutions.com",
+    "from_alias": "sites@asterfieldgroup.com",
+    "display_name": "Houston Jobsite Intelligence",
+    "subject": "Re: Infrastructure Services, 711 Rankin Rd",
+    "body_len": 361,
+    "body_sha256": "88317ad41fc6b84c7d9586a6c3a5cd8c268c654fe4c4710f591987a9b6afac62",
+    "is_reply": true,
+    "reply_to_message_id": "1a18d0e5d23d886f",
+    "draft_id": "r-4772581321873903639",
+    "thread_id": "1a178aae698a1519",
+    "hook": {
+     "kind": "NONE",
+     "id": "",
+     "cited": "",
+     "checked_at": ""
+    }
+   },
+   {
+    "outreach_id": "JI-H4-S5-14",
+    "stage": "S5",
+    "company": "H4: Houston Rolling Restrooms",
+    "to": "info@houstonrollingrestrooms.com",
+    "from_alias": "sites@asterfieldgroup.com",
+    "display_name": "Houston Jobsite Intelligence",
+    "subject": "Re: AutoZone, 1330 Northpark Dr",
+    "body_len": 367,
+    "body_sha256": "f64f30882a6ebec04bbd06a1678a49cc420f0865be072a45faf0d562c613e1b6",
+    "is_reply": true,
+    "reply_to_message_id": "1a18d15c419a7bff",
+    "draft_id": "r4655881596151635160",
+    "thread_id": "1a178aaeb5423dda",
+    "hook": {
+     "kind": "NONE",
+     "id": "",
+     "cited": "",
+     "checked_at": ""
+    }
+   },
+   {
+    "outreach_id": "JI-H4-S5-15",
+    "stage": "S5",
+    "company": "H4: Humpty Dumpsters LLC",
+    "to": "humptydumpsterstx@gmail.com",
+    "from_alias": "sites@asterfieldgroup.com",
+    "display_name": "Houston Jobsite Intelligence",
+    "subject": "Re: Biotics Research, Rosenberg",
+    "body_len": 358,
+    "body_sha256": "dab5ff8670c1a404871e0c07cd1d70cc2552bd3e76c1e46d49dc535754a7598f",
+    "is_reply": true,
+    "reply_to_message_id": "1a18d17514130193",
+    "draft_id": "r233039429298738947",
+    "thread_id": "1a178aaec8449c7f",
+    "hook": {
+     "kind": "NONE",
+     "id": "",
+     "cited": "",
+     "checked_at": ""
+    }
+   },
+   {
+    "outreach_id": "JI-H5-S5-01",
+    "stage": "S5",
+    "company": "YOUR DUMPSTER BUDDY RENTALS LLC",
+    "to": "yourdumpsterbuddyrentals@gmail.com",
+    "from_alias": "sites@asterfieldgroup.com",
+    "display_name": "Houston Jobsite Intelligence",
+    "subject": "Re: Ridgelake Cove Clearing and Grubbing",
+    "body_len": 369,
+    "body_sha256": "6075543e659adc8ba40e16e67a561dd37ceb788ee8f00577321f77d6981c4d21",
+    "is_reply": true,
+    "reply_to_message_id": "1a18d1ef58dc07b5",
+    "draft_id": "r-5345407483162269975",
+    "thread_id": "1a17989137bc2523",
+    "hook": {
+     "kind": "NONE",
+     "id": "",
+     "cited": "",
+     "checked_at": ""
+    }
+   },
+   {
+    "outreach_id": "JI-H5-S5-03",
+    "stage": "S5",
+    "company": "Shepherd's Dumpsters",
+    "to": "shepherdsdumpsters@gmail.com",
+    "from_alias": "sites@asterfieldgroup.com",
+    "display_name": "Houston Jobsite Intelligence",
+    "subject": "Re: The Retreat, 3139 Grissom Rd",
+    "body_len": 362,
+    "body_sha256": "6416c65d37b4c75c4316fc737861e8175a933926d692bac3226ef3ad27b75789",
+    "is_reply": true,
+    "reply_to_message_id": "1a19cf7abcdd9e67",
+    "draft_id": "r6758978555468017589",
+    "thread_id": "1a17989148c6cd1c",
+    "hook": {
+     "kind": "NONE",
+     "id": "",
+     "cited": "",
+     "checked_at": ""
+    }
+   },
+   {
+    "outreach_id": "JI-H5-S5-04",
+    "stage": "S5",
+    "company": "No-Bull Waste Solutions",
+    "to": "nobullwastesolutions@gmail.com",
+    "from_alias": "sites@asterfieldgroup.com",
+    "display_name": "Houston Jobsite Intelligence",
+    "subject": "Re: Rooms To Go, Baytown",
+    "body_len": 365,
+    "body_sha256": "ed88066426c3bd7b98f345ca09da4bcab246b0e539551277bd750fa1d67ebf4b",
+    "is_reply": true,
+    "reply_to_message_id": "1a19cf89d24e027b",
+    "draft_id": "r7777016892207402567",
+    "thread_id": "1a1798917e1ad7bb",
+    "hook": {
+     "kind": "NONE",
+     "id": "",
+     "cited": "",
+     "checked_at": ""
+    }
+   },
+   {
+    "outreach_id": "JI-H5-S5-05",
+    "stage": "S5",
+    "company": "M&E Dumpsters",
+    "to": "info@medumpsterstx.com",
+    "from_alias": "sites@asterfieldgroup.com",
+    "display_name": "Houston Jobsite Intelligence",
+    "subject": "Re: Springbrook Plaza office building, Spring",
+    "body_len": 355,
+    "body_sha256": "020b9a17e360573e6862d1a42bb186d3d9ba447e65012c83783c8849aba5fdda",
+    "is_reply": true,
+    "reply_to_message_id": "1a19cf9522f29065",
+    "draft_id": "r-30198074470645461",
+    "thread_id": "1a179891bc8ded8a",
+    "hook": {
+     "kind": "NONE",
+     "id": "",
+     "cited": "",
+     "checked_at": ""
+    }
+   },
+   {
+    "outreach_id": "JI-H5-S5-06",
+    "stage": "S5",
+    "company": "Haul Off Texas",
+    "to": "rentals@haulofftexas.com",
+    "from_alias": "sites@asterfieldgroup.com",
+    "display_name": "Houston Jobsite Intelligence",
+    "subject": "Re: Biotics Research, Rosenberg",
+    "body_len": 356,
+    "body_sha256": "e6e61d534618e7b3028cc7f03f6858eecf3189eb45a7580c737495c8dc5c126d",
+    "is_reply": true,
+    "reply_to_message_id": "1a19cffe847eb9f5",
+    "draft_id": "r8181726861986976902",
+    "thread_id": "1a179891c5f97d46",
+    "hook": {
+     "kind": "NONE",
+     "id": "",
+     "cited": "",
+     "checked_at": ""
+    }
+   },
+   {
+    "outreach_id": "JI-H5-S5-07",
+    "stage": "S5",
+    "company": "Onsite Outhouse",
+    "to": "info@onsiteouthouse.com",
+    "from_alias": "sites@asterfieldgroup.com",
+    "display_name": "Houston Jobsite Intelligence",
+    "subject": "Re: Memorial City Mall",
+    "body_len": 357,
+    "body_sha256": "88bb8a7c7273c9a4da643d75cdcf6c4a63ac0ab944fead4f50e5e7feaea45c6c",
+    "is_reply": true,
+    "reply_to_message_id": "1a19d00e0358a7af",
+    "draft_id": "r3353824245315858129",
+    "thread_id": "1a17eabe47f5d8ca",
+    "hook": {
+     "kind": "NONE",
+     "id": "",
+     "cited": "",
+     "checked_at": ""
+    }
+   },
+   {
+    "outreach_id": "JI-H5-S5-08",
+    "stage": "S5",
+    "company": "Vargas Dumpster Services LLC",
+    "to": "v.dumpsterservices@gmail.com",
+    "from_alias": "sites@asterfieldgroup.com",
+    "display_name": "Houston Jobsite Intelligence",
+    "subject": "Re: Project Wildcat, 222 Holmes Rd",
+    "body_len": 366,
+    "body_sha256": "b89d0c775a72e39bfd7d26496dab08be6fbff3fb442e4a3ada176935da1c46b8",
+    "is_reply": true,
+    "reply_to_message_id": "1a19d019c8bc56f5",
+    "draft_id": "r2000020180145284368",
+    "thread_id": "1a17eabe8973cacf",
+    "hook": {
+     "kind": "NONE",
+     "id": "",
+     "cited": "",
+     "checked_at": ""
+    }
+   }
+  ],
+  "kind": "prepared",
+  "prepared_at": "2026-11-25T19:58:17+00:00"
+ }
+}

@@ -22,7 +22,7 @@ for f in sorted(glob.glob(os.path.join(a.repo, "ops", "queue", "*.json"))):
     with open(f, encoding="utf-8") as fh: q = json.load(fh)
     hit = False
     for r in q["records"]:
-        if r["stage"] != "S1": continue
+        if r.get("stage", q.get("stage")) != "S1": continue
         if r["id"] in stale and r.get("status") in ("queued", "deferred", "drafted"):
             changed.append((r["id"], r["status"], "held_stale", stale[r["id"]]))
             if a.apply:

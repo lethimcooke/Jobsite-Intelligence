@@ -23,9 +23,16 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "commercial",
-      "status": "queued",
-      "draft": null,
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "status": "drafted",
+      "draft": {
+        "draft_id": "r-4437293358792085841",
+        "message_id": "1a2144877b2b2503",
+        "thread_id": "1a2144877b2b2503",
+        "payload_sha256": "b01cb025b88ff40e7990bc07085f18abd6902d636a49c17dcec60af622f74dae",
+        "created_at": "2026-11-25T19:58:05+00:00"
+      },
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "planned_for": "2026-11-30"
     },
     {
       "id": "JI-H13R-S1-02",
@@ -41,9 +48,10 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "commercial",
-      "status": "queued",
+      "status": "held_stale",
       "draft": null,
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "hold_note": "2026-11-25: stale hook (record date 2026-10-13 is 48 days before 2026-11-30 (over 45)); needs a re-hook"
     },
     {
       "id": "JI-H13R-S1-03",
@@ -59,9 +67,10 @@
       "reply_to_message_id": null,
       "attachments": [],
       "hook_type": "construction",
-      "status": "queued",
+      "status": "held_stale",
       "draft": null,
-      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again."
+      "footer": "If this isn't useful, reply \"no thanks\" and I won't email again.",
+      "hold_note": "2026-11-25: stale hook (record date 2026-10-14 is 47 days before 2026-11-30 (over 45)); needs a re-hook"
     }
   ]
 }
