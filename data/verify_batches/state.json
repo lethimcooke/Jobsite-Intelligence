@@ -133,6 +133,20 @@
    "rows": 10,
    "outbox": "D:\\Workspace\\austin-signage-repo\\verify\\outbox\\2026-11-25.csv",
    "route": "web"
+  },
+  {
+   "id": "2026-11-27",
+   "collected_at": "2026-11-27",
+   "emails": [
+    "info@mandmdisposal.net",
+    "info@dirtandtrucks.com",
+    "marc@summitrolloff.com",
+    "info@starportapotty.com",
+    "info@texasmetrowaste.com"
+   ],
+   "rows": 5,
+   "outbox": "D:\\Workspace\\austin-signage-repo\\verify\\outbox\\2026-11-27.csv",
+   "route": "web"
   }
  ],
  "unknown_count": {}

@@ -1,0 +1,42 @@
+[
+ {
+  "email": "info@mandmdisposal.net",
+  "company": "M&M Disposal",
+  "metro": "Houston",
+  "site": "RN112570767",
+  "source": "to_verify_2026-11-27.csv",
+  "since": "2026-11-27"
+ },
+ {
+  "email": "info@dirtandtrucks.com",
+  "company": "AMX Dirt and Trucks",
+  "metro": "Houston",
+  "site": "RN112561279",
+  "source": "to_verify_2026-11-27.csv",
+  "since": "2026-11-27"
+ },
+ {
+  "email": "marc@summitrolloff.com",
+  "company": "Summit Roll Off Services LLC",
+  "metro": "Houston",
+  "site": "RN112568761",
+  "source": "to_verify_2026-11-27.csv",
+  "since": "2026-11-27"
+ },
+ {
+  "email": "info@starportapotty.com",
+  "company": "Star Porta Potty",
+  "metro": "Houston",
+  "site": "RN109138370",
+  "source": "to_verify_2026-11-27.csv",
+  "since": "2026-11-27"
+ },
+ {
+  "email": "info@texasmetrowaste.com",
+  "company": "Texas Metropolitan Waste",
+  "metro": "Houston",
+  "site": "RN112568399",
+  "source": "to_verify_2026-11-27.csv",
+  "since": "2026-11-27"
+ }
+]
